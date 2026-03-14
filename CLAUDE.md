@@ -1,0 +1,1 @@
+Whenever I ask you for a feature request, you should switch to a new branch prefixed with `claude/` and then a descriptive name for the feature. You should implement it as thoroughly as you can, ask me questions for context & clarification, if need. And finally, use the `gh` command to create a pull request.
