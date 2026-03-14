@@ -79,6 +79,41 @@
   --topbar-height: 44px;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark mode background colors */
+    --bg-primary: #191919;
+    --bg-secondary: #202020;
+    --bg-tertiary: #2f2f2f;
+    --bg-hover: rgba(255, 255, 255, 0.055);
+    --bg-active: rgba(255, 255, 255, 0.08);
+
+    /* Dark mode text colors */
+    --text-primary: rgba(255, 255, 255, 0.9);
+    --text-secondary: rgba(255, 255, 255, 0.6);
+    --text-tertiary: rgba(255, 255, 255, 0.4);
+    --text-link: rgba(255, 255, 255, 0.9);
+
+    /* Accent colors stay the same but adjust transparency */
+    --blue-light: rgba(35, 131, 226, 0.15);
+    --blue-bg: rgba(35, 131, 226, 0.1);
+    --green-light: rgba(15, 123, 108, 0.15);
+    --green-bg: rgba(15, 123, 108, 0.1);
+    --red-light: rgba(235, 87, 87, 0.15);
+    --red-bg: rgba(235, 87, 87, 0.1);
+    --yellow-light: rgba(223, 171, 1, 0.15);
+
+    /* Dark mode borders */
+    --border-color: rgba(255, 255, 255, 0.07);
+    --border-color-strong: rgba(255, 255, 255, 0.13);
+
+    /* Dark mode shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.35);
+    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.5);
+  }
+}
+
 /* Reset */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -90,6 +125,7 @@ html {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color-scheme: light dark;
 }
 
 body {
