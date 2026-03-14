@@ -35,12 +35,16 @@ const currentPath = Astro.url.pathname;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    align-items: center;
   }
   .app-content {
     flex: 1;
     padding: var(--space-8) var(--space-12);
     max-width: 900px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   @media (max-width: 767px) {
     .app-main {

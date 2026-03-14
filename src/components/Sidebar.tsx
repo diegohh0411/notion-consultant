@@ -7,10 +7,10 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
+  { label: 'Home', href: '/', icon: '🏠' },
   { label: 'Practice', href: '/quiz', icon: '📝' },
   { label: 'Progress', href: '/stats', icon: '📊' },
   { label: 'Review', href: '/review', icon: '🔄' },
-  { label: 'Home', href: '/', icon: '🏠' },
 ];
 
 export function Sidebar({ currentPath }: { currentPath: string }) {
