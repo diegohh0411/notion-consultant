@@ -4,10 +4,10 @@
   "description": "Notion Help Center quiz app for spaced-repetition learning",
   "type": "module",
   "scripts": {
-    "scrape": "node scrape.mjs",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "scrape": "node scripts/scrape.mjs",
     "generate": "node scripts/generate-quiz.mjs",
     "generate:test": "node scripts/generate-quiz.mjs --limit 1",
     "generate:ollama": "node scripts/generate-quiz.mjs --provider ollama"

@@ -23,7 +23,7 @@ const inputDir = args.input;
 const outputDir = args.output;
 
 const defaultModels = {
-  openrouter: 'anthropic/claude-sonnet-4',
+  openrouter: 'z-ai/glm-4.7-flash',
   ollama: 'llama3.1',
 };
 
@@ -32,7 +32,7 @@ const model = args.model ?? defaultModels[provider] ?? defaultModels.openrouter;
 function getClient() {
   if (provider === 'ollama') {
     const baseURL = process.env.OLLAMA_BASE_URL || 'http://localhost:11434';
-    return new OpenAI({ baseURL: `${baseURL}/v1`, apiKey: 'ollama' });
+    return new OpenAI({ baseURL: `${baseURL}/v1`, apiKey: 'ollama', timeout: 120_000 });
   }
 
   const apiKey = process.env.OPENROUTER_API_KEY;
@@ -43,6 +43,7 @@ function getClient() {
   return new OpenAI({
     baseURL: 'https://openrouter.ai/api/v1',
     apiKey,
+    timeout: 60_000,
   });
 }
 
@@ -140,12 +141,13 @@ async function main() {
     }
 
     const content = await readFile(join(inputDir, file), 'utf-8');
+    console.log(`[${i + 1}/${toProcess.length}] Generating questions for: ${file}...`);
 
     let result;
     try {
       result = await generateForFile(client, file, content);
     } catch (err) {
-      console.log(`[${i + 1}/${toProcess.length}] First attempt failed for ${file}, retrying...`);
+      console.log(`[${i + 1}/${toProcess.length}] First attempt failed for ${file} (${err.message}), retrying...`);
       try {
         result = await generateForFile(client, file, content);
       } catch (err2) {
