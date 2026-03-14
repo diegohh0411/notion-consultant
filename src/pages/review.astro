@@ -1,0 +1,9 @@
+---
+import AppLayout from '../layouts/AppLayout.astro';
+import { ReviewSession } from '../components/ReviewSession';
+import catalog from '../data/questions/_catalog.json';
+---
+
+<AppLayout title="Review — Notion Quiz" pageTitle="Review">
+  <ReviewSession catalog={catalog} client:load />
+</AppLayout>

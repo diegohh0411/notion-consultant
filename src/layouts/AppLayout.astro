@@ -1,0 +1,53 @@
+---
+import Layout from './Layout.astro';
+import { Sidebar } from '../components/Sidebar';
+import { TopBar } from '../components/TopBar';
+
+interface Props {
+  title?: string;
+  pageTitle?: string;
+}
+
+const { title = 'Notion Quiz', pageTitle = '' } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<Layout title={title}>
+  <div class="app-shell">
+    <Sidebar currentPath={currentPath} client:load />
+    <div class="app-main">
+      <TopBar title={pageTitle} client:load />
+      <main class="app-content">
+        <slot />
+      </main>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .app-shell {
+    display: flex;
+    min-height: 100vh;
+  }
+  .app-main {
+    flex: 1;
+    margin-left: var(--sidebar-width);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .app-content {
+    flex: 1;
+    padding: var(--space-8) var(--space-12);
+    max-width: 900px;
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    .app-main {
+      margin-left: 0;
+    }
+    .app-content {
+      padding: var(--space-4);
+    }
+  }
+</style>

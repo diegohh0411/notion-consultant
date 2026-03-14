@@ -1,0 +1,243 @@
+[
+  {
+    "source": "intro-to-databases",
+    "sourceTitle": "Intro to databases",
+    "sourceUrl": "https://www.notion.so/help/intro-to-databases",
+    "questions": [
+      {
+        "id": "db-001",
+        "question": "What is a database in Notion?",
+        "difficulty": "easy",
+        "options": [
+          { "key": "A", "text": "A spreadsheet imported from Excel", "correct": false, "explanation": "Notion databases are built natively, not imported from Excel." },
+          { "key": "B", "text": "A collection of pages with structured properties", "correct": true, "explanation": "A Notion database is a collection of pages, each with customizable properties that let you organize and filter information." },
+          { "key": "C", "text": "A SQL-compatible relational database", "correct": false, "explanation": "Notion databases are not SQL databases; they use a proprietary system." },
+          { "key": "D", "text": "A folder containing sub-pages", "correct": false, "explanation": "Folders don't exist in Notion; databases are structured collections with properties." }
+        ]
+      },
+      {
+        "id": "db-002",
+        "question": "Which of the following is NOT a database view type in Notion?",
+        "difficulty": "medium",
+        "options": [
+          { "key": "A", "text": "Table", "correct": false, "explanation": "Table is one of the standard database views." },
+          { "key": "B", "text": "Board", "correct": false, "explanation": "Board (Kanban) is a standard database view." },
+          { "key": "C", "text": "Gantt", "correct": true, "explanation": "Notion does not have a Gantt view. It offers Table, Board, Timeline, Calendar, List, and Gallery views." },
+          { "key": "D", "text": "Gallery", "correct": false, "explanation": "Gallery is a standard database view." }
+        ]
+      },
+      {
+        "id": "db-003",
+        "question": "What happens when you click on a row in a Notion database?",
+        "difficulty": "easy",
+        "options": [
+          { "key": "A", "text": "It opens a cell editor", "correct": false, "explanation": "Clicking a row doesn't just edit a cell." },
+          { "key": "B", "text": "It opens the row as a full page", "correct": true, "explanation": "Every database row in Notion is a page. Clicking it opens that page where you can add any content." },
+          { "key": "C", "text": "It selects the row for bulk actions", "correct": false, "explanation": "You need to use the checkbox to select rows for bulk actions." },
+          { "key": "D", "text": "It starts editing the row title inline", "correct": false, "explanation": "While you can edit inline, clicking the row itself opens it as a page." }
+        ]
+      },
+      {
+        "id": "db-004",
+        "question": "Which property type would you use to link entries between two databases?",
+        "difficulty": "medium",
+        "options": [
+          { "key": "A", "text": "URL", "correct": false, "explanation": "URL properties store web links, not database relations." },
+          { "key": "B", "text": "Relation", "correct": true, "explanation": "The Relation property type creates connections between entries in two databases." },
+          { "key": "C", "text": "Multi-select", "correct": false, "explanation": "Multi-select stores tags, not connections to other databases." },
+          { "key": "D", "text": "Reference", "correct": false, "explanation": "There is no 'Reference' property type in Notion." }
+        ]
+      },
+      {
+        "id": "db-005",
+        "question": "What is a rollup property in Notion?",
+        "difficulty": "hard",
+        "options": [
+          { "key": "A", "text": "A property that summarizes data from a related database", "correct": true, "explanation": "Rollups pull data through a Relation property and compute aggregations like sum, average, or count from the related entries." },
+          { "key": "B", "text": "A property that rolls back changes to a previous version", "correct": false, "explanation": "Rollups are not related to version history." },
+          { "key": "C", "text": "A property that combines multiple properties into one", "correct": false, "explanation": "That would be closer to a formula, not a rollup." },
+          { "key": "D", "text": "A property that automatically archives old entries", "correct": false, "explanation": "Rollups don't archive anything; they aggregate related data." }
+        ]
+      },
+      {
+        "id": "db-006",
+        "question": "How do you add a filter to a Notion database?",
+        "difficulty": "easy",
+        "options": [
+          { "key": "A", "text": "Right-click the database title", "correct": false, "explanation": "Right-clicking the title doesn't open filter options." },
+          { "key": "B", "text": "Click the Filter button in the database toolbar", "correct": true, "explanation": "The Filter button in the toolbar above the database lets you add filter rules based on property values." },
+          { "key": "C", "text": "Write a SQL WHERE clause", "correct": false, "explanation": "Notion doesn't use SQL; filtering is done through the visual interface." },
+          { "key": "D", "text": "Use the /filter slash command", "correct": false, "explanation": "There is no /filter slash command. Filters are applied via the toolbar." }
+        ]
+      },
+      {
+        "id": "db-007",
+        "question": "What is the difference between a full-page and inline database?",
+        "difficulty": "medium",
+        "options": [
+          { "key": "A", "text": "Full-page databases can have more properties", "correct": false, "explanation": "Both types support the same properties." },
+          { "key": "B", "text": "Inline databases are read-only", "correct": false, "explanation": "Both types are fully editable." },
+          { "key": "C", "text": "A full-page database occupies its own page, while inline sits within another page", "correct": true, "explanation": "Full-page databases take up an entire page. Inline databases are embedded within the content of another page alongside other blocks." },
+          { "key": "D", "text": "Inline databases don't support views", "correct": false, "explanation": "Inline databases support all the same views as full-page ones." }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "sharing-and-permissions",
+    "sourceTitle": "Sharing and permissions",
+    "sourceUrl": "https://www.notion.so/help/sharing-and-permissions",
+    "questions": [
+      {
+        "id": "sp-001",
+        "question": "What is the highest permission level in Notion?",
+        "difficulty": "easy",
+        "options": [
+          { "key": "A", "text": "Editor", "correct": false, "explanation": "Editor can edit but doesn't have all administrative powers." },
+          { "key": "B", "text": "Full access", "correct": true, "explanation": "Full access is the highest permission level, allowing the user to edit, share, and manage permissions for the page." },
+          { "key": "C", "text": "Admin", "correct": false, "explanation": "Admin is a workspace-level role, not a page permission level." },
+          { "key": "D", "text": "Owner", "correct": false, "explanation": "Owner is not a permission level in Notion's sharing system." }
+        ]
+      },
+      {
+        "id": "sp-002",
+        "question": "What does the 'Can view' permission allow?",
+        "difficulty": "easy",
+        "options": [
+          { "key": "A", "text": "View and comment on a page", "correct": false, "explanation": "'Can view' only allows viewing. Commenting requires 'Can comment' permission." },
+          { "key": "B", "text": "View the page content only", "correct": true, "explanation": "'Can view' allows the user to read the content but not edit or comment." },
+          { "key": "C", "text": "View and duplicate a page", "correct": false, "explanation": "Duplication may be restricted separately by the workspace admin." },
+          { "key": "D", "text": "View the page title but not the content", "correct": false, "explanation": "'Can view' grants access to the full page content, not just the title." }
+        ]
+      },
+      {
+        "id": "sp-003",
+        "question": "How do you share a Notion page with someone outside your workspace?",
+        "difficulty": "medium",
+        "options": [
+          { "key": "A", "text": "Export it as PDF and email it", "correct": false, "explanation": "Exporting creates a static file, not a shared Notion page." },
+          { "key": "B", "text": "Add them as a guest using their email address", "correct": true, "explanation": "You can invite people outside your workspace as guests by entering their email in the Share menu." },
+          { "key": "C", "text": "Move the page to their workspace", "correct": false, "explanation": "You can't move pages between workspaces this way." },
+          { "key": "D", "text": "You can only share within your workspace", "correct": false, "explanation": "Notion supports sharing with external guests." }
+        ]
+      },
+      {
+        "id": "sp-004",
+        "question": "What does 'Publish to web' do?",
+        "difficulty": "medium",
+        "options": [
+          { "key": "A", "text": "Creates a standalone website from your Notion page", "correct": false, "explanation": "It creates a read-only public link, not a standalone website." },
+          { "key": "B", "text": "Makes the page publicly accessible via a link", "correct": true, "explanation": "'Publish to web' generates a public URL that anyone with the link can view without needing a Notion account." },
+          { "key": "C", "text": "Uploads the page to a web hosting service", "correct": false, "explanation": "The page stays on Notion's servers; it just becomes publicly accessible." },
+          { "key": "D", "text": "Sends the page content to a blog platform", "correct": false, "explanation": "'Publish to web' keeps the page on Notion, not on external platforms." }
+        ]
+      },
+      {
+        "id": "sp-005",
+        "question": "What is the difference between a Member and a Guest in Notion?",
+        "difficulty": "medium",
+        "options": [
+          { "key": "A", "text": "Members can only view, guests can edit", "correct": false, "explanation": "It's the opposite in terms of default access scope." },
+          { "key": "B", "text": "Members belong to the workspace; guests are invited to specific pages", "correct": true, "explanation": "Members are part of the workspace and have access to shared workspace content. Guests are external users invited to specific pages only." },
+          { "key": "C", "text": "There is no difference", "correct": false, "explanation": "Members and guests have fundamentally different access scopes." },
+          { "key": "D", "text": "Guests have higher permissions than members", "correct": false, "explanation": "Guests typically have more restricted access than members." }
+        ]
+      },
+      {
+        "id": "sp-006",
+        "question": "Can you restrict permission inheritance for child pages?",
+        "difficulty": "hard",
+        "options": [
+          { "key": "A", "text": "No, child pages always inherit parent permissions", "correct": false, "explanation": "You can customize permissions for child pages." },
+          { "key": "B", "text": "Yes, by removing inherited access in the page's Share settings", "correct": true, "explanation": "You can override inherited permissions by opening the Share menu on a child page and removing or changing access for specific users or groups." },
+          { "key": "C", "text": "Only workspace admins can do this", "correct": false, "explanation": "Anyone with full access to a page can modify its sharing settings." },
+          { "key": "D", "text": "Only on Enterprise plans", "correct": false, "explanation": "Permission customization for child pages is available on all plans." }
+        ]
+      },
+      {
+        "id": "sp-007",
+        "question": "What is a teamspace in Notion?",
+        "difficulty": "medium",
+        "options": [
+          { "key": "A", "text": "A separate Notion account for teams", "correct": false, "explanation": "Teamspaces exist within a single workspace, not as separate accounts." },
+          { "key": "B", "text": "A section within a workspace for organizing team content with its own permissions", "correct": true, "explanation": "Teamspaces let teams organize their pages within the workspace with customizable access levels (open, closed, or private)." },
+          { "key": "C", "text": "A video conferencing feature", "correct": false, "explanation": "Teamspaces are for content organization, not video calls." },
+          { "key": "D", "text": "A shared calendar for team events", "correct": false, "explanation": "Teamspaces organize pages and content, not calendars specifically." }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "keyboard-shortcuts",
+    "sourceTitle": "Keyboard shortcuts",
+    "sourceUrl": "https://www.notion.so/help/keyboard-shortcuts",
+    "questions": [
+      {
+        "id": "ks-001",
+        "question": "Which shortcut creates a new page in Notion?",
+        "difficulty": "easy",
+        "options": [
+          { "key": "A", "text": "Ctrl/Cmd + N", "correct": true, "explanation": "Ctrl+N (Windows) or Cmd+N (Mac) creates a new page in the current workspace." },
+          { "key": "B", "text": "Ctrl/Cmd + P", "correct": false, "explanation": "Ctrl+P opens Quick Find/Search, not a new page." },
+          { "key": "C", "text": "Ctrl/Cmd + T", "correct": false, "explanation": "Ctrl+T is not a standard Notion shortcut." },
+          { "key": "D", "text": "Alt + N", "correct": false, "explanation": "Alt+N is not the shortcut for creating a new page." }
+        ]
+      },
+      {
+        "id": "ks-002",
+        "question": "How do you open Notion's search/quick find?",
+        "difficulty": "easy",
+        "options": [
+          { "key": "A", "text": "Ctrl/Cmd + F", "correct": false, "explanation": "Ctrl+F searches within the current page, not Notion-wide search." },
+          { "key": "B", "text": "Ctrl/Cmd + P", "correct": true, "explanation": "Ctrl+P (or Cmd+P on Mac) opens Quick Find, which lets you search across all pages in your workspace." },
+          { "key": "C", "text": "Ctrl/Cmd + K", "correct": false, "explanation": "Ctrl+K is used for creating links, not for search." },
+          { "key": "D", "text": "F3", "correct": false, "explanation": "F3 is not a Notion shortcut." }
+        ]
+      },
+      {
+        "id": "ks-003",
+        "question": "Which shortcut toggles bold formatting in Notion?",
+        "difficulty": "easy",
+        "options": [
+          { "key": "A", "text": "Ctrl/Cmd + I", "correct": false, "explanation": "Ctrl+I toggles italic, not bold." },
+          { "key": "B", "text": "Ctrl/Cmd + U", "correct": false, "explanation": "Ctrl+U toggles underline, not bold." },
+          { "key": "C", "text": "Ctrl/Cmd + B", "correct": true, "explanation": "Ctrl+B (or Cmd+B on Mac) toggles bold formatting on selected text." },
+          { "key": "D", "text": "Ctrl/Cmd + Shift + B", "correct": false, "explanation": "The standard bold shortcut doesn't include Shift." }
+        ]
+      },
+      {
+        "id": "ks-004",
+        "question": "How do you create a to-do/checkbox block using a keyboard shortcut?",
+        "difficulty": "medium",
+        "options": [
+          { "key": "A", "text": "Type /todo", "correct": false, "explanation": "While /todo works as a slash command, the question asks about keyboard shortcuts." },
+          { "key": "B", "text": "Ctrl/Cmd + Shift + 4", "correct": true, "explanation": "Ctrl+Shift+4 (or Cmd+Shift+4) creates a to-do checkbox block." },
+          { "key": "C", "text": "Type [] followed by Space", "correct": false, "explanation": "The markdown shortcut is actually [] (brackets), but the keyboard shortcut is Ctrl+Shift+4." },
+          { "key": "D", "text": "Ctrl/Cmd + T", "correct": false, "explanation": "Ctrl+T is not a shortcut for creating to-do blocks." }
+        ]
+      },
+      {
+        "id": "ks-005",
+        "question": "What does Ctrl/Cmd + Shift + H do in Notion?",
+        "difficulty": "hard",
+        "options": [
+          { "key": "A", "text": "Opens page history", "correct": false, "explanation": "Page history is accessed through the menu, not this shortcut." },
+          { "key": "B", "text": "Toggles the last used text or highlight color", "correct": true, "explanation": "Ctrl+Shift+H applies the last used highlight color to selected text." },
+          { "key": "C", "text": "Hides the sidebar", "correct": false, "explanation": "Hiding the sidebar uses a different shortcut." },
+          { "key": "D", "text": "Opens help documentation", "correct": false, "explanation": "This shortcut is for highlighting, not help." }
+        ]
+      },
+      {
+        "id": "ks-006",
+        "question": "How do you indent a block in Notion?",
+        "difficulty": "easy",
+        "options": [
+          { "key": "A", "text": "Ctrl/Cmd + ]", "correct": false, "explanation": "While this works in some apps, Notion uses Tab for indenting." },
+          { "key": "B", "text": "Tab", "correct": true, "explanation": "Pressing Tab indents (nests) the current block under the block above it." },
+          { "key": "C", "text": "Ctrl/Cmd + Right Arrow", "correct": false, "explanation": "This moves the cursor, not the block." },
+          { "key": "D", "text": "Alt + Tab", "correct": false, "explanation": "Alt+Tab switches windows, not indents blocks." }
+        ]
+      }
+    ]
+  }
+]
