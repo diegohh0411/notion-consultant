@@ -1,9 +1,0 @@
----
-import AppLayout from '../layouts/AppLayout.astro';
-import { StatsView } from '../components/StatsView';
-import catalog from '../data/questions/_catalog.json';
----
-
-<AppLayout title="Progress — Notion Quiz" pageTitle="Progress">
-  <StatsView catalog={catalog} client:load />
-</AppLayout>

@@ -1,9 +1,0 @@
----
-import AppLayout from '../layouts/AppLayout.astro';
-import { Dashboard } from '../components/Dashboard';
-import catalog from '../data/questions/_catalog.json';
----
-
-<AppLayout title="Notion Quiz" pageTitle="Home">
-  <Dashboard catalog={catalog} client:load />
-</AppLayout>

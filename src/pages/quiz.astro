@@ -1,9 +1,0 @@
----
-import AppLayout from '../layouts/AppLayout.astro';
-import { QuizSession } from '../components/QuizSession';
-import catalog from '../data/questions/_catalog.json';
----
-
-<AppLayout title="Practice — Notion Quiz" pageTitle="Practice">
-  <QuizSession catalog={catalog} client:load />
-</AppLayout>
