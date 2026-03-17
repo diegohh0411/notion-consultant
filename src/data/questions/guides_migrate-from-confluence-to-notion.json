@@ -1,0 +1,317 @@
+{
+  "source": "guides_migrate-from-confluence-to-notion",
+  "sourceTitle": "Migrate from Confluence to Notion and transform your wiki into a connected workspace",
+  "sourceUrl": "https://www.notion.com/help/guides/migrate-from-confluence-to-notion",
+  "questions": [
+    {
+      "id": "guides_migrate-from-confluence-to-notion-001",
+      "question": "Which of the following is a primary advantage of using Notion for a team wiki compared to Confluence, as described in the guide?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion automatically translates all content into multiple languages.",
+          "correct": false,
+          "explanation": "The guide does not mention automatic translation as a benefit."
+        },
+        {
+          "key": "B",
+          "text": "Notion lets you connect documentation directly with daily work items like projects and roadmaps.",
+          "correct": true,
+          "explanation": "The guide highlights that Notion puts docs and work in the same place, enabling seamless navigation between them."
+        },
+        {
+          "key": "C",
+          "text": "Notion requires no learning curve for technical teams.",
+          "correct": false,
+          "explanation": "While Notion is user‑friendly, the guide does not claim there is zero learning curve."
+        },
+        {
+          "key": "D",
+          "text": "Notion provides built‑in video conferencing for wiki collaboration.",
+          "correct": false,
+          "explanation": "Video conferencing is not listed as a feature in the migration guide."
+        }
+      ]
+    },
+    {
+      "id": "guides_migrate-from-confluence-to-notion-002",
+      "question": "When should you choose the API importer over the file (zip) importer?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you only need to import a handful of pages and no comments.",
+          "correct": false,
+          "explanation": "The API importer is meant for full‑space migrations, not just a few pages."
+        },
+        {
+          "key": "B",
+          "text": "When the Confluence space is under 15 GB, you want to migrate users and comments, and you’re moving the entire space.",
+          "correct": true,
+          "explanation": "The guide lists these exact conditions for using the API importer."
+        },
+        {
+          "key": "C",
+          "text": "When the Confluence space exceeds 20 GB.",
+          "correct": false,
+          "explanation": "The guide caps the API importer at 15 GB; larger spaces would need a different approach."
+        },
+        {
+          "key": "D",
+          "text": "When you prefer to manually edit the HTML files before importing.",
+          "correct": false,
+          "explanation": "Manual editing is not a reason to pick the API importer."
+        }
+      ]
+    },
+    {
+      "id": "guides_migrate-from-confluence-to-notion-003",
+      "question": "What happens if a Confluence user does not already have a Notion account during an API import?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The import fails and stops immediately.",
+          "correct": false,
+          "explanation": "The guide says the import continues; placeholders are created for missing users."
+        },
+        {
+          "key": "B",
+          "text": "A placeholder account is created until the user signs up for Notion.",
+          "correct": true,
+          "explanation": "Placeholders ensure comments and ownership are preserved until the user joins Notion."
+        },
+        {
+          "key": "C",
+          "text": "The user’s comments are omitted from the import.",
+          "correct": false,
+          "explanation": "Comments are kept; missing users are represented by placeholders."
+        },
+        {
+          "key": "D",
+          "text": "Notion sends an automatic invitation email to the missing user.",
+          "correct": false,
+          "explanation": "While Notion may send an email after import, the guide specifically mentions placeholders, not automatic invites."
+        }
+      ]
+    },
+    {
+      "id": "guides_migrate-from-confluence-to-notion-004",
+      "question": "During a zip‑file import, which file format must you export from Confluence?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "PDF",
+          "correct": false,
+          "explanation": "PDF is not the required format for the zip import."
+        },
+        {
+          "key": "B",
+          "text": "HTML",
+          "correct": true,
+          "explanation": "The guide instructs users to select HTML before exporting a zip file."
+        },
+        {
+          "key": "C",
+          "text": "Markdown",
+          "correct": false,
+          "explanation": "Markdown is not mentioned as an export option for this process."
+        },
+        {
+          "key": "D",
+          "text": "DOCX",
+          "correct": false,
+          "explanation": "DOCX is not part of the described workflow."
+        }
+      ]
+    },
+    {
+      "id": "guides_migrate-from-confluence-to-notion-005",
+      "question": "Which Notion feature allows you to signal that a wiki page’s information is current until a specific date?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Page versioning",
+          "correct": false,
+          "explanation": "Versioning tracks changes but does not display a validity date."
+        },
+        {
+          "key": "B",
+          "text": "Page verification",
+          "correct": true,
+          "explanation": "The guide describes page verification as a way to mark content as up‑to‑date until a set date."
+        },
+        {
+          "key": "C",
+          "text": "Locking the page",
+          "correct": false,
+          "explanation": "Locking prevents edits but does not convey a date‑based status."
+        },
+        {
+          "key": "D",
+          "text": "Setting a reminder",
+          "correct": false,
+          "explanation": "Reminders notify users but do not certify the page’s accuracy."
+        }
+      ]
+    },
+    {
+      "id": "guides_migrate-from-confluence-to-notion-006",
+      "question": "If you want to embed a diagram created in Draw.io into a Notion page, what is the recommended approach according to the guide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use Notion’s native Draw.io integration block.",
+          "correct": false,
+          "explanation": "The guide states Notion does not yet have a direct integration with Draw.io."
+        },
+        {
+          "key": "B",
+          "text": "Export the diagram as an image and embed the image file.",
+          "correct": true,
+          "explanation": "Since direct integration isn’t available, the guide suggests embedding the diagram as an image."
+        },
+        {
+          "key": "C",
+          "text": "Copy the SVG code and paste it into a code block.",
+          "correct": false,
+          "explanation": "Embedding SVG via a code block isn’t mentioned as a supported method."
+        },
+        {
+          "key": "D",
+          "text": "Upload the Draw.io file as a PDF and link to it.",
+          "correct": false,
+          "explanation": "While possible, the guide specifically recommends using an image format."
+        }
+      ]
+    },
+    {
+      "id": "guides_migrate-from-confluence-to-notion-007",
+      "question": "Which of the following Notion blocks can best replace Confluence’s “Expand” feature?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Callout block",
+          "correct": false,
+          "explanation": "Callouts are used for highlighted messages, not for collapsible content."
+        },
+        {
+          "key": "B",
+          "text": "Toggle and Toggle heading blocks",
+          "correct": true,
+          "explanation": "The guide explicitly states toggles replace Confluence’s Expand feature."
+        },
+        {
+          "key": "C",
+          "text": "Quote block",
+          "correct": false,
+          "explanation": "Quote blocks display quoted text and do not provide expand/collapse functionality."
+        },
+        {
+          "key": "D",
+          "text": "Divider block",
+          "correct": false,
+          "explanation": "Dividers are visual separators, not interactive expanders."
+        }
+      ]
+    },
+    {
+      "id": "guides_migrate-from-confluence-to-notion-008",
+      "question": "What is the maximum size allowed for a Confluence space when using the API importer?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "5 GB",
+          "correct": false,
+          "explanation": "5 GB is the limit for the file (zip) importer, not the API importer."
+        },
+        {
+          "key": "B",
+          "text": "10 GB",
+          "correct": false,
+          "explanation": "The guide does not list 10 GB as a threshold."
+        },
+        {
+          "key": "C",
+          "text": "15 GB",
+          "correct": true,
+          "explanation": "The API importer can be used for spaces smaller than 15 GB, per the guide."
+        },
+        {
+          "key": "D",
+          "text": "Unlimited – there is no size restriction.",
+          "correct": false,
+          "explanation": "A size limit of 15 GB is explicitly mentioned."
+        }
+      ]
+    },
+    {
+      "id": "guides_migrate-from-confluence-to-notion-009",
+      "question": "Which Notion feature enables you to keep content synchronized across multiple pages, ensuring changes in one place update everywhere?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Linked databases",
+          "correct": false,
+          "explanation": "Linked databases create new views, not automatic content sync across pages."
+        },
+        {
+          "key": "B",
+          "text": "Synced block",
+          "correct": true,
+          "explanation": "The guide describes copying content into a synced block so updates propagate."
+        },
+        {
+          "key": "C",
+          "text": "Template button",
+          "correct": false,
+          "explanation": "Template buttons generate new content but do not keep existing blocks in sync."
+        },
+        {
+          "key": "D",
+          "text": "Relation property",
+          "correct": false,
+          "explanation": "Relations link records between databases, not synchronize page content."
+        }
+      ]
+    },
+    {
+      "id": "guides_migrate-from-confluence-to-notion-010",
+      "question": "If you need to quickly draft a new wiki page or improve existing copy, which Notion tool does the guide recommend?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion AI (triggered by the spacebar)",
+          "correct": true,
+          "explanation": "The guide suggests using Notion AI via the spacebar to generate or edit wiki content."
+        },
+        {
+          "key": "B",
+          "text": "External markdown editor",
+          "correct": false,
+          "explanation": "While possible, the guide does not promote an external editor for this purpose."
+        },
+        {
+          "key": "C",
+          "text": "Copy‑paste from Google Docs",
+          "correct": false,
+          "explanation": "Copy‑paste works but isn’t highlighted as the recommended quick‑draft tool."
+        },
+        {
+          "key": "D",
+          "text": "Voice dictation feature",
+          "correct": false,
+          "explanation": "Voice dictation isn’t mentioned in the guide."
+        }
+      ]
+    }
+  ]
+}

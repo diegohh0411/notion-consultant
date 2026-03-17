@@ -1,0 +1,317 @@
+{
+  "source": "custom-agent-pricing",
+  "sourceTitle": "Custom Agent pricing",
+  "sourceUrl": "https://www.notion.so/help/custom-agent-pricing",
+  "questions": [
+    {
+      "id": "custom-agent-pricing-001",
+      "question": "When do Notion credits start being required for Custom Agents?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately after the beta launch",
+          "correct": false,
+          "explanation": "Credits were not required during the free beta period."
+        },
+        {
+          "key": "B",
+          "text": "Starting May 4, 2026",
+          "correct": true,
+          "explanation": "The article states that from May 4, 2026 admins must purchase credits for Custom Agents."
+        },
+        {
+          "key": "C",
+          "text": "January 1, 2027",
+          "correct": false,
+          "explanation": "There is no mention of a 2027 start date."
+        },
+        {
+          "key": "D",
+          "text": "When a workspace exceeds 10,000 runs per month",
+          "correct": false,
+          "explanation": "Credit requirement is date‑based, not usage‑based."
+        }
+      ]
+    },
+    {
+      "id": "custom-agent-pricing-002",
+      "question": "How much does a Notion credit cost?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "$1 per 1,000 credits",
+          "correct": false,
+          "explanation": "The price is higher than $1."
+        },
+        {
+          "key": "B",
+          "text": "$5 per 1,000 credits",
+          "correct": false,
+          "explanation": "The article specifies a different price."
+        },
+        {
+          "key": "C",
+          "text": "$10 per 1,000 credits",
+          "correct": true,
+          "explanation": "The pricing section says $10 for every 1,000 Notion credits."
+        },
+        {
+          "key": "D",
+          "text": "$20 per 1,000 credits",
+          "correct": false,
+          "explanation": "That amount is double the actual price."
+        }
+      ]
+    },
+    {
+      "id": "custom-agent-pricing-003",
+      "question": "What happens if a workspace has insufficient Notion credits after May 4, 2026?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Custom Agents continue running but are billed at a higher rate",
+          "correct": false,
+          "explanation": "Agents do not keep running without credits."
+        },
+        {
+          "key": "B",
+          "text": "Custom Agents pause automatically at the next monthly service date",
+          "correct": true,
+          "explanation": "The article explains that agents will pause when credits run out."
+        },
+        {
+          "key": "C",
+          "text": "Admins receive a warning but agents keep working",
+          "correct": false,
+          "explanation": "Agents stop; they don’t keep working after a warning."
+        },
+        {
+          "key": "D",
+          "text": "The workspace is downgraded to a free plan",
+          "correct": false,
+          "explanation": "Only the agents pause; the plan itself does not change."
+        }
+      ]
+    },
+    {
+      "id": "custom-agent-pricing-004",
+      "question": "Which of the following does NOT directly affect the amount of Notion credits a Custom Agent uses?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Run frequency",
+          "correct": false,
+          "explanation": "More frequent runs increase total credit consumption."
+        },
+        {
+          "key": "B",
+          "text": "Context size (how much information is read)",
+          "correct": false,
+          "explanation": "Larger context requires more processing, using more credits."
+        },
+        {
+          "key": "C",
+          "text": "Number of team members in the workspace",
+          "correct": true,
+          "explanation": "Team size isn’t a factor in credit usage; it's about agent work."
+        },
+        {
+          "key": "D",
+          "text": "Model choice (Auto vs a specific model)",
+          "correct": false,
+          "explanation": "More advanced models consume more credits per step."
+        }
+      ]
+    },
+    {
+      "id": "custom-agent-pricing-005",
+      "question": "Why does the more complex Task Routing Agent in the article use more Notion credits per run than the simple version?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It runs on a faster schedule",
+          "correct": false,
+          "explanation": "Schedule speed isn’t mentioned; complexity drives credit use."
+        },
+        {
+          "key": "B",
+          "text": "It reads more information, makes more decisions, and performs additional steps",
+          "correct": true,
+          "explanation": "The article lists extra reads, evaluations, and actions as reasons for higher credit consumption."
+        },
+        {
+          "key": "C",
+          "text": "It uses a premium AI model by default",
+          "correct": false,
+          "explanation": "Both agents default to Auto unless changed."
+        },
+        {
+          "key": "D",
+          "text": "It operates on a different workspace",
+          "correct": false,
+          "explanation": "Workspace location isn’t a factor in credit usage."
+        }
+      ]
+    },
+    {
+      "id": "custom-agent-pricing-006",
+      "question": "What is the recommended default model setting for most Custom Agents?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "`GPT‑4`",
+          "correct": false,
+          "explanation": "`GPT‑4` is more expensive and not the default recommendation."
+        },
+        {
+          "key": "B",
+          "text": "`Auto`",
+          "correct": true,
+          "explanation": "The article advises using `Auto` so Notion selects the best model per task."
+        },
+        {
+          "key": "C",
+          "text": "`GPT‑3.5`",
+          "correct": false,
+          "explanation": "`GPT‑3.5` is a specific model, not the default."
+        },
+        {
+          "key": "D",
+          "text": "`Custom`",
+          "correct": false,
+          "explanation": "Custom models are optional, not the recommended default."
+        }
+      ]
+    },
+    {
+      "id": "custom-agent-pricing-007",
+      "question": "Which practice helps reduce credit usage related to tool calls and reasoning?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Call each tool sequentially, one after another",
+          "correct": false,
+          "explanation": "Sequential calls increase steps and credit usage."
+        },
+        {
+          "key": "B",
+          "text": "Encourage parallel tool usage so multiple sources are read at the same time",
+          "correct": true,
+          "explanation": "Parallel calls combine work into fewer steps, saving credits."
+        },
+        {
+          "key": "C",
+          "text": "Always search all databases regardless of relevance",
+          "correct": false,
+          "explanation": "Broad searches waste credits."
+        },
+        {
+          "key": "D",
+          "text": "Add extra verification steps after each action",
+          "correct": false,
+          "explanation": "Extra steps increase credit consumption."
+        }
+      ]
+    },
+    {
+      "id": "custom-agent-pricing-008",
+      "question": "Which trigger strategy is most effective for lowering run frequency and therefore credit usage?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trigger on every new message in a Slack channel",
+          "correct": false,
+          "explanation": "This creates many runs, increasing credits."
+        },
+        {
+          "key": "B",
+          "text": "Trigger on a specific emoji reaction in Slack",
+          "correct": true,
+          "explanation": "Targeted triggers limit runs to high‑signal events."
+        },
+        {
+          "key": "C",
+          "text": "Schedule the agent to run every hour",
+          "correct": false,
+          "explanation": "Frequent scheduling raises credit consumption."
+        },
+        {
+          "key": "D",
+          "text": "Trigger on any property change in a Notion database",
+          "correct": false,
+          "explanation": "Broad property changes cause many unnecessary runs."
+        }
+      ]
+    },
+    {
+      "id": "custom-agent-pricing-009",
+      "question": "An admin wants to keep credit usage predictable while maintaining reasonable output quality. Which combination of adjustments is most effective?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Switch to a less expensive model, increase run frequency, and expand context size",
+          "correct": false,
+          "explanation": "Increasing frequency and context size would raise usage despite a cheaper model."
+        },
+        {
+          "key": "B",
+          "text": "Reduce run frequency, limit context to essential pages, and keep the model set to `Auto`",
+          "correct": true,
+          "explanation": "Lowering frequency and context directly cuts credits, while `Auto` balances quality and cost."
+        },
+        {
+          "key": "C",
+          "text": "Keep run frequency unchanged, use the most advanced model, and read all databases each run",
+          "correct": false,
+          "explanation": "This would dramatically increase credit consumption."
+        },
+        {
+          "key": "D",
+          "text": "Increase context size, add more tool calls, and disable the agent during peak hours",
+          "correct": false,
+          "explanation": "More context and tool calls raise usage; disabling only during peaks doesn’t address overall cost predictability."
+        }
+      ]
+    },
+    {
+      "id": "custom-agent-pricing-010",
+      "question": "A Custom Agent consumes 150 Notion credits per run and is scheduled to run 20 times each month. Approximately how much will this cost per month?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "$15",
+          "correct": false,
+          "explanation": "150 credits × 20 = 3,000 credits; at $10 per 1,000 credits the cost is $30, not $15."
+        },
+        {
+          "key": "B",
+          "text": "$30",
+          "correct": true,
+          "explanation": "3,000 credits ÷ 1,000 = 3 units; 3 × $10 = $30."
+        },
+        {
+          "key": "C",
+          "text": "$45",
+          "correct": false,
+          "explanation": "That would correspond to 4,500 credits, which is higher than the calculated usage."
+        },
+        {
+          "key": "D",
+          "text": "$60",
+          "correct": false,
+          "explanation": "That would imply 6,000 credits, double the actual consumption."
+        }
+      ]
+    }
+  ]
+}

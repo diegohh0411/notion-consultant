@@ -1,0 +1,317 @@
+{
+  "source": "guides_how-to-build-a-help-center-in-notion",
+  "sourceTitle": "How to build a help center in Notion",
+  "sourceUrl": "https://www.notion.so/help/guides/how-to-build-a-help-center-in-notion",
+  "questions": [
+    {
+      "id": "guides_how-to-build-a-help-center-in-notion-001",
+      "question": "What is the first step recommended for creating a Help Center in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Start by writing all the help articles from scratch.",
+          "correct": false,
+          "explanation": "While you can write articles from scratch, the guide suggests beginning with a template to speed up setup."
+        },
+        {
+          "key": "B",
+          "text": "Browse the Template gallery and select the Help Center template.",
+          "correct": true,
+          "explanation": "The guide advises using Notion’s Help Center template as the starting point."
+        },
+        {
+          "key": "C",
+          "text": "Publish the page to the web before adding any content.",
+          "correct": false,
+          "explanation": "Publishing should happen after the content is organized and ready."
+        },
+        {
+          "key": "D",
+          "text": "Create a new workspace specifically for the Help Center.",
+          "correct": false,
+          "explanation": "A separate workspace isn’t required; you can build the Help Center within an existing workspace."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-help-center-in-notion-002",
+      "question": "Which feature allows you to keep content synchronized across multiple pages?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Embed block",
+          "correct": false,
+          "explanation": "Embed blocks display external content but don’t automatically sync Notion content."
+        },
+        {
+          "key": "B",
+          "text": "Paste and sync feature",
+          "correct": true,
+          "explanation": "The guide mentions using the Paste and sync feature to maintain up‑to‑date content across pages."
+        },
+        {
+          "key": "C",
+          "text": "Link to page",
+          "correct": false,
+          "explanation": "Linking points to a page but does not sync changes made elsewhere."
+        },
+        {
+          "key": "D",
+          "text": "Database view",
+          "correct": false,
+          "explanation": "Database views organize data but aren’t described as a sync mechanism for static pages."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-help-center-in-notion-003",
+      "question": "How can you make the Help Center’s public URL simpler?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rename the page title to a short word.",
+          "correct": false,
+          "explanation": "Changing the title doesn’t affect the public URL."
+        },
+        {
+          "key": "B",
+          "text": "Set the page as the Public home page under Settings.",
+          "correct": true,
+          "explanation": "The guide says you may simplify the URL by making the page the Public home page."
+        },
+        {
+          "key": "C",
+          "text": "Add a custom domain through Notion’s integrations.",
+          "correct": false,
+          "explanation": "Custom domains are not covered in the article."
+        },
+        {
+          "key": "D",
+          "text": "Use a URL shortener service.",
+          "correct": false,
+          "explanation": "While possible, the article does not mention this as a built‑in method."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-help-center-in-notion-004",
+      "question": "Which visual elements are recommended to align the Help Center with a company’s brand?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the page title font.",
+          "correct": false,
+          "explanation": "Brand alignment involves more than just the title font."
+        },
+        {
+          "key": "B",
+          "text": "Cover images and page icons.",
+          "correct": true,
+          "explanation": "The guide suggests adding cover images and choosing icons that match the brand."
+        },
+        {
+          "key": "C",
+          "text": "Embedding a company logo in a callout block.",
+          "correct": false,
+          "explanation": "While possible, the article specifically mentions cover images and icons, not embedding logos in callouts."
+        },
+        {
+          "key": "D",
+          "text": "Changing the background color of the entire workspace.",
+          "correct": false,
+          "explanation": "Workspace background changes aren’t discussed as a branding method."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-help-center-in-notion-005",
+      "question": "What is the purpose of using callout blocks and background colors in the Help Center pages?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To hide important information from users.",
+          "correct": false,
+          "explanation": "Callouts and colors are meant to highlight, not hide, information."
+        },
+        {
+          "key": "B",
+          "text": "To improve clarity and visual hierarchy.",
+          "correct": true,
+          "explanation": "The article notes that callout blocks and background colors help with clarity."
+        },
+        {
+          "key": "C",
+          "text": "To reduce page load speed.",
+          "correct": false,
+          "explanation": "Visual styling does not affect load speed in Notion."
+        },
+        {
+          "key": "D",
+          "text": "To automatically generate SEO meta tags.",
+          "correct": false,
+          "explanation": "SEO meta tags are not created by callout blocks or background colors."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-help-center-in-notion-006",
+      "question": "After organizing all help articles, which menu option is used to publish the Help Center to the web?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Export → PDF",
+          "correct": false,
+          "explanation": "Exporting to PDF creates a file, not a web‑published page."
+        },
+        {
+          "key": "B",
+          "text": "Share → Publish tab",
+          "correct": true,
+          "explanation": "The guide instructs to publish via the Publish tab of the Share menu."
+        },
+        {
+          "key": "C",
+          "text": "Settings → Workspace permissions",
+          "correct": false,
+          "explanation": "Workspace permissions control access, not publishing."
+        },
+        {
+          "key": "D",
+          "text": "File → Save as HTML",
+          "correct": false,
+          "explanation": "Notion does not have a direct ‘Save as HTML’ option for publishing."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-help-center-in-notion-007",
+      "question": "Which of the following best describes the role of subpages in the Help Center structure?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Subpages act as separate databases that cannot be linked to the main page.",
+          "correct": false,
+          "explanation": "Subpages can contain databases and can be linked; the statement is inaccurate."
+        },
+        {
+          "key": "B",
+          "text": "Subpages organize individual help articles, allowing each to have its own icon and cover image.",
+          "correct": true,
+          "explanation": "The guide advises adding Help Center articles as subpages and customizing each with icons and cover images."
+        },
+        {
+          "key": "C",
+          "text": "Subpages replace the need for a top‑level navigation menu.",
+          "correct": false,
+          "explanation": "Subpages supplement navigation but do not replace a navigation system."
+        },
+        {
+          "key": "D",
+          "text": "Subpages are only used for internal team documentation, not public Help Centers.",
+          "correct": false,
+          "explanation": "The article demonstrates subpages as part of the public Help Center."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-help-center-in-notion-008",
+      "question": "If you want to ensure that updates to a frequently edited FAQ are reflected everywhere it appears, which workflow should you follow?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Copy‑paste the FAQ content into each page manually after each edit.",
+          "correct": false,
+          "explanation": "Manual copy‑pasting is error‑prone and defeats the purpose of sync."
+        },
+        {
+          "key": "B",
+          "text": "Create a single page for the FAQ and use the Paste and sync feature to embed it in other pages.",
+          "correct": true,
+          "explanation": "The Paste and sync feature keeps content up‑to‑date across multiple locations."
+        },
+        {
+          "key": "C",
+          "text": "Export the FAQ as a PDF and attach it to each page.",
+          "correct": false,
+          "explanation": "PDF attachments are static and won’t reflect future edits."
+        },
+        {
+          "key": "D",
+          "text": "Use a third‑party integration to duplicate the FAQ content.",
+          "correct": false,
+          "explanation": "While possible, the guide does not mention third‑party duplication; the built‑in sync feature is preferred."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-help-center-in-notion-009",
+      "question": "Which resource is suggested for finding additional templates beyond the Help Center template?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Notion mobile app’s template section.",
+          "correct": false,
+          "explanation": "The article does not reference the mobile app for template browsing."
+        },
+        {
+          "key": "B",
+          "text": "Notion’s template gallery, accessible via the Templates section in the sidebar.",
+          "correct": true,
+          "explanation": "The guide points readers to browse over 10,000 templates in the template gallery."
+        },
+        {
+          "key": "C",
+          "text": "A third‑party website that sells Notion templates.",
+          "correct": false,
+          "explanation": "External sites are not mentioned in the guide."
+        },
+        {
+          "key": "D",
+          "text": "The Help Center’s own “Visit the help center” link.",
+          "correct": false,
+          "explanation": "That link leads to Notion’s help center, not a template repository."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-help-center-in-notion-010",
+      "question": "What is the recommended way to share the completed Help Center guide with others, according to the article?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Send them a PDF export of the Help Center page.",
+          "correct": false,
+          "explanation": "Exporting to PDF is not mentioned as the primary sharing method."
+        },
+        {
+          "key": "B",
+          "text": "Publish the page to the web and provide the public URL.",
+          "correct": true,
+          "explanation": "The article explains that after setting up the Help Center, you publish it via the Share menu to obtain a public link."
+        },
+        {
+          "key": "C",
+          "text": "Invite them as collaborators with edit permissions.",
+          "correct": false,
+          "explanation": "While possible, the guide focuses on publishing for public consumption rather than internal collaboration."
+        },
+        {
+          "key": "D",
+          "text": "Embed the Help Center inside a Slack channel.",
+          "correct": false,
+          "explanation": "Embedding in Slack is not discussed in the article."
+        }
+      ]
+    }
+  ]
+}

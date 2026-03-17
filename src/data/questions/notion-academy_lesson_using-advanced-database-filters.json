@@ -1,0 +1,255 @@
+{
+  "source": "notion-academy_lesson_using-advanced-database-filters",
+  "sourceTitle": "Using Advanced Database Filters",
+  "sourceUrl": "https://www.notion.so/help/notion-academy/lesson/using-advanced-database-filters",
+  "questions": [
+    {
+      "id": "using-advanced-database-filters-001",
+      "question": "What can you earn by completing a Notion Academy learning path?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A cash reward",
+          "correct": false,
+          "explanation": "Notion Academy does not offer monetary payments for completing paths."
+        },
+        {
+          "key": "B",
+          "text": "A badge",
+          "correct": true,
+          "explanation": "The article states that completing paths helps you earn badges."
+        },
+        {
+          "key": "C",
+          "text": "Free Notion subscription",
+          "correct": false,
+          "explanation": "Free subscriptions are not mentioned as a reward for learning paths."
+        },
+        {
+          "key": "D",
+          "text": "A physical certificate",
+          "correct": false,
+          "explanation": "Certificates are digital and tied to the Notion Certified Admin program, not to learning paths."
+        }
+      ]
+    },
+    {
+      "id": "using-advanced-database-filters-002",
+      "question": "Which of the following is NOT listed as a primary offering of Notion Academy in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Earn badges",
+          "correct": false,
+          "explanation": "Earning badges is explicitly mentioned."
+        },
+        {
+          "key": "B",
+          "text": "Become a Notion Certified Admin",
+          "correct": false,
+          "explanation": "The certification program is highlighted in the article."
+        },
+        {
+          "key": "C",
+          "text": "Join a community of Notion users",
+          "correct": false,
+          "explanation": "Joining the community is one of the three main offerings."
+        },
+        {
+          "key": "D",
+          "text": "Access to third‑party plugins",
+          "correct": true,
+          "explanation": "The article does not mention third‑party plugins as an Academy offering."
+        }
+      ]
+    },
+    {
+      "id": "using-advanced-database-filters-003",
+      "question": "If you want to learn how to build an intake system using forms, charts, and automations, which lesson should you enroll in?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Custom Agents",
+          "correct": false,
+          "explanation": "Custom Agents focus on automating repeat work, not specifically on intake systems."
+        },
+        {
+          "key": "B",
+          "text": "An issue tracker for any team",
+          "correct": true,
+          "explanation": "The description of this lesson mentions building an intake system with forms, charts, and automations."
+        },
+        {
+          "key": "C",
+          "text": "Workspace design",
+          "correct": false,
+          "explanation": "Workspace design covers best practices for designing a workspace, not intake systems."
+        },
+        {
+          "key": "D",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "That lesson is about creating and selling templates, unrelated to intake systems."
+        }
+      ]
+    },
+    {
+      "id": "using-advanced-database-filters-004",
+      "question": "How many lessons are included in the \"Advanced Path\"?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "3 Lessons",
+          "correct": false,
+          "explanation": "The Essentials Path contains 3 lessons, not the Advanced Path."
+        },
+        {
+          "key": "B",
+          "text": "4 Lessons",
+          "correct": false,
+          "explanation": "The Workflows Path has 4 lessons."
+        },
+        {
+          "key": "C",
+          "text": "5 Lessons",
+          "correct": true,
+          "explanation": "The article lists the Advanced Path as containing 5 lessons."
+        },
+        {
+          "key": "D",
+          "text": "6 Lessons",
+          "correct": false,
+          "explanation": "No path is described as having 6 lessons in the article."
+        }
+      ]
+    },
+    {
+      "id": "using-advanced-database-filters-005",
+      "question": "Which lesson is categorized as \"Advanced\" and focuses on best practices for workspace architecture?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workspace design",
+          "correct": true,
+          "explanation": "The \"Workspace design\" lesson is marked as Advanced and covers workspace best practices."
+        },
+        {
+          "key": "B",
+          "text": "Building basics",
+          "correct": false,
+          "explanation": "Building basics is a Beginner lesson."
+        },
+        {
+          "key": "C",
+          "text": "Custom Agents",
+          "correct": false,
+          "explanation": "Custom Agents is a Beginner lesson about automation."
+        },
+        {
+          "key": "D",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "Templates & marketplace is an Intermediate lesson."
+        }
+      ]
+    },
+    {
+      "id": "using-advanced-database-filters-006",
+      "question": "Which path description emphasizes \"Create connected systems that unite teams and projects, with the help of AI\"?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path",
+          "correct": false,
+          "explanation": "Essentials Path focuses on basic skills, not AI‑driven systems."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": true,
+          "explanation": "The Workflows Path description matches the quoted text."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "Advanced Path focuses on automation and architecture, not specifically AI‑driven workflows."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents Path",
+          "correct": false,
+          "explanation": "There is no \"Custom Agents Path\" listed in the article."
+        }
+      ]
+    },
+    {
+      "id": "using-advanced-database-filters-007",
+      "question": "Which statement accurately describes the eligibility for becoming a Notion Certified Admin?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only users on the Enterprise plan can become certified.",
+          "correct": false,
+          "explanation": "The article says any plan type is eligible."
+        },
+        {
+          "key": "B",
+          "text": "Certification is limited to individuals working at companies with more than 500 employees.",
+          "correct": false,
+          "explanation": "No employee‑count restriction is mentioned."
+        },
+        {
+          "key": "C",
+          "text": "Anyone, regardless of plan type or company size, can become a Notion Certified Admin after completing the certification.",
+          "correct": true,
+          "explanation": "The article explicitly states certification is available for any plan type at any company."
+        },
+        {
+          "key": "D",
+          "text": "Only Notion employees are allowed to earn the Certified Admin badge.",
+          "correct": false,
+          "explanation": "The program is open to external users, not just employees."
+        }
+      ]
+    },
+    {
+      "id": "using-advanced-database-filters-008",
+      "question": "What is the primary purpose of the \"Custom Agents\" lesson as described in the article?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To teach how to build custom database relations.",
+          "correct": false,
+          "explanation": "Custom Agents focus on automation, not database relations."
+        },
+        {
+          "key": "B",
+          "text": "To demonstrate how to schedule and trigger automations that reduce repetitive work.",
+          "correct": true,
+          "explanation": "The lesson description states Custom Agents help automate repeat work, can run on a schedule or respond to triggers."
+        },
+        {
+          "key": "C",
+          "text": "To provide a deep dive into Notion's API for developers.",
+          "correct": false,
+          "explanation": "The article does not mention API usage in this lesson."
+        },
+        {
+          "key": "D",
+          "text": "To guide users through creating public templates for the Marketplace.",
+          "correct": false,
+          "explanation": "Template creation is covered in a different lesson."
+        }
+      ]
+    }
+  ]
+}

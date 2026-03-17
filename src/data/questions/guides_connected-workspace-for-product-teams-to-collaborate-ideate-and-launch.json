@@ -1,0 +1,317 @@
+{
+  "source": "guides_connected-workspace-for-product-teams-to-collaborate-ideate-and-launch",
+  "sourceTitle": "A connected workspace for product teams to collaborate, ideate and launch",
+  "sourceUrl": "https://www.notion.com/help/guides/connected-workspace-for-product-teams-to-collaborate-ideate-and-launch",
+  "questions": [
+    {
+      "id": "connected-workspace-001",
+      "question": "What is the primary benefit of turning a Notion page into a wiki for a product team?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically syncs the page with external GitHub repositories.",
+          "correct": false,
+          "explanation": "Syncing with GitHub is a separate embed feature, not a wiki function."
+        },
+        {
+          "key": "B",
+          "text": "It adds verification properties that help keep content up‑to‑date.",
+          "correct": true,
+          "explanation": "Turning a page into a wiki adds a verification property, allowing owners to set expiration periods and receive notifications."
+        },
+        {
+          "key": "C",
+          "text": "It converts the page into a Kanban board view.",
+          "correct": false,
+          "explanation": "Board views are a database view option, unrelated to the wiki toggle."
+        },
+        {
+          "key": "D",
+          "text": "It locks the page so only admins can edit it.",
+          "correct": false,
+          "explanation": "Wiki mode does not lock editing; it only adds verification and layout options."
+        }
+      ]
+    },
+    {
+      "id": "connected-workspace-002",
+      "question": "Which Notion feature allows you to embed live content from tools like GitHub, Jira, or Figma into a project page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Linked databases",
+          "correct": false,
+          "explanation": "Linked databases surface Notion data elsewhere; they don’t embed external tool content."
+        },
+        {
+          "key": "B",
+          "text": "Page verification",
+          "correct": false,
+          "explanation": "Verification tracks content freshness, not embedding."
+        },
+        {
+          "key": "C",
+          "text": "Embeds",
+          "correct": true,
+          "explanation": "The embed block lets you bring files, videos, and live views from external tools directly onto a Notion page."
+        },
+        {
+          "key": "D",
+          "text": "Buttons",
+          "correct": false,
+          "explanation": "Buttons automate actions inside Notion but don’t embed external content."
+        }
+      ]
+    },
+    {
+      "id": "connected-workspace-003",
+      "question": "How can a product team ensure that a document template (e.g., PRD) stays consistent across the workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a database template for that document type.",
+          "correct": true,
+          "explanation": "Database templates standardize structure and fields, making every new document follow the same format."
+        },
+        {
+          "key": "B",
+          "text": "Manually copy‑paste the same layout each time.",
+          "correct": false,
+          "explanation": "Manual copying is error‑prone and defeats the purpose of templates."
+        },
+        {
+          "key": "C",
+          "text": "Use the @mention feature to tag the document.",
+          "correct": false,
+          "explanation": "@mentions are for linking people or pages, not for standardizing layouts."
+        },
+        {
+          "key": "D",
+          "text": "Enable page verification for the template page.",
+          "correct": false,
+          "explanation": "Verification checks freshness, not consistency of structure."
+        }
+      ]
+    },
+    {
+      "id": "connected-workspace-004",
+      "question": "What advantage does a relation property provide between a Tasks database and a Projects database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It creates a two‑way link so each task knows its parent project and each project lists its tasks.",
+          "correct": true,
+          "explanation": "Relation properties establish bidirectional connections, giving visibility from both sides."
+        },
+        {
+          "key": "B",
+          "text": "It automatically assigns tasks to team members based on project priority.",
+          "correct": false,
+          "explanation": "Assignment requires a person property; relations only link records."
+        },
+        {
+          "key": "C",
+          "text": "It converts the task list into a timeline view.",
+          "correct": false,
+          "explanation": "Views are separate settings; relations don’t change the view type."
+        },
+        {
+          "key": "D",
+          "text": "It merges the two databases into a single table.",
+          "correct": false,
+          "explanation": "Relations keep databases separate while linking records, not merging them."
+        }
+      ]
+    },
+    {
+      "id": "connected-workspace-005",
+      "question": "Which of the following is NOT a way to display the same Notion database in different contexts?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Creating a linked database on another page.",
+          "correct": false,
+          "explanation": "Linked databases let you surface the same data elsewhere."
+        },
+        {
+          "key": "B",
+          "text": "Changing the database view to board, table, or timeline.",
+          "correct": false,
+          "explanation": "Switching views is a built‑in way to display data differently."
+        },
+        {
+          "key": "C",
+          "text": "Exporting the database to a CSV file and re‑importing it.",
+          "correct": true,
+          "explanation": "Exporting creates a static copy; it does not display the live database in multiple places."
+        },
+        {
+          "key": "D",
+          "text": "Syncing a block that contains part of the database.",
+          "correct": false,
+          "explanation": "Block sync replicates content across pages while staying linked."
+        }
+      ]
+    },
+    {
+      "id": "connected-workspace-006",
+      "question": "How does the 'Report a Bug' button improve the workflow for engineers?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It sends an email notification to the engineering lead.",
+          "correct": false,
+          "explanation": "Buttons can trigger actions, but the guide describes creating a database entry, not sending emails."
+        },
+        {
+          "key": "B",
+          "text": "It creates a new database entry for the bug directly from the product homepage.",
+          "correct": true,
+          "explanation": "The button automates the creation of a bug record, streamlining reporting."
+        },
+        {
+          "key": "C",
+          "text": "It automatically assigns the bug to the next sprint.",
+          "correct": false,
+          "explanation": "Assignment requires additional configuration; the button only creates the entry."
+        },
+        {
+          "key": "D",
+          "text": "It opens a third‑party bug‑tracking tool in a new tab.",
+          "correct": false,
+          "explanation": "The button works within Notion to generate a record, not to launch external tools."
+        }
+      ]
+    },
+    {
+      "id": "connected-workspace-007",
+      "question": "What is the purpose of using the 'Turn to Wiki' option on a top‑level page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To enable page verification and additional layout options such as table or list views.",
+          "correct": true,
+          "explanation": "Turning a page into a wiki adds verification and lets you view pages in database‑style layouts."
+        },
+        {
+          "key": "B",
+          "text": "To lock the page so only admins can edit it.",
+          "correct": false,
+          "explanation": "Wiki mode does not restrict editing permissions."
+        },
+        {
+          "key": "C",
+          "text": "To automatically sync the page with a Google Docs file.",
+          "correct": false,
+          "explanation": "Syncing with Google Docs is not a built‑in wiki feature."
+        },
+        {
+          "key": "D",
+          "text": "To convert the page into a Kanban board.",
+          "correct": false,
+          "explanation": "Kanban board views are set on databases, not on a simple wiki toggle."
+        }
+      ]
+    },
+    {
+      "id": "connected-workspace-008",
+      "question": "When setting up recurring meeting notes, which Notion feature allows the template to auto‑create entries at regular intervals?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Relation property",
+          "correct": false,
+          "explanation": "Relations link records; they don’t schedule recurrence."
+        },
+        {
+          "key": "B",
+          "text": "Repeating template (template with a repeat schedule)",
+          "correct": true,
+          "explanation": "A repeating template can be configured to generate new entries weekly, bi‑weekly, etc."
+        },
+        {
+          "key": "C",
+          "text": "Button that copies the page",
+          "correct": false,
+          "explanation": "Buttons can create new pages but don’t inherently handle timed recurrence."
+        },
+        {
+          "key": "D",
+          "text": "Page verification",
+          "correct": false,
+          "explanation": "Verification tracks freshness, not creation frequency."
+        }
+      ]
+    },
+    {
+      "id": "connected-workspace-009",
+      "question": "Why might a product team choose to embed a GitHub repository directly into a Notion project page rather than linking to it?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Embedding shows the latest version of files without leaving Notion, keeping context in one place.",
+          "correct": true,
+          "explanation": "Embedding provides live, in‑context view of external content, reducing context‑switching."
+        },
+        {
+          "key": "B",
+          "text": "Embedding automatically grants all Notion users write access to the repository.",
+          "correct": false,
+          "explanation": "Permissions are controlled in GitHub, not by the embed."
+        },
+        {
+          "key": "C",
+          "text": "Embedding compresses the repository size to improve Notion performance.",
+          "correct": false,
+          "explanation": "Embedding displays content; it does not alter repository size."
+        },
+        {
+          "key": "D",
+          "text": "Embedding converts the code into a PDF for easier reading.",
+          "correct": false,
+          "explanation": "Embedding shows the live view or file preview, not a PDF conversion."
+        }
+      ]
+    },
+    {
+      "id": "connected-workspace-010",
+      "question": "Which combination of Notion features best supports turning meeting notes into actionable tasks?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Page verification + linked database",
+          "correct": false,
+          "explanation": "Verification tracks freshness; it doesn’t create tasks."
+        },
+        {
+          "key": "B",
+          "text": "Relation property + button that creates a task entry",
+          "correct": true,
+          "explanation": "A relation links notes to projects, and a button can instantly add a new task to the tasks database."
+        },
+        {
+          "key": "C",
+          "text": "Template button + timeline view",
+          "correct": false,
+          "explanation": "Template buttons help create pages; timeline view is for visualizing dates, not task creation."
+        },
+        {
+          "key": "D",
+          "text": "Multi‑select tags + page verification",
+          "correct": false,
+          "explanation": "Tags help categorize, verification checks recency; neither creates tasks directly."
+        }
+      ]
+    }
+  ]
+}

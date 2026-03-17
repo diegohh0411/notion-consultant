@@ -1,0 +1,255 @@
+{
+  "source": "notion-academy_lesson_using-data-automations",
+  "sourceTitle": "Welcome to Notion Academy",
+  "sourceUrl": "https://www.notion.com/help/notion-academy/lesson/using-data-automations",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_using-data-automations-001",
+      "question": "What is the primary purpose of Notion Academy as described in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Turn curiosity into capability — learn Notion, build smarter workflows, and validate your skills with badges & certifications.",
+          "correct": true,
+          "explanation": "This sentence appears verbatim in the article as the mission statement for Notion Academy."
+        },
+        {
+          "key": "B",
+          "text": "Provide a marketplace for buying and selling third‑party Notion templates.",
+          "correct": false,
+          "explanation": "The marketplace is mentioned as a lesson topic, not the overall purpose of the Academy."
+        },
+        {
+          "key": "C",
+          "text": "Offer live technical support for troubleshooting Notion errors.",
+          "correct": false,
+          "explanation": "Live support is offered via webinars and the Help Center, but not the Academy’s core purpose."
+        },
+        {
+          "key": "D",
+          "text": "Serve as a repository for all Notion documentation and API references.",
+          "correct": false,
+          "explanation": "Documentation lives in the Help Center; the Academy focuses on learning and certification."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-automations-002",
+      "question": "Which learning path is described as “New to Notion? Gain the basic skills to create, collaborate, and organize your work efficiently.”?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path",
+          "correct": true,
+          "explanation": "The article lists the Essentials Path with exactly that description."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": false,
+          "explanation": "Workflows Path focuses on creating connected systems, not on introductory basics."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "Advanced Path is for deeper automation and workspace architecture, not for beginners."
+        },
+        {
+          "key": "D",
+          "text": "Templates & Marketplace Path",
+          "correct": false,
+          "explanation": "There is a lesson about templates, but not a dedicated path with that description."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-automations-003",
+      "question": "Which lesson in the list is categorized as an “Advanced” difficulty?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workspace design",
+          "correct": true,
+          "explanation": "The article tags the “Workspace design” lesson as Advanced."
+        },
+        {
+          "key": "B",
+          "text": "Building basics",
+          "correct": false,
+          "explanation": "Building basics is marked as Beginner."
+        },
+        {
+          "key": "C",
+          "text": "Custom Agents",
+          "correct": false,
+          "explanation": "Custom Agents is listed as Beginner."
+        },
+        {
+          "key": "D",
+          "text": "Sharing & collaboration",
+          "correct": false,
+          "explanation": "Sharing & collaboration is also a Beginner lesson."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-automations-004",
+      "question": "How many individual lessons are included in the Advanced Path?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "3",
+          "correct": false,
+          "explanation": "The Advanced Path contains more than three lessons."
+        },
+        {
+          "key": "B",
+          "text": "4",
+          "correct": false,
+          "explanation": "Four lessons belong to the Workflows Path, not the Advanced Path."
+        },
+        {
+          "key": "C",
+          "text": "5",
+          "correct": true,
+          "explanation": "The article states the Advanced Path consists of 5 lessons."
+        },
+        {
+          "key": "D",
+          "text": "6",
+          "correct": false,
+          "explanation": "Six lessons are not mentioned for any path."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-automations-005",
+      "question": "Which lesson specifically teaches how to create, list, market, and sell templates in Notion’s Marketplace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Templates & marketplace",
+          "correct": true,
+          "explanation": "The lesson title and description match this exact focus."
+        },
+        {
+          "key": "B",
+          "text": "Project management",
+          "correct": false,
+          "explanation": "Project management covers setting up projects and task databases, not templates."
+        },
+        {
+          "key": "C",
+          "text": "Sharing & collaboration",
+          "correct": false,
+          "explanation": "That lesson is about teamwork, not marketplace activities."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents",
+          "correct": false,
+          "explanation": "Custom Agents deals with automating repeat work, unrelated to template sales."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-automations-006",
+      "question": "What is the listed duration for the “Custom Agents” lesson?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "15 minutes",
+          "correct": false,
+          "explanation": "15 minutes is the duration for some other lessons, such as Sharing & collaboration."
+        },
+        {
+          "key": "B",
+          "text": "20 minutes",
+          "correct": false,
+          "explanation": "20 minutes applies to Building basics and Connecting knowledge in Notion."
+        },
+        {
+          "key": "C",
+          "text": "30 minutes",
+          "correct": true,
+          "explanation": "The article lists Custom Agents as a 30‑minute, Beginner lesson."
+        },
+        {
+          "key": "D",
+          "text": "40 minutes",
+          "correct": false,
+          "explanation": "40 minutes is the duration for the Templates & marketplace lesson."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-automations-007",
+      "question": "According to the article, what can you earn by completing a Notion Academy path?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Badges",
+          "correct": true,
+          "explanation": "The article explicitly states you can “earn badges with Notion” by taking paths."
+        },
+        {
+          "key": "B",
+          "text": "Free premium templates",
+          "correct": false,
+          "explanation": "Free templates are not mentioned as a reward for completing paths."
+        },
+        {
+          "key": "C",
+          "text": "Lifetime Notion subscription",
+          "correct": false,
+          "explanation": "Subscriptions are unrelated to Academy completion."
+        },
+        {
+          "key": "D",
+          "text": "Personalized coaching sessions",
+          "correct": false,
+          "explanation": "Coaching sessions are not listed as a benefit of completing a path."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-automations-008",
+      "question": "Which of the following is NOT listed as a benefit of becoming a Notion Certified Admin?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Run Notion at scale",
+          "correct": false,
+          "explanation": "Running Notion at scale is explicitly mentioned as a benefit."
+        },
+        {
+          "key": "B",
+          "text": "Implement security best practices",
+          "correct": false,
+          "explanation": "Security best practices are listed among the certification benefits."
+        },
+        {
+          "key": "C",
+          "text": "Get recognized as a certified Notion Admin",
+          "correct": false,
+          "explanation": "Recognition as a certified admin is part of the certification description."
+        },
+        {
+          "key": "D",
+          "text": "Receive free premium templates",
+          "correct": true,
+          "explanation": "The article never mentions free premium templates as a certification benefit."
+        }
+      ]
+    }
+  ]
+}

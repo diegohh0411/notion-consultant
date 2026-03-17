@@ -1,0 +1,317 @@
+{
+  "source": "guides_get-started-with-your-personal-agent-in-notion",
+  "sourceTitle": "Get started with your Notion Agent",
+  "sourceUrl": "https://www.notion.so/help/guides/get-started-with-your-personal-agent-in-notion",
+  "questions": [
+    {
+      "id": "guides_get-started-with-your-personal-agent-in-notion-001",
+      "question": "How do you initially open the Notion Agent in your workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the circular face icon in the bottom‑right corner or open the Notion AI tab in the left sidebar.",
+          "correct": true,
+          "explanation": "The article says you can launch the Agent by clicking the circular face icon in the bottom‑right or via the Notion AI tab."
+        },
+        {
+          "key": "B",
+          "text": "Press Ctrl + Shift + A on any page.",
+          "correct": false,
+          "explanation": "There is no keyboard shortcut mentioned for opening the Agent."
+        },
+        {
+          "key": "C",
+          "text": "Type \"/agent\" in a page block.",
+          "correct": false,
+          "explanation": "The slash command creates blocks, not the Agent interface."
+        },
+        {
+          "key": "D",
+          "text": "Right‑click any block and select “Open Agent”.",
+          "correct": false,
+          "explanation": "The right‑click menu does not contain an “Open Agent” option."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-started-with-your-personal-agent-in-notion-002",
+      "question": "Which of the following is a correct way to ask the Agent to create a new database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "“Create a marketing campaign database with tasks for 3 blog posts, 15 social posts, and 2 emails, include owner, due date, status columns, and timeline & board views.”",
+          "correct": true,
+          "explanation": "The example in the guide matches this phrasing and includes all required details."
+        },
+        {
+          "key": "B",
+          "text": "“Make a table with three columns.”",
+          "correct": false,
+          "explanation": "That request is too vague; the Agent needs more specifics about purpose, properties, and views."
+        },
+        {
+          "key": "C",
+          "text": "“Add a new page called Marketing.”",
+          "correct": false,
+          "explanation": "That creates a page, not a database with properties and views."
+        },
+        {
+          "key": "D",
+          "text": "“Generate a spreadsheet in Google Sheets.”",
+          "correct": false,
+          "explanation": "The Agent works inside Notion, not external spreadsheet apps."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-started-with-your-personal-agent-in-notion-003",
+      "question": "When you want the Agent to edit an existing database view to show only your tasks for September, which part of the request is essential?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Specifying the filter criteria (e.g., tasks assigned to me and due in September).",
+          "correct": true,
+          "explanation": "Filters define what the view shows; the guide emphasizes being specific about filters."
+        },
+        {
+          "key": "B",
+          "text": "Stating the background color you prefer for the view.",
+          "correct": false,
+          "explanation": "Color preferences are cosmetic and not required for the view to function."
+        },
+        {
+          "key": "C",
+          "text": "Mentioning the type of chart you want.",
+          "correct": false,
+          "explanation": "A chart is optional and unrelated to a simple task list view."
+        },
+        {
+          "key": "D",
+          "text": "Asking the Agent to rename the database.",
+          "correct": false,
+          "explanation": "Renaming the database is unrelated to creating a personalized view."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-started-with-your-personal-agent-in-notion-004",
+      "question": "What can the Notion Agent do with PDF files?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Extract structured data, create summaries, and build databases from the content.",
+          "correct": true,
+          "explanation": "The guide lists these exact capabilities for PDFs."
+        },
+        {
+          "key": "B",
+          "text": "Convert the PDF into a video tutorial.",
+          "correct": false,
+          "explanation": "The Agent does not create videos from PDFs."
+        },
+        {
+          "key": "C",
+          "text": "Edit the original PDF file directly.",
+          "correct": false,
+          "explanation": "The Agent works on Notion content, not on the PDF file itself."
+        },
+        {
+          "key": "D",
+          "text": "Upload the PDF to Google Drive automatically.",
+          "correct": false,
+          "explanation": "Uploading to external services is not described as a PDF capability."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-started-with-your-personal-agent-in-notion-005",
+      "question": "Which statement best describes how the Agent handles multi‑step tasks?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "You give a high‑level goal, and the Agent plans and executes each sub‑step end‑to‑end within Notion.",
+          "correct": true,
+          "explanation": "The article emphasizes that the Agent can complete multi‑step tasks end‑to‑end after you share your goals."
+        },
+        {
+          "key": "B",
+          "text": "You must manually approve every intermediate step before the Agent proceeds.",
+          "correct": false,
+          "explanation": "The guide does not require manual approval for each step."
+        },
+        {
+          "key": "C",
+          "text": "The Agent can only perform single‑action commands, not sequences.",
+          "correct": false,
+          "explanation": "Contrary to this, the Agent is described as capable of multi‑step workflows."
+        },
+        {
+          "key": "D",
+          "text": "It only works on tasks that involve database creation, not page editing.",
+          "correct": false,
+          "explanation": "The Agent handles both database and page tasks, as described."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-started-with-your-personal-agent-in-notion-006",
+      "question": "If you want the Agent to update your company’s vacation policy page with new benefits, what is the correct way to phrase the request?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "“Find our vacation policy page and add the new benefits while keeping the tone and formatting consistent.”",
+          "correct": true,
+          "explanation": "The guide provides a similar example and highlights that the Agent will locate and edit the page with consistent style."
+        },
+        {
+          "key": "B",
+          "text": "“Create a new page called Vacation Benefits.”",
+          "correct": false,
+          "explanation": "This creates a new page rather than updating the existing policy page."
+        },
+        {
+          "key": "C",
+          "text": "“Send an email to HR about the new benefits.”",
+          "correct": false,
+          "explanation": "The Agent does not send external emails in this context."
+        },
+        {
+          "key": "D",
+          "text": "“Delete the old vacation policy page.”",
+          "correct": false,
+          "explanation": "Deletion is not part of the request; the Agent would confirm deletions but the goal is to edit, not delete."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-started-with-your-personal-agent-in-notion-007",
+      "question": "Which of the following is NOT listed as a way the Agent can gather information across tools?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Scanning physical whiteboards in the office.",
+          "correct": true,
+          "explanation": "Physical scanning is not mentioned; the Agent works with digital content in Notion, Slack, Google Drive, and the web."
+        },
+        {
+          "key": "B",
+          "text": "Pulling Slack conversations from a specific channel.",
+          "correct": false,
+          "explanation": "The guide cites Slack as a source the Agent can search."
+        },
+        {
+          "key": "C",
+          "text": "Reading Google Drive files for research.",
+          "correct": false,
+          "explanation": "Google Drive is explicitly mentioned as a connected tool."
+        },
+        {
+          "key": "D",
+          "text": "Fetching public web reviews for a feedback report.",
+          "correct": false,
+          "explanation": "The Agent can search the web for external reviews."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-started-with-your-personal-agent-in-notion-008",
+      "question": "How can you personalize the Agent’s communication style?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create an instructions page that teaches the Agent your tone, workflows, and quirks.",
+          "correct": true,
+          "explanation": "The article explains that an instructions page can be used to set communication preferences."
+        },
+        {
+          "key": "B",
+          "text": "Change the font size in the Notion settings.",
+          "correct": false,
+          "explanation": "Font size does not affect the Agent’s communication style."
+        },
+        {
+          "key": "C",
+          "text": "Install a third‑party chatbot plugin.",
+          "correct": false,
+          "explanation": "Personalization is done within Notion AI, not via external plugins."
+        },
+        {
+          "key": "D",
+          "text": "Set your operating system language to French.",
+          "correct": false,
+          "explanation": "System language does not directly customize the Agent’s behavior."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-started-with-your-personal-agent-in-notion-009",
+      "question": "What should you do if the Agent’s response isn’t exactly what you wanted?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Refine your request by telling the Agent what to change or add, and it will adjust accordingly.",
+          "correct": true,
+          "explanation": "The guide advises refining the prompt for better results."
+        },
+        {
+          "key": "B",
+          "text": "Restart Notion and try again.",
+          "correct": false,
+          "explanation": "A restart isn’t required; you can simply clarify the request."
+        },
+        {
+          "key": "C",
+          "text": "Contact Notion support for a manual fix.",
+          "correct": false,
+          "explanation": "While support is available, the immediate step is to clarify the prompt."
+        },
+        {
+          "key": "D",
+          "text": "Disable the Agent and use the regular AI chat.",
+          "correct": false,
+          "explanation": "Disabling isn’t necessary; the Agent can be guided further."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-started-with-your-personal-agent-in-notion-010",
+      "question": "Which plan requirement must be met to unlock the Notion Agent?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any plan that includes Notion AI.",
+          "correct": true,
+          "explanation": "The article states the Agent is available on any plan with Notion AI."
+        },
+        {
+          "key": "B",
+          "text": "Only the Enterprise plan.",
+          "correct": false,
+          "explanation": "Enterprise is not the sole requirement; other AI‑enabled plans also work."
+        },
+        {
+          "key": "C",
+          "text": "A separate paid add‑on called “Agent Pro”.",
+          "correct": false,
+          "explanation": "There is no separate add‑on mentioned."
+        },
+        {
+          "key": "D",
+          "text": "A minimum of 10,000 blocks in your workspace.",
+          "correct": false,
+          "explanation": "Block count is unrelated to unlocking the Agent."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source": "guides_preserve-perfect-meeting-memory-with-ai-meeting-notes",
+  "sourceTitle": "Preserve perfect meeting memory with AI Meeting Notes",
+  "sourceUrl": "https://www.notion.so/help/guides/preserve-perfect-meeting-memory-with-ai-meeting-notes",
+  "questions": [
+    {
+      "id": "preserve-perfect-meeting-memory-with-ai-meeting-notes-001",
+      "question": "How do you initially add an AI Meeting Notes block to a Notion page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type \"/meet\" or click the “Meet” pill at the bottom of a new page",
+          "correct": true,
+          "explanation": "Both typing “/meet” and clicking the “Meet” pill insert the AI Meeting Notes block."
+        },
+        {
+          "key": "B",
+          "text": "Press Ctrl+M on any page",
+          "correct": false,
+          "explanation": "There is no keyboard shortcut mentioned for inserting AI Meeting Notes."
+        },
+        {
+          "key": "C",
+          "text": "Upload a .txt file containing the notes",
+          "correct": false,
+          "explanation": "AI Meeting Notes is a block, not a file upload feature."
+        },
+        {
+          "key": "D",
+          "text": "Enable it in the workspace settings under \"Integrations\"",
+          "correct": false,
+          "explanation": "The block is added directly on a page, not via a global integration toggle."
+        }
+      ]
+    },
+    {
+      "id": "preserve-perfect-meeting-memory-with-ai-meeting-notes-002",
+      "question": "What is the primary advantage of attaching AI Meeting Notes to a Notion calendar event?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically records the video of the meeting",
+          "correct": false,
+          "explanation": "AI Meeting Notes does not record video; it captures transcription and notes."
+        },
+        {
+          "key": "B",
+          "text": "The notes block appears automatically each time you create a new page for that event",
+          "correct": true,
+          "explanation": "When enabled, AI Meeting Notes auto‑adds a notes block to new pages linked to calendar events."
+        },
+        {
+          "key": "C",
+          "text": "It syncs the meeting to Google Calendar",
+          "correct": false,
+          "explanation": "Syncing to Google Calendar is not part of the described feature."
+        },
+        {
+          "key": "D",
+          "text": "It sends a reminder email to all participants before the meeting starts",
+          "correct": false,
+          "explanation": "Reminder emails are not mentioned as a function of AI Meeting Notes."
+        }
+      ]
+    },
+    {
+      "id": "preserve-perfect-meeting-memory-with-ai-meeting-notes-003",
+      "question": "Which meeting format option would you select for a quick daily stand‑up?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sales",
+          "correct": false,
+          "explanation": "The Sales format is tailored for client‑facing conversations, not stand‑ups."
+        },
+        {
+          "key": "B",
+          "text": "Team Meeting",
+          "correct": false,
+          "explanation": "Team Meeting is more generic; there is a dedicated Stand‑up format."
+        },
+        {
+          "key": "C",
+          "text": "Stand‑up",
+          "correct": true,
+          "explanation": "The Stand‑up format is designed for short, recurring check‑ins."
+        },
+        {
+          "key": "D",
+          "text": "Auto",
+          "correct": false,
+          "explanation": "Auto lets AI decide, but the explicit Stand‑up option is best for daily stand‑ups."
+        }
+      ]
+    },
+    {
+      "id": "preserve-perfect-meeting-memory-with-ai-meeting-notes-004",
+      "question": "Why is it recommended to add AI Meeting Notes to your database templates?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "So the AI can automatically delete old notes after 30 days",
+          "correct": false,
+          "explanation": "Automatic deletion isn’t mentioned; the benefit is about consistency."
+        },
+        {
+          "key": "B",
+          "text": "It ensures recurring meetings like 1:1s always have a ready‑to‑use notes page",
+          "correct": true,
+          "explanation": "Embedding the block in templates means every recurring event starts with a notes page."
+        },
+        {
+          "key": "C",
+          "text": "It disables the transcription feature for privacy reasons",
+          "correct": false,
+          "explanation": "Adding to templates does not affect transcription settings."
+        },
+        {
+          "key": "D",
+          "text": "It forces all participants to use the same font style in their notes",
+          "correct": false,
+          "explanation": "Font styling isn’t a function of the AI Meeting Notes block."
+        }
+      ]
+    },
+    {
+      "id": "preserve-perfect-meeting-memory-with-ai-meeting-notes-005",
+      "question": "What happens when you @‑mention a teammate in the Notes tab during a meeting?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion AI highlights the mention but does not include it in the summary",
+          "correct": false,
+          "explanation": "The AI actually uses the mention to create clear next‑step items in the summary."
+        },
+        {
+          "key": "B",
+          "text": "The mention is ignored unless the person also speaks during the meeting",
+          "correct": false,
+          "explanation": "Mentions are processed regardless of whether the person speaks."
+        },
+        {
+          "key": "C",
+          "text": "Notion AI automatically tags that person in the generated summary as an owner of the action item",
+          "correct": true,
+          "explanation": "Tagging in notes lets the AI turn the mention into an assigned action in the summary."
+        },
+        {
+          "key": "D",
+          "text": "It creates a separate task in the user’s personal task list",
+          "correct": false,
+          "explanation": "The AI only tags in the summary; it does not auto‑create a task unless you set up further automation."
+        }
+      ]
+    },
+    {
+      "id": "preserve-perfect-meeting-memory-with-ai-meeting-notes-006",
+      "question": "Which of the following best describes the “auto‑share” feature mentioned in the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It shares the meeting notes with everyone in the workspace immediately after the meeting ends",
+          "correct": false,
+          "explanation": "Auto‑share refers to automatically adding the notes block to new pages, not instant sharing with the whole workspace."
+        },
+        {
+          "key": "B",
+          "text": "It automatically adds the AI Meeting Notes block to each new meeting page based on your calendar settings",
+          "correct": true,
+          "explanation": "Auto‑share (and auto‑add) means the block appears automatically in new meeting pages."
+        },
+        {
+          "key": "C",
+          "text": "It posts a summary of the meeting to a Slack channel without user input",
+          "correct": false,
+          "explanation": "Posting to Slack requires a separate automation; auto‑share is about block insertion."
+        },
+        {
+          "key": "D",
+          "text": "It syncs the meeting transcript to Google Docs for offline editing",
+          "correct": false,
+          "explanation": "Syncing to Google Docs is not part of the described functionality."
+        }
+      ]
+    },
+    {
+      "id": "preserve-perfect-meeting-memory-with-ai-meeting-notes-007",
+      "question": "How can you use Notion AI after a meeting ends to streamline follow‑up communication?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask the AI to draft follow‑up emails or status updates based on the meeting notes",
+          "correct": true,
+          "explanation": "The guide states AI can draft follow‑up emails, project updates, etc., using the captured notes."
+        },
+        {
+          "key": "B",
+          "text": "Enable the AI to automatically send calendar invites for the next meeting",
+          "correct": false,
+          "explanation": "Sending calendar invites is not a post‑meeting AI capability described."
+        },
+        {
+          "key": "C",
+          "text": "Use AI to delete the meeting transcript to save storage space",
+          "correct": false,
+          "explanation": "Deletion isn’t mentioned as an AI function after the meeting."
+        },
+        {
+          "key": "D",
+          "text": "Have the AI export the transcript to a PDF and email it to all participants",
+          "correct": false,
+          "explanation": "Exporting to PDF isn’t listed; the focus is on drafting textual follow‑ups."
+        }
+      ]
+    },
+    {
+      "id": "preserve-perfect-meeting-memory-with-ai-meeting-notes-008",
+      "question": "What is a key benefit of linking meeting notes to a projects database via Relation and Rollup properties?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically updates project timelines based on meeting discussions",
+          "correct": false,
+          "explanation": "Relation and Rollup surface linked data; they don’t auto‑adjust timelines."
+        },
+        {
+          "key": "B",
+          "text": "It allows you to view meeting decisions directly within related project pages, keeping context in one place",
+          "correct": true,
+          "explanation": "Relations let you connect notes to projects, and Rollups surface relevant details, preserving context."
+        },
+        {
+          "key": "C",
+          "text": "It creates a backup of the meeting audio in the projects database",
+          "correct": false,
+          "explanation": "Audio backup isn’t part of the Relation/Rollup functionality."
+        },
+        {
+          "key": "D",
+          "text": "It disables the AI’s ability to generate summaries for those meetings",
+          "correct": false,
+          "explanation": "Linking does not affect AI summarization; it enhances accessibility of the summary."
+        }
+      ]
+    },
+    {
+      "id": "preserve-perfect-meeting-memory-with-ai-meeting-notes-009",
+      "question": "If you forget to attach AI Meeting Notes to a calendar event, how can you still launch the notes during a live Zoom call?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Open the Notion desktop app and manually type \"/meet\" in a blank page",
+          "correct": false,
+          "explanation": "While you could create a new page, the guide mentions a quicker method via the menu bar."
+        },
+        {
+          "key": "B",
+          "text": "Use the menu bar at the top of your screen to launch AI Meeting Notes directly",
+          "correct": true,
+          "explanation": "The guide states you can launch the notes from the top‑screen menu bar even if not attached to the event."
+        },
+        {
+          "key": "C",
+          "text": "Send a DM to a teammate asking them to share the notes link",
+          "correct": false,
+          "explanation": "This circumvents the built‑in shortcut described."
+        },
+        {
+          "key": "D",
+          "text": "Click the “Record” button in Zoom to start transcription, then import it into Notion later",
+          "correct": false,
+          "explanation": "Zoom recording isn’t part of the AI Meeting Notes workflow."
+        }
+      ]
+    },
+    {
+      "id": "preserve-perfect-meeting-memory-with-ai-meeting-notes-010",
+      "question": "Which statement best captures the overall purpose of Notion’s AI Meeting Notes as described in the guide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To replace human note‑takers entirely and eliminate the need for any meeting preparation",
+          "correct": false,
+          "explanation": "The tool assists, but preparation like agenda setting is still recommended."
+        },
+        {
+          "key": "B",
+          "text": "To streamline capture, summarization, and post‑meeting actions so participants can stay present and act on decisions efficiently",
+          "correct": true,
+          "explanation": "This aligns with the guide’s emphasis on presence, clear summaries, and actionable follow‑ups."
+        },
+        {
+          "key": "C",
+          "text": "To provide a video recording of every meeting for later review",
+          "correct": false,
+          "explanation": "Video recording is not a feature of AI Meeting Notes."
+        },
+        {
+          "key": "D",
+          "text": "To automatically assign tasks to all meeting attendees without user input",
+          "correct": false,
+          "explanation": "Tasks are suggested via tagging; automatic assignment requires user action."
+        }
+      ]
+    }
+  ]
+}

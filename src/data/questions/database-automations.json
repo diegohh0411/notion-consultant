@@ -1,0 +1,441 @@
+{
+  "source": "database-automations",
+  "sourceTitle": "Database automations",
+  "sourceUrl": "https://www.notion.so/help/database-automations",
+  "questions": [
+    {
+      "id": "database-automations-001",
+      "question": "Which of the following is a limitation for Free Plan users regarding database automations?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They can create any type of automation, including those that trigger other automations.",
+          "correct": false,
+          "explanation": "Free Plan users are restricted; they can only create Slack notification automations, not other kinds."
+        },
+        {
+          "key": "B",
+          "text": "They cannot edit existing automations that were created in templates.",
+          "correct": false,
+          "explanation": "Free Plan users *can* use existing automations in templates, but they cannot edit them."
+        },
+        {
+          "key": "C",
+          "text": "They cannot create Slack notification automations.",
+          "correct": false,
+          "explanation": "Free Plan users *can* create Slack notification automations, but no other kinds."
+        },
+        {
+          "key": "D",
+          "text": "They cannot create automations that use triggers other than 'Page added'.",
+          "correct": true,
+          "explanation": "Free Plan users are restricted to creating only Slack notification automations, regardless of the trigger type."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-002",
+      "question": "Which automation action is NOT compatible with the 'Every {frequency}' trigger?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add page to",
+          "correct": false,
+          "explanation": "The 'Add page to' action works with recurring triggers."
+        },
+        {
+          "key": "B",
+          "text": "Send notification to",
+          "correct": false,
+          "explanation": "The 'Send notification to' action works with recurring triggers."
+        },
+        {
+          "key": "C",
+          "text": "Edit property",
+          "correct": true,
+          "explanation": "The 'Every {frequency}' trigger works with all automation actions except for Edit property."
+        },
+        {
+          "key": "D",
+          "text": "Send mail to",
+          "correct": false,
+          "explanation": "The 'Send mail to' action works with recurring triggers."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-003",
+      "question": "If you set up multiple 'is edited' triggers and configure the automation to run 'When all of these occur', what happens if the edits happen outside the three-second window?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The automation triggers immediately upon the first edit.",
+          "correct": false,
+          "explanation": "The automation relies on the specific timing of the edits; if they don't happen within the window, the logic fails."
+        },
+        {
+          "key": "B",
+          "text": "The automation pauses and notifies the user.",
+          "correct": false,
+          "explanation": "Unlike some other errors, this specific timing issue may result in the automation not triggering properly rather than pausing."
+        },
+        {
+          "key": "C",
+          "text": "The automation may not be triggered properly.",
+          "correct": true,
+          "explanation": "The documentation notes that if the edits do not happen within the small window of about three seconds, the automation may not trigger."
+        },
+        {
+          "key": "D",
+          "text": "The automation runs only on the last edited property.",
+          "correct": false,
+          "explanation": "The automation requires all specified triggers to occur; it does not fall back to the last one."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-004",
+      "question": "To target the 'Sub-items' of a parent page within a 'Define variables' formula, what syntax must be used?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use the property name 'Sub-items' directly.",
+          "correct": false,
+          "explanation": "Direct property selection works for top-level properties, but for nested properties, you must use the dot notation."
+        },
+        {
+          "key": "B",
+          "text": "Use 'Trigger page.Sub-item'.",
+          "correct": true,
+          "explanation": "The correct syntax involves typing 'Trigger page' followed by a period and then the sub-property name (e.g., 'Sub-item')."
+        },
+        {
+          "key": "C",
+          "text": "Use 'Parent page.Sub-item'.",
+          "correct": false,
+          "explanation": "The variable is defined based on the 'Trigger page', so the syntax must reflect that specific context."
+        },
+        {
+          "key": "D",
+          "text": "Use '@Sub-items' in the formula field.",
+          "correct": false,
+          "explanation": "The '@' symbol is used for mentions, whereas the dot notation is required for accessing nested properties in formulas."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-005",
+      "question": "Can mentions and formulas be used within database automation triggers?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, but only for the 'Property edited' trigger type.",
+          "correct": false,
+          "explanation": "Mentions and formulas have specific restrictions regarding where they can be used."
+        },
+        {
+          "key": "B",
+          "text": "No, they can only be used in database automation actions.",
+          "correct": true,
+          "explanation": "The documentation explicitly states that mentions and formulas can only be used in database automation actions, not triggers."
+        },
+        {
+          "key": "C",
+          "text": "Yes, they can be used in any trigger, including 'Every {frequency}'.",
+          "correct": false,
+          "explanation": "This is incorrect; formulas cannot be used in triggers, and mentions are restricted to actions."
+        },
+        {
+          "key": "D",
+          "text": "Yes, but only if the formula calculates a date.",
+          "correct": false,
+          "explanation": "Formulas are prohibited in triggers entirely, regardless of their calculation type."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-006",
+      "question": "When might a database automation run into an error without sending you a notification?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "When a database property that the automation updates is missing.",
+          "correct": false,
+          "explanation": "You are typically notified about missing databases or properties."
+        },
+        {
+          "key": "B",
+          "text": "When a third-party connection like Gmail is no longer valid.",
+          "correct": false,
+          "explanation": "You are typically notified when third-party connections need re-authentication."
+        },
+        {
+          "key": "C",
+          "text": "When formulas don't execute properly.",
+          "correct": true,
+          "explanation": "Errors involving formulas or webhooks may result in silent failures where you are not notified."
+        },
+        {
+          "key": "D",
+          "text": "When the database is locked.",
+          "correct": false,
+          "explanation": "Locked databases usually prevent the automation from running, and you would likely be informed or see a restriction."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-007",
+      "question": "Who is permitted to edit a Slack automation created by another user?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anyone with full access to the database.",
+          "correct": false,
+          "explanation": "Access to the database does not grant the right to edit the specific Slack automation."
+        },
+        {
+          "key": "B",
+          "text": "Only the automation creator.",
+          "correct": true,
+          "explanation": "The article states that Slack automations can only be edited by the automation creator, regardless of other permissions."
+        },
+        {
+          "key": "C",
+          "text": "Any paid plan user in the workspace.",
+          "correct": false,
+          "explanation": "The restriction is specific to the creator of the Slack automation."
+        },
+        {
+          "key": "D",
+          "text": "Anyone with 'Can edit' permissions on the Notion page.",
+          "correct": false,
+          "explanation": "Editing permissions on the page do not override the specific restriction on editing Slack automations."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-008",
+      "question": "Can a recurring trigger (e.g., 'Every week') be combined with another trigger type in an automation?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, provided the other trigger is also a recurring trigger.",
+          "correct": false,
+          "explanation": "Recurring triggers cannot be paired with other types of triggers at all."
+        },
+        {
+          "key": "B",
+          "text": "Yes, using the 'When any of these occur' logic.",
+          "correct": false,
+          "explanation": "The logic option (any/all) applies to the specific triggers added, but the types of triggers themselves cannot be mixed with recurring ones."
+        },
+        {
+          "key": "C",
+          "text": "No, recurring triggers cannot be paired with other triggers.",
+          "correct": true,
+          "explanation": "The documentation explicitly notes that recurring triggers cannot be paired with other types of triggers."
+        },
+        {
+          "key": "D",
+          "text": "Yes, but only if the other trigger is 'Page added'.",
+          "correct": false,
+          "explanation": "There is no exception for 'Page added' triggers when paired with recurring ones."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-009",
+      "question": "Which requirement must be met for the 'Send mail to' automation action to function?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The recipient must be a person property in your database.",
+          "correct": false,
+          "explanation": "The 'Send mail to' action can send to specific email addresses, which do not need to be in a person property."
+        },
+        {
+          "key": "B",
+          "text": "The email must be sent from a Gmail account.",
+          "correct": true,
+          "explanation": "The 'Send mail to' action requires a linked Gmail account to send the email."
+        },
+        {
+          "key": "C",
+          "text": "The automation creator must be on a Business plan.",
+          "correct": false,
+          "explanation": "The requirement is a Gmail account, not a specific Notion plan tier."
+        },
+        {
+          "key": "D",
+          "text": "The email must be CC'd to the automation creator.",
+          "correct": false,
+          "explanation": "CC'ing is optional and not a requirement for the action to function."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-010",
+      "question": "How can you handle individual values in multi-select, people, and relation properties using the 'Edit property' action?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You must add or remove all values at once.",
+          "correct": false,
+          "explanation": "This action allows for granular control, not bulk replacement of all values."
+        },
+        {
+          "key": "B",
+          "text": "You can add or remove individual values.",
+          "correct": true,
+          "explanation": "For these specific property types, you can target and modify individual values rather than the entire property."
+        },
+        {
+          "key": "C",
+          "text": "You cannot edit these property types in an automation.",
+          "correct": false,
+          "explanation": "You can edit these properties, but with the specific ability to modify individual items."
+        },
+        {
+          "key": "D",
+          "text": "You must use a formula to select individual values.",
+          "correct": false,
+          "explanation": "The interface allows you to add or remove values directly without needing a formula."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-011",
+      "question": "Which of the following is a scenario where a database automation will NOT trigger?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A user clicks a button that creates a page.",
+          "correct": false,
+          "explanation": "Button actions can trigger database automations."
+        },
+        {
+          "key": "B",
+          "text": "A page is added to a database.",
+          "correct": false,
+          "explanation": "This is the standard 'Page added' trigger scenario."
+        },
+        {
+          "key": "C",
+          "text": "An automation tries to edit a property of a page that was restricted.",
+          "correct": true,
+          "explanation": "Automations will not take action on pages whose access is restricted."
+        },
+        {
+          "key": "D",
+          "text": "A specific property (e.g., Status) is edited to 'Complete'.",
+          "correct": false,
+          "explanation": "This is the standard 'Property edited' trigger scenario."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-012",
+      "question": "Why might a previously working database automation fail to trigger after an edit?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The database has been moved to a different workspace.",
+          "correct": false,
+          "explanation": "Moving the database itself wouldn't necessarily cause the trigger to fail unless the automation's view settings are affected."
+        },
+        {
+          "key": "B",
+          "text": "The page no longer matches a view’s filters after it’s edited.",
+          "correct": true,
+          "explanation": "Automations only run if the page still matches the view when the trigger occurs; if the edit changes the view filters, the automation won't run."
+        },
+        {
+          "key": "C",
+          "text": "The user has lost their Plus plan subscription.",
+          "correct": false,
+          "explanation": "Automations on paid plans usually persist; losing the plan would be a broader issue, but the specific trigger failure is usually view-related."
+        },
+        {
+          "key": "D",
+          "text": "The Gmail account has exceeded its daily sending limit.",
+          "correct": false,
+          "explanation": "While this might stop the *action* of sending an email, it wouldn't necessarily stop the *trigger* from firing."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-013",
+      "question": "In the example of defining a custom variable for parent tasks, how is the 'Variable 1' utilized in the subsequent 'Edit pages in' action?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It acts as the property being edited (e.g., Status).",
+          "correct": false,
+          "explanation": "The property being edited is selected from a dropdown, not from the variable itself."
+        },
+        {
+          "key": "B",
+          "text": "It is used as the database source to edit pages.",
+          "correct": true,
+          "explanation": "The variable is selected as the 'database' in the 'Edit pages in' action to target the specific pages (sub-items) defined by the variable."
+        },
+        {
+          "key": "C",
+          "text": "It acts as the trigger page.",
+          "correct": false,
+          "explanation": "The trigger page is already defined in the trigger step; the variable is used later for the action."
+        },
+        {
+          "key": "D",
+          "text": "It acts as the value being set for the property.",
+          "correct": false,
+          "explanation": "The value (e.g., 'Complete') is selected separately in the action settings."
+        }
+      ]
+    },
+    {
+      "id": "database-automations-014",
+      "question": "Can formulas be used in the message body of a Slack notification sent via a database automation?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, as long as the formula calculates a simple text string.",
+          "correct": false,
+          "explanation": "Formulas are explicitly restricted from use in Slack notifications."
+        },
+        {
+          "key": "B",
+          "text": "No, formulas cannot be used in Slack notifications.",
+          "correct": true,
+          "explanation": "The documentation explicitly states: 'Formulas can’t be used when sending Slack notifications.'"
+        },
+        {
+          "key": "C",
+          "text": "Yes, but only if the Notion user is on the Enterprise plan.",
+          "correct": false,
+          "explanation": "The restriction applies regardless of the plan tier."
+        },
+        {
+          "key": "D",
+          "text": "Yes, formulas can be used for any type of notification action.",
+          "correct": false,
+          "explanation": "This is incorrect; the restriction is specific to Slack notifications."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source": "guides_full-page-vs-inline-databases",
+  "sourceTitle": "Full page vs. inline databases",
+  "sourceUrl": "https://www.notion.so/help/guides_full-page-vs-inline-databases",
+  "questions": [
+    {
+      "id": "guides_full-page-vs-inline-databases-001",
+      "question": "Which display option is best when you need to focus on a database and need quick access to all its menus?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inline database",
+          "correct": false,
+          "explanation": "Inline databases are designed to sit among other content, not for focused work."
+        },
+        {
+          "key": "B",
+          "text": "Full‑page database",
+          "correct": true,
+          "explanation": "Full‑page databases occupy their own page, giving you the full menu set and minimizing distractions."
+        },
+        {
+          "key": "C",
+          "text": "Embedded spreadsheet",
+          "correct": false,
+          "explanation": "Notion does not have a separate 'embedded spreadsheet' option; this is unrelated."
+        },
+        {
+          "key": "D",
+          "text": "Linked database view",
+          "correct": false,
+          "explanation": "Linked views are still inline or full‑page; the key factor is the page layout, not linking."
+        }
+      ]
+    },
+    {
+      "id": "guides_full-page-vs-inline-databases-002",
+      "question": "What is a primary visual benefit of using an inline database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It provides a dedicated full‑screen workspace.",
+          "correct": false,
+          "explanation": "That describes a full‑page database, not inline."
+        },
+        {
+          "key": "B",
+          "text": "It can be tucked under other pages, keeping the workspace tidy.",
+          "correct": true,
+          "explanation": "Inline databases sit within a page, allowing you to keep the overall layout compact."
+        },
+        {
+          "key": "C",
+          "text": "It automatically creates a separate template.",
+          "correct": false,
+          "explanation": "Templates are optional and not a visual benefit of inline display."
+        },
+        {
+          "key": "D",
+          "text": "It disables drag‑and‑drop functionality.",
+          "correct": false,
+          "explanation": "Drag‑and‑drop works for both inline and full‑page databases."
+        }
+      ]
+    },
+    {
+      "id": "guides_full-page-vs-inline-databases-003",
+      "question": "If you want to move a database entry out of the database and turn it into a regular page, what should you do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the entry and press the Delete key.",
+          "correct": false,
+          "explanation": "Deleting removes the entry; it does not convert it to a page."
+        },
+        {
+          "key": "B",
+          "text": "Select the entry and drag it away from the database with your mouse.",
+          "correct": true,
+          "explanation": "Dragging an entry out of the database transforms it into a simple, non‑database page."
+        },
+        {
+          "key": "C",
+          "text": "Right‑click the entry and choose 'Convert to page'.",
+          "correct": false,
+          "explanation": "There is no such context‑menu option in Notion."
+        },
+        {
+          "key": "D",
+          "text": "Duplicate the entry and delete the original.",
+          "correct": false,
+          "explanation": "Duplicating still creates a database entry; it doesn't change its type."
+        }
+      ]
+    },
+    {
+      "id": "guides_full-page-vs-inline-databases-004",
+      "question": "Which statement best describes a scenario where an inline database would be preferable over a full‑page database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you need to edit database properties in a separate window.",
+          "correct": false,
+          "explanation": "Both types edit properties within Notion; a separate window isn’t required."
+        },
+        {
+          "key": "B",
+          "text": "When you want the database to coexist with related notes on the same page.",
+          "correct": true,
+          "explanation": "Inline databases let you place the view alongside other content, making it ideal for contextual information."
+        },
+        {
+          "key": "C",
+          "text": "When you want to hide the database from other collaborators.",
+          "correct": false,
+          "explanation": "Visibility is controlled by page permissions, not by inline vs full‑page."
+        },
+        {
+          "key": "D",
+          "text": "When you need to export the database as a CSV file.",
+          "correct": false,
+          "explanation": "Exporting works for both display types; it isn’t a deciding factor."
+        }
+      ]
+    },
+    {
+      "id": "guides_full-page-vs-inline-databases-005",
+      "question": "How does dragging and dropping affect the placement of an inline database within a page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It only works for full‑page databases, not inline ones.",
+          "correct": false,
+          "explanation": "Both inline and full‑page databases support drag‑and‑drop."
+        },
+        {
+          "key": "B",
+          "text": "It allows you to reposition the database anywhere on the page, keeping the layout flexible.",
+          "correct": true,
+          "explanation": "Inline databases can be moved freely within the page, helping you organize content."
+        },
+        {
+          "key": "C",
+          "text": "It converts the inline database into a full‑page database automatically.",
+          "correct": false,
+          "explanation": "Dragging only changes position; conversion requires a separate action."
+        },
+        {
+          "key": "D",
+          "text": "It locks the database in place so it cannot be edited.",
+          "correct": false,
+          "explanation": "Dragging does not affect editability; it only changes placement."
+        }
+      ]
+    },
+    {
+      "id": "guides_full-page-vs-inline-databases-006",
+      "question": "Which of the following is NOT a benefit of using a full‑page database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Easy access to all database menus.",
+          "correct": false,
+          "explanation": "Full‑page databases indeed provide full menu access."
+        },
+        {
+          "key": "B",
+          "text": "Ability to focus solely on the database without surrounding content.",
+          "correct": false,
+          "explanation": "The dedicated page encourages focus, which is a benefit."
+        },
+        {
+          "key": "C",
+          "text": "Keeping the workspace tidy by nesting the database under other pages.",
+          "correct": true,
+          "explanation": "Tidiness by nesting is characteristic of inline databases, not full‑page."
+        },
+        {
+          "key": "D",
+          "text": "Being able to view the database on its own page.",
+          "correct": false,
+          "explanation": "Viewing on its own page is precisely what full‑page databases do."
+        }
+      ]
+    },
+    {
+      "id": "guides_full-page-vs-inline-databases-007",
+      "question": "When converting a database entry to a regular page, what happens to the original database’s structure for that entry?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The entry remains in the database as a placeholder.",
+          "correct": false,
+          "explanation": "The entry is removed from the database; no placeholder remains."
+        },
+        {
+          "key": "B",
+          "text": "The entry is duplicated: one copy stays in the database, the other becomes a page.",
+          "correct": false,
+          "explanation": "Dragging does not duplicate; it moves the entry out."
+        },
+        {
+          "key": "C",
+          "text": "The entry is removed from the database, and a new regular page with the same content is created.",
+          "correct": true,
+          "explanation": "Dragging out extracts the entry, turning it into a standalone page and removing it from the database."
+        },
+        {
+          "key": "D",
+          "text": "The entry becomes a linked database view on a new page.",
+          "correct": false,
+          "explanation": "Linking is a separate feature; conversion creates a plain page, not a linked view."
+        }
+      ]
+    },
+    {
+      "id": "guides_full-page-vs-inline-databases-008",
+      "question": "What resource does the article suggest if you need additional guidance beyond what is covered?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Visit the Notion help center.",
+          "correct": true,
+          "explanation": "The article lists 'Visit the help center' as a next step for more information."
+        },
+        {
+          "key": "B",
+          "text": "Read the Notion API documentation.",
+          "correct": false,
+          "explanation": "API docs are not mentioned in this context."
+        },
+        {
+          "key": "C",
+          "text": "Contact customer support via phone.",
+          "correct": false,
+          "explanation": "Phone support isn’t referenced in the article."
+        },
+        {
+          "key": "D",
+          "text": "Join the Notion community forum.",
+          "correct": false,
+          "explanation": "While useful, the forum isn’t listed as a resource here."
+        }
+      ]
+    },
+    {
+      "id": "guides_full-page-vs-inline-databases-009",
+      "question": "Which feature allows you to explore pre‑made layouts for databases and other pages?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The template gallery.",
+          "correct": true,
+          "explanation": "The article points to the template gallery, which hosts over 10,000 templates."
+        },
+        {
+          "key": "B",
+          "text": "The quick find bar.",
+          "correct": false,
+          "explanation": "Quick find searches content but doesn’t provide templates."
+        },
+        {
+          "key": "C",
+          "text": "The block menu.",
+          "correct": false,
+          "explanation": "The block menu inserts blocks; it isn’t a template repository."
+        },
+        {
+          "key": "D",
+          "text": "The settings panel.",
+          "correct": false,
+          "explanation": "Settings adjust workspace preferences, not provide templates."
+        }
+      ]
+    },
+    {
+      "id": "guides_full-page-vs-inline-databases-010",
+      "question": "If you need to keep a database view visible while you write a long article on the same page, which display type would likely be most efficient?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full‑page database opened in a separate tab.",
+          "correct": false,
+          "explanation": "Switching tabs disrupts the flow of writing on the same page."
+        },
+        {
+          "key": "B",
+          "text": "Inline database placed near the top of the article.",
+          "correct": true,
+          "explanation": "An inline view stays on the same page, letting you reference it while you write."
+        },
+        {
+          "key": "C",
+          "text": "Convert the database entries to pages and embed them as links.",
+          "correct": false,
+          "explanation": "Linking loses the live view and defeats the purpose of quick reference."
+        },
+        {
+          "key": "D",
+          "text": "Create a linked database view on a different page and toggle visibility.",
+          "correct": false,
+          "explanation": "A linked view on another page still requires navigation away from the article."
+        }
+      ]
+    }
+  ]
+}

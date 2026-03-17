@@ -1,0 +1,317 @@
+{
+  "source": "guides_everything-about-setting-up-and-managing-an-organization-in-notion",
+  "sourceTitle": "Everything you need to know about setting up and managing an organization in Notion",
+  "sourceUrl": "https://www.notion.com/help/guides/everything-about-setting-up-and-managing-an-organization-in-notion",
+  "questions": [
+    {
+      "id": "guides_everything-about-setting-up-and-managing-an-organization-in-notion-001",
+      "question": "What is the first step to gaining organization‑level control in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Creating a workspace for each team",
+          "correct": false,
+          "explanation": "Workspaces are managed within an organization, but they don’t give you organization‑level control until the domain is claimed."
+        },
+        {
+          "key": "B",
+          "text": "Verifying your company domain",
+          "correct": true,
+          "explanation": "Domain verification is the first step; it unlocks admin console features, SAML SSO, and the ability to consolidate workspaces."
+        },
+        {
+          "key": "C",
+          "text": "Enabling Notion AI for all members",
+          "correct": false,
+          "explanation": "Notion AI is a feature you can toggle later; it does not grant admin privileges."
+        },
+        {
+          "key": "D",
+          "text": "Adding at least one organization owner",
+          "correct": false,
+          "explanation": "You need an organization owner to manage settings, but you can’t assign one until the domain is verified."
+        }
+      ]
+    },
+    {
+      "id": "guides_everything-about-setting-up-and-managing-an-organization-in-notion-002",
+      "question": "Which of the following best describes the difference between an organization owner and a workspace owner?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Organization owners can only manage workspaces they belong to, while workspace owners can manage the entire organization.",
+          "correct": false,
+          "explanation": "The opposite is true: organization owners have super‑admin rights across the whole organization."
+        },
+        {
+          "key": "B",
+          "text": "Workspace owners have full control over organization‑wide settings, but cannot manage their own workspace.",
+          "correct": false,
+          "explanation": "Workspace owners manage their own workspace; they do not have organization‑wide authority."
+        },
+        {
+          "key": "C",
+          "text": "Organization owners have authority over all organization‑wide settings, even for workspaces they don’t belong to, while workspace owners manage only their specific workspace.",
+          "correct": true,
+          "explanation": "This captures the hierarchy: organization owners are super admins; workspace owners are limited to their workspace."
+        },
+        {
+          "key": "D",
+          "text": "Both roles have identical permissions; the titles are purely cosmetic.",
+          "correct": false,
+          "explanation": "The roles have distinct permission scopes as described in the guide."
+        }
+      ]
+    },
+    {
+      "id": "guides_everything-about-setting-up-and-managing-an-organization-in-notion-003",
+      "question": "How can you access the admin console to manage organization‑level settings?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the Notion logo in the top‑left corner.",
+          "correct": false,
+          "explanation": "The logo opens the home page, not the admin console."
+        },
+        {
+          "key": "B",
+          "text": "Open the workspace switcher and select “Manage organization”.",
+          "correct": true,
+          "explanation": "The guide specifies that “Manage organization” in the workspace switcher opens the admin console."
+        },
+        {
+          "key": "C",
+          "text": "Press Ctrl+Shift+O on any workspace page.",
+          "correct": false,
+          "explanation": "There is no keyboard shortcut mentioned for opening the admin console."
+        },
+        {
+          "key": "D",
+          "text": "Navigate to Settings → Advanced → Admin Console.",
+          "correct": false,
+          "explanation": "The admin console is not nested under Settings; it’s accessed via the workspace switcher."
+        }
+      ]
+    },
+    {
+      "id": "guides_everything-about-setting-up-and-managing-an-organization-in-notion-004",
+      "question": "Which general‑settings recommendation helps prevent users from creating Notion accounts automatically through SSO?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Turn on “Enable SSO”.",
+          "correct": false,
+          "explanation": "Enabling SSO allows single sign‑on but does not stop automatic account creation."
+        },
+        {
+          "key": "B",
+          "text": "Turn off “Automatic account creation”.",
+          "correct": true,
+          "explanation": "Disabling automatic account creation stops new users from generating Notion accounts via SSO."
+        },
+        {
+          "key": "C",
+          "text": "Set login method to “Only SAML SSO”.",
+          "correct": false,
+          "explanation": "This forces SAML as the login method but does not affect automatic account creation."
+        },
+        {
+          "key": "D",
+          "text": "Enable “Suppress invite emails from SCIM provisioning”.",
+          "correct": false,
+          "explanation": "Suppressing invite emails controls email notifications, not account creation."
+        }
+      ]
+    },
+    {
+      "id": "guides_everything-about-setting-up-and-managing-an-organization-in-notion-005",
+      "question": "What happens when you use the “Bulk apply” option after changing a setting at the workspace level?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The change is applied only to the selected workspace and no other entities.",
+          "correct": false,
+          "explanation": "Bulk apply is specifically for cascading the change to child entities."
+        },
+        {
+          "key": "B",
+          "text": "The change is immediately applied to the workspace and all its associated teamspaces, but you can still tweak individual teamspaces later.",
+          "correct": true,
+          "explanation": "The guide explains that bulk changes cascade down to teamspaces and can be fine‑tuned later."
+        },
+        {
+          "key": "C",
+          "text": "The change is scheduled to take effect after 24 hours across the organization.",
+          "correct": false,
+          "explanation": "Changes take effect right away; there is no 24‑hour delay mentioned."
+        },
+        {
+          "key": "D",
+          "text": "The change overwrites any workspace‑specific overrides, making all settings uniform across the organization.",
+          "correct": false,
+          "explanation": "Bulk apply affects the workspace and its children, not the entire organization, and overrides can still be set per teamspace."
+        }
+      ]
+    },
+    {
+      "id": "guides_everything-about-setting-up-and-managing-an-organization-in-notion-006",
+      "question": "Which security setting should you enable to stop members from publishing sites and forms across the entire organization?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Allow guest invite requests",
+          "correct": false,
+          "explanation": "This setting controls guest invites, not publishing permissions."
+        },
+        {
+          "key": "B",
+          "text": "Disable publishing sites and forms",
+          "correct": true,
+          "explanation": "Turning this on blocks publishing at the organization level, as recommended."
+        },
+        {
+          "key": "C",
+          "text": "Enable automatic account creation",
+          "correct": false,
+          "explanation": "This setting is unrelated to publishing controls."
+        },
+        {
+          "key": "D",
+          "text": "Turn on SAML SSO",
+          "correct": false,
+          "explanation": "SAML SSO handles authentication, not content publishing."
+        }
+      ]
+    },
+    {
+      "id": "guides_everything-about-setting-up-and-managing-an-organization-in-notion-007",
+      "question": "Why does Notion only support a single Identity Provider (IDP) per organization when using SAML SSO?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because multiple IDPs would cause duplicate user accounts across workspaces.",
+          "correct": true,
+          "explanation": "The guide notes that only one IDP can be used to avoid conflicts and ensure consistent authentication."
+        },
+        {
+          "key": "B",
+          "text": "Because Notion does not integrate with any IDP other than Google.",
+          "correct": false,
+          "explanation": "Notion supports many SAML providers; the limitation is on quantity, not brand."
+        },
+        {
+          "key": "C",
+          "text": "Because each workspace must have its own separate IDP.",
+          "correct": false,
+          "explanation": "Workspaces share the organization’s IDP; they don’t need individual providers."
+        },
+        {
+          "key": "D",
+          "text": "Because using multiple IDPs would disable SCIM provisioning.",
+          "correct": false,
+          "explanation": "SCIM provisioning can still work with a single IDP; the restriction isn’t about SCIM."
+        }
+      ]
+    },
+    {
+      "id": "guides_everything-about-setting-up-and-managing-an-organization-in-notion-008",
+      "question": "Which of the following is NOT a recommended workspace setting according to the guide?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Turn on “Limit teamspace creation to only workspace owners”.",
+          "correct": false,
+          "explanation": "This is one of the recommended settings."
+        },
+        {
+          "key": "B",
+          "text": "Turn on “Save and display page view analytics”.",
+          "correct": false,
+          "explanation": "Enabling page view analytics is recommended."
+        },
+        {
+          "key": "C",
+          "text": "Remove all allowed email domains and rely solely on SSO.",
+          "correct": false,
+          "explanation": "Removing email domains to force SSO is recommended."
+        },
+        {
+          "key": "D",
+          "text": "Allow members to create new workspaces without any restrictions.",
+          "correct": true,
+          "explanation": "The guide advises controlling workspace creation, not allowing unrestricted creation."
+        }
+      ]
+    },
+    {
+      "id": "guides_everything-about-setting-up-and-managing-an-organization-in-notion-009",
+      "question": "What primary benefit does the audit log in the Data & Compliance tab provide to organization owners?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically fixes security misconfigurations.",
+          "correct": false,
+          "explanation": "The audit log records actions; it does not automatically remediate issues."
+        },
+        {
+          "key": "B",
+          "text": "It shows a timeline of who made which changes across workspaces, helping with governance and compliance.",
+          "correct": true,
+          "explanation": "The guide describes the audit log as a timeline of actions for governance."
+        },
+        {
+          "key": "C",
+          "text": "It predicts future usage trends based on past activity.",
+          "correct": false,
+          "explanation": "Predictive analytics belong to the Analytics tab, not the audit log."
+        },
+        {
+          "key": "D",
+          "text": "It allows members to edit other members’ permissions directly.",
+          "correct": false,
+          "explanation": "The audit log is read‑only; it does not grant editing rights."
+        }
+      ]
+    },
+    {
+      "id": "guides_everything-about-setting-up-and-managing-an-organization-in-notion-010",
+      "question": "If an organization wants to let members request to add new people to a workspace but still retain review control, which setting should they enable?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Allow member invite requests",
+          "correct": true,
+          "explanation": "Enabling this lets members request invites, which can then be reviewed by owners."
+        },
+        {
+          "key": "B",
+          "text": "Allow guest invite requests",
+          "correct": false,
+          "explanation": "That setting concerns guest invitations, not adding new members."
+        },
+        {
+          "key": "C",
+          "text": "Allow membership requests",
+          "correct": false,
+          "explanation": "The guide recommends turning this off in favor of SSO."
+        },
+        {
+          "key": "D",
+          "text": "Enable automatic account creation",
+          "correct": false,
+          "explanation": "Automatic account creation bypasses the request/review workflow."
+        }
+      ]
+    }
+  ]
+}

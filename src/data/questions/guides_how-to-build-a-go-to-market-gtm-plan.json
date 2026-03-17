@@ -1,0 +1,224 @@
+{
+  "source": "guides_how-to-build-a-go-to-market-gtm-plan",
+  "sourceTitle": "How to build an effective go-to-market (GTM) plan",
+  "sourceUrl": "https://www.notion.com/help/guides/how-to-build-a-go-to-market-gtm-plan",
+  "questions": [
+    {
+      "id": "guides_how-to-build-a-go-to-market-gtm-plan-001",
+      "question": "What is the primary purpose of a Go‑To‑Market (GTM) plan?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To outline the financial budget for a product.",
+          "correct": false,
+          "explanation": "A GTM plan focuses on launch strategy and steps, not specifically on budgeting."
+        },
+        {
+          "key": "B",
+          "text": "To describe the strategy and steps for launching a new product or feature.",
+          "correct": true,
+          "explanation": "Correct – a GTM plan defines how a product will be introduced to the market."
+        },
+        {
+          "key": "C",
+          "text": "To create a detailed technical specification for developers.",
+          "correct": false,
+          "explanation": "Technical specs are separate from the market‑focused launch plan."
+        },
+        {
+          "key": "D",
+          "text": "To generate a list of potential investors for funding.",
+          "correct": false,
+          "explanation": "Investor lists are not the main focus of a GTM plan."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-go-to-market-gtm-plan-002",
+      "question": "When setting up a GTM plan in Notion, which database property is NOT mentioned as part of the default Projects database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Launch date",
+          "correct": false,
+          "explanation": "Launch date is listed as one of the default properties."
+        },
+        {
+          "key": "B",
+          "text": "DRI (Directly Responsible Individual)",
+          "correct": false,
+          "explanation": "DRI is explicitly mentioned as a default property."
+        },
+        {
+          "key": "C",
+          "text": "Priority level",
+          "correct": false,
+          "explanation": "Priority level is included in the default set."
+        },
+        {
+          "key": "D",
+          "text": "Customer acquisition cost",
+          "correct": true,
+          "explanation": "Customer acquisition cost is not listed among the default properties."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-go-to-market-gtm-plan-003",
+      "question": "Why should you add a table of contents at the top of your GTM plan page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically generates a project timeline.",
+          "correct": false,
+          "explanation": "A table of contents provides navigation, not a timeline."
+        },
+        {
+          "key": "B",
+          "text": "It allows readers to quickly jump to each major section.",
+          "correct": true,
+          "explanation": "Correct – the TOC improves navigation across sections like About, Execution, and Launch Day."
+        },
+        {
+          "key": "C",
+          "text": "It creates a visual background color for the page.",
+          "correct": false,
+          "explanation": "Background colors are set via block styling, not through a TOC."
+        },
+        {
+          "key": "D",
+          "text": "It links the GTM plan to external YouTube videos.",
+          "correct": false,
+          "explanation": "Linking videos is done via embed blocks, not by a table of contents."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-go-to-market-gtm-plan-004",
+      "question": "Which Notion feature helps you keep track of all meeting notes related to your GTM plan?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Relation property",
+          "correct": true,
+          "explanation": "The Relation property lets you link other pages, such as meeting notes, to the GTM plan."
+        },
+        {
+          "key": "B",
+          "text": "Formula property",
+          "correct": false,
+          "explanation": "Formulas calculate values; they don’t create links between pages."
+        },
+        {
+          "key": "C",
+          "text": "Rollup property",
+          "correct": false,
+          "explanation": "Rollups aggregate data from related items but require a Relation first."
+        },
+        {
+          "key": "D",
+          "text": "Toggle block",
+          "correct": false,
+          "explanation": "Toggle blocks hide content; they don’t establish cross‑page connections."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-go-to-market-gtm-plan-005",
+      "question": "How can you make your GTM plan page more visually engaging in Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add background colors and create columns by dragging blocks side‑by‑side.",
+          "correct": true,
+          "explanation": "Correct – customizing background colors and arranging columns enhances visual appeal."
+        },
+        {
+          "key": "B",
+          "text": "Increase the page’s font size globally via the settings menu.",
+          "correct": false,
+          "explanation": "Notion does not provide a global font‑size setting for a single page."
+        },
+        {
+          "key": "C",
+          "text": "Insert a spreadsheet from Google Sheets to replace the Notion database.",
+          "correct": false,
+          "explanation": "Embedding a spreadsheet is possible but does not directly affect Notion’s visual styling."
+        },
+        {
+          "key": "D",
+          "text": "Enable dark mode for only the GTM plan page.",
+          "correct": false,
+          "explanation": "Dark mode applies to the entire workspace, not a single page."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-go-to-market-gtm-plan-006",
+      "question": "What advantage does using a template from Notion’s template gallery provide when building a GTM plan?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically syncs the GTM plan with external CRM systems.",
+          "correct": false,
+          "explanation": "Templates do not include built‑in CRM integration; they are pre‑designed page structures."
+        },
+        {
+          "key": "B",
+          "text": "It gives you a pre‑structured layout with common sections and properties, saving setup time.",
+          "correct": true,
+          "explanation": "Correct – templates offer ready‑made sections (e.g., About, Execution) and relevant properties, accelerating creation."
+        },
+        {
+          "key": "C",
+          "text": "It locks the page so team members cannot edit any content.",
+          "correct": false,
+          "explanation": "Templates are editable; they do not enforce read‑only permissions."
+        },
+        {
+          "key": "D",
+          "text": "It provides AI‑generated market analysis data within the plan.",
+          "correct": false,
+          "explanation": "AI‑generated data is not a built‑in feature of Notion templates."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-go-to-market-gtm-plan-007",
+      "question": "Which combination of Notion features best supports assigning actionable tasks to team members within a GTM plan?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Checklists, @‑mentions, and dynamic dates.",
+          "correct": true,
+          "explanation": "Checklists create tasks, @‑mentions notify responsible people, and dynamic dates keep timelines current."
+        },
+        {
+          "key": "B",
+          "text": "Headers, background colors, and table of contents.",
+          "correct": false,
+          "explanation": "These improve organization and aesthetics but don’t directly assign tasks."
+        },
+        {
+          "key": "C",
+          "text": "Relation property, rollup, and formula.",
+          "correct": false,
+          "explanation": "These are for linking and calculating data, not for task assignment."
+        },
+        {
+          "key": "D",
+          "text": "Embedded YouTube video, image block, and toggle.",
+          "correct": false,
+          "explanation": "Multimedia blocks enhance content richness but don’t manage task delegation."
+        }
+      ]
+    }
+  ]
+}

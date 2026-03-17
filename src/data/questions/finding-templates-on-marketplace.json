@@ -1,0 +1,317 @@
+{
+  "source": "finding-templates-on-marketplace",
+  "sourceTitle": "Finding templates on Marketplace",
+  "sourceUrl": "https://www.notion.so/help/finding-templates-on-marketplace",
+  "questions": [
+    {
+      "id": "finding-templates-on-marketplace-001",
+      "question": "Where can you open Notion’s Marketplace from within the app?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "By clicking the ‘Templates’ link in the Notion sidebar",
+          "correct": true,
+          "explanation": "The article states you visit Marketplace by going to ‘Templates’ in the sidebar."
+        },
+        {
+          "key": "B",
+          "text": "By selecting ‘Settings & Members’ in the top‑right menu",
+          "correct": false,
+          "explanation": "‘Settings & Members’ opens account settings, not the Marketplace."
+        },
+        {
+          "key": "C",
+          "text": "By typing marketplace.notion.com in your browser",
+          "correct": false,
+          "explanation": "That URL is not the in‑app way to open Marketplace."
+        },
+        {
+          "key": "D",
+          "text": "By clicking the ‘Help & Feedback’ button",
+          "correct": false,
+          "explanation": "‘Help & Feedback’ leads to help articles, not the Marketplace."
+        }
+      ]
+    },
+    {
+      "id": "finding-templates-on-marketplace-002",
+      "question": "Which of the following pieces of information is NOT displayed under each template in Marketplace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The template’s overall rating",
+          "correct": false,
+          "explanation": "Ratings are listed under each template."
+        },
+        {
+          "key": "B",
+          "text": "The number of times the template has been added",
+          "correct": false,
+          "explanation": "The article mentions this count is shown."
+        },
+        {
+          "key": "C",
+          "text": "The creator’s personal email address",
+          "correct": true,
+          "explanation": "Creator email is not displayed; you can only contact them via the ‘Contact creator’ option."
+        },
+        {
+          "key": "D",
+          "text": "The Notion features included in the template",
+          "correct": false,
+          "explanation": "Feature list is part of the template details."
+        }
+      ]
+    },
+    {
+      "id": "finding-templates-on-marketplace-003",
+      "question": "What must you be using in order to add a template to your workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Notion mobile app",
+          "correct": false,
+          "explanation": "The note specifies you must be on desktop or web, not mobile."
+        },
+        {
+          "key": "B",
+          "text": "A logged‑in session on Notion’s desktop or web app",
+          "correct": true,
+          "explanation": "You must be logged in and on desktop or web to add a template."
+        },
+        {
+          "key": "C",
+          "text": "A third‑party browser extension",
+          "correct": false,
+          "explanation": "No extension is required."
+        },
+        {
+          "key": "D",
+          "text": "An incognito browser window",
+          "correct": false,
+          "explanation": "Incognito would not retain your login session."
+        }
+      ]
+    },
+    {
+      "id": "finding-templates-on-marketplace-004",
+      "question": "If a template you purchase contains a form, what is the recommended step after duplicating it?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete the form block entirely",
+          "correct": false,
+          "explanation": "You don’t need to delete it; you need to recreate it."
+        },
+        {
+          "key": "B",
+          "text": "Set up a separate version of the form from scratch",
+          "correct": true,
+          "explanation": "The article advises creating a new form so responses go to you, not the original creator."
+        },
+        {
+          "key": "C",
+          "text": "Share the form with the original creator",
+          "correct": false,
+          "explanation": "Sharing isn’t required and could expose your data."
+        },
+        {
+          "key": "D",
+          "text": "Leave the form as is; it will automatically redirect responses",
+          "correct": false,
+          "explanation": "Responses will still go to the original creator unless you recreate the form."
+        }
+      ]
+    },
+    {
+      "id": "finding-templates-on-marketplace-005",
+      "question": "Which of the following statements about coupons when buying a paid template is true?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You can apply multiple coupons to a single purchase",
+          "correct": false,
+          "explanation": "The article states you can’t use more than one coupon per purchase."
+        },
+        {
+          "key": "B",
+          "text": "Coupons never expire",
+          "correct": false,
+          "explanation": "Coupons may expire, as noted."
+        },
+        {
+          "key": "C",
+          "text": "If a coupon expires, you can still use it if you have a backup code",
+          "correct": false,
+          "explanation": "There’s no mention of backup codes; expired coupons are invalid."
+        },
+        {
+          "key": "D",
+          "text": "You can enter a coupon code during checkout, but only one per purchase",
+          "correct": true,
+          "explanation": "The checkout process allows a single coupon code per purchase."
+        }
+      ]
+    },
+    {
+      "id": "finding-templates-on-marketplace-006",
+      "question": "After successfully purchasing a template, what immediate feedback does Notion provide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A pop‑up asking you to rate the template",
+          "correct": false,
+          "explanation": "Rating is optional and not shown immediately after purchase."
+        },
+        {
+          "key": "B",
+          "text": "A message confirming the purchase and another confirming the template is ready for use",
+          "correct": true,
+          "explanation": "The article mentions both messages appear after a successful purchase."
+        },
+        {
+          "key": "C",
+          "text": "An email with a download link",
+          "correct": false,
+          "explanation": "Templates are added directly to your workspace, not emailed."
+        },
+        {
+          "key": "D",
+          "text": "A prompt to share the template on social media",
+          "correct": false,
+          "explanation": "No such prompt is described."
+        }
+      ]
+    },
+    {
+      "id": "finding-templates-on-marketplace-007",
+      "question": "Which templates will appear in the “Added” menu of Marketplace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "All templates you have ever opened, regardless of purchase method",
+          "correct": false,
+          "explanation": "Only those added or purchased directly on Marketplace appear."
+        },
+        {
+          "key": "B",
+          "text": "Only templates you added or purchased directly on Marketplace",
+          "correct": true,
+          "explanation": "The note specifies that third‑party purchases are excluded."
+        },
+        {
+          "key": "C",
+          "text": "Templates you have liked on the community forum",
+          "correct": false,
+          "explanation": "Liking a template does not add it to the list."
+        },
+        {
+          "key": "D",
+          "text": "Templates that are currently free",
+          "correct": false,
+          "explanation": "Free vs paid status isn’t the filter for the Added menu."
+        }
+      ]
+    },
+    {
+      "id": "finding-templates-on-marketplace-008",
+      "question": "If you are on Notion’s Free Plan, which of the following is true about automations in a duplicated template?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "You can edit existing automations but cannot create new ones",
+          "correct": false,
+          "explanation": "The article says you cannot edit them on the Free Plan."
+        },
+        {
+          "key": "B",
+          "text": "You can use and turn off automations, but cannot edit or create new ones",
+          "correct": true,
+          "explanation": "Free Plan users can toggle automations but not edit or add new ones."
+        },
+        {
+          "key": "C",
+          "text": "Automations are completely disabled and cannot be turned on",
+          "correct": false,
+          "explanation": "You can still use and turn them off, just not edit."
+        },
+        {
+          "key": "D",
+          "text": "All automations are automatically upgraded to premium features",
+          "correct": false,
+          "explanation": "Free Plan does not grant premium automation capabilities."
+        }
+      ]
+    },
+    {
+      "id": "finding-templates-on-marketplace-009",
+      "question": "Under what condition will Notion decline a refund request for a Marketplace purchase?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "If the request is made after 30 days from purchase",
+          "correct": false,
+          "explanation": "The policy allows refunds within 14 days, not 30."
+        },
+        {
+          "key": "B",
+          "text": "If the user has made multiple refund requests in a short period, indicating abusive behavior",
+          "correct": true,
+          "explanation": "Notion may decline refunds for abusive patterns, as stated."
+        },
+        {
+          "key": "C",
+          "text": "If the template was purchased on a third‑party platform",
+          "correct": false,
+          "explanation": "Refunds for third‑party purchases are not handled by Notion, but the question asks about a Marketplace refund request."
+        },
+        {
+          "key": "D",
+          "text": "If the user no longer wants the template but has used it for more than 5 days",
+          "correct": false,
+          "explanation": "Usage time isn’t a listed reason for denial; only abusive behavior is mentioned."
+        }
+      ]
+    },
+    {
+      "id": "finding-templates-on-marketplace-010",
+      "question": "What happens to copies of a template in your workspace after a refund is approved?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "All copies, including any edits and added pages, are removed",
+          "correct": true,
+          "explanation": "The policy states that all copies and edits are removed after a refund."
+        },
+        {
+          "key": "B",
+          "text": "Only the original duplicated page is removed; any derived pages remain",
+          "correct": false,
+          "explanation": "The article says all copies, even derived pages, are removed."
+        },
+        {
+          "key": "C",
+          "text": "The template is archived but remains viewable in read‑only mode",
+          "correct": false,
+          "explanation": "Refund removal is complete, not archival."
+        },
+        {
+          "key": "D",
+          "text": "The template is replaced with a blank page placeholder",
+          "correct": false,
+          "explanation": "The content is fully deleted, not replaced with a placeholder."
+        }
+      ]
+    }
+  ]
+}

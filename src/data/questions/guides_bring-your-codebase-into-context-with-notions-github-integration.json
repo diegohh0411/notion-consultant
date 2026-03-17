@@ -1,0 +1,317 @@
+{
+  "source": "guides_bring-your-codebase-into-context-with-notions-github-integration",
+  "sourceTitle": "Bring your codebase into context with Notion's GitHub integration",
+  "sourceUrl": "https://www.notion.com/help/guides/bring-your-codebase-into-context-with-notions-github-integration",
+  "questions": [
+    {
+      "id": "guides_bring-your-codebase-into-context-with-notions-github-integration-001",
+      "question": "What is the primary benefit of linking a GitHub Pull Request property to a Notion database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically creates a new GitHub repository.",
+          "correct": false,
+          "explanation": "Linking a PR property does not create repositories; it connects existing PRs to Notion pages."
+        },
+        {
+          "key": "B",
+          "text": "Updates to the PR sync instantly to the Notion page, keeping the team informed.",
+          "correct": true,
+          "explanation": "The integration ensures any changes in the linked PR appear in Notion in real‑time, providing up‑to‑date context."
+        },
+        {
+          "key": "C",
+          "text": "It allows Notion to push code changes back to GitHub.",
+          "correct": false,
+          "explanation": "Sync is one‑way from GitHub to Notion; Notion cannot push code edits."
+        },
+        {
+          "key": "D",
+          "text": "It converts the PR into a Notion task automatically.",
+          "correct": false,
+          "explanation": "The PR remains a PR; the property only links it, not transforms its type."
+        }
+      ]
+    },
+    {
+      "id": "guides_bring-your-codebase-into-context-with-notions-github-integration-002",
+      "question": "Which of the following statements about Magic Keywords is correct?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They can close a Notion task only when the PR is merged, if the keyword indicates a closing action.",
+          "correct": true,
+          "explanation": "Magic Keywords like “closes” or “finishes” trigger Notion to mark the linked task as done when the PR merges."
+        },
+        {
+          "key": "B",
+          "text": "They create a new GitHub issue each time a Notion task is updated.",
+          "correct": false,
+          "explanation": "Magic Keywords link existing PRs to tasks; they do not generate new issues."
+        },
+        {
+          "key": "C",
+          "text": "They are required for any GitHub‑Notion connection to work.",
+          "correct": false,
+          "explanation": "The integration works without Magic Keywords; they are optional shortcuts for automation."
+        },
+        {
+          "key": "D",
+          "text": "They prevent any comments from syncing between GitHub and Notion.",
+          "correct": false,
+          "explanation": "Comments can still sync; Magic Keywords only affect linking and status changes."
+        }
+      ]
+    },
+    {
+      "id": "guides_bring-your-codebase-into-context-with-notions-github-integration-003",
+      "question": "When enabling comment sync, what does turning on the \"Activity Comments\" toggle achieve?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It copies all GitHub comments into a separate Notion page unrelated to the PR.",
+          "correct": false,
+          "explanation": "Comments are added to the linked Notion page, not a separate page."
+        },
+        {
+          "key": "B",
+          "text": "It mirrors GitHub comments as Notion page comments in real‑time.",
+          "correct": true,
+          "explanation": "Activating the toggle makes GitHub comments appear as comments on the associated Notion page instantly."
+        },
+        {
+          "key": "C",
+          "text": "It disables all other GitHub integrations.",
+          "correct": false,
+          "explanation": "Comment sync is independent and does not affect other integration features."
+        },
+        {
+          "key": "D",
+          "text": "It automatically resolves all open GitHub issues.",
+          "correct": false,
+          "explanation": "Comment sync does not change issue status; it only displays comments."
+        }
+      ]
+    },
+    {
+      "id": "guides_bring-your-codebase-into-context-with-notions-github-integration-004",
+      "question": "Why are synced databases described as \"one‑way only\" in the context of the GitHub integration?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because changes made in Notion will overwrite the GitHub repository.",
+          "correct": false,
+          "explanation": "The sync does not push changes back to GitHub; it only reflects GitHub data."
+        },
+        {
+          "key": "B",
+          "text": "Because updates must originate in GitHub to appear in Notion.",
+          "correct": true,
+          "explanation": "Synced databases pull data from GitHub; any modifications need to happen in GitHub to be reflected."
+        },
+        {
+          "key": "C",
+          "text": "Because Notion automatically creates new GitHub branches for each view.",
+          "correct": false,
+          "explanation": "No branches are created; the integration only reads data."
+        },
+        {
+          "key": "D",
+          "text": "Because Notion cannot display GitHub data without a manual refresh.",
+          "correct": false,
+          "explanation": "Syncs happen automatically; the limitation is the direction of data flow, not refresh frequency."
+        }
+      ]
+    },
+    {
+      "id": "guides_bring-your-codebase-into-context-with-notions-github-integration-005",
+      "question": "Which custom view configuration would best help a project manager track which team member is responsible for each open pull request?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a view filtered by the \"Status\" property showing only closed PRs.",
+          "correct": false,
+          "explanation": "Closed PRs are not relevant for current responsibility tracking."
+        },
+        {
+          "key": "B",
+          "text": "Create a view filtered by the \"Assignee\" property showing only open PRs.",
+          "correct": true,
+          "explanation": "Filtering by Assignee and open status surfaces the PRs each person is currently working on."
+        },
+        {
+          "key": "C",
+          "text": "Create a view sorted by creation date without any filters.",
+          "correct": false,
+          "explanation": "Sorting alone won’t isolate responsibility or open PRs."
+        },
+        {
+          "key": "D",
+          "text": "Create a view that groups by the \"Repository\" property.",
+          "correct": false,
+          "explanation": "Grouping by repository doesn’t directly reveal who is assigned to each PR."
+        }
+      ]
+    },
+    {
+      "id": "guides_bring-your-codebase-into-context-with-notions-github-integration-006",
+      "question": "How do database relations enhance the visibility of code changes across non‑technical teams?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They automatically generate code documentation from PR descriptions.",
+          "correct": false,
+          "explanation": "Relations link records; they don’t create documentation."
+        },
+        {
+          "key": "B",
+          "text": "They allow you to connect PRs to project roadmaps, goals, and other databases, showing how code impacts broader objectives.",
+          "correct": true,
+          "explanation": "Relations bridge PRs with other data, giving stakeholders context on how changes align with goals."
+        },
+        {
+          "key": "C",
+          "text": "They sync all comments from GitHub into a separate Notion page for each team.",
+          "correct": false,
+          "explanation": "Comments sync via the Activity Comments toggle, not via relations."
+        },
+        {
+          "key": "D",
+          "text": "They replace the need for Magic Keywords entirely.",
+          "correct": false,
+          "explanation": "Relations and Magic Keywords serve different purposes; one doesn’t replace the other."
+        }
+      ]
+    },
+    {
+      "id": "guides_bring-your-codebase-into-context-with-notions-github-integration-007",
+      "question": "What advantage does adding a GitHub link preview to a Notion document provide to stakeholders?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows stakeholders to edit the GitHub PR directly from Notion.",
+          "correct": false,
+          "explanation": "Link previews are read‑only; editing still occurs in GitHub."
+        },
+        {
+          "key": "B",
+          "text": "It gives a visual snapshot of the PR or issue, letting stakeholders understand the work without leaving Notion.",
+          "correct": true,
+          "explanation": "Previews embed key information, reducing context‑switching for non‑technical viewers."
+        },
+        {
+          "key": "C",
+          "text": "It automatically closes the PR when the Notion page is archived.",
+          "correct": false,
+          "explanation": "Archiving a Notion page has no effect on the PR status."
+        },
+        {
+          "key": "D",
+          "text": "It duplicates the entire codebase into the Notion page.",
+          "correct": false,
+          "explanation": "Only a preview of the specific PR/issue appears, not the whole repository."
+        }
+      ]
+    },
+    {
+      "id": "guides_bring-your-codebase-into-context-with-notions-github-integration-008",
+      "question": "Which scenario best illustrates the use of Notion AI to accelerate a non‑technical team's workflow with GitHub data?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A designer asks Notion AI for a summary of open mobile app issues to understand current blockers.",
+          "correct": true,
+          "explanation": "The AI can pull and summarize GitHub issues, giving the designer quick insight without digging into GitHub."
+        },
+        {
+          "key": "B",
+          "text": "A developer uses Notion AI to automatically merge pull requests.",
+          "correct": false,
+          "explanation": "AI cannot perform merge actions; it only provides information."
+        },
+        {
+          "key": "C",
+          "text": "A product manager asks Notion AI to rewrite the code of a feature.",
+          "correct": false,
+          "explanation": "AI does not edit code; it assists with queries and summaries."
+        },
+        {
+          "key": "D",
+          "text": "A QA tester asks Notion AI to delete old GitHub branches.",
+          "correct": false,
+          "explanation": "Deletion of branches is an action outside AI's scope; AI only retrieves information."
+        }
+      ]
+    },
+    {
+      "id": "guides_bring-your-codebase-into-context-with-notions-github-integration-009",
+      "question": "If a team wants to ensure that a Notion task is *not* marked as done when a linked PR is merged, what should they do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use a reference‑only link for that task instead of a standard Magic Keyword link.",
+          "correct": true,
+          "explanation": "Reference‑only links prevent the automatic status change while still maintaining the connection."
+        },
+        {
+          "key": "B",
+          "text": "Turn off the GitHub integration entirely.",
+          "correct": false,
+          "explanation": "Disabling the integration would remove all syncing, not just the status change."
+        },
+        {
+          "key": "C",
+          "text": "Add the word \"ignore\" to the PR description.",
+          "correct": false,
+          "explanation": "There is no built‑in keyword that stops the status update; the reference‑only option is the correct method."
+        },
+        {
+          "key": "D",
+          "text": "Manually delete the task after the PR merges.",
+          "correct": false,
+          "explanation": "Deleting the task defeats the purpose of keeping the record linked."
+        }
+      ]
+    },
+    {
+      "id": "guides_bring-your-codebase-into-context-with-notions-github-integration-010",
+      "question": "What is a key reason organizations might keep GitHub access limited to developers while using Notion for broader project updates?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion can replace the need for a version control system.",
+          "correct": false,
+          "explanation": "Notion does not manage code versions; GitHub remains the VCS."
+        },
+        {
+          "key": "B",
+          "text": "It centralizes status and context in a tool non‑technical team members are already comfortable with.",
+          "correct": true,
+          "explanation": "Using Notion as the single source of truth reduces context switching for stakeholders who don’t use GitHub."
+        },
+        {
+          "key": "C",
+          "text": "It automatically grants all employees write access to the codebase.",
+          "correct": false,
+          "explanation": "Access permissions remain controlled in GitHub; Notion does not alter them."
+        },
+        {
+          "key": "D",
+          "text": "It eliminates the need for code reviews.",
+          "correct": false,
+          "explanation": "Code reviews still happen in GitHub; Notion only surfaces information."
+        }
+      ]
+    }
+  ]
+}

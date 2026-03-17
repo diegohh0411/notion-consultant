@@ -1,0 +1,348 @@
+{
+  "source": "autofill",
+  "sourceTitle": "Notion AI for databases",
+  "sourceUrl": "https://www.notion.so/help/autofill",
+  "questions": [
+    {
+      "id": "autofill-001",
+      "question": "Is creating a database using Notion AI free?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, it is completely free to use.",
+          "correct": true,
+          "explanation": "Creating a database with Notion AI is free; you do not need a Notion AI subscription for your workspace."
+        },
+        {
+          "key": "B",
+          "text": "No, it requires a paid Notion AI subscription.",
+          "correct": false,
+          "explanation": "This is incorrect. You can create databases with Notion AI without having Notion AI for your workspace."
+        },
+        {
+          "key": "C",
+          "text": "No, it counts toward your complimentary AI responses.",
+          "correct": false,
+          "explanation": "Creating a database with Notion AI does not count toward your complimentary AI responses."
+        },
+        {
+          "key": "D",
+          "text": "It depends on the type of database you create.",
+          "correct": false,
+          "explanation": "The cost is not dependent on the database type; it is free to create any database with Notion AI."
+        }
+      ]
+    },
+    {
+      "id": "autofill-002",
+      "question": "Which of the following limitations applies to databases created with Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It cannot edit existing databases.",
+          "correct": true,
+          "explanation": "Notion AI can create new databases but cannot edit existing databases."
+        },
+        {
+          "key": "B",
+          "text": "It cannot create pages within a database.",
+          "correct": true,
+          "explanation": "Notion AI cannot create pages in your database, database automations, forms, charts, or templates."
+        },
+        {
+          "key": "C",
+          "text": "It cannot visualize databases as boards or calendars.",
+          "correct": false,
+          "explanation": "Notion AI allows you to choose how you prefer to visualize the database items (e.g., List, Board, Calendar) before selecting Done."
+        },
+        {
+          "key": "D",
+          "text": "It cannot be moved to another page.",
+          "correct": false,
+          "explanation": "You can move databases created by AI to another page in your workspace."
+        }
+      ]
+    },
+    {
+      "id": "autofill-003",
+      "question": "When setting up AI Autofill for a Text property, which option is available?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Custom autofill: AI generates content based on your custom prompt.",
+          "correct": true,
+          "explanation": "Custom autofill is a valid option in the menu next to 'Fill with' for Text properties."
+        },
+        {
+          "key": "B",
+          "text": "Generate new options: AI creates new tags for the property.",
+          "correct": false,
+          "explanation": "The 'Generate new options' feature is specific to Select and Multi-select properties, not Text."
+        },
+        {
+          "key": "C",
+          "text": "Auto-update: Updates the property 5 minutes after changes.",
+          "correct": false,
+          "explanation": "Auto-update is a setting found under 'More' in Select/Multi-select properties, not a 'Fill with' option for Text."
+        },
+        {
+          "key": "D",
+          "text": "Web Search: AI reads information on the internet.",
+          "correct": false,
+          "explanation": "Notion AI Autofill does not read information on the web."
+        }
+      ]
+    },
+    {
+      "id": "autofill-004",
+      "question": "How can you manually trigger AI to fill or update a Select or Multi-select property?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the wand button that appears when hovering over a value.",
+          "correct": true,
+          "explanation": "You can manually trigger AI by hovering over an existing value and clicking the wand button that appears."
+        },
+        {
+          "key": "B",
+          "text": "Select 'More' and choose 'Trigger AI'.",
+          "correct": false,
+          "explanation": "While there is an 'Auto-update' option under 'More', there is no direct 'Trigger AI' menu item; the wand button is the manual method."
+        },
+        {
+          "key": "C",
+          "text": "Wait for the 5-minute auto-update window.",
+          "correct": false,
+          "explanation": "The 5-minute window applies only when 'Auto-update on page edits' is enabled; you can manually trigger it immediately using the wand."
+        },
+        {
+          "key": "D",
+          "text": "Edit the page title to force an update.",
+          "correct": false,
+          "explanation": "Editing the title does not trigger AI Autofill for Select/Multi-select properties."
+        }
+      ]
+    },
+    {
+      "id": "autofill-005",
+      "question": "What happens if you toggle on 'Generate new options' for a Select or Multi-select property?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI will automatically assign these new options to all existing database entries.",
+          "correct": false,
+          "explanation": "Turning this on allows AI to generate new options to apply to *new* database entries, not automatically to existing ones."
+        },
+        {
+          "key": "B",
+          "text": "AI will create a new database property for you.",
+          "correct": false,
+          "explanation": "This toggle only affects the options available for the existing Select or Multi-select property."
+        },
+        {
+          "key": "C",
+          "text": "AI will generate new options to apply to any new database entries.",
+          "correct": true,
+          "explanation": "When this is turned on, AI will generate new options to apply to any new database entries."
+        },
+        {
+          "key": "D",
+          "text": "You must manually type the options into the property.",
+          "correct": false,
+          "explanation": "The purpose of the toggle is to automate the generation of options using AI."
+        }
+      ]
+    },
+    {
+      "id": "autofill-006",
+      "question": "If you use the Home widget to build a database with Notion AI, where is the database located?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is added to your workspace as a new page.",
+          "correct": true,
+          "explanation": "Databases created with Build mode in Home are added to your workspace as a new page."
+        },
+        {
+          "key": "B",
+          "text": "It is added to the 'Home' view within the widget.",
+          "correct": false,
+          "explanation": "The Home widget is used to create the database; the resulting database is a standalone page in the workspace."
+        },
+        {
+          "key": "C",
+          "text": "It is embedded into the Home page itself.",
+          "correct": false,
+          "explanation": "It is not embedded into the Home page; it is a new page added to the workspace."
+        },
+        {
+          "key": "D",
+          "text": "It is only visible when you toggle to Build mode again.",
+          "correct": false,
+          "explanation": "Once created, the database exists as a standard page in your workspace."
+        }
+      ]
+    },
+    {
+      "id": "autofill-007",
+      "question": "You want to build a database inside a specific, existing page. How do you do this?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Navigate to that specific page and use the slash command /database.",
+          "correct": true,
+          "explanation": "To build a database in a specific page, you must navigate to that page and create the database there using the slash command."
+        },
+        {
+          "key": "B",
+          "text": "Use the Home widget and specify the page name in the prompt.",
+          "correct": false,
+          "explanation": "Using the Home widget will create a new page in the workspace, not insert a database into a specific existing page."
+        },
+        {
+          "key": "C",
+          "text": "Create the database in Home and then drag and drop it into the page.",
+          "correct": false,
+          "explanation": "While you can move a database created by AI to another page afterwards, the prompt asks how to build *in* a specific page initially."
+        },
+        {
+          "key": "D",
+          "text": "Use the slash command /autofill in the Home page.",
+          "correct": false,
+          "explanation": "There is no '/autofill' slash command. The correct command is '/database'."
+        }
+      ]
+    },
+    {
+      "id": "autofill-008",
+      "question": "What is the recommended practice regarding the accuracy of Notion AI's responses?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You should not rely on Notion AI for critical content.",
+          "correct": false,
+          "explanation": "While Writer is effective, you should always check the accuracy of content from Notion AI before relying on it for critical content."
+        },
+        {
+          "key": "B",
+          "text": "You should always verify the accuracy of content before using it for critical tasks.",
+          "correct": true,
+          "explanation": "It is recommended to always check the accuracy of content from Notion AI before relying on it for critical content."
+        },
+        {
+          "key": "C",
+          "text": "Notion AI is 100% accurate for all database operations.",
+          "correct": false,
+          "explanation": "There are no guarantees of 100% accuracy, so verification is necessary."
+        },
+        {
+          "key": "D",
+          "text": "You should use Notion AI only for brainstorming to avoid errors.",
+          "correct": false,
+          "explanation": "Notion AI is effective for summarizing and extracting, but accuracy must still be verified regardless of the use case."
+        }
+      ]
+    },
+    {
+      "id": "autofill-009",
+      "question": "Which property type has a specific limitation regarding text files?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text property",
+          "correct": false,
+          "explanation": "The limitation applies to the File property, not the Text property."
+        },
+        {
+          "key": "B",
+          "text": "Select property",
+          "correct": false,
+          "explanation": "The limitation applies to the File property, not the Select property."
+        },
+        {
+          "key": "C",
+          "text": "File property",
+          "correct": true,
+          "explanation": "Notion AI Autofill cannot reference text files attached in a File property."
+        },
+        {
+          "key": "D",
+          "text": "Multi-select property",
+          "correct": false,
+          "explanation": "The limitation applies to the File property, not the Multi-select property."
+        }
+      ]
+    },
+    {
+      "id": "autofill-010",
+      "question": "How long does the 'Auto-update on page edits' setting wait before updating a Select or Multi-select property?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately",
+          "correct": false,
+          "explanation": "The property updates five minutes after changes are made, not immediately."
+        },
+        {
+          "key": "B",
+          "text": "After 5 minutes",
+          "correct": true,
+          "explanation": "When 'Auto-update on page edits' is enabled, the property updates five minutes after changes are made to the page."
+        },
+        {
+          "key": "C",
+          "text": "After 10 minutes",
+          "correct": false,
+          "explanation": "The specified wait time is 5 minutes, not 10."
+        },
+        {
+          "key": "D",
+          "text": "After page refresh",
+          "correct": false,
+          "explanation": "The update is time-based (5 minutes), not triggered by a page refresh."
+        }
+      ]
+    },
+    {
+      "id": "autofill-011",
+      "question": "Can Notion AI Autofill read information from the internet?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, it has real-time web access.",
+          "correct": false,
+          "explanation": "No, Notion AI Autofill does not read information on the web."
+        },
+        {
+          "key": "B",
+          "text": "No, it only processes data within your workspace.",
+          "correct": true,
+          "explanation": "Notion AI Autofill does not read information on the web; it processes data within your workspace."
+        },
+        {
+          "key": "C",
+          "text": "Only if you explicitly ask it to search.",
+          "correct": false,
+          "explanation": "There is no web search capability in the standard Autofill feature."
+        },
+        {
+          "key": "D",
+          "text": "Yes, for specific properties like Select.",
+          "correct": false,
+          "explanation": "This is a general limitation; it applies to all property types."
+        }
+      ]
+    }
+  ]
+}

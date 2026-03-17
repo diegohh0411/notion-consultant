@@ -1,0 +1,317 @@
+{
+  "source": "guides_build-the-perfect-workflow-with-customizable-layouts",
+  "sourceTitle": "Build the perfect workflow with customizable layouts",
+  "sourceUrl": "https://www.notion.so/help/guides/build-the-perfect-workflow-with-customizable-layouts",
+  "questions": [
+    {
+      "id": "build-the-perfect-workflow-with-customizable-layouts-001",
+      "question": "How do you open the Layout Builder for a database page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the three‑dot menu in the top‑right corner of the page",
+          "correct": false,
+          "explanation": "The three‑dot menu contains other page settings, not the layout builder."
+        },
+        {
+          "key": "B",
+          "text": "Hover over the database page title and select “Customize layout”",
+          "correct": true,
+          "explanation": "Hovering over the title reveals the “Customize layout” option, which opens the builder."
+        },
+        {
+          "key": "C",
+          "text": "Press Ctrl + L on the keyboard",
+          "correct": false,
+          "explanation": "There is no keyboard shortcut for opening the layout builder."
+        },
+        {
+          "key": "D",
+          "text": "Right‑click anywhere on the page and choose “Edit layout”",
+          "correct": false,
+          "explanation": "Right‑clicking does not provide a layout‑editing option."
+        }
+      ]
+    },
+    {
+      "id": "build-the-perfect-workflow-with-customizable-layouts-002",
+      "question": "Which statement best describes the purpose of the Details panel?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It displays the database’s filter and sort settings",
+          "correct": false,
+          "explanation": "Filters and sorts are managed elsewhere, not in the Details panel."
+        },
+        {
+          "key": "B",
+          "text": "It provides a collapsible side area for less‑prominent properties",
+          "correct": true,
+          "explanation": "The Details panel is a right‑side collapsible area for “nice‑to‑have” details."
+        },
+        {
+          "key": "C",
+          "text": "It automatically creates a new page for each database entry",
+          "correct": false,
+          "explanation": "Creating new pages is unrelated to the Details panel."
+        },
+        {
+          "key": "D",
+          "text": "It replaces the Main page area when the page width is narrow",
+          "correct": false,
+          "explanation": "The Details panel does not replace the Main page area; it is supplemental."
+        }
+      ]
+    },
+    {
+      "id": "build-the-perfect-workflow-with-customizable-layouts-003",
+      "question": "What is the maximum number of properties you can pin under the page title?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two",
+          "correct": false,
+          "explanation": "The limit is higher than two."
+        },
+        {
+          "key": "B",
+          "text": "Four",
+          "correct": true,
+          "explanation": "Pinned properties can hold up to four important properties."
+        },
+        {
+          "key": "C",
+          "text": "Six",
+          "correct": false,
+          "explanation": "Six exceeds the supported limit."
+        },
+        {
+          "key": "D",
+          "text": "Unlimited",
+          "correct": false,
+          "explanation": "The guide explicitly states a limit of four."
+        }
+      ]
+    },
+    {
+      "id": "build-the-perfect-workflow-with-customizable-layouts-004",
+      "question": "When you add a property as a Module, what happens to that property in the Property group?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It remains in the Property group and also appears as a Module",
+          "correct": false,
+          "explanation": "A property used as a Module is removed from the Property group."
+        },
+        {
+          "key": "B",
+          "text": "It is hidden from the Property group entirely",
+          "correct": true,
+          "explanation": "Modules take the property out of the Property group, showing it only in its own area."
+        },
+        {
+          "key": "C",
+          "text": "It duplicates, showing in both places",
+          "correct": false,
+          "explanation": "Duplication does not occur; the property moves."
+        },
+        {
+          "key": "D",
+          "text": "It becomes read‑only in the Property group",
+          "correct": false,
+          "explanation": "Read‑only status is unrelated to Modules."
+        }
+      ]
+    },
+    {
+      "id": "build-the-perfect-workflow-with-customizable-layouts-005",
+      "question": "Which layout configuration would be most appropriate for a photography portfolio database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Place a large image module in the Main page area and pin title and date at the top",
+          "correct": true,
+          "explanation": "The guide suggests using a large visual element in the Main page for visual‑focused databases like photography."
+        },
+        {
+          "key": "B",
+          "text": "Put all metadata in the Details panel and leave the Main page empty",
+          "correct": false,
+          "explanation": "A photography portfolio benefits from visual prominence, not an empty main area."
+        },
+        {
+          "key": "C",
+          "text": "Pin only the camera settings and hide the photos",
+          "correct": false,
+          "explanation": "Hiding photos defeats the purpose of a visual showcase."
+        },
+        {
+          "key": "D",
+          "text": "Create a separate database for each photo and link them",
+          "correct": false,
+          "explanation": "The guide focuses on layout within a single database, not splitting into many."
+        }
+      ]
+    },
+    {
+      "id": "build-the-perfect-workflow-with-customizable-layouts-006",
+      "question": "In a centralized task database, how can teams ensure they see only the properties relevant to their workflow when creating linked views?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By setting a global filter that hides all other properties",
+          "correct": false,
+          "explanation": "Filters affect rows, not which properties are displayed in a view."
+        },
+        {
+          "key": "B",
+          "text": "By customizing the layout so team‑specific properties are in the Details panel and selecting those for the view",
+          "correct": true,
+          "explanation": "Teams can choose which properties from the layout (especially those in the Details panel) to show in their linked view."
+        },
+        {
+          "key": "C",
+          "text": "By duplicating the database for each team",
+          "correct": false,
+          "explanation": "Duplication defeats centralization."
+        },
+        {
+          "key": "D",
+          "text": "By disabling the Details panel for all users",
+          "correct": false,
+          "explanation": "Disabling the panel would hide useful info, not tailor views."
+        }
+      ]
+    },
+    {
+      "id": "build-the-perfect-workflow-with-customizable-layouts-007",
+      "question": "What advantage does using a Property group section in the Details panel provide for cross‑functional teams?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically syncs the section with external project‑management tools",
+          "correct": false,
+          "explanation": "The guide does not mention external syncing."
+        },
+        {
+          "key": "B",
+          "text": "It lets each team add its own sub‑properties without cluttering the Main page",
+          "correct": true,
+          "explanation": "Sections in the Details panel allow teams to add specific info while keeping the main view clean."
+        },
+        {
+          "key": "C",
+          "text": "It restricts all users to edit only the pinned properties",
+          "correct": false,
+          "explanation": "Editing permissions are not controlled by property groups."
+        },
+        {
+          "key": "D",
+          "text": "It converts the database into a spreadsheet format",
+          "correct": false,
+          "explanation": "Layouts do not change the underlying database type."
+        }
+      ]
+    },
+    {
+      "id": "build-the-perfect-workflow-with-customizable-layouts-008",
+      "question": "Which of the following best explains why layouts are considered more than a visual upgrade?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They replace the need for filters and sorts by rearranging data",
+          "correct": false,
+          "explanation": "Filters and sorts remain separate functionalities."
+        },
+        {
+          "key": "B",
+          "text": "They enable users to tailor which properties are visible and where, improving information hierarchy and efficiency",
+          "correct": true,
+          "explanation": "Layouts let you prioritize and organize properties, affecting how users interact with data."
+        },
+        {
+          "key": "C",
+          "text": "They automatically generate summary reports based on pinned properties",
+          "correct": false,
+          "explanation": "Layouts do not generate reports."
+        },
+        {
+          "key": "D",
+          "text": "They allow pages to be exported as PDFs with custom designs",
+          "correct": false,
+          "explanation": "Exporting is unrelated to layout customization."
+        }
+      ]
+    },
+    {
+      "id": "build-the-perfect-workflow-with-customizable-layouts-009",
+      "question": "If a property is both pinned and placed in a module, what will you see on the page?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The property appears twice: once under the title and once as a module",
+          "correct": false,
+          "explanation": "A property cannot occupy both places simultaneously; adding it as a module removes it from pinned."
+        },
+        {
+          "key": "B",
+          "text": "The property only appears as a module; it is removed from the pinned section",
+          "correct": true,
+          "explanation": "When you add a property as a module, it is taken out of the pinned area."
+        },
+        {
+          "key": "C",
+          "text": "The property disappears entirely from the page",
+          "correct": false,
+          "explanation": "The property will still appear, but only in the module location."
+        },
+        {
+          "key": "D",
+          "text": "Notion shows an error and prevents you from adding the property as a module",
+          "correct": false,
+          "explanation": "Notion allows the move; it simply reassigns the property."
+        }
+      ]
+    },
+    {
+      "id": "build-the-perfect-workflow-with-customizable-layouts-010",
+      "question": "Which scenario most clearly demonstrates the benefit of moving the Property group to the Details panel?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A recipe database where the cook time, servings, and cuisine are pinned at the top",
+          "correct": false,
+          "explanation": "This uses pinned properties, not moving the entire group."
+        },
+        {
+          "key": "B",
+          "text": "A product roadmap where each team’s metrics are organized into separate collapsible sections in the Details panel",
+          "correct": true,
+          "explanation": "Moving the Property group lets teams have dedicated sections without crowding the main view."
+        },
+        {
+          "key": "C",
+          "text": "A media tracker that displays a large gallery in the Main page area",
+          "correct": false,
+          "explanation": "The gallery is a module, unrelated to the Property group location."
+        },
+        {
+          "key": "D",
+          "text": "A simple to‑do list that only uses the default property layout",
+          "correct": false,
+          "explanation": "No need to relocate the Property group for a basic list."
+        }
+      ]
+    }
+  ]
+}

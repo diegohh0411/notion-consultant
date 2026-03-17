@@ -1,0 +1,286 @@
+{
+  "source": "guides_manage-projects-using-link-previews",
+  "sourceTitle": "Use link previews to collaborate, manage projects, and ship faster",
+  "sourceUrl": "https://www.notion.so/help/guides_manage-projects-using-link-previews",
+  "questions": [
+    {
+      "id": "guides_manage-projects-using-link-previews-001",
+      "question": "What is the primary benefit of using link previews in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They automatically create new tasks in external tools.",
+          "correct": false,
+          "explanation": "Link previews display information; they don’t create tasks in other tools."
+        },
+        {
+          "key": "B",
+          "text": "They provide live, up‑to‑date information from other tools directly inside a Notion page.",
+          "correct": true,
+          "explanation": "Correct – link previews fetch and continuously update data from the linked source."
+        },
+        {
+          "key": "C",
+          "text": "They replace the need for any external project‑management software.",
+          "correct": false,
+          "explanation": "Link previews complement, not replace, external tools."
+        },
+        {
+          "key": "D",
+          "text": "They allow you to edit content in the source tool from within Notion.",
+          "correct": false,
+          "explanation": "Editing in the source tool still requires using that tool; previews are read‑only."
+        }
+      ]
+    },
+    {
+      "id": "guides_manage-projects-using-link-previews-002",
+      "question": "Which of the following tools is NOT currently supported for link previews?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Jira",
+          "correct": false,
+          "explanation": "Jira is listed as a supported source."
+        },
+        {
+          "key": "B",
+          "text": "Slack",
+          "correct": false,
+          "explanation": "Slack is listed as a supported source."
+        },
+        {
+          "key": "C",
+          "text": "Monday.com",
+          "correct": true,
+          "explanation": "Monday.com is not mentioned among the supported tools."
+        },
+        {
+          "key": "D",
+          "text": "GitHub",
+          "correct": false,
+          "explanation": "GitHub is listed as a supported source."
+        }
+      ]
+    },
+    {
+      "id": "guides_manage-projects-using-link-previews-003",
+      "question": "How do link previews reduce the need for multiple logins across tools?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They store your passwords for every integrated tool.",
+          "correct": false,
+          "explanation": "Link previews don’t manage passwords; they rely on your Notion login."
+        },
+        {
+          "key": "B",
+          "text": "After you log into Notion once, the preview fetches data using that session.",
+          "correct": true,
+          "explanation": "Correct – a single Notion login grants access to preview data from linked tools."
+        },
+        {
+          "key": "C",
+          "text": "They create a single sign‑on (SSO) account for each external tool.",
+          "correct": false,
+          "explanation": "SSO is not part of the link preview feature."
+        },
+        {
+          "key": "D",
+          "text": "They embed static screenshots, so no login is ever required.",
+          "correct": false,
+          "explanation": "Previews are live, not static screenshots."
+        }
+      ]
+    },
+    {
+      "id": "guides_manage-projects-using-link-previews-004",
+      "question": "In what way do link previews help non‑engineering teams stay informed about bug fixes?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They automatically send email notifications when a bug status changes.",
+          "correct": false,
+          "explanation": "Link previews display status within Notion; they don’t send emails."
+        },
+        {
+          "key": "B",
+          "text": "They allow engineers to paste Jira link previews into a shared Notion page, letting everyone see real‑time bug status.",
+          "correct": true,
+          "explanation": "Correct – the preview shows up‑to‑date bug information for all viewers."
+        },
+        {
+          "key": "C",
+          "text": "They convert bug tickets into Slack messages that only engineers can read.",
+          "correct": false,
+          "explanation": "The preview is visible to anyone with access to the Notion page, not limited to engineers."
+        },
+        {
+          "key": "D",
+          "text": "They replace Jira entirely, so bugs are tracked only in Notion.",
+          "correct": false,
+          "explanation": "Link previews complement Jira; they don’t replace it."
+        }
+      ]
+    },
+    {
+      "id": "guides_manage-projects-using-link-previews-005",
+      "question": "How can link previews simplify collaboration with external partners who use different project‑management tools?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "External partners must be given full admin access to every tool used by the internal team.",
+          "correct": false,
+          "explanation": "The point of link previews is to avoid granting broad access."
+        },
+        {
+          "key": "B",
+          "text": "Partners can view needed status updates by accessing a single Notion page that contains previews from their own tools.",
+          "correct": true,
+          "explanation": "Correct – previews give necessary context without extra permissions."
+        },
+        {
+          "key": "C",
+          "text": "Link previews automatically sync all external tool data into the internal team's private database.",
+          "correct": false,
+          "explanation": "Data remains in the source tools; previews just display it."
+        },
+        {
+          "key": "D",
+          "text": "External partners must download CSV exports of their tool data and upload them to Notion.",
+          "correct": false,
+          "explanation": "Manual exports are unnecessary with live link previews."
+        }
+      ]
+    },
+    {
+      "id": "guides_manage-projects-using-link-previews-006",
+      "question": "Which workflow best illustrates using a Slack link preview to keep a content team focused while writing a blog post?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Copy‑pasting the entire Slack channel transcript into the Notion doc.",
+          "correct": false,
+          "explanation": "That adds noise; the preview shows only the relevant message."
+        },
+        {
+          "key": "B",
+          "text": "Embedding a link to a specific Slack message; the preview displays that message directly in the Notion page.",
+          "correct": true,
+          "explanation": "Correct – the preview provides the exact context without extra chatter."
+        },
+        {
+          "key": "C",
+          "text": "Creating a new task in Asana for each Slack discussion.",
+          "correct": false,
+          "explanation": "This adds steps and isn’t about Slack previews."
+        },
+        {
+          "key": "D",
+          "text": "Sending a separate email summary of the Slack conversation to the writers.",
+          "correct": false,
+          "explanation": "Email summaries bypass the real‑time preview benefit."
+        }
+      ]
+    },
+    {
+      "id": "guides_manage-projects-using-link-previews-007",
+      "question": "How do link previews support building a \"single source of truth\" for a project?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They store all project data permanently inside Notion, deleting the original tools.",
+          "correct": false,
+          "explanation": "Previews don’t migrate data; they reflect current data from the source."
+        },
+        {
+          "key": "B",
+          "text": "They continuously update information from multiple external tools on one Notion page, keeping everyone aligned.",
+          "correct": true,
+          "explanation": "Correct – the live updates ensure the Notion page remains the authoritative view."
+        },
+        {
+          "key": "C",
+          "text": "They require each team member to manually copy data into Notion daily.",
+          "correct": false,
+          "explanation": "Manual copying defeats the purpose of automatic previews."
+        },
+        {
+          "key": "D",
+          "text": "They automatically resolve conflicts between different tools by choosing the most recent entry.",
+          "correct": false,
+          "explanation": "Conflict resolution isn’t handled by previews; they simply display the source data."
+        }
+      ]
+    },
+    {
+      "id": "guides_manage-projects-using-link-previews-008",
+      "question": "Why is the continuous updating mechanism of link previews important for data consistency?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It guarantees that Notion will never display outdated information, reducing reliance on manual refreshes.",
+          "correct": true,
+          "explanation": "Correct – live updates keep the displayed data in sync with the source, preventing stale info."
+        },
+        {
+          "key": "B",
+          "text": "It forces external tools to sync their databases with Notion’s backend.",
+          "correct": false,
+          "explanation": "External tools remain independent; Notion only reads their data."
+        },
+        {
+          "key": "C",
+          "text": "It automatically edits the original records in the source tool to match Notion’s format.",
+          "correct": false,
+          "explanation": "Previews are read‑only; they never modify source records."
+        },
+        {
+          "key": "D",
+          "text": "It caches the data once and never checks for changes, improving performance.",
+          "correct": false,
+          "explanation": "Caching without refresh would lead to outdated information, which is opposite of the feature."
+        }
+      ]
+    },
+    {
+      "id": "guides_manage-projects-using-link-previews-009",
+      "question": "If a team uses a project‑management tool that is not yet supported for link previews, which of the following is a viable workaround using Notion’s existing capabilities?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a custom integration with the Notion API to fetch and display the tool’s data as a preview.",
+          "correct": true,
+          "explanation": "Correct – the API can be used to build a custom solution when native previews aren’t available."
+        },
+        {
+          "key": "B",
+          "text": "Attempt to use the unsupported tool’s link preview feature, which will automatically work after a few clicks.",
+          "correct": false,
+          "explanation": "Unsupported tools won’t generate live previews."
+        },
+        {
+          "key": "C",
+          "text": "Manually copy‑paste screenshots of the tool’s dashboard into Notion pages.",
+          "correct": false,
+          "explanation": "Screenshots are static and lose the live‑update advantage."
+        },
+        {
+          "key": "D",
+          "text": "Export the tool’s data as a PDF and embed it in Notion, which will then update automatically.",
+          "correct": false,
+          "explanation": "PDF embeds are static; they don’t provide live updates."
+        }
+      ]
+    }
+  ]
+}

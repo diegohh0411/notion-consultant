@@ -1,0 +1,472 @@
+{
+  "source": "customize-and-style-your-content",
+  "sourceTitle": "Style & customize your page",
+  "sourceUrl": "https://www.notion.so/help/customize-and-style-your-content",
+  "questions": [
+    {
+      "id": "customize-and-style-your-content-001",
+      "question": "Which keyboard shortcut is used to add a comment to specific text in Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cmd/Ctrl + Shift + M",
+          "correct": true,
+          "explanation": "Cmd/Ctrl + Shift + M opens the comment menu for the selected text."
+        },
+        {
+          "key": "B",
+          "text": "Cmd/Ctrl + C",
+          "correct": false,
+          "explanation": "Cmd/Ctrl + C is the standard shortcut for copying text in most applications."
+        },
+        {
+          "key": "C",
+          "text": "Cmd/Ctrl + Shift + B",
+          "correct": false,
+          "explanation": "Cmd/Ctrl + Shift + B is not a standard Notion shortcut for comments."
+        },
+        {
+          "key": "D",
+          "text": "Cmd/Ctrl + /",
+          "correct": false,
+          "explanation": "Cmd/Ctrl + / opens the formatting menu for the current block, not a comment."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-002",
+      "question": "How do you create a bulleted list using Markdown shortcuts?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type # followed by a space",
+          "correct": false,
+          "explanation": "Type # followed by a space creates an H1 header."
+        },
+        {
+          "key": "B",
+          "text": "Type * or - or + followed by a space",
+          "correct": true,
+          "explanation": "Typing *, -, or + followed by a space creates a bulleted list."
+        },
+        {
+          "key": "C",
+          "text": "Type [] followed by a space",
+          "correct": false,
+          "explanation": "Type [] followed by a space creates a to-do checkbox."
+        },
+        {
+          "key": "D",
+          "text": "Type 1. followed by a space",
+          "correct": false,
+          "explanation": "Type 1. followed by a space creates a numbered list."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-003",
+      "question": "Which three typography styles can you choose from for your page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sans-serif, Serif, and Handwritten",
+          "correct": false,
+          "explanation": "Notion offers Default, Serif, and Mono typography styles."
+        },
+        {
+          "key": "B",
+          "text": "Default, Serif, and Mono",
+          "correct": true,
+          "explanation": "You can select Default, Serif, or Mono styles via the menu at the top right."
+        },
+        {
+          "key": "C",
+          "text": "Clean, Modern, and Classic",
+          "correct": false,
+          "explanation": "These are not the specific typography style options available in Notion."
+        },
+        {
+          "key": "D",
+          "text": "Arial, Helvetica, and Times New Roman",
+          "correct": false,
+          "explanation": "Notion uses its own system fonts rather than specific system names."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-004",
+      "question": "What is the quickest way to reuse the last color you applied to text?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cmd/Ctrl + Shift + C",
+          "correct": false,
+          "explanation": "There is no standard shortcut for copying colors."
+        },
+        {
+          "key": "B",
+          "text": "Cmd/Ctrl + Shift + H",
+          "correct": true,
+          "explanation": "Cmd/Ctrl + Shift + H applies the last color you used."
+        },
+        {
+          "key": "C",
+          "text": "Cmd/Ctrl + V",
+          "correct": false,
+          "explanation": "Cmd/Ctrl + V pastes text, it does not apply formatting."
+        },
+        {
+          "key": "D",
+          "text": "Cmd/Ctrl + Shift + Color",
+          "correct": false,
+          "explanation": "You must type the specific color name or use the shortcut H to recall the last one."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-005",
+      "question": "How can you add a callout block to a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over a new block and select + Callout",
+          "correct": true,
+          "explanation": "You can select Callout from the + menu on a new block."
+        },
+        {
+          "key": "B",
+          "text": "Type /callout at the top of the page",
+          "correct": true,
+          "explanation": "Typing /callout and pressing enter creates a callout block."
+        },
+        {
+          "key": "C",
+          "text": "Type @callout",
+          "correct": false,
+          "explanation": "The command for callouts is /callout, not @callout."
+        },
+        {
+          "key": "D",
+          "text": "Click the Callout icon in the sidebar",
+          "correct": false,
+          "explanation": "There is no Callout icon in the sidebar to insert blocks."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-006",
+      "question": "How do you remove the icon from a callout block?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the icon and select Delete",
+          "correct": false,
+          "explanation": "You select 'Remove' from the icon menu to delete it."
+        },
+        {
+          "key": "B",
+          "text": "Click the icon and select Remove",
+          "correct": true,
+          "explanation": "Clicking the icon allows you to choose 'Remove' to delete it."
+        },
+        {
+          "key": "C",
+          "text": "Right-click the callout and choose Remove icon",
+          "correct": false,
+          "explanation": "You cannot right-click to remove the icon; you must click it."
+        },
+        {
+          "key": "D",
+          "text": "The icon cannot be removed once added",
+          "correct": false,
+          "explanation": "You can easily remove the icon by clicking it and selecting Remove."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-007",
+      "question": "How do you change the background color of a callout block?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Highlight the text and select Color",
+          "correct": false,
+          "explanation": "That method changes the text color. To change the background, click the `⋮⋮` icon."
+        },
+        {
+          "key": "B",
+          "text": "Click the `⋮⋮` icon, select Color, and choose a background color",
+          "correct": true,
+          "explanation": "The `⋮⋮` icon allows you to select 'Color' to change the block's background."
+        },
+        {
+          "key": "C",
+          "text": "Type /background and select a color",
+          "correct": false,
+          "explanation": "There is no /background command; use the `⋮⋮` menu instead."
+        },
+        {
+          "key": "D",
+          "text": "Select the block and press Cmd/Ctrl + B",
+          "correct": false,
+          "explanation": "Cmd/Ctrl + B bolds the text inside the block, not the background."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-008",
+      "question": "How do you add cover art to a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the image icon in the top left corner",
+          "correct": false,
+          "explanation": "The top left icon is for the page icon, not cover art."
+        },
+        {
+          "key": "B",
+          "text": "Hover over the top of the page and click Add cover",
+          "correct": true,
+          "explanation": "Hovering over the top of the page reveals the 'Add cover' button."
+        },
+        {
+          "key": "C",
+          "text": "Go to the ••• menu and select Add cover",
+          "correct": false,
+          "explanation": "Cover art is added by hovering over the top edge of the page, not the menu."
+        },
+        {
+          "key": "D",
+          "text": "Select 'Cover' from the formatting menu",
+          "correct": false,
+          "explanation": "Cover art is a page-level setting, not a block formatting option."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-009",
+      "question": "How do you add an inline emoji using text?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type : followed by the emoji name (e.g., :fire)",
+          "correct": true,
+          "explanation": "Type : and the name (like :fire) to render the emoji inline."
+        },
+        {
+          "key": "B",
+          "text": "Type @ followed by the emoji name",
+          "correct": false,
+          "explanation": "The @ symbol is used for mentions, not inline emojis."
+        },
+        {
+          "key": "C",
+          "text": "Type # followed by the emoji name",
+          "correct": false,
+          "explanation": "# creates a header, not an emoji."
+        },
+        {
+          "key": "D",
+          "text": "Type /emoji and select it from the list",
+          "correct": false,
+          "explanation": "/emoji opens the emoji menu, but typing :name is the shortcut for inline."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-010",
+      "question": "How do you toggle the 'Show backlinks' setting for a database page?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click Customize page and toggle Show backlinks",
+          "correct": false,
+          "explanation": "Customize page is for non-database pages. Database pages require Customize layout."
+        },
+        {
+          "key": "B",
+          "text": "Click Customize layout, select Heading module, and toggle Show backlinks",
+          "correct": true,
+          "explanation": "For databases, you must go to Customize layout, click the Heading module, and toggle the setting."
+        },
+        {
+          "key": "C",
+          "text": "Click the settings button next to the database name",
+          "correct": false,
+          "explanation": "That button controls comment styles, not backlinks visibility."
+        },
+        {
+          "key": "D",
+          "text": "Hover over the top right of the page and select Customize",
+          "correct": false,
+          "explanation": "The top right menu is for page settings, not database layout customization."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-011",
+      "question": "What is the recommended minimum width for cover images?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "500 pixels wide",
+          "correct": false,
+          "explanation": "Notion recommends images at least 1,500 pixels wide for best results."
+        },
+        {
+          "key": "B",
+          "text": "1,500 pixels wide",
+          "correct": true,
+          "explanation": "Using images at least 1,500 pixels wide ensures they look good on various screens."
+        },
+        {
+          "key": "C",
+          "text": "1,024 pixels wide",
+          "correct": false,
+          "explanation": "1,024 is the standard width for many web elements, but Notion recommends 1,500 for covers."
+        },
+        {
+          "key": "D",
+          "text": "Any size is fine, aspect ratio doesn't matter",
+          "correct": false,
+          "explanation": "Notion images are dynamic, but 1,500px is the recommended minimum width."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-012",
+      "question": "Which shortcut allows you to display inline code in your text?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cmd/ctrl + E",
+          "correct": true,
+          "explanation": "Cmd/ctrl + E displays selected text as inline code."
+        },
+        {
+          "key": "B",
+          "text": "Cmd/ctrl + S",
+          "correct": false,
+          "explanation": "Cmd/ctrl + S is used for strikethrough."
+        },
+        {
+          "key": "C",
+          "text": "Cmd/ctrl + I",
+          "correct": false,
+          "explanation": "Cmd/ctrl + I is used for italics."
+        },
+        {
+          "key": "D",
+          "text": "Cmd/ctrl + K",
+          "correct": false,
+          "explanation": "Cmd/ctrl + K is not a standard text styling shortcut in Notion."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-013",
+      "question": "How do you enable 'Full width' mode for a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the ••• menu and toggle on Full width",
+          "correct": true,
+          "explanation": "The ••• menu in the top right allows you to toggle Full width on."
+        },
+        {
+          "key": "B",
+          "text": "Go to Page settings and select Full width",
+          "correct": false,
+          "explanation": "The toggle is located in the ••• menu, not a dedicated Page settings tab for this specific feature."
+        },
+        {
+          "key": "C",
+          "text": "Type /fullwidth",
+          "correct": false,
+          "explanation": "There is no /fullwidth command; it is a menu toggle."
+        },
+        {
+          "key": "D",
+          "text": "Full width can only be applied to database pages",
+          "correct": false,
+          "explanation": "Full width can be toggled on for any non-database page."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-014",
+      "question": "When customizing backlinks and comments for a non-database page, where do you find the 'Show backlinks' toggle?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the Customize page window",
+          "correct": true,
+          "explanation": "For non-database pages, you click Customize page to access the window with these toggles."
+        },
+        {
+          "key": "B",
+          "text": "In the Customize layout window",
+          "correct": false,
+          "explanation": "Customize layout is specifically for database pages."
+        },
+        {
+          "key": "C",
+          "text": "In the settings menu next to the database name",
+          "correct": false,
+          "explanation": "That menu is only available for database pages."
+        },
+        {
+          "key": "D",
+          "text": "It is not possible to toggle backlinks on non-database pages",
+          "correct": false,
+          "explanation": "You can toggle backlinks and page discussions for non-database pages via Customize page."
+        }
+      ]
+    },
+    {
+      "id": "customize-and-style-your-content-015",
+      "question": "What happens if you select a non-black color for the text inside a callout block?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The block turns white with a light gray outline",
+          "correct": true,
+          "explanation": "Selecting a non-black color for text automatically changes the block to a white background with a light gray outline."
+        },
+        {
+          "key": "B",
+          "text": "The block remains transparent",
+          "correct": false,
+          "explanation": "The block always has a visible background when text color is changed."
+        },
+        {
+          "key": "C",
+          "text": "The block turns black",
+          "correct": false,
+          "explanation": "The block background remains white; only the text changes color."
+        },
+        {
+          "key": "D",
+          "text": "The block turns red",
+          "correct": false,
+          "explanation": "The block background stays white; the color change applies to the text."
+        }
+      ]
+    }
+  ]
+}

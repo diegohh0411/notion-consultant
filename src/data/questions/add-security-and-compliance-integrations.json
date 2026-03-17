@@ -1,0 +1,379 @@
+{
+  "source": "add-security-and-compliance-integrations",
+  "sourceTitle": "Add security & compliance integrations",
+  "sourceUrl": "https://www.notion.so/help/add-security-and-compliance-integrations",
+  "questions": [
+    {
+      "id": "add-security-and-compliance-integrations-001",
+      "question": "Which role is authorized to install workspace-wide security and compliance integrations in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any workspace member with a verified domain",
+          "correct": false,
+          "explanation": "Only Enterprise workspace owners can install these integrations, not all members with a domain."
+        },
+        {
+          "key": "B",
+          "text": "Workspace Owners",
+          "correct": true,
+          "explanation": "According to the prerequisites, only a workspace owner can configure security and compliance integrations."
+        },
+        {
+          "key": "C",
+          "text": "Workspace Admins",
+          "correct": false,
+          "explanation": "Admin privileges are required in the partner tool, but only workspace owners can install the integrations."
+        },
+        {
+          "key": "D",
+          "text": "Integrations",
+          "correct": false,
+          "explanation": "Integrations are the tools being installed, not the users installing them."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-002",
+      "question": "What is the primary function of integrating with a Data Loss Prevention (DLP) solution?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically backup data to the cloud",
+          "correct": false,
+          "explanation": "While backups may happen, the primary function is detecting sensitive data and taking remediation actions."
+        },
+        {
+          "key": "B",
+          "text": "To detect the use of sensitive data and take automated action to remediate breaches",
+          "correct": true,
+          "explanation": "DLP integrations help detect sensitive data and take automated action like alerting, redacting, or restricting access."
+        },
+        {
+          "key": "C",
+          "text": "To compress files for faster loading",
+          "correct": false,
+          "explanation": "File compression is not a function of DLP integrations."
+        },
+        {
+          "key": "D",
+          "text": "To restrict user login attempts",
+          "correct": false,
+          "explanation": "DLP focuses on data content, not user authentication methods."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-003",
+      "question": "How many Datadog instances can be connected to a single Notion workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unlimited instances",
+          "correct": false,
+          "explanation": "There is a limitation regarding the number of instances that can be connected."
+        },
+        {
+          "key": "B",
+          "text": "One instance per workspace",
+          "correct": true,
+          "explanation": "The documentation notes that one Datadog instance can only be connected to one workspace at most."
+        },
+        {
+          "key": "C",
+          "text": "One instance per user",
+          "correct": false,
+          "explanation": "The limitation is tied to the workspace, not individual users."
+        },
+        {
+          "key": "D",
+          "text": "Three instances total",
+          "correct": false,
+          "explanation": "There is no mention of a total limit of three; the limit is per workspace."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-004",
+      "question": "Which SIEM event type corresponds to a user successfully logging into their account?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "user.logout",
+          "correct": false,
+          "explanation": "user.logout refers to a user logging out of an account, not logging in."
+        },
+        {
+          "key": "B",
+          "text": "user.login",
+          "correct": true,
+          "explanation": "The event type 'user.login' is specifically defined as a user logging into an account."
+        },
+        {
+          "key": "C",
+          "text": "user.deleted",
+          "correct": false,
+          "explanation": "user.deleted refers to when a user account is deleted."
+        },
+        {
+          "key": "D",
+          "text": "user.settings.login_method.mfa_totp_updated",
+          "correct": false,
+          "explanation": "This event tracks updates to Multi-Factor Authentication settings, not the initial login."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-005",
+      "question": "When integrating with Drata, which of the following is a restriction regarding page types?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You cannot sync database blocks",
+          "correct": false,
+          "explanation": "You should avoid using database blocks for the best experience, but the restriction is on private pages."
+        },
+        {
+          "key": "B",
+          "text": "You cannot sync private Notion pages",
+          "correct": true,
+          "explanation": "The documentation explicitly states that you can't sync any private Notion pages to Drata."
+        },
+        {
+          "key": "C",
+          "text": "You cannot sync public pages",
+          "correct": false,
+          "explanation": "Public pages can be synced; private pages are restricted."
+        },
+        {
+          "key": "D",
+          "text": "You cannot sync pages with external guests",
+          "correct": false,
+          "explanation": "External guests are not the restriction; private page visibility is."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-006",
+      "question": "Which page audience describes a page that is shared with guests outside the workspace and/or with an integration bot?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Internal",
+          "correct": false,
+          "explanation": "Internal means shared with members of the workspace only."
+        },
+        {
+          "key": "B",
+          "text": "External",
+          "correct": true,
+          "explanation": "External describes a page shared with guests outside the workspace and/or integration bots."
+        },
+        {
+          "key": "C",
+          "text": "Public",
+          "correct": false,
+          "explanation": "Public means shared to the web."
+        },
+        {
+          "key": "D",
+          "text": "Private",
+          "correct": false,
+          "explanation": "Private means not shared with other users."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-007",
+      "question": "For the Panther integration, what specific Header Name is associated with the Secret Key Value?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "x-notion-token",
+          "correct": false,
+          "explanation": "The token is the value, but the header name is different."
+        },
+        {
+          "key": "B",
+          "text": "x-notion-signature",
+          "correct": true,
+          "explanation": "The Header Name associated with the Secret Key Value is locked to 'x-notion-signature'."
+        },
+        {
+          "key": "C",
+          "text": "x-notion-auth",
+          "correct": false,
+          "explanation": "The correct header name is x-notion-signature."
+        },
+        {
+          "key": "D",
+          "text": "x-notion-key",
+          "correct": false,
+          "explanation": "The correct header name is x-notion-signature."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-008",
+      "question": "How does Notion log page content edits in the SIEM platform?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "One event per block edited",
+          "correct": false,
+          "explanation": "Events are consolidated, not logged per individual block."
+        },
+        {
+          "key": "B",
+          "text": "One event every minute while edits are occurring",
+          "correct": true,
+          "explanation": "Content edit events are consolidated into one event every minute while edits are occurring."
+        },
+        {
+          "key": "C",
+          "text": "No events are logged for page content edits",
+          "correct": false,
+          "explanation": "Page content edits are logged as 'page.content_edited' events."
+        },
+        {
+          "key": "D",
+          "text": "One event per page creation",
+          "correct": false,
+          "explanation": "This describes page creation, not content editing."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-009",
+      "question": "What access do SIEM integrations have within the workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Access to view all member email addresses",
+          "correct": false,
+          "explanation": "SIEMs receive logs, they don't necessarily have direct access to member lists in that way."
+        },
+        {
+          "key": "B",
+          "text": "Receive event logs on all workspace activity",
+          "correct": true,
+          "explanation": "SIEM integrations are authorized to receive event logs on all workspace activity."
+        },
+        {
+          "key": "C",
+          "text": "Edit permissions on all pages",
+          "correct": false,
+          "explanation": "SIEM integrations only receive data, they do not have edit permissions."
+        },
+        {
+          "key": "D",
+          "text": "Delete permissions for the entire workspace",
+          "correct": false,
+          "explanation": "SIEM integrations only receive logs, they do not have deletion permissions."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-010",
+      "question": "Which of the following Splunk instance types is currently supported for integration?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Splunk On-Prem",
+          "correct": false,
+          "explanation": "Splunk On-Prem is not supported; only Cloud or Enterprise licenses are supported."
+        },
+        {
+          "key": "B",
+          "text": "Splunk Enterprise",
+          "correct": true,
+          "explanation": "Splunk Enterprise is one of the supported instance types."
+        },
+        {
+          "key": "C",
+          "text": "Splunk Express",
+          "correct": false,
+          "explanation": "Splunk Express is not mentioned as a supported type."
+        },
+        {
+          "key": "D",
+          "text": "Splunk Hadoop",
+          "correct": false,
+          "explanation": "Splunk Hadoop is not mentioned as a supported type."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-011",
+      "question": "Why might you not see SIEM events immediately after connecting to a new Panther instance?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "You do not have admin privileges in the partner tool",
+          "correct": false,
+          "explanation": "Admin privileges are required for setup, but the delay is related to the instance readiness."
+        },
+        {
+          "key": "B",
+          "text": "It can take up to 10 minutes for the instance to be fully ready",
+          "correct": true,
+          "explanation": "When a new Panther instance is created, it can take up to 10 minutes for it to be fully ready to receive events."
+        },
+        {
+          "key": "C",
+          "text": "The HMAC authentication key is incorrect",
+          "correct": false,
+          "explanation": "An incorrect key would result in connection failure, not just a delay."
+        },
+        {
+          "key": "D",
+          "text": "The event is labeled differently in the SIEM",
+          "correct": false,
+          "explanation": "While events might be labeled differently, the primary reason for an immediate lack of events is instance readiness."
+        }
+      ]
+    },
+    {
+      "id": "add-security-and-compliance-integrations-012",
+      "question": "How do you disconnect a DLP partner integration like Nightfall AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the tile and click Remove",
+          "correct": false,
+          "explanation": "You must select the specific menu option to disconnect."
+        },
+        {
+          "key": "B",
+          "text": "Select ••• beside the Nightfall integration → Disconnect",
+          "correct": true,
+          "explanation": "The disconnect process involves selecting the three dots (•••) beside the integration tile and choosing Disconnect."
+        },
+        {
+          "key": "C",
+          "text": "Go to the Nightfall application and remove the workspace",
+          "correct": false,
+          "explanation": "While the partner app needs updating, the primary disconnect step is done within Notion."
+        },
+        {
+          "key": "D",
+          "text": "Delete the integration from the Connections list",
+          "correct": false,
+          "explanation": "The specific instruction is to select the three dots beside the tile."
+        }
+      ]
+    }
+  ]
+}

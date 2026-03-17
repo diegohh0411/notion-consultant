@@ -1,0 +1,317 @@
+{
+  "source": "guides_share-social-media-posts-from-notion-with-webhook-actions",
+  "sourceTitle": "Share social media posts from Notion with webhook actions",
+  "sourceUrl": "https://www.notion.so/help/guides/share-social-media-posts-from-notion-with-webhook-actions",
+  "questions": [
+    {
+      "id": "guides_share-social-media-posts-from-notion-with-webhook-actions-001",
+      "question": "What are the two ways to trigger webhook actions in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Through scheduled automations only",
+          "correct": false,
+          "explanation": "Scheduled automations are not mentioned as a trigger method for webhook actions in the guide."
+        },
+        {
+          "key": "B",
+          "text": "Using button blocks only",
+          "correct": false,
+          "explanation": "Button blocks are one trigger method, but they are not the only one."
+        },
+        {
+          "key": "C",
+          "text": "Through database automations and button blocks",
+          "correct": true,
+          "explanation": "Correct. The article states that webhook actions can be triggered either by database automations (e.g., checking a task) or manually via button blocks."
+        },
+        {
+          "key": "D",
+          "text": "Via external API calls only",
+          "correct": false,
+          "explanation": "External API calls are how the webhook delivers data, not how Notion triggers the action."
+        }
+      ]
+    },
+    {
+      "id": "guides_share-social-media-posts-from-notion-with-webhook-actions-002",
+      "question": "Where do you locate the automation settings icon in a Notion database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the bottom left corner of the page",
+          "correct": false,
+          "explanation": "The automation icon is not placed at the bottom left."
+        },
+        {
+          "key": "B",
+          "text": "Next to the page title, as a lightning bolt (⚡️) icon",
+          "correct": true,
+          "explanation": "Correct. The guide instructs users to click the lightning bolt icon in the top right of the database."
+        },
+        {
+          "key": "C",
+          "text": "Inside the page’s comment section",
+          "correct": false,
+          "explanation": "Comments do not contain automation controls."
+        },
+        {
+          "key": "D",
+          "text": "Under the \"Share\" dropdown menu",
+          "correct": false,
+          "explanation": "The Share menu is unrelated to automation creation."
+        }
+      ]
+    },
+    {
+      "id": "guides_share-social-media-posts-from-notion-with-webhook-actions-003",
+      "question": "In the example automation, which property is sent to the Make webhook?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Title",
+          "correct": false,
+          "explanation": "The Title property is not specified as the payload in the example."
+        },
+        {
+          "key": "B",
+          "text": "Final Copy",
+          "correct": true,
+          "explanation": "Correct. The guide says to select the \"Final Copy\" property to send to Make."
+        },
+        {
+          "key": "C",
+          "text": "Status",
+          "correct": false,
+          "explanation": "Status is used as the trigger, not as the data payload."
+        },
+        {
+          "key": "D",
+          "text": "Author",
+          "correct": false,
+          "explanation": "Author is not mentioned in the webhook setup."
+        }
+      ]
+    },
+    {
+      "id": "guides_share-social-media-posts-from-notion-with-webhook-actions-004",
+      "question": "How do webhook actions differ from Notion’s native integrations?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Webhooks require custom coding, while native integrations are code‑free.",
+          "correct": false,
+          "explanation": "Webhooks in Notion are designed to be code‑free; they just send HTTP events."
+        },
+        {
+          "key": "B",
+          "text": "Webhooks send HTTP events to any external endpoint, allowing connections beyond the pre‑built integration library.",
+          "correct": true,
+          "explanation": "Correct. The article emphasizes that webhooks let you link Notion to any tool, even those not in the integration catalog."
+        },
+        {
+          "key": "C",
+          "text": "Native integrations can only be used with Zapier, whereas webhooks work with Make.",
+          "correct": false,
+          "explanation": "Both Zapier and Make can be used with native integrations; the distinction is about flexibility, not platform."
+        },
+        {
+          "key": "D",
+          "text": "Webhooks can only be triggered manually, while native integrations are always automatic.",
+          "correct": false,
+          "explanation": "Webhooks can be triggered automatically via database automations as well as manually via buttons."
+        }
+      ]
+    },
+    {
+      "id": "guides_share-social-media-posts-from-notion-with-webhook-actions-005",
+      "question": "If you want a social media post to be published automatically after approval, which status should you set as the trigger in Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Draft",
+          "correct": false,
+          "explanation": "Draft indicates the content is not ready for publishing."
+        },
+        {
+          "key": "B",
+          "text": "In Review",
+          "correct": false,
+          "explanation": "In Review is a middle step; the guide uses \"Approved\" as the final trigger."
+        },
+        {
+          "key": "C",
+          "text": "Approved",
+          "correct": true,
+          "explanation": "Correct. The automation is configured to run when the \"Status\" property changes to \"Approved\"."
+        },
+        {
+          "key": "D",
+          "text": "Published",
+          "correct": false,
+          "explanation": "Published would be after the webhook runs, not before."
+        }
+      ]
+    },
+    {
+      "id": "guides_share-social-media-posts-from-notion-with-webhook-actions-006",
+      "question": "What is the primary role of the webhook URL in a Notion automation workflow?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It stores the content that will be posted on social media.",
+          "correct": false,
+          "explanation": "The URL does not store content; it receives data."
+        },
+        {
+          "key": "B",
+          "text": "It is the endpoint that receives data from Notion and forwards it to a third‑party service.",
+          "correct": true,
+          "explanation": "Correct. The guide explains that Notion sends updates to this URL, which then triggers actions in tools like Make."
+        },
+        {
+          "key": "C",
+          "text": "It authenticates the user inside Notion before an automation runs.",
+          "correct": false,
+          "explanation": "Authentication is handled elsewhere; the URL is not an auth gate for Notion users."
+        },
+        {
+          "key": "D",
+          "text": "It creates a new database inside Notion for each automation.",
+          "correct": false,
+          "explanation": "Webhooks do not create Notion databases."
+        }
+      ]
+    },
+    {
+      "id": "guides_share-social-media-posts-from-notion-with-webhook-actions-007",
+      "question": "Which third‑party tool is used in the guide’s example to post content on LinkedIn?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zapier",
+          "correct": false,
+          "explanation": "Zapier is mentioned as an example tool, but the LinkedIn posting example uses Make."
+        },
+        {
+          "key": "B",
+          "text": "Make",
+          "correct": true,
+          "explanation": "Correct. The guide shows how Notion and Make work together to publish on LinkedIn."
+        },
+        {
+          "key": "C",
+          "text": "IFTTT",
+          "correct": false,
+          "explanation": "IFTTT is not referenced in the article."
+        },
+        {
+          "key": "D",
+          "text": "HubSpot",
+          "correct": false,
+          "explanation": "HubSpot is unrelated to the described workflow."
+        }
+      ]
+    },
+    {
+      "id": "guides_share-social-media-posts-from-notion-with-webhook-actions-008",
+      "question": "What are two practical ways to use buttons with webhook actions, as described in the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To schedule posts weeks in advance and to export data as CSV.",
+          "correct": false,
+          "explanation": "Scheduling and CSV export are not mentioned as button use‑cases."
+        },
+        {
+          "key": "B",
+          "text": "To directly post social media content and to automate support tickets (e.g., creating Zendesk tickets).",
+          "correct": true,
+          "explanation": "Correct. The guide lists these two button‑driven webhook scenarios."
+        },
+        {
+          "key": "C",
+          "text": "To change page colors and to add page comments automatically.",
+          "correct": false,
+          "explanation": "These actions are unrelated to webhook functionality."
+        },
+        {
+          "key": "D",
+          "text": "To delete database rows and to archive old pages.",
+          "correct": false,
+          "explanation": "Deletion and archiving are not covered as button‑triggered webhook actions."
+        }
+      ]
+    },
+    {
+      "id": "guides_share-social-media-posts-from-notion-with-webhook-actions-009",
+      "question": "Describe the sequence of events that occurs from marking a post as \"Approved\" in Notion to it appearing on LinkedIn, including all components involved.",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The \"Approved\" status updates the page, Notion sends an HTTP POST to the Make webhook URL with the selected property (Final Copy), Make receives the payload, formats it for LinkedIn, and uses LinkedIn’s API to publish the post.",
+          "correct": true,
+          "explanation": "Correct. This answer captures the trigger (status change), Notion’s webhook dispatch, payload content, Make’s processing, and the final API call to LinkedIn."
+        },
+        {
+          "key": "B",
+          "text": "Marking \"Approved\" creates a new row in a LinkedIn database, which automatically syncs with Notion and displays the post.",
+          "correct": false,
+          "explanation": "LinkedIn does not have a Notion‑compatible database; the workflow relies on a webhook, not a direct sync."
+        },
+        {
+          "key": "C",
+          "text": "When \"Approved\" is set, Notion emails the content to LinkedIn, which then posts it after manual approval.",
+          "correct": false,
+          "explanation": "The guide does not involve email; it uses webhook actions and Make, not manual email approval."
+        },
+        {
+          "key": "D",
+          "text": "The button block fires a local script on the user’s computer that uploads the post to LinkedIn.",
+          "correct": false,
+          "explanation": "Button blocks trigger webhooks, not local scripts, and the example uses automation, not a manual button."
+        }
+      ]
+    },
+    {
+      "id": "guides_share-social-media-posts-from-notion-with-webhook-actions-010",
+      "question": "If you wanted to send multiple properties (e.g., \"Final Copy\" and \"Image URL\") to a third‑party service via a webhook, what steps would you need to modify in the Notion automation setup?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add the additional property in the \"Select properties to send\" list, ensure the webhook URL can accept both fields, and adjust the receiving service’s parsing logic if necessary.",
+          "correct": true,
+          "explanation": "Correct. The guide indicates you select which properties to send; adding more requires both Notion and the endpoint to handle them."
+        },
+        {
+          "key": "B",
+          "text": "Create a second separate webhook action for each property, then combine them in the third‑party tool.",
+          "correct": false,
+          "explanation": "One webhook action can send multiple fields; separate actions are unnecessary."
+        },
+        {
+          "key": "C",
+          "text": "Change the trigger from \"Status\" to \"Property Change\" and rename the webhook URL for each property.",
+          "correct": false,
+          "explanation": "The trigger type does not need to change, and renaming the URL per property is not required."
+        },
+        {
+          "key": "D",
+          "text": "Enable the \"Batch mode\" option in Notion’s automation settings to bundle properties together.",
+          "correct": false,
+          "explanation": "There is no \"Batch mode\" option mentioned in the article."
+        }
+      ]
+    }
+  ]
+}

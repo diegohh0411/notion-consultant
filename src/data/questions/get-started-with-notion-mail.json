@@ -1,0 +1,317 @@
+{
+  "source": "get-started-with-notion-mail",
+  "sourceTitle": "Get started with Notion Mail",
+  "sourceUrl": "https://www.notion.com/help/get-started-with-notion-mail",
+  "questions": [
+    {
+      "id": "get-started-with-notion-mail-001",
+      "question": "On which platforms can you currently use Notion Mail?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mac, Web, and iOS (version 17 or later)",
+          "correct": true,
+          "explanation": "The article lists these three platforms as the currently supported ones."
+        },
+        {
+          "key": "B",
+          "text": "Windows, Android, and Web",
+          "correct": false,
+          "explanation": "Windows support is announced for the future and Android isn’t mentioned."
+        },
+        {
+          "key": "C",
+          "text": "Linux, macOS (Intel only), and iPadOS",
+          "correct": false,
+          "explanation": "Linux isn’t supported, and macOS support includes both Apple Silicon and Intel."
+        },
+        {
+          "key": "D",
+          "text": "ChromeOS, Web, and Android",
+          "correct": false,
+          "explanation": "ChromeOS and Android are not listed as available platforms."
+        }
+      ]
+    },
+    {
+      "id": "get-started-with-notion-mail-002",
+      "question": "How do you open Notion Mail from within the Notion app?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the ✉️ icon at the bottom of the sidebar",
+          "correct": true,
+          "explanation": "The article states you can access Notion Mail by selecting the mail icon at the bottom of the sidebar."
+        },
+        {
+          "key": "B",
+          "text": "Press Ctrl + M on your keyboard",
+          "correct": false,
+          "explanation": "No keyboard shortcut is mentioned for opening Notion Mail."
+        },
+        {
+          "key": "C",
+          "text": "Open the Settings menu and choose ‘Mail’",
+          "correct": false,
+          "explanation": "Mail is accessed via the sidebar icon, not through Settings."
+        },
+        {
+          "key": "D",
+          "text": "Navigate to the ‘Apps’ section and click ‘Notion Mail’",
+          "correct": false,
+          "explanation": "There is no separate ‘Apps’ section; the sidebar icon is the entry point."
+        }
+      ]
+    },
+    {
+      "id": "get-started-with-notion-mail-003",
+      "question": "What two things are required to sign up for Notion Mail?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Notion account and a Gmail (or Google Workspace) address",
+          "correct": true,
+          "explanation": "The article explicitly lists a Notion account plus a Gmail/Workspace address as prerequisites."
+        },
+        {
+          "key": "B",
+          "text": "A paid Notion subscription and an Outlook address",
+          "correct": false,
+          "explanation": "A paid subscription isn’t required and Outlook isn’t supported yet."
+        },
+        {
+          "key": "C",
+          "text": "Two-factor authentication enabled and a corporate email address",
+          "correct": false,
+          "explanation": "These are not mentioned as sign‑up requirements."
+        },
+        {
+          "key": "D",
+          "text": "A mobile device running iOS 16 and a Google Drive account",
+          "correct": false,
+          "explanation": "The OS version and Google Drive are irrelevant to sign‑up."
+        }
+      ]
+    },
+    {
+      "id": "get-started-with-notion-mail-004",
+      "question": "If you delete a single email inside a Gmail thread, what happens in Notion Mail?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The email is deleted in Notion Mail as well",
+          "correct": false,
+          "explanation": "Only whole threads are synced for deletions; single‑email deletions are not reflected."
+        },
+        {
+          "key": "B",
+          "text": "The email remains in Notion Mail because deletions sync at the thread level",
+          "correct": true,
+          "explanation": "The article explains that deletions sync at the thread level, so a single‑email deletion won’t appear in Notion Mail."
+        },
+        {
+          "key": "C",
+          "text": "Notion Mail shows the email as ‘archived’ instead of deleted",
+          "correct": false,
+          "explanation": "Archiving isn’t mentioned; the behavior is simply that the email stays."
+        },
+        {
+          "key": "D",
+          "text": "The email is moved to the Spam folder in Notion Mail",
+          "correct": false,
+          "explanation": "Spam handling is separate and unrelated to deletions."
+        }
+      ]
+    },
+    {
+      "id": "get-started-with-notion-mail-005",
+      "question": "Which of the following Gmail elements are NOT synchronized to Notion Mail?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Labels and contacts",
+          "correct": false,
+          "explanation": "Labels and contacts are synced; they are listed as features that do sync."
+        },
+        {
+          "key": "B",
+          "text": "Blocked senders, snoozed emails, scheduled emails, drafts, and spam (initial sync)",
+          "correct": true,
+          "explanation": "The article lists these specific items as not being synced from Gmail to Notion Mail."
+        },
+        {
+          "key": "C",
+          "text": "Inbox view and read‑status counts",
+          "correct": false,
+          "explanation": "Read‑status counts may vary slightly but are generally synced; they’re not listed as unsynced."
+        },
+        {
+          "key": "D",
+          "text": "Promotions category and custom filters",
+          "correct": false,
+          "explanation": "Categories like promotions are part of the Gmail features that do sync."
+        }
+      ]
+    },
+    {
+      "id": "get-started-with-notion-mail-006",
+      "question": "How do you add a second Gmail account to an existing Notion Mail account?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Open the dropdown next to your name and choose “Add another account”",
+          "correct": true,
+          "explanation": "The article describes exactly this process for adding another Gmail account."
+        },
+        {
+          "key": "B",
+          "text": "Create a new Notion workspace for the second email address",
+          "correct": false,
+          "explanation": "A separate workspace isn’t required; you add the account within the same Notion Mail account."
+        },
+        {
+          "key": "C",
+          "text": "Contact Notion support to link the additional address",
+          "correct": false,
+          "explanation": "No support request is needed; the UI provides the option."
+        },
+        {
+          "key": "D",
+          "text": "Install the Notion Mail desktop app on a different computer",
+          "correct": false,
+          "explanation": "Installing on another device doesn’t add a new Gmail account to the same Notion Mail profile."
+        }
+      ]
+    },
+    {
+      "id": "get-started-with-notion-mail-007",
+      "question": "Where must you go to edit your email signature when using Notion Mail?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the Notion Mail settings panel",
+          "correct": false,
+          "explanation": "Signature editing isn’t handled inside Notion Mail."
+        },
+        {
+          "key": "B",
+          "text": "Directly in Gmail’s settings",
+          "correct": true,
+          "explanation": "The article notes that signature changes must be made in Gmail."
+        },
+        {
+          "key": "C",
+          "text": "In the Notion AI assistant",
+          "correct": false,
+          "explanation": "Notion AI isn’t used for signature management."
+        },
+        {
+          "key": "D",
+          "text": "Through the Windows Mail app",
+          "correct": false,
+          "explanation": "Windows Mail isn’t part of the Notion Mail workflow."
+        }
+      ]
+    },
+    {
+      "id": "get-started-with-notion-mail-008",
+      "question": "If you rename a label in Gmail after the initial sync, what will happen in Notion Mail?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The new label name automatically updates in Notion Mail",
+          "correct": false,
+          "explanation": "Renaming in Gmail after the initial sync does NOT propagate to Notion Mail."
+        },
+        {
+          "key": "B",
+          "text": "Notion Mail keeps the old label name; you must rename it in Notion Mail to sync back to Gmail",
+          "correct": true,
+          "explanation": "The article explains that changes made in Gmail after the first sync won’t reflect; you can rename in Notion Mail and it will sync to Gmail."
+        },
+        {
+          "key": "C",
+          "text": "Both Gmail and Notion Mail display both the old and new label names",
+          "correct": false,
+          "explanation": "Only one label name is shown; duplication does not occur."
+        },
+        {
+          "key": "D",
+          "text": "The label is deleted in Notion Mail and recreated with the new name",
+          "correct": false,
+          "explanation": "Deletion and recreation isn’t the described behavior."
+        }
+      ]
+    },
+    {
+      "id": "get-started-with-notion-mail-009",
+      "question": "Which statement best describes the limitation of using Gmail aliases with Notion Mail?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Each alias can be used to create a separate Notion Mail account",
+          "correct": false,
+          "explanation": "The article explicitly says aliases cannot be used to sign up for additional Notion Mail accounts."
+        },
+        {
+          "key": "B",
+          "text": "Only one email address (including aliases) can be associated with a single Notion Mail account",
+          "correct": false,
+          "explanation": "While only one primary email address is allowed per account, aliases can be used within that same account."
+        },
+        {
+          "key": "C",
+          "text": "You can use any number of Gmail aliases within one Notion Mail account, but each alias requires its own Notion Mail account to function independently",
+          "correct": false,
+          "explanation": "Aliases work inside the same account; they don’t need separate Notion Mail accounts."
+        },
+        {
+          "key": "D",
+          "text": "Aliases can be used inside a single Notion Mail account, but they cannot be used to create additional Notion Mail accounts",
+          "correct": true,
+          "explanation": "The article states that aliases are usable within a single account, yet they cannot serve to sign up for more accounts."
+        }
+      ]
+    },
+    {
+      "id": "get-started-with-notion-mail-010",
+      "question": "What is the behavior of spam emails during the initial sync between Gmail and Notion Mail?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "All spam emails are imported into Notion Mail during the first sync",
+          "correct": false,
+          "explanation": "Spam is explicitly excluded from the initial sync."
+        },
+        {
+          "key": "B",
+          "text": "Spam emails are not imported initially, but after the first sync, marking an email as spam in either service updates the other",
+          "correct": true,
+          "explanation": "The article notes that spam isn’t synced on the first run, yet subsequent spam actions sync both ways."
+        },
+        {
+          "key": "C",
+          "text": "Spam emails are imported but automatically deleted after 24 hours",
+          "correct": false,
+          "explanation": "There is no mention of automatic deletion; spam simply isn’t part of the initial import."
+        },
+        {
+          "key": "D",
+          "text": "Only spam from the promotions category is synced",
+          "correct": false,
+          "explanation": "Spam handling is not limited to a specific category; it’s excluded initially."
+        }
+      ]
+    }
+  ]
+}

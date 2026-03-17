@@ -1,0 +1,348 @@
+{
+  "source": "embed-and-connect-other-apps",
+  "sourceTitle": "Embeds, bookmarks & link mentions",
+  "sourceUrl": "https://www.notion.so/help/embed-and-connect-other-apps",
+  "questions": [
+    {
+      "id": "embed-and-connect-other-apps-001",
+      "question": "How do you add a new embed block to a Notion page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the + that appears to the left margin and choose Embed.",
+          "correct": true,
+          "explanation": "The help center explicitly states to click the + that appears on the left when hovering over a new line, then choose Embed."
+        },
+        {
+          "key": "B",
+          "text": "Drag and drop a file directly from your computer into the page.",
+          "correct": false,
+          "explanation": "Drag and drop is used for resizing or moving existing embeds, not for creating a new one from scratch."
+        },
+        {
+          "key": "C",
+          "text": "Copy the embed code from the external site and paste it as plain text.",
+          "correct": false,
+          "explanation": "You should paste the URL or embed link and select 'Paste as bookmark' or 'Create Embed', not raw code."
+        },
+        {
+          "key": "D",
+          "text": "Type /embed in the command menu to open a file upload dialog.",
+          "correct": false,
+          "explanation": "The /embed command is used to upload and display your own image, audio, video, or file, not to create a generic embed block."
+        }
+      ]
+    },
+    {
+      "id": "embed-and-connect-other-apps-002",
+      "question": "Which file types are supported for embedding in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "HTML, PDF, Audio, Video, and Images.",
+          "correct": true,
+          "explanation": "The article explicitly lists these five types as supported for embedding."
+        },
+        {
+          "key": "B",
+          "text": "DOCX, XLSX, PPTX, and PDF.",
+          "correct": false,
+          "explanation": "While PDF is supported, Word, Excel, and PowerPoint are not listed as supported file types for embedding."
+        },
+        {
+          "key": "C",
+          "text": "EXE, BAT, and SYS files.",
+          "correct": false,
+          "explanation": "Executable files are not supported for embedding; only specific media types like HTML, PDF, Audio, Video, and Images are."
+        },
+        {
+          "key": "D",
+          "text": "Only Images and Videos.",
+          "correct": false,
+          "explanation": "The list includes more than just images and videos, specifically HTML, PDF, and Audio."
+        }
+      ]
+    },
+    {
+      "id": "embed-and-connect-other-apps-003",
+      "question": "What is the difference between a Link Mention and a Web Bookmark?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Link mentions appear inline and subtle, while bookmarks appear as distinct blocks with title and description.",
+          "correct": true,
+          "explanation": "The article explains that link mentions are inline like text and more subtle, whereas bookmarks appear as distinct blocks with the page title and URL."
+        },
+        {
+          "key": "B",
+          "text": "Link mentions require a login to the external site, while bookmarks do not.",
+          "correct": false,
+          "explanation": "Neither is explicitly described as requiring a login; the difference lies primarily in their visual appearance and layout."
+        },
+        {
+          "key": "C",
+          "text": "Link mentions are for internal links only, while bookmarks are for external links.",
+          "correct": false,
+          "explanation": "Both types are used to incorporate web links into pages, regardless of whether they are internal or external."
+        },
+        {
+          "key": "D",
+          "text": "Link mentions are blue and bookmarks are green.",
+          "correct": false,
+          "explanation": "The article does not specify color coding for these link types; the distinction is based on their layout and subtlety."
+        }
+      ]
+    },
+    {
+      "id": "embed-and-connect-other-apps-004",
+      "question": "You receive a 'Failed to Load' error when trying to embed a specific website. Why is this likely happening?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The website prohibits their content from being embedded elsewhere.",
+          "correct": true,
+          "explanation": "The article notes that some websites prohibit their content from being embedded elsewhere, which results in a Failed to Load error."
+        },
+        {
+          "key": "B",
+          "text": "You are using the desktop app instead of the browser.",
+          "correct": false,
+          "explanation": "Embeds that require login to an external site will not work on the desktop or mobile apps, but the error message here specifically points to site restrictions."
+        },
+        {
+          "key": "C",
+          "text": "Your internet connection is too slow to load the iframe.",
+          "correct": false,
+          "explanation": "While slow internet could cause loading issues, the specific error and the context of 'some websites prohibit their content' point to the site's embedding policy."
+        },
+        {
+          "key": "D",
+          "text": "The embed link you pasted started with 'https' instead of 'http'.",
+          "correct": false,
+          "explanation": "The instructions state the link should start with https, not that this causes a Failed to Load error specifically."
+        }
+      ]
+    },
+    {
+      "id": "embed-and-connect-other-apps-005",
+      "question": "How can you resize an embedded block in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Drag the black bars that appear on the sides of the embed.",
+          "correct": true,
+          "explanation": "The documentation states that most embeds can be resized by hovering and dragging the black bars that appear on the sides."
+        },
+        {
+          "key": "B",
+          "text": "Click the corner handle and drag to resize.",
+          "correct": false,
+          "explanation": "The corner handle is used to move the embed, not resize it. The black bars on the sides are specifically for resizing."
+        },
+        {
+          "key": "C",
+          "text": "Double-click the embed to open a resize menu.",
+          "correct": false,
+          "explanation": "There is no double-click resize menu; resizing is done via the black bars on the sides."
+        },
+        {
+          "key": "D",
+          "text": "Use the keyboard arrow keys to adjust the width.",
+          "correct": false,
+          "explanation": "Notion does not support resizing via keyboard arrows; the drag-and-drop method with black bars is required."
+        }
+      ]
+    },
+    {
+      "id": "embed-and-connect-other-apps-006",
+      "question": "What is a requirement for embedding a Google Calendar into a Notion page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Gmail address used for the calendar must be the same as the one used for your Notion account.",
+          "correct": true,
+          "explanation": "The article specifies that you can embed a view-only Google Calendar into Notion if the Gmail address for the calendar is the same one used for Notion."
+        },
+        {
+          "key": "B",
+          "text": "You must use the embed code provided by Google, not the URL.",
+          "correct": false,
+          "explanation": "You copy the 'Public URL' from the Google Calendar settings and paste that URL into Notion to create the embed."
+        },
+        {
+          "key": "C",
+          "text": "You must be on an Enterprise Plan to embed Google Calendars.",
+          "correct": false,
+          "explanation": "There is no mention of an Enterprise requirement; the requirement is simply matching email addresses."
+        },
+        {
+          "key": "D",
+          "text": "You cannot embed Google Calendars, only Google Docs or Sheets.",
+          "correct": false,
+          "explanation": "The article explicitly describes how to embed a Google Calendar."
+        }
+      ]
+    },
+    {
+      "id": "embed-and-connect-other-apps-007",
+      "question": "When integrating Zoom into Notion for the first time, what step is required?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You must authenticate the app by clicking 'Connect to Zoom'.",
+          "correct": true,
+          "explanation": "The article states that you have to authenticate the app the very first time you paste a link, specifically by clicking the 'Connect to Zoom to update' button."
+        },
+        {
+          "key": "B",
+          "text": "You must download the Zoom desktop application on your computer.",
+          "correct": false,
+          "explanation": "The integration works within the browser or Notion app; you do not need to download a desktop app to connect."
+        },
+        {
+          "key": "C",
+          "text": "You must paste the link as a bookmark rather than a mention.",
+          "correct": false,
+          "explanation": "The article allows you to choose between 'Paste as mention' or 'Paste as preview' after authentication."
+        },
+        {
+          "key": "D",
+          "text": "You must share the Notion page with Zoom to enable the feature.",
+          "correct": false,
+          "explanation": "Authentication happens locally via the 'Connect to Zoom' button, not via sharing settings."
+        }
+      ]
+    },
+    {
+      "id": "embed-and-connect-other-apps-008",
+      "question": "How can you open the original source website of an embedded link?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over the embed and click 'Original' or 'View Original' in the context menu.",
+          "correct": true,
+          "explanation": "The article outlines three ways: clicking 'Original' on hover, or using the '⋮⋮' icon or '•••' menu and selecting 'View Original'."
+        },
+        {
+          "key": "B",
+          "text": "Right-click the embed and select 'Open in new tab'.",
+          "correct": false,
+          "explanation": "While you can generally right-click to open in a new tab, the specific Notion feature to jump to source is 'Original' or 'View Original'."
+        },
+        {
+          "key": "C",
+          "text": "Click the 'Go to Source' button in the top right corner of the embed.",
+          "correct": false,
+          "explanation": "There is no 'Go to Source' button; the action is accessed via the 'Original' text or the context menu handles."
+        },
+        {
+          "key": "D",
+          "text": "You cannot open the source; you must copy the link and paste it into your browser.",
+          "correct": false,
+          "explanation": "Notion provides a built-in feature to jump directly to the source from within the embed."
+        }
+      ]
+    },
+    {
+      "id": "embed-and-connect-other-apps-009",
+      "question": "On Enterprise Plans, what specific permissions can workspace owners restrict to the page level?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The ability to add connections and decide who can connect or disconnect integrations at the page level.",
+          "correct": true,
+          "explanation": "The article explicitly lists this as one of the two things that can be restricted to workspace owners on Enterprise plans."
+        },
+        {
+          "key": "B",
+          "text": "The ability to delete pages within the workspace.",
+          "correct": false,
+          "explanation": "The article does not mention restricting page deletion; it specifically mentions restricting integrations and security compliance permissions."
+        },
+        {
+          "key": "C",
+          "text": "The ability to change the page template or style.",
+          "correct": false,
+          "explanation": "Template and style changes are not mentioned as restricted permissions for Enterprise owners in this context."
+        },
+        {
+          "key": "D",
+          "text": "The ability to embed external content from specific domains.",
+          "correct": false,
+          "explanation": "While embedding is possible, the specific restriction mentioned for Enterprise owners is regarding the management of connections and integrations."
+        }
+      ]
+    },
+    {
+      "id": "embed-and-connect-other-apps-010",
+      "question": "How can you manage your personal account authentications for connected apps?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Settings in the sidebar → Connections.",
+          "correct": true,
+          "explanation": "The article instructs users to go to 'Settings in the sidebar → Connections' to see all apps they have authenticated or are available."
+        },
+        {
+          "key": "B",
+          "text": "Go to the top right corner of the browser window and click Account Settings.",
+          "correct": false,
+          "explanation": "While there is a general account settings area, the specific location for managing app connections and authentications is the sidebar Settings menu."
+        },
+        {
+          "key": "C",
+          "text": "Click 'Show all' in the top right corner of any Notion page.",
+          "correct": false,
+          "explanation": "'Show all' is a feature inside the Connections menu to see additional app options, not the main location to manage authentications."
+        },
+        {
+          "key": "D",
+          "text": "Manage these settings in the specific page where the app was connected.",
+          "correct": false,
+          "explanation": "Account authentications are managed at the user/Settings level, not within the specific page context."
+        }
+      ]
+    },
+    {
+      "id": "embed-and-connect-other-apps-011",
+      "question": "Which two methods can be used to embed content from your Google Drive into a Notion page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clicking the '+' and selecting Google Drive, or typing '/drive' and pressing enter.",
+          "correct": true,
+          "explanation": "The article explicitly lists these two methods: clicking the + and choosing Google Drive from the menu, or typing /drive."
+        },
+        {
+          "key": "B",
+          "text": "Dragging and dropping files from a browser tab onto the page.",
+          "correct": false,
+          "explanation": "Notion does not support dragging files from a browser tab directly into the page to create an embed; you must use the specific Notion menu."
+        },
+        {
+          "key": "C",
+          "text": "Pasting a direct link to the file and selecting 'Create Embed'.",
+          "correct": false,
+          "explanation": "You can paste a URL, but the method described involves selecting 'Browse Google Drive' or using the /drive command to search."
+        },
+        {
+          "key": "D",
+          "text": "Using the 'Import' button in the sidebar and selecting 'Google Drive'.",
+          "correct": false,
+          "explanation": "There is no 'Import' button mentioned in the context of embedding Google Drive content."
+        }
+      ]
+    }
+  ]
+}

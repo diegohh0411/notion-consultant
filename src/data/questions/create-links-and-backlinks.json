@@ -1,0 +1,379 @@
+{
+  "source": "create-links-and-backlinks",
+  "sourceTitle": "Links & backlinks",
+  "sourceUrl": "https://www.notion.so/help/create-links-and-backlinks",
+  "questions": [
+    {
+      "id": "create-links-and-backlinks-001",
+      "question": "Which of the following commands can be used to link to a page directly within a paragraph?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "/link",
+          "correct": false,
+          "explanation": "The /link command creates a 'Link to page' block, not an inline link."
+        },
+        {
+          "key": "B",
+          "text": "@",
+          "correct": true,
+          "explanation": "Typing @ allows you to search for and link to a page inline."
+        },
+        {
+          "key": "C",
+          "text": "Ctrl+K",
+          "correct": false,
+          "explanation": "Ctrl+K is a browser shortcut for opening links, not a Notion command for linking pages."
+        },
+        {
+          "key": "D",
+          "text": "#",
+          "correct": false,
+          "explanation": "The # symbol is used for creating new headings, not linking to pages."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-002",
+      "question": "How do you create a link to a specific block within a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Copy the text of the block and paste it elsewhere.",
+          "correct": false,
+          "explanation": "Copying text loses the block's specific anchor ID needed for linking."
+        },
+        {
+          "key": "B",
+          "text": "Hover over the block and click the ⋮⋮ menu, then select 'Copy link to block'.",
+          "correct": true,
+          "explanation": "This action copies the specific URL anchor for that block, which can be pasted anywhere."
+        },
+        {
+          "key": "C",
+          "text": "Use the /link command and type the block's name.",
+          "correct": false,
+          "explanation": "The /link command links to pages, not individual blocks."
+        },
+        {
+          "key": "D",
+          "text": "Drag the block to a new location to generate a link.",
+          "correct": false,
+          "explanation": "Dragging moves the block; it does not generate a link to it."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-003",
+      "question": "What happens when you paste a web page's URL and select 'Paste as mention'?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It opens the page in a new browser tab.",
+          "correct": false,
+          "explanation": "A mention creates a compact, clickable link in the page itself, not a new tab."
+        },
+        {
+          "key": "B",
+          "text": "It creates a link with the icon, source, and title of the page.",
+          "correct": true,
+          "explanation": "Link mentions render a preview card containing the source icon, title, and source."
+        },
+        {
+          "key": "C",
+          "text": "It embeds the full web page content into Notion.",
+          "correct": false,
+          "explanation": "Embeds are different from link mentions; mentions only show a preview card."
+        },
+        {
+          "key": "D",
+          "text": "It converts the URL into a text link without any formatting.",
+          "correct": false,
+          "explanation": "This would defeat the purpose of a link mention, which is meant to look nice and clean."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-004",
+      "question": "What distinguishes a 'Link to page' block from an @-mention?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Link to page block creates a sub-page in the sidebar.",
+          "correct": true,
+          "explanation": "Unlike @-mentions, Link to page blocks appear in the sidebar as sub-pages of the current page."
+        },
+        {
+          "key": "B",
+          "text": "@-mentions create a sub-page in the sidebar.",
+          "correct": false,
+          "explanation": "@-mentions act like standard hyperlinks and do not create sidebar sub-pages."
+        },
+        {
+          "key": "C",
+          "text": "Link to page blocks cannot be moved once created.",
+          "correct": false,
+          "explanation": "Link to page blocks can be moved using the ⋮⋮ menu and drag functionality."
+        },
+        {
+          "key": "D",
+          "text": "@-mentions allow you to see the properties of the linked page.",
+          "correct": false,
+          "explanation": "While @-mentions link to the page, they do not automatically display its properties like a sub-page."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-005",
+      "question": "How do you customize backlinks for an entire database page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the ••• menu, select 'Customize page', and adjust the Backlinks dropdown.",
+          "correct": false,
+          "explanation": "This method applies to non-database pages, not database pages."
+        },
+        {
+          "key": "B",
+          "text": "Click the ••• menu, select 'Customize layout', open the Heading module, and adjust the dropdown.",
+          "correct": true,
+          "explanation": "In databases, you must go to Customize layout, open the Heading module, and select 'Apply to all pages'."
+        },
+        {
+          "key": "C",
+          "text": "Select 'Backlinks' from the Properties tab and toggle the switch.",
+          "correct": false,
+          "explanation": "Backlinks are a display feature in the page body, not a toggleable property in the database properties."
+        },
+        {
+          "key": "D",
+          "text": "You cannot customize backlinks for database pages; they are static.",
+          "correct": false,
+          "explanation": "You can fully customize backlinks for database pages to show, hide, or show on hover only."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-006",
+      "question": "Where can you find the backlinks section for a specific page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the page's sidebar properties.",
+          "correct": false,
+          "explanation": "While database pages show backlinks in properties, standard pages show them under the title."
+        },
+        {
+          "key": "B",
+          "text": "Under the page title, where you can select '{#} backlinks'.",
+          "correct": true,
+          "explanation": "You can select '{#} backlinks' directly under the page title to view all incoming links."
+        },
+        {
+          "key": "C",
+          "text": "At the very bottom of the page content area.",
+          "correct": false,
+          "explanation": "Backlinks are not located at the bottom of the page content."
+        },
+        {
+          "key": "D",
+          "text": "In the desktop app's 'Open backlinks' settings.",
+          "correct": false,
+          "explanation": "Backlinks are a feature of the page view, not a setting in the desktop app."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-007",
+      "question": "Which of the following is a requirement for a web page link to render rich information?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The link must be longer than 50 characters.",
+          "correct": false,
+          "explanation": "Link mention previews work regardless of the URL length."
+        },
+        {
+          "key": "B",
+          "text": "The web page must be a public page accessible without authentication.",
+          "correct": true,
+          "explanation": "Link mentions work best with public pages; pages requiring login/auth often fail to render rich info."
+        },
+        {
+          "key": "C",
+          "text": "The Notion user must have a paid subscription.",
+          "correct": false,
+          "explanation": "Link mentions are available to all Notion users."
+        },
+        {
+          "key": "D",
+          "text": "The link must be pasted as a block, not text.",
+          "correct": false,
+          "explanation": "Link mentions work best when pasted as text/mention rather than a block."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-008",
+      "question": "What happens if you attempt to view backlinks for a private page that you do not own?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "You will see all the backlinks, but they will be labeled 'Private'.",
+          "correct": false,
+          "explanation": "You generally cannot see backlinks to pages you do not have access to."
+        },
+        {
+          "key": "B",
+          "text": "You will see a generic 'Backlinks' section with no data.",
+          "correct": false,
+          "explanation": "Access restrictions prevent viewing the data entirely."
+        },
+        {
+          "key": "C",
+          "text": "You will not be able to see the backlinks section at all.",
+          "correct": true,
+          "explanation": "You will only see backlinks for pages you have access to. Backlinks to private pages you don't own are hidden."
+        },
+        {
+          "key": "D",
+          "text": "The backlinks will appear, but they will be marked as 'Hidden'.",
+          "correct": false,
+          "explanation": "There is no 'Hidden' label; the data is simply inaccessible."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-009",
+      "question": "How can you move a 'Link to page' block within a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the text of the link and drag it to a new location.",
+          "correct": false,
+          "explanation": "You must use the block menu, not the text, to move the block."
+        },
+        {
+          "key": "B",
+          "text": "Hover over the block and drag the text.",
+          "correct": false,
+          "explanation": "Dragging the text does not move the block itself."
+        },
+        {
+          "key": "C",
+          "text": "Click the ⋮⋮ to the left of the block and drag it to your desired location.",
+          "correct": true,
+          "explanation": "The block menu allows you to drag the block element to reorder it."
+        },
+        {
+          "key": "D",
+          "text": "Edit the link URL and press Enter to move it.",
+          "correct": false,
+          "explanation": "Editing the URL changes the destination, not the position of the block."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-010",
+      "question": "Where is the setting located to configure opening Notion links in the desktop app?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the Notion desktop app's 'Preferences' menu.",
+          "correct": false,
+          "explanation": "You must configure this in the web browser settings, not the desktop app settings."
+        },
+        {
+          "key": "B",
+          "text": "In the Notion web app's 'Settings' -> 'Preferences'.",
+          "correct": true,
+          "explanation": "Navigate to Notion in your web browser, then Settings -> Preferences to toggle the setting."
+        },
+        {
+          "key": "C",
+          "text": "In the Notion Help Center article 'Open links in desktop app'.",
+          "correct": false,
+          "explanation": "The article describes *how* to do it, but the actual setting is in the Preferences menu."
+        },
+        {
+          "key": "D",
+          "text": "In the system-level browser settings.",
+          "correct": false,
+          "explanation": "Notion has a specific toggle within its own Preferences menu for this behavior."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-011",
+      "question": "Which method creates a 'Link to page' block that appears in the sidebar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Typing @ and selecting the page in the menu.",
+          "correct": false,
+          "explanation": "@-mentions do not create sidebar sub-pages."
+        },
+        {
+          "key": "B",
+          "text": "Typing /link and selecting the page in the menu.",
+          "correct": true,
+          "explanation": "Using the /link command creates a block that acts as a sub-page in the sidebar."
+        },
+        {
+          "key": "C",
+          "text": "Copying the page's URL and pasting it as a link.",
+          "correct": false,
+          "explanation": "Pasting a URL creates a link mention, not a sidebar sub-page block."
+        },
+        {
+          "key": "D",
+          "text": "Dragging the page icon from the sidebar to the content.",
+          "correct": false,
+          "explanation": "You cannot drag sidebar icons into the content to create link blocks."
+        }
+      ]
+    },
+    {
+      "id": "create-links-and-backlinks-012",
+      "question": "What is a 'Link mention'?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A link to a Notion block within a paragraph.",
+          "correct": false,
+          "explanation": "Link mentions refer to web pages, not Notion blocks."
+        },
+        {
+          "key": "B",
+          "text": "A compact link to a web page that displays a preview card.",
+          "correct": true,
+          "explanation": "Link mentions are a specific feature for pasting web URLs to generate clean, previewed links."
+        },
+        {
+          "key": "C",
+          "text": "A type of database property used to track incoming links.",
+          "correct": false,
+          "explanation": "Backlinks are the property used to track incoming links, not link mentions."
+        },
+        {
+          "key": "D",
+          "text": "A command to automatically hide backlinks.",
+          "correct": false,
+          "explanation": "Link mentions are about displaying web content, not hiding backlinks."
+        }
+      ]
+    }
+  ]
+}

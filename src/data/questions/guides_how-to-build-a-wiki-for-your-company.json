@@ -1,0 +1,317 @@
+{
+  "source": "guides_how-to-build-a-wiki-for-your-company",
+  "sourceTitle": "How to build a wiki for your company",
+  "sourceUrl": "https://www.notion.so/help/guides/how-to-build-a-wiki-for-your-company",
+  "questions": [
+    {
+      "id": "guides-how-to-build-a-wiki-for-your-company-001",
+      "question": "What is the primary reason the article gives for building a company wiki?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create a decorative website for the company",
+          "correct": false,
+          "explanation": "A wiki is functional, not decorative."
+        },
+        {
+          "key": "B",
+          "text": "To centralize information so employees can find it quickly",
+          "correct": true,
+          "explanation": "The article emphasizes that a wiki consolidates essential information and saves time."
+        },
+        {
+          "key": "C",
+          "text": "To replace all email communication",
+          "correct": false,
+          "explanation": "While it reduces certain emails, replacing all email is not the main goal."
+        },
+        {
+          "key": "D",
+          "text": "To increase the number of pages in Notion",
+          "correct": false,
+          "explanation": "Quantity of pages isn’t the purpose; organization and accessibility are."
+        }
+      ]
+    },
+    {
+      "id": "guides-how-to-build-a-wiki-for-your-company-002",
+      "question": "Which Notion command is used to create a new sub‑page inside an existing wiki page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "/table",
+          "correct": false,
+          "explanation": "/table creates a table, not a page."
+        },
+        {
+          "key": "B",
+          "text": "/page",
+          "correct": true,
+          "explanation": "Typing /page and pressing Enter creates a sub‑page."
+        },
+        {
+          "key": "C",
+          "text": "/embed",
+          "correct": false,
+          "explanation": "/embed inserts external content, not a new page."
+        },
+        {
+          "key": "D",
+          "text": "/divider",
+          "correct": false,
+          "explanation": "/divider adds a visual line, not a page."
+        }
+      ]
+    },
+    {
+      "id": "guides-how-to-build-a-wiki-for-your-company-003",
+      "question": "When setting permissions, what does the article suggest you do if only a few people should see a certain page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete the page after they read it",
+          "correct": false,
+          "explanation": "Deleting loses the information; permissions are the proper method."
+        },
+        {
+          "key": "B",
+          "text": "Move the page to the PRIVATE section and share it with a specific group",
+          "correct": true,
+          "explanation": "The article advises placing private content in the PRIVATE sidebar and sharing with a group."
+        },
+        {
+          "key": "C",
+          "text": "Make the whole wiki public and trust users not to look at it",
+          "correct": false,
+          "explanation": "Public access defeats the purpose of restricting visibility."
+        },
+        {
+          "key": "D",
+          "text": "Rename the page with a secret code",
+          "correct": false,
+          "explanation": "Renaming does not control access."
+        }
+      ]
+    },
+    {
+      "id": "guides-how-to-build-a-wiki-for-your-company-004",
+      "question": "Which of the following is NOT mentioned as a way to organize content within a Notion wiki?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using headers (H1, H2, H3)",
+          "correct": false,
+          "explanation": "Headers are explicitly recommended for organization."
+        },
+        {
+          "key": "B",
+          "text": "Creating columns via drag‑and‑drop",
+          "correct": false,
+          "explanation": "Columns are suggested as a clean layout method."
+        },
+        {
+          "key": "C",
+          "text": "Adding divider lines with three hyphens",
+          "correct": false,
+          "explanation": "Dividers are mentioned for visual separation."
+        },
+        {
+          "key": "D",
+          "text": "Applying color‑coded tags to pages",
+          "correct": true,
+          "explanation": "The article does not discuss color‑coded tags for organization."
+        }
+      ]
+    },
+    {
+      "id": "guides-how-to-build-a-wiki-for-your-company-005",
+      "question": "How does the article recommend you embed a map showing the office location?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Upload a screenshot of the map",
+          "correct": false,
+          "explanation": "Uploading an image is not the recommended dynamic method."
+        },
+        {
+          "key": "B",
+          "text": "Type /map and paste the Google Maps URL",
+          "correct": true,
+          "explanation": "The article states you can embed a map by typing /map and pasting the URL."
+        },
+        {
+          "key": "C",
+          "text": "Use the /embed command with a PDF of the map",
+          "correct": false,
+          "explanation": "/embed works for many files, but the article specifies /map for live maps."
+        },
+        {
+          "key": "D",
+          "text": "Create a linked database of addresses",
+          "correct": false,
+          "explanation": "A linked database is not mentioned for map embedding."
+        }
+      ]
+    },
+    {
+      "id": "guides-how-to-build-a-wiki-for-your-company-006",
+      "question": "What advantage does the article claim a Notion wiki has over more rigid tools when it comes to customizing structure?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion automatically generates a table of contents",
+          "correct": false,
+          "explanation": "While Notion can generate a TOC, the article focuses on flexibility, not automation."
+        },
+        {
+          "key": "B",
+          "text": "It allows you to treat the wiki like malleable clay, adjusting headers, columns, and pages freely",
+          "correct": true,
+          "explanation": "The article uses the clay metaphor to highlight Notion’s flexibility."
+        },
+        {
+          "key": "C",
+          "text": "It locks the layout after the first design, ensuring consistency",
+          "correct": false,
+          "explanation": "Locking is optional and not presented as an advantage for customization."
+        },
+        {
+          "key": "D",
+          "text": "It forces a single‑column layout for simplicity",
+          "correct": false,
+          "explanation": "Notion actually supports multiple columns, not a forced single column."
+        }
+      ]
+    },
+    {
+      "id": "guides-how-to-build-a-wiki-for-your-company-007",
+      "question": "If you want only the marketing team to edit their own wiki page while everyone else can only view it, which sequence of steps is correct?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Set workspace access to ‘Can edit’, then remove marketing from the group",
+          "correct": false,
+          "explanation": "This would give everyone edit rights, opposite of the goal."
+        },
+        {
+          "key": "B",
+          "text": "Set workspace access to ‘Can read’, create a marketing group, and grant that group ‘Can edit’ on the page",
+          "correct": true,
+          "explanation": "The article describes exactly this workflow."
+        },
+        {
+          "key": "C",
+          "text": "Make the page public and rely on the public link for marketing only",
+          "correct": false,
+          "explanation": "Public pages are viewable by anyone with the link, not restricted to a team."
+        },
+        {
+          "key": "D",
+          "text": "Lock the page after creating it",
+          "correct": false,
+          "explanation": "Locking prevents all edits, not just for non‑marketing members."
+        }
+      ]
+    },
+    {
+      "id": "guides-how-to-build-a-wiki-for-your-company-008",
+      "question": "Which feature does the article suggest for creating an employee directory that includes photos and personalized info?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A standard table database with text fields only",
+          "correct": false,
+          "explanation": "Tables can hold data but the article recommends a gallery view for richer visual info."
+        },
+        {
+          "key": "B",
+          "text": "A gallery database, customizing cards to show photos and details",
+          "correct": true,
+          "explanation": "The article explicitly recommends using a gallery for the directory."
+        },
+        {
+          "key": "C",
+          "text": "Embedding a third‑party HR system via an iFrame",
+          "correct": false,
+          "explanation": "Embedding isn’t mentioned for the directory; the focus is on Notion’s native gallery."
+        },
+        {
+          "key": "D",
+          "text": "Creating separate pages for each employee and linking them manually",
+          "correct": false,
+          "explanation": "While possible, the article highlights the gallery as the streamlined solution."
+        }
+      ]
+    },
+    {
+      "id": "guides-how-to-build-a-wiki-for-your-company-009",
+      "question": "What is the purpose of the ‘Page lock’ feature as described in the guide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt the page content for security compliance",
+          "correct": false,
+          "explanation": "Locking doesn’t encrypt; it only prevents edits."
+        },
+        {
+          "key": "B",
+          "text": "To prevent accidental edits while still allowing others to view or comment",
+          "correct": true,
+          "explanation": "The article states that locking stops accidental edits."
+        },
+        {
+          "key": "C",
+          "text": "To automatically archive the page after 30 days",
+          "correct": false,
+          "explanation": "Archiving isn’t part of the lock function."
+        },
+        {
+          "key": "D",
+          "text": "To hide the page from all users except the creator",
+          "correct": false,
+          "explanation": "Locking doesn’t affect visibility; it only restricts editing."
+        }
+      ]
+    },
+    {
+      "id": "guides-how-to-build-a-wiki-for-your-company-010",
+      "question": "Which of the following best describes how the article suggests you handle frequently updated policy documents?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a new page for each version and link them manually",
+          "correct": false,
+          "explanation": "Versioning by separate pages adds clutter; the article promotes a single living document."
+        },
+        {
+          "key": "B",
+          "text": "Keep a single canonical page that everyone accesses, updating it in place",
+          "correct": true,
+          "explanation": "The guide emphasizes that a wiki allows updates in one place, reducing confusion."
+        },
+        {
+          "key": "C",
+          "text": "Store PDFs in a separate file‑sharing service and link them",
+          "correct": false,
+          "explanation": "While PDFs can be embedded, the primary advice is to maintain an up‑to‑date Notion page."
+        },
+        {
+          "key": "D",
+          "text": "Send out email newsletters whenever a policy changes",
+          "correct": false,
+          "explanation": "Email notifications are not presented as the central method for policy updates."
+        }
+      ]
+    }
+  ]
+}

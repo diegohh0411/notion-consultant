@@ -1,0 +1,317 @@
+{
+  "source": "guides_notify-people-instantly-with-a-click-of-a-button",
+  "sourceTitle": "Notify people instantly — with just a click of a button",
+  "sourceUrl": "https://www.notion.so/help/guides/notify-people-instantly-with-a-click-of-a-button",
+  "questions": [
+    {
+      "id": "guides_notify-people-instantly-with-a-click-of-a-button-001",
+      "question": "What is the primary benefit of using a button in Notion as described in the guide?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automate repetitive tasks such as sending notifications",
+          "correct": true,
+          "explanation": "Buttons let you trigger actions like notifications, emails, or webhooks, turning a manual step into a single click."
+        },
+        {
+          "key": "B",
+          "text": "Change the page theme automatically",
+          "correct": false,
+          "explanation": "Changing a page theme is not a function of buttons; they trigger actions, not styling."
+        },
+        {
+          "key": "C",
+          "text": "Export page data to a CSV file",
+          "correct": false,
+          "explanation": "Exporting data is not mentioned as a button capability in the article."
+        },
+        {
+          "key": "D",
+          "text": "Create a new workspace",
+          "correct": false,
+          "explanation": "Buttons operate within a page or database; they cannot create entire workspaces."
+        }
+      ]
+    },
+    {
+      "id": "guides_notify-people-instantly-with-a-click-of-a-button-002",
+      "question": "How many specific people can you select for an in‑app notification action using a button?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "5",
+          "correct": false,
+          "explanation": "The limit is higher than 5."
+        },
+        {
+          "key": "B",
+          "text": "10",
+          "correct": false,
+          "explanation": "The guide states a limit of 20, not 10."
+        },
+        {
+          "key": "C",
+          "text": "20",
+          "correct": true,
+          "explanation": "You can select up to 20 people for an in‑app notification."
+        },
+        {
+          "key": "D",
+          "text": "Unlimited",
+          "correct": false,
+          "explanation": "There is a defined limit of 20, so unlimited is incorrect."
+        }
+      ]
+    },
+    {
+      "id": "guides_notify-people-instantly-with-a-click-of-a-button-003",
+      "question": "Which command do you type to insert a new button into a Notion page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ctrl+B",
+          "correct": false,
+          "explanation": "Notion uses slash commands, not keyboard shortcuts, for inserting blocks."
+        },
+        {
+          "key": "B",
+          "text": "/button",
+          "correct": true,
+          "explanation": "Typing /button brings up the button block."
+        },
+        {
+          "key": "C",
+          "text": "Alt+N",
+          "correct": false,
+          "explanation": "Alt+N is not a Notion shortcut for buttons."
+        },
+        {
+          "key": "D",
+          "text": "Shift+Enter",
+          "correct": false,
+          "explanation": "Shift+Enter creates a line break, not a button."
+        }
+      ]
+    },
+    {
+      "id": "guides_notify-people-instantly-with-a-click-of-a-button-004",
+      "question": "When configuring a button for critical‑issue notifications, which action should be placed first in the action list?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Show confirmation popup",
+          "correct": true,
+          "explanation": "Placing the confirmation first ensures users approve the action before any notifications are sent."
+        },
+        {
+          "key": "B",
+          "text": "Send in‑app notification",
+          "correct": false,
+          "explanation": "If this runs before confirmation, the notification could be sent unintentionally."
+        },
+        {
+          "key": "C",
+          "text": "Send email to team leads",
+          "correct": false,
+          "explanation": "Email should also follow confirmation to avoid accidental alerts."
+        },
+        {
+          "key": "D",
+          "text": "Add a post‑click confirmation note",
+          "correct": false,
+          "explanation": "The post‑click note appears after actions; it does not prevent accidental clicks."
+        }
+      ]
+    },
+    {
+      "id": "guides_notify-people-instantly-with-a-click-of-a-button-005",
+      "question": "Which of the following cannot be sent directly by a Notion button action according to the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In‑app notification",
+          "correct": false,
+          "explanation": "In‑app notifications are a supported button action."
+        },
+        {
+          "key": "B",
+          "text": "Email via Gmail",
+          "correct": false,
+          "explanation": "The guide shows sending email as a button action."
+        },
+        {
+          "key": "C",
+          "text": "SMS via Twilio",
+          "correct": true,
+          "explanation": "SMS is not mentioned as a native button action; it would require an external integration not covered here."
+        },
+        {
+          "key": "D",
+          "text": "Webhook to Zendesk",
+          "correct": false,
+          "explanation": "Webhooks are explicitly listed as a way to trigger external actions."
+        }
+      ]
+    },
+    {
+      "id": "guides_notify-people-instantly-with-a-click-of-a-button-006",
+      "question": "How can you ensure a button notifies the correct on‑call person using data from another database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hard‑code the person's email address in the button",
+          "correct": false,
+          "explanation": "Hard‑coding would not adapt to schedule changes."
+        },
+        {
+          "key": "B",
+          "text": "Use a custom formula that references the on‑call database",
+          "correct": true,
+          "explanation": "Formulas can pull values from related databases, allowing dynamic targeting."
+        },
+        {
+          "key": "C",
+          "text": "Manually select the person each time the button is clicked",
+          "correct": false,
+          "explanation": "Manual selection defeats the purpose of automation."
+        },
+        {
+          "key": "D",
+          "text": "Add a static text block with the person's name",
+          "correct": false,
+          "explanation": "Static text cannot drive the notification recipient."
+        }
+      ]
+    },
+    {
+      "id": "guides_notify-people-instantly-with-a-click-of-a-button-007",
+      "question": "What is the purpose of the \"Show confirmation\" option in a button's action list?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To display a success message after the button is clicked",
+          "correct": false,
+          "explanation": "That describes a post‑click note, not the confirmation popup."
+        },
+        {
+          "key": "B",
+          "text": "To prevent accidental clicks by asking the user to confirm the action",
+          "correct": true,
+          "explanation": "The confirmation popup asks the user to verify before any actions run."
+        },
+        {
+          "key": "C",
+          "text": "To automatically email the user who clicked the button",
+          "correct": false,
+          "explanation": "The option does not trigger email; it only shows a prompt."
+        },
+        {
+          "key": "D",
+          "text": "To change the button's color after it is pressed",
+          "correct": false,
+          "explanation": "Button styling is not controlled by the confirmation option."
+        }
+      ]
+    },
+    {
+      "id": "guides_notify-people-instantly-with-a-click-of-a-button-008",
+      "question": "Which description best matches a multi‑step content review workflow created with a button?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "One click sends a single email to all reviewers at once",
+          "correct": false,
+          "explanation": "The guide emphasizes sequential notifications, not a single bulk email."
+        },
+        {
+          "key": "B",
+          "text": "The button notifies each reviewer in order, updating the status after each step",
+          "correct": true,
+          "explanation": "Multi‑step workflows can chain actions so each team is alerted in sequence."
+        },
+        {
+          "key": "C",
+          "text": "The button creates a PDF of the content for distribution",
+          "correct": false,
+          "explanation": "PDF creation is not mentioned as a button capability in this guide."
+        },
+        {
+          "key": "D",
+          "text": "The button archives the content automatically after review",
+          "correct": false,
+          "explanation": "Archiving is not part of the described multi‑step review process."
+        }
+      ]
+    },
+    {
+      "id": "guides_notify-people-instantly-with-a-click-of-a-button-009",
+      "question": "If a button’s action list places \"Send email\" before \"Show confirmation\", what is the most likely result when the button is clicked?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both the email and any other actions run without showing a confirmation popup",
+          "correct": true,
+          "explanation": "Actions execute in order; placing confirmation later means it never appears before the email is sent."
+        },
+        {
+          "key": "B",
+          "text": "The email will only be sent after the user confirms",
+          "correct": false,
+          "explanation": "The confirmation appears after the email, so it cannot gate the email sending."
+        },
+        {
+          "key": "C",
+          "text": "The confirmation popup never appears at all",
+          "correct": false,
+          "explanation": "The popup will still appear, but only after the email has already been sent."
+        },
+        {
+          "key": "D",
+          "text": "The button will produce an error and stop all actions",
+          "correct": false,
+          "explanation": "The order does not cause an error; it just bypasses the intended safety check."
+        }
+      ]
+    },
+    {
+      "id": "guides_notify-people-instantly-with-a-click-of-a-button-010",
+      "question": "Regarding formulas used in button actions, which statement is true?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Formulas can only reference properties on the same page",
+          "correct": false,
+          "explanation": "Formulas can reference related databases, not just the same page."
+        },
+        {
+          "key": "B",
+          "text": "Formulas can pull data from other databases to personalize notifications",
+          "correct": true,
+          "explanation": "The guide describes using formulas to connect information from other databases for smarter notifications."
+        },
+        {
+          "key": "C",
+          "text": "Formulas are not supported in email actions",
+          "correct": false,
+          "explanation": "Email actions can use formulas to customize subject lines and body content."
+        },
+        {
+          "key": "D",
+          "text": "Formulas must be written in JavaScript",
+          "correct": false,
+          "explanation": "Notion formulas use Notion's own formula language, not JavaScript."
+        }
+      ]
+    }
+  ]
+}

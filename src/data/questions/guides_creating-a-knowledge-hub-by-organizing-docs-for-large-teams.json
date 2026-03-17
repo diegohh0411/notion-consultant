@@ -1,0 +1,255 @@
+{
+  "source": "guides_creating-a-knowledge-hub-by-organizing-docs-for-large-teams",
+  "sourceTitle": "Creating a knowledge hub by organizing docs for large teams",
+  "sourceUrl": "https://www.notion.so/help/guides/creating-a-knowledge-hub-by-organizing-docs-for-large-teams",
+  "questions": [
+    {
+      "id": "creating-a-knowledge-hub-by-organizing-docs-for-large-teams-001",
+      "question": "What is the primary purpose of creating a home page for each team in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store personal notes of individual team members",
+          "correct": false,
+          "explanation": "Home pages are meant for team‑wide information, not personal notes."
+        },
+        {
+          "key": "B",
+          "text": "To centralize processes, best practices, and OKRs for that team",
+          "correct": true,
+          "explanation": "The article says a home page stores processes, best practices, or OKRs, acting as the team’s knowledge hub."
+        },
+        {
+          "key": "C",
+          "text": "To replace the company’s external website",
+          "correct": false,
+          "explanation": "Notion home pages are internal knowledge hubs, not public websites."
+        },
+        {
+          "key": "D",
+          "text": "To automatically generate meeting minutes",
+          "correct": false,
+          "explanation": "Meeting minutes require a separate database or template, not the home page itself."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-knowledge-hub-by-organizing-docs-for-large-teams-002",
+      "question": "Which method creates a link to another Notion page while also generating a backlink automatically?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Copy‑paste the page URL",
+          "correct": false,
+          "explanation": "Copy‑pasting a URL creates a link but does not add a backlink."
+        },
+        {
+          "key": "B",
+          "text": "Use the @‑mention shortcut and select the page from the dropdown",
+          "correct": true,
+          "explanation": "The article specifies that @‑mentioning a page creates a link and adds a backlink."
+        },
+        {
+          "key": "C",
+          "text": "Drag the page from the sidebar into the current page",
+          "correct": false,
+          "explanation": "Dragging inserts a block but does not guarantee a backlink."
+        },
+        {
+          "key": "D",
+          "text": "Insert an embed block with the page’s URL",
+          "correct": false,
+          "explanation": "Embedding shows the page but does not create a backlink."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-knowledge-hub-by-organizing-docs-for-large-teams-003",
+      "question": "If you sync a section of a page across multiple locations, what happens when the content is edited in any of those places?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the original section updates; synced copies stay unchanged",
+          "correct": false,
+          "explanation": "The sync is bidirectional; changes propagate both ways."
+        },
+        {
+          "key": "B",
+          "text": "Changes are reflected in real time across all synced locations",
+          "correct": true,
+          "explanation": "The article states that synced sections update in real time wherever they appear."
+        },
+        {
+          "key": "C",
+          "text": "A version history entry is created, but the content does not sync",
+          "correct": false,
+          "explanation": "Version history is separate; sync ensures content updates."
+        },
+        {
+          "key": "D",
+          "text": "Only the most recent edit is kept, older edits are discarded",
+          "correct": false,
+          "explanation": "All edits are merged; nothing is discarded automatically."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-knowledge-hub-by-organizing-docs-for-large-teams-004",
+      "question": "Why might a leader prefer using a standardized Docs database over scattered individual pages?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It forces every employee to write in the same tone",
+          "correct": false,
+          "explanation": "Tone is not enforced by a database; the benefit is about organization and visibility."
+        },
+        {
+          "key": "B",
+          "text": "It provides a bird’s‑eye view and lets employees quickly understand what others are working on",
+          "correct": true,
+          "explanation": "Standardized databases give leaders overview and help employees discover related work."
+        },
+        {
+          "key": "C",
+          "text": "It automatically translates content into multiple languages",
+          "correct": false,
+          "explanation": "Translation is not mentioned as a feature of a Docs database."
+        },
+        {
+          "key": "D",
+          "text": "It locks the content so no one can edit it after creation",
+          "correct": false,
+          "explanation": "Databases remain editable; locking is not a described function."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-knowledge-hub-by-organizing-docs-for-large-teams-005",
+      "question": "Which combination of steps correctly restricts a page’s access and invites an external guest?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Open the Share menu → set access level (e.g., No Access) → click ‘Copy link’ and send it",
+          "correct": false,
+          "explanation": "Setting No Access would prevent anyone, including guests, from viewing the page."
+        },
+        {
+          "key": "B",
+          "text": "Open the Share menu → choose the desired permission level → use ‘Invite’ to add the guest’s email",
+          "correct": true,
+          "explanation": "The article explains that the Share menu lets you set access levels and invite external guests."
+        },
+        {
+          "key": "C",
+          "text": "Go to Settings → Members → add the guest as a member → they automatically get Full Access",
+          "correct": false,
+          "explanation": "Guests are invited per page, not added as workspace members, and they don’t automatically get Full Access."
+        },
+        {
+          "key": "D",
+          "text": "Create a new database view → share that view only",
+          "correct": false,
+          "explanation": "Sharing a view does not control page‑level permissions."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-knowledge-hub-by-organizing-docs-for-large-teams-006",
+      "question": "As an admin, which of the following actions can you NOT perform from the Settings → Members section?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Grant admin access to any team member",
+          "correct": false,
+          "explanation": "Admins can grant admin rights to members."
+        },
+        {
+          "key": "B",
+          "text": "Create, edit, and delete groups",
+          "correct": false,
+          "explanation": "Group management is listed as an admin capability."
+        },
+        {
+          "key": "C",
+          "text": "View all workspace guests and the pages shared with them",
+          "correct": false,
+          "explanation": "Admins can see guests and shared pages."
+        },
+        {
+          "key": "D",
+          "text": "Change the content of a page that they do not have explicit access to",
+          "correct": true,
+          "explanation": "Even admins cannot edit a page unless they have been granted the appropriate page‑level permission."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-knowledge-hub-by-organizing-docs-for-large-teams-007",
+      "question": "What is the recommended way to make meeting notes easily searchable and viewable for anyone who missed the live meeting?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Store them as PDFs attached to a random page",
+          "correct": false,
+          "explanation": "PDFs are not searchable within Notion and lack the database benefits described."
+        },
+        {
+          "key": "B",
+          "text": "Create a Meeting Notes database and add a template for recurring meetings",
+          "correct": true,
+          "explanation": "The article suggests a Meeting Notes database to centralize notes and make them asynchronously accessible."
+        },
+        {
+          "key": "C",
+          "text": "Post the notes in a Slack channel and link to the channel from Notion",
+          "correct": false,
+          "explanation": "While helpful, this does not place the notes inside Notion where they can be filtered and viewed."
+        },
+        {
+          "key": "D",
+          "text": "Email the notes to each team member after the meeting",
+          "correct": false,
+          "explanation": "Emailing bypasses the central knowledge hub and makes future retrieval harder."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-knowledge-hub-by-organizing-docs-for-large-teams-008",
+      "question": "How do headings, subheadings, and a Table of Contents improve the usability of a Notion page?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They automatically generate backlinks to every other page in the workspace",
+          "correct": false,
+          "explanation": "Headings and TOC help navigation, not backlink creation."
+        },
+        {
+          "key": "B",
+          "text": "They break the content into digestible sections and let readers jump directly to the part they need",
+          "correct": true,
+          "explanation": "The article states that headings, subheadings, and a TOC make information more digestible and easier to navigate."
+        },
+        {
+          "key": "C",
+          "text": "They encrypt the page content for security purposes",
+          "correct": false,
+          "explanation": "Encryption is unrelated to headings or TOC."
+        },
+        {
+          "key": "D",
+          "text": "They sync the page with external documentation tools",
+          "correct": false,
+          "explanation": "Syncing is a separate feature; headings and TOC do not cause external sync."
+        }
+      ]
+    }
+  ]
+}

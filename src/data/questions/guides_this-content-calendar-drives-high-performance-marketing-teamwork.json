@@ -1,0 +1,317 @@
+{
+  "source": "guides_this-content-calendar-drives-high-performance-marketing-teamwork",
+  "sourceTitle": "How to create a content calendar for your marketing team",
+  "sourceUrl": "https://www.notion.so/help/guides/this-content-calendar-drives-high-performance-marketing-teamwork",
+  "questions": [
+    {
+      "id": "guides_this-content-calendar-drives-high-performance-marketing-teamwork-001",
+      "question": "What is the primary benefit of using a single Notion content calendar for a marketing team?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically writes all copy for you",
+          "correct": false,
+          "explanation": "Notion provides a workspace, not AI‑generated copy."
+        },
+        {
+          "key": "B",
+          "text": "It centralizes all content types, assets, and status updates in one place",
+          "correct": true,
+          "explanation": "The guide emphasizes that a single calendar lets blogs, videos, social posts, and more live together with status, assets, and feedback."
+        },
+        {
+          "key": "C",
+          "text": "It replaces the need for any other marketing tools",
+          "correct": false,
+          "explanation": "Notion complements other tools; it doesn’t replace every specialized platform."
+        },
+        {
+          "key": "D",
+          "text": "It guarantees higher SEO rankings",
+          "correct": false,
+          "explanation": "While SEO checklists can be added, the calendar itself doesn’t guarantee rankings."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-content-calendar-drives-high-performance-marketing-teamwork-002",
+      "question": "When creating the initial database for the calendar, which Notion view does the guide recommend starting with?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Table view",
+          "correct": false,
+          "explanation": "Table view is an option, but the guide focuses on a board view for visual status columns."
+        },
+        {
+          "key": "B",
+          "text": "Board view (Board‑Full page)",
+          "correct": true,
+          "explanation": "The guide instructs to type /board and select Board‑Full page as the first step."
+        },
+        {
+          "key": "C",
+          "text": "List view",
+          "correct": false,
+          "explanation": "List view isn’t mentioned as the starting point for the calendar."
+        },
+        {
+          "key": "D",
+          "text": "Calendar view",
+          "correct": false,
+          "explanation": "Calendar view is useful later, but the initial setup uses a board."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-content-calendar-drives-high-performance-marketing-teamwork-003",
+      "question": "Which property type would you use to assign a specific team member to a piece of content?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select",
+          "correct": false,
+          "explanation": "Select is for predefined categories, not people."
+        },
+        {
+          "key": "B",
+          "text": "Date",
+          "correct": false,
+          "explanation": "Date stores deadlines, not people."
+        },
+        {
+          "key": "C",
+          "text": "Person",
+          "correct": true,
+          "explanation": "The guide suggests using a Person property called “Writer” to tag the responsible teammate."
+        },
+        {
+          "key": "D",
+          "text": "Checkbox",
+          "correct": false,
+          "explanation": "Checkbox is for binary flags, not assigning users."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-content-calendar-drives-high-performance-marketing-teamwork-004",
+      "question": "How can you make certain properties appear directly on the cards in a board view?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Edit the page’s header hierarchy",
+          "correct": false,
+          "explanation": "Headers affect page formatting, not card visibility."
+        },
+        {
+          "key": "B",
+          "text": "Click the ••• menu on the board, choose Properties, and toggle the desired ones",
+          "correct": true,
+          "explanation": "The guide explains that toggling properties in the board’s ••• menu shows them on cards."
+        },
+        {
+          "key": "C",
+          "text": "Create a linked database and set it to display those fields",
+          "correct": false,
+          "explanation": "Linked databases are for separate views, not for showing properties on board cards."
+        },
+        {
+          "key": "D",
+          "text": "Add a formula property that concatenates the values",
+          "correct": false,
+          "explanation": "Formulas generate new values but don’t control card display."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-content-calendar-drives-high-performance-marketing-teamwork-005",
+      "question": "What advantage does grouping columns by a property (e.g., content type) provide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically publishes the content to social media",
+          "correct": false,
+          "explanation": "Grouping is a visual organization tool; it does not publish content."
+        },
+        {
+          "key": "B",
+          "text": "It lets you see all items of the same type in the same column, making status tracking easier",
+          "correct": true,
+          "explanation": "Grouping by a property rearranges columns so each column represents a value (e.g., Blog, Video) for easier overview."
+        },
+        {
+          "key": "C",
+          "text": "It locks the board so no one can move cards",
+          "correct": false,
+          "explanation": "Grouping does not affect edit permissions."
+        },
+        {
+          "key": "D",
+          "text": "It converts the board into a calendar view",
+          "correct": false,
+          "explanation": "Grouping changes column organization, not view type."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-content-calendar-drives-high-performance-marketing-teamwork-006",
+      "question": "Which of the following best describes a ‘linked database’ as used by the Notion marketing team?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A copy of the original database that updates independently",
+          "correct": false,
+          "explanation": "A linked database reflects the original and updates in sync, not independently."
+        },
+        {
+          "key": "B",
+          "text": "A view of an existing database placed on another page, allowing customized filters and sorts",
+          "correct": true,
+          "explanation": "The guide says they keep a view of the content calendar on the team wiki—a linked database."
+        },
+        {
+          "key": "C",
+          "text": "A database that automatically syncs with external tools like Google Sheets",
+          "correct": false,
+          "explanation": "Linking refers to internal Notion views, not external sync."
+        },
+        {
+          "key": "D",
+          "text": "A special type of page that cannot be edited",
+          "correct": false,
+          "explanation": "Linked databases are fully editable unless permissions restrict them."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-content-calendar-drives-high-performance-marketing-teamwork-007",
+      "question": "When building a template for a new piece of content, where do you locate the option to create it?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "At the top of the board, click the blue “New” button’s down arrow and select “+New template”",
+          "correct": true,
+          "explanation": "The guide specifies this exact location for creating a template."
+        },
+        {
+          "key": "B",
+          "text": "Right‑click any card and choose “Create Template”",
+          "correct": false,
+          "explanation": "Right‑click does not open a template creation menu."
+        },
+        {
+          "key": "C",
+          "text": "In the Properties menu, click “Add Template”",
+          "correct": false,
+          "explanation": "Templates are created from the New button, not from Properties."
+        },
+        {
+          "key": "D",
+          "text": "From the Share menu, select “Make Template”",
+          "correct": false,
+          "explanation": "Sharing settings are unrelated to template creation."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-content-calendar-drives-high-performance-marketing-teamwork-008",
+      "question": "Which of the following is a hard‑level concept discussed in the guide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using a Person property to assign writers",
+          "correct": false,
+          "explanation": "This is a basic property usage, not a hard concept."
+        },
+        {
+          "key": "B",
+          "text": "Relating a content database to a social‑media database via a relational property",
+          "correct": true,
+          "explanation": "The guide mentions linking two databases with a relational column to see associated social posts, which requires understanding of relational properties."
+        },
+        {
+          "key": "C",
+          "text": "Changing the board view to a list view",
+          "correct": false,
+          "explanation": "Switching view types is straightforward."
+        },
+        {
+          "key": "D",
+          "text": "Adding a checkbox for an SEO checklist",
+          "correct": false,
+          "explanation": "Checkboxes are simple property types."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-content-calendar-drives-high-performance-marketing-teamwork-009",
+      "question": "If you want the public to find your Notion page via Google, which setting must you enable?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Toggle “Share to the web”",
+          "correct": false,
+          "explanation": "Sharing makes the page public, but it does not guarantee indexing."
+        },
+        {
+          "key": "B",
+          "text": "Enable “Search engine indexing” after sharing to the web",
+          "correct": true,
+          "explanation": "The guide says you can toggle Search engine indexing to make the page discoverable on Google."
+        },
+        {
+          "key": "C",
+          "text": "Add a public tag to the page title",
+          "correct": false,
+          "explanation": "There is no tag that controls indexing."
+        },
+        {
+          "key": "D",
+          "text": "Create a linked database on a public site",
+          "correct": false,
+          "explanation": "Linked databases affect internal views, not external search visibility."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-content-calendar-drives-high-performance-marketing-teamwork-010",
+      "question": "Which of the following statements best captures why the guide suggests customizing multiple views for the content calendar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To hide certain content types from the entire team",
+          "correct": false,
+          "explanation": "Views are for filtering, not permanently hiding content from everyone."
+        },
+        {
+          "key": "B",
+          "text": "To provide tailored slices of the calendar (e.g., weekly launches, social media only) that different team members can quickly access",
+          "correct": true,
+          "explanation": "The guide explains that custom views let you filter and sort for specific workflows, like weekly product launches or social media calendars."
+        },
+        {
+          "key": "C",
+          "text": "To duplicate the database into separate databases for each project",
+          "correct": false,
+          "explanation": "Views stay within the same database; they don’t create new databases."
+        },
+        {
+          "key": "D",
+          "text": "To automatically assign tasks to team members based on view",
+          "correct": false,
+          "explanation": "Views are for display; task assignment requires properties or automation."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "source": "notion-academy_lesson_using-data-onboarding-knowledge-base",
+  "sourceTitle": "Welcome to Notion Academy",
+  "sourceUrl": "https://www.notion.com/help/notion-academy/lesson/using-data-onboarding-knowledge-base",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_using-data-onboarding-knowledge-base-001",
+      "question": "What is the primary benefit of earning a badge in Notion Academy?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It unlocks premium features for free.",
+          "correct": false,
+          "explanation": "Badges are recognition of learning; they do not grant premium product features."
+        },
+        {
+          "key": "B",
+          "text": "It shows that you have completed a specific learning path or lesson.",
+          "correct": true,
+          "explanation": "Badges are awarded when you finish a lesson or path, signaling mastery of that topic."
+        },
+        {
+          "key": "C",
+          "text": "It provides a discount on Notion Marketplace templates.",
+          "correct": false,
+          "explanation": "Badges are not tied to pricing discounts; they are purely achievement markers."
+        },
+        {
+          "key": "D",
+          "text": "It automatically grants you Notion Certified Admin status.",
+          "correct": false,
+          "explanation": "Certification is a separate process that requires passing a specific exam, not just earning a badge."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-onboarding-knowledge-base-002",
+      "question": "Which path is described as suitable for users who are \"New to Notion?\"",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "The Advanced Path is for experienced users who want to automate work and learn architecture best practices."
+        },
+        {
+          "key": "B",
+          "text": "Essentials Path",
+          "correct": true,
+          "explanation": "The Essentials Path is explicitly labeled for newcomers to gain basic skills."
+        },
+        {
+          "key": "C",
+          "text": "Workflows Path",
+          "correct": false,
+          "explanation": "The Workflows Path focuses on creating connected systems and is intermediate level."
+        },
+        {
+          "key": "D",
+          "text": "Templates & Marketplace Lesson",
+          "correct": false,
+          "explanation": "That is a single lesson, not a path, and it targets template creators rather than absolute beginners."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-onboarding-knowledge-base-003",
+      "question": "If you want to learn how to build an intake system using forms, charts, and automations, which lesson should you choose?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Custom Agents",
+          "correct": false,
+          "explanation": "Custom Agents focus on automating repeat work and responding to triggers, not specifically intake systems."
+        },
+        {
+          "key": "B",
+          "text": "An issue tracker for any team",
+          "correct": true,
+          "explanation": "The description of that lesson mentions building an intake system with forms, charts, and automations."
+        },
+        {
+          "key": "C",
+          "text": "Workspace design",
+          "correct": false,
+          "explanation": "Workspace design teaches best practices for layout and organization, not intake forms."
+        },
+        {
+          "key": "D",
+          "text": "Project management",
+          "correct": false,
+          "explanation": "Project management focuses on setting up project and task databases, not intake processes."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-onboarding-knowledge-base-004",
+      "question": "Which of the following lessons is classified as \"Beginner\" level and lasts 20 minutes?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Building basics",
+          "correct": true,
+          "explanation": "The \"Building basics\" lesson is labeled Beginner and has a duration of 20 minutes."
+        },
+        {
+          "key": "B",
+          "text": "Connecting knowledge in Notion",
+          "correct": false,
+          "explanation": "That lesson is Intermediate and lasts 20 minutes."
+        },
+        {
+          "key": "C",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "This lesson is Intermediate and lasts 40 minutes."
+        },
+        {
+          "key": "D",
+          "text": "Workspace design",
+          "correct": false,
+          "explanation": "Workspace design is an Advanced lesson lasting 10 minutes."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-onboarding-knowledge-base-005",
+      "question": "What is the purpose of the \"Notion Certified Admin\" program?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To give users free access to all Notion paid plans.",
+          "correct": false,
+          "explanation": "Certification does not affect plan pricing; it validates admin expertise."
+        },
+        {
+          "key": "B",
+          "text": "To recognize individuals who can run Notion at scale, implement security best practices, and design robust workspaces.",
+          "correct": true,
+          "explanation": "The certification is described as confirming the ability to manage Notion at scale, security, and workspace design."
+        },
+        {
+          "key": "C",
+          "text": "To provide a badge that unlocks custom AI features in Notion.",
+          "correct": false,
+          "explanation": "AI features are available based on plan type, not certification badges."
+        },
+        {
+          "key": "D",
+          "text": "To guarantee a promotion within a user's current company.",
+          "correct": false,
+          "explanation": "While certification may help career growth, it does not guarantee a promotion."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-onboarding-knowledge-base-006",
+      "question": "Which learning path contains the highest number of lessons?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path",
+          "correct": false,
+          "explanation": "Essentials Path includes 3 lessons."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": false,
+          "explanation": "Workflows Path includes 4 lessons."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path",
+          "correct": true,
+          "explanation": "Advanced Path contains 5 lessons, the most among the listed paths."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents Lesson",
+          "correct": false,
+          "explanation": "Custom Agents is a single lesson, not a path."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-onboarding-knowledge-base-007",
+      "question": "If a user wants to learn how to create, list, market, and sell templates in Notion's Marketplace, which lesson should they enroll in, and what is its difficulty level?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "\"Templates & marketplace\" – Intermediate",
+          "correct": true,
+          "explanation": "The lesson titled \"Templates & marketplace\" is described as Intermediate and covers creating, listing, marketing, and selling templates."
+        },
+        {
+          "key": "B",
+          "text": "\"Custom Agents\" – Beginner",
+          "correct": false,
+          "explanation": "Custom Agents focuses on automating repeat work, not on template marketplaces."
+        },
+        {
+          "key": "C",
+          "text": "\"Workspace design\" – Advanced",
+          "correct": false,
+          "explanation": "Workspace design teaches layout best practices, not template creation or sales."
+        },
+        {
+          "key": "D",
+          "text": "\"Building basics\" – Beginner",
+          "correct": false,
+          "explanation": "Building basics covers navigation and block creation, not marketplace activities."
+        }
+      ]
+    }
+  ]
+}

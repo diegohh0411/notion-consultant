@@ -1,0 +1,317 @@
+{
+  "source": "guides_the-ultimate-quickstart-guide-to-notion-for-enterprise",
+  "sourceTitle": "The ultimate quickstart guide to Notion for Enterprise",
+  "sourceUrl": "https://www.notion.so/help/the-ultimate-quickstart-guide-to-notion-for-enterprise",
+  "questions": [
+    {
+      "id": "the-ultimate-quickstart-guide-to-notion-for-enterprise-001",
+      "question": "Which user type in Notion Enterprise has the most limited access and cannot have a personal section in the workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Member",
+          "correct": false,
+          "explanation": "Members have full access to the workspace and a personal section."
+        },
+        {
+          "key": "B",
+          "text": "Guest",
+          "correct": true,
+          "explanation": "Guests are free users limited to pages they’re granted and have no personal section."
+        },
+        {
+          "key": "C",
+          "text": "Workspace owner",
+          "correct": false,
+          "explanation": "Workspace owners have full privileges, including a personal section."
+        },
+        {
+          "key": "D",
+          "text": "Membership admin",
+          "correct": false,
+          "explanation": "Membership admins are an administrative role with broader permissions."
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-quickstart-guide-to-notion-for-enterprise-002",
+      "question": "If an organization wants to prevent users from creating new teamspaces, which setting should they adjust?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Toggle \"Limit teamspace creation\" under Settings > Teamspaces",
+          "correct": true,
+          "explanation": "Enabling this toggle restricts teamspace creation to workspace owners only."
+        },
+        {
+          "key": "B",
+          "text": "Disable \"Default teamspaces\" in the Workspace Settings",
+          "correct": false,
+          "explanation": "This only changes which teamspaces members join automatically, not creation rights."
+        },
+        {
+          "key": "C",
+          "text": "Turn off \"Allow guests\" in the teamspace settings",
+          "correct": false,
+          "explanation": "That setting only affects guest access, not who can create teamspaces."
+        },
+        {
+          "key": "D",
+          "text": "Remove the \"Teamspaces\" option from the sidebar",
+          "correct": false,
+          "explanation": "The sidebar cannot be edited to remove the option; creation rights are controlled by the toggle."
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-quickstart-guide-to-notion-for-enterprise-003",
+      "question": "Why are public email domains like gmail.com not allowed to be added as Allowed Email Domains?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because they are considered insecure and could expose the workspace to anyone with a Gmail address.",
+          "correct": true,
+          "explanation": "Public domains are disallowed to prevent uncontrolled access; only private, organization‑owned domains can be allowed."
+        },
+        {
+          "key": "B",
+          "text": "Because Notion only supports corporate domains for billing purposes.",
+          "correct": false,
+          "explanation": "Billing is separate; the restriction is about access control, not billing."
+        },
+        {
+          "key": "C",
+          "text": "Because Gmail accounts cannot be verified via DNS TXT records.",
+          "correct": false,
+          "explanation": "Verification is possible, but the policy blocks public domains regardless of verification."
+        },
+        {
+          "key": "D",
+          "text": "Because Notion automatically blocks any domain that is not listed in the SCIM configuration.",
+          "correct": false,
+          "explanation": "SCIM is unrelated to the Allowed Email Domains feature."
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-quickstart-guide-to-notion-for-enterprise-004",
+      "question": "Which of the following is NOT a step required to enable SAML SSO for a Notion workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Verify your email domain by adding a TXT record to DNS",
+          "correct": false,
+          "explanation": "Domain verification is required before enabling SAML SSO."
+        },
+        {
+          "key": "B",
+          "text": "Enable SAML SSO in the Identity & provisioning settings",
+          "correct": false,
+          "explanation": "Enabling SSO is a core step."
+        },
+        {
+          "key": "C",
+          "text": "Change the default login method to \"Only SAML SSO\"",
+          "correct": false,
+          "explanation": "Setting the default login enforces SSO for users."
+        },
+        {
+          "key": "D",
+          "text": "Create a new workspace for each user to use SAML SSO",
+          "correct": true,
+          "explanation": "Creating a separate workspace per user is unnecessary and not part of the SSO setup process."
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-quickstart-guide-to-notion-for-enterprise-005",
+      "question": "When would you recommend disabling Just‑in‑Time (JIT) provisioning?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you are also using SCIM to provision users",
+          "correct": true,
+          "explanation": "Enabling both JIT and SCIM can cause mismatched membership states, so it’s advised to disable JIT when SCIM is active."
+        },
+        {
+          "key": "B",
+          "text": "When you want users to be able to join via an invite link",
+          "correct": false,
+          "explanation": "Invite links are independent of JIT provisioning."
+        },
+        {
+          "key": "C",
+          "text": "When you have no Identity Provider configured",
+          "correct": false,
+          "explanation": "JIT works with SAML SSO; lack of an IdP means SSO isn’t configured at all."
+        },
+        {
+          "key": "D",
+          "text": "When you only allow Guest users in the workspace",
+          "correct": false,
+          "explanation": "Guests are not provisioned via JIT; the recommendation is unrelated."
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-quickstart-guide-to-notion-for-enterprise-006",
+      "question": "Which action can a Workspace owner take from the Domain Management view for a single‑member workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Require the account owner to change to a non‑corporate email address",
+          "correct": true,
+          "explanation": "The \"Require account ownership change\" action forces a non‑corporate email before access is restored."
+        },
+        {
+          "key": "B",
+          "text": "Upgrade the workspace directly to the Enterprise plan",
+          "correct": false,
+          "explanation": "Single‑member workspaces cannot be directly upgraded; they must be claimed and then upgraded."
+        },
+        {
+          "key": "C",
+          "text": "Add a new Membership admin to the workspace",
+          "correct": false,
+          "explanation": "Membership admins are added via the Members settings, not from Domain Management."
+        },
+        {
+          "key": "D",
+          "text": "Enable SAML SSO for that workspace",
+          "correct": false,
+          "explanation": "SAML SSO is configured in Identity & provisioning, not from the Domain Management view."
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-quickstart-guide-to-notion-for-enterprise-007",
+      "question": "What is the primary purpose of the Audit Log in Notion Enterprise?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide a searchable history of events and actions across the workspace",
+          "correct": true,
+          "explanation": "The Audit Log records a wide range of events, giving administrators visibility into activity."
+        },
+        {
+          "key": "B",
+          "text": "To automatically back up all pages in the workspace",
+          "correct": false,
+          "explanation": "Backing up pages is handled by export features, not the Audit Log."
+        },
+        {
+          "key": "C",
+          "text": "To manage billing and subscription changes",
+          "correct": false,
+          "explanation": "Billing is managed in the Billing settings, not the Audit Log."
+        },
+        {
+          "key": "D",
+          "text": "To control which integrations can be installed",
+          "correct": false,
+          "explanation": "Integration permissions are set in the Connections settings."
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-quickstart-guide-to-notion-for-enterprise-008",
+      "question": "Which of the following statements about Guest users is correct?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Guests can be added at the workspace level via the Members page.",
+          "correct": false,
+          "explanation": "Guests are added per page through the Share menu, not at the workspace level."
+        },
+        {
+          "key": "B",
+          "text": "Guests are supported by SAML SSO and SCIM provisioning.",
+          "correct": false,
+          "explanation": "Guests are explicitly not supported by SAML SSO or SCIM."
+        },
+        {
+          "key": "C",
+          "text": "Guests have access only to the specific pages they are invited to.",
+          "correct": true,
+          "explanation": "Guests are limited to the pages they’re granted access to and have no personal workspace."
+        },
+        {
+          "key": "D",
+          "text": "Guests can create new teamspaces for their projects.",
+          "correct": false,
+          "explanation": "Only workspace owners (or those with permission) can create teamspaces; guests cannot."
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-quickstart-guide-to-notion-for-enterprise-009",
+      "question": "What are two main benefits of consolidating multiple workspaces into a single primary workspace?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Simplified admin controls and more discoverable content",
+          "correct": true,
+          "explanation": "Consolidation centralizes admin tasks and makes content easier to find and collaborate on."
+        },
+        {
+          "key": "B",
+          "text": "Reduced billing costs and automatic SAML SSO configuration",
+          "correct": false,
+          "explanation": "While billing may be affected, consolidation does not automatically configure SAML SSO."
+        },
+        {
+          "key": "C",
+          "text": "Elimination of all guest users and removal of all integrations",
+          "correct": false,
+          "explanation": "Guests and integrations can still exist after consolidation; they are not automatically removed."
+        },
+        {
+          "key": "D",
+          "text": "Ability to claim workspaces without upgrading to Enterprise plan",
+          "correct": false,
+          "explanation": "Claiming workspaces upgrades them to Enterprise; consolidation does not bypass that requirement."
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-quickstart-guide-to-notion-for-enterprise-010",
+      "question": "If an organization wants to limit who can join external (non‑organization) workspaces, which setting should they modify?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "External workspace access under User Management",
+          "correct": true,
+          "explanation": "This setting controls whether managed users can join workspaces outside the organization."
+        },
+        {
+          "key": "B",
+          "text": "Allow users to change account information",
+          "correct": false,
+          "explanation": "That setting relates to profile edits, not external workspace access."
+        },
+        {
+          "key": "C",
+          "text": "Session Duration",
+          "correct": false,
+          "explanation": "Session duration determines how long a login lasts, not workspace access."
+        },
+        {
+          "key": "D",
+          "text": "Disable public page sharing",
+          "correct": false,
+          "explanation": "Public page sharing affects page visibility, not workspace joining permissions."
+        }
+      ]
+    }
+  ]
+}

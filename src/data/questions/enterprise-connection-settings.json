@@ -1,0 +1,317 @@
+{
+  "source": "enterprise-connection-settings",
+  "sourceTitle": "Enterprise connection settings",
+  "sourceUrl": "https://www.notion.so/help/enterprise-connection-settings",
+  "questions": [
+    {
+      "id": "enterprise-connection-settings-001",
+      "question": "Who has access to the Enterprise connection settings feature?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "All workspace members regardless of plan",
+          "correct": false,
+          "explanation": "Access to this feature is restricted to Workspace Owners specifically on the Enterprise Plan."
+        },
+        {
+          "key": "B",
+          "text": "Workspace Owners on the Enterprise Plan",
+          "correct": true,
+          "explanation": "Only Workspace Owners with an Enterprise Plan can manage these additional connection settings."
+        },
+        {
+          "key": "C",
+          "text": "All users on the Pro Plan",
+          "correct": false,
+          "explanation": "This is an Enterprise-only feature and is not available to Pro Plan users."
+        },
+        {
+          "key": "D",
+          "text": "Administrators on the Free Plan",
+          "correct": false,
+          "explanation": "The feature is not available on the Free Plan, nor is it restricted by plan for admins on that plan."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-connection-settings-002",
+      "question": "What is the default setting for installing connections in a workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only from approved list",
+          "correct": false,
+          "explanation": "The default setting is 'No restrictions', meaning all members can install connections."
+        },
+        {
+          "key": "B",
+          "text": "No restrictions",
+          "correct": true,
+          "explanation": "By default, the 'No restrictions' option is selected, allowing all workspace members to install any connection."
+        },
+        {
+          "key": "C",
+          "text": "Requires domain verification",
+          "correct": false,
+          "explanation": "Domain verification is not required to enable this feature, nor is it part of the default installation settings."
+        },
+        {
+          "key": "D",
+          "text": "Requires admin approval for every installation",
+          "correct": false,
+          "explanation": "The default setting does not require admin approval; that is a manual override."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-connection-settings-003",
+      "question": "If a workspace owner installs an integration that is not on the approved list, what happens automatically?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The integration is rejected and must be installed again",
+          "correct": false,
+          "explanation": "The integration is not rejected; it is automatically added to the approved list."
+        },
+        {
+          "key": "B",
+          "text": "The integration is auto-approved and added to the approved list",
+          "correct": true,
+          "explanation": "When an owner installs a non-approved integration, it is automatically added to the approved list."
+        },
+        {
+          "key": "C",
+          "text": "The integration is hidden from all members",
+          "correct": false,
+          "explanation": "The integration is made available to all members once added to the approved list."
+        },
+        {
+          "key": "D",
+          "text": "The owner is notified to manually approve the integration",
+          "correct": false,
+          "explanation": "The approval process is automatic for workspace owners installing new integrations."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-connection-settings-004",
+      "question": "How do you disable the 'Send webhook' action for your entire workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Automations settings and toggle off webhooks",
+          "correct": false,
+          "explanation": "Webhooks are managed within the Connections tab, not the general Automations settings."
+        },
+        {
+          "key": "B",
+          "text": "Go to Settings → Connections and toggle off 'Allow webhooks in automations'",
+          "correct": true,
+          "explanation": "You must navigate to the Connections tab in Settings and toggle the 'Allow webhooks in automations' switch off."
+        },
+        {
+          "key": "C",
+          "text": "Contact Notion Support to disable it globally",
+          "correct": false,
+          "explanation": "This is a configuration setting handled by the workspace owner; no support ticket is needed."
+        },
+        {
+          "key": "D",
+          "text": "Remove the specific integration causing the webhooks",
+          "correct": false,
+          "explanation": "Disabling webhooks prevents the action from being selected in automations, but does not remove the underlying integration."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-connection-settings-005",
+      "question": "Which of the following is a prerequisite for adding a connection to the approved list?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Someone in the workspace must have already installed the connection",
+          "correct": true,
+          "explanation": "To approve a connection for the rest of the workspace, an owner or admin must install it first; otherwise, it won't show up in the dropdown."
+        },
+        {
+          "key": "B",
+          "text": "The connection must be built by Notion",
+          "correct": false,
+          "explanation": "This rule applies specifically to auto-approval for Notion-built connections, not the initial approval process."
+        },
+        {
+          "key": "C",
+          "text": "Domain verification must be completed",
+          "correct": false,
+          "explanation": "Domain verification is not required to enable this feature or approve connections."
+        },
+        {
+          "key": "D",
+          "text": "All workspace members must vote to approve it",
+          "correct": false,
+          "explanation": "Approval is managed solely by the workspace owner, not a vote from members."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-connection-settings-006",
+      "question": "Under which specific condition can workspace owners see the option to auto-approve connections built by Notion?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the 'No restrictions' setting is selected",
+          "correct": false,
+          "explanation": "The auto-approve option is only visible when 'Only from approved list' is selected."
+        },
+        {
+          "key": "B",
+          "text": "When the 'Only from approved list' setting is selected",
+          "correct": true,
+          "explanation": "This additional option appears only when the workspace is set to restrict members to an approved list."
+        },
+        {
+          "key": "C",
+          "text": "When a third-party integration is installed",
+          "correct": false,
+          "explanation": "Auto-approval for Notion-built connections is a setting related to the approved list mode, not third-party installations."
+        },
+        {
+          "key": "D",
+          "text": "When the workspace has more than 50 members",
+          "correct": false,
+          "explanation": "The availability of the auto-approve option is based on the restriction setting, not the number of members."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-connection-settings-007",
+      "question": "Which of the following actions is NOT available in the menu options (•••) for a specific connection?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rename the connection",
+          "correct": true,
+          "explanation": "The menu options include Filter by user, Revoke specific users' access, Disconnect all users, and Remove from approved list, but not Rename."
+        },
+        {
+          "key": "B",
+          "text": "Filter by user",
+          "correct": false,
+          "explanation": "This is a valid action available in the menu."
+        },
+        {
+          "key": "C",
+          "text": "Revoke specific users' access to a connection",
+          "correct": false,
+          "explanation": "This is a valid action available in the menu."
+        },
+        {
+          "key": "D",
+          "text": "Disconnect all users",
+          "correct": false,
+          "explanation": "This is a valid action available in the menu."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-connection-settings-008",
+      "question": "What does the 'Disconnect all users' option in the connection menu do?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Removes the connection from the approved list",
+          "correct": false,
+          "explanation": "Removing from the approved list is a separate action. 'Disconnect all users' revokes access for all users currently using the connection."
+        },
+        {
+          "key": "B",
+          "text": "Revokes access for all users currently using the connection",
+          "correct": true,
+          "explanation": "This option disconnects all users from the specific connection, preventing them from using it."
+        },
+        {
+          "key": "C",
+          "text": "Deletes the connection from the workspace entirely",
+          "correct": false,
+          "explanation": "Disconnecting users does not remove the connection from the workspace or the approved list."
+        },
+        {
+          "key": "D",
+          "text": "Requires all users to re-authenticate",
+          "correct": false,
+          "explanation": "It simply revokes access; it does not trigger a re-authentication flow."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-connection-settings-009",
+      "question": "What information is displayed next to a connection's name in the Approved connections list?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The date the connection was approved",
+          "correct": false,
+          "explanation": "The list displays the name(s) of the users who have installed the connection, not the approval date."
+        },
+        {
+          "key": "B",
+          "text": "The version number of the connection",
+          "correct": false,
+          "explanation": "Version numbers are not displayed in this specific list view."
+        },
+        {
+          "key": "C",
+          "text": "The name(s) of the users who have installed the connection",
+          "correct": true,
+          "explanation": "The list shows the specific users who have installed the connection in the workspace."
+        },
+        {
+          "key": "D",
+          "text": "The connection's API key",
+          "correct": false,
+          "explanation": "Sensitive information like API keys is never displayed in the UI."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-connection-settings-010",
+      "question": "What is the immediate effect of turning off 'Allow webhooks in automations'?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Webhooks stop working for all users across all workspaces",
+          "correct": false,
+          "explanation": "This setting only affects the current workspace; it does not impact webhooks globally."
+        },
+        {
+          "key": "B",
+          "text": "Members can no longer create automations at all",
+          "correct": false,
+          "explanation": "Members can still create automations, but they simply cannot select the 'Send webhook' action within those automations."
+        },
+        {
+          "key": "C",
+          "text": "Members can't select 'Send webhook' as an action for automations",
+          "correct": true,
+          "explanation": "Disabling this toggle removes the ability to choose 'Send webhook' as an action for any automation within the workspace."
+        },
+        {
+          "key": "D",
+          "text": "The existing automations that use webhooks will be deleted",
+          "correct": false,
+          "explanation": "Existing automations are not deleted; they just cannot be triggered via webhooks anymore."
+        }
+      ]
+    }
+  ]
+}

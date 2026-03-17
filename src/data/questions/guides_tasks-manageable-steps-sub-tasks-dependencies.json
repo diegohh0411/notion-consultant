@@ -1,0 +1,317 @@
+{
+  "source": "guides_tasks-manageable-steps-sub-tasks-dependencies",
+  "sourceTitle": "Break tasks into manageable steps with sub-tasks and dependencies",
+  "sourceUrl": "https://www.notion.com/help/guides/tasks-manageable-steps-sub-tasks-dependencies",
+  "questions": [
+    {
+      "id": "guides_tasks-manageable-steps-sub-tasks-dependencies-001",
+      "question": "What Notion feature is used to build sub-tasks and dependencies?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Formula properties",
+          "correct": false,
+          "explanation": "Formulas calculate values; they don't create links between items."
+        },
+        {
+          "key": "B",
+          "text": "Relation properties",
+          "correct": true,
+          "explanation": "Relation properties connect items in a database, enabling sub‑tasks and dependencies."
+        },
+        {
+          "key": "C",
+          "text": "Rollup properties",
+          "correct": false,
+          "explanation": "Rollups display aggregated data from relations but don't establish the relationship itself."
+        },
+        {
+          "key": "D",
+          "text": "Template buttons",
+          "correct": false,
+          "explanation": "Template buttons automate content creation; they don't define task relationships."
+        }
+      ]
+    },
+    {
+      "id": "guides_tasks-manageable-steps-sub-tasks-dependencies-002",
+      "question": "Which menu option do you select first to create a sub‑item property in a tasks database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Properties → Add a new property",
+          "correct": false,
+          "explanation": "While you can add a property here, the guide specifies using the … menu, not the generic properties pane."
+        },
+        {
+          "key": "B",
+          "text": "… menu → Sub-items",
+          "correct": true,
+          "explanation": "The guide instructs to click the … menu in the top‑right of the database and choose Sub‑items."
+        },
+        {
+          "key": "C",
+          "text": "View options → Timeline",
+          "correct": false,
+          "explanation": "Timeline view is for visualizing dependencies, not for creating sub‑item properties."
+        },
+        {
+          "key": "D",
+          "text": "Filter → Add filter",
+          "correct": false,
+          "explanation": "Filters help narrow results; they don't create new properties."
+        }
+      ]
+    },
+    {
+      "id": "guides_tasks-manageable-steps-sub-tasks-dependencies-003",
+      "question": "When you add a dependency in timeline view, what visual cue indicates a dependency between two tasks?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A colored dot on the task bar",
+          "correct": false,
+          "explanation": "Dots represent status markers, not dependencies."
+        },
+        {
+          "key": "B",
+          "text": "An arrow that appears when you hover over the task",
+          "correct": true,
+          "explanation": "Hovering shows an arrow on the right side that you can drag to connect tasks, creating a dependency."
+        },
+        {
+          "key": "C",
+          "text": "A checkmark that appears next to the task name",
+          "correct": false,
+          "explanation": "Checkmarks denote completed items, not dependencies."
+        },
+        {
+          "key": "D",
+          "text": "A highlighted background color",
+          "correct": false,
+          "explanation": "Background colors are used for grouping, not for showing dependencies."
+        }
+      ]
+    },
+    {
+      "id": "guides_tasks-manageable-steps-sub-tasks-dependencies-004",
+      "question": "Which of the following is NOT a benefit of using sub‑tasks and dependencies according to the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They help identify blockers that halt progress",
+          "correct": false,
+          "explanation": "Identifying blockers is explicitly listed as a benefit."
+        },
+        {
+          "key": "B",
+          "text": "They automatically assign tasks to the most available team member",
+          "correct": true,
+          "explanation": "The guide does not claim automatic assignment; it only facilitates manual delegation."
+        },
+        {
+          "key": "C",
+          "text": "They allow you to break large tasks into smaller, assignable steps",
+          "correct": false,
+          "explanation": "Breaking tasks into smaller steps is a core advantage."
+        },
+        {
+          "key": "D",
+          "text": "They make it easier to collaborate across team members",
+          "correct": false,
+          "explanation": "Collaboration is highlighted as a benefit."
+        }
+      ]
+    },
+    {
+      "id": "guides_tasks-manageable-steps-sub-tasks-dependencies-005",
+      "question": "If you want sub‑tasks to appear as a separate section on a task page, which option should you configure?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Set the page’s default view to Gallery",
+          "correct": false,
+          "explanation": "Changing the view type does not affect sub‑task placement on the page."
+        },
+        {
+          "key": "B",
+          "text": "Choose to show sub‑items as a page section in the page settings",
+          "correct": true,
+          "explanation": "The guide states you can display sub‑items as a page section for immediate visibility."
+        },
+        {
+          "key": "C",
+          "text": "Enable the ‘Show as timeline’ toggle in the database properties",
+          "correct": false,
+          "explanation": "Timeline view affects visualization, not the page layout."
+        },
+        {
+          "key": "D",
+          "text": "Apply a filter that only shows parent tasks",
+          "correct": false,
+          "explanation": "Filtering changes which rows appear, not how sub‑items are displayed on a page."
+        }
+      ]
+    },
+    {
+      "id": "guides_tasks-manageable-steps-sub-tasks-dependencies-006",
+      "question": "When creating a self‑relating property for sub‑tasks, what are the default names of the two new properties?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Child tasks and Parent tasks",
+          "correct": false,
+          "explanation": "The guide uses “Sub‑tasks” and “Parent tasks,” not “Child tasks.”"
+        },
+        {
+          "key": "B",
+          "text": "Sub‑tasks and Parent tasks",
+          "correct": true,
+          "explanation": "These are the default labels shown after creating the sub‑item property."
+        },
+        {
+          "key": "C",
+          "text": "Dependencies and Dependents",
+          "correct": false,
+          "explanation": "Those names belong to the dependency relation, not the sub‑task relation."
+        },
+        {
+          "key": "D",
+          "text": "Tasks and Sub‑tasks",
+          "correct": false,
+          "explanation": "Only one property would be named “Sub‑tasks”; the guide specifies both names."
+        }
+      ]
+    },
+    {
+      "id": "guides_tasks-manageable-steps-sub-tasks-dependencies-007",
+      "question": "Which view(s) can display sub‑tasks once they have been added to a parent task?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the Table view",
+          "correct": false,
+          "explanation": "Sub‑tasks are visible in both Table and Timeline views."
+        },
+        {
+          "key": "B",
+          "text": "Both Table and Timeline views",
+          "correct": true,
+          "explanation": "The guide explicitly states sub‑tasks can be viewed in both view types."
+        },
+        {
+          "key": "C",
+          "text": "Only the Calendar view",
+          "correct": false,
+          "explanation": "Calendar view is not mentioned for sub‑task display."
+        },
+        {
+          "key": "D",
+          "text": "Only the Gallery view",
+          "correct": false,
+          "explanation": "Gallery view is unrelated to sub‑task visualization per the article."
+        }
+      ]
+    },
+    {
+      "id": "guides_tasks-manageable-steps-sub-tasks-dependencies-008",
+      "question": "In the context of dependencies, what does the guide mean by “show dependencies by parent or sub‑task”?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Display the dependent task’s name in the parent’s title field",
+          "correct": false,
+          "explanation": "The setting controls visual grouping, not title text injection."
+        },
+        {
+          "key": "B",
+          "text": "Choose whether the arrow points from the parent to the sub‑task or vice‑versa in timeline view",
+          "correct": true,
+          "explanation": "The option determines which side of the relationship is visualized as the source of the dependency."
+        },
+        {
+          "key": "C",
+          "text": "Automatically assign the dependent task to the same assignee as the parent",
+          "correct": false,
+          "explanation": "Dependency settings do not affect assignee fields."
+        },
+        {
+          "key": "D",
+          "text": "Create a filtered view that only shows parent tasks with dependencies",
+          "correct": false,
+          "explanation": "Filtering is separate from the “show by parent or sub‑task” toggle."
+        }
+      ]
+    },
+    {
+      "id": "guides_tasks-manageable-steps-sub-tasks-dependencies-009",
+      "question": "Which of the following is an example use case for sub‑items that is NOT mentioned in the guide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dividing OKRs into mini‑goals",
+          "correct": false,
+          "explanation": "The guide lists this as a suggested use case."
+        },
+        {
+          "key": "B",
+          "text": "Creating parent and child teams in an org chart",
+          "correct": false,
+          "explanation": "This example is explicitly described."
+        },
+        {
+          "key": "C",
+          "text": "Tracking monthly and weekly updates in a docs database",
+          "correct": false,
+          "explanation": "The guide mentions this scenario."
+        },
+        {
+          "key": "D",
+          "text": "Generating automatic reminders for overdue tasks",
+          "correct": true,
+          "explanation": "Automatic reminders are not discussed as a sub‑item application in the article."
+        }
+      ]
+    },
+    {
+      "id": "guides_tasks-manageable-steps-sub-tasks-dependencies-010",
+      "question": "What is the recommended threshold of rows in a tasks database after which sub‑tasks and dependencies become especially helpful?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "More than 20 rows",
+          "correct": false,
+          "explanation": "The article specifies a larger number."
+        },
+        {
+          "key": "B",
+          "text": "More than 50 rows",
+          "correct": true,
+          "explanation": "The guide suggests that once you exceed 50 rows, sub‑tasks and dependencies aid clarity."
+        },
+        {
+          "key": "C",
+          "text": "More than 100 rows",
+          "correct": false,
+          "explanation": "While helpful, the article does not set this as the threshold."
+        },
+        {
+          "key": "D",
+          "text": "Any number of rows; they’re always necessary",
+          "correct": false,
+          "explanation": "The guide recommends them particularly when the database grows beyond 50 rows."
+        }
+      ]
+    }
+  ]
+}

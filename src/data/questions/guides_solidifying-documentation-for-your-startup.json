@@ -1,0 +1,255 @@
+{
+  "source": "guides_solidifying-documentation-for-your-startup",
+  "sourceTitle": "Solidifying documentation for your startup",
+  "sourceUrl": "https://www.notion.so/help/guides/solidifying-documentation-for-your-startup",
+  "questions": [
+    {
+      "id": "solidifying-documentation-for-your-startup-001",
+      "question": "Which Notion feature allows a page to appear at the top of your sidebar for quick access?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pinning",
+          "correct": false,
+          "explanation": "Notion uses \"Favorites\" for this purpose, not a Pin feature."
+        },
+        {
+          "key": "B",
+          "text": "Favorite",
+          "correct": true,
+          "explanation": "Marking a page as a Favorite places it at the top of the sidebar for easy access."
+        },
+        {
+          "key": "C",
+          "text": "Bookmark",
+          "correct": false,
+          "explanation": "Bookmarks are used within pages, not for sidebar ordering."
+        },
+        {
+          "key": "D",
+          "text": "Shortcut",
+          "correct": false,
+          "explanation": "Shortcuts can be created, but they don't affect sidebar placement."
+        }
+      ]
+    },
+    {
+      "id": "solidifying-documentation-for-your-startup-002",
+      "question": "What is the primary benefit of centralizing team documents in a single Notion database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It reduces the need for version control software.",
+          "correct": false,
+          "explanation": "While centralization helps with versioning, the main benefit highlighted is transparency, accessibility, and consistency."
+        },
+        {
+          "key": "B",
+          "text": "It ensures all documents are automatically published to the web.",
+          "correct": false,
+          "explanation": "Publishing is optional; centralization is about internal organization."
+        },
+        {
+          "key": "C",
+          "text": "It provides transparency, accessibility, and consistency across the company.",
+          "correct": true,
+          "explanation": "Centralizing docs creates a single source of truth, making information transparent, easy to access, and consistent."
+        },
+        {
+          "key": "D",
+          "text": "It eliminates the need for meetings.",
+          "correct": false,
+          "explanation": "Centralization supports meeting efficiency but does not replace meetings altogether."
+        }
+      ]
+    },
+    {
+      "id": "solidifying-documentation-for-your-startup-003",
+      "question": "How do \"Synced copies\" differ from \"Synced blocks\" in Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Synced copies duplicate an entire database across pages, while Synced blocks duplicate specific content blocks.",
+          "correct": true,
+          "explanation": "Synced copies replicate a whole database for convenience; Synced blocks keep the same content block in sync across multiple pages."
+        },
+        {
+          "key": "B",
+          "text": "Synced copies are only available for text, whereas Synced blocks work with any type of content.",
+          "correct": false,
+          "explanation": "Both can handle various content types; the distinction is scope, not content type."
+        },
+        {
+          "key": "C",
+          "text": "Synced copies automatically update external apps, while Synced blocks do not.",
+          "correct": false,
+          "explanation": "Neither feature directly syncs with external apps; they operate within Notion."
+        },
+        {
+          "key": "D",
+          "text": "Synced copies are permanent, while Synced blocks can be broken at any time.",
+          "correct": false,
+          "explanation": "Both can be edited or unlinked; permanence isn’t the key difference."
+        }
+      ]
+    },
+    {
+      "id": "solidifying-documentation-for-your-startup-004",
+      "question": "When an old document is no longer needed, what does the guide recommend you do instead of deleting it?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Move it to a history or archive section.",
+          "correct": true,
+          "explanation": "Creating a history or archive preserves information for future reference while keeping the workspace tidy."
+        },
+        {
+          "key": "B",
+          "text": "Export it as a PDF and store it on your local drive.",
+          "correct": false,
+          "explanation": "Exporting is possible but the guide specifically suggests an internal archive section."
+        },
+        {
+          "key": "C",
+          "text": "Leave it in the original database but mark it as \"obsolete\".",
+          "correct": false,
+          "explanation": "Marking as obsolete isn’t mentioned; archiving provides a clearer separation."
+        },
+        {
+          "key": "D",
+          "text": "Convert it into a template for future use.",
+          "correct": false,
+          "explanation": "Templates are for reusable structures, not for preserving outdated content."
+        }
+      ]
+    },
+    {
+      "id": "solidifying-documentation-for-your-startup-005",
+      "question": "Which Notion tool can you use to quickly locate information across your workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quick Find",
+          "correct": true,
+          "explanation": "Quick Find is designed to speed up searching within the workspace."
+        },
+        {
+          "key": "B",
+          "text": "Page Index",
+          "correct": false,
+          "explanation": "There is no \"Page Index\" feature mentioned in the guide."
+        },
+        {
+          "key": "C",
+          "text": "Sidebar Filter",
+          "correct": false,
+          "explanation": "Sidebar filtering helps view pages but isn’t the primary quick-search tool."
+        },
+        {
+          "key": "D",
+          "text": "Document Tracker",
+          "correct": false,
+          "explanation": "Document Tracker is not a Notion feature referenced here."
+        }
+      ]
+    },
+    {
+      "id": "solidifying-documentation-for-your-startup-006",
+      "question": "What additional benefit does using the Q&A feature provide beyond Quick Find?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically creates new documentation based on your questions.",
+          "correct": false,
+          "explanation": "Q&A provides instant answers, not auto-generated docs."
+        },
+        {
+          "key": "B",
+          "text": "It offers instant answers to specific questions, reducing the need to search manually.",
+          "correct": true,
+          "explanation": "Q&A delivers immediate answers, complementing the broader search capability of Quick Find."
+        },
+        {
+          "key": "C",
+          "text": "It syncs your questions across all team members in real time.",
+          "correct": false,
+          "explanation": "Real‑time syncing isn’t the highlighted advantage of Q&A."
+        },
+        {
+          "key": "D",
+          "text": "It archives old questions for future reference.",
+          "correct": false,
+          "explanation": "Archiving is a separate practice; Q&A focuses on answering, not archiving."
+        }
+      ]
+    },
+    {
+      "id": "solidifying-documentation-for-your-startup-007",
+      "question": "Why might a startup choose to link related Notion pages together?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create a visual map that automatically generates a company org chart.",
+          "correct": false,
+          "explanation": "Linking pages creates connections, but it doesn’t auto‑generate org charts."
+        },
+        {
+          "key": "B",
+          "text": "To ensure that updates in one document are reflected in all related documents without duplication.",
+          "correct": true,
+          "explanation": "Linking establishes relationships, making it easier to keep related information consistent without copying content."
+        },
+        {
+          "key": "C",
+          "text": "To increase the total number of pages, which improves Notion’s search ranking.",
+          "correct": false,
+          "explanation": "Page count doesn’t affect search ranking; the goal is functional connectivity."
+        },
+        {
+          "key": "D",
+          "text": "To satisfy compliance requirements that mandate cross‑referencing every document.",
+          "correct": false,
+          "explanation": "While cross‑referencing can aid compliance, the guide emphasizes practical workflow benefits, not regulatory mandates."
+        }
+      ]
+    },
+    {
+      "id": "solidifying-documentation-for-your-startup-008",
+      "question": "According to the guide, where can you find over 10,000 templates to help you get started?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Notion Template Gallery",
+          "correct": true,
+          "explanation": "The guide points users to browse over 10,000 templates in the Template Gallery."
+        },
+        {
+          "key": "B",
+          "text": "The Notion Community Forum",
+          "correct": false,
+          "explanation": "The forum is a place for discussion, not the primary source of the large template collection."
+        },
+        {
+          "key": "C",
+          "text": "The YouTube channel’s video description",
+          "correct": false,
+          "explanation": "YouTube may reference templates, but the guide explicitly mentions the Template Gallery."
+        },
+        {
+          "key": "D",
+          "text": "The Notion Help Center article itself",
+          "correct": false,
+          "explanation": "The article links to the gallery; it isn’t the repository of the templates."
+        }
+      ]
+    }
+  ]
+}

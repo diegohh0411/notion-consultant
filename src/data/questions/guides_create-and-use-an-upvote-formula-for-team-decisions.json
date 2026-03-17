@@ -1,0 +1,317 @@
+{
+  "source": "guides_create-and-use-an-upvote-formula-for-team-decisions",
+  "sourceTitle": "Create and use an upvote formula for team decisions",
+  "sourceUrl": "https://www.notion.so/help/guides/create-and-use-an-upvote-formula-for-team-decisions",
+  "questions": [
+    {
+      "id": "create-and-use-an-upvote-formula-for-team-decisions-001",
+      "question": "What is the primary benefit of adding an upvote formula to a Notion database for team decisions?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically resolves all team conflicts.",
+          "correct": false,
+          "explanation": "An upvote formula helps surface popular items but does not resolve conflicts on its own."
+        },
+        {
+          "key": "B",
+          "text": "It provides a transparent way to see which items the team values most.",
+          "correct": true,
+          "explanation": "The upvote count shows which questions, features, or ideas have the most support, giving managers visibility into team priorities."
+        },
+        {
+          "key": "C",
+          "text": "It replaces the need for any meeting discussions.",
+          "correct": false,
+          "explanation": "Upvotes inform discussions; they don’t eliminate the need for conversation and decision‑making."
+        },
+        {
+          "key": "D",
+          "text": "It automatically assigns tasks to the person who upvoted the most.",
+          "correct": false,
+          "explanation": "The formula only counts votes; task assignment must be handled separately."
+        }
+      ]
+    },
+    {
+      "id": "create-and-use-an-upvote-formula-for-team-decisions-002",
+      "question": "Which property type should you use for the column where team members tag themselves to vote?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Number",
+          "correct": false,
+          "explanation": "A Number property stores numeric values, not people tags."
+        },
+        {
+          "key": "B",
+          "text": "Select",
+          "correct": false,
+          "explanation": "Select lets you choose a single preset option; it doesn’t allow multiple people to be tagged."
+        },
+        {
+          "key": "C",
+          "text": "Person",
+          "correct": true,
+          "explanation": "A Person property lets users tag themselves (or others), which the formula can then count."
+        },
+        {
+          "key": "D",
+          "text": "Date",
+          "correct": false,
+          "explanation": "Date records timestamps, not user selections."
+        }
+      ]
+    },
+    {
+      "id": "create-and-use-an-upvote-formula-for-team-decisions-003",
+      "question": "If you want the database view to show only items that still need attention, which filter configuration should you apply?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Filter where Status is \"Answered\"",
+          "correct": false,
+          "explanation": "Filtering for \"Answered\" would hide items that still need work."
+        },
+        {
+          "key": "B",
+          "text": "Filter where Status is \"Unanswered\"",
+          "correct": true,
+          "explanation": "Showing only \"Unanswered\" items keeps the focus on questions or features that haven’t been addressed yet."
+        },
+        {
+          "key": "C",
+          "text": "Filter where Upvotes is greater than 10",
+          "correct": false,
+          "explanation": "That filter would hide low‑voted items regardless of their status."
+        },
+        {
+          "key": "D",
+          "text": "Filter where Created by is empty",
+          "correct": false,
+          "explanation": "All entries will have a creator, so this filter would return nothing."
+        }
+      ]
+    },
+    {
+      "id": "create-and-use-an-upvote-formula-for-team-decisions-004",
+      "question": "What does the formula `length(prop(\"Upvoted by\"))` calculate?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total number of characters in the names of people who voted.",
+          "correct": false,
+          "explanation": "The length function counts items in a list, not characters in a string."
+        },
+        {
+          "key": "B",
+          "text": "The number of people who have tagged themselves in the \"Upvoted by\" column.",
+          "correct": true,
+          "explanation": "Each tag adds a person to the list; length returns how many people are in that list."
+        },
+        {
+          "key": "C",
+          "text": "The sum of all numeric values stored in the \"Upvoted by\" property.",
+          "correct": false,
+          "explanation": "The property is of type Person, not Number, so there are no numeric values to sum."
+        },
+        {
+          "key": "D",
+          "text": "The position of the first person who voted in the list.",
+          "correct": false,
+          "explanation": "Length does not return a position; it returns the count of items."
+        }
+      ]
+    },
+    {
+      "id": "create-and-use-an-upvote-formula-for-team-decisions-005",
+      "question": "Why does the upvote count start at one by default when a new entry is created?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion automatically assumes the creator also upvotes their own suggestion.",
+          "correct": true,
+          "explanation": "The guide states the default of one upvote reflects the creator's implicit support."
+        },
+        {
+          "key": "B",
+          "text": "The formula adds a static value of one to every count.",
+          "correct": false,
+          "explanation": "The formula only counts the length of the \"Upvoted by\" list; no extra constant is added."
+        },
+        {
+          "key": "C",
+          "text": "Notion reserves the first vote for the team lead.",
+          "correct": false,
+          "explanation": "There is no special reservation for a team lead in the upvote system."
+        },
+        {
+          "key": "D",
+          "text": "The database template pre‑populates the \"Upvoted by\" column with a dummy user.",
+          "correct": false,
+          "explanation": "The default count comes from the creator being automatically added, not a dummy entry."
+        }
+      ]
+    },
+    {
+      "id": "create-and-use-an-upvote-formula-for-team-decisions-006",
+      "question": "Which sequence of actions correctly adds the upvote counting capability to a new table database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add a Number property → rename it \"Upvotes\" → set its default to 0.",
+          "correct": false,
+          "explanation": "A Number property alone won’t count people; you need a Person list and a formula."
+        },
+        {
+          "key": "B",
+          "text": "Create a Person property called \"Upvoted by\" → add a Formula property with `length(prop(\"Upvoted by\"))`.",
+          "correct": true,
+          "explanation": "The Person property stores voters, and the formula counts them."
+        },
+        {
+          "key": "C",
+          "text": "Add a Select property named \"Vote\" → list options \"Yes\" and \"No\" → sort by this property.",
+          "correct": false,
+          "explanation": "Select does not allow multiple users to vote on the same item."
+        },
+        {
+          "key": "D",
+          "text": "Create a Date property for \"Vote Time\" → filter by most recent dates.",
+          "correct": false,
+          "explanation": "Date tracks timing, not vote quantity."
+        }
+      ]
+    },
+    {
+      "id": "create-and-use-an-upvote-formula-for-team-decisions-007",
+      "question": "If you want to prioritize items that have the highest number of upvotes, which sort configuration should you use?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sort by the \"Upvoted by\" property in Ascending order.",
+          "correct": false,
+          "explanation": "Sorting by the Person list itself doesn’t order by count."
+        },
+        {
+          "key": "B",
+          "text": "Sort by the Formula property that calculates upvotes in Descending order.",
+          "correct": true,
+          "explanation": "Descending order puts the highest counts at the top, which is the intended view."
+        },
+        {
+          "key": "C",
+          "text": "Sort by the \"Created by\" property in Ascending order.",
+          "correct": false,
+          "explanation": "Sorting by creator does not reflect vote totals."
+        },
+        {
+          "key": "D",
+          "text": "Sort by the \"Status\" property in Ascending order.",
+          "correct": false,
+          "explanation": "Status sorting groups by answered/unanswered, not by vote count."
+        }
+      ]
+    },
+    {
+      "id": "create-and-use-an-upvote-formula-for-team-decisions-008",
+      "question": "Which of the following scenarios is NOT mentioned as a use case for an upvote database in the article?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Choosing branding decisions such as typeface selection.",
+          "correct": false,
+          "explanation": "Branding decisions are explicitly listed as a use case."
+        },
+        {
+          "key": "B",
+          "text": "Prioritizing user‑feedback tickets for the support team.",
+          "correct": false,
+          "explanation": "Logging user feedback and tagging teammates is described."
+        },
+        {
+          "key": "C",
+          "text": "Allocating budget percentages to different departments.",
+          "correct": true,
+          "explanation": "Budget allocation was never mentioned; the article focuses on voting for questions, features, feedback, and branding."
+        },
+        {
+          "key": "D",
+          "text": "Selecting the most urgent questions for an all‑hands meeting.",
+          "correct": false,
+          "explanation": "All‑hands question voting is a core example."
+        }
+      ]
+    },
+    {
+      "id": "create-and-use-an-upvote-formula-for-team-decisions-009",
+      "question": "When customizing the database, why might you add a \"Select\" property with options like \"Answered\" and \"Unanswered\"?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically delete answered items from the database.",
+          "correct": false,
+          "explanation": "Select properties only tag items; they don’t delete records."
+        },
+        {
+          "key": "B",
+          "text": "To enable filtering so that only unanswered items appear in a particular view.",
+          "correct": true,
+          "explanation": "The article explains using a filter on the Status (Select) property to hide answered items."
+        },
+        {
+          "key": "C",
+          "text": "To change the color of the rows based on answer status.",
+          "correct": false,
+          "explanation": "While Notion can color‑code based on Select values, the primary purpose discussed is filtering."
+        },
+        {
+          "key": "D",
+          "text": "To calculate the total number of answered questions using a formula.",
+          "correct": false,
+          "explanation": "Formulas can count items, but the article does not describe using Select for that calculation."
+        }
+      ]
+    },
+    {
+      "id": "create-and-use-an-upvote-formula-for-team-decisions-010",
+      "question": "Suppose you want to allow people from other departments to vote on product features. Which step from the guide ensures that this broader voting is possible without changing the formula?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rename the \"Created by\" property to \"Asked by\".",
+          "correct": false,
+          "explanation": "Renaming the creator property affects who suggested the item, not who can vote."
+        },
+        {
+          "key": "B",
+          "text": "Add a Person property called \"Upvoted by\" that anyone can tag themselves in.",
+          "correct": true,
+          "explanation": "The Person property is open to any user with access, so extending voting to other teams only requires them to tag themselves."
+        },
+        {
+          "key": "C",
+          "text": "Create a separate Formula that multiplies upvotes by a department weight.",
+          "correct": false,
+          "explanation": "The guide does not discuss weighting votes; the basic count works for cross‑team voting."
+        },
+        {
+          "key": "D",
+          "text": "Set the \"Upvotes\" formula to `prop(\"Upvoted by\").length() + 5`.",
+          "correct": false,
+          "explanation": "Adding a constant would artificially inflate counts and is unrelated to allowing more voters."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source": "guides_grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires",
+  "sourceTitle": "Grow with quality using these systems to track applicants and onboard new hires",
+  "sourceUrl": "https://www.notion.so/help/guides/grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires",
+  "questions": [
+    {
+      "id": "grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires-001",
+      "question": "What are the two primary databases recommended for HR teams in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Applicant Tracker and Onboarding System",
+          "correct": true,
+          "explanation": "These two databases form the foundation for tracking candidates and guiding new hires through their first weeks."
+        },
+        {
+          "key": "B",
+          "text": "Employee Benefits and Payroll System",
+          "correct": false,
+          "explanation": "Benefits and payroll are important, but they are not the core databases discussed for hiring and onboarding."
+        },
+        {
+          "key": "C",
+          "text": "Project Management and Sales CRM",
+          "correct": false,
+          "explanation": "Those databases serve different functions outside of HR hiring and onboarding."
+        },
+        {
+          "key": "D",
+          "text": "Marketing Campaigns and Customer Support",
+          "correct": false,
+          "explanation": "These are unrelated to the hiring/onboarding workflow."
+        }
+      ]
+    },
+    {
+      "id": "grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires-002",
+      "question": "Which property type should you use to label the source of an application (e.g., Referral, Inbound)?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select",
+          "correct": true,
+          "explanation": "Select lets you create predefined options like Referral or Inbound, making source tracking consistent."
+        },
+        {
+          "key": "B",
+          "text": "Date",
+          "correct": false,
+          "explanation": "Date records a point in time, not categorical source information."
+        },
+        {
+          "key": "C",
+          "text": "Number",
+          "correct": false,
+          "explanation": "Number is for numeric values, not textual categories."
+        },
+        {
+          "key": "D",
+          "text": "Files & Media",
+          "correct": false,
+          "explanation": "Files & Media stores attachments, not a simple label."
+        }
+      ]
+    },
+    {
+      "id": "grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires-003",
+      "question": "How can you adjust the columns on a board to reflect a specific property such as lead source?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use the \"Group by\" menu and select the property",
+          "correct": true,
+          "explanation": "Grouping by a property reorganizes board columns based on that property’s values."
+        },
+        {
+          "key": "B",
+          "text": "Change the page title",
+          "correct": false,
+          "explanation": "Page titles don’t affect board column structure."
+        },
+        {
+          "key": "C",
+          "text": "Edit the database schema",
+          "correct": false,
+          "explanation": "While you can edit the schema, column grouping is done via the Group by option."
+        },
+        {
+          "key": "D",
+          "text": "Use a formula property",
+          "correct": false,
+          "explanation": "Formulas calculate values but don’t directly set board columns."
+        }
+      ]
+    },
+    {
+      "id": "grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires-004",
+      "question": "Which view type is most suitable for visualizing new hires' start dates on a calendar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Calendar view",
+          "correct": true,
+          "explanation": "A calendar view displays date‑based entries like start dates in a monthly/weekly layout."
+        },
+        {
+          "key": "B",
+          "text": "Table view",
+          "correct": false,
+          "explanation": "Tables list rows but don’t provide a visual calendar layout."
+        },
+        {
+          "key": "C",
+          "text": "List view",
+          "correct": false,
+          "explanation": "List view is linear and not date‑centric."
+        },
+        {
+          "key": "D",
+          "text": "Gallery view",
+          "correct": false,
+          "explanation": "Gallery shows cards with images, not a calendar of dates."
+        }
+      ]
+    },
+    {
+      "id": "grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires-005",
+      "question": "To embed a design prototype from Figma into an applicant's page, which embed command should you use?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "/embed",
+          "correct": true,
+          "explanation": "The /embed command lets you paste a share link from Figma (or other tools) to display the prototype directly."
+        },
+        {
+          "key": "B",
+          "text": "/image",
+          "correct": false,
+          "explanation": "/image only adds a static picture, not an interactive prototype."
+        },
+        {
+          "key": "C",
+          "text": "/video",
+          "correct": false,
+          "explanation": "/video is for media files, not for embedding interactive design tools."
+        },
+        {
+          "key": "D",
+          "text": "/file",
+          "correct": false,
+          "explanation": "/file uploads a document; it won’t render an interactive Figma embed."
+        }
+      ]
+    },
+    {
+      "id": "grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires-006",
+      "question": "What is the main benefit of using templates for the applicant tracking database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensures consistent interview questions and evaluation criteria",
+          "correct": true,
+          "explanation": "Templates standardize the process, so every candidate is assessed using the same structure."
+        },
+        {
+          "key": "B",
+          "text": "Automatically hires candidates",
+          "correct": false,
+          "explanation": "Templates provide structure but do not automate hiring decisions."
+        },
+        {
+          "key": "C",
+          "text": "Sends offer letters",
+          "correct": false,
+          "explanation": "Offer letters can be generated separately; templates are for tracking and notes."
+        },
+        {
+          "key": "D",
+          "text": "Generates salary reports",
+          "correct": false,
+          "explanation": "Salary reporting is outside the scope of applicant tracking templates."
+        }
+      ]
+    },
+    {
+      "id": "grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires-007",
+      "question": "How can you make property values visible directly on each card in a board view?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the ••• menu, select Properties, and toggle the desired properties",
+          "correct": true,
+          "explanation": "This shows selected property fields on the card itself, giving quick insight without opening the page."
+        },
+        {
+          "key": "B",
+          "text": "Drag the property into the page title",
+          "correct": false,
+          "explanation": "Page titles can’t display multiple property values."
+        },
+        {
+          "key": "C",
+          "text": "Use a formula to concatenate the values",
+          "correct": false,
+          "explanation": "Formulas create new properties but don’t automatically surface them on cards."
+        },
+        {
+          "key": "D",
+          "text": "Create a separate view",
+          "correct": false,
+          "explanation": "A separate view changes layout but doesn’t affect card display in the original board."
+        }
+      ]
+    },
+    {
+      "id": "grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires-008",
+      "question": "According to Notion's best practices, what tool helps new hires learn about their coworkers and company culture?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Company directory with Life Stories",
+          "correct": true,
+          "explanation": "The directory includes portraits, personal sites, tenure formulas, and weekly \"Life Stories\" presentations that build connection."
+        },
+        {
+          "key": "B",
+          "text": "Weekly newsletters only",
+          "correct": false,
+          "explanation": "Newsletters inform but don’t provide the interactive, personal details of a directory."
+        },
+        {
+          "key": "C",
+          "text": "Public job board",
+          "correct": false,
+          "explanation": "A job board showcases openings, not internal employee information."
+        },
+        {
+          "key": "D",
+          "text": "Automated onboarding chatbot",
+          "correct": false,
+          "explanation": "Chatbots can answer questions but aren’t highlighted as the primary cultural‑sharing tool."
+        }
+      ]
+    },
+    {
+      "id": "grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires-009",
+      "question": "Which property type can be used to calculate and display each employee's tenure in months and years?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Formula property",
+          "correct": true,
+          "explanation": "Formulas can compute the difference between start date and today, outputting tenure in desired units."
+        },
+        {
+          "key": "B",
+          "text": "Date property",
+          "correct": false,
+          "explanation": "Date stores a single date; it doesn’t perform calculations automatically."
+        },
+        {
+          "key": "C",
+          "text": "Multi-select",
+          "correct": false,
+          "explanation": "Multi-select lists options, not numeric calculations."
+        },
+        {
+          "key": "D",
+          "text": "Person",
+          "correct": false,
+          "explanation": "Person links a user but does not calculate tenure."
+        }
+      ]
+    },
+    {
+      "id": "grow-with-quality-using-these-systems-to-track-applicants-and-onboard-new-hires-010",
+      "question": "How can you set an automatic reminder for a 30‑day check‑in within a new hire's onboarding page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type @remind followed by the date (e.g., @remind aug25)",
+          "correct": true,
+          "explanation": "The @remind command creates a Notion reminder on the specified date, prompting the check‑in."
+        },
+        {
+          "key": "B",
+          "text": "Use a checkbox",
+          "correct": false,
+          "explanation": "A checkbox tracks completion but does not generate a time‑based reminder."
+        },
+        {
+          "key": "C",
+          "text": "Add a calendar view",
+          "correct": false,
+          "explanation": "A calendar view shows dates but does not push a notification."
+        },
+        {
+          "key": "D",
+          "text": "Insert a video",
+          "correct": false,
+          "explanation": "Videos are content, not reminder mechanisms."
+        }
+      ]
+    }
+  ]
+}

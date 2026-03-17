@@ -1,0 +1,255 @@
+{
+  "source": "feeds",
+  "sourceTitle": "Feed view",
+  "sourceUrl": "https://www.notion.so/help/feeds",
+  "questions": [
+    {
+      "id": "feeds-001",
+      "question": "What visual layout does Notion’s Feed view use to display database pages?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A linear, stacked‑cards format",
+          "correct": true,
+          "explanation": "Correct – Feed view shows pages as a vertical stack of cards, similar to a blog or social feed."
+        },
+        {
+          "key": "B",
+          "text": "A grid of tiles",
+          "correct": false,
+          "explanation": "Wrong – The grid layout belongs to Gallery view, not Feed view."
+        },
+        {
+          "key": "C",
+          "text": "A traditional table with rows and columns",
+          "correct": false,
+          "explanation": "Wrong – Table view displays rows and columns; Feed view does not."
+        },
+        {
+          "key": "D",
+          "text": "A calendar with dates",
+          "correct": false,
+          "explanation": "Wrong – Calendar view shows items on a date grid; Feed view is not a calendar."
+        }
+      ]
+    },
+    {
+      "id": "feeds-002",
+      "question": "Which interaction is NOT mentioned as a built‑in feature of Feed view?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Scrolling through posts",
+          "correct": false,
+          "explanation": "Scrolling is a core feature of Feed view."
+        },
+        {
+          "key": "B",
+          "text": "Commenting directly on a post",
+          "correct": false,
+          "explanation": "Commenting is explicitly supported."
+        },
+        {
+          "key": "C",
+          "text": "Tracking views on your posts",
+          "correct": false,
+          "explanation": "View tracking is listed as a feature."
+        },
+        {
+          "key": "D",
+          "text": "Editing property values inline from the feed",
+          "correct": true,
+          "explanation": "Correct – Feed view does not allow inline editing of property values; you must open the page."
+        }
+      ]
+    },
+    {
+      "id": "feeds-003",
+      "question": "When adding a Feed view to an existing database, what is the first action you must take?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the \"+\" button at the top left of the database",
+          "correct": true,
+          "explanation": "Correct – The \"+\" opens the view selector where Feed can be chosen."
+        },
+        {
+          "key": "B",
+          "text": "Type \"/Feed view\" on any page",
+          "correct": false,
+          "explanation": "Wrong – That shortcut creates a feed on a new page, not within an existing database."
+        },
+        {
+          "key": "C",
+          "text": "Open the database’s Settings menu",
+          "correct": false,
+          "explanation": "Wrong – Settings does not directly add a new view."
+        },
+        {
+          "key": "D",
+          "text": "Duplicate the database and rename it",
+          "correct": false,
+          "explanation": "Wrong – Duplicating is unnecessary for adding a new view."
+        }
+      ]
+    },
+    {
+      "id": "feeds-004",
+      "question": "Where can you find the controls to change which properties are visible in a Feed view?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The View settings icon that looks like sliding scales",
+          "correct": true,
+          "explanation": "Correct – Clicking this icon opens Property visibility where you can toggle 👁️ icons."
+        },
+        {
+          "key": "B",
+          "text": "By right‑clicking the page title",
+          "correct": false,
+          "explanation": "Wrong – Right‑clicking the title does not expose property visibility options."
+        },
+        {
+          "key": "C",
+          "text": "The top‑right three‑dot menu of the page",
+          "correct": false,
+          "explanation": "Wrong – That menu contains page‑level actions, not view‑specific property toggles."
+        },
+        {
+          "key": "D",
+          "text": "The property bar at the bottom of the screen",
+          "correct": false,
+          "explanation": "Wrong – The property bar shows selected properties but doesn’t let you hide/show them."
+        }
+      ]
+    },
+    {
+      "id": "feeds-005",
+      "question": "What exact command should you type to create a Feed view on a brand‑new page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "/Feed view",
+          "correct": true,
+          "explanation": "Correct – The slash command \"/Feed view\" creates a feed block on a new page."
+        },
+        {
+          "key": "B",
+          "text": "/Create feed",
+          "correct": false,
+          "explanation": "Wrong – That command does not exist in Notion."
+        },
+        {
+          "key": "C",
+          "text": "/Add view",
+          "correct": false,
+          "explanation": "Wrong – \"/Add view\" is not a valid slash command."
+        },
+        {
+          "key": "D",
+          "text": "/Feed",
+          "correct": false,
+          "explanation": "Wrong – The full command includes the word \"view\"."
+        }
+      ]
+    },
+    {
+      "id": "feeds-006",
+      "question": "Which of the following use cases is the Feed view especially designed for?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Team updates and company communications",
+          "correct": true,
+          "explanation": "Correct – The article highlights Feed view as ideal for sharing updates and status information."
+        },
+        {
+          "key": "B",
+          "text": "Tracking detailed project deadlines on a timeline",
+          "correct": false,
+          "explanation": "Wrong – Timeline view is better suited for deadline tracking."
+        },
+        {
+          "key": "C",
+          "text": "Performing complex data analysis with filters and formulas",
+          "correct": false,
+          "explanation": "Wrong – While you can filter, Feed view isn’t optimized for deep analysis."
+        },
+        {
+          "key": "D",
+          "text": "Managing inventory with multiple numeric properties",
+          "correct": false,
+          "explanation": "Wrong – A table or board view is more appropriate for inventory management."
+        }
+      ]
+    },
+    {
+      "id": "feeds-007",
+      "question": "Which statement accurately describes the difference between creating a Feed view on a new page versus adding it to an existing database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both methods require clicking the \"+\" button in the database toolbar.",
+          "correct": false,
+          "explanation": "Wrong – The new‑page method uses a slash command, not the \"+\" button."
+        },
+        {
+          "key": "B",
+          "text": "Creating on a new page uses the \"/Feed view\" slash command, while adding to an existing database uses the \"+\" button to select Feed from the dropdown.",
+          "correct": true,
+          "explanation": "Correct – The article outlines these two distinct workflows."
+        },
+        {
+          "key": "C",
+          "text": "Adding to an existing database first requires you to create a brand‑new page.",
+          "correct": false,
+          "explanation": "Wrong – You can add a view directly within the current database without a new page."
+        },
+        {
+          "key": "D",
+          "text": "Both approaches automatically hide all properties until you manually show them.",
+          "correct": false,
+          "explanation": "Wrong – Property visibility follows the database’s existing settings; they aren’t hidden by default."
+        }
+      ]
+    },
+    {
+      "id": "feeds-008",
+      "question": "When toggling property visibility in a Feed view, which icon indicates that a property is currently visible?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "👁️ (eye)",
+          "correct": true,
+          "explanation": "Correct – The eye icon marks a property as visible; clicking it hides the property."
+        },
+        {
+          "key": "B",
+          "text": "🔒 (lock)",
+          "correct": false,
+          "explanation": "Wrong – The lock icon is not used for visibility in Feed view."
+        },
+        {
+          "key": "C",
+          "text": "✏️ (pencil)",
+          "correct": false,
+          "explanation": "Wrong – The pencil indicates editing, not visibility."
+        },
+        {
+          "key": "D",
+          "text": "📊 (bar chart)",
+          "correct": false,
+          "explanation": "Wrong – The bar chart represents analytics, not property visibility."
+        }
+      ]
+    }
+  ]
+}

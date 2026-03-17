@@ -1,0 +1,317 @@
+{
+  "source": "guides_timeline-view-unlocks-high-output-planning-for-your-team",
+  "sourceTitle": "Timeline view unlocks high-output planning for your team",
+  "sourceUrl": "https://www.notion.com/help/guides/timeline-view-unlocks-high-output-planning-for-your-team",
+  "questions": [
+    {
+      "id": "guides_timeline-view-unlocks-high-output-planning-for-your-team-001",
+      "question": "What is the primary advantage of Notion’s timeline view compared to rigid project‑management software?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It forces all tasks to follow a fixed schedule without changes.",
+          "correct": false,
+          "explanation": "The opposite is true; timeline view is praised for its flexibility, not rigidity."
+        },
+        {
+          "key": "B",
+          "text": "It lets teams view, adjust, and reprioritize projects all in one visual space.",
+          "correct": true,
+          "explanation": "Correct – timeline view provides a single place to see scope, deadlines, and to drag‑and‑drop changes."
+        },
+        {
+          "key": "C",
+          "text": "It automatically completes tasks when deadlines pass.",
+          "correct": false,
+          "explanation": "Timeline view does not auto‑complete tasks; it only visualizes dates."
+        },
+        {
+          "key": "D",
+          "text": "It removes the need for any other database views like tables or boards.",
+          "correct": false,
+          "explanation": "Timeline view can be used alongside other views; the guide encourages switching between them."
+        }
+      ]
+    },
+    {
+      "id": "guides_timeline-view-unlocks-high-output-planning-for-your-team-002",
+      "question": "Which property must a page have to appear on a Notion timeline?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Text property",
+          "correct": false,
+          "explanation": "Text properties are optional; they don’t determine timeline placement."
+        },
+        {
+          "key": "B",
+          "text": "A Date property",
+          "correct": true,
+          "explanation": "Every timeline page needs a Date property; Notion adds a default one that can’t be deleted."
+        },
+        {
+          "key": "C",
+          "text": "A Select property",
+          "correct": false,
+          "explanation": "Select properties are useful for categorization but aren’t required for timeline display."
+        },
+        {
+          "key": "D",
+          "text": "A Formula property",
+          "correct": false,
+          "explanation": "Formulas can calculate values, but without a Date property the page won’t show on the timeline."
+        }
+      ]
+    },
+    {
+      "id": "guides_timeline-view-unlocks-high-output-planning-for-your-team-003",
+      "question": "How can you show a table alongside your timeline view?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enable the \"Show table\" toggle in the layout options.",
+          "correct": true,
+          "explanation": "The guide explains that toggling \"Show table\" adds a table to the left side of the timeline."
+        },
+        {
+          "key": "B",
+          "text": "Create a separate page and embed the timeline inside it.",
+          "correct": false,
+          "explanation": "Embedding is possible but doesn’t place a table next to the timeline in the same view."
+        },
+        {
+          "key": "C",
+          "text": "Switch the view type to \"Board\" and then back to \"Timeline\".",
+          "correct": false,
+          "explanation": "Changing the view type doesn’t add a table; it changes the visual layout."
+        },
+        {
+          "key": "D",
+          "text": "Add a new property called \"Table\" to each page.",
+          "correct": false,
+          "explanation": "Properties don’t control view layout; the \"Show table\" toggle does."
+        }
+      ]
+    },
+    {
+      "id": "guides_timeline-view-unlocks-high-output-planning-for-your-team-004",
+      "question": "If you want to view your timeline in hourly increments instead of weeks, where do you make that change?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the ••• menu, under Layout, select the desired time unit.",
+          "correct": false,
+          "explanation": "The ••• menu’s Layout section controls which date property is used, not the time granularity."
+        },
+        {
+          "key": "B",
+          "text": "To the left of the \"< Today >\" label, choose the time scale (hours, days, weeks, etc.).",
+          "correct": true,
+          "explanation": "Correct – the guide notes that you can change the view granularity next to the Today marker."
+        },
+        {
+          "key": "C",
+          "text": "Edit the Date property to include a time stamp for each page.",
+          "correct": false,
+          "explanation": "Including a time stamp adds precision but doesn’t change the overall timeline scale."
+        },
+        {
+          "key": "D",
+          "text": "Create a new view and name it \"Hourly Timeline\".",
+          "correct": false,
+          "explanation": "Naming a view doesn’t automatically set the granularity; you must adjust the scale control."
+        }
+      ]
+    },
+    {
+      "id": "guides_timeline-view-unlocks-high-output-planning-for-your-team-005",
+      "question": "How does the timeline view help teams prioritize overlapping (concurrent) tasks?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It hides overlapping tasks so you only see one at a time.",
+          "correct": false,
+          "explanation": "Timeline view actually displays overlapping bars, making concurrency visible."
+        },
+        {
+          "key": "B",
+          "text": "It visually stacks tasks, showing their overlap so you can identify P0 work.",
+          "correct": true,
+          "explanation": "Correct – the guide mentions that overlapping bars let you prioritize critical work."
+        },
+        {
+          "key": "C",
+          "text": "It automatically reorders tasks so none overlap.",
+          "correct": false,
+          "explanation": "Reordering is manual; the view does not auto‑resolve overlaps."
+        },
+        {
+          "key": "D",
+          "text": "It converts overlapping tasks into a single aggregated task.",
+          "correct": false,
+          "explanation": "Aggregation isn’t a feature; each task remains distinct on the timeline."
+        }
+      ]
+    },
+    {
+      "id": "guides_timeline-view-unlocks-high-output-planning-for-your-team-006",
+      "question": "When a database has multiple date properties, how can you decide which one drives the placement of items on the timeline?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rename the desired date property to \"Date\".",
+          "correct": false,
+          "explanation": "Renaming doesn’t affect which property the timeline uses."
+        },
+        {
+          "key": "B",
+          "text": "In the ••• menu under Layout, use the \"Timeline by\" dropdown to pick the property.",
+          "correct": true,
+          "explanation": "Correct – the guide explains this is how you select which date property to plot."
+        },
+        {
+          "key": "C",
+          "text": "Create a formula that merges all dates into one and use that.",
+          "correct": false,
+          "explanation": "While possible, the guide does not describe this as the standard method."
+        },
+        {
+          "key": "D",
+          "text": "Delete all other date properties except the one you want.",
+          "correct": false,
+          "explanation": "Deleting properties is unnecessary; you can simply choose via the \"Timeline by\" option."
+        }
+      ]
+    },
+    {
+      "id": "guides_timeline-view-unlocks-high-output-planning-for-your-team-007",
+      "question": "What does the eye icon in the Properties menu allow you to do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lock a property so it can’t be edited.",
+          "correct": false,
+          "explanation": "The eye icon controls visibility, not edit permissions."
+        },
+        {
+          "key": "B",
+          "text": "Show or hide that property on the timeline cards.",
+          "correct": true,
+          "explanation": "Correct – the eye toggles visibility of properties in the timeline view."
+        },
+        {
+          "key": "C",
+          "text": "Convert a property into a date property.",
+          "correct": false,
+          "explanation": "Changing a property type requires a different action, not the eye icon."
+        },
+        {
+          "key": "D",
+          "text": "Duplicate the property across all pages.",
+          "correct": false,
+          "explanation": "Duplication isn’t handled by the eye icon."
+        }
+      ]
+    },
+    {
+      "id": "guides_timeline-view-unlocks-high-output-planning-for-your-team-008",
+      "question": "How does dragging the side of a project page on the timeline affect the project?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It changes the project’s assigned team members.",
+          "correct": false,
+          "explanation": "Dragging adjusts dates, not team assignments."
+        },
+        {
+          "key": "B",
+          "text": "It extends or shortens the project's duration while preserving its start or end date.",
+          "correct": true,
+          "explanation": "Correct – moving a side adds or removes time from the project’s schedule."
+        },
+        {
+          "key": "C",
+          "text": "It automatically creates a duplicate of the project with the new dates.",
+          "correct": false,
+          "explanation": "No duplication occurs; the original page is simply resized."
+        },
+        {
+          "key": "D",
+          "text": "It changes the view type from timeline to board.",
+          "correct": false,
+          "explanation": "View type is changed via the view selector, not by dragging a timeline bar."
+        }
+      ]
+    },
+    {
+      "id": "guides_timeline-view-unlocks-high-output-planning-for-your-team-009",
+      "question": "Why might a designer prefer using a board view while a project manager prefers a Gantt‑style timeline, and how does Notion’s timeline view accommodate both preferences?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Board view shows tasks as cards for visual brainstorming; timeline view can be switched to board or Gantt, letting users toggle between the two as needed.",
+          "correct": true,
+          "explanation": "Correct – the guide notes that designers may like board view while managers like Gantt, and timeline view can coexist with other views."
+        },
+        {
+          "key": "B",
+          "text": "Board view automatically converts dates into colors; timeline view hides all dates for designers.",
+          "correct": false,
+          "explanation": "Board view does not color‑code dates by default, and timeline view does not hide dates."
+        },
+        {
+          "key": "C",
+          "text": "Designers cannot use timeline view at all; they must export data to another tool.",
+          "correct": false,
+          "explanation": "The guide encourages using timeline alongside other views, not excluding designers."
+        },
+        {
+          "key": "D",
+          "text": "Project managers can only view timelines on mobile, while designers see boards on desktop.",
+          "correct": false,
+          "explanation": "Both views are available on all platforms; device type isn’t a limitation."
+        }
+      ]
+    },
+    {
+      "id": "guides_timeline-view-unlocks-high-output-planning-for-your-team-010",
+      "question": "What is a key benefit of combining a table with a timeline when managing a multi‑team project?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It lets you edit the dates directly in the table without seeing the visual timeline.",
+          "correct": false,
+          "explanation": "While you can edit dates in the table, the benefit highlighted is the simultaneous visual context."
+        },
+        {
+          "key": "B",
+          "text": "It provides a side‑by‑side view of detailed attributes (like sub‑team or owner) and the visual schedule, enabling quick cross‑reference.",
+          "correct": true,
+          "explanation": "Correct – the guide describes using a table on the left to see attributes while the timeline shows dates."
+        },
+        {
+          "key": "C",
+          "text": "It automatically generates Gantt charts for each sub‑team without any configuration.",
+          "correct": false,
+          "explanation": "Gantt charts are part of the timeline view itself; the table doesn’t auto‑generate separate charts."
+        },
+        {
+          "key": "D",
+          "text": "It removes the need for any filters or sorts because all information is displayed together.",
+          "correct": false,
+          "explanation": "Filters and sorts are still useful; the table‑timeline combo doesn’t eliminate them."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "source": "billing",
+  "sourceTitle": "Billing",
+  "sourceUrl": "https://www.notion.so/help/billing",
+  "questions": [
+    {
+      "id": "billing-001",
+      "question": "When does Notion charge you for your subscription?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "At the end of your billing interval",
+          "correct": false,
+          "explanation": "Notion charges you upfront at the beginning of your billing interval, not at the end."
+        },
+        {
+          "key": "B",
+          "text": "At the start of your billing interval",
+          "correct": true,
+          "explanation": "You always pay for Notion at the start of your billing interval."
+        },
+        {
+          "key": "C",
+          "text": "On a random day each month",
+          "correct": false,
+          "explanation": "Billing is always scheduled based on the interval you choose (monthly or yearly), not randomly."
+        },
+        {
+          "key": "D",
+          "text": "When you upgrade your plan",
+          "correct": false,
+          "explanation": "Upgrading triggers a new charge, but the base subscription is always billed at the start of the interval."
+        }
+      ]
+    },
+    {
+      "id": "billing-002",
+      "question": "If you add a member to your workspace mid-billing cycle, how are they charged?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You are charged immediately for the full month/year",
+          "correct": false,
+          "explanation": "You are charged for the portion of the interval they are in the workspace; proration applies."
+        },
+        {
+          "key": "B",
+          "text": "You are charged immediately for the remainder of the interval",
+          "correct": true,
+          "explanation": "We prorate charges for added members for the remainder of the current billing interval."
+        },
+        {
+          "key": "C",
+          "text": "You are not charged until the next billing cycle",
+          "correct": false,
+          "explanation": "Adding members is a billable action; the charge is prorated for the time they are in the workspace."
+        },
+        {
+          "key": "D",
+          "text": "The charge is applied to the previous invoice as a credit",
+          "correct": false,
+          "explanation": "There is no credit applied; the charge is added to cover the new member's access."
+        }
+      ]
+    },
+    {
+      "id": "billing-003",
+      "question": "How can you collaborate with someone in Notion without incurring charges for an additional member seat?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add them to your workspace as a member",
+          "correct": false,
+          "explanation": "Adding members to a paid workspace is a billable action and will incur charges."
+        },
+        {
+          "key": "B",
+          "text": "Invite them as a guest to specific pages",
+          "correct": true,
+          "explanation": "You can invite guests to specific pages instead of adding them as members to avoid billable charges."
+        },
+        {
+          "key": "C",
+          "text": "Create a new workspace for them",
+          "correct": false,
+          "explanation": "Creating a new workspace would still require a paid seat for that workspace."
+        },
+        {
+          "key": "D",
+          "text": "Send them an email invitation only",
+          "correct": false,
+          "explanation": "To collaborate, they must have access; adding them as a guest to a page is the cost-free way."
+        }
+      ]
+    },
+    {
+      "id": "billing-004",
+      "question": "When you remove a member from your workspace mid-cycle, what happens to the paid seat?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The seat is released immediately and your bill decreases now",
+          "correct": false,
+          "explanation": "Decreases in billing for removals are reflected at your next billing cycle, not immediately."
+        },
+        {
+          "key": "B",
+          "text": "The seat is held until the end of your current billing interval",
+          "correct": true,
+          "explanation": "You have access to the paid seat until the end of the interval and can reassign it to another person."
+        },
+        {
+          "key": "C",
+          "text": "The seat is permanently deleted and cannot be reassigned",
+          "correct": false,
+          "explanation": "The seat remains available for reassignment until the interval ends."
+        },
+        {
+          "key": "D",
+          "text": "You are refunded immediately for the unused time",
+          "correct": false,
+          "explanation": "There is no proration or refund for removing members mid-cycle."
+        }
+      ]
+    },
+    {
+      "id": "billing-005",
+      "question": "Which statement is true regarding yearly vs. monthly billing?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Monthly billing costs less than yearly billing",
+          "correct": false,
+          "explanation": "Yearly billing costs less than monthly billing."
+        },
+        {
+          "key": "B",
+          "text": "Yearly plans renew on the same calendar day every year",
+          "correct": true,
+          "explanation": "If you pay yearly, your plan will renew on the same calendar day you first purchased it."
+        },
+        {
+          "key": "C",
+          "text": "Monthly plans offer more control over your budget",
+          "correct": true,
+          "explanation": "Monthly plans are recommended if you expect your team size to fluctuate often or want more control over your budget."
+        },
+        {
+          "key": "D",
+          "text": "You can change from yearly to monthly at any time without penalty",
+          "correct": false,
+          "explanation": "While you *can* change the interval, the text notes that changing from yearly to monthly takes effect the day the annual cycle ends."
+        }
+      ]
+    },
+    {
+      "id": "billing-006",
+      "question": "You are on a monthly plan and decide to switch to a yearly plan. What happens to the remaining time on your monthly cycle?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The remaining time is refunded to your credit card",
+          "correct": false,
+          "explanation": "The remaining time is subtracted from your annual payment, not refunded."
+        },
+        {
+          "key": "B",
+          "text": "The remaining time carries over to the next year",
+          "correct": false,
+          "explanation": "The remaining time is subtracted from the new yearly price."
+        },
+        {
+          "key": "C",
+          "text": "The remaining time is forfeited",
+          "correct": false,
+          "explanation": "The remaining time is used to offset the cost of the new yearly plan."
+        },
+        {
+          "key": "D",
+          "text": "The remaining time is added to the end of your new yearly cycle",
+          "correct": false,
+          "explanation": "The remaining time is subtracted from the annual payment to prorate the cost."
+        }
+      ]
+    },
+    {
+      "id": "billing-007",
+      "question": "If you have multiple paid Notion workspaces, how are they billed?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are billed together as one account",
+          "correct": false,
+          "explanation": "You are billed for them separately based on the number of members in each."
+        },
+        {
+          "key": "B",
+          "text": "They are billed based on the total number of members across all workspaces",
+          "correct": false,
+          "explanation": "They are billed separately based on members in each individual workspace."
+        },
+        {
+          "key": "C",
+          "text": "You only pay for the workspace with the most members",
+          "correct": false,
+          "explanation": "Each workspace is billed based on its own specific member count."
+        },
+        {
+          "key": "D",
+          "text": "You can have different billing intervals per workspace",
+          "correct": true,
+          "explanation": "The text states you can have different billing intervals per workspace."
+        }
+      ]
+    },
+    {
+      "id": "billing-008",
+      "question": "Where can you view how many paid seats a specific workspace has?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Settings > Billing > Workspaces",
+          "correct": false,
+          "explanation": "You view this information in Settings > People."
+        },
+        {
+          "key": "B",
+          "text": "Sidebar > Billing",
+          "correct": false,
+          "explanation": "You navigate to Settings in the sidebar first, then to People."
+        },
+        {
+          "key": "C",
+          "text": "Settings > People",
+          "correct": true,
+          "explanation": "Go to Settings in your sidebar → People to view paid seats and members."
+        },
+        {
+          "key": "D",
+          "text": "Billing tab in the top header",
+          "correct": false,
+          "explanation": "The People tab is located under Settings."
+        }
+      ]
+    },
+    {
+      "id": "billing-009",
+      "question": "Who is authorized to view and manage plans and billing details?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "All members of the workspace",
+          "correct": false,
+          "explanation": "Only workspace owners can view and manage plans and billing."
+        },
+        {
+          "key": "B",
+          "text": "All editors and viewers",
+          "correct": false,
+          "explanation": "Only workspace owners have access to billing management."
+        },
+        {
+          "key": "C",
+          "text": "Only workspace owners",
+          "correct": true,
+          "explanation": "The article explicitly states that only workspace owners can view and manage plans and billing."
+        },
+        {
+          "key": "D",
+          "text": "Administrators only",
+          "correct": false,
+          "explanation": "The specific term used in the text is 'workspace owners'."
+        }
+      ]
+    },
+    {
+      "id": "billing-010",
+      "question": "What happens if your paid workspace is downgraded to a free plan due to an unpaid invoice?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You are immediately banned from Notion",
+          "correct": false,
+          "explanation": "The system automatically downgrades the account after several attempts to collect payment, but you aren't banned immediately."
+        },
+        {
+          "key": "B",
+          "text": "It is automatically downgraded after several attempts to collect payment",
+          "correct": true,
+          "explanation": "Our system will automatically downgrade a paid account after several attempts are made to collect payment."
+        },
+        {
+          "key": "C",
+          "text": "You can no longer log into your account",
+          "correct": false,
+          "explanation": "You can still log in and re-upgrade via the Upgrade tab in Settings."
+        },
+        {
+          "key": "D",
+          "text": "The unpaid invoice is cleared automatically",
+          "correct": false,
+          "explanation": "The unpaid invoice causes the downgrade, which must be resolved manually by re-upgrading."
+        }
+      ]
+    },
+    {
+      "id": "billing-011",
+      "question": "To organize a team (e.g., engineering) with granular permissions without creating a separate workspace, what should you do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a new workspace for that team",
+          "correct": false,
+          "explanation": "The article suggests avoiding multiple workspaces by using permissions and groups instead."
+        },
+        {
+          "key": "B",
+          "text": "Disable Workspace Access and grant access per page",
+          "correct": true,
+          "explanation": "You can disable Workspace Access and grant specific levels of access per page to specific groups."
+        },
+        {
+          "key": "C",
+          "text": "Add all engineers to a 'Design' group",
+          "correct": false,
+          "explanation": "While groups are mentioned, the specific solution to avoid a separate workspace is disabling workspace access and managing permissions at the page level."
+        },
+        {
+          "key": "D",
+          "text": "Merge all workspaces into one",
+          "correct": false,
+          "explanation": "The goal is to avoid multiple workspaces entirely by using permissions."
+        }
+      ]
+    },
+    {
+      "id": "billing-012",
+      "question": "When changing your billing interval from monthly to yearly, what is the effective date of the new cycle?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The day you click 'Confirm changes'",
+          "correct": false,
+          "explanation": "The new billing cycle starts the next year on the same calendar day you made the change."
+        },
+        {
+          "key": "B",
+          "text": "The day your annual cycle ends",
+          "correct": false,
+          "explanation": "This applies to changing from yearly to monthly. Changing monthly to yearly takes effect immediately regarding the new plan, but the renewal date is next year."
+        },
+        {
+          "key": "C",
+          "text": "The next annual renewal date",
+          "correct": true,
+          "explanation": "The new billing cycle will take effect the next year on the same calendar day you made the change."
+        },
+        {
+          "key": "D",
+          "text": "The end of the current month",
+          "correct": false,
+          "explanation": "The new cycle is tied to the calendar day of purchase, not the month end."
+        }
+      ]
+    },
+    {
+      "id": "billing-013",
+      "question": "What is the primary reason to choose monthly billing over yearly billing?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Monthly billing costs less",
+          "correct": false,
+          "explanation": "Yearly billing costs less. Monthly is chosen for budget control."
+        },
+        {
+          "key": "B",
+          "text": "To allow for mid-year proration adjustments",
+          "correct": false,
+          "explanation": "Proration happens in both monthly and yearly; monthly just allows more frequent adjustments."
+        },
+        {
+          "key": "C",
+          "text": "If you expect your team size to fluctuate often",
+          "correct": true,
+          "explanation": "If you expect team size to fluctuate often, or you want more control over your budget, monthly is recommended."
+        },
+        {
+          "key": "D",
+          "text": "To avoid paying for unused time at the end of the year",
+          "correct": false,
+          "explanation": "Both models handle unused time/proration; monthly simply happens more frequently."
+        }
+      ]
+    },
+    {
+      "id": "billing-014",
+      "question": "How can you ensure that an invited person is added as a guest rather than a member?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select 'Upgrade' on the invitation screen",
+          "correct": false,
+          "explanation": "Selecting 'Upgrade' turns them into a member. You must do the opposite to keep them as a guest."
+        },
+        {
+          "key": "B",
+          "text": "Hover over their email address and select 'Skip for now'",
+          "correct": true,
+          "explanation": "The article instructs to hover over the email and select 'Skip for now' to ensure they are added as a guest."
+        },
+        {
+          "key": "C",
+          "text": "Add them to a group first",
+          "correct": false,
+          "explanation": "Groups are for permissions, not for the initial invite method to avoid member status."
+        },
+        {
+          "key": "D",
+          "text": "Invite them via email link instead of the Share menu",
+          "correct": false,
+          "explanation": "The method described is specific to the Share menu and the 'Skip for now' prompt."
+        }
+      ]
+    },
+    {
+      "id": "billing-015",
+      "question": "Plans in Notion apply to which of the following?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Your entire Notion account",
+          "correct": false,
+          "explanation": "Plans apply to a single workspace and do not cover your whole account."
+        },
+        {
+          "key": "B",
+          "text": "Specific pages only",
+          "correct": false,
+          "explanation": "Plans apply to the workspace level, not individual pages."
+        },
+        {
+          "key": "C",
+          "text": "A single workspace",
+          "correct": true,
+          "explanation": "The article states that plans only apply to a single workspace."
+        },
+        {
+          "key": "D",
+          "text": "Groups of users",
+          "correct": false,
+          "explanation": "Plans are per workspace, and groups are a permission tool within that workspace."
+        }
+      ]
+    }
+  ]
+}

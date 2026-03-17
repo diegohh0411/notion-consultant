@@ -1,0 +1,317 @@
+{
+  "source": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this",
+  "sourceTitle": "Start fresh and do the thing: How to actually set and hit team goals this year",
+  "sourceUrl": "https://www.notion.so/help/guides/start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this",
+  "questions": [
+    {
+      "id": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this-001",
+      "question": "What is the primary benefit of linking the Roadmap and Projects databases in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically syncs all team members' calendars.",
+          "correct": false,
+          "explanation": "Linking databases does not affect calendar sync; it only connects related records."
+        },
+        {
+          "key": "B",
+          "text": "It lets you see projects associated with each initiative in one place.",
+          "correct": true,
+          "explanation": "Correct—relation properties show which projects support each initiative, giving a full line of sight."
+        },
+        {
+          "key": "C",
+          "text": "It creates a backup of all project files in the Roadmap.",
+          "correct": false,
+          "explanation": "The link does not duplicate files; it merely references related items."
+        },
+        {
+          "key": "D",
+          "text": "It enforces a strict workflow that cannot be changed.",
+          "correct": false,
+          "explanation": "Notion remains flexible; linking databases does not lock down workflows."
+        }
+      ]
+    },
+    {
+      "id": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this-002",
+      "question": "In the hierarchy described in the guide, which element comes directly after “initiatives”?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Company goals",
+          "correct": false,
+          "explanation": "Company goals are higher‑level; they precede initiatives."
+        },
+        {
+          "key": "B",
+          "text": "Team goals",
+          "correct": false,
+          "explanation": "Team goals sit above initiatives, not below."
+        },
+        {
+          "key": "C",
+          "text": "Projects",
+          "correct": true,
+          "explanation": "The guide maps the flow as projects → initiatives → team goals → company goals, so projects follow initiatives."
+        },
+        {
+          "key": "D",
+          "text": "Tasks",
+          "correct": false,
+          "explanation": "Tasks are not part of the described hierarchy."
+        }
+      ]
+    },
+    {
+      "id": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this-003",
+      "question": "Which property should you add to the Roadmap database to clearly identify who is responsible for each initiative?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Date property",
+          "correct": false,
+          "explanation": "Date tracks timelines, not ownership."
+        },
+        {
+          "key": "B",
+          "text": "Person property",
+          "correct": true,
+          "explanation": "A Person property lets you assign an owner (or DRI) to each initiative."
+        },
+        {
+          "key": "C",
+          "text": "Multi‑select property for quarters",
+          "correct": false,
+          "explanation": "Multi‑select for quarters indicates timing, not ownership."
+        },
+        {
+          "key": "D",
+          "text": "Number property for budget",
+          "correct": false,
+          "explanation": "Budget numbers are unrelated to assigning owners."
+        }
+      ]
+    },
+    {
+      "id": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this-004",
+      "question": "When creating a relation between the Roadmap and Projects tables, where do you configure this property?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the Projects table, add a Formula property that references the Roadmap.",
+          "correct": false,
+          "explanation": "Relations are not set up via formulas; they use a dedicated Relation property."
+        },
+        {
+          "key": "B",
+          "text": "In the Roadmap table, add a Relation property that points to the Projects database.",
+          "correct": true,
+          "explanation": "The guide instructs you to create a Relation property in Roadmap linking to Projects."
+        },
+        {
+          "key": "C",
+          "text": "Create a linked database view of Projects inside the Roadmap page.",
+          "correct": false,
+          "explanation": "Linked views display data but don’t create a relational link between records."
+        },
+        {
+          "key": "D",
+          "text": "Add a Select property in Projects with the names of initiatives.",
+          "correct": false,
+          "explanation": "Select properties are static lists; they don’t create a true relational connection."
+        }
+      ]
+    },
+    {
+      "id": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this-005",
+      "question": "Which custom view would best help a manager see how many projects each team member is handling?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Calendar view filtered by launch dates.",
+          "correct": false,
+          "explanation": "Calendar shows dates, not distribution of work per person."
+        },
+        {
+          "key": "B",
+          "text": "A Board view grouped by the DRI (person) property.",
+          "correct": true,
+          "explanation": "Grouping the Board by DRI displays each person’s projects side‑by‑side."
+        },
+        {
+          "key": "C",
+          "text": "A Table view sorted by priority.",
+          "correct": false,
+          "explanation": "Sorting by priority doesn’t reveal workload per individual."
+        },
+        {
+          "key": "D",
+          "text": "A Timeline view organized by end date.",
+          "correct": false,
+          "explanation": "Timeline visualizes schedules, not who owns each project."
+        }
+      ]
+    },
+    {
+      "id": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this-006",
+      "question": "What is the purpose of using a Multi‑select property for “Q1, Q2, etc.” in the Roadmap database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To assign each initiative a budget amount per quarter.",
+          "correct": false,
+          "explanation": "Budget amounts would use a Number property, not Multi‑select."
+        },
+        {
+          "key": "B",
+          "text": "To indicate which quarters an initiative spans.",
+          "correct": true,
+          "explanation": "Multi‑select lets you tag an initiative with one or more quarters, showing its timeline."
+        },
+        {
+          "key": "C",
+          "text": "To rank initiatives by importance within each quarter.",
+          "correct": false,
+          "explanation": "Ranking would be done with a Select or Number property, not Multi‑select."
+        },
+        {
+          "key": "D",
+          "text": "To link initiatives to external calendar events.",
+          "correct": false,
+          "explanation": "Linking to external calendars uses Date or URL properties, not Multi‑select."
+        }
+      ]
+    },
+    {
+      "id": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this-007",
+      "question": "When setting up a Timeline view for the Projects database, which property should you select under “Timeline by”?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The “Status” Select property.",
+          "correct": false,
+          "explanation": "Status is categorical, not a date, so it can’t drive a timeline."
+        },
+        {
+          "key": "B",
+          "text": "The “Launch date” Date property.",
+          "correct": false,
+          "explanation": "Launch date alone shows a single point, not a range; the guide suggests using the execution timeline property."
+        },
+        {
+          "key": "C",
+          "text": "The “Execution timeline” Date property with both start and end dates.",
+          "correct": true,
+          "explanation": "Choosing the execution timeline (a date range) lets the Timeline view display the full span of each project."
+        },
+        {
+          "key": "D",
+          "text": "The “Type” Select property.",
+          "correct": false,
+          "explanation": "Type categorizes projects but does not contain date information."
+        }
+      ]
+    },
+    {
+      "id": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this-008",
+      "question": "Why does the guide recommend using database templates in the Projects database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically assign owners to new projects.",
+          "correct": false,
+          "explanation": "Templates provide structure, but ownership still needs to be set per project."
+        },
+        {
+          "key": "B",
+          "text": "To ensure each project follows a consistent set of criteria and process.",
+          "correct": true,
+          "explanation": "Templates standardize the information and steps required for each type of project."
+        },
+        {
+          "key": "C",
+          "text": "To lock the project pages so they can’t be edited.",
+          "correct": false,
+          "explanation": "Templates are editable; they don’t make pages read‑only."
+        },
+        {
+          "key": "D",
+          "text": "To hide completed projects from the main view.",
+          "correct": false,
+          "explanation": "Visibility is controlled by filters, not by using templates."
+        }
+      ]
+    },
+    {
+      "id": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this-009",
+      "question": "How does linking a filtered view of the Projects database into a weekly 1:1 template benefit the meeting?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically marks all listed projects as completed after the meeting.",
+          "correct": false,
+          "explanation": "Linking a view does not change the status of items; it only displays them."
+        },
+        {
+          "key": "B",
+          "text": "It provides a real‑time snapshot of the direct report’s current projects, streamlining status updates.",
+          "correct": true,
+          "explanation": "A linked, filtered view shows only that person’s projects, keeping the 1:1 focused and up‑to‑date."
+        },
+        {
+          "key": "C",
+          "text": "It creates a backup of the Projects database each week.",
+          "correct": false,
+          "explanation": "Linking does not duplicate or back up data."
+        },
+        {
+          "key": "D",
+          "text": "It disables editing of the Projects database during the meeting.",
+          "correct": false,
+          "explanation": "Views remain editable unless permissions are changed; linking does not lock editing."
+        }
+      ]
+    },
+    {
+      "id": "guides_start-fresh-and-do-the-thing-how-to-actually-set-and-hit-team-goals-this-010",
+      "question": "Which of the following is NOT listed as a recommended custom view for the Roadmap database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A filtered view for each person on the team.",
+          "correct": false,
+          "explanation": "The guide explicitly mentions this view."
+        },
+        {
+          "key": "B",
+          "text": "A Board view grouped by status.",
+          "correct": false,
+          "explanation": "A Board grouped by status is recommended."
+        },
+        {
+          "key": "C",
+          "text": "A Timeline view showing initiative start dates.",
+          "correct": true,
+          "explanation": "The guide does not list a Timeline view for Roadmap; it suggests Table views per quarter."
+        },
+        {
+          "key": "D",
+          "text": "Table views for each quarter (Q1‑Q4).",
+          "correct": false,
+          "explanation": "Quarterly Table views are part of the recommendation."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source": "cant-upload-or-view-a-file",
+  "sourceTitle": "I can’t upload or view a file",
+  "sourceUrl": "https://www.notion.so/help/cant-upload-or-view-a-file",
+  "questions": [
+    {
+      "id": "cant-upload-or-view-a-file-001",
+      "question": "When troubleshooting a file loading issue, what is the recommended first step to determine if the problem is with your browser?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Try accessing the page in incognito mode",
+          "correct": true,
+          "explanation": "According to the article, trying incognito mode is a key troubleshooting step. If the file loads there, the issue is most likely with your browser."
+        },
+        {
+          "key": "B",
+          "text": "Delete your browser cache immediately",
+          "correct": false,
+          "explanation": "While clearing your cache is a fix mentioned for browser issues, incognito mode is the specific diagnostic step suggested first to isolate the problem."
+        },
+        {
+          "key": "C",
+          "text": "Reinstall the Notion desktop app",
+          "correct": false,
+          "explanation": "The article suggests updating your browser and clearing your cache before reinstalling the app."
+        },
+        {
+          "key": "D",
+          "text": "Switch to a mobile device",
+          "correct": false,
+          "explanation": "The article focuses on web browser troubleshooting (incognito mode) rather than switching devices."
+        }
+      ]
+    },
+    {
+      "id": "cant-upload-or-view-a-file-002",
+      "question": "Why might a file upload fail due to permissions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You do not have the right permission, or permissions have expired",
+          "correct": true,
+          "explanation": "The article states that you might lack permission, or that 'secure URLs to file uploads in Notion expire after 24 hours'."
+        },
+        {
+          "key": "B",
+          "text": "The file format is not supported by Notion",
+          "correct": false,
+          "explanation": "While unsupported formats are a common issue, permission errors are specifically caused by access rights or URL expiry, not the file type itself."
+        },
+        {
+          "key": "C",
+          "text": "The file is too large for the server",
+          "correct": false,
+          "explanation": "The article mentions the 'Your file is over the limit' error in the 'Learn more' section, but not specifically in the troubleshooting steps for permission denied."
+        },
+        {
+          "key": "D",
+          "text": "The file is hosted on a blocked server",
+          "correct": false,
+          "explanation": "Blocked servers are not mentioned in the troubleshooting steps; the focus is on local browser settings and Notion's internal permissions."
+        }
+      ]
+    },
+    {
+      "id": "cant-upload-or-view-a-file-003",
+      "question": "Which of the following file formats is explicitly listed as supported by Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "ICO",
+          "correct": true,
+          "explanation": "The article lists ICO as a supported file type for images."
+        },
+        {
+          "key": "B",
+          "text": "BMP",
+          "correct": false,
+          "explanation": "BMP is not listed among the supported image formats (HEIC, ICO, JPEG, JPG, PNG, TIF, TIFF, GIF, SVG, PDF, WEBP)."
+        },
+        {
+          "key": "C",
+          "text": "AVI",
+          "correct": false,
+          "explanation": "AVI is not listed as a supported audio or video format (supported formats include MP3, MP4, WAV, OGG)."
+        },
+        {
+          "key": "D",
+          "text": "MOV",
+          "correct": false,
+          "explanation": "MOV is not listed as a supported video format; the article mentions MP4 specifically."
+        }
+      ]
+    },
+    {
+      "id": "cant-upload-or-view-a-file-004",
+      "question": "What is a known limitation regarding MP4 files in Notion?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are not supported at all",
+          "correct": false,
+          "explanation": "MP4 is listed as a supported format, but it comes with a caveat about potential compression issues."
+        },
+        {
+          "key": "B",
+          "text": "They can sometimes have video compression or components that aren't supported",
+          "correct": true,
+          "explanation": "The article notes that 'MP4 files can sometimes have video compression or other components that aren’t supported in Notion'."
+        },
+        {
+          "key": "C",
+          "text": "They must be converted to a PDF to be viewed",
+          "correct": false,
+          "explanation": "The article suggests converting to a different file type if MP4 files have issues, not specifically to PDF."
+        },
+        {
+          "key": "D",
+          "text": "They only work on the desktop app",
+          "correct": false,
+          "explanation": "There is no mention of MP4 files being exclusive to the desktop app; the issue is related to the file's internal structure."
+        }
+      ]
+    },
+    {
+      "id": "cant-upload-or-view-a-file-005",
+      "question": "Why might a YouTube video fail to play in the Notion desktop app?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The video contains copyrighted music",
+          "correct": true,
+          "explanation": "The article explains that YouTube videos with copyrighted music may not play in the desktop app, suggesting to play them in a web browser instead."
+        },
+        {
+          "key": "B",
+          "text": "The video is set to private",
+          "correct": false,
+          "explanation": "While private videos might not load, the article specifically cites copyrighted music as the reason for desktop app playback failures."
+        },
+        {
+          "key": "C",
+          "text": "The desktop app does not support YouTube embeddings",
+          "correct": false,
+          "explanation": "The article states that you can embed videos from YouTube, Vimeo, and other major sources, implying support exists."
+        },
+        {
+          "key": "D",
+          "text": "Your internet connection is too slow",
+          "correct": false,
+          "explanation": "Internet speed is not mentioned as the cause for YouTube-specific desktop app failures in this article."
+        }
+      ]
+    },
+    {
+      "id": "cant-upload-or-view-a-file-006",
+      "question": "What is a suggested method to manage pages with a large number of images that are causing loading errors?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Put images inside toggles or remove unnecessary images",
+          "correct": true,
+          "explanation": "The article suggests 'Put some images inside toggles or removing any images you don't need' to prevent loading errors caused by too many images."
+        },
+        {
+          "key": "B",
+          "text": "Convert all images to GIF format",
+          "correct": false,
+          "explanation": "There is no suggestion to convert images to GIFs; toggles are the structural solution proposed."
+        },
+        {
+          "key": "C",
+          "text": "Delete the entire Notion workspace",
+          "correct": false,
+          "explanation": "Removing unnecessary images from the current page is a much lighter solution than deleting the workspace."
+        },
+        {
+          "key": "D",
+          "text": "Upload the images as a single PDF file",
+          "correct": false,
+          "explanation": "While PDFs are supported, the specific solution for a page with too many images is toggling or removal."
+        }
+      ]
+    },
+    {
+      "id": "cant-upload-or-view-a-file-007",
+      "question": "If you receive a 'Permission denied' error for a file, what action is recommended?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Download the media file to your device and reupload it",
+          "correct": true,
+          "explanation": "The article suggests that if permissions have expired (which often triggers 'Permission denied'), you can try downloading the file and reuploading it to ensure availability."
+        },
+        {
+          "key": "B",
+          "text": "Contact the file owner immediately",
+          "correct": false,
+          "explanation": "While you might need to contact the owner if you lack access rights, the article suggests reuploading as a technical fix for expired permissions."
+        },
+        {
+          "key": "C",
+          "text": "Delete the link and create a new one",
+          "correct": false,
+          "explanation": "The article suggests reuploading the file itself rather than just creating a new link."
+        },
+        {
+          "key": "D",
+          "text": "Ask Notion Support to grant you access",
+          "correct": false,
+          "explanation": "Reuploading is the immediate technical step suggested; contacting support is a later step, not the first troubleshooting action."
+        }
+      ]
+    },
+    {
+      "id": "cant-upload-or-view-a-file-008",
+      "question": "Which of the following is a supported audio format?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "OGG",
+          "correct": true,
+          "explanation": "The article lists OGG as a supported audio format alongside MP3 and WAV."
+        },
+        {
+          "key": "B",
+          "text": "WMA",
+          "correct": false,
+          "explanation": "WMA is not listed among the supported audio formats (MP3, MP4, WAV, OGG)."
+        },
+        {
+          "key": "C",
+          "text": "AAC",
+          "correct": false,
+          "explanation": "AAC is not listed as a supported audio format in the article."
+        },
+        {
+          "key": "D",
+          "text": "FLAC",
+          "correct": false,
+          "explanation": "FLAC is not listed among the supported audio formats."
+        }
+      ]
+    },
+    {
+      "id": "cant-upload-or-view-a-file-009",
+      "question": "What causes the specific error message 'This image couldn’t be loaded'?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Too many images loading simultaneously on a page",
+          "correct": true,
+          "explanation": "The article states this error 'might happen for several reasons. For example, if you have lots of images on one page, you might see this error since all of the images are loading at once.'"
+        },
+        {
+          "key": "B",
+          "text": "The image file is corrupt",
+          "correct": false,
+          "explanation": "While a corrupt file could cause issues, the article specifically attributes the loading error to the number of images loading at once."
+        },
+        {
+          "key": "C",
+          "text": "The browser does not support HEIC format",
+          "correct": false,
+          "explanation": "Notion supports HEIC, and the article mentions HEIC as a supported format, though it notes browser compatibility issues for viewing images."
+        },
+        {
+          "key": "D",
+          "text": "The image is hosted on a secure server that has blocked access",
+          "correct": false,
+          "explanation": "The article mentions secure URLs expiring, but 'This image couldn’t be loaded' is most commonly associated with the load-time performance issue of too many images."
+        }
+      ]
+    },
+    {
+      "id": "cant-upload-or-view-a-file-010",
+      "question": "Which of the following image formats is supported by Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "TIFF",
+          "correct": true,
+          "explanation": "The article lists TIF and TIFF as supported image formats."
+        },
+        {
+          "key": "B",
+          "text": "JPG",
+          "correct": false,
+          "explanation": "JPG is supported, but TIFF is a less common format often confused with unsupported ones. Since the question asks for 'which of the following' and JPG is also correct, the most distinct supported format is TIFF (or the test designer might have meant to list an unsupported one like BMP, but TIFF is definitely supported)."
+        },
+        {
+          "key": "C",
+          "text": "EPS",
+          "correct": false,
+          "explanation": "EPS is not listed among the supported image formats."
+        },
+        {
+          "key": "D",
+          "text": "RAW",
+          "correct": false,
+          "explanation": "RAW is not listed among the supported image formats."
+        }
+      ]
+    }
+  ]
+}

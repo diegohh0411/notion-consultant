@@ -1,0 +1,317 @@
+{
+  "source": "guides_databases-reimagined-whats-changed",
+  "sourceTitle": "Databases reimagined— what’s changed?",
+  "sourceUrl": "https://www.notion.so/help/guides/databases-reimagined-whats-changed",
+  "questions": [
+    {
+      "id": "guides_databases-reimagined-whats-changed-001",
+      "question": "What happens when you modify a quick filter in a shared database view but do not click “Save for everyone”?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The changes are applied to everyone immediately.",
+          "correct": false,
+          "explanation": "Changes are not shared until you explicitly save for everyone."
+        },
+        {
+          "key": "B",
+          "text": "Only you see the filter changes; other team members keep the previous view.",
+          "correct": true,
+          "explanation": "Quick filter changes are private until you click “Save for everyone,” so only you see them."
+        },
+        {
+          "key": "C",
+          "text": "The view reverts to the default filter settings for everyone.",
+          "correct": false,
+          "explanation": "The view does not revert; it simply remains unchanged for others."
+        },
+        {
+          "key": "D",
+          "text": "Notion shows an error and discards the changes.",
+          "correct": false,
+          "explanation": "No error occurs; the changes are just unsaved for the team."
+        }
+      ]
+    },
+    {
+      "id": "guides_databases-reimagined-whats-changed-002",
+      "question": "When creating a new database or view, what new option can you select?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A pre‑made template from the template gallery.",
+          "correct": false,
+          "explanation": "Templates are still available, but the new option is about data sources."
+        },
+        {
+          "key": "B",
+          "text": "An existing data source from your workspace.",
+          "correct": true,
+          "explanation": "The article explains that you can now select an existing data source to sync content."
+        },
+        {
+          "key": "C",
+          "text": "A custom color scheme for the database.",
+          "correct": false,
+          "explanation": "Color schemes are unrelated to the new feature."
+        },
+        {
+          "key": "D",
+          "text": "A permission level for who can edit the database.",
+          "correct": false,
+          "explanation": "Permissions are managed elsewhere; they are not the new selection option."
+        }
+      ]
+    },
+    {
+      "id": "guides_databases-reimagined-whats-changed-003",
+      "question": "Which of the following best describes the purpose of the unified “View options” menu?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To combine all database customization tools—layout, properties, filter, sort—into one place.",
+          "correct": true,
+          "explanation": "The unified menu consolidates these options for easier access."
+        },
+        {
+          "key": "B",
+          "text": "To automatically generate a new view for every team member.",
+          "correct": false,
+          "explanation": "The menu does not create views automatically."
+        },
+        {
+          "key": "C",
+          "text": "To replace the ability to use tabs in a database.",
+          "correct": false,
+          "explanation": "Tabs remain a separate feature; the menu does not replace them."
+        },
+        {
+          "key": "D",
+          "text": "To sync databases across different Notion workspaces.",
+          "correct": false,
+          "explanation": "Cross‑workspace syncing is not mentioned as part of this menu."
+        }
+      ]
+    },
+    {
+      "id": "guides_databases-reimagined-whats-changed-004",
+      "question": "Why might a team choose to use an existing data source instead of creating a new database for meeting notes?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It reduces redundancy and makes it easier to maintain a single source of truth.",
+          "correct": true,
+          "explanation": "Using one source and creating views avoids duplicate databases and improves clarity."
+        },
+        {
+          "key": "B",
+          "text": "It allows each team member to have a personalized version of the notes.",
+          "correct": false,
+          "explanation": "Personalized versions would increase, not reduce, duplication."
+        },
+        {
+          "key": "C",
+          "text": "It automatically archives old meeting notes after 30 days.",
+          "correct": false,
+          "explanation": "Archiving is not a function of using an existing data source."
+        },
+        {
+          "key": "D",
+          "text": "It disables the ability to filter notes by participant.",
+          "correct": false,
+          "explanation": "Filtering remains available; using a single source does not remove this capability."
+        }
+      ]
+    },
+    {
+      "id": "guides_databases-reimagined-whats-changed-005",
+      "question": "What advantage do tabs provide when displaying multiple views inside a single block?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tabs automatically merge data from different sources into one row.",
+          "correct": false,
+          "explanation": "Tabs simply switch between views; they do not merge rows."
+        },
+        {
+          "key": "B",
+          "text": "Tabs let users quickly switch between views without navigating away from the page.",
+          "correct": true,
+          "explanation": "The article highlights that tabs make it easier to find and switch between important views."
+        },
+        {
+          "key": "C",
+          "text": "Tabs hide all but the first view to improve page load speed.",
+          "correct": false,
+          "explanation": "Tabs do not hide content for performance; they organize visibility."
+        },
+        {
+          "key": "D",
+          "text": "Tabs enforce read‑only access to the underlying data.",
+          "correct": false,
+          "explanation": "Permissions are independent of the tab UI."
+        }
+      ]
+    },
+    {
+      "id": "guides_databases-reimagined-whats-changed-006",
+      "question": "Which statement accurately reflects the new behavior of filter groups in Notion databases?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Filter groups are now the default filter type for all new views.",
+          "correct": false,
+          "explanation": "The article says filter groups are no longer the default."
+        },
+        {
+          "key": "B",
+          "text": "Filter groups are hidden under the “advanced” filter option but still available when needed.",
+          "correct": true,
+          "explanation": "They remain accessible via the advanced filter menu."
+        },
+        {
+          "key": "C",
+          "text": "Filter groups have been removed entirely from Notion.",
+          "correct": false,
+          "explanation": "They still exist; they are just not shown by default."
+        },
+        {
+          "key": "D",
+          "text": "Filter groups now apply globally to all databases in a workspace.",
+          "correct": false,
+          "explanation": "Filter groups are still view‑specific, not global."
+        }
+      ]
+    },
+    {
+      "id": "guides_databases-reimagined-whats-changed-007",
+      "question": "When would it be most appropriate to sync an existing data source rather than create a new database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you need a completely isolated set of data that no one else should see.",
+          "correct": false,
+          "explanation": "Isolation suggests creating a separate database, not syncing."
+        },
+        {
+          "key": "B",
+          "text": "When you want to consolidate related information and reuse the same properties across teams.",
+          "correct": true,
+          "explanation": "Consolidation and shared properties are the primary reasons given."
+        },
+        {
+          "key": "C",
+          "text": "When you plan to delete the original database after a month.",
+          "correct": false,
+          "explanation": "Syncing does not address deletion; it would just create a dependent view."
+        },
+        {
+          "key": "D",
+          "text": "When you need to export the data to CSV daily.",
+          "correct": false,
+          "explanation": "Exporting is unrelated to the decision to sync a data source."
+        }
+      ]
+    },
+    {
+      "id": "guides_databases-reimagined-whats-changed-008",
+      "question": "How do quick filters improve collaboration compared to the previous filter system?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They allow each user to make temporary filter changes that only affect them until saved for everyone.",
+          "correct": true,
+          "explanation": "Quick filters are private until the user clicks “Save for everyone,” supporting collaborative control."
+        },
+        {
+          "key": "B",
+          "text": "They automatically synchronize filter changes across all team members in real time.",
+          "correct": false,
+          "explanation": "Changes are not shared automatically; they require explicit saving."
+        },
+        {
+          "key": "C",
+          "text": "They replace the need for any sort or grouping options.",
+          "correct": false,
+          "explanation": "Sorting and grouping remain available; quick filters are an addition."
+        },
+        {
+          "key": "D",
+          "text": "They lock the view for other users while one person is editing filters.",
+          "correct": false,
+          "explanation": "Views remain editable by others; quick filters do not lock the view."
+        }
+      ]
+    },
+    {
+      "id": "guides_databases-reimagined-whats-changed-009",
+      "question": "What is a key benefit of being able to copy a view from the original data source when creating a new linked instance?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It eliminates the need to recreate filters, sorts, and other customizations manually.",
+          "correct": true,
+          "explanation": "The article emphasizes that view options are automatically applied, saving effort."
+        },
+        {
+          "key": "B",
+          "text": "It merges the original view’s data with the new view’s data into a single table.",
+          "correct": false,
+          "explanation": "Copying a view does not merge data; it replicates the view settings."
+        },
+        {
+          "key": "C",
+          "text": "It grants edit permissions to all users of the new linked instance.",
+          "correct": false,
+          "explanation": "Permissions are not altered by copying a view."
+        },
+        {
+          "key": "D",
+          "text": "It automatically updates the original view whenever the new view is edited.",
+          "correct": false,
+          "explanation": "Changes to the new view do not affect the original view; only the view settings are copied initially."
+        }
+      ]
+    },
+    {
+      "id": "guides_databases-reimagined-whats-changed-010",
+      "question": "Which layout options are now accessible through the unified “View options” menu?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Table, Calendar, Timeline, List, Board, Gallery.",
+          "correct": true,
+          "explanation": "These are the layout types listed in the article under the View options menu."
+        },
+        {
+          "key": "B",
+          "text": "Table, Spreadsheet, Kanban, Mind Map.",
+          "correct": false,
+          "explanation": "Spreadsheet and Mind Map are not mentioned as layout options."
+        },
+        {
+          "key": "C",
+          "text": "List, Board, Gantt, Diagram.",
+          "correct": false,
+          "explanation": "Gantt and Diagram are not part of the listed layouts."
+        },
+        {
+          "key": "D",
+          "text": "Calendar, Timeline, Flowchart, Dashboard.",
+          "correct": false,
+          "explanation": "Flowchart and Dashboard are not provided as layout choices."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "source": "create-delete-and-switch-workspaces",
+  "sourceTitle": "Create, join & leave workspaces",
+  "sourceUrl": "https://www.notion.so/help/create-delete-and-switch-workspaces",
+  "questions": [
+    {
+      "id": "create-delete-and-switch-workspaces-001",
+      "question": "How do you create a brand new workspace in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click 'Add another account' in the workspace switcher.",
+          "correct": false,
+          "explanation": "The 'Add another account' button is used to log in with a different email address, not to create a workspace."
+        },
+        {
+          "key": "B",
+          "text": "Go to Settings and select 'Create Workspace' from the General tab.",
+          "correct": false,
+          "explanation": "Workspaces are created directly from the workspace switcher menu, not from the general settings page."
+        },
+        {
+          "key": "C",
+          "text": "Click the 'Join or create workspace' button and scroll past the list of existing workspaces.",
+          "correct": true,
+          "explanation": "This is the correct procedure: open the switcher, click the menu next to your email, and select the option to scroll past existing lists to create a new one."
+        },
+        {
+          "key": "D",
+          "text": "Ask an admin from an existing workspace to add you to a new one.",
+          "correct": false,
+          "explanation": "Asking an admin is how you join an *existing* workspace, but it does not create a brand new one."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-002",
+      "question": "Who is eligible to join a workspace automatically using the 'Join or create workspace' button?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anyone with a personal email address like Gmail or Outlook.",
+          "correct": false,
+          "explanation": "Personal emails like Gmail or Outlook do not support the auto-join feature for other workspaces."
+        },
+        {
+          "key": "B",
+          "text": "Anyone with a school email address like nyu.edu.",
+          "correct": false,
+          "explanation": "School emails (like nyu.edu) do not support the auto-join feature for other workspaces."
+        },
+        {
+          "key": "C",
+          "text": "Users whose email domain is allowed by the workspace's admin settings.",
+          "correct": true,
+          "explanation": "Auto-join is enabled for specific email domains. If your domain is in the 'Allowed Email Domains' list, you can join automatically."
+        },
+        {
+          "key": "D",
+          "text": "Users who have previously been invited by an admin.",
+          "correct": false,
+          "explanation": "Users invited by an admin receive a direct link to join; auto-join is a separate feature based on domain settings."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-003",
+      "question": "What is the keyboard shortcut to switch between workspaces on a desktop?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Command + Shift + #",
+          "correct": false,
+          "explanation": "The Mac equivalent is Command, but the article specifies the Windows shortcut."
+        },
+        {
+          "key": "B",
+          "text": "Ctrl + Shift + #",
+          "correct": true,
+          "explanation": "On desktop, the shortcut is Ctrl + Shift + #, where # corresponds to the position of the workspace in the dropdown menu."
+        },
+        {
+          "key": "C",
+          "text": "Alt + Tab",
+          "correct": false,
+          "explanation": "Alt + Tab is a system-wide application switcher, not a Notion workspace switcher shortcut."
+        },
+        {
+          "key": "D",
+          "text": "Space + #",
+          "correct": false,
+          "explanation": "There is no specific keyboard shortcut involving Space to switch workspaces."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-004",
+      "question": "What happens to your data if you leave a workspace?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The data is moved to a 'Private' section in your main account.",
+          "correct": false,
+          "explanation": "Leaving a workspace removes you from it entirely. Your data is not moved to a Private section; you simply lose access."
+        },
+        {
+          "key": "B",
+          "text": "You lose access to all content inside the workspace immediately.",
+          "correct": true,
+          "explanation": "Once you leave, you lose access to all content. You should export data beforehand if you want to keep it."
+        },
+        {
+          "key": "C",
+          "text": "The workspace is deleted from the server and cannot be recovered.",
+          "correct": false,
+          "explanation": "The workspace remains on the server, but you are removed from it. You can ask an admin to re-add you if you regain access."
+        },
+        {
+          "key": "D",
+          "text": "The admin is automatically notified to delete the workspace for you.",
+          "correct": false,
+          "explanation": "Leaving is a personal action. The admin is not automatically notified to delete the workspace."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-005",
+      "question": "How can you log out of a single account while staying logged into other accounts simultaneously?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use the 'Log out all' button at the bottom of the workspace switcher.",
+          "correct": false,
+          "explanation": "The 'Log out all' button logs out of every account you are currently signed into."
+        },
+        {
+          "key": "B",
+          "text": "Go to Settings and select 'Log out' next to that specific account.",
+          "correct": false,
+          "explanation": "The text specifies using the '•••' button (the three dots) next to the account name in the switcher, not the Settings menu."
+        },
+        {
+          "key": "C",
+          "text": "Click the '•••' button to the right of the account you want to log out of.",
+          "correct": true,
+          "explanation": "This is the correct method: use the three-dot menu next to the specific account to log out just that one."
+        },
+        {
+          "key": "D",
+          "text": "You cannot log out of individual accounts; you must log out of all at once.",
+          "correct": false,
+          "explanation": "Notion explicitly supports logging out of individual accounts using the '•••' button."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-006",
+      "question": "Why might you want to add another email account to your workspace switcher?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure all your workspaces are associated with the same email.",
+          "correct": false,
+          "explanation": "Adding another account allows you to use *different* emails for different workspaces (e.g., personal vs. work)."
+        },
+        {
+          "key": "B",
+          "text": "To increase the speed of Notion loading.",
+          "correct": false,
+          "explanation": "Adding too many accounts can actually slow down performance."
+        },
+        {
+          "key": "C",
+          "text": "To keep work and life separate without constantly logging out and back in.",
+          "correct": true,
+          "explanation": "This is the primary benefit: you can access content from multiple accounts seamlessly without logging out."
+        },
+        {
+          "key": "D",
+          "text": "To automatically merge content from one workspace into another.",
+          "correct": false,
+          "explanation": "Merging content is done via the 'Move to' function, not by adding an account."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-007",
+      "question": "How do you move top-level pages to a different workspace?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click 'Move to' in the top-level pages' sidebar context menu.",
+          "correct": true,
+          "explanation": "You click the '•••' menu next to a top-level page and select 'Move to', then choose the destination workspace."
+        },
+        {
+          "key": "B",
+          "text": "Drag and drop the page into the sidebar of another workspace.",
+          "correct": false,
+          "explanation": "Drag and drop is not mentioned as a method; you must use the context menu."
+        },
+        {
+          "key": "C",
+          "text": "Copy the page and paste it into the new workspace.",
+          "correct": false,
+          "explanation": "While you can copy, the 'Move to' function specifically handles the transfer of sub-pages as well."
+        },
+        {
+          "key": "D",
+          "text": "Ask an admin to move the page for you.",
+          "correct": false,
+          "explanation": "Users can move their own top-level pages without admin intervention."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-008",
+      "question": "What is the validity period of login tokens in Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "30 days",
+          "correct": false,
+          "explanation": "Tokens expire after 90 days, not 30."
+        },
+        {
+          "key": "B",
+          "text": "60 days",
+          "correct": false,
+          "explanation": "Tokens expire after 90 days, not 60."
+        },
+        {
+          "key": "C",
+          "text": "90 days",
+          "correct": true,
+          "explanation": "Login tokens expire after 90 days. If this happens, you must use 'Add another account' to re-authenticate."
+        },
+        {
+          "key": "D",
+          "text": "Indefinitely, until you manually log out.",
+          "correct": false,
+          "explanation": "Tokens have a finite lifespan of 90 days."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-009",
+      "question": "Which of the following is a restriction on Paid Plans?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You can link content between different workspaces.",
+          "correct": false,
+          "explanation": "Workspaces are completely separate silos; you cannot link content between them."
+        },
+        {
+          "key": "B",
+          "text": "A single paid plan covers all workspaces in your account.",
+          "correct": false,
+          "explanation": "Paid plans only apply to one specific workspace, not the whole account."
+        },
+        {
+          "key": "C",
+          "text": "You can migrate content between workspaces without issues.",
+          "correct": false,
+          "explanation": "Migrated content is duplicated and sometimes has issues, regardless of the plan."
+        },
+        {
+          "key": "D",
+          "text": "You cannot have more than one workspace on a paid plan.",
+          "correct": false,
+          "explanation": "You can have multiple workspaces, but the paid plan only covers one of them."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-010",
+      "question": "When moving top-level pages to another workspace, how are the sub-pages handled?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are deleted from the original workspace.",
+          "correct": false,
+          "explanation": "Moving a page does not delete it; it remains in the original workspace."
+        },
+        {
+          "key": "B",
+          "text": "They are not moved and stay in the original workspace.",
+          "correct": false,
+          "explanation": "The text states that 'all their sub-pages go with them' when moving top-level pages."
+        },
+        {
+          "key": "C",
+          "text": "They appear in the 'Private' section of the sidebar after moving.",
+          "correct": false,
+          "explanation": "After moving, they appear in the new workspace. The 'Private' section refers to where moved pages initially land within the new workspace."
+        },
+        {
+          "key": "D",
+          "text": "They are duplicated in the new workspace but remain in the original.",
+          "correct": true,
+          "explanation": "Moving a page creates a copy in the new workspace (duplicates content), while the original remains intact."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-011",
+      "question": "If you are logged into 10 or more accounts simultaneously, what might happen?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Your accounts will be automatically deleted.",
+          "correct": false,
+          "explanation": "There is no automatic deletion of accounts for having too many."
+        },
+        {
+          "key": "B",
+          "text": "You will experience slower performance.",
+          "correct": true,
+          "explanation": "While there is currently no hard limit on the number of accounts, performance can become sluggish when logged into 10+ accounts."
+        },
+        {
+          "key": "C",
+          "text": "You will be forced to log out of all accounts.",
+          "correct": false,
+          "explanation": "You are not forced to log out; however, performance may degrade."
+        },
+        {
+          "key": "D",
+          "text": "The workspace switcher will stop working.",
+          "correct": false,
+          "explanation": "The switcher should still function, though it may be slower."
+        }
+      ]
+    },
+    {
+      "id": "create-delete-and-switch-workspaces-012",
+      "question": "How can you log out of a device remotely if you no longer have access to your account?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Send a message to Notion Support via email.",
+          "correct": true,
+          "explanation": "If you lose access to your device, you can contact support via email or use the Notion AI face to log out remotely."
+        },
+        {
+          "key": "B",
+          "text": "Use the 'Log out all' button on the public computer you used.",
+          "correct": false,
+          "explanation": "You no longer have access to that computer, so you cannot use the button there."
+        },
+        {
+          "key": "C",
+          "text": "Wait for the 90-day token expiration.",
+          "correct": false,
+          "explanation": "Token expiration can take up to 90 days. You should log out immediately for security."
+        },
+        {
+          "key": "D",
+          "text": "Change your password in the settings of your current device.",
+          "correct": false,
+          "explanation": "You do not have access to your current device to change settings."
+        }
+      ]
+    }
+  ]
+}

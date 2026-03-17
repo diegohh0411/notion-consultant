@@ -1,0 +1,317 @@
+{
+  "source": "guides_the-only-notion-setup-you-need-for-keeping-new-years-resolutions",
+  "sourceTitle": "The only Notion setup you need for keeping New Year’s resolutions",
+  "sourceUrl": "https://www.notion.so/help/guides/the-only-notion-setup-you-need-for-keeping-new-years-resolutions",
+  "questions": [
+    {
+      "id": "the-only-notion-setup-you-need-for-keeping-new-years-resolutions-001",
+      "question": "What is the main purpose of conducting a yearly retrospective according to the guide?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To celebrate all achievements without examining areas for improvement",
+          "correct": false,
+          "explanation": "The guide emphasizes reflection to surface what’s most important, not just celebration."
+        },
+        {
+          "key": "B",
+          "text": "To surface what’s most important to you and shape next year’s planning",
+          "correct": true,
+          "explanation": "A yearly retrospective helps you identify priorities and informs goal‑setting for the next year."
+        },
+        {
+          "key": "C",
+          "text": "To create a detailed financial budget for the upcoming year",
+          "correct": false,
+          "explanation": "Financial budgeting is a possible outcome, but the guide frames the retrospective as a broader perspective‑gathering exercise."
+        },
+        {
+          "key": "D",
+          "text": "To compare your performance with colleagues’ performance",
+          "correct": false,
+          "explanation": "The guide focuses on personal reflection, not external comparison."
+        }
+      ]
+    },
+    {
+      "id": "the-only-notion-setup-you-need-for-keeping-new-years-resolutions-002",
+      "question": "Which Notion property does the guide recommend for categorizing goals by life‑area (e.g., Health, Career)?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Relation",
+          "correct": false,
+          "explanation": "Relation links databases together; categorizing within one database uses a different property."
+        },
+        {
+          "key": "B",
+          "text": "Select",
+          "correct": true,
+          "explanation": "A Select property lets you assign a predefined category such as \"Health and Fitness\" or \"Career Growth\"."
+        },
+        {
+          "key": "C",
+          "text": "Formula",
+          "correct": false,
+          "explanation": "Formulas calculate values; they don’t provide a simple drop‑down category."
+        },
+        {
+          "key": "D",
+          "text": "Rollup",
+          "correct": false,
+          "explanation": "Rollups aggregate data from related items, not used for simple categorization."
+        }
+      ]
+    },
+    {
+      "id": "the-only-notion-setup-you-need-for-keeping-new-years-resolutions-003",
+      "question": "How does Marie keep her weekly planner organized in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "By creating a separate page for each week and manually copying tasks each time",
+          "correct": false,
+          "explanation": "The guide describes an automated template, not manual copying."
+        },
+        {
+          "key": "B",
+          "text": "Using a Notion gallery where each page is a week, with a linked view filtered to that week’s actions",
+          "correct": true,
+          "explanation": "Marie uses a weekly‑planner gallery and a linked database view filtered to the week’s actions."
+        },
+        {
+          "key": "C",
+          "text": "Embedding a Google Calendar view that shows weekly events",
+          "correct": false,
+          "explanation": "The guide focuses on Notion databases, not external calendar embeds."
+        },
+        {
+          "key": "D",
+          "text": "Creating a Kanban board and moving cards daily",
+          "correct": false,
+          "explanation": "Kanban is not mentioned for the weekly planner; the described method uses galleries and linked views."
+        }
+      ]
+    },
+    {
+      "id": "the-only-notion-setup-you-need-for-keeping-new-years-resolutions-004",
+      "question": "Which of the following lenses is NOT part of Steve Schlafman's five lenses for a yearly retrospective?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Success and growth",
+          "correct": false,
+          "explanation": "This is one of the five lenses listed in the guide."
+        },
+        {
+          "key": "B",
+          "text": "Falling short",
+          "correct": false,
+          "explanation": "This is also one of the five lenses."
+        },
+        {
+          "key": "C",
+          "text": "People and relationships",
+          "correct": false,
+          "explanation": "This lens is included in the guide."
+        },
+        {
+          "key": "D",
+          "text": "Financial wealth",
+          "correct": true,
+          "explanation": "Financial wealth is not listed among the five lenses; the guide mentions Health and wellness instead."
+        }
+      ]
+    },
+    {
+      "id": "the-only-notion-setup-you-need-for-keeping-new-years-resolutions-005",
+      "question": "What format does the guide suggest for turning retrospective insights into high‑level goals?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "\"SMART\" (Specific, Measurable, Achievable, Relevant, Time‑bound) goals",
+          "correct": false,
+          "explanation": "While SMART is a common framework, the guide specifically mentions a different format."
+        },
+        {
+          "key": "B",
+          "text": "\"Stop doing, start doing, keep doing\" format",
+          "correct": true,
+          "explanation": "Steve Schlafman recommends using the \"stop/start/keep\" format to translate reflections into goals."
+        },
+        {
+          "key": "C",
+          "text": "A simple checklist of tasks",
+          "correct": false,
+          "explanation": "A checklist is too granular; the guide talks about high‑level goal formation."
+        },
+        {
+          "key": "D",
+          "text": "A quarterly OKR (Objectives and Key Results) sheet",
+          "correct": false,
+          "explanation": "OKRs are not mentioned in this guide as the primary format."
+        }
+      ]
+    },
+    {
+      "id": "the-only-notion-setup-you-need-for-keeping-new-years-resolutions-006",
+      "question": "How are quarters and months organized in Notion according to the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "As separate Tables with date columns for each entry",
+          "correct": false,
+          "explanation": "The guide uses Galleries, not Tables, for quarters and months."
+        },
+        {
+          "key": "B",
+          "text": "As separate Galleries, each page representing a quarter or a month",
+          "correct": true,
+          "explanation": "Each quarter and each month is its own page inside a Gallery database."
+        },
+        {
+          "key": "C",
+          "text": "As sub‑pages inside a single Year page, without any relation properties",
+          "correct": false,
+          "explanation": "While sub‑pages exist, the guide emphasizes using Galleries and Relation properties."
+        },
+        {
+          "key": "D",
+          "text": "Using a Calendar view that automatically groups entries by quarter",
+          "correct": false,
+          "explanation": "Calendars are not described for quarter/month organization in this guide."
+        }
+      ]
+    },
+    {
+      "id": "the-only-notion-setup-you-need-for-keeping-new-years-resolutions-007",
+      "question": "What is the primary benefit of using Relation properties among goals, projects, and next actions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They automatically calculate the total time needed for each goal",
+          "correct": false,
+          "explanation": "Relations link records; calculations require formulas or rollups."
+        },
+        {
+          "key": "B",
+          "text": "They allow you to see connected tasks across databases in one place",
+          "correct": true,
+          "explanation": "Relations let you view how goals, projects, and actions are linked, providing a holistic view."
+        },
+        {
+          "key": "C",
+          "text": "They replace the need for any Select or Multi‑Select properties",
+          "correct": false,
+          "explanation": "Select properties are still useful for categorization; relations serve a different purpose."
+        },
+        {
+          "key": "D",
+          "text": "They automatically generate weekly review templates",
+          "correct": false,
+          "explanation": "Templates are created manually; relations only connect items."
+        }
+      ]
+    },
+    {
+      "id": "the-only-notion-setup-you-need-for-keeping-new-years-resolutions-008",
+      "question": "Which template is described as a metrics‑driven approach with habits, milestones, and goals?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Annual review template",
+          "correct": false,
+          "explanation": "The annual review focuses on reflection, not a metrics‑driven habit system."
+        },
+        {
+          "key": "B",
+          "text": "2022 dashboard template",
+          "correct": false,
+          "explanation": "The dashboard aggregates areas of life but isn’t labeled as metrics‑driven."
+        },
+        {
+          "key": "C",
+          "text": "Year manifesto template",
+          "correct": true,
+          "explanation": "The guide calls the Year Manifesto a metrics‑driven approach with habits, milestones, and goals."
+        },
+        {
+          "key": "D",
+          "text": "Weekly planner template",
+          "correct": false,
+          "explanation": "Weekly planner is for short‑term tasks, not the broader metrics‑driven yearly plan."
+        }
+      ]
+    },
+    {
+      "id": "the-only-notion-setup-you-need-for-keeping-new-years-resolutions-009",
+      "question": "Why does the guide suggest keeping a single top‑level planning page with full‑page databases for goals, projects, months, quarters, and years?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because it eliminates the need for any other Notion pages, reducing clutter to a single page",
+          "correct": false,
+          "explanation": "While it centralizes information, other pages (e.g., weekly templates) are still useful."
+        },
+        {
+          "key": "B",
+          "text": "Because it lets you click into any database and instantly see what’s happening and when, improving accountability and focus",
+          "correct": true,
+          "explanation": "A unified dashboard gives a quick snapshot of all linked data, helping you stay accountable."
+        },
+        {
+          "key": "C",
+          "text": "Because Notion only allows one database per page, so you must combine them all together",
+          "correct": false,
+          "explanation": "Notion allows multiple databases on a page; the reason is strategic, not a technical limitation."
+        },
+        {
+          "key": "D",
+          "text": "Because it automatically syncs with external calendar apps without any additional setup",
+          "correct": false,
+          "explanation": "Syncing with external calendars requires separate integrations; the guide does not claim automatic sync."
+        }
+      ]
+    },
+    {
+      "id": "the-only-notion-setup-you-need-for-keeping-new-years-resolutions-010",
+      "question": "If you wanted to view only the actions that are due this week, which combination of Notion features would you use based on the guide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a linked database view of the actions table, apply a filter for “Due date is within this week”, and embed it in a weekly planner template",
+          "correct": true,
+          "explanation": "The guide describes using a linked view filtered to weekly actions inside a weekly planner template."
+        },
+        {
+          "key": "B",
+          "text": "Duplicate the actions table, manually delete rows that aren’t due this week, and place the copy on the dashboard",
+          "correct": false,
+          "explanation": "Duplicating and manually deleting defeats the purpose of dynamic filtering."
+        },
+        {
+          "key": "C",
+          "text": "Add a Formula property that returns ‘This Week’ for relevant rows, then sort the entire actions table by that formula",
+          "correct": false,
+          "explanation": "Formulas can label rows, but the guide’s recommended method uses a filtered linked view, not sorting."
+        },
+        {
+          "key": "D",
+          "text": "Use a Calendar view and switch the view mode to ‘Week’, then export the view to a PDF",
+          "correct": false,
+          "explanation": "Exporting to PDF isn’t mentioned; the guide focuses on in‑app linked views for weekly focus."
+        }
+      ]
+    }
+  ]
+}

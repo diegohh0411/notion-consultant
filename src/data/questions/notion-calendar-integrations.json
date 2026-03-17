@@ -1,0 +1,317 @@
+{
+  "source": "notion-calendar-integrations",
+  "sourceTitle": "Notion Calendar integrations & API",
+  "sourceUrl": "https://www.notion.so/help/notion-calendar-integrations",
+  "questions": [
+    {
+      "id": "notion-calendar-integrations-001",
+      "question": "Which of the following best describes a \"connected integration\" in Notion Calendar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A conferencing tool that is automatically available because it is linked to your calendar provider, like Google Meet.",
+          "correct": false,
+          "explanation": "That describes a default integration, not a connected one."
+        },
+        {
+          "key": "B",
+          "text": "A tool you set up by logging in, which generates new conference links for each event you create in Notion Calendar.",
+          "correct": true,
+          "explanation": "Correct – connected integrations require you to log in (e.g., Zoom) and Notion creates a fresh link for each new event."
+        },
+        {
+          "key": "C",
+          "text": "A custom URL you manually paste into the conferencing dropdown after adding it in Settings.",
+          "correct": false,
+          "explanation": "That describes a custom integration, not a connected one."
+        },
+        {
+          "key": "D",
+          "text": "Any conferencing option that is not supported by Notion Calendar, such as FaceTime.",
+          "correct": false,
+          "explanation": "FaceTime is not supported at all, so it is not a connected integration."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-integrations-002",
+      "question": "If an event contains a conferencing link both in its description and in the dedicated conferencing field, which link does Notion Calendar use when you click “Join meeting”?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The link from the dedicated conferencing field.",
+          "correct": false,
+          "explanation": "The description link takes precedence, not the field."
+        },
+        {
+          "key": "B",
+          "text": "The link from the event’s description.",
+          "correct": true,
+          "explanation": "Correct – Notion Calendar prioritises the description link over the conferencing field."
+        },
+        {
+          "key": "C",
+          "text": "Both links are opened in separate tabs.",
+          "correct": false,
+          "explanation": "Only one link is opened, and it’s the description link."
+        },
+        {
+          "key": "D",
+          "text": "Notion Calendar shows an error and asks you to choose manually.",
+          "correct": false,
+          "explanation": "No error is shown; the description link is automatically used."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-integrations-003",
+      "question": "What happens when you enable Personal Meeting IDs (PMIs) in your Zoom profile and then add a Zoom link via Notion Calendar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion Calendar always generates a one‑time PIN regardless of the PMI setting.",
+          "correct": false,
+          "explanation": "When PMI is enabled, Notion uses the stable PMI instead of a one‑time PIN."
+        },
+        {
+          "key": "B",
+          "text": "Notion Calendar uses the stable PMI and its passcode for the meeting link.",
+          "correct": true,
+          "explanation": "Correct – with PMI enabled, Notion Calendar pulls the stable PMI and associated passcode."
+        },
+        {
+          "key": "C",
+          "text": "Notion Calendar disables Zoom integration because PMIs are not supported.",
+          "correct": false,
+          "explanation": "PMI support is built‑in; the integration remains functional."
+        },
+        {
+          "key": "D",
+          "text": "Notion Calendar asks you to manually enter a passcode for each meeting.",
+          "correct": false,
+          "explanation": "Passcodes are automatically handled based on PMI or generated PINs."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-integrations-004",
+      "question": "Which statement accurately reflects the process for setting a default conferencing option in Notion Calendar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You set it at the workspace level, and it applies to all calendars across the account.",
+          "correct": false,
+          "explanation": "Defaults are set per calendar, not globally for the workspace."
+        },
+        {
+          "key": "B",
+          "text": "You choose a default tool in Settings → Calendar accounts → Default conferencing for a specific calendar.",
+          "correct": true,
+          "explanation": "Correct – the default is configured per calendar in the Settings sidebar."
+        },
+        {
+          "key": "C",
+          "text": "You must add a custom integration first before you can select a default conferencing tool.",
+          "correct": false,
+          "explanation": "Default options can be any supported tool, not only custom ones."
+        },
+        {
+          "key": "D",
+          "text": "The default option only works on mobile apps, not on desktop or web.",
+          "correct": false,
+          "explanation": "The article recommends using desktop/web for best experience; defaults work there."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-integrations-005",
+      "question": "Why might Google Meet not appear as a conferencing option in Notion Calendar for a user?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The user has not connected any Google account to Notion Calendar.",
+          "correct": false,
+          "explanation": "Even with a connected Google account, Meet may be disabled at the admin level."
+        },
+        {
+          "key": "B",
+          "text": "Google Workspace admin has disabled Google Meet for the organization.",
+          "correct": true,
+          "explanation": "Correct – if Meet is not enabled in the admin console, it won’t show up."
+        },
+        {
+          "key": "C",
+          "text": "Notion Calendar only supports Zoom and Microsoft Teams, not Google Meet.",
+          "correct": false,
+          "explanation": "Google Meet is supported automatically via the connected Google account."
+        },
+        {
+          "key": "D",
+          "text": "The user is using the mobile app, which does not display Google Meet options.",
+          "correct": false,
+          "explanation": "The issue is unrelated to the platform; it’s an admin setting."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-integrations-006",
+      "question": "When disconnecting a Zoom account from Notion Calendar, which additional action ensures compliance with Zoom’s data policies?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete all Zoom meetings that were created through Notion Calendar.",
+          "correct": false,
+          "explanation": "Zoom’s deauthorization process handles data; you don’t need to delete meetings manually."
+        },
+        {
+          "key": "B",
+          "text": "Remove Notion Calendar from the installed apps list in the Zoom App Marketplace.",
+          "correct": true,
+          "explanation": "Correct – removing the app triggers Zoom’s deauthorization and data‑compliance flow."
+        },
+        {
+          "key": "C",
+          "text": "Revoke API tokens from the Zoom developer portal.",
+          "correct": false,
+          "explanation": "While revoking tokens is good practice, the article specifies removing the app from the marketplace."
+        },
+        {
+          "key": "D",
+          "text": "Contact Zoom support to request manual data deletion.",
+          "correct": false,
+          "explanation": "Not required; the marketplace removal suffices per the documentation."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-integrations-007",
+      "question": "Which component of the Notion Calendar API schema is optional and can be used to identify the calling application?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "accountEmail",
+          "correct": false,
+          "explanation": "accountEmail is required to identify the Google account."
+        },
+        {
+          "key": "B",
+          "text": "iCalUID",
+          "correct": false,
+          "explanation": "iCalUID is required as the event identifier."
+        },
+        {
+          "key": "C",
+          "text": "ref",
+          "correct": true,
+          "explanation": "Correct – the ‘ref’ field is optional and can hold the caller’s identifier (e.g., com.example.test)."
+        },
+        {
+          "key": "D",
+          "text": "startDate",
+          "correct": false,
+          "explanation": "startDate is required to define when the event begins."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-integrations-008",
+      "question": "A user wants to add a custom conferencing tool that isn’t automatically detected by Notion Calendar. Which steps must they follow?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Settings → Conferencing → Add, give it a name, and paste a stable link.",
+          "correct": true,
+          "explanation": "Correct – custom integrations are added via Settings, named, and any stable link works."
+        },
+        {
+          "key": "B",
+          "text": "Create a new calendar account linked to the tool’s API and enable it in Default conferencing.",
+          "correct": false,
+          "explanation": "Custom tools don’t need a separate calendar account; they’re added directly in Settings."
+        },
+        {
+          "key": "C",
+          "text": "Contact Notion support to have the tool added to the list of detected services.",
+          "correct": false,
+          "explanation": "Users can add custom tools themselves without contacting support."
+        },
+        {
+          "key": "D",
+          "text": "Install a third‑party Notion Calendar plugin from the marketplace.",
+          "correct": false,
+          "explanation": "No marketplace plugin is required for custom links; the built‑in Settings suffice."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-integrations-009",
+      "question": "Which of the following statements about FaceTime integration in Notion Calendar is true?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "FaceTime is supported as a default integration for iOS users.",
+          "correct": false,
+          "explanation": "FaceTime is explicitly not supported."
+        },
+        {
+          "key": "B",
+          "text": "You can add FaceTime links as a custom integration.",
+          "correct": false,
+          "explanation": "Even custom integrations cannot use FaceTime because it’s not supported."
+        },
+        {
+          "key": "C",
+          "text": "Notion Calendar currently does not support FaceTime as a conferencing option.",
+          "correct": true,
+          "explanation": "Correct – the article notes FaceTime is not supported at this time."
+        },
+        {
+          "key": "D",
+          "text": "FaceTime works only when you use Notion Calendar on a Mac.",
+          "correct": false,
+          "explanation": "There is no platform‑specific support for FaceTime."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-integrations-010",
+      "question": "When adding a Notion page to an event’s details, what benefit does this provide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically creates a new calendar view inside the Notion page.",
+          "correct": false,
+          "explanation": "It links to the page; it does not create a new calendar view."
+        },
+        {
+          "key": "B",
+          "text": "It lets you view important dates from Notion databases directly in Notion Calendar, avoiding duplicate tracking.",
+          "correct": true,
+          "explanation": "Correct – linking Notion pages allows you to see database events without separate tracking."
+        },
+        {
+          "key": "C",
+          "text": "It synchronizes the event with all other Notion workspaces you belong to.",
+          "correct": false,
+          "explanation": "The link is local to the workspace; it doesn’t sync across workspaces."
+        },
+        {
+          "key": "D",
+          "text": "It enables real‑time video conferencing directly inside Notion Calendar.",
+          "correct": false,
+          "explanation": "Video conferencing is handled by external tools, not by embedding Notion pages."
+        }
+      ]
+    }
+  ]
+}

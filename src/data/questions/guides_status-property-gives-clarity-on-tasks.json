@@ -1,0 +1,317 @@
+{
+  "source": "guides_status-property-gives-clarity-on-tasks",
+  "sourceTitle": "The status property gives you clarity on task progress",
+  "sourceUrl": "https://www.notion.so/help/guides/status-property-gives-clarity-on-tasks",
+  "questions": [
+    {
+      "id": "guides_status-property-gives-clarity-on-tasks-001",
+      "question": "What are the three default categories that the Notion status property provides out of the box?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Planned, Ongoing, Finished",
+          "correct": false,
+          "explanation": "These are not the default categories; they are made‑up terms."
+        },
+        {
+          "key": "B",
+          "text": "To Do, In Progress, Complete",
+          "correct": true,
+          "explanation": "Correct – Notion pre‑loads these three tags for every status property."
+        },
+        {
+          "key": "C",
+          "text": "Backlog, Active, Archived",
+          "correct": false,
+          "explanation": "These are common workflow terms but not the default status tags."
+        },
+        {
+          "key": "D",
+          "text": "Open, Closed, Deferred",
+          "correct": false,
+          "explanation": "These are not the three default categories in Notion’s status property."
+        }
+      ]
+    },
+    {
+      "id": "guides_status-property-gives-clarity-on-tasks-002",
+      "question": "Why might a team prefer using the status property over a regular Select or Multi‑select property for tracking project stages?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because it allows unlimited free‑form entries, encouraging creativity.",
+          "correct": false,
+          "explanation": "The status property actually restricts entry to predefined tags, reducing chaos."
+        },
+        {
+          "key": "B",
+          "text": "It enforces a standardized set of main categories while still permitting custom sub‑categories, reducing inconsistency.",
+          "correct": true,
+          "explanation": "Correct – the property balances structure (fixed main categories) with flexibility (custom sub‑tags)."
+        },
+        {
+          "key": "C",
+          "text": "It automatically generates a Gantt chart for every project.",
+          "correct": false,
+          "explanation": "Status properties do not create Gantt charts; that's a separate view type."
+        },
+        {
+          "key": "D",
+          "text": "It hides completed tasks from all views by default.",
+          "correct": false,
+          "explanation": "Visibility depends on filters, not on the property itself."
+        }
+      ]
+    },
+    {
+      "id": "guides_status-property-gives-clarity-on-tasks-003",
+      "question": "Which of the following actions is NOT possible when customizing a status property?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Renaming the three main categories (To Do, In Progress, Complete).",
+          "correct": true,
+          "explanation": "Correct – the three top‑level categories are locked and cannot be renamed."
+        },
+        {
+          "key": "B",
+          "text": "Adding a new sub‑category under In Progress.",
+          "correct": false,
+          "explanation": "You can add custom sub‑categories beneath any main category."
+        },
+        {
+          "key": "C",
+          "text": "Changing the color of a status tag.",
+          "correct": false,
+          "explanation": "Colors are fully customizable for each tag."
+        },
+        {
+          "key": "D",
+          "text": "Choosing to display the status as a checkbox instead of a select.",
+          "correct": false,
+          "explanation": "The property can be shown as a checkbox, which marks all To‑Do items as unchecked."
+        }
+      ]
+    },
+    {
+      "id": "guides_status-property-gives-clarity-on-tasks-004",
+      "question": "When creating a board view that groups projects by status sub‑category, which additional option should you enable to keep the board tidy?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hide empty groups",
+          "correct": true,
+          "explanation": "Enabling this hides any status groups that have no items, making the board cleaner."
+        },
+        {
+          "key": "B",
+          "text": "Enable auto‑archive",
+          "correct": false,
+          "explanation": "Auto‑archive is not a board setting in Notion."
+        },
+        {
+          "key": "C",
+          "text": "Show completed tasks at the top",
+          "correct": false,
+          "explanation": "Sorting order is controlled separately; this option does not exist."
+        },
+        {
+          "key": "D",
+          "text": "Lock the board layout",
+          "correct": false,
+          "explanation": "There is no lock feature for board layouts."
+        }
+      ]
+    },
+    {
+      "id": "guides_status-property-gives-clarity-on-tasks-005",
+      "question": "What is the primary benefit of using the status property’s built‑in constraints when filtering a database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows you to filter by multiple unrelated tags in a single step.",
+          "correct": false,
+          "explanation": "Multiple unrelated tags still require separate filter clauses."
+        },
+        {
+          "key": "B",
+          "text": "It reduces the risk of missing a similarly‑named tag, ensuring filter results are accurate.",
+          "correct": true,
+          "explanation": "Because tags are standardized, you won’t accidentally omit a variant when filtering."
+        },
+        {
+          "key": "C",
+          "text": "It automatically updates all filtered views when a tag’s color changes.",
+          "correct": false,
+          "explanation": "Color changes do not affect filter logic."
+        },
+        {
+          "key": "D",
+          "text": "It groups all tasks into a single “All Statuses” view.",
+          "correct": false,
+          "explanation": "Grouping is a separate step; the property itself doesn’t create an “All Statuses” view."
+        }
+      ]
+    },
+    {
+      "id": "guides_status-property-gives-clarity-on-tasks-006",
+      "question": "Which of the following is an example of a custom sub‑category you might add under the \"To Do\" main category?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Blocked",
+          "correct": true,
+          "explanation": "Blocked is listed as a suggested custom sub‑category for To Do."
+        },
+        {
+          "key": "B",
+          "text": "Published",
+          "correct": false,
+          "explanation": "Published belongs under the Complete category."
+        },
+        {
+          "key": "C",
+          "text": "With (team member)",
+          "correct": false,
+          "explanation": "This sub‑category is suggested for In Progress."
+        },
+        {
+          "key": "D",
+          "text": "Ready to Publish",
+          "correct": false,
+          "explanation": "Ready to Publish is a sub‑category under Complete."
+        }
+      ]
+    },
+    {
+      "id": "guides_status-property-gives-clarity-on-tasks-007",
+      "question": "If you display the status property as a checkbox, how does Notion treat items labeled \"To Do\"?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They appear checked, indicating they are complete.",
+          "correct": false,
+          "explanation": "Checkboxes show To Do items as unchecked, not checked."
+        },
+        {
+          "key": "B",
+          "text": "They appear unchecked, mirroring a typical to‑do list.",
+          "correct": true,
+          "explanation": "Correct – the checkbox view treats all To Do entries as unchecked."
+        },
+        {
+          "key": "C",
+          "text": "They are hidden from the view.",
+          "correct": false,
+          "explanation": "Checkbox display does not hide items."
+        },
+        {
+          "key": "D",
+          "text": "They are automatically moved to the In Progress category.",
+          "correct": false,
+          "explanation": "Changing the display type does not change the underlying status."
+        }
+      ]
+    },
+    {
+      "id": "guides_status-property-gives-clarity-on-tasks-008",
+      "question": "What problem does the article highlight about using a Multi‑select property for status tracking?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It forces every task to have exactly three tags.",
+          "correct": false,
+          "explanation": "Multi‑select allows any number of tags; the issue is different."
+        },
+        {
+          "key": "B",
+          "text": "Users can create overlapping or duplicate tags, leading to inconsistent filtering.",
+          "correct": true,
+          "explanation": "Correct – the article notes that free‑form entry creates confusion and duplicate categories."
+        },
+        {
+          "key": "C",
+          "text": "It disables the ability to group tasks by status.",
+          "correct": false,
+          "explanation": "Grouping is still possible, though less reliable due to inconsistent tags."
+        },
+        {
+          "key": "D",
+          "text": "It automatically deletes any custom tags after 30 days.",
+          "correct": false,
+          "explanation": "There is no auto‑deletion behavior described."
+        }
+      ]
+    },
+    {
+      "id": "guides_status-property-gives-clarity-on-tasks-009",
+      "question": "Which step is NOT part of creating a filtered view that shows only projects that are \"In Progress\"?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select Add view and choose a name.",
+          "correct": false,
+          "explanation": "This is a required first step."
+        },
+        {
+          "key": "B",
+          "text": "Click Filter and choose the status property.",
+          "correct": false,
+          "explanation": "Filtering by status is essential for the view."
+        },
+        {
+          "key": "C",
+          "text": "Set the filter condition to Status is In Progress.",
+          "correct": false,
+          "explanation": "This condition defines the view."
+        },
+        {
+          "key": "D",
+          "text": "Enable the board grouping option before adding the filter.",
+          "correct": true,
+          "explanation": "Board grouping is optional and not required for a simple filtered list view."
+        }
+      ]
+    },
+    {
+      "id": "guides_status-property-gives-clarity-on-tasks-010",
+      "question": "How does the status property improve a manager’s ability to see the \"bigger picture\" of project work?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically assigns team members to tasks based on status.",
+          "correct": false,
+          "explanation": "Assignment is manual; the property only shows status."
+        },
+        {
+          "key": "B",
+          "text": "It consolidates all tasks into a single numeric progress bar.",
+          "correct": false,
+          "explanation": "No progress bar is generated by the status property alone."
+        },
+        {
+          "key": "C",
+          "text": "It provides a clear, standardized view of how many projects are To Do, In Progress, or Complete, reducing the need to interpret varied labels.",
+          "correct": true,
+          "explanation": "Correct – standard categories let managers quickly gauge overall workload."
+        },
+        {
+          "key": "D",
+          "text": "It hides tasks that are not in the Complete category.",
+          "correct": false,
+          "explanation": "The property does not hide tasks unless filtered to do so."
+        }
+      ]
+    }
+  ]
+}

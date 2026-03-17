@@ -1,0 +1,255 @@
+{
+  "source": "guides_how-teams-can-use-comments-for-better-collaboration",
+  "sourceTitle": "How teams can use comments for better collaboration",
+  "sourceUrl": "https://www.notion.so/help/how-teams-can-use-comments-for-better-collaboration",
+  "questions": [
+    {
+      "id": "how-teams-can-use-comments-for-better-collaboration-001",
+      "question": "What is the primary difference between page comments and block comments in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Page comments are visible to anyone, while block comments are private.",
+          "correct": false,
+          "explanation": "Both comment types are visible to anyone with access to the page; privacy is not the distinguishing factor."
+        },
+        {
+          "key": "B",
+          "text": "Page comments apply to the entire page, whereas block comments are attached to a specific block such as a paragraph or image.",
+          "correct": true,
+          "explanation": "Correct: page comments are for high‑level feedback about the whole page, while block comments target individual blocks."
+        },
+        {
+          "key": "C",
+          "text": "Block comments can only be added by admins, while page comments can be added by any team member.",
+          "correct": false,
+          "explanation": "Permission levels are the same for both; any collaborator can add either type of comment."
+        },
+        {
+          "key": "D",
+          "text": "Page comments automatically resolve after 24 hours, but block comments do not.",
+          "correct": false,
+          "explanation": "Resolution is manual for both comment types; there is no automatic timer."
+        }
+      ]
+    },
+    {
+      "id": "how-teams-can-use-comments-for-better-collaboration-002",
+      "question": "Which of the following actions can you perform by clicking the three‑dot (•••) icon on a comment?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pin the comment to the top of the page.",
+          "correct": false,
+          "explanation": "Notion does not have a pin‑to‑top feature for comments."
+        },
+        {
+          "key": "B",
+          "text": "Edit, delete, or resolve the comment.",
+          "correct": true,
+          "explanation": "The three‑dot menu provides options to edit, delete, or resolve a comment."
+        },
+        {
+          "key": "C",
+          "text": "Convert the comment into a separate Notion page.",
+          "correct": false,
+          "explanation": "Comments cannot be turned into standalone pages directly."
+        },
+        {
+          "key": "D",
+          "text": "Assign a due date to the comment.",
+          "correct": false,
+          "explanation": "Due dates are added using the @date syntax, not via the three‑dot menu."
+        }
+      ]
+    },
+    {
+      "id": "how-teams-can-use-comments-for-better-collaboration-003",
+      "question": "If you tag a teammate in a comment on a private page they haven't been invited to, what will happen?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They will receive a notification but be unable to view the comment.",
+          "correct": false,
+          "explanation": "Notion prevents the notification entirely if the person lacks access."
+        },
+        {
+          "key": "B",
+          "text": "They will not receive a notification until you share the page with them.",
+          "correct": true,
+          "explanation": "The article states that a user must have access to the page before they can be notified of a tag."
+        },
+        {
+          "key": "C",
+          "text": "The tag will be automatically removed from the comment.",
+          "correct": false,
+          "explanation": "The tag stays, but the notification is suppressed until access is granted."
+        },
+        {
+          "key": "D",
+          "text": "Notion will create a copy of the page for the tagged user.",
+          "correct": false,
+          "explanation": "Notion does not duplicate pages for mentioned users."
+        }
+      ]
+    },
+    {
+      "id": "how-teams-can-use-comments-for-better-collaboration-004",
+      "question": "Which of the following is NOT a recommended best practice for managing comment discussions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Outline the review process and specify required stakeholders.",
+          "correct": false,
+          "explanation": "This is explicitly recommended in the guide."
+        },
+        {
+          "key": "B",
+          "text": "Set a clear deadline for feedback within the comment.",
+          "correct": false,
+          "explanation": "Including a deadline is a suggested practice."
+        },
+        {
+          "key": "C",
+          "text": "Leave comments without tagging anyone to keep the thread open.",
+          "correct": true,
+          "explanation": "The guide encourages tagging the right people; leaving untagged comments can lead to missed feedback."
+        },
+        {
+          "key": "D",
+          "text": "Guide conversations by noting what reviewers should focus on.",
+          "correct": false,
+          "explanation": "Guiding reviewers is part of the best‑practice advice."
+        }
+      ]
+    },
+    {
+      "id": "how-teams-can-use-comments-for-better-collaboration-005",
+      "question": "How can you add a specific date or deadline to a comment using Notion’s @ syntax?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type @ followed by the date in MM/DD format, e.g., @12/01.",
+          "correct": false,
+          "explanation": "The format requires month name or numeric month with slash, but the guide shows @1/12 resolves to Jan 12, 2020."
+        },
+        {
+          "key": "B",
+          "text": "Type @ and then select a date from the calendar that appears.",
+          "correct": false,
+          "explanation": "Typing @ alone does not open a calendar; you must type a recognizable date string."
+        },
+        {
+          "key": "C",
+          "text": "Type @ followed by the month/day (or month/year) like @1/12, then click the generated date to customize.",
+          "correct": true,
+          "explanation": "Correct: @1/12 creates a timestamp that can be edited for time, range, and timezone."
+        },
+        {
+          "key": "D",
+          "text": "Use @deadline as a shortcut that automatically adds today’s date.",
+          "correct": false,
+          "explanation": "There is no @deadline shortcut in Notion."
+        }
+      ]
+    },
+    {
+      "id": "how-teams-can-use-comments-for-better-collaboration-006",
+      "question": "When would it be most appropriate to use a block comment instead of a page comment?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you want to give overall feedback about the entire project's timeline.",
+          "correct": false,
+          "explanation": "Overall project feedback belongs in a page comment."
+        },
+        {
+          "key": "B",
+          "text": "When you need to discuss a specific paragraph, image, or code snippet within the page.",
+          "correct": true,
+          "explanation": "Block comments target individual blocks for granular feedback."
+        },
+        {
+          "key": "C",
+          "text": "When you are assigning a task to a teammate that spans multiple pages.",
+          "correct": false,
+          "explanation": "Task assignment across pages is better handled with a page comment or a separate task database."
+        },
+        {
+          "key": "D",
+          "text": "When you want to reference another Notion page in your comment.",
+          "correct": false,
+          "explanation": "Referencing another page can be done in either comment type; the decision isn’t about referencing."
+        }
+      ]
+    },
+    {
+      "id": "how-teams-can-use-comments-for-better-collaboration-007",
+      "question": "A team wants to ensure that every comment receives a response within 48 hours, but they also need a way to track overdue comments without manually checking each one. Which combination of Notion features best supports this requirement?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use page comments with @date tags for the deadline and enable email notifications for comment activity.",
+          "correct": true,
+          "explanation": "Page comments let you set a deadline via @date, and notifications remind assignees, providing automated tracking of overdue items."
+        },
+        {
+          "key": "B",
+          "text": "Add block comments with @mentions only, then rely on the sidebar reminder feature.",
+          "correct": false,
+          "explanation": "Block comments alone don’t provide a built‑in deadline; the sidebar reminder only triggers after a comment is resolved, not for overdue tracking."
+        },
+        {
+          "key": "C",
+          "text": "Create a separate database to log each comment and use a formula to calculate overdue status.",
+          "correct": false,
+          "explanation": "While possible, this adds unnecessary complexity compared to the built‑in deadline and notification system."
+        },
+        {
+          "key": "D",
+          "text": "Turn on push notifications and manually check the comment timestamp each day.",
+          "correct": false,
+          "explanation": "Manual checking defeats the purpose of automated tracking; push notifications alone won’t flag overdue comments."
+        }
+      ]
+    },
+    {
+      "id": "how-teams-can-use-comments-for-better-collaboration-008",
+      "question": "Why is it important to establish a \"window for input\" in a top‑of‑page comment, and how does Notion help enforce this window?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It prevents teammates from commenting after the deadline, and Notion automatically locks the page.",
+          "correct": false,
+          "explanation": "Notion does not lock pages; comments can still be added after the deadline."
+        },
+        {
+          "key": "B",
+          "text": "It clarifies expectations and triggers a reminder notification if the comment isn’t resolved by the specified date.",
+          "correct": true,
+          "explanation": "The guide states that unresolved comments generate a reminder, helping enforce the feedback window."
+        },
+        {
+          "key": "C",
+          "text": "It automatically assigns the task to the next person in line, ensuring continuous workflow.",
+          "correct": false,
+          "explanation": "Automatic task reassignment isn’t a feature of comment windows."
+        },
+        {
+          "key": "D",
+          "text": "It converts the comment into a calendar event that blocks team members’ schedules.",
+          "correct": false,
+          "explanation": "Comments do not become calendar events; they remain comment threads."
+        }
+      ]
+    }
+  ]
+}

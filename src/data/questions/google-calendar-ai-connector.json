@@ -1,0 +1,317 @@
+{
+  "source": "google-calendar-ai-connector",
+  "sourceTitle": "Google Calendar AI Connector",
+  "sourceUrl": "https://www.notion.so/help/google-calendar-ai-connector",
+  "questions": [
+    {
+      "id": "google-calendar-ai-connector-001",
+      "question": "Who is eligible to connect Google Calendar to Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any Notion user with a Personal Plan",
+          "correct": false,
+          "explanation": "Personal plans do not have access to the connector; only Business or Enterprise plans do."
+        },
+        {
+          "key": "B",
+          "text": "A Google Workspace admin who also owns the Notion workspace, on a Business or Enterprise plan",
+          "correct": true,
+          "explanation": "Both conditions are required: Google Workspace admin, Notion workspace owner, and a Business/Enterprise plan."
+        },
+        {
+          "key": "C",
+          "text": "Only the Notion workspace owner, regardless of Google role",
+          "correct": false,
+          "explanation": "Being a Notion owner alone is insufficient; you must also be a Google Workspace admin."
+        },
+        {
+          "key": "D",
+          "text": "Any member of the Google Workspace organization",
+          "correct": false,
+          "explanation": "Regular members cannot set up the integration; admin rights are required."
+        }
+      ]
+    },
+    {
+      "id": "google-calendar-ai-connector-002",
+      "question": "After creating a new event in Google Calendar, how long does it typically take before Notion AI can search for it?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately",
+          "correct": false,
+          "explanation": "There is a short propagation delay; it's not instant."
+        },
+        {
+          "key": "B",
+          "text": "Within 30 minutes",
+          "correct": true,
+          "explanation": "The article states new events become searchable within 30 minutes."
+        },
+        {
+          "key": "C",
+          "text": "After 24 hours",
+          "correct": false,
+          "explanation": "24 hours is the deletion window after disconnection, not the search delay."
+        },
+        {
+          "key": "D",
+          "text": "Only after a manual refresh in Notion",
+          "correct": false,
+          "explanation": "While a refresh may be needed to see the connector, the search delay is still ~30 minutes."
+        }
+      ]
+    },
+    {
+      "id": "google-calendar-ai-connector-003",
+      "question": "Which of the following locations does NOT support searching Google Calendar via the Notion AI connector?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Notion AI chat in the bottom‑right corner",
+          "correct": false,
+          "explanation": "This location does support the connector."
+        },
+        {
+          "key": "B",
+          "text": "Notion AI in the sidebar",
+          "correct": false,
+          "explanation": "This location also supports the connector."
+        },
+        {
+          "key": "C",
+          "text": "Search in the sidebar",
+          "correct": false,
+          "explanation": "Sidebar search can use the connector as well."
+        },
+        {
+          "key": "D",
+          "text": "The Notion page editor toolbar",
+          "correct": true,
+          "explanation": "The toolbar is not listed as a place where the Google Calendar connector can be used."
+        }
+      ]
+    },
+    {
+      "id": "google-calendar-ai-connector-004",
+      "question": "During the connection setup, which installation scope is recommended for the best Notion AI answers?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Install for the individual connecting user only",
+          "correct": false,
+          "explanation": "Installing for a single user limits the data Notion AI can draw from."
+        },
+        {
+          "key": "B",
+          "text": "Install for All users in the organization",
+          "correct": true,
+          "explanation": "The guide recommends installing for all users to improve answer quality."
+        },
+        {
+          "key": "C",
+          "text": "Install for a random subset of users",
+          "correct": false,
+          "explanation": "There is no benefit to a random subset; the recommendation is for all users."
+        },
+        {
+          "key": "D",
+          "text": "Do not install; the connector works without installation",
+          "correct": false,
+          "explanation": "Installation via the Marketplace app is required for the connector to function."
+        }
+      ]
+    },
+    {
+      "id": "google-calendar-ai-connector-005",
+      "question": "If you disconnect Google Calendar from Notion AI, when is the associated data permanently deleted?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately, as soon as you click Disconnect",
+          "correct": false,
+          "explanation": "Data becomes unsearchable immediately, but deletion occurs later."
+        },
+        {
+          "key": "B",
+          "text": "Within 24 hours of the disconnection request",
+          "correct": true,
+          "explanation": "The article states all associated data is deleted within 24 hours after disconnect."
+        },
+        {
+          "key": "C",
+          "text": "After 7 days, to allow for recovery",
+          "correct": false,
+          "explanation": "There is no 7‑day retention mentioned."
+        },
+        {
+          "key": "D",
+          "text": "Only when the Notion workspace is deleted",
+          "correct": false,
+          "explanation": "Data is deleted independently of workspace deletion."
+        }
+      ]
+    },
+    {
+      "id": "google-calendar-ai-connector-006",
+      "question": "Which of the following prompts would be least appropriate for the Google Calendar AI Connector?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "\"When is my next meeting with Richard?\"",
+          "correct": false,
+          "explanation": "This directly asks about a calendar event, which is appropriate."
+        },
+        {
+          "key": "B",
+          "text": "\"Brief me on my schedule for next week.\"",
+          "correct": false,
+          "explanation": "A valid request for a weekly overview from the calendar."
+        },
+        {
+          "key": "C",
+          "text": "\"Summarize the latest design mockups in Figma.\"",
+          "correct": true,
+          "explanation": "The connector only accesses Google Calendar data, not Figma files."
+        },
+        {
+          "key": "D",
+          "text": "\"What were the dates that I was in Seoul last month?\"",
+          "correct": false,
+          "explanation": "If travel was entered as calendar events, this is a valid query."
+        }
+      ]
+    },
+    {
+      "id": "google-calendar-ai-connector-007",
+      "question": "How does Notion AI ensure that one user cannot see another user’s private Google Calendar events?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It aggregates all events and then filters them per user after the search",
+          "correct": false,
+          "explanation": "Aggregating first would expose data before filtering."
+        },
+        {
+          "key": "B",
+          "text": "Each user’s AI search is limited to calendar entries that match their exact email address",
+          "correct": true,
+          "explanation": "The article explains that searches are scoped by exact email match."
+        },
+        {
+          "key": "C",
+          "text": "Notion AI stores a copy of every user’s calendar and enforces permissions locally",
+          "correct": false,
+          "explanation": "Notion does not store calendar data long‑term."
+        },
+        {
+          "key": "D",
+          "text": "All users share a single service account, but Notion masks private events",
+          "correct": false,
+          "explanation": "A shared account would break privacy guarantees."
+        }
+      ]
+    },
+    {
+      "id": "google-calendar-ai-connector-008",
+      "question": "What temporary storage mechanism does Notion use for caching Google Calendar content to speed up searches?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A vector database like Turbopuffer",
+          "correct": false,
+          "explanation": "The article explicitly says Notion does NOT use vector databases for calendar data."
+        },
+        {
+          "key": "B",
+          "text": "Memcached or a similar in‑memory cache",
+          "correct": true,
+          "explanation": "Notion may temporarily cache data via something like memcached."
+        },
+        {
+          "key": "C",
+          "text": "Long‑term storage in Notion’s relational database",
+          "correct": false,
+          "explanation": "Calendar data is not stored long‑term in Notion's databases."
+        },
+        {
+          "key": "D",
+          "text": "Local browser storage on the user’s device",
+          "correct": false,
+          "explanation": "Caching occurs on Notion’s servers, not client‑side storage."
+        }
+      ]
+    },
+    {
+      "id": "google-calendar-ai-connector-009",
+      "question": "A user who is a Notion workspace member but not a Google Workspace admin attempts to connect Google Calendar. What will happen?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The connection will succeed, but only for that user’s calendar",
+          "correct": false,
+          "explanation": "Admin rights are required; the connection will not succeed."
+        },
+        {
+          "key": "B",
+          "text": "The connection will be blocked because both admin and workspace‑owner privileges are required",
+          "correct": true,
+          "explanation": "Both conditions must be met; lacking admin rights prevents the setup."
+        },
+        {
+          "key": "C",
+          "text": "Notion AI will automatically elevate the user to admin status",
+          "correct": false,
+          "explanation": "No automatic privilege escalation occurs."
+        },
+        {
+          "key": "D",
+          "text": "The user can connect, but only after a manual approval from an existing admin",
+          "correct": false,
+          "explanation": "The article does not mention a manual approval workflow; admin rights are mandatory upfront."
+        }
+      ]
+    },
+    {
+      "id": "google-calendar-ai-connector-010",
+      "question": "If a Google Workspace user’s email address changes, how does Notion AI handle their access to the Google Calendar connector?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The user retains access until they manually re‑authenticate with the new email",
+          "correct": false,
+          "explanation": "Access is tied to exact email matching, not manual re‑auth."
+        },
+        {
+          "key": "B",
+          "text": "Notion automatically syncs permission changes, revoking access for the old email and granting it to the new one",
+          "correct": true,
+          "explanation": "The system syncs permission changes from Google Workspace immediately."
+        },
+        {
+          "key": "C",
+          "text": "The connector continues to work with the old email until the admin disconnects and reconnects it",
+          "correct": false,
+          "explanation": "Permission sync is immediate; no need for manual reconnection."
+        },
+        {
+          "key": "D",
+          "text": "Access is unaffected because Notion stores a permanent copy of the calendar data",
+          "correct": false,
+          "explanation": "Notion does not store calendar data long‑term; access depends on current permissions."
+        }
+      ]
+    }
+  ]
+}

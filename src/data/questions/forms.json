@@ -1,0 +1,317 @@
+{
+  "source": "forms",
+  "sourceTitle": "Forms",
+  "sourceUrl": "https://www.notion.so/help/forms",
+  "questions": [
+    {
+      "id": "forms-001",
+      "question": "Who is allowed to create a new form in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only members on the Enterprise plan",
+          "correct": false,
+          "explanation": "Form creation is not limited to Enterprise; all members on all plans can create forms."
+        },
+        {
+          "key": "B",
+          "text": "Only workspace owners",
+          "correct": false,
+          "explanation": "Workspace owners can create forms, but any member can as well."
+        },
+        {
+          "key": "C",
+          "text": "All members on all Notion plans",
+          "correct": true,
+          "explanation": "The article states that all members on all plans can create and use forms."
+        },
+        {
+          "key": "D",
+          "text": "Only users with a paid plan",
+          "correct": false,
+          "explanation": "Free plan users can also create forms; the ability isn’t restricted to paid plans."
+        }
+      ]
+    },
+    {
+      "id": "forms-002",
+      "question": "Which of the following actions can only be performed on Notion’s desktop or web apps, not on mobile?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Filling out a shared form",
+          "correct": false,
+          "explanation": "Forms can be filled out on mobile devices."
+        },
+        {
+          "key": "B",
+          "text": "Viewing form responses",
+          "correct": false,
+          "explanation": "Viewing responses works on mobile as long as you have access."
+        },
+        {
+          "key": "C",
+          "text": "Creating a new form",
+          "correct": true,
+          "explanation": "The article notes that creating a new form is only possible on desktop and web."
+        },
+        {
+          "key": "D",
+          "text": "Copying the form link",
+          "correct": false,
+          "explanation": "Copying the link can be done from mobile as well."
+        }
+      ]
+    },
+    {
+      "id": "forms-003",
+      "question": "What property is automatically added to a database when you create a form from scratch?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Created by",
+          "correct": false,
+          "explanation": "Created by is optional; the automatic property is Respondent."
+        },
+        {
+          "key": "B",
+          "text": "Respondent",
+          "correct": true,
+          "explanation": "A Respondent property is created automatically to capture respondents’ names."
+        },
+        {
+          "key": "C",
+          "text": "Form owner",
+          "correct": false,
+          "explanation": "There is no Form owner property mentioned."
+        },
+        {
+          "key": "D",
+          "text": "Submission date",
+          "correct": false,
+          "explanation": "Submission date is not automatically added; only Respondent is."
+        }
+      ]
+    },
+    {
+      "id": "forms-004",
+      "question": "If you want to add a form to an existing database, what level of access must you have to that database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Can view",
+          "correct": false,
+          "explanation": "Can view lets you see the database but not add a form."
+        },
+        {
+          "key": "B",
+          "text": "Can comment",
+          "correct": false,
+          "explanation": "Comment access does not permit creating views."
+        },
+        {
+          "key": "C",
+          "text": "Full access",
+          "correct": true,
+          "explanation": "The article explicitly requires Full access to create a form from an existing database."
+        },
+        {
+          "key": "D",
+          "text": "Can edit content",
+          "correct": false,
+          "explanation": "Can edit content is insufficient for adding a new view; Full access is required."
+        }
+      ]
+    },
+    {
+      "id": "forms-005",
+      "question": "Which plan(s) provide access to conditional logic in forms?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Free plan",
+          "correct": false,
+          "explanation": "Conditional logic is not available on the Free plan."
+        },
+        {
+          "key": "B",
+          "text": "Personal plan",
+          "correct": false,
+          "explanation": "Personal plans do not include conditional logic."
+        },
+        {
+          "key": "C",
+          "text": "Business and Enterprise plans",
+          "correct": true,
+          "explanation": "The article states conditional logic is only available on Business and Enterprise plans."
+        },
+        {
+          "key": "D",
+          "text": "All paid plans",
+          "correct": false,
+          "explanation": "Only Business and Enterprise, not all paid plans, have this feature."
+        }
+      ]
+    },
+    {
+      "id": "forms-006",
+      "question": "When you change a question’s text in the form builder, what happens to the corresponding database property?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The property remains unchanged; you must rename it manually.",
+          "correct": false,
+          "explanation": "The property is automatically synced with the form question."
+        },
+        {
+          "key": "B",
+          "text": "A new property is created, leaving the old one untouched.",
+          "correct": false,
+          "explanation": "Changing a question updates the existing property, not creates a new one."
+        },
+        {
+          "key": "C",
+          "text": "The property is renamed to match the new question text.",
+          "correct": true,
+          "explanation": "The article explains that editing a question renames the associated property."
+        },
+        {
+          "key": "D",
+          "text": "The property is deleted and a placeholder is added.",
+          "correct": false,
+          "explanation": "No deletion occurs; only renaming happens."
+        }
+      ]
+    },
+    {
+      "id": "forms-007",
+      "question": "What access level is required to change the sharing settings of a form?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Can comment access",
+          "correct": false,
+          "explanation": "Comment access does not allow changing sharing settings."
+        },
+        {
+          "key": "B",
+          "text": "View access",
+          "correct": false,
+          "explanation": "View access only lets you see the form, not modify sharing."
+        },
+        {
+          "key": "C",
+          "text": "Full access to the connected database",
+          "correct": true,
+          "explanation": "The article notes you need Full access to modify sharing settings."
+        },
+        {
+          "key": "D",
+          "text": "Can edit content access",
+          "correct": false,
+          "explanation": "Can edit content is insufficient for sharing settings; Full access is required."
+        }
+      ]
+    },
+    {
+      "id": "forms-008",
+      "question": "If a form is shared with \"Anyone on the web with link\" and the workspace is on a paid plan, which option can the form owner toggle?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Allow respondents to edit other users’ submissions",
+          "correct": false,
+          "explanation": "This setting is unrelated to the paid‑plan toggle mentioned."
+        },
+        {
+          "key": "B",
+          "text": "Enable or disable Notion branding on the form",
+          "correct": true,
+          "explanation": "The article says paid‑plan users can toggle Notion branding for web‑shared forms."
+        },
+        {
+          "key": "C",
+          "text": "Require a Notion account to submit responses",
+          "correct": false,
+          "explanation": "Anyone on the web can submit without a Notion account."
+        },
+        {
+          "key": "D",
+          "text": "Set a password for the form link",
+          "correct": false,
+          "explanation": "Password protection is not a feature described for Notion forms."
+        }
+      ]
+    },
+    {
+      "id": "forms-009",
+      "question": "Where are form responses stored by default, and how can they be analyzed?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "In a dedicated Form view that can be exported as CSV",
+          "correct": false,
+          "explanation": "Form view cannot be exported; responses are stored in a Table view."
+        },
+        {
+          "key": "B",
+          "text": "In a Table view named \"Responses\", which can be filtered, sorted, or visualized with chart views",
+          "correct": true,
+          "explanation": "The article states responses are stored in a Table view called Responses and can be analyzed via filters, sorts, and charts."
+        },
+        {
+          "key": "C",
+          "text": "In a hidden page only accessible to the form creator",
+          "correct": false,
+          "explanation": "Responses are not hidden; they reside in a normal Table view."
+        },
+        {
+          "key": "D",
+          "text": "In a separate Notion workspace linked to the form",
+          "correct": false,
+          "explanation": "Responses stay within the same database, not a separate workspace."
+        }
+      ]
+    },
+    {
+      "id": "forms-010",
+      "question": "What steps must a workspace owner on the Enterprise plan follow to prevent members from publishing forms to the web?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Settings → Security and toggle on \"Disable publishing sites, forms, and public links\"",
+          "correct": true,
+          "explanation": "The article outlines this exact process for Enterprise owners."
+        },
+        {
+          "key": "B",
+          "text": "Delete all existing public forms manually from each database",
+          "correct": false,
+          "explanation": "While deletion removes current forms, the setting prevents future publishing."
+        },
+        {
+          "key": "C",
+          "text": "Change the workspace’s default sharing permissions to \"Members only\"",
+          "correct": false,
+          "explanation": "There is no global default sharing setting; the specific security toggle is required."
+        },
+        {
+          "key": "D",
+          "text": "Upgrade every member to a Business plan to restrict web publishing",
+          "correct": false,
+          "explanation": "Plan upgrades do not control publishing; the security toggle does."
+        }
+      ]
+    }
+  ]
+}

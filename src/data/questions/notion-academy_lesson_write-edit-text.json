@@ -1,0 +1,224 @@
+{
+  "source": "notion-academy_lesson_write-edit-text",
+  "sourceTitle": "Essentials Path",
+  "sourceUrl": "https://www.notion.so/help/notion-academy/lesson/write-edit-text",
+  "questions": [
+    {
+      "id": "write-edit-text-001",
+      "question": "What is the primary purpose of the Essentials Path?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To teach advanced Notion scripting and API integration",
+          "correct": false,
+          "explanation": "Advanced scripting is not covered; the Essentials Path is for basic skills."
+        },
+        {
+          "key": "B",
+          "text": "To help new users gain basic skills to create, collaborate, and organize work efficiently",
+          "correct": true,
+          "explanation": "Correct – the description states the path is for new users to learn core Notion abilities."
+        },
+        {
+          "key": "C",
+          "text": "To certify users as Notion consultants",
+          "correct": false,
+          "explanation": "Certification as a consultant is beyond the scope of this beginner path."
+        },
+        {
+          "key": "D",
+          "text": "To provide in‑depth training on Notion security settings",
+          "correct": false,
+          "explanation": "Security settings are not mentioned in the Essentials Path overview."
+        }
+      ]
+    },
+    {
+      "id": "write-edit-text-002",
+      "question": "Which lesson specifically teaches how to share, collaborate, and brainstorm with team members?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Building basics",
+          "correct": false,
+          "explanation": "Building basics covers navigation, blocks, databases, and wikis, not sharing."
+        },
+        {
+          "key": "B",
+          "text": "Sharing & collaboration",
+          "correct": true,
+          "explanation": "The lesson titled \"Sharing & collaboration\" focuses on those topics."
+        },
+        {
+          "key": "C",
+          "text": "Notion Essentials Quiz",
+          "correct": false,
+          "explanation": "The quiz tests knowledge; it does not teach sharing."
+        },
+        {
+          "key": "D",
+          "text": "Advanced integrations",
+          "correct": false,
+          "explanation": "There is no lesson named \"Advanced integrations\" in this path."
+        }
+      ]
+    },
+    {
+      "id": "write-edit-text-003",
+      "question": "How long is the \"Building basics\" lesson estimated to take?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 minutes",
+          "correct": false,
+          "explanation": "The article lists 20 minutes, not 10."
+        },
+        {
+          "key": "B",
+          "text": "20 minutes",
+          "correct": true,
+          "explanation": "The \"Building basics\" lesson is described as a 20‑minute lesson."
+        },
+        {
+          "key": "C",
+          "text": "30 minutes",
+          "correct": false,
+          "explanation": "30 minutes is longer than the stated duration."
+        },
+        {
+          "key": "D",
+          "text": "45 minutes",
+          "correct": false,
+          "explanation": "45 minutes is far beyond the indicated time."
+        }
+      ]
+    },
+    {
+      "id": "write-edit-text-004",
+      "question": "Which of the following skills is NOT explicitly mentioned as part of the \"Building basics\" lesson?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Navigating Notion",
+          "correct": false,
+          "explanation": "Navigation is listed as a skill covered."
+        },
+        {
+          "key": "B",
+          "text": "Creating with blocks",
+          "correct": false,
+          "explanation": "Creating with blocks is explicitly mentioned."
+        },
+        {
+          "key": "C",
+          "text": "Building custom databases",
+          "correct": false,
+          "explanation": "Custom databases are part of the lesson description."
+        },
+        {
+          "key": "D",
+          "text": "Designing custom themes",
+          "correct": true,
+          "explanation": "Designing custom themes is not referenced in the lesson overview."
+        }
+      ]
+    },
+    {
+      "id": "write-edit-text-005",
+      "question": "What can a learner earn after completing the Notion Essentials Quiz?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A certificate of completion",
+          "correct": false,
+          "explanation": "The article mentions a badge, not a formal certificate."
+        },
+        {
+          "key": "B",
+          "text": "A badge for Notion Essentials",
+          "correct": true,
+          "explanation": "The quiz description states you earn a badge to test your knowledge."
+        },
+        {
+          "key": "C",
+          "text": "Access to premium Notion features",
+          "correct": false,
+          "explanation": "No premium features are granted by taking the quiz."
+        },
+        {
+          "key": "D",
+          "text": "Discount on Notion subscriptions",
+          "correct": false,
+          "explanation": "Discounts are not mentioned in relation to the quiz."
+        }
+      ]
+    },
+    {
+      "id": "write-edit-text-006",
+      "question": "In which language is the Essentials Path content delivered?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Spanish",
+          "correct": false,
+          "explanation": "Spanish is not listed; the article shows English."
+        },
+        {
+          "key": "B",
+          "text": "English",
+          "correct": true,
+          "explanation": "All lesson tags include \"English,\" indicating the language."
+        },
+        {
+          "key": "C",
+          "text": "French",
+          "correct": false,
+          "explanation": "French is not mentioned."
+        },
+        {
+          "key": "D",
+          "text": "German",
+          "correct": false,
+          "explanation": "German is also not referenced."
+        }
+      ]
+    },
+    {
+      "id": "write-edit-text-007",
+      "question": "If a user wants to learn how to manage knowledge with Wikis, which lesson should they prioritize and why?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sharing & collaboration, because Wikis are primarily used for team communication",
+          "correct": false,
+          "explanation": "While collaboration is related, the description of Wikis appears under Building basics."
+        },
+        {
+          "key": "B",
+          "text": "Building basics, because the lesson explicitly mentions managing knowledge with Wikis",
+          "correct": true,
+          "explanation": "The Building basics lesson lists \"manage knowledge with Wikis\" as a learning outcome."
+        },
+        {
+          "key": "C",
+          "text": "Notion Essentials Quiz, because quizzes test knowledge about Wikis",
+          "correct": false,
+          "explanation": "The quiz assesses knowledge after learning; it does not teach Wikis."
+        },
+        {
+          "key": "D",
+          "text": "None of the lessons cover Wikis; the user should look for an advanced course",
+          "correct": false,
+          "explanation": "Wikis are indeed covered in the Building basics lesson."
+        }
+      ]
+    }
+  ]
+}

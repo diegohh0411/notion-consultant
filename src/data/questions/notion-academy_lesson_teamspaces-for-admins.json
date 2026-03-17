@@ -1,0 +1,317 @@
+{
+  "source": "notion-academy_lesson_teamspaces-for-admins",
+  "sourceTitle": "Welcome to Notion Academy",
+  "sourceUrl": "https://www.notion.so/help/notion-academy/lesson/teamspaces-for-admins",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_teamspaces-for-admins-001",
+      "question": "What can you earn by completing learning paths in Notion Academy?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Certificates",
+          "correct": false,
+          "explanation": "Certificates are only awarded for the Notion Certified Admin program, not for completing general learning paths."
+        },
+        {
+          "key": "B",
+          "text": "Badges",
+          "correct": true,
+          "explanation": "Completing paths awards badges, as stated in the \"Earn badges with Notion\" section."
+        },
+        {
+          "key": "C",
+          "text": "Credits",
+          "correct": false,
+          "explanation": "Notion Academy does not use a credit system for its courses."
+        },
+        {
+          "key": "D",
+          "text": "Discounts",
+          "correct": false,
+          "explanation": "Discounts are not mentioned as a reward for finishing learning paths."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_teamspaces-for-admins-002",
+      "question": "Which certification does Notion Academy offer for administrators?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion Certified Developer",
+          "correct": false,
+          "explanation": "Developer certification is not listed in this article."
+        },
+        {
+          "key": "B",
+          "text": "Notion Certified Admin",
+          "correct": true,
+          "explanation": "The article explicitly mentions becoming a \"Notion Certified Admin\"."
+        },
+        {
+          "key": "C",
+          "text": "Notion Certified Designer",
+          "correct": false,
+          "explanation": "Design certification is not part of the described offerings."
+        },
+        {
+          "key": "D",
+          "text": "Notion Certified Analyst",
+          "correct": false,
+          "explanation": "Analyst certification is not mentioned."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_teamspaces-for-admins-003",
+      "question": "Which of the following is a beginner‑level featured lesson?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workspace design",
+          "correct": false,
+          "explanation": "Workspace design is listed as an Advanced lesson."
+        },
+        {
+          "key": "B",
+          "text": "Custom Agents",
+          "correct": true,
+          "explanation": "Custom Agents is labeled as Beginner in the lesson list."
+        },
+        {
+          "key": "C",
+          "text": "Connecting knowledge in Notion",
+          "correct": false,
+          "explanation": "This lesson is Intermediate, not Beginner."
+        },
+        {
+          "key": "D",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "Templates & marketplace is an Intermediate lesson."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_teamspaces-for-admins-004",
+      "question": "How many lessons are included in the Essentials Path?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "2",
+          "correct": false,
+          "explanation": "The Essentials Path contains more than two lessons."
+        },
+        {
+          "key": "B",
+          "text": "3",
+          "correct": true,
+          "explanation": "The article states the Essentials Path has 3 lessons."
+        },
+        {
+          "key": "C",
+          "text": "4",
+          "correct": false,
+          "explanation": "Four lessons belong to the Workflows Path, not the Essentials Path."
+        },
+        {
+          "key": "D",
+          "text": "5",
+          "correct": false,
+          "explanation": "Five lessons are part of the Advanced Path."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_teamspaces-for-admins-005",
+      "question": "Which featured lesson is described as helping automate repeat work and can run on a schedule or respond to triggers?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Custom Agents",
+          "correct": true,
+          "explanation": "The description of Custom Agents mentions automation, schedules, and triggers."
+        },
+        {
+          "key": "B",
+          "text": "Project management",
+          "correct": false,
+          "explanation": "Project management focuses on setting up projects and tasks, not automation."
+        },
+        {
+          "key": "C",
+          "text": "Sharing & collaboration",
+          "correct": false,
+          "explanation": "That lesson is about teamwork, not automation."
+        },
+        {
+          "key": "D",
+          "text": "Workspace design",
+          "correct": false,
+          "explanation": "Workspace design covers best‑practice layout, not automated agents."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_teamspaces-for-admins-006",
+      "question": "Which intermediate‑level lesson focuses on building an intake system using forms, charts, and automations?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "An issue tracker for any team",
+          "correct": true,
+          "explanation": "The lesson description mentions creating an intake system with forms, charts, and automations."
+        },
+        {
+          "key": "B",
+          "text": "Connecting knowledge in Notion",
+          "correct": false,
+          "explanation": "That lesson is about scaling knowledge, not specifically an intake system."
+        },
+        {
+          "key": "C",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "Templates & marketplace deals with creating and selling templates, not intake systems."
+        },
+        {
+          "key": "D",
+          "text": "Workspace design",
+          "correct": false,
+          "explanation": "Workspace design is an Advanced lesson about layout best practices."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_teamspaces-for-admins-007",
+      "question": "Which learning path is designed for users who want to create connected systems that unite teams and projects with the help of AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path",
+          "correct": false,
+          "explanation": "Essentials Path is aimed at beginners and does not focus on AI‑driven workflows."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": true,
+          "explanation": "The Workflows Path description mentions creating connected systems with AI."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "Advanced Path covers automation and architecture but the AI‑focused description belongs to Workflows Path."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents Path",
+          "correct": false,
+          "explanation": "No such path is listed in the article."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_teamspaces-for-admins-008",
+      "question": "If a user wants to learn best practices for designing a workspace, including block selection and database organization, which featured lesson should they take?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workspace design",
+          "correct": true,
+          "explanation": "Workspace design is explicitly described as teaching best practices for choosing blocks and organizing databases."
+        },
+        {
+          "key": "B",
+          "text": "Building basics",
+          "correct": false,
+          "explanation": "Building basics covers navigation and creating blocks, but not the deeper design best practices."
+        },
+        {
+          "key": "C",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "That lesson focuses on creating and selling templates, not workspace design."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents",
+          "correct": false,
+          "explanation": "Custom Agents is about automation, not workspace layout."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_teamspaces-for-admins-009",
+      "question": "Which featured lesson does NOT list a specific subject category (e.g., Essentials, Workflows) in its description?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Templates & marketplace",
+          "correct": true,
+          "explanation": "Unlike other lessons, Templates & marketplace shows only level and type, without a category tag."
+        },
+        {
+          "key": "B",
+          "text": "Sharing & collaboration",
+          "correct": false,
+          "explanation": "This lesson is tagged under Essentials."
+        },
+        {
+          "key": "C",
+          "text": "Project management",
+          "correct": false,
+          "explanation": "Project management includes the Workflows category."
+        },
+        {
+          "key": "D",
+          "text": "Connecting knowledge in Notion",
+          "correct": false,
+          "explanation": "That lesson also carries the Workflows tag."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_teamspaces-for-admins-010",
+      "question": "Which path is labeled as \"Advanced\" and contains the most lessons among the three Badged Paths?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path",
+          "correct": false,
+          "explanation": "Essentials Path is Beginner and has only 3 lessons."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": false,
+          "explanation": "Workflows Path is Intermediate and includes 4 lessons."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path",
+          "correct": true,
+          "explanation": "Advanced Path is the only Advanced‑labeled path and has 5 lessons, the highest count."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents Path",
+          "correct": false,
+          "explanation": "No such path is listed in the article."
+        }
+      ]
+    }
+  ]
+}

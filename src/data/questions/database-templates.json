@@ -1,0 +1,379 @@
+{
+  "source": "database-templates",
+  "sourceTitle": "Database templates",
+  "sourceUrl": "https://www.notion.so/help/database-templates",
+  "questions": [
+    {
+      "id": "database-templates-001",
+      "question": "How do you initiate the creation of a new database template?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the 'Settings' gear icon and select 'Create Template'",
+          "correct": false,
+          "explanation": "Templates are created directly within the database view, not from the general settings gear."
+        },
+        {
+          "key": "B",
+          "text": "Click the dropdown arrow next to 'New' and select '+ New template'",
+          "correct": true,
+          "explanation": "The article explicitly states to click the dropdown arrow next to 'New' at the top right and select '+ New template'."
+        },
+        {
+          "key": "C",
+          "text": "Right-click on an existing page and choose 'Turn into Template'",
+          "correct": false,
+          "explanation": "There is no option to convert a specific page directly into a template using right-click."
+        },
+        {
+          "key": "D",
+          "text": "Drag a property card from the sidebar into the database body",
+          "correct": false,
+          "explanation": "Dragging property cards is used to rearrange properties, not to create templates."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-002",
+      "question": "What happens if you fill in a Relation property when creating a database template?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It creates a dynamic link to the page currently being edited",
+          "correct": false,
+          "explanation": "Templates usually create links based on the content of the new page, but filling the relation manually overrides this behavior."
+        },
+        {
+          "key": "B",
+          "text": "Every page created from that template will relate to the same existing page(s)",
+          "correct": true,
+          "explanation": "The article notes that if you add a relation property to a template, do not fill it in unless you want every page created with that template to relate to the same page(s)."
+        },
+        {
+          "key": "C",
+          "text": "It automatically assigns the creator of the template to the relation",
+          "correct": false,
+          "explanation": "Relation properties do not auto-assign based on the creator by default; manual entry is required."
+        },
+        {
+          "key": "D",
+          "text": "It breaks the template and prevents it from being used",
+          "correct": false,
+          "explanation": "Filling in a relation property does not break the template; it just forces a static relationship for all instances."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-003",
+      "question": "Which of the following frequencies is NOT supported for repeating database templates?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Daily",
+          "correct": false,
+          "explanation": "Daily is explicitly listed as a supported frequency for repeating templates."
+        },
+        {
+          "key": "B",
+          "text": "Weekly",
+          "correct": false,
+          "explanation": "Weekly is explicitly listed as a supported frequency for repeating templates."
+        },
+        {
+          "key": "C",
+          "text": "Hourly",
+          "correct": true,
+          "explanation": "The article states you can repeat daily, weekly, monthly, or yearly. Hourly is not an option."
+        },
+        {
+          "key": "D",
+          "text": "Yearly",
+          "correct": false,
+          "explanation": "Yearly is explicitly listed as a supported frequency for repeating templates."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-004",
+      "question": "What is the maximum allowed nesting level for database templates?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 levels",
+          "correct": false,
+          "explanation": "While nesting is complex, the article explicitly states a limit of three levels."
+        },
+        {
+          "key": "B",
+          "text": "3 levels",
+          "correct": true,
+          "explanation": "The article states that you can only have three levels of nesting per database template."
+        },
+        {
+          "key": "C",
+          "text": "4 levels",
+          "correct": false,
+          "explanation": "The article does not support a 4th level; the limit is three."
+        },
+        {
+          "key": "D",
+          "text": "No limit",
+          "correct": false,
+          "explanation": "There is a specific hard limit of three levels mentioned in the 'Nesting database templates' section."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-005",
+      "question": "How can you edit an existing database template?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Double-click the template name in the dropdown menu",
+          "correct": false,
+          "explanation": "There is no double-click edit option for template names in the dropdown menu."
+        },
+        {
+          "key": "B",
+          "text": "Open the dropdown next to 'New' and click 'Edit' via the '•••' menu",
+          "correct": true,
+          "explanation": "The article instructs to open the '•••' menu next to the template and click Edit."
+        },
+        {
+          "key": "C",
+          "text": "Navigate to the database settings page and select 'Edit Template'",
+          "correct": false,
+          "explanation": "Templates are edited directly from the database view via the dropdown menu, not from a separate settings page."
+        },
+        {
+          "key": "D",
+          "text": "You cannot edit existing templates after creation",
+          "correct": false,
+          "explanation": "The article explicitly states that you can edit, duplicate, or delete existing templates."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-006",
+      "question": "Are database templates available across all databases in a workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, templates are shared automatically across all databases",
+          "correct": false,
+          "explanation": "Templates are local to the specific database where they were created. Each database can define its own templates."
+        },
+        {
+          "key": "B",
+          "text": "Yes, but only if you copy and paste the template content",
+          "correct": false,
+          "explanation": "Notion does not share templates automatically; you must create them in each new database individually."
+        },
+        {
+          "key": "C",
+          "text": "No, they are only available in the specific database where you created them",
+          "correct": true,
+          "explanation": "The FAQ explicitly answers this: 'No, they're only available in the specific database where you created them.'"
+        },
+        {
+          "key": "D",
+          "text": "Only if the workspace owner has enabled workspace-wide templates",
+          "correct": false,
+          "explanation": "The article describes creating templates within a specific database, not a global workspace setting."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-007",
+      "question": "What determines the name of a database template?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The property names defined in the template",
+          "correct": false,
+          "explanation": "Property names define the structure, not the template's display name."
+        },
+        {
+          "key": "B",
+          "text": "The title of the page used to create the template",
+          "correct": true,
+          "explanation": "The article states: 'Whatever you title this page will be the name of the template you use going forward.'"
+        },
+        {
+          "key": "C",
+          "text": "The database it is located in",
+          "correct": false,
+          "explanation": "While the bar indicates the database location, the template name comes from the page title."
+        },
+        {
+          "key": "D",
+          "text": "The user who created the template",
+          "correct": false,
+          "explanation": "The creator's name is not used for the template's display name."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-008",
+      "question": "When creating a repeating database template, where do you select the 'Repeat' option?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "From the main database settings menu",
+          "correct": false,
+          "explanation": "You must access the specific template's options to enable repeating behavior."
+        },
+        {
+          "key": "B",
+          "text": "Next to the 'Repeat' button in the database header",
+          "correct": false,
+          "explanation": "The 'Repeat' dropdown is accessed within the context of the specific template, not the general database header."
+        },
+        {
+          "key": "C",
+          "text": "Next to the specific database template via the '•••' menu",
+          "correct": true,
+          "explanation": "The steps specify: 'Next to the database template you want to repeat, select •••. Open the dropdown next to Repeat.'"
+        },
+        {
+          "key": "D",
+          "text": "At the bottom of the 'New' dropdown menu",
+          "correct": false,
+          "explanation": "The 'Repeat' option is found inside the template's contextual menu, not the main 'New' dropdown."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-009",
+      "question": "What is a key limitation regarding nesting templates within recurring templates?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "You cannot nest templates within templates that recur daily",
+          "correct": true,
+          "explanation": "The article notes: 'You can't nest a template within a template that recurs daily. You can only nest a template within a template that recurs weekly, monthly, or yearly.'"
+        },
+        {
+          "key": "B",
+          "text": "You cannot nest a template within any recurring template",
+          "correct": false,
+          "explanation": "You *can* nest within weekly, monthly, or yearly recurring templates; daily is the exception."
+        },
+        {
+          "key": "C",
+          "text": "You cannot nest more than one template inside another",
+          "correct": false,
+          "explanation": "While nesting is complex, the specific limitation mentioned is about the frequency (daily) rather than the count of nesting."
+        },
+        {
+          "key": "D",
+          "text": "You cannot nest templates if the recurring interval is longer than a year",
+          "correct": false,
+          "explanation": "The limitation is strictly about the 'daily' recurrence type, not the duration."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-010",
+      "question": "Which of the following can be included in a database template?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only text and properties",
+          "correct": false,
+          "explanation": "Templates can contain more diverse content types."
+        },
+        {
+          "key": "B",
+          "text": "Images, embeds, and sub-pages",
+          "correct": true,
+          "explanation": "The article states: 'Templates can contain any type of content, including images, embeds, and sub-pages.'"
+        },
+        {
+          "key": "C",
+          "text": "Only properties and relations",
+          "correct": false,
+          "explanation": "While properties and relations are supported, so are images, embeds, and sub-pages."
+        },
+        {
+          "key": "D",
+          "text": "Only formulas and rollups",
+          "correct": false,
+          "explanation": "Formulas and rollups are properties, but the article mentions visual content like images as well."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-011",
+      "question": "Which menu button allows you to Duplicate or Delete an existing template?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 'Settings' gear icon",
+          "correct": false,
+          "explanation": "The settings gear icon is not used for duplicating or deleting templates."
+        },
+        {
+          "key": "B",
+          "text": "The '•••' menu next to the specific template",
+          "correct": true,
+          "explanation": "The article states: 'The same ••• menu also lets you duplicate or delete a template.'"
+        },
+        {
+          "key": "C",
+          "text": "The 'New' dropdown arrow",
+          "correct": false,
+          "explanation": "The 'New' dropdown is used to select/create templates, not to manage existing ones."
+        },
+        {
+          "key": "D",
+          "text": "The 'Repeat' dropdown",
+          "correct": false,
+          "explanation": "The 'Repeat' dropdown is for scheduling, not deleting."
+        }
+      ]
+    },
+    {
+      "id": "database-templates-012",
+      "question": "When setting up a repeating template, what interval units can you specify?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Days and Weeks",
+          "correct": false,
+          "explanation": "While daily and weekly are frequencies, the intervals for non-daily repeats are weeks, months, or years."
+        },
+        {
+          "key": "B",
+          "text": "Weeks, Months, or Years",
+          "correct": true,
+          "explanation": "The article states: 'Indicate how many weeks, months, or years you want in between repeats.'"
+        },
+        {
+          "key": "C",
+          "text": "Hours and Days",
+          "correct": false,
+          "explanation": "The supported intervals are weeks, months, or years, not hours."
+        },
+        {
+          "key": "D",
+          "text": "Minutes, Hours, or Days",
+          "correct": false,
+          "explanation": "Time-based intervals (minutes/hours) are not supported for repeating templates."
+        }
+      ]
+    }
+  ]
+}

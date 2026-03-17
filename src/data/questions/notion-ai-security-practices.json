@@ -1,0 +1,317 @@
+{
+  "source": "notion-ai-security-practices",
+  "sourceTitle": "Notion AI security & privacy practices",
+  "sourceUrl": "https://www.notion.so/help/notion-ai-security-practices",
+  "questions": [
+    {
+      "id": "notion-ai-security-practices-001",
+      "question": "Which of the following best describes how Notion AI respects a user’s existing workspace permissions?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It can view all pages in the workspace regardless of the user’s access rights.",
+          "correct": false,
+          "explanation": "Incorrect – Notion AI does NOT bypass permissions; it can only use content the user already has access to."
+        },
+        {
+          "key": "B",
+          "text": "It only processes data that the requesting user is allowed to see, honoring all permission settings.",
+          "correct": true,
+          "explanation": "Correct – The article states that Notion AI honors existing permissions and cannot see information the user lacks access to."
+        },
+        {
+          "key": "C",
+          "text": "It ignores permissions but encrypts the data before processing.",
+          "correct": false,
+          "explanation": "Wrong – Encryption is a separate security measure; permission handling is explicit and not ignored."
+        },
+        {
+          "key": "D",
+          "text": "It asks the workspace owner for temporary elevated access before each query.",
+          "correct": false,
+          "explanation": "Incorrect – No such temporary elevation mechanism is described in the article."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-security-practices-002",
+      "question": "What is the primary purpose of generating embeddings for Notion pages?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store the original page content in an encrypted format.",
+          "correct": false,
+          "explanation": "Embeddings are not encrypted copies of the original text; they are numerical vectors representing meaning."
+        },
+        {
+          "key": "B",
+          "text": "To create a semantic, numerical representation that enables fast similarity searches.",
+          "correct": true,
+          "explanation": "Correct – The article explains embeddings capture meaning in a multidimensional space for efficient vector search."
+        },
+        {
+          "key": "C",
+          "text": "To train Notion’s own language model on user data.",
+          "correct": false,
+          "explanation": "Wrong – Notion does not use customer data to train its models; embeddings are used only for retrieval."
+        },
+        {
+          "key": "D",
+          "text": "To replace the original document with a shorter summary.",
+          "correct": false,
+          "explanation": "Incorrect – Embeddings are not summaries; they are abstract numerical representations."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-security-practices-003",
+      "question": "Which compliance certifications does Notion AI fall under according to the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "SOC 2 Type 2 and ISO 27001",
+          "correct": true,
+          "explanation": "Correct – The article states Notion AI is included in the scope of Notion’s SOC 2 Type 2 report and ISO 27001 certification."
+        },
+        {
+          "key": "B",
+          "text": "PCI DSS and GDPR",
+          "correct": false,
+          "explanation": "Wrong – These standards are not mentioned as applicable to Notion AI in the article."
+        },
+        {
+          "key": "C",
+          "text": "FedRAMP and CMMC",
+          "correct": false,
+          "explanation": "Incorrect – The article does not reference these certifications for Notion AI."
+        },
+        {
+          "key": "D",
+          "text": "HIPAA only",
+          "correct": false,
+          "explanation": "Partially true – Notion AI enables HIPAA compliance, but the question asks for certifications, which are SOC 2 Type 2 and ISO 27001."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-security-practices-004",
+      "question": "How does Notion AI ensure that embeddings are protected with the same level of security as other Customer Data?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By storing them in a publicly accessible cloud bucket with read‑only permissions.",
+          "correct": false,
+          "explanation": "Incorrect – Publicly accessible storage would not meet security commitments."
+        },
+        {
+          "key": "B",
+          "text": "By applying the commitments outlined in the Master Service Agreement (MSA) and Data Processing Agreement (DPA) to the embeddings.",
+          "correct": true,
+          "explanation": "Correct – The article says embeddings receive the same security and privacy considerations as Customer Data per the MSA and DPA."
+        },
+        {
+          "key": "C",
+          "text": "By deleting embeddings immediately after each query is answered.",
+          "correct": false,
+          "explanation": "Wrong – Embeddings are retained for a period (up to 60 days after page deletion) to support future queries."
+        },
+        {
+          "key": "D",
+          "text": "By encrypting them with a proprietary algorithm that only Notion developers know.",
+          "correct": false,
+          "explanation": "Incorrect – The article does not mention a proprietary algorithm; it references standard security commitments."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-security-practices-005",
+      "question": "What steps must a customer take to receive notifications about new Subprocessors used by Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sign up on the Notion website’s notification center.",
+          "correct": false,
+          "explanation": "The article does not mention a website notification center; it specifies an email process."
+        },
+        {
+          "key": "B",
+          "text": "Email [email protected] with the subject “Subscribe to New Subprocessors.”",
+          "correct": true,
+          "explanation": "Correct – This is the exact method described for subscribing to Subprocessor notifications."
+        },
+        {
+          "key": "C",
+          "text": "Enable the “Subprocessor Alerts” toggle in Workspace Settings → Notion AI.",
+          "correct": false,
+          "explanation": "No such toggle is mentioned in the article."
+        },
+        {
+          "key": "D",
+          "text": "Request a dedicated account manager to forward Subprocessor updates.",
+          "correct": false,
+          "explanation": "While possible, this is not the prescribed method in the article."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-security-practices-006",
+      "question": "Which of the following best explains the data retention policy for embeddings when a Notion page is deleted?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Embeddings are permanently retained to improve future AI responses.",
+          "correct": false,
+          "explanation": "Incorrect – The article states embeddings are deleted within 60 days of page or workspace deletion."
+        },
+        {
+          "key": "B",
+          "text": "Embeddings are deleted within 60 days after the page or workspace is deleted.",
+          "correct": true,
+          "explanation": "Correct – This matches the retention timeline described in the article."
+        },
+        {
+          "key": "C",
+          "text": "Embeddings are immediately removed, but a backup is kept for 90 days.",
+          "correct": false,
+          "explanation": "The article does not mention immediate removal or a 90‑day backup."
+        },
+        {
+          "key": "D",
+          "text": "Embeddings are retained indefinitely for compliance auditing.",
+          "correct": false,
+          "explanation": "Incorrect – Retention is limited; indefinite storage is not described."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-security-practices-007",
+      "question": "How does Notion AI handle Customer Data when it is transmitted to third‑party Subprocessors?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It sends the data in plain text to reduce latency.",
+          "correct": false,
+          "explanation": "Wrong – The article specifies encryption in transit using TLS 1.2 or greater."
+        },
+        {
+          "key": "B",
+          "text": "It encrypts the data in‑transit using TLS 1.2 or higher.",
+          "correct": true,
+          "explanation": "Correct – This is the encryption protocol mentioned for data sent to Subprocessors."
+        },
+        {
+          "key": "C",
+          "text": "It only transmits metadata, never the actual content.",
+          "correct": false,
+          "explanation": "Incorrect – The article does not say that only metadata is transmitted."
+        },
+        {
+          "key": "D",
+          "text": "It relies on the Subprocessor’s own encryption without additional safeguards.",
+          "correct": false,
+          "explanation": "Wrong – Notion adds its own TLS encryption in transit, regardless of Subprocessor measures."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-security-practices-008",
+      "question": "Which statement accurately reflects Notion’s policy on using Customer Data to train its AI models?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Customer Data is routinely used to improve Notion’s proprietary models unless the user opts out.",
+          "correct": false,
+          "explanation": "Incorrect – The article says Notion does NOT use Customer Data to train models by default."
+        },
+        {
+          "key": "B",
+          "text": "By default, Notion and its Subprocessors are contractually prohibited from using Customer Data to train any models.",
+          "correct": true,
+          "explanation": "Correct – The article specifies contractual agreements prevent use of Customer Data for training."
+        },
+        {
+          "key": "C",
+          "text": "Only Enterprise customers’ data is exempt from training, while other plans’ data may be used.",
+          "correct": false,
+          "explanation": "Wrong – The policy applies universally, not just to Enterprise customers."
+        },
+        {
+          "key": "D",
+          "text": "Notion uses Customer Data for training only after a 90‑day retention period.",
+          "correct": false,
+          "explanation": "Incorrect – No such delayed training policy is described."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-security-practices-009",
+      "question": "What are the two configurable settings available to workspace owners for controlling Notion AI’s web search behavior?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enable web search for the workspace and Require confirmation for web requests.",
+          "correct": true,
+          "explanation": "Correct – These are the two settings described in the article."
+        },
+        {
+          "key": "B",
+          "text": "Limit web search to trusted domains and Disable external image analysis.",
+          "correct": false,
+          "explanation": "Incorrect – Those specific controls are not mentioned in the article."
+        },
+        {
+          "key": "C",
+          "text": "Activate AI‑generated summaries only and Turn off PDF analysis.",
+          "correct": false,
+          "explanation": "Wrong – These are features, not the configurable web‑search settings."
+        },
+        {
+          "key": "D",
+          "text": "Set a maximum number of web results and Enable automatic citation generation.",
+          "correct": false,
+          "explanation": "Incorrect – These options are not listed as settings in the article."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-security-practices-010",
+      "question": "How can Enterprise plan customers receive alerts when sensitive data is used in an AI prompt or generated output?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "By enabling the built‑in Notion AI DLP module in Settings → Notion AI.",
+          "correct": false,
+          "explanation": "Incorrect – The article states DLP alerts are provided via third‑party integration partners, not a built‑in module."
+        },
+        {
+          "key": "B",
+          "text": "By configuring third‑party DLP integrations available on the Enterprise plan.",
+          "correct": true,
+          "explanation": "Correct – The article explains Enterprise customers can trigger DLP alerts through third‑party integrations."
+        },
+        {
+          "key": "C",
+          "text": "By requesting a custom webhook from Notion’s support team for each AI request.",
+          "correct": false,
+          "explanation": "Wrong – No such custom webhook mechanism is described."
+        },
+        {
+          "key": "D",
+          "text": "By turning on “Sensitive Content Logging” in the Workspace Security panel.",
+          "correct": false,
+          "explanation": "Incorrect – That specific toggle is not mentioned in the article."
+        }
+      ]
+    }
+  ]
+}

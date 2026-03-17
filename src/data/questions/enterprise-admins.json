@@ -1,0 +1,317 @@
+{
+  "source": "enterprise-admins",
+  "sourceTitle": "Manage your Enterprise workspace",
+  "sourceUrl": "https://www.notion.so/help/enterprise-admins",
+  "questions": [
+    {
+      "id": "enterprise-admins-001",
+      "question": "What is the primary scope of an Organization Owner's authority?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage billing and payments for the entire organization",
+          "correct": false,
+          "explanation": "While organization owners handle billing, their unique authority goes beyond payments to include managing workspaces and members centrally."
+        },
+        {
+          "key": "B",
+          "text": "To manage all workspaces and members in one central place and apply settings across the board",
+          "correct": true,
+          "explanation": "Organization owners can view and manage multiple workspaces as one organization and apply settings universally."
+        },
+        {
+          "key": "C",
+          "text": "To manage the security settings of a single workspace",
+          "correct": false,
+          "explanation": "Organization owners manage the organization level, not just a single workspace's security settings."
+        },
+        {
+          "key": "D",
+          "text": "To delete workspaces but not create new ones",
+          "correct": false,
+          "explanation": "Organization owners manage settings and views, but the specific ability to delete a workspace is attributed to Workspace Owners."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-admins-002",
+      "question": "What specific limitation applies to Membership Admins regarding workspace settings?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They cannot add new members to the workspace at all",
+          "correct": false,
+          "explanation": "Membership admins *can* add members to the workspace, but only in a 'member role'."
+        },
+        {
+          "key": "B",
+          "text": "They can edit security settings but not member groups",
+          "correct": false,
+          "explanation": "They can manage groups, but they cannot edit other workspace settings."
+        },
+        {
+          "key": "C",
+          "text": "They cannot edit other workspace settings",
+          "correct": true,
+          "explanation": "Membership admins have limited permissions; specifically, they cannot modify the general settings of the workspace itself."
+        },
+        {
+          "key": "D",
+          "text": "They can edit any setting except for workspace ownership transfer",
+          "correct": false,
+          "explanation": "They lack permission to edit workspace settings entirely, not just the ownership transfer."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-admins-003",
+      "question": "Which role is capable of deleting an entire workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Organization Owner",
+          "correct": false,
+          "explanation": "Organization owners manage settings across workspaces but do not have the specific authority to delete individual workspaces."
+        },
+        {
+          "key": "B",
+          "text": "Membership Admin",
+          "correct": false,
+          "explanation": "Membership admins can only add or remove members and manage groups; they cannot delete workspaces."
+        },
+        {
+          "key": "C",
+          "text": "Workspace Owner",
+          "correct": true,
+          "explanation": "Workspace owners can manage everything in the workspace, including the ability to delete it entirely."
+        },
+        {
+          "key": "D",
+          "text": "No role can delete a workspace",
+          "correct": false,
+          "explanation": "The Workspace Owner role specifically has the expansive permissions required to delete a workspace."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-admins-004",
+      "question": "When a Membership Admin adds a user to the workspace, what role must the user be assigned?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workspace Owner",
+          "correct": false,
+          "explanation": "Membership admins cannot add workspace owners to the workspace."
+        },
+        {
+          "key": "B",
+          "text": "Membership Admin",
+          "correct": false,
+          "explanation": "Membership admins cannot add other membership admins to the workspace."
+        },
+        {
+          "key": "C",
+          "text": "Member",
+          "correct": true,
+          "explanation": "Membership admins can only add users in a 'member role only'."
+        },
+        {
+          "key": "D",
+          "text": "Guest",
+          "correct": false,
+          "explanation": "The article specifies the 'member role' specifically, not guests."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-admins-005",
+      "question": "Which of the following actions is a Membership Admin permitted to perform regarding groups?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete the entire group",
+          "correct": false,
+          "explanation": "While they can add and remove members from groups, deleting the group itself is not explicitly mentioned as a specific permission."
+        },
+        {
+          "key": "B",
+          "text": "Add or remove members, other membership admins, and workspace owners from existing groups",
+          "correct": true,
+          "explanation": "Membership admins have permission to manage the composition of groups by adding or removing members and other admins."
+        },
+        {
+          "key": "C",
+          "text": "Create new groups without permission",
+          "correct": false,
+          "explanation": "They can only add or remove from *existing* groups, not create new ones."
+        },
+        {
+          "key": "D",
+          "text": "Edit the group description",
+          "correct": false,
+          "explanation": "Since they cannot edit other workspace settings, editing group descriptions (which are settings) would fall under this restriction."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-admins-006",
+      "question": "How does a Workspace Owner differ from a Membership Admin in terms of permissions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workspace Owners can only manage security settings",
+          "correct": false,
+          "explanation": "Workspace owners manage everything in the workspace (settings, security, members, groups), whereas Membership admins have very limited scope."
+        },
+        {
+          "key": "B",
+          "text": "Membership Admins can delete workspaces",
+          "correct": false,
+          "explanation": "Membership Admins cannot delete workspaces; only Workspace Owners have that level of authority."
+        },
+        {
+          "key": "C",
+          "text": "Workspace Owners can manage everything in the workspace from settings and security to members and groups",
+          "correct": true,
+          "explanation": "Workspace owners are described as having the most expansive permissions, covering the entire workspace's lifecycle."
+        },
+        {
+          "key": "D",
+          "text": "Membership Admins can add users to the workspace in any role",
+          "correct": false,
+          "explanation": "Membership Admins are restricted to adding users only in the 'member role'."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-admins-007",
+      "question": "Which of the following is explicitly forbidden for a Membership Admin to do within the workspace?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add users to groups",
+          "correct": false,
+          "explanation": "They are allowed to add users to groups."
+        },
+        {
+          "key": "B",
+          "text": "Remove users from groups",
+          "correct": false,
+          "explanation": "They are allowed to remove users from groups."
+        },
+        {
+          "key": "C",
+          "text": "Add a workspace owner to the workspace",
+          "correct": true,
+          "explanation": "The article explicitly states: 'Membership admins cannot add workspace owners or membership admins to the workspace.'"
+        },
+        {
+          "key": "D",
+          "text": "Add users to the workspace",
+          "correct": false,
+          "explanation": "They are allowed to add users to the workspace, provided they are assigned the 'member' role."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-admins-008",
+      "question": "What is the definition of a Workspace Owner's role?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A user who manages billing and subscriptions",
+          "correct": false,
+          "explanation": "Billing management is typically separate or handled by Org Owners, whereas Workspace Owners manage the operational aspects of the workspace."
+        },
+        {
+          "key": "B",
+          "text": "The primary administrator of a workspace with the most expansive permissions",
+          "correct": true,
+          "explanation": "The article describes them as the primary administrator with expansive permissions covering settings, security, members, and groups."
+        },
+        {
+          "key": "C",
+          "text": "A user who can view all workspaces in the organization",
+          "correct": false,
+          "explanation": "Viewing all workspaces is the specific duty of an Organization Owner."
+        },
+        {
+          "key": "D",
+          "text": "A user who can only manage member groups",
+          "correct": false,
+          "explanation": "They manage everything, not just groups."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-admins-009",
+      "question": "Can a Membership Admin add another Membership Admin to the workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, they can add any user role they want",
+          "correct": false,
+          "explanation": "Membership admins cannot add other membership admins to the workspace."
+        },
+        {
+          "key": "B",
+          "text": "No, they can only add regular members",
+          "correct": true,
+          "explanation": "The article explicitly states that Membership admins cannot add workspace owners or other membership admins to the workspace."
+        },
+        {
+          "key": "C",
+          "text": "Yes, provided they have explicit permission from an Organization Owner",
+          "correct": false,
+          "explanation": "The article does not mention permission overrides; the restriction is inherent to the role."
+        },
+        {
+          "key": "D",
+          "text": "Only if the other admin is also a Workspace Owner",
+          "correct": false,
+          "explanation": "The restriction applies to other membership admins regardless of their status."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-admins-010",
+      "question": "Organization owners are able to apply settings where?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only to the billing settings of the organization",
+          "correct": false,
+          "explanation": "Organization owners have wide-ranging control, not limited to billing."
+        },
+        {
+          "key": "B",
+          "text": "Only to the security settings of a single workspace",
+          "correct": false,
+          "explanation": "They have organization-wide control."
+        },
+        {
+          "key": "C",
+          "text": "Across the board (organization-wide)",
+          "correct": true,
+          "explanation": "Organization owners can apply settings across all workspaces and members in the organization."
+        },
+        {
+          "key": "D",
+          "text": "Nowhere, settings must be applied by individual Workspace Owners",
+          "correct": false,
+          "explanation": "Organization owners are specifically granted the ability to apply settings across the board."
+        }
+      ]
+    }
+  ]
+}

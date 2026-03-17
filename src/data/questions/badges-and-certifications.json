@@ -1,0 +1,348 @@
+{
+  "source": "badges-and-certifications",
+  "sourceTitle": "Badges & certifications",
+  "sourceUrl": "https://www.notion.so/help/badges-and-certifications",
+  "questions": [
+    {
+      "id": "badges-and-certifications-001",
+      "question": "Which three badges can you earn through Notion Academy?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials, Workflows, and Advanced",
+          "correct": true,
+          "explanation": "The article explicitly lists these three badges: Essentials (foundational skills), Workflows (collaborative skills), and Advanced (expert-level capabilities)."
+        },
+        {
+          "key": "B",
+          "text": "Beginner, Intermediate, and Expert",
+          "correct": false,
+          "explanation": "These are general skill levels, but the specific names of the badges earned through the platform are Essentials, Workflows, and Advanced."
+        },
+        {
+          "key": "C",
+          "text": "Foundation, Management, and Innovation",
+          "correct": false,
+          "explanation": "This list does not match the specific badge names mentioned in the article."
+        },
+        {
+          "key": "D",
+          "text": "Solo, Team, and Enterprise",
+          "correct": false,
+          "explanation": "These terms refer to user types or organization sizes, not the specific learning badges."
+        }
+      ]
+    },
+    {
+      "id": "badges-and-certifications-002",
+      "question": "What is the specific score required to pass the prerequisite quizzes for the Administrator Certification?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "70%",
+          "correct": false,
+          "explanation": "You need a score of 75% or higher to pass the prerequisite quizzes, not 70%."
+        },
+        {
+          "key": "B",
+          "text": "75%",
+          "correct": true,
+          "explanation": "To be eligible for the Administrator Certification, you must pass the Essentials, Workflows, and Advanced quizzes with a score of 75% or higher."
+        },
+        {
+          "key": "C",
+          "text": "80%",
+          "correct": false,
+          "explanation": "The 80% threshold applies to the final certification exam itself, not the prerequisite quizzes."
+        },
+        {
+          "key": "D",
+          "text": "90%",
+          "correct": false,
+          "explanation": "90% is not mentioned as a passing score for any part of the certification process described in the article."
+        }
+      ]
+    },
+    {
+      "id": "badges-and-certifications-003",
+      "question": "Who is eligible to take partner certifications like the Service Specialist Certification?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anyone who purchases the exam",
+          "correct": false,
+          "explanation": "Partner certifications are only available to approved applicants of the Solution Partner program, not just anyone who purchases an exam."
+        },
+        {
+          "key": "B",
+          "text": "Individuals with an Administrator Certification",
+          "correct": false,
+          "explanation": "While the Service and Technical Specialist certifications require Administrator certification, the *eligibility* to apply for the partner program requires an approved Solution Partner application."
+        },
+        {
+          "key": "C",
+          "text": "Approved Solution Partner applicants",
+          "correct": true,
+          "explanation": "The article states that partner certifications are only available through to approved applicants of the Solution Partner program."
+        },
+        {
+          "key": "D",
+          "text": "Notion employees only",
+          "correct": false,
+          "explanation": "Notion employees are not the target audience for these certifications; external partners are."
+        }
+      ]
+    },
+    {
+      "id": "badges-and-certifications-004",
+      "question": "What is the policy regarding retakes if you fail a certification exam?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "You are allowed two retakes immediately, followed by a 30-day wait.",
+          "correct": false,
+          "explanation": "The timeline is reversed; you get two retakes within 90 days, and if you fail both, you must wait 30 days to purchase again."
+        },
+        {
+          "key": "B",
+          "text": "You are allowed two retakes within 90 days. If you fail both, you must wait 30 days and purchase again.",
+          "correct": true,
+          "explanation": "The text specifies you get two retakes within 90 days of purchase. If you fail those two, you must wait 30 days before purchasing the exam again."
+        },
+        {
+          "key": "C",
+          "text": "You have unlimited retakes for 6 months.",
+          "correct": false,
+          "explanation": "There is a limit on retakes. After two failures within 90 days, you must wait 30 days to try again."
+        },
+        {
+          "key": "D",
+          "text": "You are allowed three retakes within 30 days.",
+          "correct": false,
+          "explanation": "The text specifies two retakes within 90 days, not three within 30 days."
+        }
+      ]
+    },
+    {
+      "id": "badges-and-certifications-005",
+      "question": "How much does it cost to earn a badge through Notion Academy?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is free.",
+          "correct": true,
+          "explanation": "The article explicitly states that badges are free to earn."
+        },
+        {
+          "key": "B",
+          "text": "It costs between $50 and $100.",
+          "correct": false,
+          "explanation": "That range applies to certification exams, not badges."
+        },
+        {
+          "key": "C",
+          "text": "It depends on the specific learning path.",
+          "correct": false,
+          "explanation": "All badges are free regardless of the learning path taken."
+        },
+        {
+          "key": "D",
+          "text": "It costs $150.",
+          "correct": false,
+          "explanation": "The cost of $150 is the maximum for certifications, not badges."
+        }
+      ]
+    },
+    {
+      "id": "badges-and-certifications-006",
+      "question": "What is the primary focus of the Administrator Certification?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advanced customization and integration",
+          "correct": false,
+          "explanation": "That describes the Technical Specialist Certification, which is a partner certification, not the individual Administrator Certification."
+        },
+        {
+          "key": "B",
+          "text": "Core platform management and governance",
+          "correct": true,
+          "explanation": "The Administrator Certification is described as dealing with core platform management and governance."
+        },
+        {
+          "key": "C",
+          "text": "Sales positioning and business value",
+          "correct": false,
+          "explanation": "That describes the Sales Specialist Certification, which is a partner certification."
+        },
+        {
+          "key": "D",
+          "text": "Creative design and workflow optimization",
+          "correct": false,
+          "explanation": "While design is part of Notion, the specific focus of the Administrator Certification is management and governance."
+        }
+      ]
+    },
+    {
+      "id": "badges-and-certifications-007",
+      "question": "What technology is used to verify your identity during a proctored certification exam?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Facial recognition software",
+          "correct": false,
+          "explanation": "While the proctoring uses a webcam, the specific method mentioned for identity verification is showing your ID."
+        },
+        {
+          "key": "B",
+          "text": "Screen-sharing and webcam monitoring",
+          "correct": true,
+          "explanation": "The article states that the session is monitored through webcam and screen-sharing technology to verify identity and watch for cheating."
+        },
+        {
+          "key": "C",
+          "text": "Voice analysis and microphone input",
+          "correct": false,
+          "explanation": "While a microphone is required for the exam, it is used to ensure you are speaking or taking the test, not primarily for identity verification."
+        },
+        {
+          "key": "D",
+          "text": "Browser fingerprinting",
+          "correct": false,
+          "explanation": "Browser fingerprinting is not mentioned as a method for proctoring or identity verification."
+        }
+      ]
+    },
+    {
+      "id": "badges-and-certifications-008",
+      "question": "What is the passing score required to pass the actual certification exam (as opposed to the prerequisite quizzes)?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "75%",
+          "correct": false,
+          "explanation": "75% is the passing score for the prerequisite quizzes (Essentials, Workflows, Advanced), not the final certification exam."
+        },
+        {
+          "key": "B",
+          "text": "80%",
+          "correct": true,
+          "explanation": "The article states that to pass our certification exams, you will need an exam score of 80% or higher."
+        },
+        {
+          "key": "C",
+          "text": "90%",
+          "correct": false,
+          "explanation": "90% is not mentioned as the passing threshold for any part of the certification process."
+        },
+        {
+          "key": "D",
+          "text": "100%",
+          "correct": false,
+          "explanation": "You do not need to answer 100% of the questions correctly to pass the exam."
+        }
+      ]
+    },
+    {
+      "id": "badges-and-certifications-009",
+      "question": "Where can Solution Partners access their learning journey after approval?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion Academy",
+          "correct": false,
+          "explanation": "While Academy is for badges and individual Admin certification, Solution Partners use the Marketplace Portal for their partner-specific journey."
+        },
+        {
+          "key": "B",
+          "text": "LinkedIn Learning",
+          "correct": false,
+          "explanation": "LinkedIn Learning is not mentioned as the source for Solution Partner learning journeys."
+        },
+        {
+          "key": "C",
+          "text": "Marketplace Portal at notion.com/profile/services",
+          "correct": true,
+          "explanation": "The article explicitly directs Solution Partners to access their learning journey through the Marketplace Portal at notion.com/profile/services."
+        },
+        {
+          "key": "D",
+          "text": "Notion Support Center",
+          "correct": false,
+          "explanation": "The Support Center is for troubleshooting, not for accessing partner learning journeys."
+        }
+      ]
+    },
+    {
+      "id": "badges-and-certifications-010",
+      "question": "What is the score required to pass the Essentials, Workflows, and Advanced quizzes before taking the certification exam?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "100%",
+          "correct": false,
+          "explanation": "You do not need a perfect score. The requirement is 75% or higher."
+        },
+        {
+          "key": "B",
+          "text": "50%",
+          "correct": false,
+          "explanation": "50% is too low; the requirement is 75%."
+        },
+        {
+          "key": "C",
+          "text": "75%",
+          "correct": true,
+          "explanation": "To be eligible for the Administrator Certification, you must pass the Essentials, Workflows, and Advanced quizzes with a score of 75% or higher."
+        },
+        {
+          "key": "D",
+          "text": "80%",
+          "correct": false,
+          "explanation": "80% is the passing score for the final certification exam, not the prerequisite quizzes."
+        }
+      ]
+    },
+    {
+      "id": "badges-and-certifications-011",
+      "question": "Which of the following is NOT a requirement for taking a proctored certification exam?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A quiet, private space",
+          "correct": false,
+          "explanation": "This is explicitly listed as a requirement: 'Ensure you're in a quiet, private space without interruptions.'"
+        },
+        {
+          "key": "B",
+          "text": "Closed applications except the browser",
+          "correct": false,
+          "explanation": "This is a requirement: 'Close all applications except the browser where you’ll be taking the exam.'"
+        },
+        {
+          "key": "C",
+          "text": "A working webcam and microphone",
+          "correct": false,
+          "explanation": "This is required: 'Have a working webcam and microphone.'"
+        },
+        {
+          "key": "D",
+          "text": "A smartphone nearby",
+          "correct": true,
+          "explanation": "The article advises against having other devices nearby, and a smartphone is a device. Having it nearby would violate the 'without other devices' rule implied by the proctoring rules."
+        }
+      ]
+    }
+  ]
+}

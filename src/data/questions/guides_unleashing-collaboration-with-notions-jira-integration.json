@@ -1,0 +1,317 @@
+{
+  "source": "guides_unleashing-collaboration-with-notions-jira-integration",
+  "sourceTitle": "Unleashing collaboration with Notion's Jira integration",
+  "sourceUrl": "https://www.notion.so/help/guides/unleashing-collaboration-with-notions-jira-integration",
+  "questions": [
+    {
+      "id": "unleashing-collaboration-with-notions-jira-integration-001",
+      "question": "Who must initially set up the Jira Sync integration in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any workspace member",
+          "correct": false,
+          "explanation": "Only workspace members can create syncs after the initial setup, but they cannot perform the first connection."
+        },
+        {
+          "key": "B",
+          "text": "A workspace owner who is also a Jira admin",
+          "correct": true,
+          "explanation": "The guide states a workspace owner (who must also be a Jira admin) creates the first API token and connects Notion to Jira."
+        },
+        {
+          "key": "C",
+          "text": "The Notion support team",
+          "correct": false,
+          "explanation": "Notion support does not perform the integration; it is done by the user's admin."
+        },
+        {
+          "key": "D",
+          "text": "Any Jira project lead",
+          "correct": false,
+          "explanation": "Project leads may not have the required Notion permissions; a workspace owner is required."
+        }
+      ]
+    },
+    {
+      "id": "unleashing-collaboration-with-notions-jira-integration-002",
+      "question": "What is the main advantage of using a \"linked view\" instead of creating a new sync for the same Jira project?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It creates a copy of the data for offline use",
+          "correct": false,
+          "explanation": "Linked views do not duplicate data; they reference the existing sync."
+        },
+        {
+          "key": "B",
+          "text": "It prevents duplicate data and keeps updates in sync",
+          "correct": true,
+          "explanation": "The guide recommends linked views to avoid data proliferation and ensure smoother updates."
+        },
+        {
+          "key": "C",
+          "text": "It automatically grants edit permissions to all members",
+          "correct": false,
+          "explanation": "Permissions are still controlled by the original sync's settings."
+        },
+        {
+          "key": "D",
+          "text": "It disables real‑time updates from Jira",
+          "correct": false,
+          "explanation": "Linked views continue to receive real‑time updates from the original sync."
+        }
+      ]
+    },
+    {
+      "id": "unleashing-collaboration-with-notions-jira-integration-003",
+      "question": "When consolidating Jira issues with the My Tasks database, how can you visually distinguish Jira‑synced items?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They appear in a separate section at the bottom",
+          "correct": false,
+          "explanation": "The guide mentions a visual icon, not a separate section."
+        },
+        {
+          "key": "B",
+          "text": "A Jira icon appears next to the task",
+          "correct": true,
+          "explanation": "Jira‑synced issues are marked with a Jira icon for quick identification."
+        },
+        {
+          "key": "C",
+          "text": "They are highlighted in red text",
+          "correct": false,
+          "explanation": "Color coding is not described; the icon is the cue."
+        },
+        {
+          "key": "D",
+          "text": "They are listed under a different database name",
+          "correct": false,
+          "explanation": "They reside in the same My Tasks database, not a separate one."
+        }
+      ]
+    },
+    {
+      "id": "unleashing-collaboration-with-notions-jira-integration-004",
+      "question": "Which of the following is NOT listed as a best practice for connecting Jira and Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Set up permissions for Jira sync",
+          "correct": false,
+          "explanation": "Managing permissions is explicitly recommended."
+        },
+        {
+          "key": "B",
+          "text": "Authenticate your account when adding or editing projects",
+          "correct": false,
+          "explanation": "Authentication is part of the best‑practice list."
+        },
+        {
+          "key": "C",
+          "text": "Create a new sync for every teamspace, even if data already exists",
+          "correct": true,
+          "explanation": "The guide advises using linked views instead of duplicate syncs."
+        },
+        {
+          "key": "D",
+          "text": "Customize database views for different team needs",
+          "correct": false,
+          "explanation": "Custom views are encouraged as a best practice."
+        }
+      ]
+    },
+    {
+      "id": "unleashing-collaboration-with-notions-jira-integration-005",
+      "question": "In the recommended stand‑up page setup, which Notion block type is used to embed a live view of Jira sprint data?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Embedded video block",
+          "correct": false,
+          "explanation": "A video block would not display Jira data."
+        },
+        {
+          "key": "B",
+          "text": "Linked view of database block",
+          "correct": true,
+          "explanation": "The guide tells you to use a linked view of the Jira sprint database."
+        },
+        {
+          "key": "C",
+          "text": "Code snippet block",
+          "correct": false,
+          "explanation": "Code snippets are unrelated to displaying sprint information."
+        },
+        {
+          "key": "D",
+          "text": "Table block created manually",
+          "correct": false,
+          "explanation": "While you could create a table, the live sync requires a linked view."
+        }
+      ]
+    },
+    {
+      "id": "unleashing-collaboration-with-notions-jira-integration-006",
+      "question": "How can you automate the creation of a new Notion page when a new epic is added in Jira?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enable the \"Create new pages\" toggle in the Jira sync settings",
+          "correct": false,
+          "explanation": "There is no such toggle; automation is set up via Notion's integration features."
+        },
+        {
+          "key": "B",
+          "text": "Set up a Notion automation that uses the Jira epic as a trigger to populate a PRD template",
+          "correct": true,
+          "explanation": "The guide describes this exact automation scenario."
+        },
+        {
+          "key": "C",
+          "text": "Manually copy the epic details into a Notion page each time",
+          "correct": false,
+          "explanation": "Automation eliminates the need for manual copying."
+        },
+        {
+          "key": "D",
+          "text": "Create a synced block that mirrors the Jira epic’s description",
+          "correct": false,
+          "explanation": "Synced blocks don’t create new pages; they only display content."
+        }
+      ]
+    },
+    {
+      "id": "unleashing-collaboration-with-notions-jira-integration-007",
+      "question": "What purpose do rollups serve in the context of Jira‑Notion integration?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They duplicate Jira issues into multiple Notion databases",
+          "correct": false,
+          "explanation": "Rollups aggregate data; they don’t duplicate issues."
+        },
+        {
+          "key": "B",
+          "text": "They calculate summary metrics, such as completion rates, across linked records",
+          "correct": true,
+          "explanation": "The guide mentions rollups for showing percentage of completed tasks per sprint."
+        },
+        {
+          "key": "C",
+          "text": "They create visual timelines of Jira sprints",
+          "correct": false,
+          "explanation": "Timelines are a different view type; rollups summarize data."
+        },
+        {
+          "key": "D",
+          "text": "They automatically assign Jira tickets to team members",
+          "correct": false,
+          "explanation": "Assignment is handled in Jira, not via Notion rollups."
+        }
+      ]
+    },
+    {
+      "id": "unleashing-collaboration-with-notions-jira-integration-008",
+      "question": "Which of the following statements best describes the role of the Admin API token in Jira Sync?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It grants read‑only access to Jira projects for all workspace members",
+          "correct": false,
+          "explanation": "The token is used by the integration itself, not to give read‑only rights to members."
+        },
+        {
+          "key": "B",
+          "text": "It allows the Notion integration to sync data on behalf of the workspace without relying on individual user tokens",
+          "correct": true,
+          "explanation": "The guide specifies that the Admin API token enables a unified experience across the workspace."
+        },
+        {
+          "key": "C",
+          "text": "It replaces the need for any user authentication when adding new Jira projects",
+          "correct": false,
+          "explanation": "Personal authentication is still required for private projects and to identify the user."
+        },
+        {
+          "key": "D",
+          "text": "It is only needed for connecting to Jira Server, not Jira Cloud",
+          "correct": false,
+          "explanation": "The integration works with all Jira Cloud products; the token is not limited to Server."
+        }
+      ]
+    },
+    {
+      "id": "unleashing-collaboration-with-notions-jira-integration-009",
+      "question": "When customizing the property display of a synced Jira issue database, what is the recommended way to hide unnecessary fields?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete the unwanted properties from the Notion database",
+          "correct": false,
+          "explanation": "Deleting would remove data from the sync; you should hide instead."
+        },
+        {
+          "key": "B",
+          "text": "Click the three‑dot icon next to the synced view and toggle property visibility",
+          "correct": true,
+          "explanation": "The guide shows using the three‑dot menu to customize which properties are shown."
+        },
+        {
+          "key": "C",
+          "text": "Create a separate filtered view that excludes those columns",
+          "correct": false,
+          "explanation": "While possible, the guide specifically mentions the three‑dot menu for property display."
+        },
+        {
+          "key": "D",
+          "text": "Adjust the Jira project’s field configuration to remove the fields",
+          "correct": false,
+          "explanation": "Changing Jira config is unnecessary; Notion offers UI controls for hiding fields."
+        }
+      ]
+    },
+    {
+      "id": "unleashing-collaboration-with-notions-jira-integration-010",
+      "question": "Which automation example demonstrates how Notion can push updates back to a communication channel when a Jira issue changes status?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sending a Slack message to a channel when a task is marked \"Done\" in Jira and synced to Notion",
+          "correct": true,
+          "explanation": "The guide describes this exact automation: a Slack notification triggered by a Jira status change."
+        },
+        {
+          "key": "B",
+          "text": "Posting a comment on the Jira ticket when a Notion page is edited",
+          "correct": false,
+          "explanation": "The guide does not mention bidirectional commenting."
+        },
+        {
+          "key": "C",
+          "text": "Creating a new Confluence page when a Jira epic is archived",
+          "correct": false,
+          "explanation": "Confluence is not part of the described Notion integration."
+        },
+        {
+          "key": "D",
+          "text": "Automatically assigning a Jira issue to a team member when a Notion task is completed",
+          "correct": false,
+          "explanation": "Assignment automation is not covered; the example focuses on Slack notifications."
+        }
+      ]
+    }
+  ]
+}

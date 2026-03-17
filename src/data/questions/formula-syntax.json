@@ -1,0 +1,317 @@
+{
+  "source": "formula-syntax",
+  "sourceTitle": "Formula syntax & functions",
+  "sourceUrl": "https://www.notion.so/help/formula-syntax",
+  "questions": [
+    {
+      "id": "formula-syntax-001",
+      "question": "What data type does a Checkbox property return when used in a Notion formula?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text",
+          "correct": false,
+          "explanation": "Checkboxes are not text values; they represent a true/false state."
+        },
+        {
+          "key": "B",
+          "text": "Boolean",
+          "correct": true,
+          "explanation": "Checkboxes evaluate to true or false, which is a Boolean type."
+        },
+        {
+          "key": "C",
+          "text": "Number",
+          "correct": false,
+          "explanation": "Checkboxes do not produce numeric values directly."
+        },
+        {
+          "key": "D",
+          "text": "Date",
+          "correct": false,
+          "explanation": "Checkboxes are not date values."
+        }
+      ]
+    },
+    {
+      "id": "formula-syntax-002",
+      "question": "Which function converts a piece of text to uppercase in Notion formulas?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "lower()",
+          "correct": false,
+          "explanation": "lower() makes text lowercase, not uppercase."
+        },
+        {
+          "key": "B",
+          "text": "upper()",
+          "correct": true,
+          "explanation": "upper() returns the text in all capital letters."
+        },
+        {
+          "key": "C",
+          "text": "capitalize()",
+          "correct": false,
+          "explanation": "There is no built‑in capitalize() function in Notion formulas."
+        },
+        {
+          "key": "D",
+          "text": "title()",
+          "correct": false,
+          "explanation": "title() does not exist; the correct function is upper()."
+        }
+      ]
+    },
+    {
+      "id": "formula-syntax-003",
+      "question": "What does the expression `dateAdd(now(), 1, \"days\")` produce?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The current date and time plus one day",
+          "correct": true,
+          "explanation": "dateAdd adds the specified amount of time; here it adds one day to now()."
+        },
+        {
+          "key": "B",
+          "text": "The current date and time minus one day",
+          "correct": false,
+          "explanation": "Subtracting would require dateSubtract, not dateAdd."
+        },
+        {
+          "key": "C",
+          "text": "The same date and time (no change)",
+          "correct": false,
+          "explanation": "An addition is performed, so the result changes."
+        },
+        {
+          "key": "D",
+          "text": "An error, because the unit \"days\" is invalid",
+          "correct": false,
+          "explanation": "\"days\" is a valid unit for dateAdd."
+        }
+      ]
+    },
+    {
+      "id": "formula-syntax-004",
+      "question": "How can you test whether a multi‑select property called \"Tags\" contains the value \"Finance\"?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "contains(prop(\"Tags\"), \"Finance\")",
+          "correct": false,
+          "explanation": "contains works on text, not on list values."
+        },
+        {
+          "key": "B",
+          "text": "includes(prop(\"Tags\"), \"Finance\")",
+          "correct": true,
+          "explanation": "includes() checks if a list contains a specific element."
+        },
+        {
+          "key": "C",
+          "text": "test(prop(\"Tags\"), \"Finance\")",
+          "correct": false,
+          "explanation": "test is for regular‑expression matching on text, not list membership."
+        },
+        {
+          "key": "D",
+          "text": "match(prop(\"Tags\"), \"Finance\")",
+          "correct": false,
+          "explanation": "match returns a list of regex matches; it does not directly answer a membership test."
+        }
+      ]
+    },
+    {
+      "id": "formula-syntax-005",
+      "question": "Using the ternary operator, which expression returns \"Complete\" when `prop(\"Checked\")` is true and \"Incomplete\" otherwise?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "if(prop(\"Checked\"), \"Complete\", \"Incomplete\")",
+          "correct": false,
+          "explanation": "if() works, but the question specifically asks for the ternary syntax."
+        },
+        {
+          "key": "B",
+          "text": "prop(\"Checked\") ? \"Complete\" : \"Incomplete\"",
+          "correct": true,
+          "explanation": "The ternary operator uses the pattern condition ? valueIfTrue : valueIfFalse."
+        },
+        {
+          "key": "C",
+          "text": "ifs(prop(\"Checked\"), \"Complete\", \"Incomplete\")",
+          "correct": false,
+          "explanation": "ifs() is for multiple conditions, not the ternary operator."
+        },
+        {
+          "key": "D",
+          "text": "prop(\"Checked\") && \"Complete\" || \"Incomplete\"",
+          "correct": false,
+          "explanation": "While this may produce the right result in some languages, it is not the ternary syntax defined by Notion."
+        }
+      ]
+    },
+    {
+      "id": "formula-syntax-006",
+      "question": "Which built‑in function extracts the year component from a date value?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "month()",
+          "correct": false,
+          "explanation": "month() returns the month number, not the year."
+        },
+        {
+          "key": "B",
+          "text": "year()",
+          "correct": true,
+          "explanation": "year() returns the four‑digit year of a date."
+        },
+        {
+          "key": "C",
+          "text": "day()",
+          "correct": false,
+          "explanation": "day() returns the day of the week (1‑7)."
+        },
+        {
+          "key": "D",
+          "text": "week()",
+          "correct": false,
+          "explanation": "week() returns the ISO week number, not the year."
+        }
+      ]
+    },
+    {
+      "id": "formula-syntax-007",
+      "question": "Which of the following expressions correctly calculates the area of a circle using a radius property `prop(\"Radius\")`?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "pi() * prop(\"Radius\") ^ 2",
+          "correct": true,
+          "explanation": "Area = π × r²; this uses the pi() function and exponentiation."
+        },
+        {
+          "key": "B",
+          "text": "multiply(prop(\"Radius\"), pi())",
+          "correct": false,
+          "explanation": "This multiplies radius by π but does not square the radius, so it’s not the area."
+        },
+        {
+          "key": "C",
+          "text": "pow(prop(\"Radius\"), 2) * pi()",
+          "correct": false,
+          "explanation": "Although mathematically correct, the official Notion syntax for exponentiation is `^`, not `pow()` here; `pow()` exists but the question expects the canonical form."
+        },
+        {
+          "key": "D",
+          "text": "All of the above",
+          "correct": false,
+          "explanation": "Only option A follows the standard Notion formula for area."
+        }
+      ]
+    },
+    {
+      "id": "formula-syntax-008",
+      "question": "What does `formatDate(now(), \"MM/DD/YYYY\")` output?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A formatted string such as \"08/30/2023\"",
+          "correct": true,
+          "explanation": "formatDate returns a text string according to the provided pattern."
+        },
+        {
+          "key": "B",
+          "text": "A date object representing the same moment",
+          "correct": false,
+          "explanation": "formatDate converts the date to text, not to another date object."
+        },
+        {
+          "key": "C",
+          "text": "A Unix timestamp (number of milliseconds)",
+          "correct": false,
+          "explanation": "Timestamps are returned by timestamp(), not formatDate."
+        },
+        {
+          "key": "D",
+          "text": "An error because the pattern uses uppercase letters",
+          "correct": false,
+          "explanation": "The pattern is valid; uppercase month and day tokens are supported."
+        }
+      ]
+    },
+    {
+      "id": "formula-syntax-009",
+      "question": "Which expression returns the average of a numeric list property `prop(\"Numbers\")`, but returns 0 when the list is empty?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "mean(prop(\"Numbers\"))",
+          "correct": false,
+          "explanation": "mean() on an empty list would return an error, not 0."
+        },
+        {
+          "key": "B",
+          "text": "if(empty(prop(\"Numbers\")), 0, mean(prop(\"Numbers\")))",
+          "correct": true,
+          "explanation": "The if() checks for emptiness and supplies 0 as the fallback."
+        },
+        {
+          "key": "C",
+          "text": "sum(prop(\"Numbers\")) / length(prop(\"Numbers\"))",
+          "correct": false,
+          "explanation": "Division by zero occurs when the list is empty, causing an error."
+        },
+        {
+          "key": "D",
+          "text": "0",
+          "correct": false,
+          "explanation": "Always returning 0 ignores the actual data in the list."
+        }
+      ]
+    },
+    {
+      "id": "formula-syntax-010",
+      "question": "What is the key difference between the `replace` and `replaceAll` functions, and when would you need `replaceAll`?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "`replace` replaces only the first match; `replaceAll` replaces every match. Use `replaceAll` when you need to change all occurrences, e.g., `replaceAll(\"Notion 123 Notion 456\", \"\\\\d+\", \"X\")`.",
+          "correct": true,
+          "explanation": "This correctly describes the behavior and gives a concrete example where multiple matches must be changed."
+        },
+        {
+          "key": "B",
+          "text": "`replaceAll` replaces only the first match; `replace` replaces every match.",
+          "correct": false,
+          "explanation": "`replaceAll` does the opposite of what is described here."
+        },
+        {
+          "key": "C",
+          "text": "Both functions replace all matches; they are interchangeable.",
+          "correct": false,
+          "explanation": "They are not interchangeable; `replace` stops after the first match."
+        },
+        {
+          "key": "D",
+          "text": "`replace` works with regular expressions, while `replaceAll` works only with plain text.",
+          "correct": false,
+          "explanation": "Both accept regular expressions; the distinction is about the number of replacements."
+        }
+      ]
+    }
+  ]
+}

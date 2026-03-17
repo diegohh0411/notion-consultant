@@ -1,0 +1,317 @@
+{
+  "source": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs",
+  "sourceTitle": "Product teams nail cross-functional collaboration with these notes and docs templates",
+  "sourceUrl": "https://www.notion.so/help/guides/product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs",
+  "questions": [
+    {
+      "id": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs-001",
+      "question": "What is the primary reason the guide recommends creating separate Meeting Notes and Docs databases?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To keep meeting recordings separate from design files",
+          "correct": false,
+          "explanation": "The guide isn’t about file type separation; it’s about centralizing distinct kinds of information."
+        },
+        {
+          "key": "B",
+          "text": "To give product teams a single source of truth for both discussions and deliverable documents",
+          "correct": true,
+          "explanation": "Correct – the guide emphasizes a unified place for all meeting decisions and product documentation."
+        },
+        {
+          "key": "C",
+          "text": "Because Notion only allows one type of content per database",
+          "correct": false,
+          "explanation": "Notion supports mixed content; the separation is a strategic choice, not a technical limitation."
+        },
+        {
+          "key": "D",
+          "text": "To meet a licensing requirement from Notion’s enterprise plan",
+          "correct": false,
+          "explanation": "There is no licensing rule dictating this structure."
+        }
+      ]
+    },
+    {
+      "id": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs-002",
+      "question": "Which property would you most likely add to a Docs database to track the document’s lifecycle?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Created time",
+          "correct": false,
+          "explanation": "Created time shows when the page was made, not its current stage."
+        },
+        {
+          "key": "B",
+          "text": "Status",
+          "correct": true,
+          "explanation": "The guide recommends a ‘Status’ select property (e.g., in progress, for review) to monitor the document’s lifecycle."
+        },
+        {
+          "key": "C",
+          "text": "Priority",
+          "correct": false,
+          "explanation": "Priority helps order docs but doesn’t describe their lifecycle."
+        },
+        {
+          "key": "D",
+          "text": "Meeting participants",
+          "correct": false,
+          "explanation": "That property belongs to Meeting Notes, not Docs."
+        }
+      ]
+    },
+    {
+      "id": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs-003",
+      "question": "What advantage does a linked database provide for product teams?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It creates a copy of the original database that does not sync changes",
+          "correct": false,
+          "explanation": "Linked databases stay synchronized with the source; they are not independent copies."
+        },
+        {
+          "key": "B",
+          "text": "It lets you embed a filtered view of the original database on any page, keeping information relevant to that context",
+          "correct": true,
+          "explanation": "Correct – linked databases show a view of the original with its own filters, making data accessible where needed."
+        },
+        {
+          "key": "C",
+          "text": "It automatically deletes entries that are older than 30 days",
+          "correct": false,
+          "explanation": "There is no auto‑deletion feature mentioned for linked databases."
+        },
+        {
+          "key": "D",
+          "text": "It converts the database into a static PDF for sharing",
+          "correct": false,
+          "explanation": "Linked databases remain interactive; they don’t produce PDFs."
+        }
+      ]
+    },
+    {
+      "id": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs-004",
+      "question": "When setting up a view to see only high‑priority meetings, which combination of property type and filter logic is required?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Select property named ‘Priority’ with a filter set to ‘is’ P1, P2, or P3",
+          "correct": true,
+          "explanation": "The guide suggests using a Select property for priority levels (P1, P2, P3) and filtering on those values."
+        },
+        {
+          "key": "B",
+          "text": "A Date property filtered to the next 7 days",
+          "correct": false,
+          "explanation": "Date filters control timing, not priority."
+        },
+        {
+          "key": "C",
+          "text": "A Person property filtered to the meeting organizer",
+          "correct": false,
+          "explanation": "Filtering by Person shows who organized, not the meeting’s importance."
+        },
+        {
+          "key": "D",
+          "text": "A Number property filtered to values greater than 5",
+          "correct": false,
+          "explanation": "The guide does not mention a numeric priority system."
+        }
+      ]
+    },
+    {
+      "id": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs-005",
+      "question": "Which of the following best describes how templates improve documentation workflow for product teams?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Templates lock pages so they cannot be edited after creation",
+          "correct": false,
+          "explanation": "Templates create a starter structure but pages remain editable."
+        },
+        {
+          "key": "B",
+          "text": "Templates generate a new page with predefined headings and sections, ensuring consistency across similar notes or docs",
+          "correct": true,
+          "explanation": "The guide highlights that templates pre‑populate pages with standard structure, saving time and keeping format uniform."
+        },
+        {
+          "key": "C",
+          "text": "Templates automatically assign reviewers based on the document type",
+          "correct": false,
+          "explanation": "Assigning reviewers is a manual step; templates do not auto‑assign."
+        },
+        {
+          "key": "D",
+          "text": "Templates replace the need for any custom properties",
+          "correct": false,
+          "explanation": "Templates work alongside properties; they don’t eliminate the need for them."
+        }
+      ]
+    },
+    {
+      "id": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs-006",
+      "question": "A product team wants to see all Docs where they are mentioned as a reviewer. Which feature should they configure?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a new List view and sort by ‘Created’ date",
+          "correct": false,
+          "explanation": "Sorting by date won’t filter for reviewer involvement."
+        },
+        {
+          "key": "B",
+          "text": "Add a filter on the ‘Reviewers’ Person property to include the current user",
+          "correct": true,
+          "explanation": "Filtering the ‘Reviewers’ property to the current user shows only docs where they are tagged."
+        },
+        {
+          "key": "C",
+          "text": "Use a Relation property to link Docs to the Meeting Notes database",
+          "correct": false,
+          "explanation": "Relations connect items but don’t directly filter by reviewer."
+        },
+        {
+          "key": "D",
+          "text": "Enable backlinks on the Docs database",
+          "correct": false,
+          "explanation": "Backlinks show where a page is linked, not who is a reviewer."
+        }
+      ]
+    },
+    {
+      "id": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs-007",
+      "question": "Why does the guide suggest using a ‘Last edited time’ property in the Docs database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically archive documents older than a month",
+          "correct": false,
+          "explanation": "The property tracks edits; it doesn’t archive automatically."
+        },
+        {
+          "key": "B",
+          "text": "To help team members quickly identify the most recently updated documents",
+          "correct": true,
+          "explanation": "‘Last edited time’ shows recent activity, aiding prioritization and review."
+        },
+        {
+          "key": "C",
+          "text": "To replace the need for a ‘Created’ date property",
+          "correct": false,
+          "explanation": "Both properties serve different purposes; one tracks creation, the other updates."
+        },
+        {
+          "key": "D",
+          "text": "To enforce a mandatory review cycle every 7 days",
+          "correct": false,
+          "explanation": "The property is informative, not a workflow enforcement tool."
+        }
+      ]
+    },
+    {
+      "id": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs-008",
+      "question": "A team wants to ensure that every sprint planning meeting includes a ‘Sprint Goal’ section. Which Notion feature best guarantees this consistency?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a custom view that only shows pages with a ‘Sprint Goal’ heading",
+          "correct": false,
+          "explanation": "Views can filter content but can’t enforce the presence of a heading."
+        },
+        {
+          "key": "B",
+          "text": "Add a ‘Sprint Goal’ property and make it required",
+          "correct": false,
+          "explanation": "Properties are separate from page content; they don’t ensure a heading exists."
+        },
+        {
+          "key": "C",
+          "text": "Build a Sprint Planning template that includes an H2 header titled ‘Sprint Goal’",
+          "correct": true,
+          "explanation": "Templates pre‑populate the page with the desired heading, guaranteeing its presence each time the template is used."
+        },
+        {
+          "key": "D",
+          "text": "Use a Relation property linking to a ‘Goals’ database",
+          "correct": false,
+          "explanation": "Relations link records but don’t embed a specific heading in the page."
+        }
+      ]
+    },
+    {
+      "id": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs-009",
+      "question": "How does using a Relation property between Docs/Meeting Notes and a Projects database improve cross‑functional visibility?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically copies all project files into the Docs database",
+          "correct": false,
+          "explanation": "Relations link records; they don’t duplicate files."
+        },
+        {
+          "key": "B",
+          "text": "It allows users to see all decisions and documents associated with a specific project in one place",
+          "correct": true,
+          "explanation": "The guide states that a Relation connects notes and docs to projects, giving a unified view of related work."
+        },
+        {
+          "key": "C",
+          "text": "It disables editing of linked pages to preserve original content",
+          "correct": false,
+          "explanation": "Relations don’t affect edit permissions."
+        },
+        {
+          "key": "D",
+          "text": "It creates a separate backup of the Projects database",
+          "correct": false,
+          "explanation": "Relations are references, not backups."
+        }
+      ]
+    },
+    {
+      "id": "guides_product-teams-nail-cross-functional-collaboration-with-these-notes-and-docs-010",
+      "question": "Which combination of steps correctly creates a new List database for Meeting Notes from the Notion sidebar?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click ‘+’ → select ‘Table’ → rename it to Meeting Notes",
+          "correct": false,
+          "explanation": "While possible, the guide specifically starts with a List view, not a Table."
+        },
+        {
+          "key": "B",
+          "text": "Click ‘+’ → choose ‘List’ → customize properties and optionally add an emoji",
+          "correct": true,
+          "explanation": "The guide outlines creating a List database via the sidebar ‘+’, then customizing it."
+        },
+        {
+          "key": "C",
+          "text": "Press ‘/list’ inside a page and convert the block to a database",
+          "correct": false,
+          "explanation": "‘/list’ creates a list block, not a database."
+        },
+        {
+          "key": "D",
+          "text": "Duplicate an existing Docs database and rename it to Meeting Notes",
+          "correct": false,
+          "explanation": "Duplicating is a shortcut but not the process described for initial creation."
+        }
+      ]
+    }
+  ]
+}

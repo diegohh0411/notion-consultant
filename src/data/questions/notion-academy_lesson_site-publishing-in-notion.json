@@ -1,0 +1,224 @@
+{
+  "source": "notion-academy_lesson_site-publishing-in-notion",
+  "sourceTitle": "Build a website in Notion",
+  "sourceUrl": "https://www.notion.so/help/notion-academy/lesson/site-publishing-in-notion",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_site-publishing-in-notion-001",
+      "question": "What is the first step to make a Notion page visible as a website?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enable \"Share to web\" for the page",
+          "correct": true,
+          "explanation": "Turning on \"Share to web\" makes the page publicly accessible, which is required before it can be used as a website."
+        },
+        {
+          "key": "B",
+          "text": "Add a custom domain in Notion settings",
+          "correct": false,
+          "explanation": "Custom domains are added after the page is already shared publicly; they are not the first step."
+        },
+        {
+          "key": "C",
+          "text": "Create a new workspace for the site",
+          "correct": false,
+          "explanation": "A separate workspace is unnecessary; any page in an existing workspace can be published."
+        },
+        {
+          "key": "D",
+          "text": "Install a third‑party plugin for publishing",
+          "correct": false,
+          "explanation": "Notion’s built‑in \"Share to web\" feature does not require external plugins."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_site-publishing-in-notion-002",
+      "question": "Which of the following options can you customize directly in Notion’s website publishing settings?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Site favicon",
+          "correct": true,
+          "explanation": "Notion allows you to upload a favicon that appears in browser tabs for the published site."
+        },
+        {
+          "key": "B",
+          "text": "Meta description for SEO",
+          "correct": false,
+          "explanation": "Notion does not currently provide a field to edit meta descriptions; you’d need external tools for SEO."
+        },
+        {
+          "key": "C",
+          "text": "Custom CSS styles",
+          "correct": false,
+          "explanation": "Notion does not support custom CSS in its native publishing workflow."
+        },
+        {
+          "key": "D",
+          "text": "Server‑side redirects",
+          "correct": false,
+          "explanation": "Redirects must be handled outside of Notion, typically via the domain provider."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_site-publishing-in-notion-003",
+      "question": "If you want to use your own domain (e.g., www.mybrand.com) with a Notion‑published site, which service must you configure?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion’s internal DNS server",
+          "correct": false,
+          "explanation": "Notion does not provide its own DNS service; you must use an external DNS provider."
+        },
+        {
+          "key": "B",
+          "text": "Your domain registrar’s DNS records",
+          "correct": true,
+          "explanation": "You point a CNAME (or ALIAS) record from your registrar to Notion’s publishing domain to link the custom domain."
+        },
+        {
+          "key": "C",
+          "text": "A third‑party static site generator",
+          "correct": false,
+          "explanation": "Static site generators are unrelated to connecting a custom domain to Notion’s live page."
+        },
+        {
+          "key": "D",
+          "text": "A VPN tunnel to Notion’s servers",
+          "correct": false,
+          "explanation": "VPNs are not used for domain mapping; DNS configuration is the correct method."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_site-publishing-in-notion-004",
+      "question": "Why might a Notion‑published site have limited SEO performance compared to a traditional website?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion pages cannot be indexed by search engines",
+          "correct": false,
+          "explanation": "Search engines can index Notion pages; the limitation is not total exclusion."
+        },
+        {
+          "key": "B",
+          "text": "Notion does not let you add structured data, meta tags, or custom titles for each page",
+          "correct": true,
+          "explanation": "Without control over meta tags and structured data, SEO optimization is constrained."
+        },
+        {
+          "key": "C",
+          "text": "Notion forces all pages to load over HTTP, not HTTPS",
+          "correct": false,
+          "explanation": "Notion serves pages over HTTPS, so this is not the issue."
+        },
+        {
+          "key": "D",
+          "text": "Notion limits the number of pages you can publish",
+          "correct": false,
+          "explanation": "Page count does not directly affect SEO; the key factor is lack of SEO‑specific controls."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_site-publishing-in-notion-005",
+      "question": "Which of the following statements about Notion’s \"Share to web\" link is true?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The link can be password‑protected through Notion settings",
+          "correct": false,
+          "explanation": "Notion does not offer native password protection for public links."
+        },
+        {
+          "key": "B",
+          "text": "Anyone with the link can view the page, even without a Notion account",
+          "correct": true,
+          "explanation": "The public link grants view access to anyone, regardless of account status."
+        },
+        {
+          "key": "C",
+          "text": "The link automatically expires after 30 days",
+          "correct": false,
+          "explanation": "Public links remain active until you manually disable \"Share to web\"."
+        },
+        {
+          "key": "D",
+          "text": "The link can be edited to change the page’s URL slug",
+          "correct": false,
+          "explanation": "The URL slug is generated by Notion and cannot be altered via the link."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_site-publishing-in-notion-006",
+      "question": "When publishing a multi‑page Notion site, how can you ensure visitors can navigate between pages without exposing the internal Notion hierarchy?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a master page with linked sub‑pages and enable \"Full‑width\" view",
+          "correct": false,
+          "explanation": "While linking helps navigation, \"Full‑width\" view does not hide the hierarchy; visitors still see the Notion UI."
+        },
+        {
+          "key": "B",
+          "text": "Use Notion’s \"Table of contents\" block on each page and hide the sidebar via the \"Hide navigation\" toggle",
+          "correct": true,
+          "explanation": "The Table of Contents provides internal navigation, and the \"Hide navigation\" toggle removes the Notion sidebar, giving a clean website feel."
+        },
+        {
+          "key": "C",
+          "text": "Export each page as HTML and host them on an external server",
+          "correct": false,
+          "explanation": "Exporting defeats the purpose of using Notion’s live publishing feature."
+        },
+        {
+          "key": "D",
+          "text": "Add a third‑party JavaScript navigation bar through an embed block",
+          "correct": false,
+          "explanation": "Notion does not allow custom JavaScript, so this approach is not possible."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_site-publishing-in-notion-007",
+      "question": "What limitation should you consider when deciding whether Notion is the right tool for a high‑traffic commercial website?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion caps the number of concurrent visitors to 100 per page",
+          "correct": false,
+          "explanation": "There is no explicit hard cap, but performance can degrade under heavy load."
+        },
+        {
+          "key": "B",
+          "text": "Notion’s publishing infrastructure is not optimized for large‑scale traffic and lacks advanced performance controls like CDN caching rules",
+          "correct": true,
+          "explanation": "While Notion provides basic CDN caching, it does not give fine‑grained control needed for high‑traffic sites."
+        },
+        {
+          "key": "C",
+          "text": "Notion does not support HTTPS, making it unsuitable for secure transactions",
+          "correct": false,
+          "explanation": "Notion serves pages over HTTPS by default."
+        },
+        {
+          "key": "D",
+          "text": "Notion requires a paid plan for any public website, increasing cost for commercial use",
+          "correct": false,
+          "explanation": "Public publishing is available on free plans; cost is not the primary limitation for traffic."
+        }
+      ]
+    }
+  ]
+}

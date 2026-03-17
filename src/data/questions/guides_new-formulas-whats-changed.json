@@ -1,0 +1,317 @@
+{
+  "source": "guides_new-formulas-whats-changed",
+  "sourceTitle": "Formulas 2.0: How to use Notion’s new and improved formulas with your existing setups",
+  "sourceUrl": "https://www.notion.com/help/guides/new-formulas-whats-changed",
+  "questions": [
+    {
+      "id": "guides_new-formulas-whats-changed-001",
+      "question": "Which of the following property types can now be returned directly by a formula in Notion 2.0?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only text, numeric, and checkbox (boolean)",
+          "correct": false,
+          "explanation": "These were the only output types in the original formula language."
+        },
+        {
+          "key": "B",
+          "text": "Pages, dates, people, and lists",
+          "correct": true,
+          "explanation": "Formulas 2.0 added support for rich data outputs, including pages, dates, people, and list types."
+        },
+        {
+          "key": "C",
+          "text": "Images, videos, and audio files",
+          "correct": false,
+          "explanation": "Media files are still not supported as direct formula outputs."
+        },
+        {
+          "key": "D",
+          "text": "Only dates and numbers",
+          "correct": false,
+          "explanation": "While dates and numbers are supported, the new set is broader than just those two types."
+        }
+      ]
+    },
+    {
+      "id": "guides_new-formulas-whats-changed-002",
+      "question": "What keyword is used to create a local variable inside a Notion formula?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "var()",
+          "correct": false,
+          "explanation": "`var()` is not part of Notion’s formula syntax."
+        },
+        {
+          "key": "B",
+          "text": "let()",
+          "correct": true,
+          "explanation": "`let()` creates a variable by taking a name, a value, and the rest of the formula."
+        },
+        {
+          "key": "C",
+          "text": "const()",
+          "correct": false,
+          "explanation": "`const()` is not supported in the Notion formula language."
+        },
+        {
+          "key": "D",
+          "text": "define()",
+          "correct": false,
+          "explanation": "`define()` is not a valid function for variable creation."
+        }
+      ]
+    },
+    {
+      "id": "guides_new-formulas-whats-changed-003",
+      "question": "How can you retrieve the email address of the user who created a page using the new formula language?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "prop(\"Created By\").email()",
+          "correct": true,
+          "explanation": "The `email()` method on a person property returns the user’s email address."
+        },
+        {
+          "key": "B",
+          "text": "prop(\"Created By\").getEmail()",
+          "correct": false,
+          "explanation": "`getEmail()` is not a recognized method in Notion formulas."
+        },
+        {
+          "key": "C",
+          "text": "email(prop(\"Created By\"))",
+          "correct": false,
+          "explanation": "Email is accessed via a method on the property, not a standalone function."
+        },
+        {
+          "key": "D",
+          "text": "prop(\"Created By\").mail()",
+          "correct": false,
+          "explanation": "`mail()` does not exist in the formula syntax."
+        }
+      ]
+    },
+    {
+      "id": "guides_new-formulas-whats-changed-004",
+      "question": "During the automatic migration, how were person‑type properties transformed to keep their original text output?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They were left unchanged, still returning a list of people.",
+          "correct": false,
+          "explanation": "Leaving them unchanged would change the output type, breaking existing views."
+        },
+        {
+          "key": "B",
+          "text": "They were converted to `prop(\"Person\").map(current.format()).join(\", \")`.",
+          "correct": true,
+          "explanation": "The migration maps each person to its formatted text and joins them with commas, preserving the original string output."
+        },
+        {
+          "key": "C",
+          "text": "They were converted to a numeric ID for each person.",
+          "correct": false,
+          "explanation": "Person properties are not turned into numbers during migration."
+        },
+        {
+          "key": "D",
+          "text": "They were replaced by a placeholder string \"[Person]\".",
+          "correct": false,
+          "explanation": "No placeholder is used; the actual names are kept via mapping and joining."
+        }
+      ]
+    },
+    {
+      "id": "guides_new-formulas-whats-changed-005",
+      "question": "What new feature of the formula editor helps you fix syntax problems more quickly?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It sends an email report of all errors.",
+          "correct": false,
+          "explanation": "The editor does not send email reports."
+        },
+        {
+          "key": "B",
+          "text": "It highlights errors inline and provides actionable messages.",
+          "correct": true,
+          "explanation": "The updated editor type‑checks and highlights errors directly in the code box, making them easier to locate and resolve."
+        },
+        {
+          "key": "C",
+          "text": "It automatically removes any erroneous lines.",
+          "correct": false,
+          "explanation": "The editor does not delete code automatically; you must fix it yourself."
+        },
+        {
+          "key": "D",
+          "text": "It disables the formula until all errors are fixed.",
+          "correct": false,
+          "explanation": "Formulas can still be saved; the editor just warns you."
+        }
+      ]
+    },
+    {
+      "id": "guides_new-formulas-whats-changed-006",
+      "question": "Given a subtotal property, which of the following `let` statements correctly calculates sales tax (9.9 %) and adds it to the subtotal?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "let(SalesTax, prop(\"Subtotal\") * 0.099, prop(\"Subtotal\") + SalesTax)",
+          "correct": true,
+          "explanation": "`let` takes the variable name, its value, then the rest of the formula. This correctly defines `SalesTax` and adds it to the subtotal."
+        },
+        {
+          "key": "B",
+          "text": "let(SalesTax = prop(\"Subtotal\") * 0.099, prop(\"Subtotal\") + SalesTax)",
+          "correct": false,
+          "explanation": "`let` does not use `=` for assignment."
+        },
+        {
+          "key": "C",
+          "text": "let(SalesTax, (prop(\"Subtotal\") * 0.099) + prop(\"Subtotal\"))",
+          "correct": false,
+          "explanation": "This defines `SalesTax` as the total amount, not the tax amount, and never returns the final value."
+        },
+        {
+          "key": "D",
+          "text": "let(prop(\"Subtotal\"), SalesTax, prop(\"Subtotal\") + SalesTax)",
+          "correct": false,
+          "explanation": "The first argument must be the variable name, not a property call."
+        }
+      ]
+    },
+    {
+      "id": "guides_new-formulas-whats-changed-007",
+      "question": "How can you reference a property in a related database without creating a rollup?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use `prop(\"Relation\").prop(\"Field\")` directly.",
+          "correct": false,
+          "explanation": "You must iterate over the relation because it returns a list."
+        },
+        {
+          "key": "B",
+          "text": "Use `prop(\"Relation\").map(current.prop(\"Field\"))` to extract the field from each related record.",
+          "correct": true,
+          "explanation": "The `map()` function lets you pull a specific property from each item in a relation, eliminating the need for a rollup."
+        },
+        {
+          "key": "C",
+          "text": "Create a hidden rollup property first, then reference it.",
+          "correct": false,
+          "explanation": "The whole point of the new capability is to avoid the extra rollup step."
+        },
+        {
+          "key": "D",
+          "text": "It is not possible; rollups are still required.",
+          "correct": false,
+          "explanation": "Formula 2.0 introduces direct referencing through functions like `map()` and `filter()`."
+        }
+      ]
+    },
+    {
+      "id": "guides_new-formulas-whats-changed-008",
+      "question": "Which of the following functions were introduced with Formulas 2.0?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "`match()` and `style()`",
+          "correct": true,
+          "explanation": "Both `match()` and `style()` are listed as new functions in the release notes."
+        },
+        {
+          "key": "B",
+          "text": "`sum()` and `average()`",
+          "correct": false,
+          "explanation": "These functions already existed before 2.0."
+        },
+        {
+          "key": "C",
+          "text": "`regex()` and `parseDate()`",
+          "correct": false,
+          "explanation": "These are not mentioned as new in the article."
+        },
+        {
+          "key": "D",
+          "text": "`if()` and `concat()`",
+          "correct": false,
+          "explanation": "`if()` and `concat()` are legacy functions, not new additions."
+        }
+      ]
+    },
+    {
+      "id": "guides_new-formulas-whats-changed-009",
+      "question": "Why does removing the conversion chain (`.map(current.format()).join(\", \")`) from a person property change the formula’s output type?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It forces the formula to return the raw list of person objects instead of a string.",
+          "correct": true,
+          "explanation": "The conversion chain turns the list into a comma‑separated string; without it, the property returns its native list type, which is a collection of person objects."
+        },
+        {
+          "key": "B",
+          "text": "It converts the list into a numeric ID for each person.",
+          "correct": false,
+          "explanation": "No numeric conversion occurs; the output remains a list of person objects."
+        },
+        {
+          "key": "C",
+          "text": "It triggers a syntax error, causing the formula to fail.",
+          "correct": false,
+          "explanation": "Removing the chain is syntactically valid; the change is about data type, not errors."
+        },
+        {
+          "key": "D",
+          "text": "It changes the property to a text type automatically.",
+          "correct": false,
+          "explanation": "The property’s native type is a list of people; only the conversion chain produced text."
+        }
+      ]
+    },
+    {
+      "id": "guides_new-formulas-whats-changed-010",
+      "question": "Which of the following formulas correctly calculates the percentage of completed tasks in a related \"Tasks\" database and returns a status string using `let` and `ifs`?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "let(percentComplete,\n  round(\n    prop(\"Tasks\").map(current.prop(\"Status\")).filter(current == \"Done\").length()\n    / prop(\"Tasks\").map(current.prop(\"Status\")).length() * 100\n  ),\n  ifs(\n    percentComplete == 100, \"✅ All tasks complete\",\n    percentComplete > 0, \"⚠️ In progress (\" + percentComplete + \")%\",\n    \"❌ Not started\"\n  )\n)",
+          "correct": true,
+          "explanation": "This formula defines `percentComplete` with the correct calculation, rounds it, and then uses `ifs` to return the appropriate status string."
+        },
+        {
+          "key": "B",
+          "text": "let(percentComplete,\n  prop(\"Tasks\").filter(current.prop(\"Status\") == \"Done\").length()\n  / prop(\"Tasks\").length() * 100,\n  ifs(\n    percentComplete == 100, \"✅ All tasks complete\",\n    percentComplete > 0, \"⚠️ In progress (\" + percentComplete + \")%\",\n    \"❌ Not started\"\n  )\n)",
+          "correct": false,
+          "explanation": "`filter` cannot be called directly on a relation; you must first `map` to the status field before filtering."
+        },
+        {
+          "key": "C",
+          "text": "let(percentComplete,\n  round(\n    prop(\"Tasks\").map(current.prop(\"Status\")).filter(current == \"Done\").length()\n    / prop(\"Tasks\").map(current.prop(\"Status\")).length() * 100\n  ),\n  if(percentComplete == 100, \"✅ All tasks complete\", \"❌ Not started\")\n)",
+          "correct": false,
+          "explanation": "The formula uses `if` instead of `ifs`, missing the intermediate \"In progress\" case and therefore does not fully match the requirement."
+        },
+        {
+          "key": "D",
+          "text": "let(percentComplete,\n  round(\n    prop(\"Tasks\").map(current.prop(\"Status\")).filter(current == \"Done\").length()\n    / prop(\"Tasks\").length() * 100\n  ),\n  ifs(\n    percentComplete == 100, \"✅ All tasks complete\",\n    percentComplete > 0, \"⚠️ In progress (\" + percentComplete + \")%\",\n    \"❌ Not started\"\n  )\n)",
+          "correct": false,
+          "explanation": "The denominator should be the total number of tasks (`prop(\"Tasks\").map(current.prop(\"Status\")).length()`), not `prop(\"Tasks\").length()` which returns the number of relations, not the mapped list length."
+        }
+      ]
+    }
+  ]
+}

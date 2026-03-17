@@ -1,0 +1,317 @@
+{
+  "source": "guides_find-answers-and-generate-reports-with-enterprise-search",
+  "sourceTitle": "Find answers and generate reports with enterprise search",
+  "sourceUrl": "https://www.notion.so/help/guides_find-answers-and-generate-reports-with-enterprise-search",
+  "questions": [
+    {
+      "id": "guides_find-answers-and-generate-reports-with-enterprise-search-001",
+      "question": "Where can you find the enterprise search bar in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "At the bottom of the sidebar on the left",
+          "correct": false,
+          "explanation": "The bar is not located in the sidebar; it's on the homepage."
+        },
+        {
+          "key": "B",
+          "text": "In the top‑right corner of any page",
+          "correct": false,
+          "explanation": "The search bar is not in the top‑right corner; that area holds notifications."
+        },
+        {
+          "key": "C",
+          "text": "Front and center on the Notion homepage, at the top of the page",
+          "correct": true,
+          "explanation": "The guide states the search bar is front and center on the homepage, ready for use."
+        },
+        {
+          "key": "D",
+          "text": "Inside the Notion AI chat window",
+          "correct": false,
+          "explanation": "While AI chat can be accessed from the bar, the bar itself is separate from the chat window."
+        }
+      ]
+    },
+    {
+      "id": "guides_find-answers-and-generate-reports-with-enterprise-search-002",
+      "question": "What is the purpose of the source picker in Enterprise Search?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To change the language of the search results",
+          "correct": false,
+          "explanation": "The source picker does not affect language; it selects where to search."
+        },
+        {
+          "key": "B",
+          "text": "To narrow results to a specific information source you already know",
+          "correct": true,
+          "explanation": "Choosing a source (e.g., Slack) tells Notion AI to pull information only from that source."
+        },
+        {
+          "key": "C",
+          "text": "To filter results by date range",
+          "correct": false,
+          "explanation": "Date filtering is a separate filter, not the source picker."
+        },
+        {
+          "key": "D",
+          "text": "To switch between Notion AI and external AI models",
+          "correct": false,
+          "explanation": "Model selection is done via the model selector, not the source picker."
+        }
+      ]
+    },
+    {
+      "id": "guides_find-answers-and-generate-reports-with-enterprise-search-003",
+      "question": "Which AI models can you choose from the model selector in Enterprise Search?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion AI, OpenAI's ChatGPT, and Anthropic's Claude",
+          "correct": true,
+          "explanation": "The guide lists these three models as selectable options."
+        },
+        {
+          "key": "B",
+          "text": "Google Bard, Microsoft Copilot, and Notion AI",
+          "correct": false,
+          "explanation": "Bard and Copilot are not mentioned as options in Enterprise Search."
+        },
+        {
+          "key": "C",
+          "text": "Siri, Alexa, and Notion AI",
+          "correct": false,
+          "explanation": "Voice assistants are not part of the model selector."
+        },
+        {
+          "key": "D",
+          "text": "Only Notion AI",
+          "correct": false,
+          "explanation": "You can also select ChatGPT or Claude, not just Notion AI."
+        }
+      ]
+    },
+    {
+      "id": "guides_find-answers-and-generate-reports-with-enterprise-search-004",
+      "question": "How does Research mode differ from a regular search in Enterprise Search?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It only searches external web sources and ignores internal Notion content",
+          "correct": false,
+          "explanation": "Research mode combines internal workspace data with trusted external sources, not just the web."
+        },
+        {
+          "key": "B",
+          "text": "It synthesizes information from multiple sources to generate a comprehensive report, which may take a few minutes",
+          "correct": true,
+          "explanation": "Research mode creates detailed reports by aggregating and synthesizing data, requiring more processing time."
+        },
+        {
+          "key": "C",
+          "text": "It returns a single paragraph answer without showing source breakdowns",
+          "correct": false,
+          "explanation": "Regular search shows source breakdowns; Research mode focuses on a full report."
+        },
+        {
+          "key": "D",
+          "text": "It limits results to the most recent 24‑hour window",
+          "correct": false,
+          "explanation": "There is no time‑window restriction specific to Research mode."
+        }
+      ]
+    },
+    {
+      "id": "guides_find-answers-and-generate-reports-with-enterprise-search-005",
+      "question": "Which of the following filters can you apply to drill down search results in Enterprise Search?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Title, author, and teamspace",
+          "correct": true,
+          "explanation": "The guide mentions these three filters for narrowing results."
+        },
+        {
+          "key": "B",
+          "text": "File size, resolution, and color palette",
+          "correct": false,
+          "explanation": "Those filters are unrelated to text‑based content searches."
+        },
+        {
+          "key": "C",
+          "text": "Operating system, browser type, and IP address",
+          "correct": false,
+          "explanation": "These technical metadata are not search filters in Notion."
+        },
+        {
+          "key": "D",
+          "text": "Weather condition, time of day, and user mood",
+          "correct": false,
+          "explanation": "These are not available filters for enterprise search."
+        }
+      ]
+    },
+    {
+      "id": "guides_find-answers-and-generate-reports-with-enterprise-search-006",
+      "question": "What visual cue indicates a page has been verified by Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A red exclamation mark",
+          "correct": false,
+          "explanation": "Verified pages use a blue checkmark, not a red exclamation."
+        },
+        {
+          "key": "B",
+          "text": "A blue checkmark next to the page title",
+          "correct": true,
+          "explanation": "The guide shows a blue checkmark as the verification indicator."
+        },
+        {
+          "key": "C",
+          "text": "A gold star badge",
+          "correct": false,
+          "explanation": "Gold stars are not mentioned as verification symbols."
+        },
+        {
+          "key": "D",
+          "text": "A highlighted background color",
+          "correct": false,
+          "explanation": "Background highlighting is not the verification marker."
+        }
+      ]
+    },
+    {
+      "id": "guides_find-answers-and-generate-reports-with-enterprise-search-007",
+      "question": "How do you activate Research mode from the search bar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the \"Research\" toggle at the bottom left of the search bar",
+          "correct": true,
+          "explanation": "The guide specifies toggling the Research option at the bottom left."
+        },
+        {
+          "key": "B",
+          "text": "Press the Enter key twice after typing a query",
+          "correct": false,
+          "explanation": "There's no shortcut involving double Enter to start Research mode."
+        },
+        {
+          "key": "C",
+          "text": "Select \"Research\" from the source dropdown menu",
+          "correct": false,
+          "explanation": "Research mode is a separate toggle, not a source selection."
+        },
+        {
+          "key": "D",
+          "text": "Hold Shift while clicking the search button",
+          "correct": false,
+          "explanation": "Shift‑click does not trigger Research mode."
+        }
+      ]
+    },
+    {
+      "id": "guides_find-answers-and-generate-reports-with-enterprise-search-008",
+      "question": "Which of the following is NOT a recommended use case for Research mode according to the guide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Product strategy development by aggregating customer feedback and competitor insights",
+          "correct": false,
+          "explanation": "This is listed as a use case."
+        },
+        {
+          "key": "B",
+          "text": "User research to evaluate mobile navigation accessibility",
+          "correct": false,
+          "explanation": "This is also listed as a use case."
+        },
+        {
+          "key": "C",
+          "text": "Generating a quick one‑sentence answer to a factual question without external sources",
+          "correct": true,
+          "explanation": "Quick factual answers are handled by regular search or model chat, not Research mode."
+        },
+        {
+          "key": "D",
+          "text": "Market analysis that compares competitor pricing with internal sales data",
+          "correct": false,
+          "explanation": "Market analysis is explicitly mentioned as a Research mode scenario."
+        }
+      ]
+    },
+    {
+      "id": "guides_find-answers-and-generate-reports-with-enterprise-search-009",
+      "question": "What advantage does selecting a specific AI model provide for cost management?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically disables all paid connectors to lower expenses",
+          "correct": false,
+          "explanation": "Model selection does not affect connector billing."
+        },
+        {
+          "key": "B",
+          "text": "It lets you choose a less expensive model for simpler queries, reducing token usage",
+          "correct": true,
+          "explanation": "Choosing a cheaper model for quick chats helps control AI usage costs."
+        },
+        {
+          "key": "C",
+          "text": "It converts all search results to plain text, eliminating premium formatting fees",
+          "correct": false,
+          "explanation": "Formatting does not incur extra AI costs."
+        },
+        {
+          "key": "D",
+          "text": "It merges multiple AI subscriptions into a single discounted plan",
+          "correct": false,
+          "explanation": "The guide mentions avoiding multiple subscriptions, not merging them for discounts."
+        }
+      ]
+    },
+    {
+      "id": "guides_find-answers-and-generate-reports-with-enterprise-search-010",
+      "question": "Which statement best describes the role of AI connectors in Enterprise Search?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They replace the need for Notion's native search by exclusively searching external tools",
+          "correct": false,
+          "explanation": "Connectors augment, not replace, native search."
+        },
+        {
+          "key": "B",
+          "text": "They extend search to include data from integrated tools like JIRA, Slack, Google Drive, and GitHub, providing a unified view",
+          "correct": true,
+          "explanation": "The guide explains connectors bring information from many external apps into a single searchable space."
+        },
+        {
+          "key": "C",
+          "text": "They only enable real‑time syncing of documents but do not affect search capabilities",
+          "correct": false,
+          "explanation": "Connectors specifically enhance search across those tools."
+        },
+        {
+          "key": "D",
+          "text": "They automatically translate all external content into the user's preferred language before searching",
+          "correct": false,
+          "explanation": "Translation is not mentioned as a connector function."
+        }
+      ]
+    }
+  ]
+}

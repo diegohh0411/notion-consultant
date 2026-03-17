@@ -1,0 +1,410 @@
+{
+  "source": "edit-and-customize-your-notion-sites",
+  "sourceTitle": "Edit & customize your Notion Sites",
+  "sourceUrl": "https://www.notion.so/help/edit-and-customize-your-notion-sites",
+  "questions": [
+    {
+      "id": "edit-and-customize-your-notion-sites-001",
+      "question": "Who is eligible to customize their Notion Sites?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Free plan users",
+          "correct": false,
+          "explanation": "The article explicitly states that this feature is only available on paid plans."
+        },
+        {
+          "key": "B",
+          "text": "Enterprise plan users",
+          "correct": false,
+          "explanation": "While Enterprise is a paid plan, the article specifies 'paid plans' generally, but the primary restriction is that it is not free."
+        },
+        {
+          "key": "C",
+          "text": "Paid plan users",
+          "correct": true,
+          "explanation": "Correct. The feature is restricted to users on paid plans."
+        },
+        {
+          "key": "D",
+          "text": "Team plan users only",
+          "correct": false,
+          "explanation": "The article refers to 'paid plans' broadly rather than limiting it specifically to Team plans."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-002",
+      "question": "Which of the following is NOT a theme option available for your Notion Site?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "System",
+          "correct": false,
+          "explanation": "System is listed as one of the valid theme options under the Theme section."
+        },
+        {
+          "key": "B",
+          "text": "Light",
+          "correct": false,
+          "explanation": "Light is listed as one of the valid theme options under the Theme section."
+        },
+        {
+          "key": "C",
+          "text": "Pink",
+          "correct": true,
+          "explanation": "Pink is not a theme option. The available options are System, Light, and Dark."
+        },
+        {
+          "key": "D",
+          "text": "Dark",
+          "correct": false,
+          "explanation": "Dark is listed as one of the valid theme options under the Theme section."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-003",
+      "question": "How can you remove the Notion watermark from your Site's header?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Turn it off in the header settings",
+          "correct": false,
+          "explanation": "While you can toggle it on or off, you can only turn it off if you are using a custom domain."
+        },
+        {
+          "key": "B",
+          "text": "Turn it off in the header settings only if using a custom domain",
+          "correct": true,
+          "explanation": "Correct. The article notes that the Notion watermark can only be turned off if your Site is using a custom domain."
+        },
+        {
+          "key": "C",
+          "text": "Purchase a custom domain add-on",
+          "correct": false,
+          "explanation": "Purchasing the add-on is required to use a custom domain, but you must also toggle the watermark off in the settings."
+        },
+        {
+          "key": "D",
+          "text": "It cannot be removed from the header",
+          "correct": false,
+          "explanation": "The article states you can toggle it on or off, subject to the custom domain restriction."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-004",
+      "question": "To change the image that appears when sharing your Notion Site link, where should you go?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Share Settings > Share preview",
+          "correct": false,
+          "explanation": "The correct path is Share > Publish > Site customization."
+        },
+        {
+          "key": "B",
+          "text": "Site customization > Share preview",
+          "correct": true,
+          "explanation": "Correct. Under Site customization, you will find the Share preview section where you can upload an image."
+        },
+        {
+          "key": "C",
+          "text": "Page properties > Cover image",
+          "correct": false,
+          "explanation": "Changing the cover image only affects the internal page preview, not the share preview."
+        },
+        {
+          "key": "D",
+          "text": "SEO settings > Meta tags",
+          "correct": false,
+          "explanation": "SEO settings control the title and description, not the share preview image."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-005",
+      "question": "Which browser currently does not support custom favicons?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chrome",
+          "correct": false,
+          "explanation": "Chrome supports custom favicons."
+        },
+        {
+          "key": "B",
+          "text": "Firefox",
+          "correct": false,
+          "explanation": "Firefox supports custom favicons."
+        },
+        {
+          "key": "C",
+          "text": "Safari",
+          "correct": true,
+          "explanation": "Correct. There is a specific note stating that custom favicons are not currently supported in the Safari browser."
+        },
+        {
+          "key": "D",
+          "text": "Edge",
+          "correct": false,
+          "explanation": "Edge supports custom favicons."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-006",
+      "question": "When connecting Google Analytics, what specific identifier must you enter?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tracking Code",
+          "correct": false,
+          "explanation": "While you might use this elsewhere, the Notion Help Center specifically asks for the 'measurement ID'."
+        },
+        {
+          "key": "B",
+          "text": "Measurement ID",
+          "correct": true,
+          "explanation": "Correct. You must enter your Google Analytics measurement ID in the Google Analytics section of Site customization."
+        },
+        {
+          "key": "C",
+          "text": "Site ID",
+          "correct": false,
+          "explanation": "There is no 'Site ID' field mentioned for Google Analytics integration in this article."
+        },
+        {
+          "key": "D",
+          "text": "API Key",
+          "correct": false,
+          "explanation": "The article specifies that you must enter the measurement ID, not an API key."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-007",
+      "question": "What elements can be customized for SEO purposes?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Page title and description",
+          "correct": true,
+          "explanation": "Correct. You can customize the page title and description, which are used for share previews and SEO."
+        },
+        {
+          "key": "B",
+          "text": "Keywords only",
+          "correct": false,
+          "explanation": "The article lists title and description, not keywords specifically as a separate customization item."
+        },
+        {
+          "key": "C",
+          "text": "URL slug only",
+          "correct": false,
+          "explanation": "The URL slug is likely managed elsewhere, but the article focuses on title and description for SEO."
+        },
+        {
+          "key": "D",
+          "text": "Meta tags only",
+          "correct": false,
+          "explanation": "The article mentions title and description are used for SEO, not specifically meta tags."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-008",
+      "question": "How do you add a navigation link to help visitors navigate to another page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select Header > Navigation > Add page",
+          "correct": true,
+          "explanation": "Correct. Under the Header settings, you select Navigation and then 'Add page'."
+        },
+        {
+          "key": "B",
+          "text": "Select Footer > Add page",
+          "correct": false,
+          "explanation": "The article specifies the Header, not the Footer."
+        },
+        {
+          "key": "C",
+          "text": "Add a link in the Share settings",
+          "correct": false,
+          "explanation": "Links are added under the Header > Navigation section within Site customization."
+        },
+        {
+          "key": "D",
+          "text": "Go to the page and drag a block",
+          "correct": false,
+          "explanation": "This describes how to edit content, not how to add navigation links."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-009",
+      "question": "Where is the 'Publish Changes' button located within the Site customization interface?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "At the bottom of the screen",
+          "correct": false,
+          "explanation": "The button is consistently located at the top of the screen in all customization sections."
+        },
+        {
+          "key": "B",
+          "text": "At the top of the screen",
+          "correct": true,
+          "explanation": "Correct. Whether customizing the header, favicon, or theme, you select 'Publish changes' at the top of the screen."
+        },
+        {
+          "key": "C",
+          "text": "On the right side of the preview window",
+          "correct": false,
+          "explanation": "The button is not located on the right side of the preview window."
+        },
+        {
+          "key": "D",
+          "text": "It is not a button, you just save automatically",
+          "correct": false,
+          "explanation": "The article explicitly instructs you to select 'Publish changes' at the top of the screen."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-010",
+      "question": "Which of the following can be toggled in the header settings?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Breadcrumbs, Search, and Notion watermark",
+          "correct": true,
+          "explanation": "Correct. You can toggle Breadcrumbs, Search, and the Notion watermark on or off."
+        },
+        {
+          "key": "B",
+          "text": "Logo and Branding",
+          "correct": false,
+          "explanation": "The article mentions adding navigation links, but does not list a 'Logo and Branding' toggle."
+        },
+        {
+          "key": "C",
+          "text": "Social media links",
+          "correct": false,
+          "explanation": "Social media links are not mentioned as a toggleable option in the header section."
+        },
+        {
+          "key": "D",
+          "text": "Only Breadcrumbs",
+          "correct": false,
+          "explanation": "While Breadcrumbs is one option, Search and the watermark are also available to toggle."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-011",
+      "question": "How do you purchase a custom domain to use with your Notion Site?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Buy the domain name directly from Notion",
+          "correct": false,
+          "explanation": "You do not buy the domain directly from Notion. You use your existing domain or purchase the add-on."
+        },
+        {
+          "key": "B",
+          "text": "Purchase the custom domain add-on",
+          "correct": true,
+          "explanation": "Correct. The article states you can purchase the custom domain add-on."
+        },
+        {
+          "key": "C",
+          "text": "Contact Notion Support",
+          "correct": false,
+          "explanation": "You do not need to contact support to purchase the add-on; it is a direct purchase action."
+        },
+        {
+          "key": "D",
+          "text": "Use a subdomain like 'mysite.notion.site'",
+          "correct": false,
+          "explanation": "While Notion provides a default subdomain, purchasing the add-on is required for a fully custom domain."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-012",
+      "question": "How can you set a favicon using your existing page icon?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select 'Page icon' from the Favicon dropdown",
+          "correct": true,
+          "explanation": "Correct. Under the Favicon dropdown in Site customization, you can select 'Page icon' to use your existing icon."
+        },
+        {
+          "key": "B",
+          "text": "Select 'Upload image' and then choose the icon file",
+          "correct": false,
+          "explanation": "While you can upload an image, the specific option to use the *existing* page icon is 'Page icon'."
+        },
+        {
+          "key": "C",
+          "text": "The favicon must always be an uploaded image",
+          "correct": false,
+          "explanation": "The article states you can select 'Page icon' from the dropdown to use your existing icon."
+        },
+        {
+          "key": "D",
+          "text": "You cannot use your page icon as a favicon",
+          "correct": false,
+          "explanation": "The article explicitly lists 'Page icon' as an option in the favicon dropdown."
+        }
+      ]
+    },
+    {
+      "id": "edit-and-customize-your-notion-sites-013",
+      "question": "What is the path to access Site customization?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Share > Publish > Site customization",
+          "correct": true,
+          "explanation": "Correct. You must open Share at the top of the published page, then click Publish, and finally select Site customization."
+        },
+        {
+          "key": "B",
+          "text": "Settings > Publishing > Customization",
+          "correct": false,
+          "explanation": "The path is 'Share' at the top of the page, not 'Settings'."
+        },
+        {
+          "key": "C",
+          "text": "Header > Settings > Site customization",
+          "correct": false,
+          "explanation": "The customization is accessed via the top-level 'Share' menu, not the header settings."
+        },
+        {
+          "key": "D",
+          "text": "Dashboard > Sites > Customize",
+          "correct": false,
+          "explanation": "The article describes the process as opening Share on the published page, not via a dashboard."
+        }
+      ]
+    }
+  ]
+}

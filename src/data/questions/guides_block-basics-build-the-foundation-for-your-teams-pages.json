@@ -1,0 +1,286 @@
+{
+  "source": "guides_block-basics-build-the-foundation-for-your-teams-pages",
+  "sourceTitle": "Block basics: build the foundation for your team’s pages",
+  "sourceUrl": "https://www.notion.com/help/guides/block-basics-build-the-foundation-for-your-teams-pages",
+  "questions": [
+    {
+      "id": "block-basics-build-the-foundation-for-your-teams-pages-001",
+      "question": "Which command do you type to quickly add a new block in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Press Enter twice",
+          "correct": false,
+          "explanation": "Pressing Enter creates a new line, not a block menu."
+        },
+        {
+          "key": "B",
+          "text": "Type '/' (slash)",
+          "correct": true,
+          "explanation": "The slash command opens the block menu, allowing you to select any block type."
+        },
+        {
+          "key": "C",
+          "text": "Use Ctrl+B",
+          "correct": false,
+          "explanation": "Ctrl+B toggles bold formatting, not block insertion."
+        },
+        {
+          "key": "D",
+          "text": "Click the '+' button at the top of the page",
+          "correct": false,
+          "explanation": "While the '+' can add blocks, the article emphasizes the '/' slash command as the quick method."
+        }
+      ]
+    },
+    {
+      "id": "block-basics-build-the-foundation-for-your-teams-pages-002",
+      "question": "What is the primary difference between a 'Basic block' and an 'In‑line block'?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Basic blocks can only contain text, while In‑line blocks can only contain media.",
+          "correct": false,
+          "explanation": "Both types can hold various content; the distinction is about usage context, not media type."
+        },
+        {
+          "key": "B",
+          "text": "Basic blocks form the page’s structural content, while In‑line blocks embed contextual items like mentions, dates, or page links.",
+          "correct": true,
+          "explanation": "Basic blocks are for headings, lists, etc.; In‑line blocks are used to add mentions, dates, or page references within other content."
+        },
+        {
+          "key": "C",
+          "text": "Basic blocks are always displayed in a separate column, whereas In‑line blocks stay on the same line.",
+          "correct": false,
+          "explanation": "Column layout is unrelated to these classifications."
+        },
+        {
+          "key": "D",
+          "text": "In‑line blocks can be converted into databases, while Basic blocks cannot.",
+          "correct": false,
+          "explanation": "Conversion rules are not tied to these categories; any block can be turned into another supported type."
+        }
+      ]
+    },
+    {
+      "id": "block-basics-build-the-foundation-for-your-teams-pages-003",
+      "question": "Which of the following is an example of an 'Advanced block'?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Image block",
+          "correct": false,
+          "explanation": "Image blocks are media, not advanced."
+        },
+        {
+          "key": "B",
+          "text": "Table of contents block",
+          "correct": true,
+          "explanation": "The article lists table of contents as an advanced block that provides pre‑formatted functionality."
+        },
+        {
+          "key": "C",
+          "text": "Bulleted list block",
+          "correct": false,
+          "explanation": "Bulleted lists are basic blocks."
+        },
+        {
+          "key": "D",
+          "text": "Quote block",
+          "correct": false,
+          "explanation": "Quote blocks are simple formatting, not categorized as advanced in the guide."
+        }
+      ]
+    },
+    {
+      "id": "block-basics-build-the-foundation-for-your-teams-pages-004",
+      "question": "If a team reaches the 1,000‑block limit on the free plan, which of the following actions is still possible?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add new blocks to existing pages",
+          "correct": false,
+          "explanation": "The limit prevents adding new blocks."
+        },
+        {
+          "key": "B",
+          "text": "Edit or rearrange existing blocks",
+          "correct": true,
+          "explanation": "The article states you can still read, edit, and organize existing content after hitting the limit."
+        },
+        {
+          "key": "C",
+          "text": "Upload additional files larger than 5 MB",
+          "correct": false,
+          "explanation": "File uploads count toward block storage; the limit would block further uploads."
+        },
+        {
+          "key": "D",
+          "text": "Invite unlimited guests to view the workspace",
+          "correct": false,
+          "explanation": "Guest invitations are a feature of paid plans; the free limit does not grant unlimited guest access."
+        }
+      ]
+    },
+    {
+      "id": "block-basics-build-the-foundation-for-your-teams-pages-005",
+      "question": "Which sequence of steps correctly changes a regular text block into a quote block?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over the block → click the '⋮⋮' icon → select 'Turn Into' → choose 'Quote'",
+          "correct": true,
+          "explanation": "The guide describes exactly this workflow for converting blocks."
+        },
+        {
+          "key": "B",
+          "text": "Select the text → press Ctrl+Q",
+          "correct": false,
+          "explanation": "There is no keyboard shortcut mentioned for converting to a quote."
+        },
+        {
+          "key": "C",
+          "text": "Right‑click the block → choose 'Add Quote'",
+          "correct": false,
+          "explanation": "The context menu option is 'Turn Into', not 'Add Quote'."
+        },
+        {
+          "key": "D",
+          "text": "Drag the block onto a 'Quote' template button",
+          "correct": false,
+          "explanation": "Template buttons create new content; they do not convert existing blocks."
+        }
+      ]
+    },
+    {
+      "id": "block-basics-build-the-foundation-for-your-teams-pages-006",
+      "question": "What advantage does an 'inline' database provide compared to a full‑page database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically syncs with external spreadsheet software.",
+          "correct": false,
+          "explanation": "Syncing with external tools is not mentioned as a benefit of inline databases."
+        },
+        {
+          "key": "B",
+          "text": "It allows the database to appear alongside other blocks on the same page, creating a more integrated view.",
+          "correct": true,
+          "explanation": "The article highlights that inline databases can be displayed next to other content, enabling richer, contextual pages."
+        },
+        {
+          "key": "C",
+          "text": "It removes the block storage limit entirely for that page.",
+          "correct": false,
+          "explanation": "All blocks, inline or not, count toward the storage limit."
+        },
+        {
+          "key": "D",
+          "text": "It converts the database into a read‑only view for guests.",
+          "correct": false,
+          "explanation": "Read‑only status is a permission setting, not a function of inline layout."
+        }
+      ]
+    },
+    {
+      "id": "block-basics-build-the-foundation-for-your-teams-pages-007",
+      "question": "Which block type would be most appropriate for embedding a Google Map on a 'Contact Us' page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Media block",
+          "correct": false,
+          "explanation": "Media blocks handle images, video, audio, but embedding a live map is an embed."
+        },
+        {
+          "key": "B",
+          "text": "Embed block",
+          "correct": true,
+          "explanation": "The guide explicitly mentions using an embed block to add a Google Map."
+        },
+        {
+          "key": "C",
+          "text": "Basic text block",
+          "correct": false,
+          "explanation": "Text blocks cannot display interactive maps."
+        },
+        {
+          "key": "D",
+          "text": "Database block",
+          "correct": false,
+          "explanation": "Databases are for structured data, not for embedding external web content."
+        }
+      ]
+    },
+    {
+      "id": "block-basics-build-the-foundation-for-your-teams-pages-008",
+      "question": "How can you change the background color of an entire block?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the block, press the 'B' key, and choose a color.",
+          "correct": false,
+          "explanation": "The 'B' key is for bold text, not background color."
+        },
+        {
+          "key": "B",
+          "text": "Hover over the block, click the '⋮⋮' icon, choose 'Color', then pick a background shade.",
+          "correct": true,
+          "explanation": "The article describes using the 'Color' menu from the block options to set background color."
+        },
+        {
+          "key": "C",
+          "text": "Right‑click the block and select 'Highlight', then pick a color.",
+          "correct": false,
+          "explanation": "Highlighting only affects selected text, not the whole block background."
+        },
+        {
+          "key": "D",
+          "text": "Open the page settings and toggle 'Block background', then choose a color.",
+          "correct": false,
+          "explanation": "Block background color is set per block, not via page‑wide settings."
+        }
+      ]
+    },
+    {
+      "id": "block-basics-build-the-foundation-for-your-teams-pages-009",
+      "question": "Which statement best describes the relationship between 'Templates' and 'Advanced blocks'?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Templates are a type of Advanced block that automatically generate content.",
+          "correct": false,
+          "explanation": "Templates are a separate feature; they use blocks but are not classified as an advanced block type."
+        },
+        {
+          "key": "B",
+          "text": "Advanced blocks can be placed inside a Template to streamline repetitive workflows.",
+          "correct": true,
+          "explanation": "The guide mentions adding a Template Button (an advanced block) to a page to automate recurring content."
+        },
+        {
+          "key": "C",
+          "text": "Templates replace the need for Advanced blocks by providing pre‑styled pages.",
+          "correct": false,
+          "explanation": "Templates complement advanced blocks; they do not replace them."
+        },
+        {
+          "key": "D",
+          "text": "Only Basic blocks can be used within Templates.",
+          "correct": false,
+          "explanation": "Templates can contain any block type, including advanced ones."
+        }
+      ]
+    }
+  ]
+}

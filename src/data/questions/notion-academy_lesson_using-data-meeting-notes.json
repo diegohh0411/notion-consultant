@@ -1,0 +1,255 @@
+{
+  "source": "notion-academy_lesson_using-data-meeting-notes",
+  "sourceTitle": "Welcome to Notion Academy",
+  "sourceUrl": "https://www.notion.com/help/notion-academy/lesson/using-data-meeting-notes",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_using-data-meeting-notes-001",
+      "question": "What is the primary purpose of Notion Academy as described in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To sell premium Notion templates directly to users.",
+          "correct": false,
+          "explanation": "The article does not say Academy sells templates; it focuses on learning."
+        },
+        {
+          "key": "B",
+          "text": "To provide structured learning paths, lessons, and badges for mastering Notion.",
+          "correct": true,
+          "explanation": "Correct – the article emphasizes learning paths, lessons, and earning badges."
+        },
+        {
+          "key": "C",
+          "text": "To host live webinars exclusively for enterprise customers.",
+          "correct": false,
+          "explanation": "Webinars are mentioned, but they are not the sole purpose of the Academy."
+        },
+        {
+          "key": "D",
+          "text": "To replace the Notion Help Center entirely.",
+          "correct": false,
+          "explanation": "The Help Center still exists; Academy supplements it with courses."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-meeting-notes-002",
+      "question": "Which type of credential can you earn by completing a Notion Academy path?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Notion Certified Admin certification",
+          "correct": false,
+          "explanation": "Certification is a separate program; paths grant badges, not the admin cert."
+        },
+        {
+          "key": "B",
+          "text": "A Notion badge",
+          "correct": true,
+          "explanation": "Correct – the article mentions earning badges for completing paths."
+        },
+        {
+          "key": "C",
+          "text": "A free Notion subscription upgrade",
+          "correct": false,
+          "explanation": "No subscription upgrades are offered as a reward."
+        },
+        {
+          "key": "D",
+          "text": "A discount on Notion Marketplace templates",
+          "correct": false,
+          "explanation": "Discounts are not listed as a credential."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-meeting-notes-003",
+      "question": "Which lesson is classified as Intermediate and teaches how to build an intake system using forms, charts, and automations?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "An issue tracker for any team",
+          "correct": true,
+          "explanation": "Correct – the description matches the \"An issue tracker for any team\" lesson."
+        },
+        {
+          "key": "B",
+          "text": "Project management",
+          "correct": false,
+          "explanation": "Project management focuses on tasks, not specifically on intake systems."
+        },
+        {
+          "key": "C",
+          "text": "Custom Agents",
+          "correct": false,
+          "explanation": "Custom Agents are about automation triggers, not an intake system."
+        },
+        {
+          "key": "D",
+          "text": "Workspace design",
+          "correct": false,
+          "explanation": "Workspace design covers best‑practice layout, not intake forms."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-meeting-notes-004",
+      "question": "How many lessons are included in the Advanced Path?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "3 lessons",
+          "correct": false,
+          "explanation": "The Essentials Path has 3 lessons, not the Advanced Path."
+        },
+        {
+          "key": "B",
+          "text": "4 lessons",
+          "correct": false,
+          "explanation": "The Workflows Path contains 4 lessons."
+        },
+        {
+          "key": "C",
+          "text": "5 lessons",
+          "correct": true,
+          "explanation": "Correct – the article lists the Advanced Path as having 5 lessons."
+        },
+        {
+          "key": "D",
+          "text": "6 lessons",
+          "correct": false,
+          "explanation": "No path with 6 lessons is mentioned."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-meeting-notes-005",
+      "question": "Which path is described as helping users \"Create connected systems that unite teams and projects, with the help of AI\"?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path",
+          "correct": false,
+          "explanation": "Essentials Path focuses on basic skills, not AI‑enabled connected systems."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": true,
+          "explanation": "Correct – the Workflows Path description matches this wording."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "Advanced Path is about automation and architecture, but the quoted phrase belongs to Workflows."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents Path",
+          "correct": false,
+          "explanation": "Custom Agents is a lesson, not a path."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-meeting-notes-006",
+      "question": "If a user wants to learn best practices for designing a workspace, which specific lesson should they take, and what is its difficulty level?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workspace design – Advanced",
+          "correct": true,
+          "explanation": "Correct – the \"Workspace design\" lesson (10 min) is labeled Advanced."
+        },
+        {
+          "key": "B",
+          "text": "Building basics – Beginner",
+          "correct": false,
+          "explanation": "Building basics covers navigation and blocks, not workspace design best practices."
+        },
+        {
+          "key": "C",
+          "text": "Sharing & collaboration – Beginner",
+          "correct": false,
+          "explanation": "That lesson focuses on collaboration, not design."
+        },
+        {
+          "key": "D",
+          "text": "Templates & marketplace – Intermediate",
+          "correct": false,
+          "explanation": "Templates & marketplace is about creating and selling templates, unrelated to workspace design."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-meeting-notes-007",
+      "question": "Considering the lesson durations listed, which lesson provides the longest dedicated time for learning, and what is its difficulty level?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Templates & marketplace – Intermediate (40 min)",
+          "correct": true,
+          "explanation": "Correct – at 40 minutes, this is the longest duration mentioned, and it is Intermediate."
+        },
+        {
+          "key": "B",
+          "text": "Custom Agents – Beginner (30 min)",
+          "correct": false,
+          "explanation": "Custom Agents is 30 minutes, shorter than Templates & marketplace."
+        },
+        {
+          "key": "C",
+          "text": "Connecting knowledge in Notion – Intermediate (20 min)",
+          "correct": false,
+          "explanation": "Only 20 minutes, not the longest."
+        },
+        {
+          "key": "D",
+          "text": "Workspace design – Advanced (10 min)",
+          "correct": false,
+          "explanation": "Only 10 minutes, far shorter than 40 minutes."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-meeting-notes-008",
+      "question": "Which of the following statements about the Notion Certified Admin program is true according to the article?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is only available to users on the Enterprise plan.",
+          "correct": false,
+          "explanation": "The article says it is available for any plan type."
+        },
+        {
+          "key": "B",
+          "text": "It teaches you how to run Notion at scale, implement security best practices, and gain a recognized credential.",
+          "correct": true,
+          "explanation": "Correct – this matches the description of the Certified Admin program."
+        },
+        {
+          "key": "C",
+          "text": "It replaces the need for any other Notion Academy badges.",
+          "correct": false,
+          "explanation": "Certification is separate; badges are still part of the Academy."
+        },
+        {
+          "key": "D",
+          "text": "It is a prerequisite for accessing the Notion Help Center.",
+          "correct": false,
+          "explanation": "The Help Center is publicly accessible; certification is not required."
+        }
+      ]
+    }
+  ]
+}

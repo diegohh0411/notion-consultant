@@ -1,0 +1,317 @@
+{
+  "source": "deploy-notion-for-macos",
+  "sourceTitle": "Deploy Notion for macOS",
+  "sourceUrl": "https://www.notion.so/help/deploy-notion-for-macos",
+  "questions": [
+    {
+      "id": "deploy-notion-for-macos-001",
+      "question": "By default, where is the Notion desktop app installed, and is it set to update automatically?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "In a random user folder, with automatic updates disabled.",
+          "correct": false,
+          "explanation": "The default installation is in the /Applications folder, and it is configured to update automatically with each new release."
+        },
+        {
+          "key": "B",
+          "text": "In the /Applications folder, with automatic updates disabled.",
+          "correct": false,
+          "explanation": "While installed in /Applications by default, the app is configured to update automatically with each new release."
+        },
+        {
+          "key": "C",
+          "text": "In the /Applications folder, with automatic updates enabled.",
+          "correct": true,
+          "explanation": "The default location is the /Applications folder, and the app is set to update automatically with each new release."
+        },
+        {
+          "key": "D",
+          "text": "In the ~/Applications folder, with automatic updates enabled.",
+          "correct": false,
+          "explanation": "The default location is /Applications, not ~/Applications."
+        }
+      ]
+    },
+    {
+      "id": "deploy-notion-for-macos-002",
+      "question": "When installing Notion on a shared machine, which option allows users to update the app independently without needing administrator privileges?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Installing in the /Applications folder.",
+          "correct": false,
+          "explanation": "Installing in the /Applications folder requires users to be administrators to update the app."
+        },
+        {
+          "key": "B",
+          "text": "Installing in the ~/Applications folder.",
+          "correct": true,
+          "explanation": "Installing in the ~/Applications folder gives each user their own installation, allowing them to update without admin rights."
+        },
+        {
+          "key": "C",
+          "text": "Using the Universal build instead of an Intel build.",
+          "correct": false,
+          "explanation": "The build type (Universal, Intel, or Apple Silicon) affects compatibility, not the permission requirements for updating."
+        },
+        {
+          "key": "D",
+          "text": "Disabling automatic updates entirely.",
+          "correct": false,
+          "explanation": "Disabling automatic updates requires a terminal command and does not grant general file write permissions to users."
+        }
+      ]
+    },
+    {
+      "id": "deploy-notion-for-macos-003",
+      "question": "What is a characteristic of installing Notion in the /Applications folder on a shared machine?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Updates made to Notion apply to all users on the machine.",
+          "correct": true,
+          "explanation": "The article states that updates made to Notion apply to all users on the machine when installed in /Applications."
+        },
+        {
+          "key": "B",
+          "text": "Each user has their own separate installation of Notion.",
+          "correct": false,
+          "explanation": "Each user having their own installation is a characteristic of installing in the ~/Applications folder, not /Applications."
+        },
+        {
+          "key": "C",
+          "text": "Users do not need to be administrators to update the app.",
+          "correct": false,
+          "explanation": "Users must be administrators to update Notion when it is installed in the /Applications folder."
+        },
+        {
+          "key": "D",
+          "text": "Updates do not affect other instances of the app for other users.",
+          "correct": false,
+          "explanation": "Because it is a shared installation, updates apply to all users on the machine."
+        }
+      ]
+    },
+    {
+      "id": "deploy-notion-for-macos-004",
+      "question": "Which terminal command should be run to disable automatic updates for a specific user?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "defaults write notion.id NotionNoAutoUpdates -bool NO",
+          "correct": false,
+          "explanation": "This command is used to re-enable automatic updates, not to disable them."
+        },
+        {
+          "key": "B",
+          "text": "defaults write notion.id NotionNoAutoUpdates -bool YES",
+          "correct": true,
+          "explanation": "Setting the value to 'YES' prevents Notion from automatically checking for updates."
+        },
+        {
+          "key": "C",
+          "text": "defaults write notion.id NotionNoAutoUpdates -bool FALSE",
+          "correct": false,
+          "explanation": "Notion uses 'YES' to disable and 'NO' to enable. 'FALSE' is not the correct boolean string used by this command."
+        },
+        {
+          "key": "D",
+          "text": "defaults write notion.id NotionDisableUpdates -bool YES",
+          "correct": false,
+          "explanation": "The specific key name is 'NotionNoAutoUpdates', not 'NotionDisableUpdates'."
+        }
+      ]
+    },
+    {
+      "id": "deploy-notion-for-macos-005",
+      "question": "When distributing the Notion desktop app to employees, which build should you choose for a mixed environment of Intel and Apple Silicon Macs?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Intel (x64) build.",
+          "correct": false,
+          "explanation": "The Intel build will only run on Intel-based Macs and will not work on Apple Silicon machines."
+        },
+        {
+          "key": "B",
+          "text": "Apple Silicon (arm64) build.",
+          "correct": false,
+          "explanation": "The Apple Silicon build will only run on Apple Silicon machines and will not work on Intel machines."
+        },
+        {
+          "key": "C",
+          "text": "Universal (x64 or arm64) build.",
+          "correct": true,
+          "explanation": "The Universal build is designed to run on both Intel and Apple Silicon machines."
+        },
+        {
+          "key": "D",
+          "text": "A custom build created by IT administrators.",
+          "correct": false,
+          "explanation": "The article lists only three official builds: Intel, Apple Silicon, and Universal."
+        }
+      ]
+    },
+    {
+      "id": "deploy-notion-for-macos-006",
+      "question": "What is a specific characteristic of the Universal build mentioned in the article?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is the smallest file size among the available builds.",
+          "correct": false,
+          "explanation": "The Universal build is significantly larger than the other builds because it contains code for both architectures."
+        },
+        {
+          "key": "B",
+          "text": "It does not work on shared machines.",
+          "correct": false,
+          "explanation": "The Universal build works on both Intel and Apple Silicon machines, and can be used on shared machines."
+        },
+        {
+          "key": "C",
+          "text": "It is much larger than the other builds.",
+          "correct": true,
+          "explanation": "The article notes that the Universal build is much larger because it includes code for both Intel and Apple Silicon."
+        },
+        {
+          "key": "D",
+          "text": "It requires a separate download for every user on a shared machine.",
+          "correct": false,
+          "explanation": "The build size is a file size characteristic, not a download requirement per user."
+        }
+      ]
+    },
+    {
+      "id": "deploy-notion-for-macos-007",
+      "question": "Which command is used to set ownership and permissions for a permissions group on a subfolder of /Applications?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "chown -R :group /Applications/subfolder && chmod -R 755 /Applications/subfolder",
+          "correct": false,
+          "explanation": "While `chown` is correct, `chmod 755` only allows read and execute for the group, not write access. The correct permission is 775."
+        },
+        {
+          "key": "B",
+          "text": "chown -R :group /Applications/subfolder && chmod -R 775 /Applications/subfolder",
+          "correct": true,
+          "explanation": "This command correctly changes the group owner and sets read, write, and execute permissions for the group (775)."
+        },
+        {
+          "key": "C",
+          "text": "chown -R :group /Applications/subfolder && chmod -R 770 /Applications/subfolder",
+          "correct": false,
+          "explanation": "While `chown` is correct, `chmod 770` restricts write access to the owner only, preventing the group from writing files."
+        },
+        {
+          "key": "D",
+          "text": "chown -R :group /Applications/subfolder && chmod -R 777 /Applications/subfolder",
+          "correct": false,
+          "explanation": "While `chmod 777` allows write access, it is generally considered insecure because it allows 'world' write access, whereas 775 restricts it to the group."
+        }
+      ]
+    },
+    {
+      "id": "deploy-notion-for-macos-008",
+      "question": "Why does the article recommend installing Notion in a subfolder of /Applications and using a permissions group?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure that only one user can see the app at a time.",
+          "correct": false,
+          "explanation": "The recommendation is about permissions, not visibility or exclusive access."
+        },
+        {
+          "key": "B",
+          "text": "To allow non-admin users to update the app independently.",
+          "correct": true,
+          "explanation": "By setting group ownership and write permissions, users within the group can update the app without requiring individual administrator privileges."
+        },
+        {
+          "key": "C",
+          "text": "To prevent automatic updates from ever occurring.",
+          "correct": false,
+          "explanation": "Installing in a subfolder and using a group does not disable updates; it just manages who can perform them."
+        },
+        {
+          "key": "D",
+          "text": "To reduce the file size of the installation package.",
+          "correct": false,
+          "explanation": "The file size is determined by the build (Intel/Universal), not the installation path."
+        }
+      ]
+    },
+    {
+      "id": "deploy-notion-for-macos-009",
+      "question": "If you want to test a new version of Notion before rolling it out to everyone, what feature would you use?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Intel build specifically.",
+          "correct": false,
+          "explanation": "Testing versions usually involves managing update settings, not selecting specific CPU architectures."
+        },
+        {
+          "key": "B",
+          "text": "Disabling automatic updates.",
+          "correct": true,
+          "explanation": "Disabling automatic updates allows IT admins to control the rollout timing and test new versions before a widespread deployment."
+        },
+        {
+          "key": "C",
+          "text": "Installing in the ~/Applications folder.",
+          "correct": false,
+          "explanation": "Installing in ~/Applications affects permissions, not the timing of version rollout."
+        },
+        {
+          "key": "D",
+          "text": "Disabling automatic updates for the entire company.",
+          "correct": false,
+          "explanation": "The feature allows you to disable updates for individual users to control the rollout, not necessarily for the entire company at once."
+        }
+      ]
+    },
+    {
+      "id": "deploy-notion-for-macos-010",
+      "question": "What is the purpose of the `defaults write` command mentioned in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To change the installation path of the app.",
+          "correct": false,
+          "explanation": "The `defaults` command is used to modify system settings regarding auto-updates, not to move the application binary itself."
+        },
+        {
+          "key": "B",
+          "text": "To disable or re-enable automatic update checking.",
+          "correct": true,
+          "explanation": "The `defaults write` command is used to toggle the `NotionNoAutoUpdates` setting to YES or NO."
+        },
+        {
+          "key": "C",
+          "text": "To grant user write permissions to the app folder.",
+          "correct": false,
+          "explanation": "Granting write permissions is done using the `chown` and `chmod` commands, not `defaults`."
+        },
+        {
+          "key": "D",
+          "text": "To download the latest version of the app.",
+          "correct": false,
+          "explanation": "Downloading and updating is handled by the app's built-in updater, which is controlled by these defaults settings."
+        }
+      ]
+    }
+  ]
+}

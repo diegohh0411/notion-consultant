@@ -1,0 +1,348 @@
+{
+  "source": "collaborate-with-people",
+  "sourceTitle": "Collaborate with people",
+  "sourceUrl": "https://www.notion.so/help/collaborate-with-people",
+  "questions": [
+    {
+      "id": "collaborate-with-people-001",
+      "question": "How can you see where a collaborator is currently looking or working on a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Their cursor will appear in real-time",
+          "correct": false,
+          "explanation": "While cursors appear, the text explicitly states that profile photos indicate location, not just the cursor itself."
+        },
+        {
+          "key": "B",
+          "text": "Their profile photo will appear on the page",
+          "correct": true,
+          "explanation": "The article states that profile photos show you where they are looking or working on the page."
+        },
+        {
+          "key": "C",
+          "text": "A colored line will appear next to their name",
+          "correct": false,
+          "explanation": "Colored lines are not mentioned in the article; profile photos are the indicator."
+        },
+        {
+          "key": "D",
+          "text": "You will receive a notification in your Inbox",
+          "correct": false,
+          "explanation": "Inbox notifications are for mentions and changes, not for seeing where someone is looking."
+        }
+      ]
+    },
+    {
+      "id": "collaborate-with-people-002",
+      "question": "What visual cue indicates that content has been removed by a collaborator?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Blue text",
+          "correct": false,
+          "explanation": "Blue text highlights content that has been added, not removed."
+        },
+        {
+          "key": "B",
+          "text": "Red strikethrough",
+          "correct": false,
+          "explanation": "The article specifies a gray strikethrough for removed content, not red."
+        },
+        {
+          "key": "C",
+          "text": "Gray strikethrough",
+          "correct": true,
+          "explanation": "Gray strikethrough is used to show what has been removed during real-time collaboration."
+        },
+        {
+          "key": "D",
+          "text": "No visual cue (it disappears immediately)",
+          "correct": false,
+          "explanation": "Notion provides visual cues like gray strikethrough so you can see what was removed."
+        }
+      ]
+    },
+    {
+      "id": "collaborate-with-people-003",
+      "question": "How do you leave a comment on a specific sentence or block of text?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the 'Add comment' button above the title",
+          "correct": false,
+          "explanation": "That button is for commenting on the page itself, not specific text blocks."
+        },
+        {
+          "key": "B",
+          "text": "Highlight the text and click 'Comment'",
+          "correct": true,
+          "explanation": "Highlighting the text and selecting the 'Comment' option from the menu allows you to comment on that specific block."
+        },
+        {
+          "key": "C",
+          "text": "Right-click the entire page",
+          "correct": false,
+          "explanation": "Right-clicking the page brings up the general menu, but you must right-click the specific block to comment on it."
+        },
+        {
+          "key": "D",
+          "text": "Double-click the text",
+          "correct": false,
+          "explanation": "Double-clicking is not the action described; highlighting and selecting 'Comment' is the correct method."
+        }
+      ]
+    },
+    {
+      "id": "collaborate-with-people-004",
+      "question": "How can you leave a comment on an image or embed block?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the image directly",
+          "correct": false,
+          "explanation": "Clicking the image generally opens it, not a comment menu."
+        },
+        {
+          "key": "B",
+          "text": "Click the dots (•••) or vertical dots (⋮⋮) and select 'Comment'",
+          "correct": true,
+          "explanation": "The article notes you can click the `•••` (top right) or `⋮⋮` (left hover) menu to choose 'Comment'."
+        },
+        {
+          "key": "C",
+          "text": "Drag and drop a comment box onto the image",
+          "correct": false,
+          "explanation": "There is no drag-and-drop method mentioned for adding comments to blocks."
+        },
+        {
+          "key": "D",
+          "text": "Right-click the image and select 'Comment'",
+          "correct": true,
+          "explanation": "The article explicitly states that you can also right-click to bring up the comment menu."
+        }
+      ]
+    },
+    {
+      "id": "collaborate-with-people-005",
+      "question": "What is the purpose of the 'Update bar' (clock icon 🕘) at the top of a page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To show the current time in your timezone",
+          "correct": false,
+          "explanation": "The clock icon is not a standard clock; it functions as an 'Update bar' to track changes."
+        },
+        {
+          "key": "B",
+          "text": "To show who made specific changes and when",
+          "correct": true,
+          "explanation": "The article states the icon shows 'who made what changes and when'."
+        },
+        {
+          "key": "C",
+          "text": "To indicate if anyone else is currently viewing the page",
+          "correct": false,
+          "explanation": "Profile photos indicate who is working on the page; the update bar indicates history."
+        },
+        {
+          "key": "D",
+          "text": "To show the total number of collaborators online",
+          "correct": false,
+          "explanation": "Profile photos show who is online/working; the update bar shows history of edits."
+        }
+      ]
+    },
+    {
+      "id": "collaborate-with-people-006",
+      "question": "How do you notify a teammate to look at a specific point in a page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type '@' followed by their name anywhere on the page",
+          "correct": true,
+          "explanation": "The article explains that typing '@' followed by their name triggers a real-time search and a notification link."
+        },
+        {
+          "key": "B",
+          "text": "Send them an email",
+          "correct": false,
+          "explanation": "While you can email a page, the specific Notion feature for getting attention is the '@' mention."
+        },
+        {
+          "key": "C",
+          "text": "Send a private message via the Sidebar",
+          "correct": false,
+          "explanation": "Sidebar messages are for direct DMs, not page mentions."
+        },
+        {
+          "key": "D",
+          "text": "Mention them in the 'Add comment' box only",
+          "correct": false,
+          "explanation": "You can mention them anywhere on the page, not just in the comment box."
+        }
+      ]
+    },
+    {
+      "id": "collaborate-with-people-007",
+      "difficulty": "medium",
+      "question": "What does a red badge with a number next to the Inbox icon indicate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unread system updates",
+          "correct": false,
+          "explanation": "System updates appear with a grey badge; the red badge is specifically for mentions."
+        },
+        {
+          "key": "B",
+          "text": "Mentions waiting for you",
+          "correct": true,
+          "explanation": "The article states that if you have been mentioned, you will see a red badge with the number of mentions."
+        },
+        {
+          "key": "C",
+          "text": "New pages have been created in the workspace",
+          "correct": false,
+          "explanation": "New page creation is not indicated by the Inbox badge; it is for updates and mentions."
+        },
+        {
+          "key": "D",
+          "text": "You have unsaved changes",
+          "correct": false,
+          "explanation": "Unsaved changes are indicated by a blinking cursor or save icon, not by the Inbox badge."
+        }
+      ]
+    },
+    {
+      "id": "collaborate-with-people-008",
+      "question": "Where is the Inbox located in the Notion interface?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the top right corner of the screen",
+          "correct": false,
+          "explanation": "The Inbox is located in the top left sidebar."
+        },
+        {
+          "key": "B",
+          "text": "In the top right corner of the screen",
+          "correct": false,
+          "explanation": "The Inbox is located in the top left sidebar."
+        },
+        {
+          "key": "C",
+          "text": "In the top left sidebar",
+          "correct": true,
+          "explanation": "The article explicitly states to click on 'Inbox' at the top of your left sidebar."
+        },
+        {
+          "key": "D",
+          "text": "Inside the 'Add comment' button",
+          "correct": false,
+          "explanation": "The Inbox is a separate navigation element in the sidebar, not inside the comment button."
+        }
+      ]
+    },
+    {
+      "id": "collaborate-with-people-009",
+      "question": "According to the article, what is the primary communication style Notion is built to support?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Synchronous video calls",
+          "correct": false,
+          "explanation": "Notion is described as 'built for asynchronous communication' to cut down on meetings."
+        },
+        {
+          "key": "B",
+          "text": "Real-time text chat rooms",
+          "correct": false,
+          "explanation": "While you can comment in real-time, the article emphasizes asynchronous updates."
+        },
+        {
+          "key": "C",
+          "text": "Asynchronous communication",
+          "correct": true,
+          "explanation": "The article introduces the section by stating, 'Notion is built for asynchronous communication.'"
+        },
+        {
+          "key": "D",
+          "text": "Email threads",
+          "correct": false,
+          "explanation": "The article focuses on in-app features like mentions and comments rather than email."
+        }
+      ]
+    },
+    {
+      "id": "collaborate-with-people-010",
+      "question": "When you click on an update in your Inbox, where does it take you?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To the home page of the workspace",
+          "correct": false,
+          "explanation": "Clicking an update takes you to the specific comment, mention, or edit in question."
+        },
+        {
+          "key": "B",
+          "text": "To the profile page of the person who sent the update",
+          "correct": false,
+          "explanation": "It takes you to the content itself, not the user's profile."
+        },
+        {
+          "key": "C",
+          "text": "To the specific comment, mention, or edit in question",
+          "correct": true,
+          "explanation": "The article states, 'Click on any of these updates to go directly to the comment, mention, or edit in question.'"
+        },
+        {
+          "key": "D",
+          "text": "To the settings menu",
+          "correct": false,
+          "explanation": "Updates are links to content, not settings."
+        }
+      ]
+    },
+    {
+      "id": "collaborate-with-people-011",
+      "question": "What happens when you press Enter after typing '@' and a name?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The mention is deleted",
+          "correct": false,
+          "explanation": "Pressing Enter confirms the mention and creates the link."
+        },
+        {
+          "key": "B",
+          "text": "A search menu appears and then the person is notified",
+          "correct": true,
+          "explanation": "The menu searches in real-time; pressing Enter confirms the selection and notifies the person."
+        },
+        {
+          "key": "C",
+          "text": "The text turns red",
+          "correct": false,
+          "explanation": "Mentions do not turn red; they link to the person's profile."
+        },
+        {
+          "key": "D",
+          "text": "Nothing happens",
+          "correct": false,
+          "explanation": "Pressing Enter is required to finalize the mention and trigger the notification."
+        }
+      ]
+    }
+  ]
+}

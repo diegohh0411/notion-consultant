@@ -23,7 +23,7 @@ const inputDir = args.input;
 const outputDir = args.output;
 
 const defaultModels = {
-  openrouter: 'z-ai/glm-4.7-flash',
+  openrouter: 'openai/gpt-oss-120b',
   ollama: 'llama3.1',
 };
 

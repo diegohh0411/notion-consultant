@@ -1,0 +1,317 @@
+{
+  "source": "guides_5-steps-to-adopt-notion-for-your-entire-organization",
+  "sourceTitle": "5 steps to adopt Notion for your entire organization",
+  "sourceUrl": "https://www.notion.so/help/guides/5-steps-to-adopt-notion-for-your-entire-organization",
+  "questions": [
+    {
+      "id": "5-steps-to-adopt-notion-for-your-entire-organization-001",
+      "question": "What is the first step recommended for adopting Notion across an organization?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Populate the workspace with content",
+          "correct": false,
+          "explanation": "Populating content comes after the workspace structure is defined."
+        },
+        {
+          "key": "B",
+          "text": "Create your workspace architecture",
+          "correct": true,
+          "explanation": "The guide’s Step 1 is to create the workspace architecture, establishing teamspaces and overall structure."
+        },
+        {
+          "key": "C",
+          "text": "Build team‑specific workflows",
+          "correct": false,
+          "explanation": "Workflow building is Step 4, after the workspace and content are in place."
+        },
+        {
+          "key": "D",
+          "text": "Onboard the team",
+          "correct": false,
+          "explanation": "Onboarding (Step 3) happens after the architecture and initial content are set up."
+        }
+      ]
+    },
+    {
+      "id": "5-steps-to-adopt-notion-for-your-entire-organization-002",
+      "question": "Which feature lets you bring existing data from tools like Asana or Google Docs into Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Templates",
+          "correct": false,
+          "explanation": "Templates provide pre‑built pages, not imported data."
+        },
+        {
+          "key": "B",
+          "text": "Importing content",
+          "correct": true,
+          "explanation": "The guide’s Step 2 describes using the Import menu to pull data from other tools."
+        },
+        {
+          "key": "C",
+          "text": "Synced databases",
+          "correct": false,
+          "explanation": "Synced databases keep external data up‑to‑date, but they are not the primary import mechanism."
+        },
+        {
+          "key": "D",
+          "text": "Link previews",
+          "correct": false,
+          "explanation": "Link previews only display a visual snippet of a URL, not full content import."
+        }
+      ]
+    },
+    {
+      "id": "5-steps-to-adopt-notion-for-your-entire-organization-003",
+      "question": "What are the four levels of page access that can be set in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Owner, Admin, Member, Guest",
+          "correct": false,
+          "explanation": "Those are user types, not page‑level permissions."
+        },
+        {
+          "key": "B",
+          "text": "Full access, Can edit, Can comment, Can view",
+          "correct": true,
+          "explanation": "The guide lists these as the four page‑access levels."
+        },
+        {
+          "key": "C",
+          "text": "Read, Write, Execute, Delete",
+          "correct": false,
+          "explanation": "Those are typical file‑system permissions, not Notion's terminology."
+        },
+        {
+          "key": "D",
+          "text": "Public, Private, Team, Organization",
+          "correct": false,
+          "explanation": "Those describe visibility scopes, not the granular access levels."
+        }
+      ]
+    },
+    {
+      "id": "5-steps-to-adopt-notion-for-your-entire-organization-004",
+      "question": "Why does the guide recommend creating a “General” teamspace before department‑specific teamspaces?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically syncs all departmental data into a single view.",
+          "correct": false,
+          "explanation": "The General teamspace does not sync departmental data; it serves as a shared hub."
+        },
+        {
+          "key": "B",
+          "text": "It provides a central location for company‑wide knowledge, ensuring every employee has a common starting point.",
+          "correct": true,
+          "explanation": "The General teamspace houses docs, meeting notes, and other organization‑wide information, acting as a common hub."
+        },
+        {
+          "key": "C",
+          "text": "It limits the number of teamspaces you can create, keeping the workspace simple.",
+          "correct": false,
+          "explanation": "There is no limit enforced; the recommendation is about logical organization, not limitation."
+        },
+        {
+          "key": "D",
+          "text": "It is required by Notion’s licensing model before any other teamspaces can be added.",
+          "correct": false,
+          "explanation": "Notion does not enforce a General teamspace for licensing purposes."
+        }
+      ]
+    },
+    {
+      "id": "5-steps-to-adopt-notion-for-your-entire-organization-005",
+      "question": "According to the guide, how should you encourage new users to experiment with Notion’s features?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Require them to edit the company wiki immediately.",
+          "correct": false,
+          "explanation": "Jumping straight into critical content can be risky; the guide suggests a safer approach."
+        },
+        {
+          "key": "B",
+          "text": "Let them use private pages to try out blocks, databases, and page layouts.",
+          "correct": true,
+          "explanation": "Private pages give a safe sandbox for experimentation without affecting shared content."
+        },
+        {
+          "key": "C",
+          "text": "Assign them full access to all teamspaces from day one.",
+          "correct": false,
+          "explanation": "Full access can lead to accidental changes; the guide advises gradual permission scaling."
+        },
+        {
+          "key": "D",
+          "text": "Force them to complete all Notion Academy courses before any hands‑on work.",
+          "correct": false,
+          "explanation": "While training is valuable, the guide emphasizes practical, low‑stakes experimentation."
+        }
+      ]
+    },
+    {
+      "id": "5-steps-to-adopt-notion-for-your-entire-organization-006",
+      "question": "What is the primary responsibility of Workspace owners regarding permissions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Designing custom templates for every department.",
+          "correct": false,
+          "explanation": "Template creation is a content task, not a primary permission responsibility."
+        },
+        {
+          "key": "B",
+          "text": "Managing user accounts, provisioning access, and adjusting page‑level permissions.",
+          "correct": true,
+          "explanation": "Workspace owners handle user management and set appropriate access levels."
+        },
+        {
+          "key": "C",
+          "text": "Running daily stand‑up meetings within Notion.",
+          "correct": false,
+          "explanation": "Meeting facilitation is unrelated to permission management."
+        },
+        {
+          "key": "D",
+          "text": "Providing SSO integration for every external tool.",
+          "correct": false,
+          "explanation": "SSO setup is part of security configuration, but owners focus on overall user and permission management."
+        }
+      ]
+    },
+    {
+      "id": "5-steps-to-adopt-notion-for-your-entire-organization-007",
+      "question": "Which Notion capability allows you to keep data from external tools like GitHub or Jira continuously up‑to‑date inside Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Template duplication",
+          "correct": false,
+          "explanation": "Templates are static copies, not live sync mechanisms."
+        },
+        {
+          "key": "B",
+          "text": "Synced databases",
+          "correct": true,
+          "explanation": "Synced databases pull data from external sources and refresh in real time."
+        },
+        {
+          "key": "C",
+          "text": "Link previews",
+          "correct": false,
+          "explanation": "Link previews only show a snapshot of a URL, not dynamic data."
+        },
+        {
+          "key": "D",
+          "text": "Page comments",
+          "correct": false,
+          "explanation": "Comments are for discussion, not data synchronization."
+        }
+      ]
+    },
+    {
+      "id": "5-steps-to-adopt-notion-for-your-entire-organization-008",
+      "question": "How do page owners and the verification feature help maintain content quality?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They automatically delete pages that are older than six months.",
+          "correct": false,
+          "explanation": "Verification does not delete content; it signals freshness."
+        },
+        {
+          "key": "B",
+          "text": "Page owners can mark a page as verified, indicating the information is current and trustworthy.",
+          "correct": true,
+          "explanation": "Verification signals that a page has been reviewed and is up‑to‑date, improving quality."
+        },
+        {
+          "key": "C",
+          "text": "Verification locks the page so no one can edit it.",
+          "correct": false,
+          "explanation": "Verification does not restrict editing; it is an indicator, not a lock."
+        },
+        {
+          "key": "D",
+          "text": "Only guests can verify pages, ensuring external review.",
+          "correct": false,
+          "explanation": "Verification is performed by designated page owners, not limited to guests."
+        }
+      ]
+    },
+    {
+      "id": "5-steps-to-adopt-notion-for-your-entire-organization-009",
+      "question": "How does the guide suggest balancing security with collaboration when provisioning members?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Give every member Full access and rely on SSO to prevent unwanted changes.",
+          "correct": false,
+          "explanation": "Full access to all members defeats the purpose of granular security."
+        },
+        {
+          "key": "B",
+          "text": "Limit Full access to Workspace owners, assign appropriate page‑level permissions (Can edit, comment, view) based on role, and use SSO for secure authentication.",
+          "correct": true,
+          "explanation": "The guide recommends restricting high‑level permissions, tailoring access, and leveraging SSO for security."
+        },
+        {
+          "key": "C",
+          "text": "Allow members to change workspace security settings so they can self‑manage.",
+          "correct": false,
+          "explanation": "Only owners should manage security; giving members that ability can create risk."
+        },
+        {
+          "key": "D",
+          "text": "Create only Guest accounts for all users to keep the workspace completely locked down.",
+          "correct": false,
+          "explanation": "Guests have limited access and would hinder collaboration."
+        }
+      ]
+    },
+    {
+      "id": "5-steps-to-adopt-notion-for-your-entire-organization-010",
+      "question": "What is the strategic benefit of continuously onboarding and scaling your team, according to the guide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It ensures that every new hire immediately receives admin rights, speeding up decision‑making.",
+          "correct": false,
+          "explanation": "Granting admin rights to all new hires is not recommended for security."
+        },
+        {
+          "key": "B",
+          "text": "Ongoing onboarding integrates new members, keeps the whole team aware of new features, and supports scaling by adjusting permissions and workflows, leading to deeper Notion adoption.",
+          "correct": true,
+          "explanation": "The guide stresses continuous onboarding to maintain engagement, leverage feature releases, and scale responsibly."
+        },
+        {
+          "key": "C",
+          "text": "It eliminates the need for any future training because the initial onboarding covers everything.",
+          "correct": false,
+          "explanation": "Continuous learning is needed; the guide promotes regular refreshes."
+        },
+        {
+          "key": "D",
+          "text": "It allows the organization to replace Notion with another tool each year without disruption.",
+          "correct": false,
+          "explanation": "The guide focuses on deepening Notion usage, not frequent tool replacement."
+        }
+      ]
+    }
+  ]
+}

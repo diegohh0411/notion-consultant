@@ -1,0 +1,317 @@
+{
+  "source": "guides_how-to-build-a-wiki-for-your-product-team",
+  "sourceTitle": "How to build a wiki for your product team",
+  "sourceUrl": "https://www.notion.com/help/guides/how-to-build-a-wiki-for-your-product-team",
+  "questions": [
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-product-team-001",
+      "question": "Why does the article describe a product wiki as an \"investment in your product\"?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because it costs money to host a wiki.",
+          "correct": false,
+          "explanation": "The article focuses on the strategic value, not the monetary cost."
+        },
+        {
+          "key": "B",
+          "text": "Because it centralizes documentation, reducing disorganization and improving product quality.",
+          "correct": true,
+          "explanation": "The wiki consolidates guides, feedback, and ownership info, preventing scattered knowledge and boosting execution."
+        },
+        {
+          "key": "C",
+          "text": "Because it replaces the need for any other tools in the company.",
+          "correct": false,
+          "explanation": "The wiki complements other tools; it doesn't replace every other system."
+        },
+        {
+          "key": "D",
+          "text": "Because it eliminates the need for product managers.",
+          "correct": false,
+          "explanation": "Product managers still play a crucial role; the wiki supports them."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-product-team-002",
+      "question": "Which of the following is NOT a recommended way to create a new page in Notion according to the guide?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over the sidebar and click the + sign next to WORKSPACE.",
+          "correct": false,
+          "explanation": "This is one of the two methods described."
+        },
+        {
+          "key": "B",
+          "text": "Press the / key and type \"page\" while inside an existing page.",
+          "correct": false,
+          "explanation": "This slash command creates a new page."
+        },
+        {
+          "key": "C",
+          "text": "Right‑click any existing page and select \"Duplicate\".",
+          "correct": true,
+          "explanation": "Duplicating a page is not mentioned as a primary method for creating a fresh wiki page."
+        },
+        {
+          "key": "D",
+          "text": "Use the slash command \"/page\" and press Enter.",
+          "correct": false,
+          "explanation": "This is precisely the slash‑command method described."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-product-team-003",
+      "question": "What is the purpose of using headers (H1, H2, H3) in a product wiki?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To change the font color of the text.",
+          "correct": false,
+          "explanation": "Headers affect hierarchy, not text color."
+        },
+        {
+          "key": "B",
+          "text": "To create a visual hierarchy that makes sections easier to scan and organize.",
+          "correct": true,
+          "explanation": "Headers establish structure, helping users locate information quickly."
+        },
+        {
+          "key": "C",
+          "text": "To automatically generate a table of contents on the page.",
+          "correct": false,
+          "explanation": "While Notion can generate a TOC, the guide emphasizes hierarchy, not auto‑generation."
+        },
+        {
+          "key": "D",
+          "text": "To enable comments on each section.",
+          "correct": false,
+          "explanation": "Comments can be added anywhere, independent of header level."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-product-team-004",
+      "question": "Which feature allows you to view the same dataset as both a table and a board in Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Creating a separate database for each view.",
+          "correct": false,
+          "explanation": "Separate databases duplicate data; the guide shows switching views within one database."
+        },
+        {
+          "key": "B",
+          "text": "Adding a new view and selecting \"Board\" from the view options.",
+          "correct": true,
+          "explanation": "You can add a Board view to an existing Table database, letting you toggle between formats."
+        },
+        {
+          "key": "C",
+          "text": "Using the \"Turn Into\" command on a page.",
+          "correct": false,
+          "explanation": "\"Turn Into\" changes a block type, not database view."
+        },
+        {
+          "key": "D",
+          "text": "Embedding a Google Sheet and switching its view mode.",
+          "correct": false,
+          "explanation": "Embedding external sheets is possible but not the method described for native Notion views."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-product-team-005",
+      "question": "When building a user research database, which property type would you choose to allow selecting a single tag from a predefined list (e.g., \"Task\")?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text",
+          "correct": false,
+          "explanation": "Text allows free‑form entry, not controlled tags."
+        },
+        {
+          "key": "B",
+          "text": "Single select",
+          "correct": true,
+          "explanation": "Single select lets you define a menu of tags and choose one per row."
+        },
+        {
+          "key": "C",
+          "text": "Multi‑select",
+          "correct": false,
+          "explanation": "Multi‑select permits multiple tags, which is not the described single‑tag use case."
+        },
+        {
+          "key": "D",
+          "text": "Relation",
+          "correct": false,
+          "explanation": "Relation links to another database, not a simple tag list."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-product-team-006",
+      "question": "How can you quickly create multiple sub‑pages at once inside a wiki?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Copy‑paste a list of page titles and then click the \"Turn Into\" → \"Page\" option.",
+          "correct": true,
+          "explanation": "The guide explains typing each title on its own line, highlighting them, then using Turn Into > Page."
+        },
+        {
+          "key": "B",
+          "text": "Select \"Add multiple pages\" from the sidebar menu.",
+          "correct": false,
+          "explanation": "No such dedicated menu is mentioned."
+        },
+        {
+          "key": "C",
+          "text": "Use the shortcut Cmd/Ctrl + N repeatedly.",
+          "correct": false,
+          "explanation": "This creates single pages, not batch creation."
+        },
+        {
+          "key": "D",
+          "text": "Import a CSV file with page titles.",
+          "correct": false,
+          "explanation": "CSV import is not described as a quick method for sub‑pages."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-product-team-007",
+      "question": "Which of the following best explains how comments improve remote collaboration on a product wiki?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Comments automatically change the page layout to a chat view.",
+          "correct": false,
+          "explanation": "Comments appear alongside content; they don’t alter layout."
+        },
+        {
+          "key": "B",
+          "text": "They allow asynchronous discussions, keep ideas visible, and let teammates tag each other for quick follow‑up.",
+          "correct": true,
+          "explanation": "The guide highlights tagging, asynchronous conversation, and visibility as collaboration benefits."
+        },
+        {
+          "key": "C",
+          "text": "Comments replace the need for version history.",
+          "correct": false,
+          "explanation": "Version history is a separate feature; comments complement it."
+        },
+        {
+          "key": "D",
+          "text": "They automatically assign tasks to the person mentioned.",
+          "correct": false,
+          "explanation": "Mentioning notifies but doesn’t create tasks unless you add a task block."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-product-team-008",
+      "question": "What advantage does embedding a Figma file directly into a wiki page provide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It converts the design into a PDF that can be downloaded.",
+          "correct": false,
+          "explanation": "Embedding shows the live file; it doesn’t convert it."
+        },
+        {
+          "key": "B",
+          "text": "Team members can view and jump to design concepts without leaving Notion.",
+          "correct": true,
+          "explanation": "Embedding lets users see and interact with the design in‑context, streamlining workflow."
+        },
+        {
+          "key": "C",
+          "text": "It automatically syncs design changes to the product codebase.",
+          "correct": false,
+          "explanation": "Embedding is a visual link; it doesn’t push changes to code."
+        },
+        {
+          "key": "D",
+          "text": "It locks the design file so only PMs can edit it.",
+          "correct": false,
+          "explanation": "Permissions are managed in Figma, not by embedding."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-product-team-009",
+      "question": "If a product manager wants to see only the research sessions conducted by a specific teammate, which Notion feature should they use?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a new page and manually copy those rows.",
+          "correct": false,
+          "explanation": "Manual copying defeats the purpose of dynamic filtering."
+        },
+        {
+          "key": "B",
+          "text": "Add a filter to the table view based on the \"Interviewer\" property.",
+          "correct": true,
+          "explanation": "Filters let you display a subset of rows, such as sessions by a particular person."
+        },
+        {
+          "key": "C",
+          "text": "Change the database type from Table to List.",
+          "correct": false,
+          "explanation": "Changing view type doesn’t filter data."
+        },
+        {
+          "key": "D",
+          "text": "Use the \"Sort\" feature to order rows alphabetically by name.",
+          "correct": false,
+          "explanation": "Sorting rearranges rows but doesn’t limit which rows are shown."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-product-team-010",
+      "question": "Which statement best captures the relationship between a product wiki and onboarding new team members, as described in the article?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "New hires must read the wiki once and then rely on senior staff for all questions.",
+          "correct": false,
+          "explanation": "The article emphasizes the wiki as a living resource, reducing reliance on constant guidance."
+        },
+        {
+          "key": "B",
+          "text": "The wiki provides a centralized, searchable knowledge base that new members can consult repeatedly, turning onboarding into an ongoing conversation.",
+          "correct": true,
+          "explanation": "This reflects the guide’s point that onboarding becomes a two‑way, continuous process via the wiki."
+        },
+        {
+          "key": "C",
+          "text": "Onboarding is handled entirely outside of Notion, using separate HR software.",
+          "correct": false,
+          "explanation": "While other tools may exist, the article positions the wiki as the central onboarding hub."
+        },
+        {
+          "key": "D",
+          "text": "The wiki replaces all face‑to‑face training sessions.",
+          "correct": false,
+          "explanation": "The wiki complements, not replaces, personal training."
+        }
+      ]
+    }
+  ]
+}

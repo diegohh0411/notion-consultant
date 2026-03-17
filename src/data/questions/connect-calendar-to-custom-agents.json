@@ -1,0 +1,379 @@
+{
+  "source": "connect-calendar-to-custom-agents",
+  "sourceTitle": "Connect Calendar to Custom Agents",
+  "sourceUrl": "https://www.notion.so/help/connect-calendar-to-custom-agents",
+  "questions": [
+    {
+      "id": "connect-calendar-to-custom-agents-001",
+      "question": "Which plans support the Calendar connection for Custom Agents?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Free and Personal",
+          "correct": false,
+          "explanation": "The Calendar connection for Custom Agents is only available on Business and Enterprise plans."
+        },
+        {
+          "key": "B",
+          "text": "Pro and Business",
+          "correct": false,
+          "explanation": "Pro plans do not support the Calendar connection for Custom Agents."
+        },
+        {
+          "key": "C",
+          "text": "Business and Enterprise",
+          "correct": true,
+          "explanation": "This feature is available on Business and Enterprise plans."
+        },
+        {
+          "key": "D",
+          "text": "All plans including Notion Personal",
+          "correct": false,
+          "explanation": "Notion Personal does not support the Calendar connection for Custom Agents."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-002",
+      "question": "When connecting a Calendar to a Custom Agent, which action allows you to modify existing event details like conferencing attributes?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Read event",
+          "correct": false,
+          "explanation": "Read events only allows viewing information without making changes."
+        },
+        {
+          "key": "B",
+          "text": "Update event",
+          "correct": true,
+          "explanation": "Update event allows you to modify existing event details, including conferencing attributes."
+        },
+        {
+          "key": "C",
+          "text": "Add/remove attendees",
+          "correct": false,
+          "explanation": "Add/remove attendees specifically modifies the guest list, not other attributes like conferencing."
+        },
+        {
+          "key": "D",
+          "text": "Cancel event",
+          "correct": false,
+          "explanation": "Cancel event removes the event from the calendar entirely."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-003",
+      "question": "How do you set up a Calendar-based trigger in a Custom Agent?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Settings -> Calendar -> Add Trigger",
+          "correct": false,
+          "explanation": "You add triggers under the 'Triggers' section in Settings, not directly under Calendar."
+        },
+        {
+          "key": "B",
+          "text": "Chat with your agent and mention 'trigger'",
+          "correct": false,
+          "explanation": "While you can chat with the agent, triggers are configured explicitly in the Agent's Settings."
+        },
+        {
+          "key": "C",
+          "text": "Under Triggers, click + Add connection → Calendar → Connect",
+          "correct": true,
+          "explanation": "This is the correct step-by-step process to add a Calendar-based trigger."
+        },
+        {
+          "key": "D",
+          "text": "Go to the Calendar app and select 'Custom Agent Triggers'",
+          "correct": false,
+          "explanation": "Triggers are configured within the Custom Agent's Settings, not within the Calendar app."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-004",
+      "question": "What is the purpose of the 'Set as default' permission when connecting a calendar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It forces the agent to use that specific calendar for all actions automatically.",
+          "correct": false,
+          "explanation": "It sets the default calendar the agent uses unless you specify a different one."
+        },
+        {
+          "key": "B",
+          "text": "It deletes all other calendars connected to the account.",
+          "correct": false,
+          "explanation": "This option does not delete other calendars; it only sets a default for the agent."
+        },
+        {
+          "key": "C",
+          "text": "It changes which connected calendar your Agent should use by default.",
+          "correct": true,
+          "explanation": "If you have multiple calendars in the same account, this sets the default calendar the agent uses."
+        },
+        {
+          "key": "D",
+          "text": "It requires your permission for every single action taken on that calendar.",
+          "correct": false,
+          "explanation": "That behavior is controlled by the 'Require confirmation' toggle, not 'Set as default'."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-005",
+      "question": "Which of the following is a troubleshooting step for connection errors where an Agent can't see events?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Disconnect, clear cookies, and reconnect with the correct account.",
+          "correct": true,
+          "explanation": "This is a recommended troubleshooting step for connection errors or disconnects."
+        },
+        {
+          "key": "B",
+          "text": "Increase the agent's memory usage in Settings.",
+          "correct": false,
+          "explanation": "Memory usage is not a troubleshooting step for connection errors."
+        },
+        {
+          "key": "C",
+          "text": "Send a thumbs down to the agent immediately.",
+          "correct": false,
+          "explanation": "While you can give a thumbs down, the specific step for connection errors is clearing cookies."
+        },
+        {
+          "key": "D",
+          "text": "Change the calendar provider from Google to Apple.",
+          "correct": false,
+          "explanation": "This is a workaround, not a direct troubleshooting step for a connection error."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-006",
+      "question": "When sharing a Custom Agent with Calendar connections, what determines which events users can see?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The permissions granted to the person sharing the link.",
+          "correct": false,
+          "explanation": "It is not the sharer's permissions, but rather the permissions of the user who set up the connection."
+        },
+        {
+          "key": "B",
+          "text": "The permissions granted to the person receiving the share.",
+          "correct": false,
+          "explanation": "The receiver's access level (Can View and Interact) determines *interaction* rights, but visibility is based on the connection owner."
+        },
+        {
+          "key": "C",
+          "text": "The user who set up the connection is permitted to see in Calendar.",
+          "correct": true,
+          "explanation": "Agents show what the connection owner is permitted to see. If the owner has private events, those are visible to anyone with Can View and Interact access."
+        },
+        {
+          "key": "D",
+          "text": "The specific calendar account used for the connection.",
+          "correct": false,
+          "explanation": "The specific account doesn't dictate visibility; the permissions associated with the user who connected it do."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-007",
+      "question": "Which instruction example would cause an agent to create a page in a database when an external meeting is added?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "\"When a new external meeting is added to my calendar, create a page in my Meetings database.\"",
+          "correct": true,
+          "explanation": "This instruction specifically triggers the creation of a database page upon a new meeting event."
+        },
+        {
+          "key": "B",
+          "text": "\"Every morning at 8am, review my calendar for the day.\"",
+          "correct": false,
+          "explanation": "This instruction is for a 'Morning brief', which summarizes meetings rather than creating database pages."
+        },
+        {
+          "key": "C",
+          "text": "\"When someone requests a meeting via Slack, check my calendar for availability.\"",
+          "correct": false,
+          "explanation": "This instruction is for a 'Calendar optimizer', which focuses on finding time rather than creating pages."
+        },
+        {
+          "key": "D",
+          "text": "\"Find time with participants to schedule an event.\"",
+          "correct": false,
+          "explanation": "This instruction is for a 'Scheduling assistant', which focuses on finding available times."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-008",
+      "question": "How can you filter a Calendar trigger to ensure it only runs for specific events?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By adding a filter to the trigger based on criteria like title, description, or owner.",
+          "correct": true,
+          "explanation": "You can add a filter to narrow which events fire a Calendar trigger using specified criteria."
+        },
+        {
+          "key": "B",
+          "text": "By disconnecting all other calendars except the one you want to trigger on.",
+          "correct": false,
+          "explanation": "While you choose which calendar the trigger runs on, filtering is done via criteria, not just by selecting one calendar."
+        },
+        {
+          "key": "C",
+          "text": "By changing the agent's name to match the event title.",
+          "correct": false,
+          "explanation": "The agent's name does not act as a filter for triggers."
+        },
+        {
+          "key": "D",
+          "text": "By setting the trigger to run only on all-day events.",
+          "correct": false,
+          "explanation": "While 'all-day status' is a valid filter criteria, you must explicitly add the filter to achieve this."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-009",
+      "question": "What is the primary function of the 'RSVP to an event' action in a Custom Agent?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To remove the event from your calendar.",
+          "correct": false,
+          "explanation": "That is the function of the 'Cancel event' action."
+        },
+        {
+          "key": "B",
+          "text": "To let you know when you have an event pending RSVP and RSVP on your behalf.",
+          "correct": true,
+          "explanation": "The RSVP action handles pending responses and sends them on your behalf."
+        },
+        {
+          "key": "C",
+          "text": "To generate and send invitations to participants.",
+          "correct": false,
+          "explanation": "That is the function of the 'Send calendar invite' action."
+        },
+        {
+          "key": "D",
+          "text": "To modify the location or time of an existing event.",
+          "correct": false,
+          "explanation": "That is the function of the 'Update event' action."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-010",
+      "question": "If your Custom Agent is running multiple times for a single calendar event, which troubleshooting step should you take?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Check the Activity tab to see if the trigger is firing.",
+          "correct": true,
+          "explanation": "Checking the Activity tab helps diagnose if the trigger is firing correctly or if it is looping."
+        },
+        {
+          "key": "B",
+          "text": "Disconnect the Calendar connection immediately.",
+          "correct": false,
+          "explanation": "Disconnecting may stop the issue, but the Activity tab is the first step to diagnosis."
+        },
+        {
+          "key": "C",
+          "text": "Send a thumbs up to the agent to reset it.",
+          "correct": false,
+          "explanation": "A thumbs down is used to flag errors, but the Activity tab is the specific tool for trigger diagnosis."
+        },
+        {
+          "key": "D",
+          "text": "Change the event's title to 'Test' to isolate the issue.",
+          "correct": false,
+          "explanation": "While testing with a simple event is mentioned in general troubleshooting, the specific step for multiple runs is checking the Activity tab."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-011",
+      "question": "Which of the following calendar providers is NOT supported for the Custom Agent Calendar connection?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Google Calendar",
+          "correct": false,
+          "explanation": "Google Calendar is supported."
+        },
+        {
+          "key": "B",
+          "text": "Apple Calendar",
+          "correct": false,
+          "explanation": "Apple Calendar is supported."
+        },
+        {
+          "key": "C",
+          "text": "Outlook Calendar",
+          "correct": true,
+          "explanation": "The article explicitly states the connection works with Notion Calendar, Google Calendar, and Apple Calendar."
+        },
+        {
+          "key": "D",
+          "text": "Notion Calendar",
+          "correct": false,
+          "explanation": "Notion Calendar is supported."
+        }
+      ]
+    },
+    {
+      "id": "connect-calendar-to-custom-agents-012",
+      "question": "Can a Custom Agent create events without your approval?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, the agent can never create events without approval.",
+          "correct": false,
+          "explanation": "Yes, it can, provided you give it the appropriate permissions (Read and Write) and toggle 'Require confirmation' off."
+        },
+        {
+          "key": "B",
+          "text": "Yes, if you give it Read permissions.",
+          "correct": false,
+          "explanation": "Read permissions allow viewing, but not creating. You need Read and Write permissions."
+        },
+        {
+          "key": "C",
+          "text": "Yes, if you instruct it to suggest times and wait for confirmation.",
+          "correct": false,
+          "explanation": "This instruction restricts the agent to suggesting times, so it does not create the event without approval."
+        },
+        {
+          "key": "D",
+          "text": "Yes, if you toggle 'Require confirmation' OFF.",
+          "correct": true,
+          "explanation": "When 'Require confirmation' is off, the agent can modify events and send invites without approval."
+        }
+      ]
+    }
+  ]
+}

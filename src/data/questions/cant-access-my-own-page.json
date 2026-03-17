@@ -1,0 +1,255 @@
+{
+  "source": "cant-access-my-own-page",
+  "sourceTitle": "I can't access my own page",
+  "sourceUrl": "https://www.notion.so/help/cant-access-my-own-page",
+  "questions": [
+    {
+      "id": "cant-access-my-own-page-001",
+      "question": "If you are prompted to request access to your own Notion page, what is the first step regarding your account?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a new Notion account",
+          "correct": false,
+          "explanation": "Creating a new account will not fix the issue if you are already logged in to a different account."
+        },
+        {
+          "key": "B",
+          "text": "Check if you are logged into the correct account",
+          "correct": true,
+          "explanation": "If you have multiple accounts or recently changed your email, you might be logged into the wrong account."
+        },
+        {
+          "key": "C",
+          "text": "Delete the page immediately",
+          "correct": false,
+          "explanation": "Deleting the page will cause you to lose your data; check your account credentials first."
+        },
+        {
+          "key": "D",
+          "text": "Ask a workspace admin to delete the page",
+          "correct": false,
+          "explanation": "An admin deleting the page would resolve the access issue, but it is not the recommended troubleshooting step."
+        }
+      ]
+    },
+    {
+      "id": "cant-access-my-own-page-002",
+      "question": "What is the recommended action if your page has been moved or permissions changed by a workspace admin?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Try requesting access again",
+          "correct": false,
+          "explanation": "Requesting access again will not resolve the issue if the permissions were changed by an admin."
+        },
+        {
+          "key": "B",
+          "text": "Ask someone to restore your access",
+          "correct": true,
+          "explanation": "Since an admin changed the permissions, you need to ask them or another admin to restore your access rights."
+        },
+        {
+          "key": "C",
+          "text": "Clear your browser cache",
+          "correct": false,
+          "explanation": "Clearing the cache fixes browser-related bugs, but it does not address permission changes made by an admin."
+        },
+        {
+          "key": "D",
+          "text": "Contact the Notion status page",
+          "correct": false,
+          "explanation": "While the status page is useful for general outages, it cannot directly restore specific user permissions."
+        }
+      ]
+    },
+    {
+      "id": "cant-access-my-own-page-003",
+      "question": "If you click to request access and receive an error telling you to try again, what does this indicate?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Your page has been permanently deleted",
+          "correct": false,
+          "explanation": "A 'try again' error usually suggests a temporary technical issue rather than permanent deletion."
+        },
+        {
+          "key": "B",
+          "text": "There is a potential bug",
+          "correct": true,
+          "explanation": "The article states that this specific error could mean there is a bug, distinct from permission issues."
+        },
+        {
+          "key": "C",
+          "text": "You are logged into the wrong account",
+          "correct": false,
+          "explanation": "Being logged into the wrong account typically results in a direct prompt to request access, not an error message."
+        },
+        {
+          "key": "D",
+          "text": "Your workspace has reached its storage limit",
+          "correct": false,
+          "explanation": "Storage limits usually result in a different type of error message regarding uploads or saving."
+        }
+      ]
+    },
+    {
+      "id": "cant-access-my-own-page-004",
+      "question": "Where should you check for live updates on known service issues before troubleshooting access problems?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Your browser's settings menu",
+          "correct": false,
+          "explanation": "Browser settings do not contain information about Notion's service status."
+        },
+        {
+          "key": "B",
+          "text": "The Notion status page",
+          "correct": true,
+          "explanation": "The article explicitly directs users to check the Notion status page for live updates on known issues."
+        },
+        {
+          "key": "C",
+          "text": "The Twitter account of your workspace",
+          "correct": false,
+          "explanation": "While the article mentions X (Twitter) for updates, the primary and most direct source is the status page."
+        },
+        {
+          "key": "D",
+          "text": "The 'Learn more' section of this article",
+          "correct": false,
+          "explanation": "The 'Learn more' section links to other troubleshooting articles, not live service status."
+        }
+      ]
+    },
+    {
+      "id": "cant-access-my-own-page-005",
+      "question": "Why is it important to ensure you are using the account that created the page when troubleshooting access issues?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the creator can view the page content",
+          "correct": false,
+          "explanation": "Page visibility is determined by permissions, not solely by who created the page."
+        },
+        {
+          "key": "B",
+          "text": "You must be accessing the page using the account that you used to create it",
+          "correct": true,
+          "explanation": "The article states you need to be logged into the specific account used to create the page to access it."
+        },
+        {
+          "key": "C",
+          "text": "Creators have special technical access to the database",
+          "correct": false,
+          "explanation": "Access rights are managed by permissions, not by a creator's technical role."
+        },
+        {
+          "key": "D",
+          "text": "The page cannot be moved without the creator's login",
+          "correct": false,
+          "explanation": "A workspace admin can move or change permissions on a page regardless of who created it."
+        }
+      ]
+    },
+    {
+      "id": "cant-access-my-own-page-006",
+      "question": "Which specific troubleshooting step is suggested for the 'try again' error?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask a workspace admin to restore your access",
+          "correct": false,
+          "explanation": "This step applies to permission issues, not technical bugs causing 'try again' errors."
+        },
+        {
+          "key": "B",
+          "text": "Access the document from a different browser or clear your cache",
+          "correct": true,
+          "explanation": "The article recommends trying a different browser or clearing the cache to resolve potential browser-related bugs."
+        },
+        {
+          "key": "C",
+          "text": "Create a new page to replace the old one",
+          "correct": false,
+          "explanation": "Creating a new page is a drastic solution and does not address the underlying access error."
+        },
+        {
+          "key": "D",
+          "text": "Check the Notion status page for an outage",
+          "correct": false,
+          "explanation": "While checking the status page is good practice, clearing the cache is the specific technical fix mentioned for this error."
+        }
+      ]
+    },
+    {
+      "id": "cant-access-my-own-page-007",
+      "question": "If you recently changed your email address, which scenario regarding your page access is most likely to occur?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The page will automatically become public",
+          "correct": false,
+          "explanation": "Changing an email address does not automatically change the privacy settings or permissions of your pages."
+        },
+        {
+          "key": "B",
+          "text": "You will be prompted to request access to your own page",
+          "correct": true,
+          "explanation": "If you changed your email, you may be logged into a different account, triggering the request access prompt."
+        },
+        {
+          "key": "C",
+          "text": "The page will be deleted by the system",
+          "correct": false,
+          "explanation": "Changing an email address is a personal setting change and does not trigger system deletion of pages."
+        },
+        {
+          "key": "D",
+          "text": "You will receive an error code from the server",
+          "correct": false,
+          "explanation": "The article mentions specific prompts and errors, but a generic error code is not the primary symptom described."
+        }
+      ]
+    },
+    {
+      "id": "cant-access-my-own-page-008",
+      "question": "What is the key difference between a permission issue and a bug when you cannot access your page?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A permission issue happens on the server, while a bug happens on your device",
+          "correct": false,
+          "explanation": "Permission issues are usually intentional settings changes, whereas bugs are unintended technical glitches."
+        },
+        {
+          "key": "B",
+          "text": "A permission issue requires admin intervention, while a bug is fixed by clearing cache",
+          "correct": true,
+          "explanation": "Permission changes require admin restoration, while bugs are often resolved by clearing cache or changing browsers."
+        },
+        {
+          "key": "C",
+          "text": "A permission issue is caused by an incorrect email, while a bug is caused by a slow internet connection",
+          "correct": false,
+          "explanation": "Both can be caused by various factors, but the root cause differs between settings and technical glitches."
+        },
+        {
+          "key": "D",
+          "text": "A permission issue is impossible to fix, while a bug can be resolved by the user",
+          "correct": false,
+          "explanation": "Both issues can be resolved; permission issues often require an admin, but bugs can be user-resolved."
+        }
+      ]
+    }
+  ]
+}

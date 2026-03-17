@@ -1,0 +1,317 @@
+{
+  "source": "guides_this-project-management-system-connects-the-dots-for-your-product-team",
+  "sourceTitle": "This project management system connects the dots for your product team",
+  "sourceUrl": "https://www.notion.so/help/guides_this-project-management-system-connects-the-dots-for-your-product-team",
+  "questions": [
+    {
+      "id": "guides_this-project-management-system-connects-the-dots-for-your-product-team-001",
+      "question": "According to the guide, which of the following is NOT listed as a common problem that product teams face with traditional project management tools?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dispersed, inaccessible information across multiple tools",
+          "correct": false,
+          "explanation": "The guide explicitly mentions scattered information as a problem."
+        },
+        {
+          "key": "B",
+          "text": "Lack of transparency for the team and the broader organization",
+          "correct": false,
+          "explanation": "Transparency issues are highlighted as a key pain point."
+        },
+        {
+          "key": "C",
+          "text": "Rigid systems that force teams to conform to the software's workflow",
+          "correct": false,
+          "explanation": "The guide calls out rigidity as a flaw of many existing tools."
+        },
+        {
+          "key": "D",
+          "text": "Insufficient color‑coding options for task priority",
+          "correct": true,
+          "explanation": "Color‑coding is not mentioned; the guide focuses on information silos, transparency, and rigidity."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-project-management-system-connects-the-dots-for-your-product-team-002",
+      "question": "When creating the initial board for project tracking, which Notion command is used to insert the board on a new page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "/table",
+          "correct": false,
+          "explanation": "/table creates a table view, not a board."
+        },
+        {
+          "key": "B",
+          "text": "/board",
+          "correct": true,
+          "explanation": "Typing /board and selecting \"Board – Full page\" creates the kanban‑style board."
+        },
+        {
+          "key": "C",
+          "text": "/calendar",
+          "correct": false,
+          "explanation": "/calendar creates a calendar view, which is not the board step described."
+        },
+        {
+          "key": "D",
+          "text": "/gallery",
+          "correct": false,
+          "explanation": "/gallery creates a gallery view, not the board used for project stages."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-project-management-system-connects-the-dots-for-your-product-team-003",
+      "question": "Which feature allows you to see selected properties directly on the cards in a board view, reducing the need to open each card?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Group By",
+          "correct": false,
+          "explanation": "Group By changes how cards are clustered, not which properties are displayed."
+        },
+        {
+          "key": "B",
+          "text": "Properties toggle in the view settings",
+          "correct": true,
+          "explanation": "Turning on properties in the view settings shows chosen fields on each card."
+        },
+        {
+          "key": "C",
+          "text": "Sort",
+          "correct": false,
+          "explanation": "Sorting orders cards but does not affect visible properties."
+        },
+        {
+          "key": "D",
+          "text": "Relation property",
+          "correct": false,
+          "explanation": "Relations link databases but do not control on‑card property visibility."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-project-management-system-connects-the-dots-for-your-product-team-004",
+      "question": "How can you create a view that only shows projects launching this week?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add a filter on the launch date property to \"is on or after\" today and \"is before\" 7 days from now",
+          "correct": true,
+          "explanation": "Filtering by date range isolates projects launching within the next week."
+        },
+        {
+          "key": "B",
+          "text": "Rename the board columns to \"This Week\" and \"Next Week\"",
+          "correct": false,
+          "explanation": "Renaming columns does not filter the dataset."
+        },
+        {
+          "key": "C",
+          "text": "Create a new property called \"This Week\" and manually check it for each project",
+          "correct": false,
+          "explanation": "Manual tagging works but is not the recommended filter‑based method."
+        },
+        {
+          "key": "D",
+          "text": "Use the Group By feature on the \"Status\" property",
+          "correct": false,
+          "explanation": "Grouping by status does not limit results to a specific time frame."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-project-management-system-connects-the-dots-for-your-product-team-005",
+      "question": "What is the primary benefit of using a Relation property between the project board and a separate Tasks database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically assigns tasks to the correct team members",
+          "correct": false,
+          "explanation": "Relation links records; assignment still requires a People property."
+        },
+        {
+          "key": "B",
+          "text": "It lets you view and edit related tasks directly from the project card",
+          "correct": true,
+          "explanation": "Relation surfaces linked items, giving context without leaving the card."
+        },
+        {
+          "key": "C",
+          "text": "It changes the board layout from columns to rows",
+          "correct": false,
+          "explanation": "Layout is controlled by view type, not by relations."
+        },
+        {
+          "key": "D",
+          "text": "It converts tasks into a calendar view automatically",
+          "correct": false,
+          "explanation": "Relations do not change view types; you would need to create a calendar view separately."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-project-management-system-connects-the-dots-for-your-product-team-006",
+      "question": "Which of the following template components is specifically recommended for a \"Project spec\" template?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Select property for \"Feature Request\" tags",
+          "correct": false,
+          "explanation": "Feature request tags belong to a RFC template, not the spec."
+        },
+        {
+          "key": "B",
+          "text": "H2 header \"Dependencies & Risks\" with H3 sub‑headers for \"Stakeholders\" and \"Risks\"",
+          "correct": true,
+          "explanation": "The guide lists this exact structure for the spec template."
+        },
+        {
+          "key": "C",
+          "text": "A Code block for embedding API endpoints",
+          "correct": false,
+          "explanation": "Code blocks are useful but not highlighted as a core spec section."
+        },
+        {
+          "key": "D",
+          "text": "An embedded Figma prototype at the top of the page",
+          "correct": false,
+          "explanation": "Embedding Figma is suggested for general pages, not a required spec component."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-project-management-system-connects-the-dots-for-your-product-team-007",
+      "question": "What is the recommended way to surface a view of the project board on the product team's wiki page?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Copy‑paste the board URL into the wiki page",
+          "correct": false,
+          "explanation": "A raw URL does not embed a live view."
+        },
+        {
+          "key": "B",
+          "text": "Use the /link command to create a linked database, then add a filtered view",
+          "correct": true,
+          "explanation": "Creating a linked database and adding a view is the method described."
+        },
+        {
+          "key": "C",
+          "text": "Export the board as a PDF and upload it",
+          "correct": false,
+          "explanation": "PDFs are static and would not stay up‑to‑date."
+        },
+        {
+          "key": "D",
+          "text": "Add the board as an embed block using an iFrame",
+          "correct": false,
+          "explanation": "Notion does not support iFrame embeds for its own pages; linked databases are the proper approach."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-project-management-system-connects-the-dots-for-your-product-team-008",
+      "question": "Why does the guide advise against using rigid, one‑size‑fits‑all project management software?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because rigid tools are usually more expensive than Notion",
+          "correct": false,
+          "explanation": "Cost is not the primary concern highlighted."
+        },
+        {
+          "key": "B",
+          "text": "Because they force teams to adapt their processes to the tool instead of the tool adapting to the team's workflow",
+          "correct": true,
+          "explanation": "The guide emphasizes molding software to the team's needs, not the reverse."
+        },
+        {
+          "key": "C",
+          "text": "Because they lack any kind of reporting capability",
+          "correct": false,
+          "explanation": "Reporting may be limited, but the guide focuses on flexibility, not reporting."
+        },
+        {
+          "key": "D",
+          "text": "Because they cannot be integrated with external services like Figma or Typeform",
+          "correct": false,
+          "explanation": "Integration is a concern, yet the core argument is about flexibility of process."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-project-management-system-connects-the-dots-for-your-product-team-009",
+      "question": "Which Notion feature enables real‑time collaboration by allowing you to tag teammates in comments?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The @ symbol",
+          "correct": true,
+          "explanation": "Using @ followed by a name creates a mention in comments."
+        },
+        {
+          "key": "B",
+          "text": "The # symbol",
+          "correct": false,
+          "explanation": "# creates a link to another page, not a mention."
+        },
+        {
+          "key": "C",
+          "text": "The /embed command",
+          "correct": false,
+          "explanation": "/embed inserts external content, not mentions."
+        },
+        {
+          "key": "D",
+          "text": "The *bold* formatting shortcut",
+          "correct": false,
+          "explanation": "Bold formatting does not involve tagging."
+        }
+      ]
+    },
+    {
+      "id": "guides_this-project-management-system-connects-the-dots-for-your-product-team-010",
+      "question": "What is the purpose of adding a \"Feedback\" tag to feature requests in the customer support database, according to the best practices section?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically close the request after three days",
+          "correct": false,
+          "explanation": "Tags do not trigger automated closure."
+        },
+        {
+          "key": "B",
+          "text": "To prioritize features by surfacing the most requested items to the roadmap via a Relation property",
+          "correct": true,
+          "explanation": "Feedback tags help surface high‑demand features for roadmap decisions."
+        },
+        {
+          "key": "C",
+          "text": "To assign a dedicated developer to each request",
+          "correct": false,
+          "explanation": "Assignment requires a People property, not just a tag."
+        },
+        {
+          "key": "D",
+          "text": "To generate a monthly PDF report of all feedback",
+          "correct": false,
+          "explanation": "Tagging alone does not produce reports; a view or export would be needed."
+        }
+      ]
+    }
+  ]
+}

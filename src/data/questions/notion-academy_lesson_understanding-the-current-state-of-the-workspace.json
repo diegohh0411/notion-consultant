@@ -1,0 +1,193 @@
+{
+  "source": "notion-academy_lesson_understanding-the-current-state-of-the-workspace",
+  "sourceTitle": "Understanding the Current State of the Workspace",
+  "sourceUrl": "https://www.notion.com/help/notion-academy/lesson/understanding-the-current-state-of-the-workspace",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_understanding-the-current-state-of-the-workspace-001",
+      "question": "What is the primary purpose of a workspace refresh in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To permanently delete old pages",
+          "correct": false,
+          "explanation": "Refreshing does not delete content; it merely updates the view."
+        },
+        {
+          "key": "B",
+          "text": "To update the view with the latest changes made by collaborators",
+          "correct": true,
+          "explanation": "A refresh pulls in recent edits, ensuring you see the current state of the workspace."
+        },
+        {
+          "key": "C",
+          "text": "To change the workspace’s theme and color scheme",
+          "correct": false,
+          "explanation": "Theme changes are handled in settings, not by a refresh."
+        },
+        {
+          "key": "D",
+          "text": "To export the entire workspace as a PDF",
+          "correct": false,
+          "explanation": "Exporting is a separate action; a refresh does not create PDFs."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_understanding-the-current-state-of-the-workspace-002",
+      "question": "How does Notion handle workspace refreshes by default?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It requires you to manually click a \"Refresh\" button each time",
+          "correct": false,
+          "explanation": "While you can manually refresh, Notion also updates automatically."
+        },
+        {
+          "key": "B",
+          "text": "It automatically syncs changes in real‑time as they happen",
+          "correct": true,
+          "explanation": "Notion continuously syncs edits, so the workspace view stays current without manual effort."
+        },
+        {
+          "key": "C",
+          "text": "It refreshes only once per hour",
+          "correct": false,
+          "explanation": "There is no hourly restriction; updates appear as soon as they are saved."
+        },
+        {
+          "key": "D",
+          "text": "It refreshes only when you close and reopen the app",
+          "correct": false,
+          "explanation": "Closing the app forces a reload, but real‑time syncing occurs even while the app stays open."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_understanding-the-current-state-of-the-workspace-003",
+      "question": "Which of the following is NOT typically displayed during a workspace refresh view?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Recent updates made by collaborators",
+          "correct": false,
+          "explanation": "Recent updates are core to the refresh view."
+        },
+        {
+          "key": "B",
+          "text": "Page hierarchy and navigation structure",
+          "correct": false,
+          "explanation": "The hierarchy is part of what you see when the workspace refreshes."
+        },
+        {
+          "key": "C",
+          "text": "User activity log showing who edited what",
+          "correct": false,
+          "explanation": "Activity logs are often included to convey the current state."
+        },
+        {
+          "key": "D",
+          "text": "System performance metrics such as CPU usage",
+          "correct": true,
+          "explanation": "Performance metrics are not shown in a workspace refresh; they belong to admin dashboards."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_understanding-the-current-state-of-the-workspace-004",
+      "question": "If a page appears unchanged after a workspace refresh, which action should you try first?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clear your browser cache",
+          "correct": false,
+          "explanation": "Clearing cache can help, but a simpler step is usually sufficient."
+        },
+        {
+          "key": "B",
+          "text": "Reload the page (or press Cmd/Ctrl + R)",
+          "correct": true,
+          "explanation": "A simple reload forces Notion to fetch the latest data from the server."
+        },
+        {
+          "key": "C",
+          "text": "Delete the page and recreate it",
+          "correct": false,
+          "explanation": "Deleting is extreme and unnecessary for a refresh issue."
+        },
+        {
+          "key": "D",
+          "text": "Contact Notion support immediately",
+          "correct": false,
+          "explanation": "Support is a last resort after basic troubleshooting."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_understanding-the-current-state-of-the-workspace-005",
+      "question": "During a workspace refresh, the \"Current State\" panel primarily shows which type of information?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "User permission settings for each page",
+          "correct": false,
+          "explanation": "Permissions are managed elsewhere; the panel focuses on recent activity."
+        },
+        {
+          "key": "B",
+          "text": "Versions of page content stored in the trash",
+          "correct": false,
+          "explanation": "Trash content is not part of the live workspace view."
+        },
+        {
+          "key": "C",
+          "text": "Recent changes made across the workspace",
+          "correct": true,
+          "explanation": "The panel highlights the latest edits, giving a snapshot of the workspace’s current state."
+        },
+        {
+          "key": "D",
+          "text": "Integration settings for third‑party apps",
+          "correct": false,
+          "explanation": "Integration settings are found in the Settings menu, not in the refresh view."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_understanding-the-current-state-of-the-workspace-006",
+      "question": "Why might a workspace refresh sometimes display stale data even after collaborators have made changes?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because the collaborator’s changes were blocked by permission restrictions",
+          "correct": false,
+          "explanation": "If permission blocked a change, it wouldn’t be saved at all, not just appear stale."
+        },
+        {
+          "key": "B",
+          "text": "Because Notion’s caching mechanism temporarily serves older data",
+          "correct": true,
+          "explanation": "Notion uses local caches to improve performance; occasionally the cache needs to be invalidated, causing a brief lag."
+        },
+        {
+          "key": "C",
+          "text": "Because the user is on an outdated version of the Notion app",
+          "correct": false,
+          "explanation": "Version differences rarely cause stale data; the app still syncs with the server."
+        },
+        {
+          "key": "D",
+          "text": "Because network latency prevented the changes from reaching the server",
+          "correct": false,
+          "explanation": "While latency can delay updates, Notion typically retries until the server acknowledges the change."
+        }
+      ]
+    }
+  ]
+}

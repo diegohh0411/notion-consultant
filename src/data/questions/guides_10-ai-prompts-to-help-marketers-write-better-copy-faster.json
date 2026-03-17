@@ -1,0 +1,317 @@
+{
+  "source": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster",
+  "sourceTitle": "10 AI prompts to help marketers write better copy, faster",
+  "sourceUrl": "https://www.notion.so/help/guides/10-ai-prompts-to-help-marketers-write-better-copy-faster",
+  "questions": [
+    {
+      "id": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster-001",
+      "question": "When using Notion AI to draft a blog post, which part of the prompt tells the AI to follow the structure you already created?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "“Draft a blog post based on [the outline above] about [topic]”",
+          "correct": true,
+          "explanation": "The phrase “based on the outline above” directs the AI to use the existing outline as the skeleton for the draft."
+        },
+        {
+          "key": "B",
+          "text": "“Create a series of 10 LinkedIn posts”",
+          "correct": false,
+          "explanation": "That prompt is for social media, not for a blog post."
+        },
+        {
+          "key": "C",
+          "text": "“Write a product description in less than 100 words”",
+          "correct": false,
+          "explanation": "That prompt targets product descriptions, not blog posts."
+        },
+        {
+          "key": "D",
+          "text": "“Summarize this page and generate insights”",
+          "correct": false,
+          "explanation": "Summarizing is used for research or white papers, not for drafting a blog post."
+        }
+      ]
+    },
+    {
+      "id": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster-002",
+      "question": "Which of the following is a recommended way to generate Instagram captions with Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Explain the image or video content and state what you want the caption to convey.",
+          "correct": true,
+          "explanation": "Providing the AI with the image/video context and desired messaging lets it craft a relevant caption."
+        },
+        {
+          "key": "B",
+          "text": "Ask the AI to write a full blog post and then copy the first paragraph as the caption.",
+          "correct": false,
+          "explanation": "Blog post content is too long and not tailored for Instagram’s short‑form style."
+        },
+        {
+          "key": "C",
+          "text": "Use the same prompt you would use for a press release.",
+          "correct": false,
+          "explanation": "Press release prompts focus on news format, not on short, engaging social captions."
+        },
+        {
+          "key": "D",
+          "text": "Request a list of 10 LinkedIn posts and pick one for Instagram.",
+          "correct": false,
+          "explanation": "LinkedIn posts are longer and more formal; they aren’t ideal for Instagram captions."
+        }
+      ]
+    },
+    {
+      "id": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster-003",
+      "question": "What is the primary purpose of the “Custom AI block” in the email newsletter workflow?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To generate the entire newsletter draft from a pre‑filled outline and bullet points.",
+          "correct": true,
+          "explanation": "The Custom AI block takes the outline and bullet points and writes the full newsletter edition."
+        },
+        {
+          "key": "B",
+          "text": "To create a database of past newsletters for reference.",
+          "correct": false,
+          "explanation": "The guide does not mention using the block for database creation."
+        },
+        {
+          "key": "C",
+          "text": "To automatically schedule the newsletter send date.",
+          "correct": false,
+          "explanation": "Scheduling is a separate calendar function, not part of the AI block."
+        },
+        {
+          "key": "D",
+          "text": "To design visual graphics for the newsletter.",
+          "correct": false,
+          "explanation": "The AI block focuses on text generation, not graphic design."
+        }
+      ]
+    },
+    {
+      "id": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster-004",
+      "question": "If you need three different versions of a website’s hero text that are shorter, exciting, and persuasive, which prompt structure should you use?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "“Create several [shorter] versions of the text below. Make it sound [exciting], [persuasive] and include the benefits of [signing up for a free trial]”.",
+          "correct": true,
+          "explanation": "This prompt explicitly asks for multiple shorter, exciting, persuasive variants while specifying the benefit to highlight."
+        },
+        {
+          "key": "B",
+          "text": "“Write a case study about the website’s performance.”",
+          "correct": false,
+          "explanation": "A case study prompt is unrelated to website copy variations."
+        },
+        {
+          "key": "C",
+          "text": "“Summarize this page and generate 1‑3 insights.”",
+          "correct": false,
+          "explanation": "Summarizing provides insights, not multiple copy versions."
+        },
+        {
+          "key": "D",
+          "text": "“Draft a 500‑word blog post on the product’s benefits.”",
+          "correct": false,
+          "explanation": "A blog post is too long and not focused on the hero section."
+        }
+      ]
+    },
+    {
+      "id": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster-005",
+      "question": "When turning a customer interview transcript into a case study, which element is essential to include according to the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Direct quotes from the interview that illustrate the problem and solution.",
+          "correct": true,
+          "explanation": "The guide specifically says to use quotes and explain how the problem was solved."
+        },
+        {
+          "key": "B",
+          "text": "A detailed technical specification of the product.",
+          "correct": false,
+          "explanation": "Technical specs are not required for a narrative case study."
+        },
+        {
+          "key": "C",
+          "text": "A list of all marketing channels used in the campaign.",
+          "correct": false,
+          "explanation": "Channel lists belong to campaign reports, not case study narratives."
+        },
+        {
+          "key": "D",
+          "text": "An exhaustive FAQ section about the product.",
+          "correct": false,
+          "explanation": "FAQs are separate content, unrelated to the storytelling focus of a case study."
+        }
+      ]
+    },
+    {
+      "id": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster-006",
+      "question": "Which Notion AI feature allows you to generate insights directly from an entire database when creating a white‑paper?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI Autofill property – Custom",
+          "correct": true,
+          "explanation": "The Custom AI Autofill property can summarize pages and extract key insights across a database, useful for white‑paper research."
+        },
+        {
+          "key": "B",
+          "text": "Draft with AI → Blog post option",
+          "correct": false,
+          "explanation": "That option is for blog posts, not for database‑wide insight extraction."
+        },
+        {
+          "key": "C",
+          "text": "Create a new template in the content calendar",
+          "correct": false,
+          "explanation": "Templates help structure content but don’t automatically generate insights from data."
+        },
+        {
+          "key": "D",
+          "text": "Use the ‘Brainstorm ideas’ menu item",
+          "correct": false,
+          "explanation": "Brainstorming helps generate topics, not synthesize data from a database."
+        }
+      ]
+    },
+    {
+      "id": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster-007",
+      "question": "In the ad‑copy prompt, why does the guide suggest specifying a word limit (20‑30 words) and generating multiple variations?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Short, varied copy lets you A/B test quickly and stay within platform character limits, improving conversion chances.",
+          "correct": true,
+          "explanation": "Ad platforms often restrict length; having several concise options enables rapid testing to find the most effective message."
+        },
+        {
+          "key": "B",
+          "text": "Longer copy is always better for SEO, so the limit ensures the AI doesn’t over‑optimize.",
+          "correct": false,
+          "explanation": "Ad copy isn’t primarily for SEO; length limits are about platform constraints and readability."
+        },
+        {
+          "key": "C",
+          "text": "The word limit forces the AI to include more product features in each variation.",
+          "correct": false,
+          "explanation": "A tighter limit actually reduces the amount of detail you can include per variation."
+        },
+        {
+          "key": "D",
+          "text": "Generating many variations ensures the AI will automatically pick the best one for you.",
+          "correct": false,
+          "explanation": "AI provides options; the marketer must still evaluate and select the best performing copy."
+        }
+      ]
+    },
+    {
+      "id": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster-008",
+      "question": "What is the benefit of using the “Brainstorm ideas” option before drafting a blog post with Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It generates a list of potential topics, giving you a starting point for the outline and reducing writer’s block.",
+          "correct": true,
+          "explanation": "Brainstorming provides ideas that can be turned into outlines, making the drafting process smoother."
+        },
+        {
+          "key": "B",
+          "text": "It automatically writes the full blog post without any further input.",
+          "correct": false,
+          "explanation": "Brainstorming only proposes ideas; the full post still needs to be drafted."
+        },
+        {
+          "key": "C",
+          "text": "It formats the blog post according to SEO best practices.",
+          "correct": false,
+          "explanation": "Formatting for SEO is a later step; brainstorming focuses on idea generation."
+        },
+        {
+          "key": "D",
+          "text": "It creates a social media calendar for the blog post.",
+          "correct": false,
+          "explanation": "Social media calendars are separate from the blog brainstorming process."
+        }
+      ]
+    },
+    {
+      "id": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster-009",
+      "question": "When crafting a video tutorial script with Notion AI, why is it important to list the three features you want highlighted?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It ensures the script stays focused, covers each key point, and ties each feature to a clear benefit for the viewer.",
+          "correct": true,
+          "explanation": "Specifying features directs the AI to include them and explain their benefits, which is essential for a concise, informative tutorial."
+        },
+        {
+          "key": "B",
+          "text": "It allows the AI to generate a script in multiple languages automatically.",
+          "correct": false,
+          "explanation": "Language generation isn’t triggered by listing features; it requires explicit language instructions."
+        },
+        {
+          "key": "C",
+          "text": "It forces the AI to write a longer script to meet a minimum word count.",
+          "correct": false,
+          "explanation": "Listing features does not affect length; the script could be short if the features are concise."
+        },
+        {
+          "key": "D",
+          "text": "It enables the AI to create a storyboard with visual assets.",
+          "correct": false,
+          "explanation": "Storyboarding visual assets is outside the scope of a text‑only script prompt."
+        }
+      ]
+    },
+    {
+      "id": "guides_10-ai-prompts-to-help-marketers-write-better-copy-faster-010",
+      "question": "How does the guide suggest you refine the AI‑generated copy for product descriptions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the best variants, ask the AI to expand or tweak them, and iterate until satisfied.",
+          "correct": true,
+          "explanation": "The workflow encourages picking favorite outputs, then refining further with additional AI prompts."
+        },
+        {
+          "key": "B",
+          "text": "Immediately publish the first AI‑generated description without review.",
+          "correct": false,
+          "explanation": "The guide emphasizes reviewing and refining, not blind publishing."
+        },
+        {
+          "key": "C",
+          "text": "Replace all adjectives with synonyms using the AI’s thesaurus function.",
+          "correct": false,
+          "explanation": "While synonyms can help, the guide does not prescribe a blanket synonym replacement."
+        },
+        {
+          "key": "D",
+          "text": "Convert the description into a press release format.",
+          "correct": false,
+          "explanation": "Press releases have a different structure; product descriptions stay focused on the product itself."
+        }
+      ]
+    }
+  ]
+}

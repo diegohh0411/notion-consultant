@@ -1,0 +1,193 @@
+{
+  "source": "notion-academy_lesson_using-data-database-views",
+  "sourceTitle": "Welcome to Notion Academy",
+  "sourceUrl": "https://www.notion.com/help/notion-academy/lesson/using-data-database-views",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_using-data-database-views-001",
+      "question": "What is the primary purpose of Notion Academy as described in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To sell Notion templates",
+          "correct": false,
+          "explanation": "Selling templates is covered in a specific lesson, not the overall purpose of the Academy."
+        },
+        {
+          "key": "B",
+          "text": "To provide a place for live webinars only",
+          "correct": false,
+          "explanation": "Live webinars are one component, but the Academy offers more than just webinars."
+        },
+        {
+          "key": "C",
+          "text": "To help users learn Notion, earn badges, and become certified admins",
+          "correct": true,
+          "explanation": "The article states that Notion Academy lets you learn Notion, earn badges, and get certified as an admin."
+        },
+        {
+          "key": "D",
+          "text": "To replace the Notion Help Center",
+          "correct": false,
+          "explanation": "The Help Center still exists for quick answers; the Academy is a learning platform, not a replacement."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-database-views-002",
+      "question": "Which path is specifically designed for beginners to gain basic Notion skills?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "The Advanced Path targets more experienced users."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": false,
+          "explanation": "The Workflows Path is intermediate and focuses on connected systems."
+        },
+        {
+          "key": "C",
+          "text": "Essentials Path",
+          "correct": true,
+          "explanation": "The Essentials Path is described as for newcomers to learn basic creation, collaboration, and organization."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents Path",
+          "correct": false,
+          "explanation": "Custom Agents is a lesson, not a beginner path."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-database-views-003",
+      "question": "How can a user earn the Notion Certified Admin badge according to the article?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By completing the Advanced Path only",
+          "correct": false,
+          "explanation": "While the Advanced Path helps, certification requires a specific exam and demonstration of best practices."
+        },
+        {
+          "key": "B",
+          "text": "By passing a certification exam that tests workspace design and security best practices",
+          "correct": true,
+          "explanation": "The article says you get certified to run Notion at scale by building smarter workspaces and implementing security best practices."
+        },
+        {
+          "key": "C",
+          "text": "By attending any live webinar",
+          "correct": false,
+          "explanation": "Webinars are educational resources but do not grant certification on their own."
+        },
+        {
+          "key": "D",
+          "text": "By creating and selling a template in the Notion Marketplace",
+          "correct": false,
+          "explanation": "Template creation is a separate skill and does not lead directly to admin certification."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-database-views-004",
+      "question": "Which lesson focuses on building an intake system using forms, charts, and automations?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Project management",
+          "correct": false,
+          "explanation": "Project management covers task databases, not intake forms."
+        },
+        {
+          "key": "B",
+          "text": "An issue tracker for any team",
+          "correct": true,
+          "explanation": "The issue tracker lesson explicitly mentions building an intake system with forms, charts, and automations."
+        },
+        {
+          "key": "C",
+          "text": "Workspace design",
+          "correct": false,
+          "explanation": "Workspace design is about best practices, not specific intake systems."
+        },
+        {
+          "key": "D",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "That lesson is about creating and selling templates, not intake workflows."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-database-views-005",
+      "question": "Which statement about Notion Academy's live webinars is true?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Webinars are only available to users on paid Notion plans",
+          "correct": false,
+          "explanation": "The article does not limit webinars to paid plans; they are offered to all learners."
+        },
+        {
+          "key": "B",
+          "text": "They include both live sessions and on‑demand recordings to help users improve their skills",
+          "correct": true,
+          "explanation": "The article says webinars are live and on‑demand, designed to help users make the most of Notion."
+        },
+        {
+          "key": "C",
+          "text": "Attendance is mandatory to earn any Notion badge",
+          "correct": false,
+          "explanation": "Badges are earned by completing paths/lessons, not by attending webinars."
+        },
+        {
+          "key": "D",
+          "text": "All webinars are conducted exclusively in English",
+          "correct": false,
+          "explanation": "While many lessons are listed as English, the article does not state that webinars are English‑only."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-data-database-views-006",
+      "question": "Considering the structure of Notion Academy, which combination best describes the relationship between “paths”, “lessons”, and “badges”?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paths contain multiple lessons; completing lessons within a path can earn you a badge",
+          "correct": true,
+          "explanation": "The article outlines paths made up of lessons, and finishing them lets learners earn badges."
+        },
+        {
+          "key": "B",
+          "text": "Badges are prerequisites that must be earned before you can enroll in a path",
+          "correct": false,
+          "explanation": "Badges are the outcome of completing paths, not a prerequisite."
+        },
+        {
+          "key": "C",
+          "text": "Lessons are independent of paths and do not contribute to badge acquisition",
+          "correct": false,
+          "explanation": "Lessons are grouped into paths, and completing them contributes toward badges."
+        },
+        {
+          "key": "D",
+          "text": "Paths are only available to advanced users, while beginners only receive individual lessons",
+          "correct": false,
+          "explanation": "The article lists beginner paths (Essentials) and shows that paths exist for all skill levels."
+        }
+      ]
+    }
+  ]
+}

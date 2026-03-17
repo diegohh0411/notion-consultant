@@ -1,0 +1,317 @@
+{
+  "source": "notion-calendar-apps",
+  "sourceTitle": "Notion Calendar apps",
+  "sourceUrl": "https://www.notion.so/help/notion-calendar-apps",
+  "questions": [
+    {
+      "id": "notion-calendar-apps-001",
+      "question": "Which of the following browsers can you use to access Notion Calendar for web?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chrome, Safari, Firefox, Edge, and Arc",
+          "correct": true,
+          "explanation": "All listed browsers are explicitly supported for Notion Calendar on the web."
+        },
+        {
+          "key": "B",
+          "text": "Internet Explorer, Opera, Vivaldi, and Brave",
+          "correct": false,
+          "explanation": "These browsers are not mentioned in the supported list; Internet Explorer is especially unsupported."
+        },
+        {
+          "key": "C",
+          "text": "Only Chrome and Safari",
+          "correct": false,
+          "explanation": "While Chrome and Safari are supported, Firefox, Edge, and Arc are also supported."
+        },
+        {
+          "key": "D",
+          "text": "Only Edge and Firefox",
+          "correct": false,
+          "explanation": "Edge and Firefox are supported, but Chrome, Safari, and Arc are also supported."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-apps-002",
+      "question": "On which operating systems can you run Notion Calendar for web?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "macOS, Windows, ChromeOS, and Linux",
+          "correct": true,
+          "explanation": "The article states that Notion Calendar for web works on any OS, specifically naming those four."
+        },
+        {
+          "key": "B",
+          "text": "Only macOS and Windows",
+          "correct": false,
+          "explanation": "ChromeOS and Linux are also supported, so this answer is incomplete."
+        },
+        {
+          "key": "C",
+          "text": "iOS and Android",
+          "correct": false,
+          "explanation": "Those are mobile platforms; the question asks about the web version, which runs on desktop OSes."
+        },
+        {
+          "key": "D",
+          "text": "Only Linux",
+          "correct": false,
+          "explanation": "Linux is supported, but it is not the only OS; the others are also supported."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-apps-003",
+      "question": "Which method can you use to install Notion Calendar on macOS via a package manager?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Homebrew Cask",
+          "correct": true,
+          "explanation": "The article mentions a Homebrew Cask is available for installing Notion Calendar on macOS."
+        },
+        {
+          "key": "B",
+          "text": "MacPorts",
+          "correct": false,
+          "explanation": "MacPorts is not referenced in the article as a way to install Notion Calendar."
+        },
+        {
+          "key": "C",
+          "text": "npm install notion-calendar",
+          "correct": false,
+          "explanation": "npm is a Node.js package manager and is unrelated to the native macOS app distribution."
+        },
+        {
+          "key": "D",
+          "text": "Direct download from the Windows store",
+          "correct": false,
+          "explanation": "The Windows Store provides Windows apps; macOS users need the macOS download or Homebrew Cask."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-apps-004",
+      "question": "What is the minimum macOS version required for Notion Calendar to run?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "macOS 11 (Big Sur) and above",
+          "correct": true,
+          "explanation": "The article explicitly notes that Notion Calendar supports macOS 11 and later."
+        },
+        {
+          "key": "B",
+          "text": "macOS 10.12 (Sierra)",
+          "correct": false,
+          "explanation": "Sierra is older than the required macOS 11; it is not supported."
+        },
+        {
+          "key": "C",
+          "text": "macOS 10.15 (Catalina)",
+          "correct": false,
+          "explanation": "Catalina is earlier than macOS 11, and the article specifies 11 as the minimum."
+        },
+        {
+          "key": "D",
+          "text": "Any macOS version, as long as you have Homebrew installed",
+          "correct": false,
+          "explanation": "Even with Homebrew, the app still requires macOS 11 or newer."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-apps-005",
+      "question": "Which mobile platforms provide a Notion Calendar home screen widget?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "iOS 14+ (iPhone & iPad) and Android 8+",
+          "correct": true,
+          "explanation": "The article states that the home screen widget is available on iOS 14+ for iPhone/iPad and Android 8+."
+        },
+        {
+          "key": "B",
+          "text": "Only iOS 15+ devices",
+          "correct": false,
+          "explanation": "Android also supports the widget, and iOS 14+ is sufficient, not just 15+."
+        },
+        {
+          "key": "C",
+          "text": "Only Android 10+ devices",
+          "correct": false,
+          "explanation": "iOS devices also have the widget, and Android 8+ is the minimum, not 10+."
+        },
+        {
+          "key": "D",
+          "text": "iOS 13 and Android 7",
+          "correct": false,
+          "explanation": "The minimum versions are iOS 14 and Android 8; earlier versions are not supported."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-apps-006",
+      "question": "If a user wants to hide event titles on their lock screen widget for privacy, which setting should they adjust?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Turn off \"Event titles\" in the lock screen widget settings",
+          "correct": true,
+          "explanation": "The article notes that you can turn off event titles in the lock screen widget for privacy."
+        },
+        {
+          "key": "B",
+          "text": "Enable \"Do Not Disturb\" mode on the device",
+          "correct": false,
+          "explanation": "Do Not Disturb silences notifications but does not hide titles on the widget."
+        },
+        {
+          "key": "C",
+          "text": "Switch the widget to week view",
+          "correct": false,
+          "explanation": "The mobile widget does not support a week view; this setting does not affect title visibility."
+        },
+        {
+          "key": "D",
+          "text": "Delete the widget from the home screen",
+          "correct": false,
+          "explanation": "Deleting the widget removes it entirely; the question asks about hiding titles while keeping the widget."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-apps-007",
+      "question": "Which of the following actions is NOT possible on Notion Calendar for mobile?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a new event with an auto‑generated video‑conference link",
+          "correct": true,
+          "explanation": "The mobile app does not support auto‑generated conferencing links; they must be added manually."
+        },
+        {
+          "key": "B",
+          "text": "Edit an event that you created on iOS and are the organizer of",
+          "correct": false,
+          "explanation": "Editing events you created on iOS as the organizer is allowed."
+        },
+        {
+          "key": "C",
+          "text": "Customize how many days are displayed in a home screen widget",
+          "correct": false,
+          "explanation": "Widget settings let you choose the number of days shown."
+        },
+        {
+          "key": "D",
+          "text": "Exclude a specific calendar from appearing in the lock screen widget",
+          "correct": false,
+          "explanation": "You can exclude calendars from both home and lock screen widgets."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-apps-008",
+      "question": "Why can't a user set Notion Calendar as the default calendar app on mobile devices?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Operating‑system restrictions prevent third‑party apps from becoming the system default for calendar data",
+          "correct": true,
+          "explanation": "Both iOS and Android limit which apps can be set as the default calendar; Notion Calendar is not permitted to replace the native calendar app."
+        },
+        {
+          "key": "B",
+          "text": "Notion Calendar does not support syncing with other calendars on mobile",
+          "correct": false,
+          "explanation": "The app does sync across platforms; the limitation is about default‑app status, not syncing."
+        },
+        {
+          "key": "C",
+          "text": "The app requires a paid subscription to become the default",
+          "correct": false,
+          "explanation": "There is no mention of a subscription requirement for default status."
+        },
+        {
+          "key": "D",
+          "text": "Users must first install the desktop version before they can set it as default on mobile",
+          "correct": false,
+          "explanation": "Desktop installation has no effect on mobile default‑app capabilities."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-apps-009",
+      "question": "A user reports that they can only view a one‑day schedule on their Android phone. Which limitation described in the article explains this behavior?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mobile view is limited to one, two, or three‑day views",
+          "correct": true,
+          "explanation": "The article states that on mobile you are limited to a one‑, two‑, or three‑day view."
+        },
+        {
+          "key": "B",
+          "text": "The Android app does not support any custom view settings",
+          "correct": false,
+          "explanation": "While view options are limited, the cause is the specific day‑range limitation, not a lack of any custom settings."
+        },
+        {
+          "key": "C",
+          "text": "The user needs to enable week view in widget settings",
+          "correct": false,
+          "explanation": "Week view is not available on mobile at all, so this would not resolve the issue."
+        },
+        {
+          "key": "D",
+          "text": "The app requires a premium subscription to unlock multi‑day views",
+          "correct": false,
+          "explanation": "The limitation is built into the mobile app regardless of subscription level."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-apps-010",
+      "question": "Which of the following statements best describes how Notion Calendar ensures data consistency across its web, desktop, and mobile versions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "All platforms sync seamlessly, so changes made on one device appear on the others",
+          "correct": true,
+          "explanation": "The article emphasizes that the mobile experience syncs seamlessly with web and desktop, implying consistent data across all platforms."
+        },
+        {
+          "key": "B",
+          "text": "Only the web version stores events; desktop and mobile are read‑only views",
+          "correct": false,
+          "explanation": "Desktop and mobile can create and edit events (with some limitations), so they are not read‑only."
+        },
+        {
+          "key": "C",
+          "text": "Each platform maintains its own separate calendar database",
+          "correct": false,
+          "explanation": "Separate databases would prevent the seamless syncing described in the article."
+        },
+        {
+          "key": "D",
+          "text": "Data is synced only when the user manually presses a \"Sync\" button",
+          "correct": false,
+          "explanation": "The article does not mention a manual sync; syncing happens automatically."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source": "customize-your-notion-agent-with-instructions-and-skills",
+  "sourceTitle": "Customize your Notion Agent with instructions & skills",
+  "sourceUrl": "https://www.notion.so/help/customize-your-notion-agent-with-instructions-and-skills",
+  "questions": [
+    {
+      "id": "customize-your-notion-agent-001",
+      "question": "What is the primary purpose of 'Instructions' for your Notion Agent?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To save a prompt you can run manually later",
+          "correct": false,
+          "explanation": "That describes a 'Skill'. Instructions define the default behavior of the Agent."
+        },
+        {
+          "key": "B",
+          "text": "To set default rules for tone, formatting, and style",
+          "correct": true,
+          "explanation": "Correct. Instructions tell your Agent how to respond by default in every chat."
+        },
+        {
+          "key": "C",
+          "text": "To organize and share database views",
+          "correct": false,
+          "explanation": "Database views are managed in the database settings, not via Notion Agent instructions."
+        },
+        {
+          "key": "D",
+          "text": "To automatically run tasks without user input",
+          "correct": false,
+          "explanation": "Skills can be run manually, though the Agent may suggest them; Instructions control the Agent's personality, not automatic execution."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-notion-agent-002",
+      "question": "How do you create a new Skill from an existing page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the share button and select 'Set as Skill'",
+          "correct": false,
+          "explanation": "Sharing a page makes it accessible to others, but does not automatically convert it into a reusable Skill."
+        },
+        {
+          "key": "B",
+          "text": "Click ... → Use with AI → Set as skill",
+          "correct": true,
+          "explanation": "Correct. This menu option converts a specific page into a Skill that you can reuse."
+        },
+        {
+          "key": "C",
+          "text": "Rename the page to include the word 'Skill' in the title",
+          "correct": false,
+          "explanation": "Simply renaming the title does not register it as a Skill in the system."
+        },
+        {
+          "key": "D",
+          "text": "Drag and drop the page into the Notion AI sidebar",
+          "correct": false,
+          "explanation": "Skills are pages; you don't drag them to a sidebar, but rather run them from the chat or text selection menu."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-notion-agent-003",
+      "question": "Where can you view your current instructions and manage your skills?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Settings → Notion AI → General",
+          "correct": true,
+          "explanation": "Correct. This is the central hub to switch instructions, manage skills, and discover shared skills."
+        },
+        {
+          "key": "B",
+          "text": "The Notion Agent settings within a specific chat",
+          "correct": false,
+          "explanation": "While you can switch instructions in chat, the central management console is in Settings."
+        },
+        {
+          "key": "C",
+          "text": "The specific page where the instructions are written",
+          "correct": false,
+          "explanation": "You can remove an instruction page from its own settings, but you cannot view or manage all instructions/skills there."
+        },
+        {
+          "key": "D",
+          "text": "Workspace → Members",
+          "correct": false,
+          "explanation": "Permissions and workspace settings are different from Notion AI specific configurations."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-notion-agent-004",
+      "question": "Which statement is true regarding the sharing of Skills?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Shared skills automatically update everyone's Notion Agent behavior",
+          "correct": false,
+          "explanation": "Sharing a skill page allows others to run it, but it does not change their Agent's default instructions."
+        },
+        {
+          "key": "B",
+          "text": "If someone has access to the skill page, they can run the skill",
+          "correct": true,
+          "explanation": "Correct. Access to the page grants the ability to run the skill. If they have edit permissions, their edits will change the skill for everyone."
+        },
+        {
+          "key": "C",
+          "text": "You cannot share skills with people outside your workspace",
+          "correct": false,
+          "explanation": "Sharing works like any other Notion page, so you can share with people inside or outside your workspace."
+        },
+        {
+          "key": "D",
+          "text": "Shared skills appear as built-in options in the text menu automatically",
+          "correct": false,
+          "explanation": "While you can designate custom skills to appear in the text menu in General settings, simply sharing a page does not auto-populate menus."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-notion-agent-005",
+      "question": "How many 'Instructions' pages can be active at the same time?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unlimited",
+          "correct": false,
+          "explanation": "You cannot have multiple active instruction pages simultaneously."
+        },
+        {
+          "key": "B",
+          "text": "One",
+          "correct": true,
+          "explanation": "Correct. You can only use one instructions page at a time, though you can switch between them anytime."
+        },
+        {
+          "key": "C",
+          "text": "One per user role (Admin vs. Member)",
+          "correct": false,
+          "explanation": "The limitation is per user account, not per role."
+        },
+        {
+          "key": "D",
+          "text": "None, you must use the default system instructions",
+          "correct": false,
+          "explanation": "You can create custom instructions pages to override default behavior."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-notion-agent-006",
+      "question": "How do you run a Skill in the chat interface?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the skill name from the sidebar",
+          "correct": false,
+          "explanation": "Skills are not in the sidebar; they are pages or chat commands."
+        },
+        {
+          "key": "B",
+          "text": "Type @ followed by the name of the skill page",
+          "correct": true,
+          "explanation": "Correct. The @ symbol triggers the ability to select a specific skill page."
+        },
+        {
+          "key": "C",
+          "text": "Double-click the skill page in the workspace",
+          "correct": false,
+          "explanation": "Double-clicking a page opens it; you must run it via AI to use its content."
+        },
+        {
+          "key": "D",
+          "text": "Drag the skill page into the chat input box",
+          "correct": false,
+          "explanation": "Skills are not draggable elements; they are invoked via commands or menus."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-notion-agent-007",
+      "question": "Can you use Notion AI Instructions for a 'Custom Agent'?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, the instructions apply to all agents in the workspace",
+          "correct": false,
+          "explanation": "Notion Agent instructions only apply to your personal Notion Agent, not Custom Agents."
+        },
+        {
+          "key": "B",
+          "text": "No, Custom Agents have their own separate instructions and permissions",
+          "correct": true,
+          "explanation": "Correct. Custom Agents are configured separately with their own specific setup."
+        },
+        {
+          "key": "C",
+          "text": "Only if you share your instructions page with the Custom Agent",
+          "correct": false,
+          "explanation": "Sharing a page does not grant an AI agent access to your personal instruction settings."
+        },
+        {
+          "key": "D",
+          "text": "Yes, but only for text editing tasks",
+          "correct": false,
+          "explanation": "The instruction settings are exclusive to the Notion Agent and do not apply to Custom Agents."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-notion-agent-008",
+      "question": "What is the best practice for writing effective instructions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Start with what you don't want",
+          "correct": false,
+          "explanation": "The article suggests starting with what you want, not what you don't want."
+        },
+        {
+          "key": "B",
+          "text": "Be specific, especially regarding formatting",
+          "correct": true,
+          "explanation": "Correct. Being specific helps the Agent understand exactly how to format or behave."
+        },
+        {
+          "key": "C",
+          "text": "Keep the instructions very long to cover all edge cases",
+          "correct": false,
+          "explanation": "You should keep instructions short; you can always add more detail later."
+        },
+        {
+          "key": "D",
+          "text": "Use complex technical jargon for precision",
+          "correct": false,
+          "explanation": "Clear, plain language is usually better for guiding the AI's behavior."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-notion-agent-009",
+      "question": "How can you designate which skills appear in the text selection menu?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By typing @ in the text selection menu",
+          "correct": false,
+          "explanation": "@ is used to run specific skills in chat, not to configure the menu."
+        },
+        {
+          "key": "B",
+          "text": "By going to Settings → Notion AI → General",
+          "correct": true,
+          "explanation": "Correct. You can designate custom skills to show up in the text selection menu in the General settings."
+        },
+        {
+          "key": "C",
+          "text": "By pinning them to the sidebar",
+          "correct": false,
+          "explanation": "Skills are not pinned to the sidebar; they appear in menus when invoked."
+        },
+        {
+          "key": "D",
+          "text": "By writing the skill prompt inside the text itself",
+          "correct": false,
+          "explanation": "The text selection menu displays pre-defined skills, not the text content of the prompt."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-notion-agent-010",
+      "question": "Which of the following is an example of a 'Skill'?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "‘Summarize this meeting for me in bullet points’",
+          "correct": false,
+          "explanation": "This is an example of an Instruction (a rule to follow) rather than a reusable prompt saved as a skill."
+        },
+        {
+          "key": "B",
+          "text": "‘Turn meeting notes into a follow-up email’",
+          "correct": true,
+          "explanation": "Correct. Skills are reusable prompts for tasks like 'Reformat' or 'Rewrite'."
+        },
+        {
+          "key": "C",
+          "text": "‘Keep my tone professional’",
+          "correct": false,
+          "explanation": "This is an example of an Instruction (setting a tone preference)."
+        },
+        {
+          "key": "D",
+          "text": "‘Always end with a checklist’",
+          "correct": false,
+          "explanation": "This is an example of an Instruction (a rule to follow)."
+        }
+      ]
+    }
+  ]
+}

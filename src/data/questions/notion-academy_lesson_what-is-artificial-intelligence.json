@@ -1,0 +1,255 @@
+{
+  "source": "notion-academy_lesson_what-is-artificial-intelligence",
+  "sourceTitle": "Welcome to Notion Academy",
+  "sourceUrl": "https://www.notion.com/help/notion-academy/lesson/what-is-artificial-intelligence",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_what-is-artificial-intelligence-001",
+      "question": "What is the primary purpose of Notion Academy as described in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide AI research papers and technical white‑papers.",
+          "correct": false,
+          "explanation": "The article does not mention research papers; it focuses on learning Notion."
+        },
+        {
+          "key": "B",
+          "text": "To offer learning paths, badges, and certifications that help users master Notion.",
+          "correct": true,
+          "explanation": "The article clearly states that Notion Academy provides curated learning paths, badges, and certifications."
+        },
+        {
+          "key": "C",
+          "text": "To sell hardware devices for office productivity.",
+          "correct": false,
+          "explanation": "Hardware sales are not part of Notion Academy’s offering."
+        },
+        {
+          "key": "D",
+          "text": "To host gaming tournaments for the Notion community.",
+          "correct": false,
+          "explanation": "Gaming tournaments are not mentioned; the focus is on education."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_what-is-artificial-intelligence-002",
+      "question": "According to the article, what can you earn by completing a Notion Academy learning path?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Notion Certified Admin credential.",
+          "correct": false,
+          "explanation": "Certification is a separate program; the article links it to a separate ‘Become a Notion Certified Admin’ section."
+        },
+        {
+          "key": "B",
+          "text": "A Notion badge that shows you have completed the path.",
+          "correct": true,
+          "explanation": "The article explicitly says you can “Earn badges with Notion” by completing paths."
+        },
+        {
+          "key": "C",
+          "text": "Free access to Notion’s premium plan for a year.",
+          "correct": false,
+          "explanation": "No mention of free premium access as a reward."
+        },
+        {
+          "key": "D",
+          "text": "A monetary stipend for completing lessons.",
+          "correct": false,
+          "explanation": "The article does not discuss any financial compensation."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_what-is-artificial-intelligence-003",
+      "question": "Which statement about the “Workflows Path” is correct?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It consists of three lessons and is labeled as Beginner level.",
+          "correct": false,
+          "explanation": "The article lists the Workflows Path as having four lessons and being Intermediate."
+        },
+        {
+          "key": "B",
+          "text": "It includes four lessons and is categorized as Intermediate.",
+          "correct": true,
+          "explanation": "The description for the Workflows Path states “4 Lessons” and “Intermediate”."
+        },
+        {
+          "key": "C",
+          "text": "It is an Advanced path with five lessons focused on AI.",
+          "correct": false,
+          "explanation": "Five‑lesson paths are the Advanced Path, not the Workflows Path."
+        },
+        {
+          "key": "D",
+          "text": "It is a Beginner path that focuses solely on AI fundamentals.",
+          "correct": false,
+          "explanation": "The Workflows Path is Intermediate and covers broader workflow creation, not just AI fundamentals."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_what-is-artificial-intelligence-004",
+      "question": "To become a Notion Certified Admin, what does the article say you must do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Complete only the Advanced Path.",
+          "correct": false,
+          "explanation": "Certification is not tied to a single path; the article mentions a dedicated certification program."
+        },
+        {
+          "key": "B",
+          "text": "Get certified to run Notion at scale, building smarter workspaces and implementing security best practices.",
+          "correct": true,
+          "explanation": "The article’s “Become a Notion Certified Admin” section describes exactly this requirement."
+        },
+        {
+          "key": "C",
+          "text": "Attend a live webinar on Notion basics.",
+          "correct": false,
+          "explanation": "Webinars are supplemental; they are not listed as the certification requirement."
+        },
+        {
+          "key": "D",
+          "text": "Purchase any paid Notion plan.",
+          "correct": false,
+          "explanation": "The article explicitly states certification is available for any plan type."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_what-is-artificial-intelligence-005",
+      "question": "Which learning format is NOT mentioned as part of Notion Academy’s offerings?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Live webinars.",
+          "correct": false,
+          "explanation": "Live webinars are listed under “Attend a live webinar.”"
+        },
+        {
+          "key": "B",
+          "text": "On‑demand sessions.",
+          "correct": false,
+          "explanation": "On‑demand sessions are mentioned alongside live webinars."
+        },
+        {
+          "key": "C",
+          "text": "In‑person classroom training.",
+          "correct": true,
+          "explanation": "The article does not reference any in‑person classroom component."
+        },
+        {
+          "key": "D",
+          "text": "Community events.",
+          "correct": false,
+          "explanation": "Community involvement is highlighted with “Join our community.”"
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_what-is-artificial-intelligence-006",
+      "question": "Which lesson is categorized as Beginner level and focuses on “Sharing & collaboration”?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Templates & marketplace.",
+          "correct": false,
+          "explanation": "That lesson is listed as Intermediate."
+        },
+        {
+          "key": "B",
+          "text": "Building basics.",
+          "correct": false,
+          "explanation": "Building basics is a Beginner lesson but its focus is navigation and databases, not sharing."
+        },
+        {
+          "key": "C",
+          "text": "Sharing & collaboration.",
+          "correct": true,
+          "explanation": "The article lists a Beginner lesson titled “Sharing & collaboration.”"
+        },
+        {
+          "key": "D",
+          "text": "Project management.",
+          "correct": false,
+          "explanation": "Project management is an Intermediate lesson."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_what-is-artificial-intelligence-007",
+      "question": "Which Notion Academy path is described as helping users “Start automating work, learn workspace architecture best practices, and harness Notion’s more complex capabilities?”",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path.",
+          "correct": false,
+          "explanation": "Essentials Path is for beginners learning basic skills."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path.",
+          "correct": false,
+          "explanation": "Workflows Path focuses on creating connected systems, not specifically on advanced automation and architecture."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path.",
+          "correct": true,
+          "explanation": "The article defines the Advanced Path as covering automation, workspace architecture, and complex capabilities."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents Path.",
+          "correct": false,
+          "explanation": "Custom Agents is a single lesson, not a multi‑lesson path."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_what-is-artificial-intelligence-008",
+      "question": "Based on the article, which description best captures the functionality of “Custom Agents”?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI‑powered chatbots that generate content for Notion pages.",
+          "correct": false,
+          "explanation": "The article does not mention content generation; it focuses on automation and triggers."
+        },
+        {
+          "key": "B",
+          "text": "Tools that automate repeat work, can run on a schedule or respond to triggers, and integrate with the tools you already use.",
+          "correct": true,
+          "explanation": "This matches the article’s description of Custom Agents."
+        },
+        {
+          "key": "C",
+          "text": "Pre‑made templates for project management.",
+          "correct": false,
+          "explanation": "Templates are a separate lesson; Custom Agents are about automation."
+        },
+        {
+          "key": "D",
+          "text": "Community moderation tools for managing discussions.",
+          "correct": false,
+          "explanation": "Community moderation is not mentioned in the Custom Agents description."
+        }
+      ]
+    }
+  ]
+}

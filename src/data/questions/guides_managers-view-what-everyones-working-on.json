@@ -1,0 +1,317 @@
+{
+  "source": "guides_managers-view-what-everyones-working-on",
+  "sourceTitle": "How managers get a clear view of what everyone’s working on in Notion",
+  "sourceUrl": "https://www.notion.so/help/guides_managers-view-what-everyones-working-on",
+  "questions": [
+    {
+      "id": "guides_managers-view-what-everyones-working-on-001",
+      "question": "What is the main purpose of creating a company‑wide wiki in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store all financial transactions of the company",
+          "correct": false,
+          "explanation": "Financial data belongs in accounting software, not a wiki."
+        },
+        {
+          "key": "B",
+          "text": "To provide a centralized place for shared information like policies, mission, and company goals",
+          "correct": true,
+          "explanation": "The wiki is designed for easy access to core company information, reducing the need to ask managers for basics."
+        },
+        {
+          "key": "C",
+          "text": "To replace all project‑management tools used by individual teams",
+          "correct": false,
+          "explanation": "A wiki complements project‑management databases; it does not replace them."
+        },
+        {
+          "key": "D",
+          "text": "To automatically generate performance reviews for each employee",
+          "correct": false,
+          "explanation": "Performance reviews require dedicated data and processes, not just a static wiki."
+        }
+      ]
+    },
+    {
+      "id": "guides_managers-view-what-everyones-working-on-002",
+      "question": "Which Notion property type should you use to indicate who is responsible for a project?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Date",
+          "correct": false,
+          "explanation": "Date tracks deadlines, not people."
+        },
+        {
+          "key": "B",
+          "text": "Select",
+          "correct": false,
+          "explanation": "Select lets you choose from predefined labels, but not tag a specific workspace member."
+        },
+        {
+          "key": "C",
+          "text": "Person",
+          "correct": true,
+          "explanation": "The Person property lets you @‑mention a teammate, making them the project owner."
+        },
+        {
+          "key": "D",
+          "text": "Number",
+          "correct": false,
+          "explanation": "Number is for numeric values, not for assigning people."
+        }
+      ]
+    },
+    {
+      "id": "guides_managers-view-what-everyones-working-on-003",
+      "question": "Which database view is most useful for quickly spotting upcoming project deadlines?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Board view grouped by Status",
+          "correct": false,
+          "explanation": "Board view shows workflow stages, not calendar dates."
+        },
+        {
+          "key": "B",
+          "text": "Calendar view",
+          "correct": true,
+          "explanation": "Calendar view places each project on its deadline date, making upcoming due dates obvious."
+        },
+        {
+          "key": "C",
+          "text": "Table view sorted by Project Owner",
+          "correct": false,
+          "explanation": "Sorting by owner helps workload balance, not deadline visibility."
+        },
+        {
+          "key": "D",
+          "text": "Timeline view",
+          "correct": false,
+          "explanation": "Timeline shows duration but requires start/end dates; calendar is simpler for single deadlines."
+        }
+      ]
+    },
+    {
+      "id": "guides_managers-view-what-everyones-working-on-004",
+      "question": "How does grouping a board view by \"Project owner\" help a manager monitor workload?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically reassigns tasks to balance the load.",
+          "correct": false,
+          "explanation": "Grouping only visualizes tasks; it does not reassign them."
+        },
+        {
+          "key": "B",
+          "text": "It creates separate columns for each person, showing all projects they own at a glance.",
+          "correct": true,
+          "explanation": "Each column represents a team member, so the manager can instantly see who has many or few items."
+        },
+        {
+          "key": "C",
+          "text": "It hides projects that are already completed.",
+          "correct": false,
+          "explanation": "Completion visibility depends on the Status filter, not the grouping field."
+        },
+        {
+          "key": "D",
+          "text": "It converts the board into a Gantt chart.",
+          "correct": false,
+          "explanation": "Gantt (timeline) view is a separate view type; grouping does not change the visual format."
+        }
+      ]
+    },
+    {
+      "id": "guides_managers-view-what-everyones-working-on-005",
+      "question": "Why is the \"Last edited time\" property valuable in a documents database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It shows which document has the highest word count.",
+          "correct": false,
+          "explanation": "Word count isn’t tracked by this property."
+        },
+        {
+          "key": "B",
+          "text": "It indicates the most recent updates, helping the team track progress and avoid working on stale versions.",
+          "correct": true,
+          "explanation": "Seeing the latest edit time lets users prioritize reviewing the freshest content."
+        },
+        {
+          "key": "C",
+          "text": "It automatically assigns a reviewer based on the edit timestamp.",
+          "correct": false,
+          "explanation": "Assignment must be set manually or via automation; the timestamp alone doesn’t assign reviewers."
+        },
+        {
+          "key": "D",
+          "text": "It creates a backup copy of the document each time it changes.",
+          "correct": false,
+          "explanation": "Notion keeps version history internally, but the property itself doesn’t generate backups."
+        }
+      ]
+    },
+    {
+      "id": "guides_managers-view-what-everyones-working-on-006",
+      "question": "Which property and filter combination would you use to display only meetings that occurred within the past week?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Created time property with a filter: \"Created time is within the past week\"",
+          "correct": true,
+          "explanation": "Created time records when the entry was made, and filtering by \"is within the past week\" shows recent meetings."
+        },
+        {
+          "key": "B",
+          "text": "Meeting participants property with a filter: \"Participant is me\"",
+          "correct": false,
+          "explanation": "Filtering by participant shows who attended, not when the meeting happened."
+        },
+        {
+          "key": "C",
+          "text": "Type of meeting property with a filter: \"Type is weekly sync\"",
+          "correct": false,
+          "explanation": "That filter selects meeting type, not date range."
+        },
+        {
+          "key": "D",
+          "text": "Deadline property with a filter: \"Deadline is today\"",
+          "correct": false,
+          "explanation": "Deadline is unrelated to meeting dates; it’s used for project tasks."
+        }
+      ]
+    },
+    {
+      "id": "guides_managers-view-what-everyones-working-on-007",
+      "question": "Linking a goals database to a 1:1 meeting page primarily helps a manager to:",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automatically generate performance bonuses.",
+          "correct": false,
+          "explanation": "Bonuses require HR processes; linking goals only provides visibility."
+        },
+        {
+          "key": "B",
+          "text": "Keep the employee’s current objectives visible during the meeting, enabling real‑time progress review.",
+          "correct": true,
+          "explanation": "A linked, filtered view shows only that person’s goals, making discussions focused and data‑driven."
+        },
+        {
+          "key": "C",
+          "text": "Sync the employee’s calendar with the manager’s calendar.",
+          "correct": false,
+          "explanation": "Calendar syncing is a separate integration; linking goals does not affect calendars."
+        },
+        {
+          "key": "D",
+          "text": "Create a backup of all company goals.",
+          "correct": false,
+          "explanation": "Backup is unrelated to the purpose of a linked view in a 1:1 page."
+        }
+      ]
+    },
+    {
+      "id": "guides_managers-view-what-everyones-working-on-008",
+      "question": "What is the main advantage of using an upvote database for team decision‑making?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It forces every team member to vote on every idea.",
+          "correct": false,
+          "explanation": "Forcing votes can create fatigue; the database simply collects optional input."
+        },
+        {
+          "key": "B",
+          "text": "It surfaces the most popular suggestions, allowing managers to prioritize them for discussion or implementation.",
+          "correct": true,
+          "explanation": "Upvotes act as a democratic signal; the items with the most votes get addressed first."
+        },
+        {
+          "key": "C",
+          "text": "It automatically assigns tasks to the person who upvoted them.",
+          "correct": false,
+          "explanation": "Assignment must be done manually or via automation; upvotes alone don’t assign work."
+        },
+        {
+          "key": "D",
+          "text": "It replaces the need for any formal meeting agenda.",
+          "correct": false,
+          "explanation": "Upvotes complement agendas but don’t eliminate structured meeting planning."
+        }
+      ]
+    },
+    {
+      "id": "guides_managers-view-what-everyones-working-on-009",
+      "question": "Why are relational databases (using relation and rollup properties) more powerful than duplicating information across separate databases?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They eliminate the need for any manual data entry, making all fields auto‑populate.",
+          "correct": false,
+          "explanation": "Relations and rollups pull linked data, but you still need to create the initial link."
+        },
+        {
+          "key": "B",
+          "text": "They ensure a single source of truth; updates made in one place automatically reflect everywhere the data is referenced.",
+          "correct": true,
+          "explanation": "When a property is changed in the original record, all linked rollups update, preventing inconsistencies that duplicated copies cause."
+        },
+        {
+          "key": "C",
+          "text": "They allow you to export data to CSV more quickly than separate tables.",
+          "correct": false,
+          "explanation": "Export speed is unrelated to relational linking."
+        },
+        {
+          "key": "D",
+          "text": "They automatically generate visual Gantt charts for any linked project.",
+          "correct": false,
+          "explanation": "Gantt charts require a timeline view; relations alone don’t create visualizations."
+        }
+      ]
+    },
+    {
+      "id": "guides_managers-view-what-everyones-working-on-010",
+      "question": "When creating permission groups for cross‑department sharing, what is a common risk if groups are not defined precisely, and how can it be mitigated?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Users may lose access to their own personal pages; mitigate by disabling groups entirely.",
+          "correct": false,
+          "explanation": "Disabling groups removes the benefit of sharing; the risk is over‑sharing, not loss of personal access."
+        },
+        {
+          "key": "B",
+          "text": "Sensitive information could be unintentionally exposed to the wrong team; mitigate by reviewing group membership and using view‑level filters to restrict data.",
+          "correct": true,
+          "explanation": "Broad groups can grant access to confidential pages; careful membership audits and filtered views keep data secure."
+        },
+        {
+          "key": "C",
+          "text": "Notion will automatically delete duplicate pages; mitigate by turning off auto‑deletion.",
+          "correct": false,
+          "explanation": "Notion does not delete pages automatically; duplication isn’t the core issue."
+        },
+        {
+          "key": "D",
+          "text": "The workspace will exceed its storage quota; mitigate by archiving old pages.",
+          "correct": false,
+          "explanation": "Storage limits are unrelated to permission group definitions."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "source": "guides_automatically-generate-blocks-pages-with-buttons",
+  "sourceTitle": "Automatically generate blocks, pages and more with the click of a button",
+  "sourceUrl": "https://www.notion.so/help/guides/automatically-generate-blocks-pages-with-buttons",
+  "questions": [
+    {
+      "id": "automatically-generate-blocks-pages-with-buttons-001",
+      "question": "Which command adds a button to a Notion page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type `/button` in the page",
+          "correct": true,
+          "explanation": "Typing `/button` opens the button creation dialog. This is the direct way to add a button."
+        },
+        {
+          "key": "B",
+          "text": "Press **Ctrl+B** on the keyboard",
+          "correct": false,
+          "explanation": "Ctrl+B toggles bold text; it does not create a button."
+        },
+        {
+          "key": "C",
+          "text": "Click the **+ Add block** button and choose **Button**",
+          "correct": false,
+          "explanation": "The **+ Add block** menu does not list a Button option; buttons are added via the slash command."
+        },
+        {
+          "key": "D",
+          "text": "Select **Insert → Widget → Button** from the top menu",
+          "correct": false,
+          "explanation": "Notion does not have an Insert → Widget menu; buttons are created with the slash command."
+        }
+      ]
+    },
+    {
+      "id": "automatically-generate-blocks-pages-with-buttons-002",
+      "question": "When configuring a button, which action lets you add content directly to the page where the button lives?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create page in a database",
+          "correct": false,
+          "explanation": "That action creates a new page in a database, not content on the current page."
+        },
+        {
+          "key": "B",
+          "text": "Insert blocks",
+          "correct": true,
+          "explanation": "The Insert blocks action places the chosen blocks into the same page as the button."
+        },
+        {
+          "key": "C",
+          "text": "Open page",
+          "correct": false,
+          "explanation": "Open page navigates to another page; it does not insert content."
+        },
+        {
+          "key": "D",
+          "text": "Show confirmation dialog",
+          "correct": false,
+          "explanation": "That action only shows a pop‑up, not page content."
+        }
+      ]
+    },
+    {
+      "id": "automatically-generate-blocks-pages-with-buttons-003",
+      "question": "What does the **Person who clicked the button** option do when used in a property edit step?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assigns the button creator’s name permanently",
+          "correct": false,
+          "explanation": "It does not lock to the creator; it is dynamic based on who clicks."
+        },
+        {
+          "key": "B",
+          "text": "Leaves the property blank for manual entry later",
+          "correct": false,
+          "explanation": "The property is filled automatically, not left blank."
+        },
+        {
+          "key": "C",
+          "text": "Tags the user who clicks the button at runtime",
+          "correct": true,
+          "explanation": "The dynamic Person property records the current clicker, enabling self‑assignment."
+        },
+        {
+          "key": "D",
+          "text": "Shows a dropdown of all workspace members",
+          "correct": false,
+          "explanation": "It directly assigns the clicking user; it does not present a dropdown."
+        }
+      ]
+    },
+    {
+      "id": "automatically-generate-blocks-pages-with-buttons-004",
+      "question": "You want a button that creates a new task in the **Tasks** database and automatically sets the **Status** to \"To do\". Which sequence of steps is required?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select **Insert blocks**, add a to‑do list, then **Show confirmation dialog**",
+          "correct": false,
+          "explanation": "Insert blocks adds content on the page, not a new database entry, and the confirmation dialog is unrelated."
+        },
+        {
+          "key": "B",
+          "text": "Choose **Create page in a database**, pick **Tasks**, then use **Edit a property** to set **Status** to \"To do\"",
+          "correct": true,
+          "explanation": "This is the correct flow: create a page in the Tasks database and pre‑fill the Status property."
+        },
+        {
+          "key": "C",
+          "text": "Use **Edit pages in database**, filter for empty rows, then set **Status**",
+          "correct": false,
+          "explanation": "Edit pages modifies existing rows; it does not create a new one."
+        },
+        {
+          "key": "D",
+          "text": "Add **Open page** step pointing to the Tasks database, then manually change the status",
+          "correct": false,
+          "explanation": "Open page only navigates; it does not create or pre‑fill a new task."
+        }
+      ]
+    },
+    {
+      "id": "automatically-generate-blocks-pages-with-buttons-005",
+      "question": "How can you make a button that only edits entries that meet a specific condition, such as overdue tasks?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select **Create page in a database** and add a filter inside the new page",
+          "correct": false,
+          "explanation": "Create page adds a new entry; filters inside the page do not affect existing entries."
+        },
+        {
+          "key": "B",
+          "text": "Choose **Edit pages in database**, pick the target database, then apply a filter for overdue tasks before setting the property",
+          "correct": true,
+          "explanation": "Edit pages with a filter limits the action to entries that match the condition, such as overdue tasks."
+        },
+        {
+          "key": "C",
+          "text": "Use **Insert blocks** with a pre‑written list of overdue items",
+          "correct": false,
+          "explanation": "Insert blocks adds static content; it does not modify database records."
+        },
+        {
+          "key": "D",
+          "text": "Add a **Show confirmation dialog** that lists overdue tasks",
+          "correct": false,
+          "explanation": "A confirmation dialog only displays a prompt; it does not edit database entries."
+        }
+      ]
+    },
+    {
+      "id": "automatically-generate-blocks-pages-with-buttons-006",
+      "question": "Which of the following best describes the difference between a database template and a button that creates a page in a database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A template can only be used inside a database, while a button can create pages from anywhere in the workspace",
+          "correct": true,
+          "explanation": "Templates are limited to the database view; buttons can be placed on any page and still create entries in a chosen database."
+        },
+        {
+          "key": "B",
+          "text": "A button automatically syncs with external tools, whereas a template does not",
+          "correct": false,
+          "explanation": "Neither feature inherently syncs with external tools."
+        },
+        {
+          "key": "C",
+          "text": "Templates can edit existing pages, while buttons can only create new ones",
+          "correct": false,
+          "explanation": "Both can edit properties; the distinction is about placement, not edit capability."
+        },
+        {
+          "key": "D",
+          "text": "Buttons require a confirmation dialog before creating a page, but templates do not",
+          "correct": false,
+          "explanation": "Confirmation dialogs are optional steps for buttons, not mandatory."
+        }
+      ]
+    },
+    {
+      "id": "automatically-generate-blocks-pages-with-buttons-007",
+      "question": "If you want a button to open the newly created page immediately after it is added to a database, which additional step should you add?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add **Open page** and select **Page created** as the target",
+          "correct": true,
+          "explanation": "Choosing Open page with the Page created option navigates to the fresh entry right after creation."
+        },
+        {
+          "key": "B",
+          "text": "Add **Insert blocks** with a link to the new page",
+          "correct": false,
+          "explanation": "Insert blocks would just place a static link; it wouldn't automatically open the page."
+        },
+        {
+          "key": "C",
+          "text": "Add **Show confirmation dialog** and click OK to open the page",
+          "correct": false,
+          "explanation": "The confirmation dialog only shows a prompt; it does not open a page."
+        },
+        {
+          "key": "D",
+          "text": "Add **Edit pages in database** and set a property that triggers a page view",
+          "correct": false,
+          "explanation": "Editing properties does not cause navigation to the page."
+        }
+      ]
+    },
+    {
+      "id": "automatically-generate-blocks-pages-with-buttons-008",
+      "question": "What is a primary benefit of adding a **Show confirmation dialog** step to a button that assigns all overdue tasks to the current user?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically reassigns the tasks without user interaction",
+          "correct": false,
+          "explanation": "The dialog actually requires the user to confirm; it does not bypass interaction."
+        },
+        {
+          "key": "B",
+          "text": "It provides a safety net, preventing accidental bulk assignment",
+          "correct": true,
+          "explanation": "The confirmation dialog forces the user to consciously confirm, reducing accidental bulk actions."
+        },
+        {
+          "key": "C",
+          "text": "It logs the assignment action in the audit trail",
+          "correct": false,
+          "explanation": "Logging is not a built‑in feature of the confirmation dialog."
+        },
+        {
+          "key": "D",
+          "text": "It changes the button color to indicate a high‑risk operation",
+          "correct": false,
+          "explanation": "Button appearance does not change based on dialog steps."
+        }
+      ]
+    },
+    {
+      "id": "automatically-generate-blocks-pages-with-buttons-009",
+      "question": "Which workflow could NOT be achieved with a single Notion button as described in the guide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a new meeting agenda page, pre‑fill it with prompts, and open it for editing",
+          "correct": false,
+          "explanation": "This is a classic multi‑step button: Insert blocks → Create page → Open page."
+        },
+        {
+          "key": "B",
+          "text": "Add a new task to a database, assign it to the clicking user, and send an email notification to the manager",
+          "correct": true,
+          "explanation": "Sending an email is outside the native button capabilities; external integrations are required."
+        },
+        {
+          "key": "C",
+          "text": "Mark a document as \"Complete\" and set the completed date to today",
+          "correct": false,
+          "explanation": "Edit property steps can update status and date in one button."
+        },
+        {
+          "key": "D",
+          "text": "Open a pop‑up confirmation before creating a bug report entry in a database",
+          "correct": false,
+          "explanation": "Show confirmation dialog + Create page in database accomplishes this."
+        }
+      ]
+    }
+  ]
+}

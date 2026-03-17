@@ -1,0 +1,317 @@
+{
+  "source": "guides_getting-started-with-projects-and-tasks",
+  "sourceTitle": "Getting started with projects and tasks",
+  "sourceUrl": "https://www.notion.so/help/guides/getting-started-with-projects-and-tasks",
+  "questions": [
+    {
+      "id": "guides_getting-started-with-projects-and-tasks-001",
+      "question": "Which built‑in template is most suitable for managing simple, one‑off tasks?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Projects & tasks",
+          "correct": false,
+          "explanation": "Projects & tasks is designed for team‑wide project tracking, not minimal one‑off task lists."
+        },
+        {
+          "key": "B",
+          "text": "Projects, tasks & sprints",
+          "correct": false,
+          "explanation": "That template adds a sprint layer for engineering work, which is more complex than a simple task list."
+        },
+        {
+          "key": "C",
+          "text": "To‑do list",
+          "correct": true,
+          "explanation": "The To‑do list template is a single database for simple, individual task management."
+        },
+        {
+          "key": "D",
+          "text": "Kanban board",
+          "correct": false,
+          "explanation": "Kanban is a view type, not a specific template for one‑off tasks."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-projects-and-tasks-002",
+      "question": "In Notion’s Projects & Tasks system, what is the correct relationship between projects and tasks?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tasks are parents of projects",
+          "correct": false,
+          "explanation": "Projects are the higher‑level container; tasks cannot be parents of projects."
+        },
+        {
+          "key": "B",
+          "text": "Projects and tasks are unrelated databases",
+          "correct": false,
+          "explanation": "They are related; tasks link to a single parent project."
+        },
+        {
+          "key": "C",
+          "text": "Projects are the parent of tasks, and each task belongs to one project",
+          "correct": true,
+          "explanation": "Exactly: a project can have many tasks, but a task links to only one project."
+        },
+        {
+          "key": "D",
+          "text": "Each task can belong to multiple projects",
+          "correct": false,
+          "explanation": "The guide specifies a one‑to‑many relationship, not many‑to‑many."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-projects-and-tasks-003",
+      "question": "Which view filters the projects database to show only the projects you are tagged in, regardless of your name?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "\"Active\" view",
+          "correct": false,
+          "explanation": "Active view hides projects not marked as Planning or In progress; it doesn't filter by user."
+        },
+        {
+          "key": "B",
+          "text": "\"All\" view",
+          "correct": false,
+          "explanation": "All view shows every project without any user‑specific filter."
+        },
+        {
+          "key": "C",
+          "text": "\"Mine\" view",
+          "correct": true,
+          "explanation": "\"Mine\" (or \"Me\") view dynamically filters to projects where the current user is tagged."
+        },
+        {
+          "key": "D",
+          "text": "\"Timeline\" view",
+          "correct": false,
+          "explanation": "Timeline arranges projects by dates; it does not filter by assignee."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-projects-and-tasks-004",
+      "question": "You want a view that always shows the tasks assigned to whoever is currently logged in. Which combination of filter and property achieves this?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a \"Mine\" view and filter the Assignee property to \"Me\"",
+          "correct": true,
+          "explanation": "The dynamic \"Me\" filter in a \"Mine\" view shows tasks assigned to the current user."
+        },
+        {
+          "key": "B",
+          "text": "Create a \"All\" view and sort by Assignee alphabetically",
+          "correct": false,
+          "explanation": "Sorting does not restrict the view to the current user."
+        },
+        {
+          "key": "C",
+          "text": "Create a \"Active\" view and filter Status to \"In progress\"",
+          "correct": false,
+          "explanation": "This filters by status, not by the logged‑in user."
+        },
+        {
+          "key": "D",
+          "text": "Create a \"Timeline\" view and group by Project",
+          "correct": false,
+          "explanation": "Timeline groups by dates, not by the current user."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-projects-and-tasks-005",
+      "question": "Which suggested property would you use to quickly sort items by importance using labels such as Low, Medium, and High?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Priority",
+          "correct": true,
+          "explanation": "The Priority property is designed for setting and sorting items by importance levels."
+        },
+        {
+          "key": "B",
+          "text": "Task type",
+          "correct": false,
+          "explanation": "Task type is for categorizing task kinds, not for importance ranking."
+        },
+        {
+          "key": "C",
+          "text": "Reporter",
+          "correct": false,
+          "explanation": "Reporter records who created an item; it does not indicate priority."
+        },
+        {
+          "key": "D",
+          "text": "Related tasks",
+          "correct": false,
+          "explanation": "Related tasks link items together, not sort by importance."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-projects-and-tasks-006",
+      "question": "A software engineering team wants to work in time‑boxed intervals and track issues per interval. Which template should they start with?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To‑do list",
+          "correct": false,
+          "explanation": "To‑do list lacks the sprint layer needed for time‑boxed intervals."
+        },
+        {
+          "key": "B",
+          "text": "Projects & tasks",
+          "correct": false,
+          "explanation": "Projects & tasks manages projects and tasks but does not include sprints."
+        },
+        {
+          "key": "C",
+          "text": "Projects, tasks & sprints",
+          "correct": true,
+          "explanation": "This template adds a sprint layer, perfect for engineering teams using time‑boxed sprints."
+        },
+        {
+          "key": "D",
+          "text": "Kanban board view",
+          "correct": false,
+          "explanation": "A view type, not a template that adds sprint functionality."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-projects-and-tasks-007",
+      "question": "How does the \"completion\" property determine a project's progress?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It adds up the estimated hours of all tasks",
+          "correct": false,
+          "explanation": "Completion is based on task status, not estimated hours."
+        },
+        {
+          "key": "B",
+          "text": "It counts the number of tasks marked as completed and shows the percentage",
+          "correct": true,
+          "explanation": "The property calculates the percentage of tasks that have a Completed status."
+        },
+        {
+          "key": "C",
+          "text": "It measures the number of sprints finished",
+          "correct": false,
+          "explanation": "Sprints affect tasks, not the generic completion property for projects."
+        },
+        {
+          "key": "D",
+          "text": "It uses the due dates of tasks to infer progress",
+          "correct": false,
+          "explanation": "Due dates are not used for the completion percentage calculation."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-projects-and-tasks-008",
+      "question": "To build a RICE impact scoring formula, which combination of property types is required?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Number, Select, Percentage, Number",
+          "correct": true,
+          "explanation": "RICE needs Reach (Number), Impact (Select), Confidence (Percentage), and Effort (Number)."
+        },
+        {
+          "key": "B",
+          "text": "Text, Multi‑select, Date, Formula",
+          "correct": false,
+          "explanation": "These types do not match the required RICE components."
+        },
+        {
+          "key": "C",
+          "text": "Checkbox, Relation, Rollup, Number",
+          "correct": false,
+          "explanation": "Checkboxes and relations are unrelated to the RICE framework."
+        },
+        {
+          "key": "D",
+          "text": "Select, Select, Select, Select",
+          "correct": false,
+          "explanation": "Using only select properties would not allow numeric calculations needed for RICE."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-projects-and-tasks-009",
+      "question": "Which Notion feature lets you pull GitHub issues into your Tasks database, and how would you set it up?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use a Formula property to call the GitHub API directly",
+          "correct": false,
+          "explanation": "Formulas cannot make external API calls; they only compute based on existing data."
+        },
+        {
+          "key": "B",
+          "text": "Create a Synced Database that connects to a GitHub integration, then add a Relation property linking the synced database to your Tasks database",
+          "correct": true,
+          "explanation": "Synced databases import external data (e.g., GitHub) and a Relation links those items to your Tasks."
+        },
+        {
+          "key": "C",
+          "text": "Import a CSV export from GitHub and manually upload it each week",
+          "correct": false,
+          "explanation": "While possible, this is not the automated feature described in the guide."
+        },
+        {
+          "key": "D",
+          "text": "Add a Checkbox property named \"GitHub\" and tick it for each issue",
+          "correct": false,
+          "explanation": "A checkbox does not bring in external issue data."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-projects-and-tasks-010",
+      "question": "You need a view that shows tasks grouped by assignee and sorted so the nearest due dates appear first. Which steps will achieve this?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the Tasks database, create a new view, select \"Board\" layout, group by the Assignee property, then add a sort on Due Date ascending",
+          "correct": true,
+          "explanation": "Board layout with grouping by Assignee and a sort on Due Date will display tasks per person ordered by upcoming deadlines."
+        },
+        {
+          "key": "B",
+          "text": "Create a new view, choose \"List\" layout, filter by Assignee, and set a filter on Due Date \"is within next 7 days\"",
+          "correct": false,
+          "explanation": "Filtering does not group by assignee, and the filter limits tasks rather than sorting them."
+        },
+        {
+          "key": "C",
+          "text": "Duplicate the \"Mine\" view, change the layout to \"Timeline\", and enable grouping by Assignee",
+          "correct": false,
+          "explanation": "Timeline layout groups by dates, not by assignee, and the view would not sort by due date per person."
+        },
+        {
+          "key": "D",
+          "text": "Add a Formula property that concatenates Assignee and Due Date, then sort by that formula",
+          "correct": false,
+          "explanation": "While a formula could create a combined string, it does not provide the clear visual grouping that the board layout offers."
+        }
+      ]
+    }
+  ]
+}

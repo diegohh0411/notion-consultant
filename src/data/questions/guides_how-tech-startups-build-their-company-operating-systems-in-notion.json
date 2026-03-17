@@ -1,0 +1,317 @@
+{
+  "source": "guides_how-tech-startups-build-their-company-operating-systems-in-notion",
+  "sourceTitle": "How tech startups build their company operating systems in Notion",
+  "sourceUrl": "https://www.notion.com/help/guides/how-tech-startups-build-their-company-operating-systems-in-notion",
+  "questions": [
+    {
+      "id": "guides_how-tech-startups-build-their-company-operating-systems-in-notion-001",
+      "question": "What is the recommended first step for a busy founder who wants to create a Company OS in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Start from a blank page and build the wiki manually",
+          "correct": false,
+          "explanation": "While possible, the guide suggests using a template for efficiency."
+        },
+        {
+          "key": "B",
+          "text": "Duplicate the 'Company Home' template from the Notion template library",
+          "correct": true,
+          "explanation": "The guide advises busy founders to start by duplicating the pre‑made Company Home template."
+        },
+        {
+          "key": "C",
+          "text": "Import an existing Confluence wiki directly",
+          "correct": false,
+          "explanation": "Importing is an option later, but not the first recommended step."
+        },
+        {
+          "key": "D",
+          "text": "Create a new teamspace and invite all employees",
+          "correct": false,
+          "explanation": "Creating a teamspace is useful, but the guide emphasizes starting with the template."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-tech-startups-build-their-company-operating-systems-in-notion-002",
+      "question": "Which Notion feature allows you to view a database inside a wiki page without leaving the page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Linked database view",
+          "correct": true,
+          "explanation": "You can embed an inline or linked view of any database directly in a wiki page."
+        },
+        {
+          "key": "B",
+          "text": "Page export as CSV",
+          "correct": false,
+          "explanation": "Exporting creates a file; it does not embed the live database."
+        },
+        {
+          "key": "C",
+          "text": "Inline code block",
+          "correct": false,
+          "explanation": "Code blocks display code, not database content."
+        },
+        {
+          "key": "D",
+          "text": "Sidebar shortcut",
+          "correct": false,
+          "explanation": "The sidebar navigates pages but does not embed a database view."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-tech-startups-build-their-company-operating-systems-in-notion-003",
+      "question": "How can you quickly return to the top‑level Wiki home page when you are deep inside nested sub‑pages?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the breadcrumb at the top left of the sub‑page",
+          "correct": true,
+          "explanation": "The breadcrumb provides a fast way back to the parent page or home."
+        },
+        {
+          "key": "B",
+          "text": "Use the browser back button",
+          "correct": false,
+          "explanation": "The back button may not always lead to the Wiki home, especially after navigating elsewhere."
+        },
+        {
+          "key": "C",
+          "text": "Search for 'Company Home' in the search bar",
+          "correct": false,
+          "explanation": "Search works but is slower than using the breadcrumb."
+        },
+        {
+          "key": "D",
+          "text": "Refresh the page",
+          "correct": false,
+          "explanation": "Refreshing reloads the current page; it does not navigate to the home."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-tech-startups-build-their-company-operating-systems-in-notion-004",
+      "question": "Which property would you use to assign responsibility for keeping a wiki page up to date?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Created time",
+          "correct": false,
+          "explanation": "Created time records when the page was made, not who maintains it."
+        },
+        {
+          "key": "B",
+          "text": "Owner",
+          "correct": true,
+          "explanation": "The Owner property is designed to tag the team member responsible for the page."
+        },
+        {
+          "key": "C",
+          "text": "Last edited by",
+          "correct": false,
+          "explanation": "Last edited by shows who last changed the page, not who is assigned to maintain it."
+        },
+        {
+          "key": "D",
+          "text": "Tags",
+          "correct": false,
+          "explanation": "Tags can categorize content but do not designate a responsible person."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-tech-startups-build-their-company-operating-systems-in-notion-005",
+      "question": "What advantage does embedding a database view of meeting notes in the wiki provide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically deletes old meeting notes after a week",
+          "correct": false,
+          "explanation": "Embedding does not delete content; it merely displays it."
+        },
+        {
+          "key": "B",
+          "text": "Team members can see the most recent meetings without navigating away from the wiki",
+          "correct": true,
+          "explanation": "Embedding lets users view and sort recent notes directly on the wiki page."
+        },
+        {
+          "key": "C",
+          "text": "It converts meeting notes into a PDF for download",
+          "correct": false,
+          "explanation": "Embedding does not change file format."
+        },
+        {
+          "key": "D",
+          "text": "It locks the meeting notes so no one can edit them",
+          "correct": false,
+          "explanation": "Embedding does not affect edit permissions."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-tech-startups-build-their-company-operating-systems-in-notion-006",
+      "question": "If you want to prevent accidental edits to a benefits policy page, which Notion feature should you adjust?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Page icon",
+          "correct": false,
+          "explanation": "Icons are visual only and do not affect permissions."
+        },
+        {
+          "key": "B",
+          "text": "Page cover",
+          "correct": false,
+          "explanation": "Covers are decorative; they do not control editing."
+        },
+        {
+          "Key": "C",
+          "text": "Permission settings in the Share menu",
+          "correct": true,
+          "explanation": "Adjusting permissions (e.g., view‑only) stops unauthorized edits."
+        },
+        {
+          "key": "D",
+          "text": "Adding a comment at the top of the page",
+          "correct": false,
+          "explanation": "Comments are for discussion, not for restricting edits."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-tech-startups-build-their-company-operating-systems-in-notion-007",
+      "question": "Which of the following best describes how Notion AI can assist with Company OS goals?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically updates the status of every goal based on external data sources",
+          "correct": false,
+          "explanation": "Notion AI provides suggestions and summaries but does not autonomously change data."
+        },
+        {
+          "key": "B",
+          "text": "It can summarize progress on recorded goals and suggest next steps",
+          "correct": true,
+          "explanation": "The guide states AI can summarize goal progress and offer recommendations."
+        },
+        {
+          "key": "C",
+          "text": "It replaces the need for a human manager to review goal metrics",
+          "correct": false,
+          "explanation": "AI assists, but human oversight remains necessary."
+        },
+        {
+          "key": "D",
+          "text": "It creates new company goals based on trending industry topics",
+          "correct": false,
+          "explanation": "AI does not auto‑generate goals without user input."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-tech-startups-build-their-company-operating-systems-in-notion-008",
+      "question": "When integrating Slack with Notion, what primary benefit does the integration provide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows you to edit Notion pages directly from Slack messages",
+          "correct": false,
+          "explanation": "Slack integration notifies, but editing still occurs in Notion."
+        },
+        {
+          "key": "B",
+          "text": "Team members receive notifications in Slack about important changes made in Notion",
+          "correct": true,
+          "explanation": "The guide highlights that Slack integration keeps members informed of changes."
+        },
+        {
+          "key": "C",
+          "text": "It syncs all Notion databases as Slack channels",
+          "correct": false,
+          "explanation": "Databases are not turned into channels; they remain in Notion."
+        },
+        {
+          "key": "D",
+          "text": "It automatically backs up Notion pages to a Slack archive",
+          "correct": false,
+          "explanation": "Backup is not mentioned as a Slack integration feature."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-tech-startups-build-their-company-operating-systems-in-notion-009",
+      "question": "What is the effect of treating the Company Home page as a database entry?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The page can no longer contain text blocks or embeds",
+          "correct": false,
+          "explanation": "The guide notes you can still mix text, embeds, etc., with the database entry."
+        },
+        {
+          "key": "B",
+          "text": "You can tag the page with properties like Owner, Created time, and Last edited time",
+          "correct": true,
+          "explanation": "Treating it as a database entry enables adding metadata properties."
+        },
+        {
+          "key": "C",
+          "text": "The page becomes read‑only for all team members",
+          "correct": false,
+          "explanation": "Database status does not enforce read‑only automatically."
+        },
+        {
+          "key": "D",
+          "text": "It forces the page to display only in table view",
+          "correct": false,
+          "explanation": "You can still choose any view; the database entry does not lock the view type."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-tech-startups-build-their-company-operating-systems-in-notion-010",
+      "question": "Which step is NOT part of customizing a page’s visual appearance according to the guide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clicking 'Add icon' at the top of the page",
+          "correct": false,
+          "explanation": "Adding an icon is a recommended visual customization."
+        },
+        {
+          "key": "B",
+          "text": "Choosing a page cover image",
+          "correct": false,
+          "explanation": "Choosing a cover is also suggested for visual appeal."
+        },
+        {
+          "key": "C",
+          "text": "Changing the page’s font style from the sidebar",
+          "correct": true,
+          "explanation": "The guide does not mention changing font style via the sidebar; fonts are set globally, not per page."
+        },
+        {
+          "key": "D",
+          "text": "Using clear fonts and drag‑and‑drop editing for aesthetics",
+          "correct": false,
+          "explanation": "The guide highlights Notion’s clear fonts as part of the aesthetic."
+        }
+      ]
+    }
+  ]
+}

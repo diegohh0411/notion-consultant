@@ -1,0 +1,317 @@
+{
+  "source": "guides_structure-sidebar-focused-work-teamspaces",
+  "sourceTitle": "Structure your sidebar for more focused work with teamspaces",
+  "sourceUrl": "https://www.notion.so/help/guides/structure-sidebar-focused-work-teamspaces",
+  "questions": [
+    {
+      "id": "structure-sidebar-focused-work-teamspaces-001",
+      "question": "Which of the following statements best describes an **open** teamspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anyone can join it, and its content can be viewed even by non‑members.",
+          "correct": true,
+          "explanation": "Open teamspaces allow anyone to join with a single click, and the pages are visible to anyone, even if they haven’t joined yet."
+        },
+        {
+          "key": "B",
+          "text": "Only invited members can see the teamspace, and a padlock icon appears next to it.",
+          "correct": false,
+          "explanation": "That describes a closed teamspace, not an open one."
+        },
+        {
+          "key": "C",
+          "text": "The teamspace is hidden from everyone unless you are explicitly added as a member.",
+          "correct": false,
+          "explanation": "Private teamspaces are hidden; open teamspaces are visible to all."
+        },
+        {
+          "key": "D",
+          "text": "You must request access from a team owner before you can view any content.",
+          "correct": false,
+          "explanation": "Requesting access is required for closed teamspaces, not open ones."
+        }
+      ]
+    },
+    {
+      "id": "structure-sidebar-focused-work-teamspaces-002",
+      "question": "What is the primary benefit of **favoriting** a page in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It pins the page to the top of your sidebar under Favorites for quick access.",
+          "correct": true,
+          "explanation": "Favoriting adds the star icon, and the page appears at the top of the sidebar under the Favorites section."
+        },
+        {
+          "key": "B",
+          "text": "It makes the page read‑only for all collaborators.",
+          "correct": false,
+          "explanation": "Favoriting does not change permissions; it only affects your personal navigation."
+        },
+        {
+          "key": "C",
+          "text": "It automatically shares the page with everyone in the workspace.",
+          "correct": false,
+          "explanation": "Sharing requires using the Share menu; favoriting does not affect who can see the page."
+        },
+        {
+          "key": "D",
+          "text": "It moves the page into a special \"Favorites\" teamspace.",
+          "correct": false,
+          "explanation": "Favorites are a sidebar section, not a separate teamspace."
+        }
+      ]
+    },
+    {
+      "id": "structure-sidebar-focused-work-teamspaces-003",
+      "question": "When should you consider **collapsing** a teamspace toggle in your sidebar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the teamspace contains information you only need occasionally, such as a General company teamspace.",
+          "correct": true,
+          "explanation": "Collapsing less‑frequently used teamspaces (e.g., General) keeps them out of the way while still keeping them accessible."
+        },
+        {
+          "key": "B",
+          "text": "Whenever a teamspace has more than ten pages.",
+          "correct": false,
+          "explanation": "The number of pages isn’t the deciding factor; usage frequency matters more."
+        },
+        {
+          "key": "C",
+          "text": "If the teamspace is marked as private.",
+          "correct": false,
+          "explanation": "Privacy status does not dictate whether you should collapse it; you may still need quick access to a private teamspace."
+        },
+        {
+          "key": "D",
+          "text": "Only when the teamspace is open, because closed teamspaces cannot be collapsed.",
+          "correct": false,
+          "explanation": "Both open and closed teamspaces can be collapsed; the decision is based on relevance, not type."
+        }
+      ]
+    },
+    {
+      "id": "structure-sidebar-focused-work-teamspaces-004",
+      "question": "Which of the following is **not** a recommended practice for arranging your sidebar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep your department’s teamspace at the top with its toggle open.",
+          "correct": false,
+          "explanation": "This is a recommended practice because you likely start your day there."
+        },
+        {
+          "key": "B",
+          "text": "Add every page you ever open to Favorites to ensure nothing is missed.",
+          "correct": true,
+          "explanation": "Adding too many pages clutters Favorites and defeats its purpose of quick access to a handful of key pages."
+        },
+        {
+          "key": "C",
+          "text": "Collapse rarely used teamspaces and move them lower in the list.",
+          "correct": false,
+          "explanation": "Collapsing and moving low‑frequency teamspaces helps keep the sidebar tidy."
+        },
+        {
+          "key": "D",
+          "text": "Use shared pages (e.g., 1:1 notes) for content you need to access from multiple locations.",
+          "correct": false,
+          "explanation": "Shared pages are precisely for that purpose and should be used accordingly."
+        }
+      ]
+    },
+    {
+      "id": "structure-sidebar-focused-work-teamspaces-005",
+      "question": "What happens when you edit a **synced block** that exists in multiple teamspaces?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The change is reflected in every location where that synced block appears.",
+          "correct": true,
+          "explanation": "Synced blocks are linked; editing one updates all copies automatically."
+        },
+        {
+          "key": "B",
+          "text": "Only the original block is updated; the copies remain unchanged.",
+          "correct": false,
+          "explanation": "That would defeat the purpose of syncing; all instances stay in sync."
+        },
+        {
+          "key": "C",
+          "text": "A version conflict dialog appears, requiring you to choose which copy to keep.",
+          "correct": false,
+          "explanation": "Notion handles syncing automatically without conflict prompts for synced blocks."
+        },
+        {
+          "key": "C",
+          "text": "The block becomes read‑only in all other teamspaces until you manually copy the changes.",
+          "correct": false,
+          "explanation": "Synced blocks remain editable everywhere; they are not locked after an edit."
+        }
+      ]
+    },
+    {
+      "id": "structure-sidebar-focused-work-teamspaces-006",
+      "question": "Which type of teamspace **cannot be seen** by a user who is not a member?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Open",
+          "correct": false,
+          "explanation": "Open teamspaces are visible to everyone, even non‑members."
+        },
+        {
+          "key": "B",
+          "text": "Closed",
+          "correct": false,
+          "explanation": "Closed teamspaces appear under \"More teamspaces\" and are visible, though joining requires an invitation."
+        },
+        {
+          "key": "C",
+          "text": "Private",
+          "correct": true,
+          "explanation": "Private teamspaces are hidden from anyone who isn’t a member, protecting sensitive information."
+        },
+        {
+          "key": "D",
+          "text": "Archived",
+          "correct": false,
+          "explanation": "Archived is a status for projects, not a distinct visibility type; archived teamspaces are still visible under More teamspaces."
+        }
+      ]
+    },
+    {
+      "id": "structure-sidebar-focused-work-teamspaces-007",
+      "question": "When using the **search filter** to find a page, which step is essential to limit results to a specific teamspace?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click \"Show filters\" and select the desired teamspace as a filter criterion.",
+          "correct": true,
+          "explanation": "The filter menu lets you choose \"teamspace\" as a criterion, narrowing results to that teamspace only."
+        },
+        {
+          "key": "B",
+          "text": "Manually type the name of the teamspace before your search query.",
+          "correct": false,
+          "explanation": "Typing the teamspace name does not apply a filter; it only influences keyword matching."
+        },
+        {
+          "key": "C",
+          "text": "Hover over the teamspace name in the sidebar and select \"Search here\".",
+          "correct": false,
+          "explanation": "There is no \"Search here\" hover option in Notion; filtering must be done via the filter menu."
+        },
+        {
+          "key": "D",
+          "text": "Use the \"Ask AI\" feature; it automatically scopes the search to the current teamspace.",
+          "correct": false,
+          "explanation": "Ask AI can search across the workspace but does not automatically limit results to a specific teamspace without explicit filters."
+        }
+      ]
+    },
+    {
+      "id": "structure-sidebar-focused-work-teamspaces-008",
+      "question": "Why might you want to **join** a teamspace even if you only need occasional information from it?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Joining ensures the teamspace appears under \"Your teamspaces,\" making it easier to access frequently used pages.",
+          "correct": true,
+          "explanation": "Being a member moves the teamspace into the \"Your teamspaces\" section, reducing the steps needed to reach it."
+        },
+        {
+          "key": "B",
+          "text": "Only members can view any content inside a teamspace.",
+          "correct": false,
+          "explanation": "Open teamspaces allow non‑members to view content; joining is not required for viewing."
+        },
+        {
+          "key": "C",
+          "text": "Joining automatically adds all pages from that teamspace to your Favorites.",
+          "correct": false,
+          "explanation": "Favorites must be added manually; joining does not auto‑favorite pages."
+        },
+        {
+          "key": "D",
+          "text": "Members receive email notifications for every change in the teamspace.",
+          "correct": false,
+          "explanation": "Notifications depend on personal settings, not merely on membership."
+        }
+      ]
+    },
+    {
+      "id": "structure-sidebar-focused-work-teamspaces-009",
+      "question": "Which of the following best explains the purpose of **shared pages** listed under the \"Shared\" section in the sidebar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They provide a central place for pages that are accessible to multiple people, regardless of the teamspace they reside in.",
+          "correct": true,
+          "explanation": "Shared pages appear under the Shared heading so you can quickly locate content that has been explicitly shared with you."
+        },
+        {
+          "key": "B",
+          "text": "They are private notes that only you can see.",
+          "correct": false,
+          "explanation": "Private notes are not listed under Shared; they stay within the teamspace or personal area."
+        },
+        {
+          "key": "C",
+          "text": "They are automatically generated by Notion for every new teamspace.",
+          "correct": false,
+          "explanation": "Shared pages are created by users when they use the Share menu, not auto‑generated."
+        },
+        {
+          "key": "D",
+          "text": "They replace the need for a Favorites section.",
+          "correct": false,
+          "explanation": "Shared and Favorites serve different purposes; Shared is for collaboration, Favorites for quick personal access."
+        }
+      ]
+    },
+    {
+      "id": "structure-sidebar-focused-work-teamspaces-010",
+      "question": "What is the recommended number of pages to keep in your **Favorites** section, and why?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A handful—so the list stays concise and you can still see the teamspace each favorite belongs to.",
+          "correct": true,
+          "explanation": "Keeping only a few favorites prevents clutter and maintains context by showing the originating teamspace."
+        },
+        {
+          "key": "B",
+          "text": "All pages you ever visit, to guarantee nothing is missed.",
+          "correct": false,
+          "explanation": "Too many favorites overwhelm the sidebar and hide the teamspace context."
+        },
+        {
+          "key": "C",
+          "text": "Exactly ten, because Notion limits the Favorites section to ten entries.",
+          "correct": false,
+          "explanation": "There is no hard limit of ten; the guidance is about usability, not a technical cap."
+        },
+        {
+          "key": "D",
+          "text": "Zero; Favorites are deprecated in favor of pinned blocks.",
+          "correct": false,
+          "explanation": "Favorites are still a supported feature for quick navigation."
+        }
+      ]
+    }
+  ]
+}

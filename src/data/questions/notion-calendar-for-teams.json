@@ -1,0 +1,255 @@
+{
+  "source": "notion-calendar-for-teams",
+  "sourceTitle": "Notion Calendar for teams",
+  "sourceUrl": "https://www.notion.so/help/notion-calendar-for-teams",
+  "questions": [
+    {
+      "id": "notion-calendar-for-teams-001",
+      "question": "What type of user accounts must be used to enable Notion Calendar for a team?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Personal Notion accounts",
+          "correct": false,
+          "explanation": "Personal Notion accounts are not sufficient; the feature requires Google Workspace‑managed accounts."
+        },
+        {
+          "key": "B",
+          "text": "Google Workspace‑managed accounts",
+          "correct": true,
+          "explanation": "Correct – the article states that team members must be managed by Google Workspace to use Notion Calendar."
+        },
+        {
+          "key": "C",
+          "text": "Microsoft 365 accounts",
+          "correct": false,
+          "explanation": "Microsoft 365 accounts are unrelated to the requirement described."
+        },
+        {
+          "key": "D",
+          "text": "Apple ID accounts",
+          "correct": false,
+          "explanation": "Apple IDs are not mentioned as a requirement for Notion Calendar."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-for-teams-002",
+      "question": "After viewing a teammate’s calendar, how can you close that view?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the \"Close\" button at the top of the page",
+          "correct": false,
+          "explanation": "There is no dedicated \"Close\" button mentioned in the article."
+        },
+        {
+          "key": "B",
+          "text": "Press Esc or click the x next to their calendar in the left sidebar",
+          "correct": true,
+          "explanation": "The article instructs to press Esc or use the x icon to exit the teammate’s calendar view."
+        },
+        {
+          "key": "C",
+          "text": "Refresh the browser window",
+          "correct": false,
+          "explanation": "Refreshing would reload the page but does not specifically close the calendar view."
+        },
+        {
+          "key": "D",
+          "text": "Log out of Notion and log back in",
+          "correct": false,
+          "explanation": "Logging out is unnecessary and unrelated to closing a calendar view."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-for-teams-003",
+      "question": "Which sequence correctly describes how to pin a teammate’s calendar to your own calendar list?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "First view the teammate’s calendar, then right‑click their email in the left sidebar and choose “Pin to calendar list”.",
+          "correct": true,
+          "explanation": "Exactly as described: you must see the calendar, then right‑click the email and select Pin."
+        },
+        {
+          "key": "B",
+          "text": "Drag the teammate’s email directly onto the calendar grid and select “Pin”.",
+          "correct": false,
+          "explanation": "Dragging creates a meeting; pinning is done via right‑click, not drag‑and‑drop."
+        },
+        {
+          "key": "C",
+          "text": "Select “Show teammate calendar…”, then click a Pin icon that appears on the calendar view.",
+          "correct": false,
+          "explanation": "There is no Pin icon in the calendar view; pinning is done from the sidebar."
+        },
+        {
+          "key": "D",
+          "text": "Click the x next to the teammate’s calendar and then choose “Pin”.",
+          "correct": false,
+          "explanation": "Clicking x removes the view; it does not lead to a pin option."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-for-teams-004",
+      "question": "If a Google Workspace admin wants to restrict team access to Notion Calendar, which resource should they consult?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The main Notion Calendar for Teams article",
+          "correct": false,
+          "explanation": "That article explains usage, not admin security controls."
+        },
+        {
+          "key": "B",
+          "text": "The Notion Calendar security practices article linked in the page",
+          "correct": true,
+          "explanation": "The article explicitly points admins to the security practices article for restriction guidance."
+        },
+        {
+          "key": "C",
+          "text": "The Google Workspace admin console documentation",
+          "correct": false,
+          "explanation": "While useful, the Notion Help Center directs admins to its own security practices article."
+        },
+        {
+          "key": "D",
+          "text": "The Notion Help Center FAQ page",
+          "correct": false,
+          "explanation": "The FAQ is generic and does not specifically address admin restrictions."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-for-teams-005",
+      "question": "When you drag a teammate from the Notion Calendar menu onto the grid to schedule a 1:1 meeting, which of the following items is NOT automatically populated?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Meeting title",
+          "correct": false,
+          "explanation": "The title is auto‑filled according to the article."
+        },
+        {
+          "key": "B",
+          "text": "Meeting time",
+          "correct": false,
+          "explanation": "The time is also auto‑filled."
+        },
+        {
+          "key": "C",
+          "text": "Participant",
+          "correct": false,
+          "explanation": "The teammate you dragged becomes the participant automatically."
+        },
+        {
+          "key": "D",
+          "text": "Meeting location",
+          "correct": true,
+          "explanation": "Location is not mentioned as an automatically added field; you would need to set it manually if needed."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-for-teams-006",
+      "question": "What is the effect of selecting “Remove teammate from list” after right‑clicking a teammate’s calendar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The teammate’s calendar is permanently deleted from Notion",
+          "correct": false,
+          "explanation": "Removal only affects your view; the calendar remains in Notion."
+        },
+        {
+          "key": "B",
+          "text": "The calendar is removed from your sidebar list but remains available in Notion",
+          "correct": true,
+          "explanation": "Correct – the action only hides the calendar from your list."
+        },
+        {
+          "key": "C",
+          "text": "The teammate loses access to Notion entirely",
+          "correct": false,
+          "explanation": "Access rights are unrelated to this UI action."
+        },
+        {
+          "key": "D",
+          "text": "All events on that calendar are permanently erased",
+          "correct": false,
+          "explanation": "Events are retained; only the list entry is removed."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-for-teams-007",
+      "question": "Why must you click the “•••” (ellipsis) next to your work calendar before selecting “Show teammate calendar…”? ",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It opens a contextual menu where the “Show teammate calendar…” option resides.",
+          "correct": true,
+          "explanation": "The ellipsis reveals the menu containing the option to view a teammate’s calendar."
+        },
+        {
+          "key": "B",
+          "text": "It synchronizes your work calendar with Google Calendar before showing others.",
+          "correct": false,
+          "explanation": "Synchronization is not mentioned as a prerequisite for this action."
+        },
+        {
+          "key": "C",
+          "text": "It creates a new calendar for the teammate automatically.",
+          "correct": false,
+          "explanation": "The action only displays an existing calendar; it does not create one."
+        },
+        {
+          "key": "D",
+          "text": "It logs you out of Notion and then logs you back in with elevated permissions.",
+          "correct": false,
+          "explanation": "Logging out is unrelated to accessing a teammate’s calendar."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-for-teams-008",
+      "question": "Which statement best describes how conferencing integration works with the drag‑and‑drop 1:1 meeting feature?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conferencing must be added manually after the meeting is created.",
+          "correct": false,
+          "explanation": "The article says conferencing is added automatically."
+        },
+        {
+          "key": "B",
+          "text": "Conferencing is automatically added based on your preferences when you drag a teammate onto the grid.",
+          "correct": true,
+          "explanation": "Correct – the feature auto‑populates conferencing according to your saved preferences."
+        },
+        {
+          "key": "C",
+          "text": "Conferencing cannot be used with drag‑and‑drop meetings; you need to schedule them elsewhere.",
+          "correct": false,
+          "explanation": "The article explicitly mentions conferencing is added automatically for these meetings."
+        },
+        {
+          "key": "D",
+          "text": "Conferencing is only available for group meetings, not 1:1 meetings.",
+          "correct": false,
+          "explanation": "The feature works for 1:1 meetings as described."
+        }
+      ]
+    }
+  ]
+}

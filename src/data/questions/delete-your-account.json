@@ -1,0 +1,348 @@
+{
+  "source": "delete-your-account.md",
+  "sourceTitle": "Delete your account",
+  "sourceUrl": "https://www.notion.so/help/delete-your-account",
+  "questions": [
+    {
+      "id": "delete-your-account-001",
+      "question": "If you delete your account, what happens to private workspaces where you were the only member?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are archived and remain accessible to you.",
+          "correct": false,
+          "explanation": "Incorrect. Private workspaces where you are the only member are permanently deleted."
+        },
+        {
+          "key": "B",
+          "text": "They are shared with all your contacts automatically.",
+          "correct": false,
+          "explanation": "Incorrect. They are deleted, not shared."
+        },
+        {
+          "key": "C",
+          "text": "They are deleted.",
+          "correct": true,
+          "explanation": "Correct. According to the article, any private workspaces in which you were the only member will be deleted."
+        },
+        {
+          "key": "D",
+          "text": "They are transferred to your email address.",
+          "correct": false,
+          "explanation": "Incorrect. They are deleted, not transferred."
+        }
+      ]
+    },
+    {
+      "id": "delete-your-account-002",
+      "question": "How long does Notion keep backups to restore deleted content?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "7 days",
+          "correct": false,
+          "explanation": "Incorrect. The backup window is 30 days, not 7."
+        },
+        {
+          "key": "B",
+          "text": "30 days",
+          "correct": true,
+          "explanation": "Correct. Notion keeps backups that allow restoration of content from the past 30 days."
+        },
+        {
+          "key": "C",
+          "text": "60 days",
+          "correct": false,
+          "explanation": "Incorrect. The restoration window is 30 days, not 60."
+        },
+        {
+          "key": "D",
+          "text": "Indefinitely",
+          "correct": false,
+          "explanation": "Incorrect. Backups are only available for the past 30 days."
+        }
+      ]
+    },
+    {
+      "id": "delete-your-account-003",
+      "question": "When you move a top-level page to another workspace, how are its sub-pages handled?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are left behind in the original workspace.",
+          "correct": false,
+          "explanation": "Incorrect. All sub-pages move with the top-level page."
+        },
+        {
+          "key": "B",
+          "text": "They are deleted.",
+          "correct": false,
+          "explanation": "Incorrect. The sub-pages are moved, not deleted."
+        },
+        {
+          "key": "C",
+          "text": "They move with the top-level page.",
+          "correct": true,
+          "explanation": "Correct. The article states that when you move top-level pages, all their sub-pages go with them."
+        },
+        {
+          "key": "D",
+          "text": "They are duplicated in the new workspace.",
+          "correct": false,
+          "explanation": "Incorrect. They are moved, not duplicated."
+        }
+      ]
+    },
+    {
+      "id": "delete-your-account-004",
+      "question": "Can you access private pages after deleting your account?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, if you exported them before deleting.",
+          "correct": false,
+          "explanation": "Incorrect. You cannot access content from workspaces that are deleted or from which you are removed, even private pages."
+        },
+        {
+          "key": "B",
+          "text": "No, even private pages are gone forever.",
+          "correct": true,
+          "explanation": "Correct. The article explicitly states you won't be able to access any content from workspaces that are deleted or that you are removed from — even your private pages."
+        },
+        {
+          "key": "C",
+          "text": "Yes, as long as you were a member of a shared workspace.",
+          "correct": false,
+          "explanation": "Incorrect. Your access is revoked regardless of whether the pages were in private or shared spaces."
+        },
+        {
+          "key": "D",
+          "text": "Yes, until the 30-day backup window expires.",
+          "correct": false,
+          "explanation": "Incorrect. Access is lost immediately upon deletion; the 30-day window applies to restoration requests, not active access."
+        }
+      ]
+    },
+    {
+      "id": "delete-your-account-005",
+      "question": "What happens to a shared workspace if you were the sole admin and deleted your account?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It remains active for other members.",
+          "correct": false,
+          "explanation": "Incorrect. Since the admin (you) is deleted, the workspace is deleted for everyone."
+        },
+        {
+          "key": "B",
+          "text": "It is deleted for everyone.",
+          "correct": true,
+          "explanation": "Correct. Any shared workspaces in which you were the only admin will be deleted, and deleted workspaces are deleted for everyone in them."
+        },
+        {
+          "key": "C",
+          "text": "It is archived for 30 days.",
+          "correct": false,
+          "explanation": "Incorrect. Workspaces are permanently deleted, not archived."
+        },
+        {
+          "key": "D",
+          "text": "It is transferred to the next admin in the list.",
+          "correct": false,
+          "explanation": "Incorrect. There is no mechanism to transfer ownership upon account deletion."
+        }
+      ]
+    },
+    {
+      "id": "delete-your-account-006",
+      "question": "Where is the 'Delete my account' option located in the Notion sidebar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Top right corner of the screen",
+          "correct": false,
+          "explanation": "Incorrect. You must go to Settings in the sidebar, then click on your name."
+        },
+        {
+          "key": "B",
+          "text": "Settings in your sidebar → {your name}",
+          "correct": true,
+          "explanation": "Correct. The steps are: Settings in your sidebar → {your name} → Delete my account."
+        },
+        {
+          "key": "C",
+          "text": "Help menu at the bottom of the sidebar",
+          "correct": false,
+          "explanation": "Incorrect. The Help menu is used for contacting support, not for account deletion."
+        },
+        {
+          "key": "D",
+          "text": "Account settings page",
+          "correct": false,
+          "explanation": "Incorrect. It is accessed via the sidebar menu under your name, not a dedicated settings page."
+        }
+      ]
+    },
+    {
+      "id": "delete-your-account-007",
+      "question": "When migrating content to a different workspace, what is a potential issue mentioned?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The content is permanently lost during the transfer.",
+          "correct": false,
+          "explanation": "Incorrect. The content is duplicated to the new workspace, though it may have issues."
+        },
+        {
+          "key": "B",
+          "text": "The content is duplicated and sometimes has issues.",
+          "correct": true,
+          "explanation": "Correct. The article notes that any migrated content will be duplicated and these pages sometimes have issues."
+        },
+        {
+          "key": "C",
+          "text": "The content is converted to image files automatically.",
+          "correct": false,
+          "explanation": "Incorrect. The content is duplicated, not converted to images."
+        },
+        {
+          "key": "D",
+          "text": "The content is shared with your contacts automatically.",
+          "correct": false,
+          "explanation": "Incorrect. The content is moved to a new workspace, not shared with contacts."
+        }
+      ]
+    },
+    {
+      "id": "delete-your-account-008",
+      "question": "Which of the following is a mandatory step to confirm the account deletion?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enter your password",
+          "correct": false,
+          "explanation": "Incorrect. You must manually enter your account email, not your password."
+        },
+        {
+          "key": "B",
+          "text": "Select a reason for deletion",
+          "correct": false,
+          "explanation": "Incorrect. No reason selection is required; you must enter your email."
+        },
+        {
+          "key": "C",
+          "text": "Manually enter your account email",
+          "correct": true,
+          "explanation": "Correct. A window pops up to confirm workspaces, and you must manually enter your account email to proceed."
+        },
+        {
+          "key": "D",
+          "text": "Verify via SMS",
+          "correct": false,
+          "explanation": "Incorrect. There is no SMS verification step mentioned."
+        }
+      ]
+    },
+    {
+      "id": "delete-your-account-009",
+      "question": "What does Notion show you in the warning window before you delete your account?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A list of all your passwords",
+          "correct": false,
+          "explanation": "Incorrect. The warning lists which workspaces will be deleted, not passwords."
+        },
+        {
+          "key": "B",
+          "text": "A list of which workspaces will be deleted",
+          "correct": true,
+          "explanation": "Correct. You will see a warning about which of your workspaces will be deleted."
+        },
+        {
+          "key": "C",
+          "text": "A warning about internet speed",
+          "correct": false,
+          "explanation": "Incorrect. There is no warning about internet speed."
+        },
+        {
+          "key": "D",
+          "text": "A request for your phone number",
+          "correct": false,
+          "explanation": "Incorrect. No phone number is requested."
+        }
+      ]
+    },
+    {
+      "id": "delete-your-account-010",
+      "question": "After moving top-level pages to another workspace, where do they initially appear?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The main dashboard",
+          "correct": false,
+          "explanation": "Incorrect. They do not appear on the main dashboard by default."
+        },
+        {
+          "key": "B",
+          "text": "The `Private` section",
+          "correct": true,
+          "explanation": "Correct. They appear in the `Private` section but can be moved wherever you want."
+        },
+        {
+          "key": "C",
+          "text": "The `Deleted` folder",
+          "correct": false,
+          "explanation": "Incorrect. They are not in a deleted folder; they are moved to the new workspace."
+        },
+        {
+          "key": "D",
+          "text": "The `Shared` section",
+          "correct": false,
+          "explanation": "Incorrect. They are private to your new account until you move them."
+        }
+      ]
+    },
+    {
+      "id": "delete-your-account-011",
+      "question": "How can you contact Notion support to request restoration of accidentally deleted content?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only via email",
+          "correct": false,
+          "explanation": "Incorrect. You can use either the app help menu or email."
+        },
+        {
+          "key": "B",
+          "text": "Only by phone call",
+          "correct": false,
+          "explanation": "Incorrect. You must use the app or email."
+        },
+        {
+          "key": "C",
+          "text": "Both the app help menu and email",
+          "correct": true,
+          "explanation": "Correct. You can send a message in the app by clicking `?` at the bottom of the sidebar or email us."
+        },
+        {
+          "key": "D",
+          "text": "Only through a contact form on the website",
+          "correct": false,
+          "explanation": "Incorrect. The app menu or email are the valid methods."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source": "guides_get-organized-for-a-new-semester-with-notion",
+  "sourceTitle": "Get organized for a new semester with Notion",
+  "sourceUrl": "https://www.notion.so/help/guides/get-organized-for-a-new-semester-with-notion",
+  "questions": [
+    {
+      "id": "guides_get-organized-for-a-new-semester-with-notion-001",
+      "question": "What is the primary purpose of the Class Notes template in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store all lecture notes in a single database and tag them for easy retrieval",
+          "correct": true,
+          "explanation": "The template centralizes class notes so you can tag each page with contextual information and find them later."
+        },
+        {
+          "key": "B",
+          "text": "To create a personal to‑do list for household chores",
+          "correct": false,
+          "explanation": "Household chores are managed with a separate checklist or database, not the Class Notes template."
+        },
+        {
+          "key": "C",
+          "text": "To automatically generate a weekly class schedule",
+          "correct": false,
+          "explanation": "Scheduling is handled by a different template (e.g., a course schedule), not the Class Notes template."
+        },
+        {
+          "key": "D",
+          "text": "To embed video lectures directly from YouTube",
+          "correct": false,
+          "explanation": "While you can embed videos, the core purpose of the template is organizing textual notes, not video hosting."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-organized-for-a-new-semester-with-notion-002",
+      "question": "Which Notion feature lets you save a web page directly into a database with one click?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Web Clipper",
+          "correct": true,
+          "explanation": "The Web Clipper extension captures the page’s text and images and lets you choose a database to save them."
+        },
+        {
+          "key": "B",
+          "text": "Embed block",
+          "correct": false,
+          "explanation": "Embed blocks display external content but don’t automatically create a new database entry."
+        },
+        {
+          "key": "C",
+          "text": "Bookmark block",
+          "correct": false,
+          "explanation": "Bookmarks store a link only; they don’t pull the page content into a database."
+        },
+        {
+          "key": "D",
+          "text": "Link to page",
+          "correct": false,
+          "explanation": "Linking connects two Notion pages, not external web pages."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-organized-for-a-new-semester-with-notion-003",
+      "question": "Which property would you use to indicate whether a class note is finished?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Status",
+          "correct": true,
+          "explanation": "The Status property can be set to Not started, In progress, or Done, showing completion."
+        },
+        {
+          "key": "B",
+          "text": "Created date",
+          "correct": false,
+          "explanation": "Created date records when the note was made, not its completion state."
+        },
+        {
+          "key": "C",
+          "text": "Author",
+          "correct": false,
+          "explanation": "Author identifies who created the page; it doesn’t reflect progress."
+        },
+        {
+          "key": "D",
+          "text": "Relation",
+          "correct": false,
+          "explanation": "Relation links databases together; it isn’t used for tracking note status."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-organized-for-a-new-semester-with-notion-004",
+      "question": "How can you view only the notes that belong to a specific class, such as LIT 455?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Apply a filter on the Class property and select LIT 455",
+          "correct": true,
+          "explanation": "Filtering by the Class property limits the view to notes tagged with that class."
+        },
+        {
+          "key": "B",
+          "text": "Sort the database by the Class column",
+          "correct": false,
+          "explanation": "Sorting changes the order but still shows all notes; it doesn’t hide other classes."
+        },
+        {
+          "key": "C",
+          "text": "Create a new board view grouped by Class",
+          "correct": false,
+          "explanation": "A board view groups notes but still displays every class unless you also filter."
+        },
+        {
+          "key": "D",
+          "text": "Add a Relation property linking to a Courses database",
+          "correct": false,
+          "explanation": "Relations connect databases but don’t by themselves filter the view to a single class."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-organized-for-a-new-semester-with-notion-005",
+      "question": "What does the AI Summary property generate for each note?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A brief, automatically generated summary of the page’s contents",
+          "correct": true,
+          "explanation": "AI Summary creates a concise overview so you can understand a note at a glance."
+        },
+        {
+          "key": "B",
+          "text": "A full translation of the note into another language",
+          "correct": false,
+          "explanation": "Translation can be done with a custom AI prompt, not the Summary property."
+        },
+        {
+          "key": "C",
+          "text": "A checklist of tasks extracted from the note",
+          "correct": false,
+          "explanation": "Checklists are a separate block type; the Summary property only provides text."
+        },
+        {
+          "key": "D",
+          "text": "An image gallery of all embedded pictures",
+          "correct": false,
+          "explanation": "Image galleries are created manually; the Summary property does not handle images."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-organized-for-a-new-semester-with-notion-006",
+      "question": "Which property type should you add to connect your Resources database to your Class Notes database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Relation",
+          "correct": true,
+          "explanation": "Relation properties create links between two databases, allowing you to associate resources with notes."
+        },
+        {
+          "key": "B",
+          "text": "Formula",
+          "correct": false,
+          "explanation": "Formulas calculate values within a single database; they don’t create cross‑database links."
+        },
+        {
+          "key": "C",
+          "text": "Rollup",
+          "correct": false,
+          "explanation": "Rollups pull data from a related database but require a Relation property first."
+        },
+        {
+          "key": "D",
+          "text": "Multi‑select",
+          "correct": false,
+          "explanation": "Multi‑select tags items with keywords but doesn’t link two separate databases."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-organized-for-a-new-semester-with-notion-007",
+      "question": "Which of the following is NOT mentioned as a recommended way to use Notion for everyday college life?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Track daily caloric intake with AI",
+          "correct": true,
+          "explanation": "The guide discusses chores, budgeting, meals, and clubs, but does not mention using Notion to monitor calories."
+        },
+        {
+          "key": "B",
+          "text": "Schedule household chores with a shared checklist",
+          "correct": false,
+          "explanation": "Sharing a chores list is explicitly suggested for roommates."
+        },
+        {
+          "key": "C",
+          "text": "Create a homepage for a hobby or extracurricular group",
+          "correct": false,
+          "explanation": "The article recommends building a shared homepage for clubs or groups."
+        },
+        {
+          "key": "D",
+          "text": "Manage a personal budget with a table database",
+          "correct": false,
+          "explanation": "Budget tracking via a table with income and expense tags is listed as a use case."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-organized-for-a-new-semester-with-notion-008",
+      "question": "When you want to add a new property to a Notion database, which menu option do you select?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "+ Add new property",
+          "correct": true,
+          "explanation": "The '+ Add new property' button opens the property selection menu."
+        },
+        {
+          "key": "B",
+          "text": "Settings > Properties",
+          "correct": false,
+          "explanation": "There is no separate Settings menu for adding a property; the button is used directly in the database view."
+        },
+        {
+          "key": "C",
+          "text": "Right‑click on a column header and choose Insert",
+          "correct": false,
+          "explanation": "Right‑clicking does not provide a property‑creation option in Notion."
+        },
+        {
+          "key": "D",
+          "text": "Type '/' and select 'property'",
+          "correct": false,
+          "explanation": "The '/' menu is for inserting content blocks, not for adding database properties."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-organized-for-a-new-semester-with-notion-009",
+      "question": "You need to locate notes that are still incomplete and belong to the topic \"Quantum Mechanics\". Which combination of features will let you do this most efficiently?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Apply a filter for Topic = \"Quantum Mechanics\" AND Status ≠ Done",
+          "correct": true,
+          "explanation": "Filtering by both Topic and Status narrows the view to exactly the unfinished notes for that subject."
+        },
+        {
+          "key": "B",
+          "text": "Sort the database by Created date and scroll until you find the topic",
+          "correct": false,
+          "explanation": "Sorting only changes order; you would still have to manually scan every entry."
+        },
+        {
+          "key": "C",
+          "text": "Create a board view grouped by Class and look for the topic cards",
+          "correct": false,
+          "explanation": "Board grouping helps visualize classes but doesn’t filter by topic or status."
+        },
+        {
+          "key": "D",
+          "text": "Add a Rollup property that counts completed notes and view the total",
+          "correct": false,
+          "explanation": "Rollups aggregate data but don’t isolate specific incomplete notes for a given topic."
+        }
+      ]
+    },
+    {
+      "id": "guides_get-organized-for-a-new-semester-with-notion-010",
+      "question": "How does Notion AI's \"Key Insights\" property differ from the \"Summary\" property?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "\"Key Insights\" extracts main takeaways, while \"Summary\" provides a concise overview of the entire page.",
+          "correct": true,
+          "explanation": "Key Insights focuses on the most important points; Summary gives a brief description of the whole content."
+        },
+        {
+          "key": "B",
+          "text": "\"Key Insights\" translates the page into another language, whereas \"Summary\" highlights keywords.",
+          "correct": false,
+          "explanation": "Translation and keyword highlighting are done with custom prompts, not with these specific properties."
+        },
+        {
+          "key": "C",
+          "text": "\"Key Insights\" creates a checklist of action items, while \"Summary\" generates a bibliography.",
+          "correct": false,
+          "explanation": "Neither property automatically creates checklists or bibliographies."
+        },
+        {
+          "key": "D",
+          "text": "\"Key Insights\" provides a simplified version of the text, while \"Summary\" offers a detailed paragraph‑by‑paragraph analysis.",
+          "correct": false,
+          "explanation": "Simplifying text is a separate AI command; Summary does not produce detailed analysis."
+        }
+      ]
+    }
+  ]
+}

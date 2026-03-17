@@ -1,0 +1,472 @@
+{
+  "source": "comments-mentions-and-reminders",
+  "sourceTitle": "Comments, mentions & reactions",
+  "sourceUrl": "https://www.notion.so/help/comments-mentions-and-reminders",
+  "questions": [
+    {
+      "id": "comments-mentions-and-reminders-001",
+      "question": "What is the keyboard shortcut to create an inline comment on selected text or at the cursor position?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cmd/Ctrl + Shift + C",
+          "correct": false,
+          "explanation": "Cmd/Ctrl + C is used for copying text."
+        },
+        {
+          "key": "B",
+          "text": "Cmd/Ctrl + Shift + M",
+          "correct": true,
+          "explanation": "Cmd/Ctrl + Shift + M is the correct shortcut to open the comment menu."
+        },
+        {
+          "key": "C",
+          "text": "Cmd/Ctrl + Shift + N",
+          "correct": false,
+          "explanation": "Cmd/Ctrl + N is typically used for creating a new page or window depending on the OS."
+        },
+        {
+          "key": "D",
+          "text": "Cmd/Ctrl + Shift + L",
+          "correct": false,
+          "explanation": "Cmd/Ctrl + Shift + L is used for toggling a link."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-002",
+      "question": "How do you resolve a comment on a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over it and select the trash icon",
+          "correct": false,
+          "explanation": "The trash icon is for deleting the comment entirely."
+        },
+        {
+          "key": "B",
+          "text": "Hover over it and select the checkmark (✔️)",
+          "correct": true,
+          "explanation": "The checkmark icon is used to resolve a comment."
+        },
+        {
+          "key": "C",
+          "text": "Hover over it and select the edit icon",
+          "correct": false,
+          "explanation": "The edit icon is used to modify the comment text."
+        },
+        {
+          "key": "D",
+          "text": "Click the comment and select 'Resolve' from the menu",
+          "correct": false,
+          "explanation": "The checkmark icon is the direct action to resolve."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-003",
+      "question": "When you select text across multiple blocks, what is the behavior regarding commenting?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You can select them all and leave a comment at once",
+          "correct": false,
+          "explanation": "You cannot comment on multiple blocks simultaneously, even if text is selected across them."
+        },
+        {
+          "key": "B",
+          "text": "You must comment on each block individually",
+          "correct": true,
+          "explanation": "You can only comment on one block or section at a time, even if text is selected across blocks."
+        },
+        {
+          "key": "C",
+          "text": "The comment will only appear on the first block selected",
+          "correct": false,
+          "explanation": "The comment will not appear on any of the selected text if it covers multiple blocks."
+        },
+        {
+          "key": "D",
+          "text": "You can only comment on text, not blocks",
+          "correct": false,
+          "explanation": "You can comment on specific content blocks as well as selected text."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-004",
+      "question": "What is the difference between @-mentioning a page and adding a 'Link to page' block?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Link to page creates a backlink, while @-mentioning does not",
+          "correct": false,
+          "explanation": "A backlink is created automatically whenever you @-mention a page."
+        },
+        {
+          "key": "B",
+          "text": "@-mentioning creates a subpage in the sidebar, while Link to page acts like a hyperlink",
+          "correct": false,
+          "explanation": "Link to page creates a subpage in the sidebar; @-mentioning acts like a hyperlink."
+        },
+        {
+          "key": "C",
+          "text": "A Link to page updates automatically if the title changes, while @-mentioning does not",
+          "correct": false,
+          "explanation": "The title of a page updates automatically wherever it is @-mentioned."
+        },
+        {
+          "key": "D",
+          "text": "@-mentioning creates a subpage in the sidebar, while Link to page acts like a hyperlink",
+          "correct": true,
+          "explanation": "Link to page works like creating a subpage, while @-mentioning works like a hyperlink."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-005",
+      "question": "How can you see a complete list of members in a group if the hover preview only shows 10?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the group name in the sidebar",
+          "correct": false,
+          "explanation": "You need to go into Settings to see the full list."
+        },
+        {
+          "key": "B",
+          "text": "Search for the group in the global search",
+          "correct": false,
+          "explanation": "Global search does not list group members."
+        },
+        {
+          "key": "C",
+          "text": "Go to Settings in your sidebar → Members → Select Groups",
+          "correct": true,
+          "explanation": "This is the correct path to view the complete list of group members."
+        },
+        {
+          "key": "D",
+          "text": "Click the expand arrow in the mention menu",
+          "correct": false,
+          "explanation": "The mention menu is limited to 10 members as stated in the article."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-006",
+      "question": "How do you leave a comment directly on a database property?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type @ in the property field",
+          "correct": false,
+          "explanation": "Typing @ usually mentions a person or page."
+        },
+        {
+          "key": "B",
+          "text": "Hover over the property and select the comment icon (💬)",
+          "correct": true,
+          "explanation": "Hovering over a property in table view allows you to select the comment icon to leave a property comment."
+        },
+        {
+          "key": "C",
+          "text": "Select the property and press Cmd/Ctrl + M",
+          "correct": false,
+          "explanation": "The shortcut applies to inline comments, not necessarily property comments."
+        },
+        {
+          "key": "D",
+          "text": "Click the property name and choose Comment",
+          "correct": false,
+          "explanation": "You usually interact with properties via hover or editing, not a 'Comment' menu on the property name."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-007",
+      "question": "What happens when you type '@today' in a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It creates a link to today's date",
+          "correct": false,
+          "explanation": "It creates a timestamp, not a link."
+        },
+        {
+          "key": "B",
+          "text": "It adds a timestamp for today",
+          "correct": true,
+          "explanation": "Typing @ followed by 'today' adds a timestamp for the current date."
+        },
+        {
+          "key": "C",
+          "text": "It marks the text as urgent",
+          "correct": false,
+          "explanation": "Notion does not have a built-in 'urgent' text format."
+        },
+        {
+          "key": "D",
+          "text": "It deletes the text",
+          "correct": false,
+          "explanation": "The text remains and becomes a timestamp."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-008",
+      "question": "In the comments pane, how do you filter comments by status (Open vs Resolved)?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the filter icon and select status",
+          "correct": true,
+          "explanation": "The filter icon allows you to filter by person or status."
+        },
+        {
+          "key": "B",
+          "text": "Use the Sort dropdown",
+          "correct": false,
+          "explanation": "The Sort dropdown orders by most recent reply, not by status."
+        },
+        {
+          "key": "C",
+          "text": "Right-click the comment and select 'Filter'",
+          "correct": false,
+          "explanation": "Filtering is done via the pane's top toolbar."
+        },
+        {
+          "key": "D",
+          "text": "Check a box in the pane header",
+          "correct": false,
+          "explanation": "There is no checkbox in the pane header for filtering."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-009",
+      "question": "When using the comments pane, how is the sorting of comments handled?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It stays sorted by newest reply",
+          "correct": true,
+          "explanation": "Once opened, the pane keeps the current sort; you must close and reopen to re-sort."
+        },
+        {
+          "key": "B",
+          "text": "It automatically re-sorts every time you open it",
+          "correct": false,
+          "explanation": "It does not auto-re-sort; it maintains the current view."
+        },
+        {
+          "key": "C",
+          "text": "It is sorted alphabetically by author",
+          "correct": false,
+          "explanation": "It is sorted by most recent reply by default."
+        },
+        {
+          "key": "D",
+          "text": "It sorts by the date the page was created",
+          "correct": false,
+          "explanation": "Sorting is based on activity within the comments pane."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-010",
+      "question": "How do you add an emoji reaction to a comment?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the comment and press Cmd/Ctrl + E",
+          "correct": false,
+          "explanation": "Cmd/Ctrl + E is used for editing."
+        },
+        {
+          "key": "B",
+          "text": "Hover over the comment and click the smiley face (🙂)",
+          "correct": true,
+          "explanation": "Hovering over a comment reveals the smiley face for adding reactions."
+        },
+        {
+          "key": "C",
+          "text": "Click the comment text and select an emoji from the menu",
+          "correct": false,
+          "explanation": "Reactions are added via the specific reaction icon, not the comment text menu."
+        },
+        {
+          "key": "D",
+          "text": "Double-click the comment",
+          "correct": false,
+          "explanation": "Double-clicking is not the method for adding reactions."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-011",
+      "question": "You mention a colleague in a page that they do not have access to. What happens?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They receive a notification in their Inbox",
+          "correct": false,
+          "explanation": "If they don't have access to the page, they will not be notified."
+        },
+        {
+          "key": "B",
+          "text": "They receive an email notification",
+          "correct": false,
+          "explanation": "They will not receive any notification if they lack access."
+        },
+        {
+          "key": "C",
+          "text": "They receive a push notification",
+          "correct": false,
+          "explanation": "Access restrictions prevent notifications."
+        },
+        {
+          "key": "D",
+          "text": "They are not notified",
+          "correct": true,
+          "explanation": "Notifications are only sent to users who have access to the page."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-012",
+      "question": "You want to customize how inline comments appear (Default vs Minimal). Where do you go?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Customize page > Inline comments",
+          "correct": true,
+          "explanation": "This is the correct path to switch between Default and Minimal comment display."
+        },
+        {
+          "key": "B",
+          "text": "Page settings > Comments",
+          "correct": false,
+          "explanation": "There is no specific 'Page settings > Comments' menu."
+        },
+        {
+          "key": "C",
+          "text": "View options > Comment layout",
+          "correct": false,
+          "explanation": "Comment layout is a page customization setting."
+        },
+        {
+          "key": "D",
+          "text": "Edit page > Comment settings",
+          "correct": false,
+          "explanation": "Settings are accessed via the ••• menu in the page header."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-013",
+      "question": "What happens if you rename a page that has been @-mentioned in other pages?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The mention is removed",
+          "correct": false,
+          "explanation": "The mention text updates automatically to reflect the new title."
+        },
+        {
+          "key": "B",
+          "text": "The mention turns into a link",
+          "correct": false,
+          "explanation": "It remains a mention, but with the updated text."
+        },
+        {
+          "key": "C",
+          "text": "The mention becomes unlinked",
+          "correct": false,
+          "explanation": "The link remains intact and updates automatically."
+        },
+        {
+          "key": "D",
+          "text": "The mention text updates automatically",
+          "correct": true,
+          "explanation": "The new title will automatically reflect in wherever the page is mentioned."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-014",
+      "question": "How do you view where a specific comment was made on a page from the comments pane?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The pane automatically highlights the text",
+          "correct": false,
+          "explanation": "The pane does not automatically highlight; you must click to jump to the location."
+        },
+        {
+          "key": "B",
+          "text": "Click on the comment to see its location",
+          "correct": true,
+          "explanation": "Clicking a comment in the pane navigates you to the specific line or block."
+        },
+        {
+          "key": "C",
+          "text": "You have to re-open the page from the sidebar",
+          "correct": false,
+          "explanation": "You can stay in the same page and just jump to the comment."
+        },
+        {
+          "key": "D",
+          "text": "The pane only shows the comment text",
+          "correct": false,
+          "explanation": "The pane provides context and navigation to the comment."
+        }
+      ]
+    },
+    {
+      "id": "comments-mentions-and-reminders-015",
+      "question": "In a timeline database view, how can you leave a comment on the database page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Right-click the page and select Comment",
+          "correct": false,
+          "explanation": "Right-click is not available in timeline view."
+        },
+        {
+          "key": "B",
+          "text": "Select >> at the left of the timeline to show the table, then Comment",
+          "correct": true,
+          "explanation": "Timeline view hides the table by default; you must expand it to see the options."
+        },
+        {
+          "key": "C",
+          "text": "Hover over the timeline bar and select Comment",
+          "correct": false,
+          "explanation": "You cannot comment directly on the timeline bar."
+        },
+        {
+          "key": "D",
+          "text": "Click the comment icon in the header",
+          "correct": false,
+          "explanation": "The header options are different in timeline view."
+        }
+      ]
+    }
+  ]
+}

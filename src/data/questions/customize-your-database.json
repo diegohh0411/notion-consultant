@@ -1,0 +1,317 @@
+{
+  "source": "customize-your-database",
+  "sourceTitle": "Database settings",
+  "sourceUrl": "https://www.notion.so/help/customize-your-database",
+  "questions": [
+    {
+      "id": "customize-your-database-001",
+      "question": "Who is permitted to adjust database settings?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "People with 'Can view' access only",
+          "correct": false,
+          "explanation": "You must have 'Can edit' access or higher to adjust database settings."
+        },
+        {
+          "key": "B",
+          "text": "People with 'Can edit' access or higher",
+          "correct": true,
+          "explanation": "The article explicitly states that you need 'Can edit' access or higher to access database settings."
+        },
+        {
+          "key": "C",
+          "text": "Anyone in the workspace",
+          "correct": false,
+          "explanation": "Access restrictions apply; not everyone in the workspace can adjust settings."
+        },
+        {
+          "key": "D",
+          "text": "Only the database owner",
+          "correct": false,
+          "explanation": "While owners can, the article specifies that anyone with 'Can edit' or higher access can do it."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-database-002",
+      "question": "Do database settings apply to individual views or the entire database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They apply to individual views only",
+          "correct": false,
+          "explanation": "Database settings apply to the entire database, not just particular views."
+        },
+        {
+          "key": "B",
+          "text": "They apply to the entire database",
+          "correct": true,
+          "explanation": "Settings configured in the Database Settings menu apply to the whole database, not just a specific view."
+        },
+        {
+          "key": "C",
+          "text": "They apply only to new pages",
+          "correct": false,
+          "explanation": "The settings apply to the database structure itself, not specifically just new pages."
+        },
+        {
+          "key": "D",
+          "text": "They depend on the view permissions",
+          "correct": false,
+          "explanation": "Database settings are distinct from view permissions and apply globally to the database."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-database-003",
+      "question": "What happens when the 'Lock database' setting is turned on?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The database becomes completely read-only",
+          "correct": false,
+          "explanation": "People can still enter data, but they cannot change views or properties."
+        },
+        {
+          "key": "B",
+          "text": "Data entry is blocked completely",
+          "correct": false,
+          "explanation": "The lock allows data entry but prevents changes to views and properties."
+        },
+        {
+          "key": "C",
+          "text": "View changes are blocked, but data entry remains allowed",
+          "correct": true,
+          "explanation": "According to the settings, the lock prevents changing views or properties while allowing data entry."
+        },
+        {
+          "key": "D",
+          "text": "All settings are permanently deleted",
+          "correct": false,
+          "explanation": "Locking does not delete settings; it simply restricts specific types of changes."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-database-004",
+      "question": "Which of the following actions is available under the 'Edit properties' setting?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete all data in the database",
+          "correct": false,
+          "explanation": "Edit properties allows you to manage the properties themselves (search, create, duplicate, edit), not delete the data within them."
+        },
+        {
+          "key": "B",
+          "text": "Search for a property and create a new one",
+          "correct": true,
+          "explanation": "The article lists 'Search for a property, create a New property, and click into specific properties to edit them' under Edit properties."
+        },
+        {
+          "key": "C",
+          "text": "Change the data type of existing properties",
+          "correct": false,
+          "explanation": "While you can edit specific property settings, the primary actions listed are searching, creating, and duplicating."
+        },
+        {
+          "key": "D",
+          "text": "Rename the entire database",
+          "correct": false,
+          "explanation": "Renaming the database is not mentioned as a function of the 'Edit properties' setting."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-database-005",
+      "question": "Where can you find the setting to toggle 'Sprints' on or off?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the 'Edit properties' menu",
+          "correct": false,
+          "explanation": "Sprints are a toggle found in the main Database settings menu, not under Edit properties."
+        },
+        {
+          "key": "B",
+          "text": "Under 'Sub-items or Sub-tasks' in Database settings",
+          "correct": false,
+          "explanation": "Sub-items and Sprints are separate toggles in the Database settings menu."
+        },
+        {
+          "key": "C",
+          "text": "In the 'Turn into Tasks' menu",
+          "correct": false,
+          "explanation": "Sprints are a feature of Task databases and are toggled directly in the main Database settings list."
+        },
+        {
+          "key": "D",
+          "text": "In the 'Database settings' menu",
+          "correct": true,
+          "explanation": "The article lists 'Sprints' as an option available under 'Database settings' (specifically for Task databases)."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-database-006",
+      "question": "What is the purpose of the 'Connections' setting in a database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Connect specific apps to your database",
+          "correct": true,
+          "explanation": "The article explicitly states that 'Connections' allows you to 'Connect specific apps to your database.'"
+        },
+        {
+          "key": "B",
+          "text": "Connect to other databases within the workspace",
+          "correct": false,
+          "explanation": "While databases connect to each other via properties, the 'Connections' setting specifically refers to external apps."
+        },
+        {
+          "key": "C",
+          "text": "Allow data entry from external users",
+          "correct": false,
+          "explanation": "Data entry permissions are handled by access roles and the 'Lock database' setting, not the Connections setting."
+        },
+        {
+          "key": "D",
+          "text": "Create a view for external users to see",
+          "correct": false,
+          "explanation": "Views are created in the view menu; Connections refers to app integrations."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-database-007",
+      "question": "Which setting allows you to set up a custom layout that applies to all pages in a database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Turn into Tasks or Undo Task database",
+          "correct": false,
+          "explanation": "This setting is used to convert a database into a Task database or revert it, not to customize the layout."
+        },
+        {
+          "key": "B",
+          "text": "Customize page layout",
+          "correct": true,
+          "explanation": "The 'Customize page layout' setting is described as setting up a layout that 'applies to all pages in a database.'"
+        },
+        {
+          "key": "C",
+          "text": "Automations",
+          "correct": false,
+          "explanation": "Automations are used for workflows and triggers, not page layout design."
+        },
+        {
+          "key": "D",
+          "text": "Edit properties",
+          "correct": false,
+          "explanation": "Edit properties is for managing the property definitions, not the visual layout of the pages."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-database-008",
+      "question": "How can you change a regular database into a Task database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "By duplicating the database",
+          "correct": false,
+          "explanation": "Duplication creates a copy of the current state; it does not change the database type to Task."
+        },
+        {
+          "key": "B",
+          "text": "By changing the 'Type' property",
+          "correct": false,
+          "explanation": "There is no 'Type' property to change; the conversion is handled by a specific database setting."
+        },
+        {
+          "key": "C",
+          "text": "By using the 'Turn into Tasks' setting",
+          "correct": true,
+          "explanation": "The article lists 'Turn into Tasks or Undo Task database' as a setting to convert the database type."
+        },
+        {
+          "key": "D",
+          "text": "By enabling 'Sub-items' in the settings",
+          "correct": false,
+          "explanation": "Enabling sub-items adds child items to pages but does not convert the database itself into a Task database."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-database-009",
+      "question": "What is the difference between 'Sub-items' and 'Sub-tasks'?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are the exact same setting with different names",
+          "correct": false,
+          "explanation": "The article differentiates them by context: 'Sub-items' is general, while 'Sub-tasks' is specific to Task databases."
+        },
+        {
+          "key": "B",
+          "text": "Sub-items applies to all databases, while Sub-tasks applies to Task databases",
+          "correct": true,
+          "explanation": "The settings list shows 'Sub-items or Sub-tasks (if your database is a Task database)', indicating they serve the same function but are context-dependent."
+        },
+        {
+          "key": "C",
+          "text": "Sub-items allows you to edit data, Sub-tasks does not",
+          "correct": false,
+          "explanation": "Both settings are toggles used to turn the feature on or off; they do not control data editing permissions."
+        },
+        {
+          "key": "D",
+          "text": "Sub-items are for parents, Sub-tasks are for children",
+          "correct": false,
+          "explanation": "Both terms refer to the same toggle functionality within the Database settings menu."
+        }
+      ]
+    },
+    {
+      "id": "customize-your-database-010",
+      "question": "Where do you access the Database settings menu?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "At the bottom of the database properties list",
+          "correct": false,
+          "explanation": "The settings menu is located at the top of the database, not at the bottom."
+        },
+        {
+          "key": "B",
+          "text": "In the menu bar above the database",
+          "correct": true,
+          "explanation": "To access database settings, you open the settings menu at the top of the database."
+        },
+        {
+          "key": "C",
+          "text": "In the 'View' menu of the database",
+          "correct": false,
+          "explanation": "The View menu handles filters, sorts, and specific view configurations, while settings apply to the database itself."
+        },
+        {
+          "key": "D",
+          "text": "In the 'Share' menu",
+          "correct": false,
+          "explanation": "The Share menu is for access control, whereas the Database settings menu is for structural customization."
+        }
+      ]
+    }
+  ]
+}

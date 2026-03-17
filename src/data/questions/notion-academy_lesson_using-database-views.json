@@ -1,0 +1,224 @@
+{
+  "source": "notion-academy_lesson_using-database-views",
+  "sourceTitle": "Welcome to Notion Academy",
+  "sourceUrl": "https://www.notion.so/help/notion-academy/lesson/using-database-views",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_using-database-views-001",
+      "question": "What is the primary purpose of Notion Academy as described in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To sell premium Notion subscriptions",
+          "correct": false,
+          "explanation": "The article does not mention selling subscriptions; it focuses on learning."
+        },
+        {
+          "key": "B",
+          "text": "To provide structured learning paths, lessons, and badges for mastering Notion",
+          "correct": true,
+          "explanation": "Correct – the article explains that Notion Academy offers curated paths, lessons, and badges."
+        },
+        {
+          "key": "C",
+          "text": "To host a marketplace for third‑party Notion templates",
+          "correct": false,
+          "explanation": "While templates are mentioned, the marketplace is a separate feature, not the core purpose of the Academy."
+        },
+        {
+          "key": "D",
+          "text": "To replace the Notion Help Center entirely",
+          "correct": false,
+          "explanation": "The Help Center is still referenced for quick answers; the Academy supplements it."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-database-views-002",
+      "question": "Which of the following statements about Notion Certified Admins is true?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Certification is only available for enterprise‑level plans",
+          "correct": false,
+          "explanation": "The article says certification is available for any plan type."
+        },
+        {
+          "key": "B",
+          "text": "Certified Admins are recognized for implementing security best practices at scale",
+          "correct": true,
+          "explanation": "Correct – the article highlights security, scaling, and recognition."
+        },
+        {
+          "key": "C",
+          "text": "The certification requires completing all beginner‑level lessons",
+          "correct": false,
+          "explanation": "Certification is not tied to a specific lesson level; it focuses on admin competencies."
+        },
+        {
+          "key": "D",
+          "text": "Certification replaces the need for a Notion workspace",
+          "correct": false,
+          "explanation": "Certification is a credential, not a replacement for a workspace."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-database-views-003",
+      "question": "If a learner wants to focus on building automated workflows in Notion, which path should they choose?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path",
+          "correct": false,
+          "explanation": "Essentials Path covers basic skills, not advanced workflow automation."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": true,
+          "explanation": "Correct – the Workflows Path is described as creating connected systems and using AI."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "Advanced Path includes automation but also broader architecture; Workflows Path is more focused."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents Path",
+          "correct": false,
+          "explanation": "Custom Agents are a feature, not a named learning path in the article."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-database-views-004",
+      "question": "Which lesson would best help a beginner understand how to organize knowledge using Notion’s built‑in tools?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Building basics",
+          "correct": true,
+          "explanation": "This beginner lesson covers navigation, blocks, custom databases, and wikis for knowledge management."
+        },
+        {
+          "key": "B",
+          "text": "An issue tracker for any team",
+          "correct": false,
+          "explanation": "This lesson is intermediate and focuses on forms, charts, and automations."
+        },
+        {
+          "key": "C",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "This lesson is intermediate and centers on creating and selling templates."
+        },
+        {
+          "key": "D",
+          "text": "Workspace design",
+          "correct": false,
+          "explanation": "Workspace design is an advanced lesson about best practices, not a beginner overview."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-database-views-005",
+      "question": "What distinguishes a ‘Badged Path’ from a regular learning path in Notion Academy?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Badged Paths automatically grant a Notion Certified Admin badge upon completion",
+          "correct": false,
+          "explanation": "Certification requires a separate process; Badged Paths only award learning badges."
+        },
+        {
+          "key": "B",
+          "text": "Badged Paths are structured series of lessons that culminate in a badge to showcase the skill",
+          "correct": true,
+          "explanation": "Correct – the article describes Badged Paths as collections of lessons that earn badges."
+        },
+        {
+          "key": "C",
+          "text": "Badged Paths are exclusive to enterprise customers",
+          "correct": false,
+          "explanation": "The article does not limit Badged Paths to any plan type."
+        },
+        {
+          "key": "D",
+          "text": "Badged Paths require live webinar attendance for each lesson",
+          "correct": false,
+          "explanation": "Live webinars are optional and not a requirement for Badged Paths."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-database-views-006",
+      "question": "Which of the following best explains why the article includes a ‘Custom Agents’ section, even though the focus is on database views?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Custom Agents are a type of database view that automatically filters records",
+          "correct": false,
+          "explanation": "Custom Agents are automation tools, not a database view."
+        },
+        {
+          "key": "B",
+          "text": "The section illustrates how automations can complement database views to reduce busywork",
+          "correct": true,
+          "explanation": "Correct – the article highlights that Custom Agents automate repeat work, which can be combined with database views for efficient workflows."
+        },
+        {
+          "key": "C",
+          "text": "Custom Agents replace the need for any database view in Notion",
+          "correct": false,
+          "explanation": "Agents augment, not replace, database views."
+        },
+        {
+          "key": "D",
+          "text": "The inclusion is an editorial error unrelated to the lesson’s content",
+          "correct": false,
+          "explanation": "While the article’s focus is broader, the inclusion is intentional to show related capabilities."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-database-views-007",
+      "question": "According to the article, what is the recommended way for a learner to get quick answers to detailed Notion questions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attend a live webinar",
+          "correct": false,
+          "explanation": "Webinars are for deeper skill development, not quick Q&A."
+        },
+        {
+          "key": "B",
+          "text": "Visit the Help Center",
+          "correct": true,
+          "explanation": "The article explicitly mentions the Help Center for quick answers."
+        },
+        {
+          "key": "C",
+          "text": "Join the Notion community forum",
+          "correct": false,
+          "explanation": "Community is for sharing stories and inspiration, not the primary quick‑answer resource."
+        },
+        {
+          "key": "D",
+          "text": "Read the ‘Templates & marketplace’ lesson",
+          "correct": false,
+          "explanation": "That lesson focuses on templates, not general troubleshooting."
+        }
+      ]
+    }
+  ]
+}

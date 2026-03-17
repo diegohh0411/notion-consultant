@@ -1,0 +1,255 @@
+{
+  "source": "guides_adding-members-admins-and-guests",
+  "sourceTitle": "Adding members, admins & guests",
+  "sourceUrl": "https://www.notion.so/help/guides/adding-members-admins-and-guests",
+  "questions": [
+    {
+      "id": "adding-members-admins-and-guests-001",
+      "question": "Which role has the highest level of access in a Notion workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Admin",
+          "correct": true,
+          "explanation": "Admins have the highest permissions, including adding/removing members, changing settings, and updating billing."
+        },
+        {
+          "key": "B",
+          "text": "Member",
+          "correct": false,
+          "explanation": "Members can access all pages shared with the team but cannot manage workspace settings."
+        },
+        {
+          "key": "C",
+          "text": "Guest",
+          "correct": false,
+          "explanation": "Guests are limited to specific pages they are invited to."
+        },
+        {
+          "key": "D",
+          "text": "Viewer",
+          "correct": false,
+          "explanation": "Viewer is not a permission level described in the article."
+        }
+      ]
+    },
+    {
+      "id": "adding-members-admins-and-guests-002",
+      "question": "According to the guide, which of the following actions is NOT explicitly listed as something an admin can do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add and remove members",
+          "correct": false,
+          "explanation": "Admins can add and remove members."
+        },
+        {
+          "key": "B",
+          "text": "Change workspace settings",
+          "correct": false,
+          "explanation": "Admins have the ability to change workspace settings."
+        },
+        {
+          "key": "C",
+          "text": "Update billing information",
+          "correct": false,
+          "explanation": "Admins can update billing information."
+        },
+        {
+          "key": "D",
+          "text": "Delete a teamspace",
+          "correct": true,
+          "explanation": "Deleting a teamspace is not mentioned among the admin capabilities in the article."
+        }
+      ]
+    },
+    {
+      "id": "adding-members-admins-and-guests-003",
+      "question": "What type of pages can guests access?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "All pages shared with the team",
+          "correct": false,
+          "explanation": "That level of access belongs to members, not guests."
+        },
+        {
+          "key": "B",
+          "text": "Only specific pages that are shared with them",
+          "correct": true,
+          "explanation": "Guests are limited to the individual pages they are invited to."
+        },
+        {
+          "key": "C",
+          "text": "Public read‑only pages",
+          "correct": false,
+          "explanation": "Public pages are accessible to anyone, not just guests."
+        },
+        {
+          "key": "D",
+          "text": "Workspace settings",
+          "correct": false,
+          "explanation": "Guests do not have access to workspace settings."
+        }
+      ]
+    },
+    {
+      "id": "adding-members-admins-and-guests-004",
+      "question": "Which feature lets you share a Notion page with anyone, even if they don’t have a Notion account?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Permission groups",
+          "correct": false,
+          "explanation": "Permission groups control granular page permissions but still require a Notion account."
+        },
+        {
+          "key": "B",
+          "text": "Read‑only public page",
+          "correct": true,
+          "explanation": "A read‑only public page can be viewed by anyone without a Notion account."
+        },
+        {
+          "key": "C",
+          "text": "Guest invites",
+          "correct": false,
+          "explanation": "Guests must be invited and therefore need a Notion account."
+        },
+        {
+          "key": "D",
+          "text": "Teamspaces",
+          "correct": false,
+          "explanation": "Teamspaces organize work for a team but don’t make pages publicly viewable."
+        }
+      ]
+    },
+    {
+      "id": "adding-members-admins-and-guests-005",
+      "question": "How do permission groups differ from the standard roles (admin, member, guest)?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They replace the standard roles entirely",
+          "correct": false,
+          "explanation": "Permission groups supplement, not replace, the existing roles."
+        },
+        {
+          "key": "B",
+          "text": "They provide more granular control over specific page permissions",
+          "correct": true,
+          "explanation": "Groups let you fine‑tune who can see or edit particular pages beyond the broad role categories."
+        },
+        {
+          "key": "C",
+          "text": "They are used only for billing purposes",
+          "correct": false,
+          "explanation": "Billing is handled by admins; groups are about page access."
+        },
+        {
+          "key": "D",
+          "text": "They limit an admin’s rights",
+          "correct": false,
+          "explanation": "Groups add flexibility but do not reduce an admin’s overall capabilities."
+        }
+      ]
+    },
+    {
+      "id": "adding-members-admins-and-guests-006",
+      "question": "Where can you browse over 10,000 Notion templates as suggested in the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Template gallery",
+          "correct": true,
+          "explanation": "The guide points readers to the Template gallery for exploring thousands of templates."
+        },
+        {
+          "key": "B",
+          "text": "The Workspace Settings page",
+          "correct": false,
+          "explanation": "Templates are not listed in workspace settings."
+        },
+        {
+          "key": "C",
+          "text": "The Help Center",
+          "correct": false,
+          "explanation": "The Help Center provides articles, not the full template collection."
+        },
+        {
+          "key": "D",
+          "text": "YouTube channel",
+          "correct": false,
+          "explanation": "YouTube hosts videos, not the template library."
+        }
+      ]
+    },
+    {
+      "id": "adding-members-admins-and-guests-007",
+      "question": "Which of the following is NOT mentioned as a customizable permission level in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Admin",
+          "correct": false,
+          "explanation": "Admin is one of the three permission levels described."
+        },
+        {
+          "key": "B",
+          "text": "Member",
+          "correct": false,
+          "explanation": "Member is listed as a permission level."
+        },
+        {
+          "key": "C",
+          "text": "Guest",
+          "correct": false,
+          "explanation": "Guest is also a defined permission level."
+        },
+        {
+          "key": "D",
+          "text": "Owner",
+          "correct": true,
+          "explanation": "The article does not mention an \"Owner\" role."
+        }
+      ]
+    },
+    {
+      "id": "adding-members-admins-and-guests-008",
+      "question": "The guide notes a recent sidebar update. What is the primary benefit of this change?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Improved visual design of the sidebar",
+          "correct": false,
+          "explanation": "Design improvements are not highlighted as the main benefit."
+        },
+        {
+          "key": "B",
+          "text": "Makes sharing with the right groups easier",
+          "correct": true,
+          "explanation": "The update is described as helping users share with the appropriate groups more easily."
+        },
+        {
+          "key": "C",
+          "text": "Speeds up page loading times",
+          "correct": false,
+          "explanation": "Performance gains are not mentioned in the article."
+        },
+        {
+          "key": "D",
+          "text": "Adds a dark‑mode option to the sidebar",
+          "correct": false,
+          "explanation": "Dark mode is not discussed in relation to the sidebar update."
+        }
+      ]
+    }
+  ]
+}

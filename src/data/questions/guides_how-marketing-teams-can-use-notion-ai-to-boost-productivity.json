@@ -1,0 +1,255 @@
+{
+  "source": "guides_how-marketing-teams-can-use-notion-ai-to-boost-productivity",
+  "sourceTitle": "How marketing teams can use Notion AI to boost productivity",
+  "sourceUrl": "https://www.notion.com/help/guides/how-marketing-teams-can-use-notion-ai-to-boost-productivity",
+  "questions": [
+    {
+      "id": "guides_how-marketing-teams-can-use-notion-ai-to-boost-productivity-001",
+      "question": "Which three actions does Notion AI provide to improve written content?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Edit, summarize, rewrite",
+          "correct": true,
+          "explanation": "These are the three specific functions mentioned for improving written content."
+        },
+        {
+          "key": "B",
+          "text": "Translate, format, publish",
+          "correct": false,
+          "explanation": "Translation, formatting, and publishing are not listed as Notion AI’s content‑improvement features."
+        },
+        {
+          "key": "C",
+          "text": "Delete, encrypt, compress",
+          "correct": false,
+          "explanation": "Those actions are unrelated to the AI capabilities described in the article."
+        },
+        {
+          "key": "D",
+          "text": "Analyze, visualize, store",
+          "correct": false,
+          "explanation": "While useful, these functions are not the ones highlighted for written‑content assistance."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-marketing-teams-can-use-notion-ai-to-boost-productivity-002",
+      "question": "What Notion AI tool helps extract key information from databases?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI autofill",
+          "correct": true,
+          "explanation": "The article specifically calls out AI autofill as the tool for pulling key data from databases."
+        },
+        {
+          "key": "B",
+          "text": "AI filter",
+          "correct": false,
+          "explanation": "AI filter is not mentioned; the correct tool is AI autofill."
+        },
+        {
+          "key": "C",
+          "text": "AI sorter",
+          "correct": false,
+          "explanation": "Sorting is a separate function and not described as a data‑extraction feature."
+        },
+        {
+          "key": "D",
+          "text": "AI exporter",
+          "correct": false,
+          "explanation": "Exporting data is not the functionality highlighted for extracting key information."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-marketing-teams-can-use-notion-ai-to-boost-productivity-003",
+      "question": "How does the AI‑powered Q&A search benefit marketing teams?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It saves time by quickly locating information without disturbing colleagues.",
+          "correct": true,
+          "explanation": "The Q&A search is designed to find specific workspace info fast, reducing the need to interrupt teammates."
+        },
+        {
+          "key": "B",
+          "text": "It increases the storage capacity of the workspace.",
+          "correct": false,
+          "explanation": "Search does not affect storage size; it only retrieves existing content."
+        },
+        {
+          "key": "C",
+          "text": "It automates social‑media posting.",
+          "correct": false,
+          "explanation": "Automation of posting is outside the scope of the Q&A search feature."
+        },
+        {
+          "key": "D",
+          "text": "It generates graphics for campaign reports.",
+          "correct": false,
+          "explanation": "Graphic generation is not a function of the Q&A search."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-marketing-teams-can-use-notion-ai-to-boost-productivity-004",
+      "question": "Where can users find templates to start using Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the Template gallery",
+          "correct": true,
+          "explanation": "The article directs readers to browse over 10,000 templates in the Template gallery."
+        },
+        {
+          "key": "B",
+          "text": "In the Help Center",
+          "correct": false,
+          "explanation": "The Help Center provides support articles, not a collection of templates."
+        },
+        {
+          "key": "C",
+          "text": "On the YouTube channel",
+          "correct": false,
+          "explanation": "YouTube hosts videos, not the template library."
+        },
+        {
+          "key": "D",
+          "text": "Directly in the AI settings panel",
+          "correct": false,
+          "explanation": "Templates are accessed via the gallery, not from AI settings."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-marketing-teams-can-use-notion-ai-to-boost-productivity-005",
+      "question": "Which of the following is NOT mentioned as a way Notion AI can boost productivity for marketing teams?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automating email campaigns",
+          "correct": true,
+          "explanation": "The article does not list email‑campaign automation as an AI capability."
+        },
+        {
+          "key": "B",
+          "text": "Editing written content",
+          "correct": false,
+          "explanation": "Editing is explicitly mentioned as a content‑improvement feature."
+        },
+        {
+          "key": "C",
+          "text": "Summarizing documents",
+          "correct": false,
+          "explanation": "Summarization is one of the three content‑enhancement options."
+        },
+        {
+          "key": "D",
+          "text": "Extracting key data from databases",
+          "correct": false,
+          "explanation": "AI autofill for extracting database information is described in the guide."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-marketing-teams-can-use-notion-ai-to-boost-productivity-006",
+      "question": "If a marketing team wants to summarize a campaign report using Notion AI, which prompt is most likely to produce the desired result?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Summarize the key findings of this campaign report in bullet points.",
+          "correct": true,
+          "explanation": "A clear request for a summary with a specific format (bullet points) aligns with the AI’s summarization capability."
+        },
+        {
+          "key": "B",
+          "text": "Rewrite this report in a formal tone.",
+          "correct": false,
+          "explanation": "This prompt asks for rewriting, not summarizing."
+        },
+        {
+          "key": "C",
+          "text": "Extract all numbers from the report.",
+          "correct": false,
+          "explanation": "Extracting numbers is a data‑extraction task, not a summary."
+        },
+        {
+          "key": "D",
+          "text": "Create a new campaign based on the report.",
+          "correct": false,
+          "explanation": "Generating a new campaign goes beyond the summarization function highlighted in the article."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-marketing-teams-can-use-notion-ai-to-boost-productivity-007",
+      "question": "According to the article, what should a user do if an ad blocker prevents the video from playing?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Watch it on YouTube",
+          "correct": true,
+          "explanation": "The article provides a direct link to the YouTube version of the video as the workaround."
+        },
+        {
+          "key": "B",
+          "text": "Disable Notion AI",
+          "correct": false,
+          "explanation": "Disabling the AI does not affect video playback; the suggested action is to use YouTube."
+        },
+        {
+          "key": "C",
+          "text": "Contact support",
+          "correct": false,
+          "explanation": "While support could help, the article explicitly recommends watching the video on YouTube."
+        },
+        {
+          "key": "D",
+          "text": "Refresh the page",
+          "correct": false,
+          "explanation": "Refreshing does not bypass the ad blocker; the article points to the YouTube link."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-marketing-teams-can-use-notion-ai-to-boost-productivity-008",
+      "question": "How might AI autofill change the workflow when dealing with large customer databases?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows marketers to quickly pull out essential customer insights without manual scanning, streamlining analysis.",
+          "correct": true,
+          "explanation": "AI autofill extracts key information automatically, reducing the time spent manually reviewing large datasets."
+        },
+        {
+          "key": "B",
+          "text": "It automatically sends personalized emails to every customer.",
+          "correct": false,
+          "explanation": "Sending emails is not a function of AI autofill; the tool only extracts information."
+        },
+        {
+          "key": "C",
+          "text": "It replaces the need for any human oversight in data interpretation.",
+          "correct": false,
+          "explanation": "While it speeds up extraction, human judgment is still required to interpret and act on the data."
+        },
+        {
+          "key": "D",
+          "text": "It generates visual dashboards automatically from the database.",
+          "correct": false,
+          "explanation": "Dashboard creation is not mentioned as a capability of AI autofill in the guide."
+        }
+      ]
+    }
+  ]
+}

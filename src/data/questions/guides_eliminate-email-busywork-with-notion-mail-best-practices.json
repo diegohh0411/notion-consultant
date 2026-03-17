@@ -1,0 +1,317 @@
+{
+  "source": "guides_eliminate-email-busywork-with-notion-mail-best-practices",
+  "sourceTitle": "Eliminate email busywork with Notion Mail best practices",
+  "sourceUrl": "https://www.notion.com/help/guides/eliminate-email-busywork-with-notion-mail-best-practices",
+  "questions": [
+    {
+      "id": "eliminate-email-busywork-with-notion-mail-best-practices-001",
+      "question": "Which Notion Mail feature automatically groups similar incoming emails for you?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Auto label",
+          "correct": true,
+          "explanation": "Auto label uses Notion AI to sort similar emails into dedicated views, automating organization."
+        },
+        {
+          "key": "B",
+          "text": "Smart folders",
+          "correct": false,
+          "explanation": "Smart folders are not a Notion Mail feature mentioned in the guide."
+        },
+        {
+          "key": "C",
+          "text": "Email filters",
+          "correct": false,
+          "explanation": "Traditional email filters exist but the guide emphasizes the AI‑driven Auto label."
+        },
+        {
+          "key": "D",
+          "text": "Tag clustering",
+          "correct": false,
+          "explanation": "Tag clustering is not a specific Notion Mail capability discussed."
+        }
+      ]
+    },
+    {
+      "id": "eliminate-email-busywork-with-notion-mail-best-practices-002",
+      "question": "Where can you find all of your saved snippets while composing an email?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the left‑hand navigation panel",
+          "correct": false,
+          "explanation": "Snippets are not stored in the left navigation."
+        },
+        {
+          "key": "B",
+          "text": "In the settings menu on the right side of the screen",
+          "correct": true,
+          "explanation": "The guide shows a screenshot of snippets accessed via the right‑hand settings menu."
+        },
+        {
+          "key": "C",
+          "text": "At the top of the email composer",
+          "correct": false,
+          "explanation": "The top of the composer holds formatting tools, not the snippet library."
+        },
+        {
+          "key": "D",
+          "text": "In a separate Notion page linked from the email",
+          "correct": false,
+          "explanation": "Snippets are managed within the mail interface, not an external page."
+        }
+      ]
+    },
+    {
+      "id": "eliminate-email-busywork-with-notion-mail-best-practices-003",
+      "question": "Which icon do you click to insert a scheduling link into an email?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paperclip icon",
+          "correct": false,
+          "explanation": "The paperclip attaches files, not scheduling links."
+        },
+        {
+          "key": "B",
+          "text": "Calendar icon",
+          "correct": true,
+          "explanation": "The guide states that clicking the calendar icon creates a scheduling link."
+        },
+        {
+          "key": "C",
+          "text": "Lightning bolt icon",
+          "correct": false,
+          "explanation": "There is no lightning bolt icon mentioned for scheduling."
+        },
+        {
+          "key": "D",
+          "text": "Clock icon",
+          "correct": false,
+          "explanation": "The clock icon is not described as the scheduling‑link trigger."
+        }
+      ]
+    },
+    {
+      "id": "eliminate-email-busywork-with-notion-mail-best-practices-004",
+      "question": "How does the “Group by” option improve the way you view emails in Notion Mail?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically deletes low‑priority emails.",
+          "correct": false,
+          "explanation": "Grouping does not delete emails; it only arranges them."
+        },
+        {
+          "key": "B",
+          "text": "It lets you organize emails into visual groups based on a selected property.",
+          "correct": true,
+          "explanation": "Group by lets you pick a property (e.g., priority) and displays emails in grouped sections, matching your workflow."
+        },
+        {
+          "key": "C",
+          "text": "It merges duplicate messages into a single thread.",
+          "correct": false,
+          "explanation": "Merging duplicates is not a function of Group by."
+        },
+        {
+          "key": "D",
+          "text": "It creates a separate Notion page for each email.",
+          "correct": false,
+          "explanation": "Group by only changes how emails appear within the current view."
+        }
+      ]
+    },
+    {
+      "id": "eliminate-email-busywork-with-notion-mail-best-practices-005",
+      "question": "According to Meighan, what is a good guideline for the number of inbox views you should create?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create as many as possible to cover every scenario.",
+          "correct": false,
+          "explanation": "Meighan warns against having too many views."
+        },
+        {
+          "key": "B",
+          "text": "Keep views actionable and avoid excessive numbers (don’t go nuts with 75).",
+          "correct": true,
+          "explanation": "She advises focusing on a few actionable views rather than dozens."
+        },
+        {
+          "key": "C",
+          "text": "Only use the default view provided by Notion Mail.",
+          "correct": false,
+          "explanation": "Customization is encouraged; the default alone isn’t enough."
+        },
+        {
+          "key": "D",
+          "text": "Create one view per client.",
+          "correct": false,
+          "explanation": "While possible, this can quickly lead to view overload, which Meighan cautions against."
+        }
+      ]
+    },
+    {
+      "id": "eliminate-email-busywork-with-notion-mail-best-practices-006",
+      "question": "Which sequence correctly describes how to create a new snippet in the email composer?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the calendar icon → select a time slot → save as snippet.",
+          "correct": false,
+          "explanation": "The calendar icon creates scheduling links, not snippets."
+        },
+        {
+          "key": "B",
+          "text": "Click the {} snippet button → select New snippet → give a title → type content → Save.",
+          "correct": true,
+          "explanation": "These are the exact steps outlined for building a snippet."
+        },
+        {
+          "key": "C",
+          "text": "Press / → choose ‘Snippet’ block → write → auto‑save.",
+          "correct": false,
+          "explanation": "The slash command adds blocks, not the snippet creation workflow."
+        },
+        {
+          "key": "D",
+          "text": "Open settings → go to Snippets tab → click Add New → fill form.",
+          "correct": false,
+          "explanation": "Snippets are accessed from the composer, not directly via settings for creation."
+        }
+      ]
+    },
+    {
+      "id": "eliminate-email-busywork-with-notion-mail-best-practices-007",
+      "question": "Why does the guide suggest writing subject lines “like SEO”?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To improve email deliverability and avoid spam filters.",
+          "correct": false,
+          "explanation": "SEO‑style subject lines focus on discoverability, not spam avoidance."
+        },
+        {
+          "key": "B",
+          "text": "Because clear, searchable subject lines make it easier to find important emails later.",
+          "correct": true,
+          "explanation": "Treating subject lines like SEO helps users locate messages quickly."
+        },
+        {
+          "key": "C",
+          "text": "To automatically rank emails in Notion’s search results.",
+          "correct": false,
+          "explanation": "Notion doesn’t rank emails like web pages; the analogy is about clarity."
+        },
+        {
+          "key": "D",
+          "text": "So that subject lines can be used as hashtags.",
+          "correct": false,
+          "explanation": "Hashtags aren’t mentioned as a purpose for SEO‑style subjects."
+        }
+      ]
+    },
+    {
+      "id": "eliminate-email-busywork-with-notion-mail-best-practices-008",
+      "question": "How does Notion AI assist when drafting a new email or snippet?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically sends the email after you type a single word.",
+          "correct": false,
+          "explanation": "AI helps generate content, not send messages automatically."
+        },
+        {
+          "key": "B",
+          "text": "Pressing space after creating a canvas opens the AI writer, which can suggest or generate text.",
+          "correct": true,
+          "explanation": "The guide explains that the spacebar opens the AI writer for drafting assistance."
+        },
+        {
+          "key": "C",
+          "text": "It creates a separate Notion page for the email content.",
+          "correct": false,
+          "explanation": "AI works within the composer, not by generating a new page."
+        },
+        {
+          "key": "D",
+          "text": "It adds a random emoji to each paragraph.",
+          "correct": false,
+          "explanation": "AI’s role is to help with writing, not to insert random emojis."
+        }
+      ]
+    },
+    {
+      "id": "eliminate-email-busywork-with-notion-mail-best-practices-009",
+      "question": "Explain how combining auto‑labeling with dedicated views improves Meighan’s productivity.",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Auto‑labeling groups similar emails, and dedicated views let her focus on specific categories like payments or testimonials, reducing manual sorting and enabling quick access to high‑value items.",
+          "correct": true,
+          "explanation": "This captures the workflow: AI labels, then views isolate priority streams, saving time."
+        },
+        {
+          "key": "B",
+          "text": "Auto‑labeling automatically replies to all emails, and dedicated views archive them.",
+          "correct": false,
+          "explanation": "Auto‑labeling does not send replies; it only organizes."
+        },
+        {
+          "key": "C",
+          "text": "Dedicated views replace the need for any labeling, making AI unnecessary.",
+          "correct": false,
+          "explanation": "Views rely on labels to filter; they work together, not as alternatives."
+        },
+        {
+          "key": "D",
+          "text": "Auto‑labeling creates separate Notion databases for each client, which are then displayed in dedicated views.",
+          "correct": false,
+          "explanation": "Labels operate within the same inbox, not by spawning new databases."
+        }
+      ]
+    },
+    {
+      "id": "eliminate-email-busywork-with-notion-mail-best-practices-010",
+      "question": "Compare Dave’s priority‑based view setup with Meighan’s AI‑driven labeling system. Which statement best describes a key difference?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dave manually drags emails into priority categories within a view, while Meighan relies on Notion AI to automatically assign labels and populate dedicated views.",
+          "correct": true,
+          "explanation": "Dave’s workflow is hands‑on priority sorting; Meighan leverages AI auto‑labeling for automatic categorization."
+        },
+        {
+          "key": "B",
+          "text": "Both Dave and Meighan use the same auto‑label feature; the only difference is the color scheme of their views.",
+          "correct": false,
+          "explanation": "Dave’s method is described as manual priority dragging, not auto‑label."
+        },
+        {
+          "key": "C",
+          "text": "Dave uses snippets for every email, whereas Meighan never uses snippets.",
+          "correct": false,
+          "explanation": "Both consultants heavily use snippets; this isn’t the primary distinction."
+        },
+        {
+          "key": "D",
+          "text": "Dave’s system requires a separate Notion page for each priority, while Meighan’s uses a single page with filters.",
+          "correct": false,
+          "explanation": "The guide does not mention separate pages; the difference lies in manual vs. AI sorting."
+        }
+      ]
+    }
+  ]
+}

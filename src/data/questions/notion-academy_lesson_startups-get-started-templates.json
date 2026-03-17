@@ -1,0 +1,255 @@
+{
+  "source": "notion-academy_lesson_startups-get-started-templates",
+  "sourceTitle": "Welcome to Notion Academy",
+  "sourceUrl": "https://www.notion.so/help/notion-academy/lesson/startups-get-started-templates",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_startups-get-started-templates-001",
+      "question": "What is the primary purpose of Notion Academy as described in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To sell Notion templates in a marketplace",
+          "correct": false,
+          "explanation": "Selling templates is a feature of a lesson, not the overall purpose of the Academy."
+        },
+        {
+          "key": "B",
+          "text": "To provide curated learning paths, badges, and certifications for Notion users",
+          "correct": true,
+          "explanation": "The article states that Notion Academy offers learning paths, badges, and certifications to help users build capabilities."
+        },
+        {
+          "key": "C",
+          "text": "To host live webinars exclusively for enterprise customers",
+          "correct": false,
+          "explanation": "Webinars are mentioned, but they are part of broader resources, not the sole purpose."
+        },
+        {
+          "key": "D",
+          "text": "To replace the Notion Help Center as the main support hub",
+          "correct": false,
+          "explanation": "The Help Center remains a separate resource for detailed questions."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_startups-get-started-templates-002",
+      "question": "Which of the following statements best describes the \"Notion Certified Admin\" badge?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is awarded after completing a single 10‑minute lesson on workspace design.",
+          "correct": false,
+          "explanation": "Certification requires more comprehensive learning than a single short lesson."
+        },
+        {
+          "key": "B",
+          "text": "It recognizes the ability to run Notion at scale, implement security best practices, and is available for any plan type.",
+          "correct": true,
+          "explanation": "The article explicitly mentions these criteria for the Certified Admin badge."
+        },
+        {
+          "key": "C",
+          "text": "It is only available to users on Notion’s Enterprise plan.",
+          "correct": false,
+          "explanation": "The badge is offered for any plan type, not limited to Enterprise."
+        },
+        {
+          "key": "D",
+          "text": "It is granted automatically when a user creates a template for the marketplace.",
+          "correct": false,
+          "explanation": "Creating a template does not automatically confer the admin certification."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_startups-get-started-templates-003",
+      "question": "If a beginner wants to learn how to navigate Notion, create blocks, and build basic databases, which path should they enroll in?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "The Advanced Path focuses on automation and complex capabilities, not basics."
+        },
+        {
+          "key": "B",
+          "text": "Essentials Path",
+          "correct": true,
+          "explanation": "The Essentials Path is described as the starting point for new users to gain basic skills."
+        },
+        {
+          "key": "C",
+          "text": "Workflows Path",
+          "correct": false,
+          "explanation": "Workflows Path is intermediate and focuses on connected systems."
+        },
+        {
+          "key": "D",
+          "text": "Templates & Marketplace Lesson",
+          "correct": false,
+          "explanation": "That lesson is about creating and selling templates, not foundational navigation."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_startups-get-started-templates-004",
+      "question": "Which lesson would most directly help a team reduce repetitive manual tasks by using scheduled or trigger‑based automation?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Custom Agents",
+          "correct": true,
+          "explanation": "The Custom Agents lesson explains how to automate repeat work using schedules or triggers."
+        },
+        {
+          "key": "B",
+          "text": "Sharing & Collaboration",
+          "correct": false,
+          "explanation": "That lesson focuses on teamwork, not automation."
+        },
+        {
+          "key": "C",
+          "text": "Project Management",
+          "correct": false,
+          "explanation": "Project Management teaches database setup, not automation of busywork."
+        },
+        {
+          "key": "D",
+          "text": "Workspace Design",
+          "correct": false,
+          "explanation": "Workspace Design covers best practices for layout, not automation."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_startups-get-started-templates-005",
+      "question": "How does the article suggest users can validate the skills they acquire through Notion Academy?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "By completing a final exam that is administered by Notion’s support team.",
+          "correct": false,
+          "explanation": "There is no mention of a support‑team administered exam."
+        },
+        {
+          "key": "B",
+          "text": "By earning badges and, for certain paths, achieving Notion certifications.",
+          "correct": true,
+          "explanation": "The article highlights badges and the Notion Certified Admin credential as validation mechanisms."
+        },
+        {
+          "key": "C",
+          "text": "By publishing at least three templates in the Notion Marketplace.",
+          "correct": false,
+          "explanation": "Publishing templates is optional and not tied to skill validation."
+        },
+        {
+          "key": "D",
+          "text": "By attending a live webinar and receiving a participation certificate.",
+          "correct": false,
+          "explanation": "Webinars are resources, but the article does not link them to formal validation."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_startups-get-started-templates-006",
+      "question": "Which of the following best explains the difference between a \"Lesson\" and a \"Path\" in Notion Academy?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Lesson is a single, self‑contained topic; a Path is a curated series of Lessons that together build a broader competency.",
+          "correct": true,
+          "explanation": "The article lists individual lessons and groups them into Paths, indicating this hierarchical relationship."
+        },
+        {
+          "key": "B",
+          "text": "A Lesson is only available to paid subscribers, while a Path is free for all users.",
+          "correct": false,
+          "explanation": "Access tiers are not described in the article."
+        },
+        {
+          "key": "C",
+          "text": "A Lesson always lasts less than 10 minutes, whereas a Path takes several hours to complete.",
+          "correct": false,
+          "explanation": "Lesson durations vary; the distinction is about content grouping, not length."
+        },
+        {
+          "key": "D",
+          "text": "A Lesson focuses on technical skills, while a Path focuses exclusively on soft‑skill development.",
+          "correct": false,
+          "explanation": "Both Lessons and Paths cover a mix of technical and collaborative topics."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_startups-get-started-templates-007",
+      "question": "What resource does the article direct users to for “quick answers to your most detailed questions”?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion Academy’s live webinar schedule",
+          "correct": false,
+          "explanation": "Webinars are for skill development, not quick Q&A."
+        },
+        {
+          "key": "B",
+          "text": "The Notion Help Center",
+          "correct": true,
+          "explanation": "The article explicitly mentions the Help Center for quick answers."
+        },
+        {
+          "key": "C",
+          "text": "The Notion Marketplace",
+          "correct": false,
+          "explanation": "Marketplace is for templates, not Q&A."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents documentation",
+          "correct": false,
+          "explanation": "Custom Agents are a lesson topic, not a Q&A hub."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_startups-get-started-templates-008",
+      "question": "Which path is described as focusing on “automating work, learning workspace architecture best practices, and harnessing Notion’s more complex capabilities”?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path",
+          "correct": false,
+          "explanation": "Essentials Path is for beginners and basic skills."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": false,
+          "explanation": "Workflows Path emphasizes connected systems and AI, not the advanced automation focus described."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path",
+          "correct": true,
+          "explanation": "The article defines the Advanced Path with exactly those goals."
+        },
+        {
+          "key": "D",
+          "text": "Templates & Marketplace Path",
+          "correct": false,
+          "explanation": "That is a single lesson, not a path, and focuses on template creation."
+        }
+      ]
+    }
+  ]
+}

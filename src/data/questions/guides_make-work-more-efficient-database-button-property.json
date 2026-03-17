@@ -1,0 +1,317 @@
+{
+  "source": "guides_make-work-more-efficient-database-button-property",
+  "sourceTitle": "Make work more efficient with database button properties",
+  "sourceUrl": "https://www.notion.so/help/guides/make-work-more-efficient-database-button-property",
+  "questions": [
+    {
+      "id": "guides_make-work-more-efficient-database-button-property-001",
+      "question": "Which of the following is the first step to add a database button property to a Notion database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Open the / menu and select Button",
+          "correct": false,
+          "explanation": "The / menu creates a button block, not a database property."
+        },
+        {
+          "key": "B",
+          "text": "Select + New property in the database’s properties menu",
+          "correct": true,
+          "explanation": "Creating a new property is the initial step for adding a button property."
+        },
+        {
+          "key": "C",
+          "text": "Click Add a step on an existing button",
+          "correct": false,
+          "explanation": "You need a button property first before you can add steps."
+        },
+        {
+          "key": "D",
+          "text": "Choose Database automation from the automation menu",
+          "correct": false,
+          "explanation": "Database automations are a different type of automation, not a property."
+        }
+      ]
+    },
+    {
+      "id": "guides_make-work-more-efficient-database-button-property-002",
+      "question": "What does the \"Show confirmation\" step do when configured on a database button?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically sends a Slack notification after the button is clicked",
+          "correct": false,
+          "explanation": "Slack notifications are only possible with database automations, not confirmation dialogs."
+        },
+        {
+          "key": "B",
+          "text": "It displays a dialog asking the user to confirm or cancel the action",
+          "correct": true,
+          "explanation": "The confirmation step shows a dialog that acts as a safeguard before proceeding."
+        },
+        {
+          "key": "C",
+          "text": "It creates a new page in the selected database",
+          "correct": false,
+          "explanation": "Creating a new page is done with the \"Add page to…\" step."
+        },
+        {
+          "key": "D",
+          "text": "It opens the page that was edited by the button",
+          "correct": false,
+          "explanation": "Opening a page uses the \"Open page\" step, not the confirmation step."
+        }
+      ]
+    },
+    {
+      "id": "guides_make-work-more-efficient-database-button-property-003",
+      "question": "Which action step would you use to automatically assign the person who clicked a button to a property called \"Approved by\"?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Edit pages in… → Edit a property → set \"Approved by\" to \"Person who clicked the button\"",
+          "correct": true,
+          "explanation": "You edit the current page and set the property to the person who clicked the button."
+        },
+        {
+          "key": "B",
+          "text": "Add page to… → select a template that includes the \"Approved by\" field",
+          "correct": false,
+          "explanation": "Adding a new page doesn’t automatically capture the clicking user."
+        },
+        {
+          "key": "C",
+          "text": "Open page → manually select the approver",
+          "correct": false,
+          "explanation": "Opening a page does not assign a property."
+        },
+        {
+          "key": "D",
+          "text": "Show confirmation → choose \"Approved by\" from the dialog",
+          "correct": false,
+          "explanation": "Confirmation dialogs only confirm the action; they don’t set properties."
+        }
+      ]
+    },
+    {
+      "id": "guides_make-work-more-efficient-database-button-property-004",
+      "question": "When would you prefer using a Database automation over a Database button?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you want a workflow to run automatically after a property changes, without any user clicks",
+          "correct": true,
+          "explanation": "Database automations trigger on property changes and run without manual clicks."
+        },
+        {
+          "key": "B",
+          "text": "When you need a one‑click button that updates several properties at once",
+          "correct": false,
+          "explanation": "That’s exactly what a Database button is designed for."
+        },
+        {
+          "key": "C",
+          "text": "When you want to generate a checklist on a page",
+          "correct": false,
+          "explanation": "Generating checklists is typical for Button blocks, not automations."
+        },
+        {
+          "key": "D",
+          "text": "When you need to open a specific page after clicking",
+          "correct": false,
+          "explanation": "Opening a page can be done with a Database button; automations don’t open pages for the user."
+        }
+      ]
+    },
+    {
+      "id": "guides_make-work-more-efficient-database-button-property-005",
+      "question": "Which combination of steps would you need to create an \"Escalate\" button that tags a manager, sets priority to high, and asks for confirmation?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Edit pages in… (tag manager), Edit a property (set priority), Show confirmation",
+          "correct": true,
+          "explanation": "All three steps together achieve the desired escalation workflow."
+        },
+        {
+          "key": "B",
+          "text": "Add page to… (create new task), Open page, Show confirmation",
+          "correct": false,
+          "explanation": "Adding a new page isn’t needed to tag the manager or set priority on the existing task."
+        },
+        {
+          "key": "C",
+          "text": "Show confirmation, Open page, Edit pages in… (set priority)",
+          "correct": false,
+          "explanation": "The manager tag is missing; also order matters but not the main issue."
+        },
+        {
+          "key": "D",
+          "text": "Edit pages in… (set priority), Add page to… (new page), Open page",
+          "correct": false,
+          "explanation": "This lacks the manager tag and the confirmation step."
+        }
+      ]
+    },
+    {
+      "id": "guides_make-work-more-efficient-database-button-property-006",
+      "question": "What is a key limitation of a Button block compared to a Database button?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Button blocks cannot create new pages in any database",
+          "correct": false,
+          "explanation": "Button blocks can create new pages in databases."
+        },
+        {
+          "key": "B",
+          "text": "Button blocks live on a page and cannot be added as a property to each row of a database",
+          "correct": true,
+          "explanation": "Button blocks are page‑level elements, not row‑level properties like Database buttons."
+        },
+        {
+          "key": "C",
+          "text": "Button blocks cannot edit any properties of a database page",
+          "correct": false,
+          "explanation": "Button blocks can edit properties, though they’re less suited for bulk row actions."
+        },
+        {
+          "key": "D",
+          "text": "Button blocks require a Slack integration to work",
+          "correct": false,
+          "explanation": "Slack integration is only for Database automations, not Button blocks."
+        }
+      ]
+    },
+    {
+      "id": "guides_make-work-more-efficient-database-button-property-007",
+      "question": "If you want a button to create a new task in a separate ‘Tasks’ database and immediately set its due date to today, which sequence of steps should you configure?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add page to… (Tasks database) → Edit pages in… (New page) → Edit a property (Due date = Now)",
+          "correct": true,
+          "explanation": "First you add the page, then edit that newly created page to set the due date."
+        },
+        {
+          "key": "B",
+          "text": "Edit pages in… (Current page) → Add page to… (Tasks database) → Show confirmation",
+          "correct": false,
+          "explanation": "Editing the current page won’t affect the new task’s due date."
+        },
+        {
+          "key": "C",
+          "text": "Show confirmation → Add page to… (Tasks database) → Open page",
+          "correct": false,
+          "explanation": "Confirmation doesn’t set any property values."
+        },
+        {
+          "key": "D",
+          "text": "Open page → Edit a property (Due date = Now) → Add page to… (Tasks database)",
+          "correct": false,
+          "explanation": "You need to edit the newly added page, not the page you opened."
+        }
+      ]
+    },
+    {
+      "id": "guides_make-work-more-efficient-database-button-property-008",
+      "question": "Why might you choose a Database button instead of a Database automation for a workflow that requires user consent before proceeding?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because Database buttons can display a confirmation dialog that forces the user to approve the action",
+          "correct": true,
+          "explanation": "Confirmation dialogs are only available on buttons, ensuring user consent."
+        },
+        {
+          "key": "B",
+          "text": "Because Database automations can pause execution until a user clicks a button",
+          "correct": false,
+          "explanation": "Automations run automatically; they cannot wait for user interaction."
+        },
+        {
+          "key": "C",
+          "text": "Because Database buttons are faster to execute than automations",
+          "correct": false,
+          "explanation": "Speed isn’t the reason; the key factor is the need for explicit user confirmation."
+        },
+        {
+          "key": "D",
+          "text": "Because Database automations cannot edit multiple properties at once",
+          "correct": false,
+          "explanation": "Automations can edit multiple properties; the limitation is the lack of user confirmation."
+        }
+      ]
+    },
+    {
+      "id": "guides_make-work-more-efficient-database-button-property-009",
+      "question": "In an upvote system using a Database button, which property configuration ensures the total number of upvotes is calculated correctly?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Edit the current page to add the clicking user to a multi‑person \"Upvoted by\" property; a formula column then counts entries",
+          "correct": true,
+          "explanation": "Adding the user to a multi‑person property and using a formula to count yields the upvote total."
+        },
+        {
+          "key": "B",
+          "text": "Create a new page for each upvote and sum the pages with a rollup",
+          "correct": false,
+          "explanation": "Creating new pages is unnecessary and complicates counting."
+        },
+        {
+          "key": "C",
+          "text": "Use a confirmation dialog to increment a numeric \"Upvote count\" property",
+          "correct": false,
+          "explanation": "Confirmation dialogs don’t modify numeric properties automatically."
+        },
+        {
+          "key": "D",
+          "text": "Set the button to open the page and manually increase a number field",
+          "correct": false,
+          "explanation": "Manual increments defeat the purpose of automation."
+        }
+      ]
+    },
+    {
+      "id": "guides_make-work-more-efficient-database-button-property-010",
+      "question": "Which of the following statements accurately describes the relationship between Database buttons, Button blocks, and Database automations?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "All three can send Slack notifications, but only Database automations can edit properties without user interaction",
+          "correct": false,
+          "explanation": "Only Database automations can send Slack messages; buttons cannot."
+        },
+        {
+          "key": "B",
+          "text": "Database buttons and Button blocks both require a user click to run, while Database automations run automatically based on property changes",
+          "correct": true,
+          "explanation": "Buttons need clicks; automations trigger on changes without clicks."
+        },
+        {
+          "key": "C",
+          "text": "Button blocks are a type of Database button that lives inside a database view",
+          "correct": false,
+          "explanation": "Button blocks live on pages, not inside database rows."
+        },
+        {
+          "key": "D",
+          "text": "Database automations can only add new pages, whereas Database buttons can only edit existing pages",
+          "correct": false,
+          "explanation": "Both can add and edit pages; the main difference is trigger mechanism."
+        }
+      ]
+    }
+  ]
+}

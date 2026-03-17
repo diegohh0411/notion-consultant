@@ -1,0 +1,317 @@
+{
+  "source": "guides_is-notions-business-or-enterprise-plan-right-for-you",
+  "sourceTitle": "Is Notion's Business or Enterprise plan right for you?",
+  "sourceUrl": "https://www.notion.so/help/guides_is-notions-business-or-enterprise-plan-right-for-you",
+  "questions": [
+    {
+      "id": "guides_is-notions-business-or-enterprise-plan-right-for-you-001",
+      "question": "When you upgrade to Notion’s Business or Enterprise plan, which of the following is included?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full access to Notion AI",
+          "correct": true,
+          "explanation": "Business and Enterprise plans unlock the full Notion AI suite, which is not available on lower tiers."
+        },
+        {
+          "key": "B",
+          "text": "Unlimited external storage",
+          "correct": false,
+          "explanation": "Storage limits are not the highlighted benefit of these plans; the article focuses on AI and security features."
+        },
+        {
+          "key": "C",
+          "text": "A dedicated hardware device",
+          "correct": false,
+          "explanation": "Notion provides software features only; no hardware is part of the plan."
+        },
+        {
+          "key": "D",
+          "text": "Free third‑party app subscriptions",
+          "correct": false,
+          "explanation": "While integrations are supported, the plans do not include free subscriptions to other tools."
+        }
+      ]
+    },
+    {
+      "id": "guides_is-notions-business-or-enterprise-plan-right-for-you-002",
+      "question": "Which Notion AI feature automatically transcribes and summarizes meetings?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI Meeting Notes",
+          "correct": true,
+          "explanation": "AI Meeting Notes is the block that provides live transcription and summary inside Notion."
+        },
+        {
+          "key": "B",
+          "text": "Enterprise Search",
+          "correct": false,
+          "explanation": "Enterprise Search helps find content but does not handle live transcription."
+        },
+        {
+          "key": "C",
+          "text": "Research Mode",
+          "correct": false,
+          "explanation": "Research Mode creates reports from multiple sources; it does not transcribe meetings."
+        },
+        {
+          "key": "D",
+          "text": "Personal AI Agent",
+          "correct": false,
+          "explanation": "The Personal AI Agent can run tasks, but meeting transcription is specific to AI Meeting Notes."
+        }
+      ]
+    },
+    {
+      "id": "guides_is-notions-business-or-enterprise-plan-right-for-you-003",
+      "question": "Which security protocols are explicitly mentioned for the Enterprise plan?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "SSO, SAML, SOC 2",
+          "correct": true,
+          "explanation": "The article lists SSO, SAML, and SOC 2 as built‑in controls for Enterprise."
+        },
+        {
+          "key": "B",
+          "text": "OAuth 2.0 only",
+          "correct": false,
+          "explanation": "OAuth is not highlighted; the focus is on SSO, SAML, and SOC 2."
+        },
+        {
+          "key": "C",
+          "text": "Two‑factor authentication only",
+          "correct": false,
+          "explanation": "2FA is a basic feature, not the specific Enterprise‑level protocols discussed."
+        },
+        {
+          "key": "D",
+          "text": "No additional security measures",
+          "correct": false,
+          "explanation": "Enterprise adds several security layers; the statement is inaccurate."
+        }
+      ]
+    },
+    {
+      "id": "guides_is-notions-business-or-enterprise-plan-right-for-you-004",
+      "question": "How does Enterprise Search differ from a standard Notion search?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It understands natural‑language questions and surfaces answers from across pages, connected apps, and external sources.",
+          "correct": true,
+          "explanation": "Enterprise Search is described as context‑aware, pulling answers from the whole workspace and integrated tools."
+        },
+        {
+          "key": "B",
+          "text": "It only searches within the current page you’re viewing.",
+          "correct": false,
+          "explanation": "Standard search already works across pages; Enterprise Search expands, not narrows, the scope."
+        },
+        {
+          "key": "C",
+          "text": "It replaces the need for any AI features.",
+          "correct": false,
+          "explanation": "Enterprise Search is an AI‑enhanced feature, not a replacement for other AI capabilities."
+        },
+        {
+          "key": "D",
+          "text": "It provides real‑time translation of search queries.",
+          "correct": false,
+          "explanation": "Translation is a separate AI capability; search does not translate queries automatically."
+        }
+      ]
+    },
+    {
+      "id": "guides_is-notions-business-or-enterprise-plan-right-for-you-005",
+      "question": "What does Research Mode enable users to do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Synthesize information from the workspace, connected tools, and the web to generate comprehensive reports.",
+          "correct": true,
+          "explanation": "Research Mode pulls data from multiple sources to create detailed documentation, as described in the guide."
+        },
+        {
+          "key": "B",
+          "text": "Automatically encrypt all files in the workspace.",
+          "correct": false,
+          "explanation": "Encryption is a security feature, not a function of Research Mode."
+        },
+        {
+          "key": "C",
+          "text": "Create custom charts without any data.",
+          "correct": false,
+          "explanation": "Chart creation is a separate feature; Research Mode focuses on gathering and summarizing content."
+        },
+        {
+          "key": "D",
+          "text": "Set up automated email newsletters.",
+          "correct": false,
+          "explanation": "Email newsletters are not mentioned as part of Research Mode."
+        }
+      ]
+    },
+    {
+      "id": "guides_is-notions-business-or-enterprise-plan-right-for-you-006",
+      "question": "What is the primary benefit of using AI connectors with Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They allow Notion AI to pull context from external apps like Slack, Google Drive, or GitHub for more complete answers.",
+          "correct": true,
+          "explanation": "AI connectors extend the AI’s knowledge base by linking other tools, giving richer responses."
+        },
+        {
+          "key": "B",
+          "text": "They replace the need for an internet connection.",
+          "correct": false,
+          "explanation": "Connectors still rely on internet access to fetch data from external services."
+        },
+        {
+          "key": "C",
+          "text": "They automatically generate financial statements.",
+          "correct": false,
+          "explanation": "Financial statement generation is not a described capability of AI connectors."
+        },
+        {
+          "key": "D",
+          "text": "They disable the Personal AI Agent.",
+          "correct": false,
+          "explanation": "Connectors complement, not disable, the Personal AI Agent."
+        }
+      ]
+    },
+    {
+      "id": "guides_is-notions-business-or-enterprise-plan-right-for-you-007",
+      "question": "How does Notion AI assist with database setup?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It suggests the appropriate structure, fields, and sample content based on a brief description of what you want to organize.",
+          "correct": true,
+          "explanation": "The guide highlights AI‑driven database suggestions that speed up creation."
+        },
+        {
+          "key": "B",
+          "text": "It writes custom SQL queries for you.",
+          "correct": false,
+          "explanation": "Notion databases are not SQL‑based; AI suggests properties, not raw queries."
+        },
+        {
+          "key": "C",
+          "text": "It automatically imports data from any external spreadsheet without user input.",
+          "correct": false,
+          "explanation": "Importing still requires configuration; AI helps design, not automatically ingest any file."
+        },
+        {
+          "key": "D",
+          "text": "It locks the database to prevent further edits.",
+          "correct": false,
+          "explanation": "Locking is a permission feature, unrelated to AI‑assisted setup."
+        }
+      ]
+    },
+    {
+      "id": "guides_is-notions-business-or-enterprise-plan-right-for-you-008",
+      "question": "According to the article, why might a team prefer Notion AI over standalone AI tools?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because it’s integrated directly into the workspace, eliminating the need to switch apps and reducing subscription overhead.",
+          "correct": true,
+          "explanation": "The guide emphasizes the value of an all‑in‑one AI that lives inside Notion."
+        },
+        {
+          "key": "B",
+          "text": "Because it offers unlimited free usage for all users.",
+          "correct": false,
+          "explanation": "While powerful, Notion AI is a paid feature on Business/Enterprise plans, not free unlimited."
+        },
+        {
+          "key": "C",
+          "text": "Because it only works on mobile devices.",
+          "correct": false,
+          "explanation": "Notion AI works across the full Notion platform, not just mobile."
+        },
+        {
+          "key": "D",
+          "text": "Because it replaces the need for human collaboration entirely.",
+          "correct": false,
+          "explanation": "AI augments, not replaces, human teamwork."
+        }
+      ]
+    },
+    {
+      "id": "guides_is-notions-business-or-enterprise-plan-right-for-you-009",
+      "question": "When should an organization consider moving from the Business plan to the Enterprise plan?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "When it needs stronger security, compliance features, dedicated support, and tools to manage larger, multi‑workspace teams.",
+          "correct": true,
+          "explanation": "The article lists these as key triggers for upgrading to Enterprise."
+        },
+        {
+          "key": "B",
+          "text": "As soon as the team reaches ten members.",
+          "correct": false,
+          "explanation": "Team size alone isn’t the sole factor; security and compliance needs drive the decision."
+        },
+        {
+          "key": "C",
+          "text": "If they want to stop using Notion AI.",
+          "correct": false,
+          "explanation": "Enterprise actually expands AI capabilities, not removes them."
+        },
+        {
+          "key": "D",
+          "text": "When they no longer need any integrations.",
+          "correct": false,
+          "explanation": "Enterprise adds more integration options, not fewer."
+        }
+      ]
+    },
+    {
+      "id": "guides_is-notions-business-or-enterprise-plan-right-for-you-010",
+      "question": "What advantage does the Enterprise plan’s custom data retention policy provide?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It lets organizations set specific retention windows that align with industry compliance standards, controlling how long data remains before deletion.",
+          "correct": true,
+          "explanation": "Custom retention policies are highlighted as a way to meet regulatory requirements."
+        },
+        {
+          "key": "B",
+          "text": "It automatically backs up all data to a personal hard drive.",
+          "correct": false,
+          "explanation": "Backups are handled via export features, not through retention policies."
+        },
+        {
+          "key": "C",
+          "text": "It disables all version history for faster performance.",
+          "correct": false,
+          "explanation": "Retention policies manage deletion timing, not the existence of version history."
+        },
+        {
+          "key": "D",
+          "text": "It allows unlimited data storage without any cost.",
+          "correct": false,
+          "explanation": "While storage limits are generous, the policy is about data lifecycle, not free unlimited storage."
+        }
+      ]
+    }
+  ]
+}

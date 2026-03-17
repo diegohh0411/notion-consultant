@@ -1,0 +1,317 @@
+{
+  "source": "calendars",
+  "sourceTitle": "Calendar view",
+  "sourceUrl": "https://www.notion.so/help/calendars",
+  "questions": [
+    {
+      "id": "calendars-001",
+      "question": "To use the Calendar view, what specific property must your database contain?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Status property",
+          "correct": false,
+          "explanation": "The Status property indicates the state of an item (e.g., To Do, Done), but it does not provide the date information required for a calendar view."
+        },
+        {
+          "key": "B",
+          "text": "Name property",
+          "correct": false,
+          "explanation": "While the Name property is essential for identifying items, it does not store scheduling information needed for a calendar view."
+        },
+        {
+          "key": "C",
+          "text": "Date property",
+          "correct": true,
+          "explanation": "Correct. The Date property stores the scheduling information (dates and times) required for the Calendar view to display items chronologically."
+        },
+        {
+          "key": "D",
+          "text": "Tag property",
+          "correct": false,
+          "explanation": "Tags are used for categorization and filtering, but they do not contain the temporal data needed to plot items on a calendar."
+        }
+      ]
+    },
+    {
+      "id": "calendars-002",
+      "question": "How can you create an inline calendar on an existing page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click + next to the database name and select Calendar",
+          "correct": false,
+          "explanation": "This creates a separate full-page calendar view for the database, not an inline calendar on the current page."
+        },
+        {
+          "key": "B",
+          "text": "Type /Calendar view on any page and press enter",
+          "correct": true,
+          "explanation": "Correct. Typing the slash command creates a new inline calendar block directly on that page."
+        },
+        {
+          "key": "C",
+          "text": "Drag the full-page database into the sidebar",
+          "correct": false,
+          "explanation": "Dragging a full-page database to the sidebar turns it into a sub-page, which is a different operation."
+        },
+        {
+          "key": "D",
+          "text": "Go to Settings and toggle on Inline Calendars",
+          "correct": false,
+          "explanation": "Calendars are created per page using the slash command, not globally in the settings."
+        }
+      ]
+    },
+    {
+      "id": "calendars-003",
+      "question": "How do you make a card span multiple days on a calendar view?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Drag the card to the right edge of the day cell",
+          "correct": false,
+          "explanation": "Dragging to the edge is the first step, but you must click and drag specifically to expand the duration."
+        },
+        {
+          "key": "B",
+          "text": "Hover over the right or left edge, click and drag to expand",
+          "correct": true,
+          "explanation": "Correct. By hovering over the edge of the card and dragging, you can stretch the card to cover multiple days."
+        },
+        {
+          "key": "C",
+          "text": "Double-click the card and change the Date property",
+          "correct": false,
+          "explanation": "Editing the Date property creates a new event, it does not stretch the existing card to cover multiple days visually."
+        },
+        {
+          "key": "D",
+          "text": "Use the Property visibility settings to enable multi-day display",
+          "correct": false,
+          "explanation": "Property visibility controls which data is shown on the card face, not the visual duration of the card itself."
+        }
+      ]
+    },
+    {
+      "id": "calendars-004",
+      "question": "If your database has multiple date properties (e.g., 'Start Date' and 'Deadline'), how do you switch which one is used for the calendar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Property visibility and select the active date property",
+          "correct": false,
+          "explanation": "Property visibility determines which properties are *shown* on the card, not which date property drives the calendar's time grid."
+        },
+        {
+          "key": "B",
+          "text": "Open Layout settings and select 'Show calendar by'",
+          "correct": true,
+          "explanation": "Correct. The 'Show calendar by' setting in the Layout menu allows you to choose which specific date property drives the calendar view."
+        },
+        {
+          "key": "C",
+          "text": "Drag the cards to rearrange the dates on the timeline",
+          "correct": false,
+          "explanation": "Dragging cards rearranges their position on the days they are assigned to, it does not switch the underlying property used for plotting."
+        },
+        {
+          "key": "D",
+          "text": "Create a new database view and rename it",
+          "correct": false,
+          "explanation": "Creating a new view replicates the current database; it does not allow you to switch the underlying date property without recreating the database structure."
+        }
+      ]
+    },
+    {
+      "id": "calendars-005",
+      "question": "How can you navigate to future months in a Notion Calendar view?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the back arrow (<) at the top right",
+          "correct": false,
+          "explanation": "The arrows surrounding 'Today' allow you to skip back to a past month or forward to a future month, but you must select the forward arrow (>)."
+        },
+        {
+          "key": "B",
+          "text": "Scroll down infinitely at the top left",
+          "correct": true,
+          "explanation": "Correct. Notion Calendar allows infinite scrolling down to view future months."
+        },
+        {
+          "key": "C",
+          "text": "Click 'Show calendar as' and select 'Month'",
+          "correct": false,
+          "explanation": "This setting determines whether you see a monthly or weekly layout, not the specific date range you are viewing."
+        },
+        {
+          "key": "D",
+          "text": "You cannot navigate to future months in Notion",
+          "correct": false,
+          "explanation": "Notion Calendar supports navigating both backwards and forwards in time."
+        }
+      ]
+    },
+    {
+      "id": "calendars-006",
+      "question": "Which of the following describes how to convert a full-page database into an inline database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select 'Turn into inline' directly from the main page menu",
+          "correct": false,
+          "explanation": "The 'Turn into inline' option is only available inside the parent page's menu, not the main page menu, because it needs to become a sub-page first."
+        },
+        {
+          "key": "B",
+          "text": "Drag the full-page database into the sidebar to make it a sub-page, then open the parent and select Turn into inline",
+          "correct": true,
+          "explanation": "Correct. You must first drag the database to the sidebar to turn it into a sub-page, then open the parent page to find the 'Turn into inline' option."
+        },
+        {
+          "key": "C",
+          "text": "Change the database property from 'Page' to 'Inline'",
+          "correct": false,
+          "explanation": "The database type is fixed; the transformation is structural (page vs. block), not a property setting."
+        },
+        {
+          "key": "D",
+          "text": "You cannot convert a full-page database to an inline one",
+          "correct": false,
+          "explanation": "Notion allows you to convert full-page databases to inline databases and vice versa."
+        }
+      ]
+    },
+    {
+      "id": "calendars-007",
+      "question": "Where do you go to manually enable the calendar to start the week on Monday?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Database Layout settings",
+          "correct": false,
+          "explanation": "Database Layout settings control the weekly/monthly display mode and which date property is used, not the starting day of the week."
+        },
+        {
+          "key": "B",
+          "text": "Language & Time in Preferences",
+          "correct": true,
+          "explanation": "Correct. You must go to Settings (sidebar) -> Preferences -> Language & Time to toggle 'Start week on Monday'."
+        },
+        {
+          "key": "C",
+          "text": "Property visibility menu",
+          "correct": false,
+          "explanation": "The Property visibility menu is used to show or hide specific data columns on the cards."
+        },
+        {
+          "key": "D",
+          "text": "Google Calendar integration settings",
+          "correct": false,
+          "explanation": "Integration settings are for connecting external calendars, not configuring the internal calendar start day."
+        }
+      ]
+    },
+    {
+      "id": "calendars-008",
+      "question": "What is a limitation regarding the default date format in Notion databases?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You can set a default format for the Date property",
+          "correct": false,
+          "explanation": "Currently, there is no built-in feature to set a default date format for the Date property."
+        },
+        {
+          "key": "B",
+          "text": "You cannot format the date property at all",
+          "correct": false,
+          "explanation": "While there is no default, you can still format dates manually in the property or via formulas."
+        },
+        {
+          "key": "C",
+          "text": "It is not possible at the moment, though it is planned for the future",
+          "correct": true,
+          "explanation": "Correct. The help center explicitly states this is a limitation that is on their roadmap."
+        },
+        {
+          "key": "D",
+          "text": "The format is always fixed to MM/DD/YYYY",
+          "correct": false,
+          "explanation": "The format depends on your region settings, not a fixed system default."
+        }
+      ]
+    },
+    {
+      "id": "calendars-009",
+      "question": "How can you view a daily or yearly timescale in Notion?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Switch to the Weekly view and scroll down indefinitely",
+          "correct": false,
+          "explanation": "The Weekly view does not provide a daily timescale; it displays the week as a whole."
+        },
+        {
+          "key": "B",
+          "text": "Use the Timeline view, which allows timescales from hours to years",
+          "correct": true,
+          "explanation": "Correct. The Timeline view is designed to show data over various time scales, from hours up to years."
+        },
+        {
+          "key": "C",
+          "text": "Use the Calendar view on mobile",
+          "correct": false,
+          "explanation": "The mobile app has a daily view, but it does not support a yearly timescale."
+        },
+        {
+          "key": "D",
+          "text": "There is no way to view a daily or yearly timescale",
+          "correct": false,
+          "explanation": "The Timeline view specifically solves this problem for desktop users."
+        }
+      ]
+    },
+    {
+      "id": "calendars-010",
+      "question": "How can you embed a Google Calendar into a Notion page?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use the Notion Calendar API to sync in real-time",
+          "correct": false,
+          "explanation": "The API is for developers building integrations, not for end-users embedding a view."
+        },
+        {
+          "key": "B",
+          "text": "Embed from the same email address you use for Notion",
+          "correct": true,
+          "explanation": "Correct. You can embed a view-only Google Calendar into Notion if you are embedding from the same email address associated with your Notion account."
+        },
+        {
+          "key": "C",
+          "text": "Link the Google Calendar directly from the database property",
+          "correct": false,
+          "explanation": "While you can link to a calendar, embedding requires the specific email matching feature mentioned in the article."
+        },
+        {
+          "key": "D",
+          "text": "You cannot embed a Google Calendar into Notion",
+          "correct": false,
+          "explanation": "Notion supports embedding Google Calendars, though it is limited to view-only for the specific email match case."
+        }
+      ]
+    }
+  ]
+}

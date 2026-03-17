@@ -1,0 +1,224 @@
+{
+  "source": "guides_creating-a-page",
+  "sourceTitle": "Creating a page",
+  "sourceUrl": "https://www.notion.so/help/guides/creating-a-page",
+  "questions": [
+    {
+      "id": "creating-a-page-001",
+      "question": "What is the first action you must take to create a new page in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the **New page** button in the sidebar",
+          "correct": true,
+          "explanation": "The article states that you start by clicking the New page button."
+        },
+        {
+          "key": "B",
+          "text": "Press the forward slash ( / ) key",
+          "correct": false,
+          "explanation": "Pressing '/' shows a list of blocks after a page already exists."
+        },
+        {
+          "key": "C",
+          "text": "Select a template from the template gallery",
+          "correct": false,
+          "explanation": "Templates are optional; you still need to create a page first."
+        },
+        {
+          "key": "D",
+          "text": "Upload an image to the workspace",
+          "correct": false,
+          "explanation": "Uploading an image does not create a page."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-page-002",
+      "question": "Which keyboard shortcut displays a list of different content types you can add to a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ctrl + N",
+          "correct": false,
+          "explanation": "Ctrl + N opens a new window, not a block menu."
+        },
+        {
+          "key": "B",
+          "text": "The forward slash ( / ) key",
+          "correct": true,
+          "explanation": "The article explicitly says typing '/' shows the block menu."
+        },
+        {
+          "key": "C",
+          "text": "Alt + T",
+          "correct": false,
+          "explanation": "Alt + T is not mentioned as a shortcut in the guide."
+        },
+        {
+          "key": "D",
+          "text": "Shift + Enter",
+          "correct": false,
+          "explanation": "Shift + Enter creates a line break, not a block list."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-page-003",
+      "question": "When you click **New page**, which of the following is NOT listed as a page type option in the article?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Table",
+          "correct": false,
+          "explanation": "Table is mentioned as one of the page type choices."
+        },
+        {
+          "key": "B",
+          "text": "Board",
+          "correct": false,
+          "explanation": "Board is also listed as an option."
+        },
+        {
+          "key": "C",
+          "text": "List",
+          "correct": false,
+          "explanation": "List appears in the article’s menu of page types."
+        },
+        {
+          "key": "D",
+          "text": "Calendar",
+          "correct": true,
+          "explanation": "The guide does not include Calendar as a default page type; it only mentions table, board, list, or an empty page."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-page-004",
+      "question": "How can you make a newly created page easier to identify later?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add an icon to the page",
+          "correct": true,
+          "explanation": "The article says you can give a page an icon for easy identification."
+        },
+        {
+          "key": "B",
+          "text": "Change the page background color",
+          "correct": false,
+          "explanation": "Background color isn’t mentioned as a way to identify a page."
+        },
+        {
+          "key": "C",
+          "text": "Pin the page to the top of the sidebar",
+          "correct": false,
+          "explanation": "Pinning helps with access, but the guide highlights icons for identification."
+        },
+        {
+          "key": "D",
+          "text": "Add a video to the page",
+          "correct": false,
+          "explanation": "Adding a video doesn’t affect how you spot the page later."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-page-005",
+      "question": "Approximately how many templates are available in Notion’s template gallery?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "1,000",
+          "correct": false,
+          "explanation": "The guide specifies a larger number."
+        },
+        {
+          "key": "B",
+          "text": "5,000",
+          "correct": false,
+          "explanation": "The article mentions a higher count."
+        },
+        {
+          "key": "C",
+          "text": "10,000",
+          "correct": true,
+          "explanation": "The text says “Browse over 10,000 templates in our template gallery.”"
+        },
+        {
+          "key": "D",
+          "text": "20,000",
+          "correct": false,
+          "explanation": "While Notion may have many, the article cites 10,000."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-page-006",
+      "question": "If you want to add a to‑do list to a page, what is the recommended method?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type the forward slash ( / ) and select the to‑do list block",
+          "correct": true,
+          "explanation": "The forward slash opens the block menu where you can pick a to‑do list."
+        },
+        {
+          "key": "B",
+          "text": "Drag a to‑do list from the sidebar onto the page",
+          "correct": false,
+          "explanation": "The sidebar doesn’t contain ready‑made blocks."
+        },
+        {
+          "key": "C",
+          "text": "Choose a to‑do list template from the template gallery",
+          "correct": false,
+          "explanation": "Templates are optional; the quick way is using the slash command."
+        },
+        {
+          "key": "D",
+          "text": "Click the New page button again",
+          "correct": false,
+          "explanation": "Creating a new page does not add a to‑do list to an existing one."
+        }
+      ]
+    },
+    {
+      "id": "creating-a-page-007",
+      "question": "Which statement best describes an advantage of using a template when building a page?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Templates automatically sync changes across all of your pages.",
+          "correct": false,
+          "explanation": "Templates are starting points; they don’t create live sync relationships."
+        },
+        {
+          "key": "B",
+          "text": "Templates provide pre‑built structures that save time and help maintain consistency.",
+          "correct": true,
+          "explanation": "The article promotes templates as a way to quickly start with a ready‑made layout, which is the key benefit."
+        },
+        {
+          "key": "C",
+          "text": "Templates prevent you from adding any custom content later.",
+          "correct": false,
+          "explanation": "You can always edit a page after using a template."
+        },
+        {
+          "key": "D",
+          "text": "Using a template makes the page load faster because it contains fewer blocks.",
+          "correct": false,
+          "explanation": "Load speed isn’t mentioned; the advantage is about convenience and consistency."
+        }
+      ]
+    }
+  ]
+}

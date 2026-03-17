@@ -1,0 +1,224 @@
+{
+  "source": "guides_a-guide-to-connecting-projects-and-meeting-notes",
+  "sourceTitle": "A guide to connecting projects and meeting notes",
+  "sourceUrl": "https://www.notion.so/help/guides/a-guide-to-connecting-projects-and-meeting-notes",
+  "questions": [
+    {
+      "id": "guides_a-guide-to-connecting-projects-and-meeting-notes-001",
+      "question": "Which Notion property type lets you link one database to another?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Formula property",
+          "correct": false,
+          "explanation": "Formula calculates values; it doesn't create links between databases."
+        },
+        {
+          "key": "B",
+          "text": "Relation property",
+          "correct": true,
+          "explanation": "Relation properties are specifically designed to connect entries across databases."
+        },
+        {
+          "key": "C",
+          "text": "Rollup property",
+          "correct": false,
+          "explanation": "Rollup works on top of a Relation; it can’t create the initial link."
+        },
+        {
+          "key": "D",
+          "text": "Text property",
+          "correct": false,
+          "explanation": "A plain text field can hold a URL, but it doesn’t maintain a live database relationship."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-guide-to-connecting-projects-and-meeting-notes-002",
+      "question": "Where can you browse the 10,000+ templates mentioned in the guide?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Template gallery",
+          "correct": true,
+          "explanation": "The guide points readers to the template gallery for thousands of templates."
+        },
+        {
+          "key": "B",
+          "text": "Settings page",
+          "correct": false,
+          "explanation": "Settings let you adjust workspace preferences, not browse templates."
+        },
+        {
+          "key": "C",
+          "text": "Help center",
+          "correct": false,
+          "explanation": "The help center contains articles, not the template collection."
+        },
+        {
+          "key": "D",
+          "text": "YouTube channel",
+          "correct": false,
+          "explanation": "YouTube hosts videos, not the template library."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-guide-to-connecting-projects-and-meeting-notes-003",
+      "question": "What is the first step to connect the Projects database with the Tasks database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete all existing properties in the Projects database",
+          "correct": false,
+          "explanation": "Removing properties isn’t required and would delete useful data."
+        },
+        {
+          "key": "B",
+          "text": "Add a new property and select the Relation type pointing to the Tasks database",
+          "correct": true,
+          "explanation": "The guide instructs you to add a new Relation property to link the two databases."
+        },
+        {
+          "key": "C",
+          "text": "Export both databases to CSV and merge them externally",
+          "correct": false,
+          "explanation": "Exporting to CSV breaks the live connection that Notion provides."
+        },
+        {
+          "key": "D",
+          "text": "Change the view of the Projects database to a board view",
+          "correct": false,
+          "explanation": "Changing a view doesn’t create a relationship between databases."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-guide-to-connecting-projects-and-meeting-notes-004",
+      "question": "Which of the following is NOT listed as a benefit of connecting databases in Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Team members can quickly find all relevant pages",
+          "correct": false,
+          "explanation": "The guide explicitly mentions faster discovery of relevant pages."
+        },
+        {
+          "key": "B",
+          "text": "Easy access to associated documents",
+          "correct": false,
+          "explanation": "Providing quick access to linked documents is a stated advantage."
+        },
+        {
+          "key": "C",
+          "text": "Automatic email notifications for linked items",
+          "correct": true,
+          "explanation": "The article never mentions email notifications as a benefit."
+        },
+        {
+          "key": "D",
+          "text": "Projects, tasks, and meeting notes stay connected",
+          "correct": false,
+          "explanation": "Keeping related items linked is a core purpose of the guide."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-guide-to-connecting-projects-and-meeting-notes-005",
+      "question": "If an ad blocker stops the video from playing, what does the guide suggest you do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Disable the ad blocker permanently",
+          "correct": false,
+          "explanation": "The guide doesn’t ask you to change your ad‑blocking settings."
+        },
+        {
+          "key": "B",
+          "text": "Watch the video on YouTube",
+          "correct": true,
+          "explanation": "A direct link to the YouTube version is provided as an alternative."
+        },
+        {
+          "key": "C",
+          "text": "Skip the video entirely",
+          "correct": false,
+          "explanation": "Skipping would prevent you from seeing the content the guide references."
+        },
+        {
+          "key": "D",
+          "text": "Use a different browser",
+          "correct": false,
+          "explanation": "Changing browsers isn’t mentioned as a solution in the article."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-guide-to-connecting-projects-and-meeting-notes-006",
+      "question": "After creating a Relation from Projects to Tasks, you want each Task to automatically show its related Meeting Notes. Which Notion property should you add to the Tasks database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Formula property",
+          "correct": false,
+          "explanation": "Formulas compute based on fields but can’t pull data from another database without a Relation."
+        },
+        {
+          "key": "B",
+          "text": "Rollup property",
+          "correct": true,
+          "explanation": "Rollups retrieve data from a linked Relation, allowing Tasks to display related Meeting Notes."
+        },
+        {
+          "key": "C",
+          "text": "Multi‑select property",
+          "correct": false,
+          "explanation": "Multi‑select stores static tags; it doesn’t fetch data from other databases."
+        },
+        {
+          "key": "D",
+          "text": "Date property",
+          "correct": false,
+          "explanation": "Date fields record timestamps and cannot pull related record information."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-guide-to-connecting-projects-and-meeting-notes-007",
+      "question": "If a topic isn’t covered in this guide, where does the article direct you for more help?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Template gallery",
+          "correct": false,
+          "explanation": "The template gallery offers templates, not additional support articles."
+        },
+        {
+          "key": "B",
+          "text": "YouTube channel",
+          "correct": false,
+          "explanation": "YouTube provides videos, but the guide points to a specific help resource."
+        },
+        {
+          "key": "C",
+          "text": "Help center",
+          "correct": true,
+          "explanation": "The guide explicitly suggests visiting the help center for unanswered questions."
+        },
+        {
+          "key": "D",
+          "text": "Community forum",
+          "correct": false,
+          "explanation": "A community forum isn’t mentioned in the article as a next step."
+        }
+      ]
+    }
+  ]
+}

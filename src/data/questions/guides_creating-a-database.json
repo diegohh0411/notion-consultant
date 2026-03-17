@@ -1,0 +1,255 @@
+{
+  "source": "guides_creating-a-database",
+  "sourceTitle": "Creating a database",
+  "sourceUrl": "https://www.notion.so/help/guides/creating-a-database",
+  "questions": [
+    {
+      "id": "guides_creating-a-database-001",
+      "question": "In Notion, what is a database primarily considered as?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A simple text block",
+          "correct": false,
+          "explanation": "A text block cannot store structured rows and columns like a database."
+        },
+        {
+          "key": "B",
+          "text": "An advanced type of page used for structuring information",
+          "correct": true,
+          "explanation": "Correct – Notion treats databases as advanced pages that organize data."
+        },
+        {
+          "key": "C",
+          "text": "A third‑party plugin",
+          "correct": false,
+          "explanation": "Databases are built‑in, not external plugins."
+        },
+        {
+          "key": "D",
+          "text": "A static image gallery",
+          "correct": false,
+          "explanation": "Images can be displayed in a gallery view, but the core object is a database, not an image."
+        }
+      ]
+    },
+    {
+      "id": "guides_creating-a-database-002",
+      "question": "Which of the following steps correctly starts the creation of a new database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the New page button and then select a database type",
+          "correct": true,
+          "explanation": "This is the exact workflow described for creating a database."
+        },
+        {
+          "key": "B",
+          "text": "Right‑click any existing page and choose \"Convert to database\"",
+          "correct": false,
+          "explanation": "Notion does not have a direct \"convert\" option for pages."
+        },
+        {
+          "key": "C",
+          "text": "Upload a CSV file and Notion will auto‑create a database",
+          "correct": false,
+          "explanation": "Importing CSV creates a table but is not the primary method described."
+        },
+        {
+          "key": "D",
+          "text": "Drag a table block into a page and rename it",
+          "correct": false,
+          "explanation": "While you can add a table block, the guide emphasizes using the New page button."
+        }
+      ]
+    },
+    {
+      "id": "guides_creating-a-database-003",
+      "question": "What are \"properties\" in a Notion database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The visual theme of the database page",
+          "correct": false,
+          "explanation": "Themes affect appearance, not data structure."
+        },
+        {
+          "key": "B",
+          "text": "Tags such as text, numbers, dates, or people that describe each item",
+          "correct": true,
+          "explanation": "Properties act like tags that hold specific data types for each entry."
+        },
+        {
+          "key": "C",
+          "text": "The permissions granted to collaborators",
+          "correct": false,
+          "explanation": "Permissions are managed separately from properties."
+        },
+        {
+          "key": "D",
+          "text": "The layout options like table or board",
+          "correct": false,
+          "explanation": "Layout options are called \"views,\" not properties."
+        }
+      ]
+    },
+    {
+      "id": "guides_creating-a-database-004",
+      "question": "If you want a database to appear alongside other content on a page, which display option should you choose?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full‑page database",
+          "correct": false,
+          "explanation": "Full‑page databases occupy an entire page, not alongside other blocks."
+        },
+        {
+          "key": "B",
+          "text": "Inline database",
+          "correct": true,
+          "explanation": "Inline databases can be placed within a page with other blocks."
+        },
+        {
+          "key": "C",
+          "text": "Embedded spreadsheet",
+          "correct": false,
+          "explanation": "Notion does not use the term \"embedded spreadsheet\" for this purpose."
+        },
+        {
+          "key": "D",
+          "text": "External link to a database",
+          "correct": false,
+          "explanation": "Linking externally does not embed the database inline."
+        }
+      ]
+    },
+    {
+      "id": "guides_creating-a-database-005",
+      "question": "Which view type would be most appropriate for visualizing tasks that move through stages such as \"To Do\", \"In Progress\", and \"Done\"?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Calendar view",
+          "correct": false,
+          "explanation": "Calendars show dates, not stage progression."
+        },
+        {
+          "key": "B",
+          "text": "Board view",
+          "correct": true,
+          "explanation": "Board view (Kanban) is designed for stage‑based task tracking."
+        },
+        {
+          "key": "C",
+          "text": "Timeline view",
+          "correct": false,
+          "explanation": "Timelines focus on time spans rather than discrete stages."
+        },
+        {
+          "key": "D",
+          "text": "Gallery view",
+          "correct": false,
+          "explanation": "Gallery displays items as cards, not suited for stage columns."
+        }
+      ]
+    },
+    {
+      "id": "guides_creating-a-database-006",
+      "question": "How many templates does Notion’s template gallery claim to offer?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Around 1,000",
+          "correct": false,
+          "explanation": "The article specifies a larger number than 1,000."
+        },
+        {
+          "key": "B",
+          "text": "Over 10,000",
+          "correct": true,
+          "explanation": "The guide explicitly mentions \"over 10,000 templates\"."
+        },
+        {
+          "key": "C",
+          "text": "Exactly 5,000",
+          "correct": false,
+          "explanation": "The number is not exact and is higher than 5,000."
+        },
+        {
+          "key": "D",
+          "text": "Fewer than 500",
+          "correct": false,
+          "explanation": "The gallery contains far more than a few hundred templates."
+        }
+      ]
+    },
+    {
+      "id": "guides_creating-a-database-007",
+      "question": "Which combination of actions would allow you to see the same database data both as a calendar and as a list without creating duplicate entries?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create two separate databases, one set to Calendar view and the other to List view",
+          "correct": false,
+          "explanation": "Separate databases duplicate data, which the question wants to avoid."
+        },
+        {
+          "key": "B",
+          "text": "Add a Calendar view and a List view to the same database",
+          "correct": true,
+          "explanation": "Multiple views belong to a single database, showing the same items in different formats."
+        },
+        {
+          "key": "C",
+          "text": "Export the database to CSV, then import it twice with different view settings",
+          "correct": false,
+          "explanation": "Export/import creates copies; it does not maintain a single source."
+        },
+        {
+          "key": "D",
+          "text": "Use the Gallery view and filter it to show only date properties",
+          "correct": false,
+          "explanation": "Gallery view is not a calendar, and filtering does not create a true calendar view."
+        }
+      ]
+    },
+    {
+      "id": "guides_creating-a-database-008",
+      "question": "What is the primary benefit of using database properties such as \"People\" in a Notion database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It changes the color scheme of the database",
+          "correct": false,
+          "explanation": "Properties affect data, not visual themes."
+        },
+        {
+          "key": "B",
+          "text": "It enables assigning team members to specific items for accountability and filtering",
+          "correct": true,
+          "explanation": "The People property lets you link users to items, supporting assignment and filtered views."
+        },
+        {
+          "key": "C",
+          "text": "It automatically sends email notifications to the assigned users",
+          "correct": false,
+          "explanation": "Notifications are a separate feature; properties alone don’t send emails."
+        },
+        {
+          "key": "D",
+          "text": "It locks the item so only that person can edit it",
+          "correct": false,
+          "explanation": "Locking permissions is managed elsewhere, not via the People property."
+        }
+      ]
+    }
+  ]
+}

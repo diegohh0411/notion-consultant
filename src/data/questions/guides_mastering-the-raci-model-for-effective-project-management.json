@@ -1,0 +1,286 @@
+{
+  "source": "guides_mastering-the-raci-model-for-effective-project-management",
+  "sourceTitle": "Mastering the RACI model for effective project management",
+  "sourceUrl": "https://www.notion.so/help/mastering-the-raci-model-for-effective-project-management",
+  "questions": [
+    {
+      "id": "mastering-the-raci-model-for-effective-project-management-001",
+      "question": "In the RACI model, what does the \"R\" stand for?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Responsible",
+          "correct": true,
+          "explanation": "Correct – \"R\" designates the person who actually does the work."
+        },
+        {
+          "key": "B",
+          "text": "Reviewed",
+          "correct": false,
+          "explanation": "Wrong – \"Reviewed\" is not part of the RACI acronym."
+        },
+        {
+          "key": "C",
+          "text": "Reporter",
+          "correct": false,
+          "explanation": "Wrong – \"Reporter\" is not a RACI role."
+        },
+        {
+          "key": "D",
+          "text": "Resource",
+          "correct": false,
+          "explanation": "Wrong – \"Resource\" is not used in RACI."
+        }
+      ]
+    },
+    {
+      "id": "mastering-the-raci-model-for-effective-project-management-002",
+      "question": "Which Notion feature helps you quickly create repetitive task pages with the same structure?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Template button",
+          "correct": true,
+          "explanation": "Correct – the template button lets you define reusable content for new pages."
+        },
+        {
+          "key": "B",
+          "text": "Relation property",
+          "correct": false,
+          "explanation": "Incorrect – relations link pages but don’t replicate content."
+        },
+        {
+          "key": "C",
+          "text": "Inline equation",
+          "correct": false,
+          "explanation": "Incorrect – equations are for math, not page duplication."
+        },
+        {
+          "key": "D",
+          "text": "Rollup property",
+          "correct": false,
+          "explanation": "Incorrect – rollups aggregate data, they don’t create new pages."
+        }
+      ]
+    },
+    {
+      "id": "mastering-the-raci-model-for-effective-project-management-003",
+      "question": "How can you set up a Notion view that automatically shows only the tasks assigned to the user who is currently signed in?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a view filtered by the \"Me\" property",
+          "correct": true,
+          "explanation": "Correct – the \"Me\" filter dynamically matches the logged‑in user."
+        },
+        {
+          "key": "B",
+          "text": "Manually add the user’s name to a filter each time",
+          "correct": false,
+          "explanation": "Wrong – this defeats the purpose of a dynamic view."
+        },
+        {
+          "key": "C",
+          "text": "Use a formula that references the browser’s URL",
+          "correct": false,
+          "explanation": "Incorrect – Notion formulas cannot read the URL."
+        },
+        {
+          "key": "D",
+          "text": "Share a separate database for each team member",
+          "correct": false,
+          "explanation": "Incorrect – sharing separate databases is unnecessary and inefficient."
+        }
+      ]
+    },
+    {
+      "id": "mastering-the-raci-model-for-effective-project-management-004",
+      "question": "Why is it advantageous to keep most of the work inside the task pages of a Notion RACI database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Team members become familiar with all roles and can see updates in one place",
+          "correct": true,
+          "explanation": "Correct – centralizing work promotes role awareness and reduces context switching."
+        },
+        {
+          "key": "B",
+          "text": "It automatically syncs the database with external project‑management tools",
+          "correct": false,
+          "explanation": "Wrong – Notion does not auto‑sync with external tools without integrations."
+        },
+        {
+          "key": "C",
+          "text": "It eliminates the need for any communication channels like Slack",
+          "correct": false,
+          "explanation": "Incorrect – communication channels can still be useful for real‑time alerts."
+        },
+        {
+          "key": "D",
+          "text": "It makes the database read‑only for all users",
+          "correct": false,
+          "explanation": "Incorrect – keeping work inside pages does not change permission levels."
+        }
+      ]
+    },
+    {
+      "id": "mastering-the-raci-model-for-effective-project-management-005",
+      "question": "When a task requires input from several experts before it can be completed, which RACI role should those experts be assigned?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Consulted",
+          "correct": true,
+          "explanation": "Correct – \"Consulted\" are the people whose expertise is sought before decisions are made."
+        },
+        {
+          "key": "B",
+          "text": "Responsible",
+          "correct": false,
+          "explanation": "Wrong – \"Responsible\" actually performs the work, not just provides input."
+        },
+        {
+          "key": "C",
+          "text": "Informed",
+          "correct": false,
+          "explanation": "Incorrect – \"Informed\" only receives updates after decisions are made."
+        },
+        {
+          "key": "D",
+          "text": "Accountable",
+          "correct": false,
+          "explanation": "Incorrect – there should be only one accountable person per task; experts are not typically accountable."
+        }
+      ]
+    },
+    {
+      "id": "mastering-the-raci-model-for-effective-project-management-006",
+      "question": "What benefit does linking a Notion task page to a Slack channel provide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Updates to the task are automatically posted to the channel, keeping the team informed",
+          "correct": true,
+          "explanation": "Correct – the integration pushes changes to Slack, enhancing visibility."
+        },
+        {
+          "key": "B",
+          "text": "It moves the task out of Notion and into Slack permanently",
+          "correct": false,
+          "explanation": "Wrong – the link only shares updates; the task remains in Notion."
+        },
+        {
+          "key": "C",
+          "text": "It prevents anyone from editing the task after it’s linked",
+          "correct": false,
+          "explanation": "Incorrect – linking does not affect edit permissions."
+        },
+        {
+          "key": "D",
+          "text": "It automatically creates a new Slack workspace for the project",
+          "correct": false,
+          "explanation": "Incorrect – Slack workspaces must be created manually."
+        }
+      ]
+    },
+    {
+      "id": "mastering-the-raci-model-for-effective-project-management-007",
+      "question": "Why should each RACI role be added as a separate property in a Notion database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It enables you to assign and filter specific people for each role on a per‑task basis",
+          "correct": true,
+          "explanation": "Correct – separate properties make role assignment clear and allow view filtering."
+        },
+        {
+          "key": "B",
+          "text": "It automatically generates a Gantt chart for the project",
+          "correct": false,
+          "explanation": "Wrong – role properties alone don’t create timeline visualizations."
+        },
+        {
+          "key": "C",
+          "text": "It locks the database so that only managers can edit tasks",
+          "correct": false,
+          "explanation": "Incorrect – properties don’t control edit rights."
+        },
+        {
+          "key": "D",
+          "text": "It merges all team members into a single dropdown list",
+          "correct": false,
+          "explanation": "Incorrect – each role remains distinct, not merged."
+        }
+      ]
+    },
+    {
+      "id": "mastering-the-raci-model-for-effective-project-management-008",
+      "question": "A project manager assigns two people as \"Accountable\" for the same task. Which of the following issues is most likely to arise?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decision‑making may become unclear because accountability is meant to be singular per task",
+          "correct": true,
+          "explanation": "Correct – RACI prescribes only one accountable person to avoid confusion over final approval."
+        },
+        {
+          "key": "B",
+          "text": "The task will automatically be marked as complete when either person finishes their work",
+          "correct": false,
+          "explanation": "Wrong – completion status isn’t tied to the number of accountable owners."
+        },
+        {
+          "key": "C",
+          "text": "Both people will receive duplicate Slack notifications, causing unnecessary noise",
+          "correct": false,
+          "explanation": "Incorrect – while notifications may increase, the core problem is ambiguous authority, not message volume."
+        },
+        {
+          "key": "D",
+          "text": "Notion will prevent the task from being saved due to a validation error",
+          "correct": false,
+          "explanation": "Incorrect – Notion does not enforce a single accountable entry automatically."
+        }
+      ]
+    },
+    {
+      "id": "mastering-the-raci-model-for-effective-project-management-009",
+      "question": "Using the \"Me\" filter view in Notion tailors task lists to the current user. Which limitation should a team be aware of when relying solely on this feature?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "If a user is not assigned to any role on a task, the task will never appear in their view, even if they need to be informed",
+          "correct": true,
+          "explanation": "Correct – the \"Me\" filter only shows tasks where the user is explicitly listed in a property; they won’t see tasks where they are only \"Informed\" unless that property is set."
+        },
+        {
+          "key": "B",
+          "text": "The view updates only once per day, so recent changes may be missed",
+          "correct": false,
+          "explanation": "Wrong – Notion updates filtered views in real time."
+        },
+        {
+          "key": "C",
+          "text": "It automatically changes the user's role to \"Responsible\" for all displayed tasks",
+          "correct": false,
+          "explanation": "Incorrect – the filter is visual only; it does not alter role assignments."
+        },
+        {
+          "key": "D",
+          "text": "The \"Me\" filter can only be applied to databases that have exactly four properties",
+          "correct": false,
+          "explanation": "Incorrect – there is no such restriction; any database with a user property can use the filter."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai",
+  "sourceTitle": "How product teams boost productivity and spark new ideas with Notion AI",
+  "sourceUrl": "https://www.notion.com/help/guides/how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai",
+  "questions": [
+    {
+      "id": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai-001",
+      "question": "What is the first step to start using Notion AI on a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Press the `space` key on a new line",
+          "correct": true,
+          "explanation": "The guide says navigating to a new line and pressing the space key triggers Notion AI to ask for a prompt."
+        },
+        {
+          "key": "B",
+          "text": "Click the thumbs‑up button",
+          "correct": false,
+          "explanation": "Thumbs‑up is used to rate AI responses, not to start a new AI interaction."
+        },
+        {
+          "key": "C",
+          "text": "Open the AI settings from the sidebar",
+          "correct": false,
+          "explanation": "While settings exist, the guide specifies the space‑key shortcut for initiating AI."
+        },
+        {
+          "key": "D",
+          "text": "Select a block and choose “Generate summary”",
+          "correct": false,
+          "explanation": "Generating a summary is a specific AI command, not the generic way to start using AI."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai-002",
+      "question": "Which of the following is NOT listed as a common AI use case for tech teams in the guide?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Writing better, more accessible technical docs",
+          "correct": false,
+          "explanation": "This is one of the three highlighted use cases."
+        },
+        {
+          "key": "B",
+          "text": "Speeding up manual work and summarizing long texts",
+          "correct": false,
+          "explanation": "This is also a listed use case."
+        },
+        {
+          "key": "C",
+          "text": "Automating code deployments to production",
+          "correct": true,
+          "explanation": "The guide does not mention automating deployments; it focuses on documentation, summarization, and brainstorming."
+        },
+        {
+          "key": "D",
+          "text": "Broadening thinking through creative prompts",
+          "correct": false,
+          "explanation": "Creative prompting is the third use case mentioned."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai-003",
+      "question": "How can you improve the tone of a PRD using Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Highlight the text and select “Change tone”",
+          "correct": true,
+          "explanation": "The guide explains that you can adjust tone with a single click via the Change tone option."
+        },
+        {
+          "key": "B",
+          "text": "Add an AI Summary block at the top of the page",
+          "correct": false,
+          "explanation": "A Summary block creates a summary, not a tone change."
+        },
+        {
+          "key": "C",
+          "text": "Press the thumbs‑down button on the AI response",
+          "correct": false,
+          "explanation": "Thumbs‑down rates AI output; it does not modify tone."
+        },
+        {
+          "key": "D",
+          "text": "Create a new page and copy‑paste the PRD into it",
+          "correct": false,
+          "explanation": "Copy‑pasting does nothing to the tone automatically."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai-004",
+      "question": "When building an RFC template, which AI block should you insert to ensure every new RFC includes a summary?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI → Summary block",
+          "correct": true,
+          "explanation": "The guide instructs users to add a Summary block from the AI blocks menu to embed summarization in the template."
+        },
+        {
+          "key": "B",
+          "text": "AI → Action items block",
+          "correct": false,
+          "explanation": "Action items extract tasks, not provide a summary."
+        },
+        {
+          "key": "C",
+          "text": "AI → Brainstorm ideas block",
+          "correct": false,
+          "explanation": "Brainstorming is for idea generation, unrelated to RFC summaries."
+        },
+        {
+          "key": "D",
+          "text": "AI → Translate block",
+          "correct": false,
+          "explanation": "Translation changes language, not the purpose of an RFC summary."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai-005",
+      "question": "Which statement best captures why giving detailed prompts to Notion AI leads to better results?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Detailed prompts provide context, guiding the model toward more relevant output",
+          "correct": true,
+          "explanation": "The guide stresses that specificity and context help AI generate more accurate and useful content."
+        },
+        {
+          "key": "B",
+          "text": "Long prompts force the AI to produce longer answers automatically",
+          "correct": false,
+          "explanation": "Length alone doesn't guarantee relevance; the AI still follows the instruction content."
+        },
+        {
+          "key": "C",
+          "text": "Including many emojis in a prompt improves the AI’s creativity",
+          "correct": false,
+          "explanation": "Emojis are not mentioned as beneficial and may confuse the model."
+        },
+        {
+          "key": "D",
+          "text": "Using vague language encourages the AI to fill in gaps with its own ideas",
+          "correct": false,
+          "explanation": "Vagueness can lead to off‑target results, contrary to the guide’s advice."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai-006",
+      "question": "What is the purpose of the thumbs‑up and thumbs‑down buttons in Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To provide feedback that helps improve the AI’s future responses",
+          "correct": true,
+          "explanation": "The guide explains that rating AI content helps engineers refine the technology."
+        },
+        {
+          "key": "B",
+          "text": "To automatically insert the AI’s answer into the page",
+          "correct": false,
+          "explanation": "Insertion is done by selecting the generated text, not by rating it."
+        },
+        {
+          "key": "C",
+          "text": "To change the tone of the AI’s output",
+          "correct": false,
+          "explanation": "Tone changes are managed via the Change tone option, not via thumbs."
+        },
+        {
+          "key": "D",
+          "text": "To switch the AI model between different languages",
+          "correct": false,
+          "explanation": "Language selection is a separate feature; thumbs are only for feedback."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai-007",
+      "question": "Which workflow best demonstrates using Notion AI to turn raw user research into actionable tasks?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Generate a page summary, then add an Action items block to create a checklist from the summary",
+          "correct": true,
+          "explanation": "The guide describes this exact two‑step process for extracting insights and turning them into tasks."
+        },
+        {
+          "key": "B",
+          "text": "Highlight the research text and click “Fix spelling & grammar”, then share with the team",
+          "correct": false,
+          "explanation": "While useful for editing, this does not produce actionable items."
+        },
+        {
+          "key": "C",
+          "text": "Insert a Summary block, then manually write a to‑do list in a separate page",
+          "correct": false,
+          "explanation": "The manual step bypasses the AI’s ability to auto‑generate action items."
+        },
+        {
+          "key": "D",
+          "text": "Use the Translate AI block to convert the research into another language before discussing",
+          "correct": false,
+          "explanation": "Translation is unrelated to extracting tasks from research."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai-008",
+      "question": "If a product team wants to quickly draft a feature spec and then iterate on its tone, which sequence of Notion AI commands is most efficient?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask AI to write the spec, then use “Change tone” on the generated text",
+          "correct": true,
+          "explanation": "The guide notes you can draft with AI and subsequently adjust tone with a single click."
+        },
+        {
+          "key": "B",
+          "text": "First use “Change tone”, then ask AI to write the spec",
+          "correct": false,
+          "explanation": "Changing tone before any content exists has no effect; you need text first."
+        },
+        {
+          "key": "C",
+          "text": "Create a Summary block, then ask AI to brainstorm feature names",
+          "correct": false,
+          "explanation": "Summary blocks summarize existing content; they don’t create specs."
+        },
+        {
+          "key": "D",
+          "text": "Insert an Action items block, then ask AI to generate a press release",
+          "correct": false,
+          "explanation": "Action items are for tasks, not for drafting specs or adjusting tone."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai-009",
+      "question": "Why does the guide advise against “over‑engineering” prompts when using Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because overly complex prompts can waste time and defeat the purpose of saving time with AI",
+          "correct": true,
+          "explanation": "The guide warns that the point of AI is to save time, so overly detailed prompts can be counter‑productive."
+        },
+        {
+          "key": "B",
+          "text": "Because the AI cannot handle prompts longer than 50 characters",
+          "correct": false,
+          "explanation": "There is no character limit mentioned; the issue is about efficiency, not length."
+        },
+        {
+          "key": "C",
+          "text": "Because the AI will ignore any prompt that includes numbers",
+          "correct": false,
+          "explanation": "Numbers are not prohibited; the guide does not mention this limitation."
+        },
+        {
+          "key": "D",
+          "text": "Because complex prompts cause the AI to switch to a different language model",
+          "correct": false,
+          "explanation": "Prompt complexity does not change the underlying model."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-product-teams-boost-productivity-and-spark-new-ideas-with-notion-ai-010",
+      "question": "Which of the following best describes the training process of Notion AI as explained in the article?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It learns patterns from massive training data, validates with test data, and iterates to improve its model",
+          "correct": true,
+          "explanation": "The guide outlines a three‑step process: pattern detection, testing with known answers, and iterative improvement."
+        },
+        {
+          "key": "B",
+          "text": "It randomly generates text until a human approves the output",
+          "correct": false,
+          "explanation": "Random generation without learning is not how the model is described."
+        },
+        {
+          "key": "C",
+          "text": "It only uses the content on the current Notion page as its training set",
+          "correct": false,
+          "explanation": "The model uses massive external data plus page context, not just the current page for training."
+        },
+        {
+          "key": "D",
+          "text": "It requires users to manually label each AI response for the model to improve",
+          "correct": false,
+          "explanation": "While user feedback via thumbs helps, manual labeling of every response is not required."
+        }
+      ]
+    }
+  ]
+}

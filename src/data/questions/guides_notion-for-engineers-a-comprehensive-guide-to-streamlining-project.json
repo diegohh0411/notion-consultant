@@ -1,0 +1,317 @@
+{
+  "source": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project",
+  "sourceTitle": "Notion for engineers: A comprehensive guide to streamlining project management",
+  "sourceUrl": "https://www.notion.com/help/guides/notion-for-engineers-a-comprehensive-guide-to-streamlining-project",
+  "questions": [
+    {
+      "id": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project-001",
+      "question": "Where can engineers quickly find pre‑made Notion templates for setting up a workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "By clicking the Templates button in the sidebar",
+          "correct": true,
+          "explanation": "The article states that engineers can click the Templates button in the sidebar to access pre‑made templates."
+        },
+        {
+          "key": "B",
+          "text": "In the Settings > Integrations menu",
+          "correct": false,
+          "explanation": "Templates are not located under Settings; they are accessed via the Templates button or the Template Gallery."
+        },
+        {
+          "key": "C",
+          "text": "Through the Notion mobile app only",
+          "correct": false,
+          "explanation": "Templates are available on both desktop and web versions, not exclusively on mobile."
+        },
+        {
+          "key": "D",
+          "text": "By searching the Notion community forums",
+          "correct": false,
+          "explanation": "While community forums may have templates, the article points to the built‑in Templates button and Template Gallery."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project-002",
+      "question": "What is a unique characteristic of each entry in a Notion Tasks database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is also a full Notion page that can hold rich content",
+          "correct": true,
+          "explanation": "The article explains that every database entry is a page where you can add text, code snippets, and embedded content."
+        },
+        {
+          "key": "B",
+          "text": "It can only contain plain text and a due‑date",
+          "correct": false,
+          "explanation": "Entries can contain much more than plain text; they can hold rich media and various properties."
+        },
+        {
+          "key": "C",
+          "text": "It is limited to a single line description",
+          "correct": false,
+          "explanation": "Notion pages are not limited to a single line; they support extensive content."
+        },
+        {
+          "key": "D",
+          "text": "It cannot be linked to other pages",
+          "correct": false,
+          "explanation": "Pages can be linked, embedded, or referenced elsewhere in Notion."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project-003",
+      "question": "Which view types are mentioned for displaying tasks in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Table and List",
+          "correct": true,
+          "explanation": "The article specifically says you can view tasks in a table or a list."
+        },
+        {
+          "key": "B",
+          "text": "Calendar and Board",
+          "correct": false,
+          "explanation": "Calendar and Board are valid Notion views but they are not the ones called out in this guide."
+        },
+        {
+          "key": "C",
+          "text": "Gallery and Timeline",
+          "correct": false,
+          "explanation": "These are also Notion view options, yet they are not mentioned in the article."
+        },
+        {
+          "key": "D",
+          "text": "Kanban and Gantt",
+          "correct": false,
+          "explanation": "Kanban (Board) and Gantt (Timeline) exist, but the guide only references Table and List."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project-004",
+      "question": "How does Notion enable engineers to organize documentation hierarchically?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By nesting pages inside pages indefinitely, creating subpages",
+          "correct": true,
+          "explanation": "The guide highlights that you can nest pages within pages without limit, forming a hierarchical wiki."
+        },
+        {
+          "key": "B",
+          "text": "By using a fixed three‑level folder structure",
+          "correct": false,
+          "explanation": "Notion does not impose a fixed depth; nesting is unlimited."
+        },
+        {
+          "key": "C",
+          "text": "By tagging pages with hierarchical labels",
+          "correct": false,
+          "explanation": "Tags can be used, but hierarchy is achieved through page nesting, not labeling."
+        },
+        {
+          "key": "D",
+          "text": "By creating separate databases for each documentation level",
+          "correct": false,
+          "explanation": "While databases can organize data, the article emphasizes page nesting for hierarchical documentation."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project-005",
+      "question": "Which properties can be added to a Tasks database to help track engineering workflows?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assignee, status, priority, and due date",
+          "correct": true,
+          "explanation": "The article lists these four properties as examples you can add to a Tasks database."
+        },
+        {
+          "key": "B",
+          "text": "File size, pixel density, and frame rate",
+          "correct": false,
+          "explanation": "These properties relate to media assets, not to task tracking."
+        },
+        {
+          "key": "C",
+          "text": "Operating system, CPU architecture, and memory usage",
+          "correct": false,
+          "explanation": "These are system specs, not the task‑specific properties highlighted in the guide."
+        },
+        {
+          "key": "D",
+          "text": "Author, publication date, and ISBN",
+          "correct": false,
+          "explanation": "Those properties belong to bibliographic entries, not engineering tasks."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project-006",
+      "question": "What advantage does embedding content (e.g., Figma designs or Loom videos) inside a task page provide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "All relevant information stays in one place, reducing context switching",
+          "correct": true,
+          "explanation": "Embedding keeps design files, videos, and notes together with the task, streamlining workflow."
+        },
+        {
+          "key": "B",
+          "text": "It automatically converts the embedded file into plain text",
+          "correct": false,
+          "explanation": "Embedding preserves the original format; Notion does not convert it to plain text."
+        },
+        {
+          "key": "C",
+          "text": "It disables version control for the embedded assets",
+          "correct": false,
+          "explanation": "Embedding does not affect version control of the original files."
+        },
+        {
+          "key": "D",
+          "text": "It forces the task to be displayed only in a List view",
+          "correct": false,
+          "explanation": "Embedding does not restrict the view type; tasks can still be shown in Table, List, etc."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project-007",
+      "question": "If an engineering team wants Notion to serve as a quarter‑by‑quarter roadmap, which feature is most essential?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Customizable databases with date‑based properties",
+          "correct": true,
+          "explanation": "Roadmaps rely on time‑based data; databases with date properties allow planning across quarters."
+        },
+        {
+          "key": "B",
+          "text": "The ability to embed PDF manuals",
+          "correct": false,
+          "explanation": "While useful, PDFs don’t provide the timeline structure needed for a roadmap."
+        },
+        {
+          "key": "C",
+          "text": "Unlimited page nesting depth",
+          "correct": false,
+          "explanation": "Depth helps with documentation hierarchy, but a roadmap primarily needs date tracking."
+        },
+        {
+          "key": "D",
+          "text": "Integration with external email clients",
+          "correct": false,
+          "explanation": "Email integration is unrelated to visualizing a quarterly roadmap."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project-008",
+      "question": "Why might an engineer choose to use Notion as a \"team wiki\" rather than a dedicated documentation tool?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because Notion lets you nest pages infinitely, enabling a highly flexible knowledge base within a single workspace",
+          "correct": true,
+          "explanation": "Infinite nesting provides the flexibility to structure documentation in any hierarchy, a key advantage highlighted in the guide."
+        },
+        {
+          "key": "B",
+          "text": "Because Notion automatically generates API documentation from code comments",
+          "correct": false,
+          "explanation": "Notion does not generate API docs; this feature belongs to specialized documentation generators."
+        },
+        {
+          "key": "C",
+          "text": "Because Notion enforces a strict version‑control workflow similar to Git",
+          "correct": false,
+          "explanation": "Notion offers version history but not a Git‑style branching system."
+        },
+        {
+          "key": "D",
+          "text": "Because Notion limits the size of each page, ensuring concise documentation",
+          "correct": false,
+          "explanation": "Notion does not impose strict size limits; pages can be as large as needed."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project-009",
+      "question": "What is a potential drawback of relying solely on Notion's built‑in task views (table or list) for large engineering projects?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Complex filtering and sorting may become cumbersome without custom formulas or third‑party integrations",
+          "correct": true,
+          "explanation": "While tables and lists are powerful, scaling to large datasets often requires advanced filters or external tools, which can be a limitation."
+        },
+        {
+          "key": "B",
+          "text": "Tasks cannot be assigned to multiple users at once",
+          "correct": false,
+          "explanation": "Notion allows multi‑select assignee properties; the limitation is not about assignment."
+        },
+        {
+          "key": "C",
+          "text": "Embedded videos automatically download, consuming bandwidth",
+          "correct": false,
+          "explanation": "Embedding streams content; it does not trigger automatic downloads."
+        },
+        {
+          "key": "D",
+          "text": "Table view disables the ability to add code snippets to tasks",
+          "correct": false,
+          "explanation": "Code snippets can be added within the page of each task, regardless of view."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-for-engineers-a-comprehensive-guide-to-streamlining-project-010",
+      "question": "According to the guide, what is the recommended first step for an engineer who wants to start using Notion for project management?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Browse the template gallery and select a suitable template",
+          "correct": true,
+          "explanation": "The guide suggests starting with a template from the gallery to set up the workspace quickly."
+        },
+        {
+          "key": "B",
+          "text": "Write a custom API integration from scratch",
+          "correct": false,
+          "explanation": "Custom API work is not presented as the first step; templates are the entry point."
+        },
+        {
+          "key": "C",
+          "text": "Create a new workspace for every engineering team member",
+          "correct": false,
+          "explanation": "Creating many workspaces is unnecessary; the guide recommends using a single workspace with templates."
+        },
+        {
+          "key": "D",
+          "text": "Install the Notion mobile app before the desktop version",
+          "correct": false,
+          "explanation": "The guide does not prioritize mobile installation; it focuses on template selection."
+        }
+      ]
+    }
+  ]
+}

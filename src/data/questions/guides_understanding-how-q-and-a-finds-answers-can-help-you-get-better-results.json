@@ -1,0 +1,317 @@
+{
+  "source": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results",
+  "sourceTitle": "Understanding how Q&A finds answers can help you get better results",
+  "sourceUrl": "https://www.notion.com/help/guides/understanding-how-q-and-a-finds-answers-can-help-you-get-better-results",
+  "questions": [
+    {
+      "id": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results-001",
+      "question": "What is Notion Q&A primarily designed to do?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Generate random creative writing based on prompts",
+          "correct": false,
+          "explanation": "Q&A is not a creative writing tool; it answers questions using workspace content."
+        },
+        {
+          "key": "B",
+          "text": "Search a workspace, synthesize information, and provide a natural‑language answer",
+          "correct": true,
+          "explanation": "Correct – Q&A searches pages you can access, combines relevant content, and returns a clear response."
+        },
+        {
+          "key": "C",
+          "text": "Automatically organize your pages into folders",
+          "correct": false,
+          "explanation": "Organization is a manual task; Q&A does not rearrange pages."
+        },
+        {
+          "key": "D",
+          "text": "Edit the content of pages directly from the chat window",
+          "correct": false,
+          "explanation": "Q&A provides answers but does not edit page content."
+        }
+      ]
+    },
+    {
+      "id": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results-002",
+      "question": "When you type a question, how does Q&A initially process it?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It extracts only the exact keywords and ignores context",
+          "correct": false,
+          "explanation": "Q&A looks at overall meaning, not just isolated keywords."
+        },
+        {
+          "key": "B",
+          "text": "It formulates a search query based on the overall meaning of the question",
+          "correct": true,
+          "explanation": "Correct – the AI creates a query that reflects the intent, not just the words."
+        },
+        {
+          "key": "C",
+          "text": "It searches only page titles for a literal match",
+          "correct": false,
+          "explanation": "Q&A also examines page content and document paths, not just titles."
+        },
+        {
+          "key": "D",
+          "text": "It sends the question to an external internet search engine",
+          "correct": false,
+          "explanation": "Q&A only works inside your Notion workspace; it does not query external sources."
+        }
+      ]
+    },
+    {
+      "id": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results-003",
+      "question": "Which of the following types of Notion content does Q&A currently NOT search?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Standard pages with text blocks",
+          "correct": false,
+          "explanation": "Q&A can search regular pages containing text."
+        },
+        {
+          "key": "B",
+          "text": "Embedded PDFs and website pages",
+          "correct": true,
+          "explanation": "Correct – Q&A cannot read the text inside embedded files; the text must be copied into a block."
+        },
+        {
+          "key": "C",
+          "text": "Pages you have permission to view",
+          "correct": false,
+          "explanation": "Q&A searches any page you can access."
+        },
+        {
+          "key": "D",
+          "text": "Pages that have been recently edited",
+          "correct": false,
+          "explanation": "Recent edits actually improve discoverability; Q&A does search these pages."
+        }
+      ]
+    },
+    {
+      "id": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results-004",
+      "question": "What factors does Q&A consider when ranking the handful of pages it returns?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Page title length and number of images",
+          "correct": false,
+          "explanation": "Title length and image count are not mentioned as ranking signals."
+        },
+        {
+          "key": "B",
+          "text": "Recency of updates, number of visits, and relevance to the query",
+          "correct": true,
+          "explanation": "Correct – Q&A favors pages that are recently edited, frequently viewed, and closely match the question."
+        },
+        {
+          "key": "C",
+          "text": "The alphabetical order of page names",
+          "correct": false,
+          "explanation": "Alphabetical order is irrelevant to relevance."
+        },
+        {
+          "key": "D",
+          "text": "Whether the page owner has a premium Notion subscription",
+          "correct": false,
+          "explanation": "Subscription status does not affect Q&A ranking."
+        }
+      ]
+    },
+    {
+      "id": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results-005",
+      "question": "Why might Q&A be unable to answer a request like “Count the number of tasks completed by Valerie this week”?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because Q&A cannot access private pages",
+          "correct": false,
+          "explanation": "The limitation is not about privacy; it’s about database handling."
+        },
+        {
+          "key": "B",
+          "text": "Because databases are collections of pages and Q&A does not currently understand them as a single data set",
+          "correct": true,
+          "explanation": "Correct – Q&A doesn’t yet process database queries, so aggregations like counts aren’t possible."
+        },
+        {
+          "key": "C",
+          "text": "Because the phrase “this week” is too vague for Q&A",
+          "correct": false,
+          "explanation": "Time‑specific phrases are actually helpful; the issue is the database nature of the request."
+        },
+        {
+          "key": "D",
+          "text": "Because Q&A only works with external knowledge bases, not internal Notion content",
+          "correct": false,
+          "explanation": "Q&A works exclusively with internal workspace content."
+        }
+      ]
+    },
+    {
+      "id": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results-006",
+      "question": "Which practice improves the likelihood that Q&A will surface a page in its results?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Leaving the page title blank so Q&A can infer the content",
+          "correct": false,
+          "explanation": "Untitled pages are harder for Q&A to match."
+        },
+        {
+          "key": "B",
+          "text": "Giving each page a meaningful, descriptive title",
+          "correct": true,
+          "explanation": "Correct – clear titles help Q&A understand relevance."
+        },
+        {
+          "key": "C",
+          "text": "Embedding all important information as PDFs only",
+          "correct": false,
+          "explanation": "Q&A cannot read embedded PDFs; the text must be in a block."
+        },
+        {
+          "key": "D",
+          "text": "Hiding the page from the navigation bar",
+          "correct": false,
+          "explanation": "Visibility in navigation does not affect Q&A’s ability to search the page."
+        }
+      ]
+    },
+    {
+      "id": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results-007",
+      "question": "How does regularly refreshing a page’s content affect Q&A’s ranking algorithm?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It lowers the page’s priority because it appears less stable",
+          "correct": false,
+          "explanation": "Fresh content actually increases priority."
+        },
+        {
+          "key": "B",
+          "text": "It boosts the page’s authority because recent edits and visits are weighted higher",
+          "correct": true,
+          "explanation": "Correct – Q&A favors pages that have been recently edited and frequently viewed."
+        },
+        {
+          "key": "C",
+          "text": "It has no impact; Q&A only looks at the original creation date",
+          "correct": false,
+          "explanation": "Both creation and last edited dates are considered."
+        },
+        {
+          "key": "D",
+          "text": "It causes Q&A to skip the page entirely to avoid duplicate results",
+          "correct": false,
+          "explanation": "Refreshing does not cause exclusion; it improves discoverability."
+        }
+      ]
+    },
+    {
+      "id": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results-008",
+      "question": "What is a recommended way to handle outdated pages so they don’t interfere with Q&A results?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete them permanently from the workspace",
+          "correct": false,
+          "explanation": "Deletion is optional, but the guide suggests a softer approach."
+        },
+        {
+          "key": "B",
+          "text": "Add a word like “outdated” or “deprecated” to the page title and optionally move them to an Archive page",
+          "correct": true,
+          "explanation": "Correct – labeling helps Q&A recognize that the content may no longer be current."
+        },
+        {
+          "key": "C",
+          "text": "Convert them into PDFs and embed the PDFs on a new page",
+          "correct": false,
+          "explanation": "Embedding PDFs makes the content unreadable to Q&A."
+        },
+        {
+          "key": "D",
+          "text": "Leave them unchanged but restrict access to a single user",
+          "correct": false,
+          "explanation": "Access restrictions limit visibility, but labeling is the recommended practice."
+        }
+      ]
+    },
+    {
+      "id": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results-009",
+      "question": "Which phrasing technique is most likely to produce a precise answer from Q&A?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "“What happened at the design standup?”",
+          "correct": false,
+          "explanation": "Too generic; lacks time context."
+        },
+        {
+          "key": "B",
+          "text": "“What happened at the design standup today?”",
+          "correct": true,
+          "explanation": "Correct – adding a time‑specific phrase narrows the search to recent content."
+        },
+        {
+          "key": "C",
+          "text": "“Tell me everything about design.”",
+          "correct": false,
+          "explanation": "Very broad; Q&A may return many pages without focus."
+        },
+        {
+          "key": "D",
+          "text": "“Give me the onboarding process.”",
+          "correct": false,
+          "explanation": "Lacks specificity such as audience or format, which reduces precision."
+        }
+      ]
+    },
+    {
+      "id": "guides_understanding-how-q-and-a-finds-answers-can-help-you-get-better-results-010",
+      "question": "Compared to the AI Writer, what is a key limitation of Notion Q&A?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Q&A cannot access any information outside of the user’s workspace",
+          "correct": true,
+          "explanation": "Correct – Q&A is limited to workspace content, whereas AI Writer can draw on broader knowledge."
+        },
+        {
+          "key": "B",
+          "text": "Q&A does not support natural‑language responses",
+          "correct": false,
+          "explanation": "Q&A does provide natural‑language answers."
+        },
+        {
+          "key": "C",
+          "text": "Q&A cannot be used on mobile devices",
+          "correct": false,
+          "explanation": "Q&A is available across devices."
+        },
+        {
+          "key": "D",
+          "text": "Q&A requires users to write complex query syntax",
+          "correct": false,
+          "explanation": "Q&A is designed for plain, conversational questions."
+        }
+      ]
+    }
+  ]
+}

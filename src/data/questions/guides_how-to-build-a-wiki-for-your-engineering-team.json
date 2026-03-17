@@ -1,0 +1,317 @@
+{
+  "source": "guides_how-to-build-a-wiki-for-your-engineering-team",
+  "sourceTitle": "How to build a wiki for your engineering team",
+  "sourceUrl": "https://www.notion.com/help/guides/how-to-build-a-wiki-for-your-engineering-team",
+  "questions": [
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-engineering-team-001",
+      "question": "What is the primary reason a centralized engineering wiki is recommended for a team?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It reduces the need for version control systems.",
+          "correct": false,
+          "explanation": "Version control is still needed for code; a wiki complements it by storing documentation."
+        },
+        {
+          "key": "B",
+          "text": "It provides a single source of truth that prevents information silos and outdated docs.",
+          "correct": true,
+          "explanation": "A central wiki ensures everyone accesses up‑to‑date information, avoiding silos and duplicated effort."
+        },
+        {
+          "key": "C",
+          "text": "It automatically generates code for the team.",
+          "correct": false,
+          "explanation": "Notion does not generate code; it stores and displays documentation."
+        },
+        {
+          "key": "D",
+          "text": "It eliminates the need for meetings entirely.",
+          "correct": false,
+          "explanation": "While a wiki reduces some meeting overhead, communication still requires occasional meetings."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-engineering-team-002",
+      "question": "Which of the following steps creates the first page of an engineering wiki in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Press the `+` button next to **WORKSPACE** in the sidebar.",
+          "correct": true,
+          "explanation": "The `+` next to WORKSPACE creates a new top‑level page, which serves as the wiki’s root."
+        },
+        {
+          "key": "B",
+          "text": "Select **File → New → Wiki** from the top menu.",
+          "correct": false,
+          "explanation": "Notion does not have a File menu; pages are created via the sidebar or slash commands."
+        },
+        {
+          "key": "C",
+          "text": "Upload a PDF called “wiki.pdf”.",
+          "correct": false,
+          "explanation": "Uploading a PDF adds a file, but does not create a Notion page."
+        },
+        {
+          "key": "D",
+          "text": "Click the **Templates** button and choose “Engineering Wiki”.",
+          "correct": false,
+          "explanation": "Templates are optional; the basic step is to add a new page with the `+` sign."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-engineering-team-003",
+      "question": "How can you quickly turn a list of page names into multiple Notion pages at once?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the list, click the three‑dot (⋮⋮) icon, choose **Turn Into**, then pick **Page**.",
+          "correct": true,
+          "explanation": "The bulk‑convert feature lets you turn selected text into separate pages in one action."
+        },
+        {
+          "key": "B",
+          "text": "Copy the list, paste it into a new page, and press **Enter** after each line.",
+          "correct": false,
+          "explanation": "Pasting creates plain text, not separate pages."
+        },
+        {
+          "key": "C",
+          "text": "Drag each line to the sidebar one by one.",
+          "correct": false,
+          "explanation": "Dragging creates sub‑pages manually; it does not bulk‑convert."
+        },
+        {
+          "key": "D",
+          "text": "Right‑click the list and choose **Create Multiple Pages**.",
+          "correct": false,
+          "explanation": "There is no such context menu option in Notion."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-engineering-team-004",
+      "question": "When structuring your wiki, which Notion feature lets you visually separate sections under a header?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Typing three hyphens (`---`) to create a divider line.",
+          "correct": true,
+          "explanation": "Three hyphens produce a horizontal rule that visually separates content under a header."
+        },
+        {
+          "key": "B",
+          "text": "Adding a bullet list directly under the header.",
+          "correct": false,
+          "explanation": "Bullet lists organize items but do not create a visual divider."
+        },
+        {
+          "key": "C",
+          "text": "Changing the header color to red.",
+          "correct": false,
+          "explanation": "Header colors are not a native Notion feature for visual separation."
+        },
+        {
+          "key": "D",
+          "text": "Embedding a spreadsheet beneath the header.",
+          "correct": false,
+          "explanation": "Spreadsheets add data but do not act as a simple visual divider."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-engineering-team-005",
+      "question": "Which slash command would you use to embed a code snippet in a Notion page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "`/code`",
+          "correct": true,
+          "explanation": "`/code` opens the code block embed, allowing you to select a language and paste code."
+        },
+        {
+          "key": "B",
+          "text": "`/embed`",
+          "correct": false,
+          "explanation": "`/embed` is for generic URLs, not specifically for code blocks."
+        },
+        {
+          "key": "C",
+          "text": "`/snippet`",
+          "correct": false,
+          "explanation": "`/snippet` is not a recognized Notion command."
+        },
+        {
+          "key": "D",
+          "text": "`/github`",
+          "correct": false,
+          "explanation": "`/github` embeds a Gist, which is a specific type of code but not the generic code block."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-engineering-team-006",
+      "question": "What advantage does embedding a GitHub gist (`/github`) provide over a regular code block?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The gist stays synced with the source repository, reflecting updates automatically.",
+          "correct": true,
+          "explanation": "Gists are live embeds; when the original gist changes, the Notion embed updates, keeping code current."
+        },
+        {
+          "key": "B",
+          "text": "It automatically runs the code inside Notion.",
+          "correct": false,
+          "explanation": "Notion cannot execute code; it only displays it."
+        },
+        {
+          "key": "C",
+          "text": "It compresses the code to reduce page load time.",
+          "correct": false,
+          "explanation": "Embedding does not compress code; load time is similar to a regular block."
+        },
+        {
+          "key": "D",
+          "text": "It adds syntax highlighting for all programming languages automatically.",
+          "correct": false,
+          "explanation": "Regular code blocks also support syntax highlighting; the key benefit of a gist is live syncing."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-engineering-team-007",
+      "question": "How can you create multiple columns within a Notion page to better organize content?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Drag the ⋮⋮ icon next to a block to the far right until a blue guide appears.",
+          "correct": true,
+          "explanation": "Dragging the handle creates a column layout, with blue guides indicating placement."
+        },
+        {
+          "key": "B",
+          "text": "Select **Layout → Columns** from the top toolbar.",
+          "correct": false,
+          "explanation": "There is no Layout menu; column creation is done via drag‑and‑drop."
+        },
+        {
+          "key": "C",
+          "text": "Insert a table and treat each cell as a column.",
+          "correct": false,
+          "explanation": "Tables organize data but are not the same as page columns for layout."
+        },
+        {
+          "key": "D",
+          "text": "Use the `/column` slash command.",
+          "correct": false,
+          "explanation": "`/column` is not a valid Notion command."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-engineering-team-008",
+      "question": "Which of the following content types is NOT mentioned as embeddable in an engineering wiki page?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Figma design files",
+          "correct": false,
+          "explanation": "Figma files are explicitly listed as embeddable."
+        },
+        {
+          "key": "B",
+          "text": "LaTeX math equations",
+          "correct": false,
+          "explanation": "LaTeX math equations are mentioned as a supported embed."
+        },
+        {
+          "key": "C",
+          "text": "Audio recordings",
+          "correct": true,
+          "explanation": "Audio recordings are not listed among the examples; the guide focuses on code, diagrams, etc."
+        },
+        {
+          "key": "D",
+          "text": "GitHub gists",
+          "correct": false,
+          "explanation": "GitHub gists are included as an embed option."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-engineering-team-009",
+      "question": "What is the benefit of nesting infinite pages inside the wiki’s sidebar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows users to access any sub‑page with just a couple of clicks, keeping the hierarchy organized.",
+          "correct": true,
+          "explanation": "Nested pages appear in the sidebar, making deep structures easy to navigate without searching."
+        },
+        {
+          "key": "B",
+          "text": "It automatically creates a public website for each sub‑page.",
+          "correct": false,
+          "explanation": "Sidebar nesting does not affect public sharing settings."
+        },
+        {
+          "key": "C",
+          "text": "It disables the ability to edit the pages.",
+          "correct": false,
+          "explanation": "Nesting does not change edit permissions."
+        },
+        {
+          "key": "D",
+          "text": "It merges all sub‑pages into a single PDF document.",
+          "correct": false,
+          "explanation": "Sidebar nesting is a navigation feature, not a export function."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-build-a-wiki-for-your-engineering-team-010",
+      "question": "According to the guide, what should you do after setting up the basic structure of your engineering wiki?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Customize it with emojis, cover art, and appropriate headers to make it intuitive.",
+          "correct": true,
+          "explanation": "The guide suggests adding personality and clear headings to improve usability."
+        },
+        {
+          "key": "B",
+          "text": "Immediately share it on social media for feedback.",
+          "correct": false,
+          "explanation": "Social sharing is not mentioned as a next step in the guide."
+        },
+        {
+          "key": "C",
+          "text": "Delete all sub‑pages and start over to ensure perfection.",
+          "correct": false,
+          "explanation": "Rebuilding from scratch is unnecessary; iteration is encouraged."
+        },
+        {
+          "key": "D",
+          "text": "Lock the wiki so only the creator can view it.",
+          "correct": false,
+          "explanation": "The wiki is meant to be collaborative, not locked to a single user."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source": "guides_documents-database-for-product-teams",
+  "sourceTitle": "A documents database tailored for product teams",
+  "sourceUrl": "https://www.notion.so/help/guides/documents-database-for-product-teams",
+  "questions": [
+    {
+      "id": "guides_documents-database-for-product-teams-001",
+      "question": "Where do you go to add the Docs template to your Notion workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the **Templates** option in the sidebar, search for **Docs**, and select **Get template**.",
+          "correct": true,
+          "explanation": "The article explains that you add the template via the Templates section in the sidebar, then search for Docs and click Get template."
+        },
+        {
+          "key": "B",
+          "text": "Open any page, type **/docs**, and press Enter.",
+          "correct": false,
+          "explanation": "Typing /docs creates a block, not the full database template."
+        },
+        {
+          "key": "C",
+          "text": "Navigate to **Settings → Integrations → Docs Template**.",
+          "correct": false,
+          "explanation": "There is no Settings‑Integrations path for adding the Docs template."
+        },
+        {
+          "key": "D",
+          "text": "Upload a CSV file named **Docs.csv** to a new database.",
+          "correct": false,
+          "explanation": "Uploading a CSV creates a table of rows, not the pre‑built Docs template."
+        }
+      ]
+    },
+    {
+      "id": "guides_documents-database-for-product-teams-002",
+      "question": "Which property type would you use to show how many incomplete tasks are linked to a document?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Relation",
+          "correct": false,
+          "explanation": "A Relation links to another database but does not count items; you need a Rollup for counting."
+        },
+        {
+          "key": "B",
+          "text": "Rollup",
+          "correct": true,
+          "explanation": "A Rollup can aggregate values from a related database, such as counting incomplete tasks."
+        },
+        {
+          "key": "C",
+          "text": "Select",
+          "correct": false,
+          "explanation": "Select lets you choose a single value; it cannot compute counts."
+        },
+        {
+          "key": "D",
+          "text": "Formula",
+          "correct": false,
+          "explanation": "While a Formula can calculate, you first need a Rollup to bring in the task data before a formula could be applied."
+        }
+      ]
+    },
+    {
+      "id": "guides_documents-database-for-product-teams-003",
+      "question": "If you want a view that only shows documents whose status is \"In Review\", which combination of actions is correct?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a new view, name it “To Review”, add a filter → Status = “In Review”.",
+          "correct": true,
+          "explanation": "The article describes exactly this workflow for a review‑focused view."
+        },
+        {
+          "key": "B",
+          "text": "Duplicate the default table view and rename it “In Review”.",
+          "correct": false,
+          "explanation": "Renaming alone does not filter the items; you still need to add a filter."
+        },
+        {
+          "key": "C",
+          "text": "Switch the existing board view to group by \"In Review\".",
+          "correct": false,
+          "explanation": "Board views group by a property, not filter by a specific value."
+        },
+        {
+          "key": "D",
+          "text": "Add a new column property called “In Review” and sort by it.",
+          "correct": false,
+          "explanation": "Adding a column does not automatically filter; you’d still need a filter condition."
+        }
+      ]
+    },
+    {
+      "id": "guides_documents-database-for-product-teams-004",
+      "question": "Which of the following statements about database templates is FALSE?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Templates let you pre‑fill properties and sections so you only need to fill in the blanks for each new page.",
+          "correct": false,
+          "explanation": "This describes the core purpose of database templates correctly."
+        },
+        {
+          "key": "B",
+          "text": "You can set a template as the default for every new entry in the database.",
+          "correct": false,
+          "explanation": "The article notes you can choose a default template for new items."
+        },
+        {
+          "key": "C",
+          "text": "Templates can only be used for RFCs and PRDs, not for any other document type.",
+          "correct": true,
+          "explanation": "The guide explicitly says you can create any templates you want, not just RFCs or PRDs."
+        },
+        {
+          "key": "D",
+          "text": "You edit a template by clicking the three‑dot menu next to its name and modifying the page that opens.",
+          "correct": false,
+          "explanation": "This matches the described method for editing templates."
+        }
+      ]
+    },
+    {
+      "id": "guides_documents-database-for-product-teams-005",
+      "question": "What advantage does adding a **Relation** property between the docs database and a tasks database provide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically creates a duplicate copy of every task inside each document.",
+          "correct": false,
+          "explanation": "Relations link records; they do not duplicate content."
+        },
+        {
+          "key": "B",
+          "text": "It enables you to link a document to specific tasks, allowing you to see related work in one place.",
+          "correct": true,
+          "explanation": "Relations are meant for linking records across databases, which is exactly what the article suggests."
+        },
+        {
+          "key": "C",
+          "text": "It changes the document’s status property to match the task’s status.",
+          "correct": false,
+          "explanation": "Relations do not sync property values; they only create a reference."
+        },
+        {
+          "key": "D",
+          "text": "It converts the document into a Kanban board automatically.",
+          "correct": false,
+          "explanation": "Board views are a separate view type; a Relation does not affect layout."
+        }
+      ]
+    },
+    {
+      "id": "guides_documents-database-for-product-teams-006",
+      "question": "Which block type would you use to make a short, highlighted note that stands out from regular text?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Callout",
+          "correct": true,
+          "explanation": "The guide lists Callouts as the way to highlight a piece of text."
+        },
+        {
+          "key": "B",
+          "text": "Divider",
+          "correct": false,
+          "explanation": "Dividers create a visual line, not a highlighted note."
+        },
+        {
+          "key": "C",
+          "text": "Toggle list",
+          "correct": false,
+          "explanation": "Toggle lists hide content behind a clickable heading, not highlight it."
+        },
+        {
+          "key": "D",
+          "text": "Quote",
+          "correct": false,
+          "explanation": "Quotes format text as a quotation, not as a highlighted callout."
+        }
+      ]
+    },
+    {
+      "id": "guides_documents-database-for-product-teams-007",
+      "question": "When would a **Calendar** view be most useful for a docs database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you want to see documents ordered by their creation date.",
+          "correct": false,
+          "explanation": "Creation date is not a date property that can be displayed on a calendar; calendar view relies on a specific date field."
+        },
+        {
+          "key": "B",
+          "text": "When each document has a due‑date property and you need to visualize upcoming deadlines.",
+          "correct": true,
+          "explanation": "The article explains adding a due‑date property and then a calendar view to organize docs by that date."
+        },
+        {
+          "key": "C",
+          "text": "When you need to group documents by their status (To Do, In Progress, Complete).",
+          "correct": false,
+          "explanation": "Grouping by status is done with a board view, not a calendar."
+        },
+        {
+          "key": "D",
+          "text": "When you want to display the number of incomplete tasks per document.",
+          "correct": false,
+          "explanation": "That information is shown via a Rollup, not a calendar view."
+        }
+      ]
+    },
+    {
+      "id": "guides_documents-database-for-product-teams-008",
+      "question": "What is the primary purpose of the **\"Mine\"** saved view in the template?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To show every document that has the word “mine” in its title.",
+          "correct": false,
+          "explanation": "The view filters by the creator/editor, not by the word in the title."
+        },
+        {
+          "key": "B",
+          "text": "To display documents you created or recently edited.",
+          "correct": true,
+          "explanation": "The article describes the “Mine” view as showing any pages you’ve created or recently edited."
+        },
+        {
+          "key": "C",
+          "text": "To list all documents that are marked with the tag \"Mine\".",
+          "correct": false,
+          "explanation": "There is no tag called \"Mine\"; the view uses ownership, not tags."
+        },
+        {
+          "key": "D",
+          "text": "To sort documents alphabetically by their title.",
+          "correct": false,
+          "explanation": "Sorting alphabetically is a sort setting, not the purpose of the \"Mine\" view."
+        }
+      ]
+    },
+    {
+      "id": "guides_documents-database-for-product-teams-009",
+      "question": "Which combination of steps would let you automatically generate a new RFC document every Monday?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create an RFC template, set it as the default template, and enable the \"Repeat\" option with a weekly cadence on Monday.",
+          "correct": true,
+          "explanation": "The guide mentions you can schedule repeating templates, which allows automatic creation on a set cadence."
+        },
+        {
+          "key": "B",
+          "text": "Add a Formula property that checks the current day and duplicates the template when it's Monday.",
+          "correct": false,
+          "explanation": "Formulas cannot create new pages; they only calculate values."
+        },
+        {
+          "key": "C",
+          "text": "Create a board view grouped by \"Day of Week\" and manually drag the RFC template into the Monday column each week.",
+          "correct": false,
+          "explanation": "Board views are for organization, not automation of page creation."
+        },
+        {
+          "key": "D",
+          "text": "Set a Reminder on the RFC template page for every Monday.",
+          "correct": false,
+          "explanation": "Reminders alert you; they do not generate new database entries."
+        }
+      ]
+    },
+    {
+      "id": "guides_documents-database-for-product-teams-010",
+      "question": "Why might a product manager choose to embed a Jira issue inside a PRD page?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To automatically sync the PRD’s status with the Jira issue’s status without any manual steps.",
+          "correct": false,
+          "explanation": "Embedding shows the issue, but does not create a two‑way sync of status."
+        },
+        {
+          "key": "B",
+          "text": "To give readers quick visibility into related development work without leaving Notion.",
+          "correct": true,
+          "explanation": "The article highlights embedding content from tools like Jira to provide full visibility within Notion."
+        },
+        {
+          "key": "C",
+          "text": "To replace the need for a separate tasks database in Notion.",
+          "correct": false,
+          "explanation": "Embedding supplements, not replaces, the tasks database; you still may need a tasks DB for tracking."
+        },
+        {
+          "key": "D",
+          "text": "To convert the Jira issue into a Notion page automatically.",
+          "correct": false,
+          "explanation": "Embedding displays the issue; it does not convert it into a native Notion page."
+        }
+      ]
+    }
+  ]
+}

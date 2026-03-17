@@ -1,0 +1,255 @@
+{
+  "source": "guides_reminders-and-mentions",
+  "sourceTitle": "Reminders & @mentions",
+  "sourceUrl": "https://www.notion.so/help/guides/reminders-and-mentions",
+  "questions": [
+    {
+      "id": "guides_reminders-and-mentions-001",
+      "question": "What happens when you type the @ key in a Notion page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It opens a menu to insert a table.",
+          "correct": false,
+          "explanation": "Inserting a table uses the slash (/) command, not @."
+        },
+        {
+          "key": "B",
+          "text": "It displays options to mention a date, person, or page.",
+          "correct": true,
+          "explanation": "The @ key triggers the mention menu, letting you link dates, people, or pages."
+        },
+        {
+          "key": "C",
+          "text": "It automatically saves the page as a template.",
+          "correct": false,
+          "explanation": "Saving as a template is done via the ••• menu, not the @ key."
+        },
+        {
+          "key": "D",
+          "text": "It creates a new page in the workspace.",
+          "correct": false,
+          "explanation": "Creating a new page uses the slash command or the + button, not @."
+        }
+      ]
+    },
+    {
+      "id": "guides_reminders-and-mentions-002",
+      "question": "When you mention a person in a Notion page, how are they notified?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They receive an email regardless of their notification settings.",
+          "correct": false,
+          "explanation": "Notion respects each user’s notification preferences; email isn’t guaranteed."
+        },
+        {
+          "key": "B",
+          "text": "A notification appears in their Notion sidebar inbox.",
+          "correct": true,
+          "explanation": "Mentioning a person sends a notification to their workspace sidebar inbox."
+        },
+        {
+          "key": "C",
+          "text": "Their phone vibrates automatically.",
+          "correct": false,
+          "explanation": "Phone vibrations depend on mobile push settings, not a default behavior of mentions."
+        },
+        {
+          "key": "D",
+          "text": "They are added as a collaborator to the page.",
+          "correct": false,
+          "explanation": "Mentioning does not change sharing permissions; it only notifies."
+        }
+      ]
+    },
+    {
+      "id": "guides_reminders-and-mentions-003",
+      "question": "Which of the following sequences correctly creates a reminder using the @ key?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "@ remind tomorrow at 9am",
+          "correct": true,
+          "explanation": "After typing @, you choose “remind” and then specify the date and time."
+        },
+        {
+          "key": "B",
+          "text": "@ date tomorrow then set reminder",
+          "correct": false,
+          "explanation": "You must select the remind option directly; “date” only inserts a timestamp."
+        },
+        {
+          "key": "C",
+          "text": "/remind tomorrow 9am",
+          "correct": false,
+          "explanation": "The slash command is for blocks, not for setting reminders."
+        },
+        {
+          "key": "D",
+          "text": "@ page then click “Add reminder”",
+          "correct": false,
+          "explanation": "You can’t add a reminder to a page mention; reminders are set via the remind option."
+        }
+      ]
+    },
+    {
+      "id": "guides_reminders-and-mentions-004",
+      "question": "In a database, how can you make a reminder include a specific time rather than just a date?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enable the “Include time” toggle in the reminder settings.",
+          "correct": true,
+          "explanation": "The article notes that more granular options are available by enabling Include time."
+        },
+        {
+          "key": "B",
+          "text": "Add a second @ mention with the time after the date.",
+          "correct": false,
+          "explanation": "Only one reminder can be set per @ mention; the time is controlled by the toggle."
+        },
+        {
+          "key": "C",
+          "text": "Create a separate time property in the database.",
+          "correct": false,
+          "explanation": "While you can have a time property, it doesn’t affect the reminder’s precision."
+        },
+        {
+          "key": "D",
+          "text": "Set the workspace’s default time zone to the desired time.",
+          "correct": false,
+          "explanation": "Time zones affect display, not the inclusion of a specific time in a reminder."
+        }
+      ]
+    },
+    {
+      "id": "guides_reminders-and-mentions-005",
+      "question": "Where do reminders appear once they are triggered?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the page’s comment section.",
+          "correct": false,
+          "explanation": "Comments are separate from reminders; reminders go to the inbox."
+        },
+        {
+          "key": "B",
+          "text": "In your Notion sidebar’s Inbox.",
+          "correct": true,
+          "explanation": "The article states that reminders are sent to your Inbox in the sidebar."
+        },
+        {
+          "key": "C",
+          "text": "As a pop‑up window on the desktop app.",
+          "correct": false,
+          "explanation": "Notion does not use pop‑up windows for reminders; they are delivered via the inbox."
+        },
+        {
+          "key": "D",
+          "text": "In a separate “Reminders” page automatically created for you.",
+          "correct": false,
+          "explanation": "No automatic page is generated; reminders are managed through the inbox."
+        }
+      ]
+    },
+    {
+      "id": "guides_reminders-and-mentions-006",
+      "question": "Which settings area lets you customize how you receive @mention and reminder notifications?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Settings → My notifications",
+          "correct": true,
+          "explanation": "The article explicitly mentions that notification settings are under Settings, then My notifications."
+        },
+        {
+          "key": "B",
+          "text": "Workspace → Permissions",
+          "correct": false,
+          "explanation": "Permissions control access, not notification preferences."
+        },
+        {
+          "key": "C",
+          "text": "Account → Security",
+          "correct": false,
+          "explanation": "Security settings handle login and authentication, not notification delivery."
+        },
+        {
+          "key": "D",
+          "text": "Help Center → Customize alerts",
+          "correct": false,
+          "explanation": "The Help Center provides documentation, not a settings screen."
+        }
+      ]
+    },
+    {
+      "id": "guides_reminders-and-mentions-007",
+      "question": "What is the primary functional difference between mentioning a page and mentioning a person?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mentioning a page creates a clickable link; mentioning a person sends a notification to them.",
+          "correct": true,
+          "explanation": "Pages are linked for navigation, while people are notified via their sidebar inbox."
+        },
+        {
+          "key": "B",
+          "text": "Mentioning a page automatically shares the page with the mentioned person.",
+          "correct": false,
+          "explanation": "Linking a page does not change sharing permissions."
+        },
+        {
+          "key": "C",
+          "text": "Mentioning a person adds them as an editor of the page.",
+          "correct": false,
+          "explanation": "Mentions do not grant editing rights; they only alert the person."
+        },
+        {
+          "key": "D",
+          "text": "Mentioning a page sends an email, whereas mentioning a person does not.",
+          "correct": false,
+          "explanation": "Both mentions follow the user’s notification settings; emails are not guaranteed for either."
+        }
+      ]
+    },
+    {
+      "id": "guides_reminders-and-mentions-008",
+      "question": "Can you add a timestamp to a page without creating a reminder, and if so, how?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, by typing @ followed by a date without selecting the remind option.",
+          "correct": true,
+          "explanation": "The @ menu lets you insert a date (timestamp) directly; a reminder is only added if you choose the remind option."
+        },
+        {
+          "key": "B",
+          "text": "No, every date inserted via @ automatically creates a reminder.",
+          "correct": false,
+          "explanation": "Dates can be added as plain timestamps without a reminder."
+        },
+        {
+          "key": "C",
+          "text": "Yes, but you must first disable reminders in Settings.",
+          "correct": false,
+          "explanation": "Disabling reminders isn’t required; you simply choose the date option, not remind."
+        },
+        {
+          "key": "D",
+          "text": "No, timestamps are only possible through the slash (/) command.",
+          "correct": false,
+          "explanation": "Timestamps are added via the @ menu, not the slash command."
+        }
+      ]
+    }
+  ]
+}

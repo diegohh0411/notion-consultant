@@ -1,0 +1,317 @@
+{
+  "source": "guides_power-your-deep-work-using-research-mode-in-notion",
+  "sourceTitle": "Power your deep work using Research Mode in Notion",
+  "sourceUrl": "https://www.notion.com/help/guides/power-your-deep-work-using-research-mode-in-notion",
+  "questions": [
+    {
+      "id": "guides_power-your-deep-work-using-research-mode-in-notion-001",
+      "question": "What is the primary benefit of using Research Mode compared to a simple keyword search in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It returns results faster by searching only the current page.",
+          "correct": false,
+          "explanation": "Research Mode is not about speed; it searches across many sources, not just the current page."
+        },
+        {
+          "key": "B",
+          "text": "It blends multiple internal and external sources, analyzes them, and synthesizes a context‑rich answer.",
+          "correct": true,
+          "explanation": "Correct – Research Mode performs deep, multi‑step searches across Notion, connected tools, and the web, then organizes the findings."
+        },
+        {
+          "key": "C",
+          "text": "It only searches public web pages, ignoring internal Notion data.",
+          "correct": false,
+          "explanation": "Research Mode includes internal Notion data; it does not limit itself to the public web."
+        },
+        {
+          "key": "D",
+          "text": "It creates a new Notion page automatically for every query.",
+          "correct": false,
+          "explanation": "While it can generate a report, it does not automatically create a new page for every query."
+        }
+      ]
+    },
+    {
+      "id": "guides_power-your-deep-work-using-research-mode-in-notion-002",
+      "question": "Which of the following best describes when you should switch the Notion AI search toggle to **Research**?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you need a single fact that lives in one document.",
+          "correct": false,
+          "explanation": "Simple facts are better served by a regular search; Research Mode is for multi‑source questions."
+        },
+        {
+          "key": "B",
+          "text": "When your question requires synthesis across meeting notes, databases, and external articles.",
+          "correct": true,
+          "explanation": "Correct – Research Mode shines on questions that span multiple sources and need contextual synthesis."
+        },
+        {
+          "key": "C",
+          "text": "When you want to edit the formatting of an existing page.",
+          "correct": false,
+          "explanation": "Formatting edits are not a use case for Research Mode."
+        },
+        {
+          "key": "D",
+          "text": "When you need to export a page as PDF.",
+          "correct": false,
+          "explanation": "Exporting is unrelated to the Research Mode toggle."
+        }
+      ]
+    },
+    {
+      "id": "guides_power-your-deep-work-using-research-mode-in-notion-003",
+      "question": "How does Research Mode handle citations in the reports it generates?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It adds a bibliography at the end without linking to the original sources.",
+          "correct": false,
+          "explanation": "Research Mode provides hyperlinked citations, not a static bibliography."
+        },
+        {
+          "key": "B",
+          "text": "It inserts hyperlinked citations inline, allowing you to jump directly to each source.",
+          "correct": true,
+          "explanation": "Correct – each insight is accompanied by a clickable link to the originating document or web page."
+        },
+        {
+          "key": "C",
+          "text": "It only cites internal Notion pages, ignoring external web sources.",
+          "correct": false,
+          "explanation": "Research Mode cites both internal and external sources when web search is enabled."
+        },
+        {
+          "key": "D",
+          "text": "It does not provide any citation information; you must add it manually.",
+          "correct": false,
+          "explanation": "Citations are automatically generated; manual addition is unnecessary."
+        }
+      ]
+    },
+    {
+      "id": "guides_power-your-deep-work-using-research-mode-in-notion-004",
+      "question": "Which best practice improves the relevance of a Research Mode session when you need information from a specific database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Turn off web search to force the query to stay inside Notion.",
+          "correct": false,
+          "explanation": "Turning off web search limits external data but does not specifically target a database."
+        },
+        {
+          "key": "B",
+          "text": "Use an @mention of the database in your prompt.",
+          "correct": true,
+          "explanation": "Correct – @mentioning directs Research Mode to prioritize that database in the search."
+        },
+        {
+          "key": "C",
+          "text": "Upload a PDF of the database schema before asking the question.",
+          "correct": false,
+          "explanation": "Uploading a PDF helps with content context but does not directly target a database."
+        },
+        {
+          "key": "D",
+          "text": "Start a new Notion page for each query.",
+          "correct": false,
+          "explanation": "Creating a new page does not affect source relevance."
+        }
+      ]
+    },
+    {
+      "id": "guides_power-your-deep-work-using-research-mode-in-notion-005",
+      "question": "If you are working in a HIPAA‑enabled workspace, what limitation does Research Mode have?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It cannot search internal Notion pages at all.",
+          "correct": false,
+          "explanation": "HIPAA workspaces can still search internal Notion pages and connected tools."
+        },
+        {
+          "key": "B",
+          "text": "Web search is disabled, but internal searches still run.",
+          "correct": true,
+          "explanation": "Correct – external web sources are blocked, while deep internal searches remain available."
+        },
+        {
+          "key": "C",
+          "text": "Research Mode runs for only 30 seconds per session.",
+          "correct": false,
+          "explanation": "Session length is still up to five minutes; the limitation is about web access."
+        },
+        {
+          "key": "D",
+          "text": "All results are automatically anonymized before display.",
+          "correct": false,
+          "explanation": "Anonymization is not mentioned as a HIPAA limitation in the article."
+        }
+      ]
+    },
+    {
+      "id": "guides_power-your-deep-work-using-research-mode-in-notion-006",
+      "question": "Which of the following is **NOT** listed as one of the five example ways to use Research Mode?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Drafting a product requirement document (PRD).",
+          "correct": false,
+          "explanation": "Drafting a PRD is one of the listed use cases."
+        },
+        {
+          "key": "B",
+          "text": "Creating a market entry plan.",
+          "correct": false,
+          "explanation": "A market entry plan is specifically mentioned."
+        },
+        {
+          "key": "C",
+          "text": "Generating a financial forecast for the next quarter.",
+          "correct": true,
+          "explanation": "Financial forecasting is not among the five highlighted scenarios."
+        },
+        {
+          "key": "D",
+          "text": "Synthesizing user research findings.",
+          "correct": false,
+          "explanation": "Synthesizing user research is one of the examples."
+        }
+      ]
+    },
+    {
+      "id": "guides_power-your-deep-work-using-research-mode-in-notion-007",
+      "question": "What is the maximum duration a single Research Mode session can run before it automatically stops?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "One minute",
+          "correct": false,
+          "explanation": "The article states a longer limit."
+        },
+        {
+          "key": "B",
+          "text": "Five minutes",
+          "correct": true,
+          "explanation": "Correct – sessions run for up to five minutes, allowing background searches."
+        },
+        {
+          "key": "C",
+          "text": "Ten minutes",
+          "correct": false,
+          "explanation": "Ten minutes exceeds the stated limit."
+        },
+        {
+          "key": "D",
+          "text": "Unlimited, until you close the window",
+          "correct": false,
+          "explanation": "The session has a defined time cap."
+        }
+      ]
+    },
+    {
+      "id": "guides_power-your-deep-work-using-research-mode-in-notion-008",
+      "question": "Which action helps Research Mode incorporate richer context from non‑textual sources?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Typing the URL of an image in the prompt.",
+          "correct": false,
+          "explanation": "Simply typing a URL does not attach the file for analysis."
+        },
+        {
+          "key": "B",
+          "text": "Uploading PDFs or images directly into the Research Mode session.",
+          "correct": true,
+          "explanation": "Correct – attached files let Research Mode read and embed their content."
+        },
+        {
+          "key": "C",
+          "text": "Enabling the ‘voice input’ feature.",
+          "correct": false,
+          "explanation": "Voice input is not discussed as a way to add context."
+        },
+        {
+          "key": "D",
+          "text": "Adding a markdown table to the prompt.",
+          "correct": false,
+          "explanation": "Tables are textual content; the article emphasizes file attachments for richer media."
+        }
+      ]
+    },
+    {
+      "id": "guides_power-your-deep-work-using-research-mode-in-notion-009",
+      "question": "When should you toggle **web search off** during a Research Mode query?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you need the most up‑to‑date competitor news.",
+          "correct": false,
+          "explanation": "Competitor news typically requires web search to be on."
+        },
+        {
+          "key": "B",
+          "text": "When you want the report to focus solely on internal Notion data and connected tools.",
+          "correct": true,
+          "explanation": "Correct – turning off web search restricts results to internal sources."
+        },
+        {
+          "key": "C",
+          "text": "When you are working in a HIPAA workspace and need external sources.",
+          "correct": false,
+          "explanation": "HIPAA workspaces cannot use web search at all; you wouldn't turn it on."
+        },
+        {
+          "key": "D",
+          "text": "When you are drafting a PRD that requires industry benchmarks.",
+          "correct": false,
+          "explanation": "Industry benchmarks often come from external sites, so web search should stay on."
+        }
+      ]
+    },
+    {
+      "id": "guides_power-your-deep-work-using-research-mode-in-notion-010",
+      "question": "What is a recommended habit if you need to ask a completely unrelated question after a Research Mode session?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continue typing in the same session; Research Mode will automatically adjust.",
+          "correct": false,
+          "explanation": "The session builds on the original query, so unrelated topics may get mixed results."
+        },
+        {
+          "key": "B",
+          "text": "Open a new Research Mode session for the new question.",
+          "correct": true,
+          "explanation": "Correct – starting fresh ensures results are relevant to the new query."
+        },
+        {
+          "key": "C",
+          "text": "Disable the AI and re‑enable it after a minute.",
+          "correct": false,
+          "explanation": "Disabling and re‑enabling does not reset the query context."
+        },
+        {
+          "key": "D",
+          "text": "Add the new question as a comment at the bottom of the previous report.",
+          "correct": false,
+          "explanation": "Comments won’t create a new, independent search context."
+        }
+      ]
+    }
+  ]
+}

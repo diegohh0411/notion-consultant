@@ -1,0 +1,317 @@
+{
+  "source": "complimentary-ai-responses",
+  "sourceTitle": "Notion AI complimentary responses",
+  "sourceUrl": "https://www.notion.so/help/complimentary-ai-responses",
+  "questions": [
+    {
+      "id": "complimentary-ai-responses-001",
+      "question": "What happens when you have used all your complimentary AI responses?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion AI will automatically upgrade you to the Business plan.",
+          "correct": false,
+          "explanation": "Notion AI will not upgrade you automatically. You must manually upgrade your plan."
+        },
+        {
+          "key": "B",
+          "text": "You will see a message that an upgrade to the Business or Enterprise Plan is necessary.",
+          "correct": true,
+          "explanation": "The article states that once you've used all complimentary responses, a message will appear requesting an upgrade to Business or Enterprise."
+        },
+        {
+          "key": "C",
+          "text": "You will be locked out of the Notion application entirely.",
+          "correct": false,
+          "explanation": "You will not be locked out of the app; only the AI features will be restricted until you upgrade."
+        },
+        {
+          "key": "D",
+          "text": "Your remaining responses will double to compensate.",
+          "correct": false,
+          "explanation": "There is no compensation or doubling of responses; the limit is fixed."
+        }
+      ]
+    },
+    {
+      "id": "complimentary-ai-responses-002",
+      "question": "Who is required to be a workspace owner to upgrade the plan for AI features?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any member of the workspace.",
+          "correct": false,
+          "explanation": "The article specifically requires the user to be a 'workspace owner' to perform the upgrade."
+        },
+        {
+          "key": "B",
+          "text": "A workspace owner.",
+          "correct": true,
+          "explanation": "The text states: 'You’ll need to be a workspace owner'."
+        },
+        {
+          "key": "C",
+          "text": "The administrator of the billing system.",
+          "correct": false,
+          "explanation": "There is no mention of a billing system administrator; the requirement is for a workspace owner."
+        },
+        {
+          "key": "D",
+          "text": "A super admin.",
+          "correct": false,
+          "explanation": "The specific role required is 'workspace owner', not 'super admin'."
+        }
+      ]
+    },
+    {
+      "id": "complimentary-ai-responses-003",
+      "question": "Where must you be located (platform) to upgrade your plan to access AI features?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "On mobile devices.",
+          "correct": false,
+          "explanation": "The article specifies that the upgrade must be done 'on desktop'."
+        },
+        {
+          "key": "B",
+          "text": "On desktop.",
+          "correct": true,
+          "explanation": "The text explicitly says: 'and on desktop, to upgrade your plan'."
+        },
+        {
+          "key": "C",
+          "text": "On the web interface.",
+          "correct": false,
+          "explanation": "While web is similar to desktop, the specific requirement mentioned is 'desktop'."
+        },
+        {
+          "key": "D",
+          "text": "Only in the Notion Mail app.",
+          "correct": false,
+          "explanation": "The article mentions Notion Mail as a place where AI is used, but the upgrade link is for the general plan upgrade."
+        }
+      ]
+    },
+    {
+      "id": "complimentary-ai-responses-004",
+      "question": "Does adding an autofill property count toward your complimentary AI responses?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, it is free forever.",
+          "correct": false,
+          "explanation": "Adding an autofill property is listed as an AI action that counts as a response."
+        },
+        {
+          "key": "B",
+          "text": "Yes, it counts as an AI response.",
+          "correct": true,
+          "explanation": "The article lists 'adding an autofill property' as one of the actions that counts toward complimentary responses."
+        },
+        {
+          "key": "C",
+          "text": "Only if the property is a date type.",
+          "correct": false,
+          "explanation": "The text does not differentiate by property type; any autofill action counts."
+        },
+        {
+          "key": "D",
+          "text": "No, it is not considered an AI action.",
+          "correct": false,
+          "explanation": "The article explicitly defines 'using AI blocks, adding an autofill property' as actions that count."
+        }
+      ]
+    },
+    {
+      "id": "complimentary-ai-responses-005",
+      "question": "Does using Notion AI within Notion Mail count toward your complimentary AI responses?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, email is excluded from the count.",
+          "correct": false,
+          "explanation": "The article states that responses received from Notion AI in Notion Mail count as responses."
+        },
+        {
+          "key": "B",
+          "text": "Yes, it counts as an AI response.",
+          "correct": true,
+          "explanation": "The text states: 'in Notion or Notion Mail and receive a response from Notion AI, that counts as an AI response'."
+        },
+        {
+          "key": "C",
+          "text": "It counts as half a response.",
+          "correct": false,
+          "explanation": "There is no concept of partial responses; it counts fully as a response."
+        },
+        {
+          "key": "D",
+          "text": "Only if you are a Business plan user.",
+          "correct": false,
+          "explanation": "The count applies regardless of plan status for the action itself."
+        }
+      ]
+    },
+    {
+      "id": "complimentary-ai-responses-006",
+      "question": "If you click 'Try again' on an AI response, how does it affect your complimentary response count?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It does not change the count.",
+          "correct": false,
+          "explanation": "The article states that clicking 'Try again' counts as an *additional* AI response."
+        },
+        {
+          "key": "B",
+          "text": "It uses a different currency or token system.",
+          "correct": false,
+          "explanation": "There is no separate token system; every 'Try again' uses a standard complimentary response."
+        },
+        {
+          "key": "C",
+          "text": "It counts as an additional AI response.",
+          "correct": true,
+          "explanation": "The text explicitly says: 'Anytime you click Try again, that counts as an additional AI response'."
+        },
+        {
+          "key": "D",
+          "text": "It adds 1.5 times the response to your total.",
+          "correct": false,
+          "explanation": "There is no multiplier; it adds exactly one additional response."
+        }
+      ]
+    },
+    {
+      "id": "complimentary-ai-responses-007",
+      "question": "Which of the following specific actions is explicitly exempted from counting toward complimentary responses?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Creating a database with Notion AI.",
+          "correct": true,
+          "explanation": "The article explicitly lists this as the 'only exception' to the rule that actions count as responses."
+        },
+        {
+          "key": "B",
+          "text": "Editing existing content.",
+          "correct": false,
+          "explanation": "Editing existing content is listed as an action that counts as a response."
+        },
+        {
+          "key": "C",
+          "text": "Asking a question.",
+          "correct": false,
+          "explanation": "Asking a question is listed as an action that counts as a response."
+        },
+        {
+          "key": "D",
+          "text": "Creating new content.",
+          "correct": false,
+          "explanation": "Creating new content is listed as an action that counts as a response."
+        }
+      ]
+    },
+    {
+      "id": "complimentary-ai-responses-008",
+      "question": "Which plans allow you to continue using AI features after exhausting complimentary responses?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Personal plan.",
+          "correct": false,
+          "explanation": "The article specifies that you must upgrade to the 'Business or Enterprise Plan'."
+        },
+        {
+          "key": "B",
+          "text": "Business or Enterprise Plan.",
+          "correct": true,
+          "explanation": "The text states that an upgrade to the Business or Enterprise Plan is necessary to continue using AI features."
+        },
+        {
+          "key": "C",
+          "text": "Team plan.",
+          "correct": false,
+          "explanation": "There is no mention of a 'Team' plan; the options are Business and Enterprise."
+        },
+        {
+          "key": "D",
+          "text": "Free plan.",
+          "correct": false,
+          "explanation": "The free plan only offers complimentary responses; continuing requires an upgrade."
+        }
+      ]
+    },
+    {
+      "id": "complimentary-ai-responses-009",
+      "question": "What is the criteria for an action to count as an AI response?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You must take an AI action and receive a response from Notion AI.",
+          "correct": true,
+          "explanation": "The article defines a response as taking an AI action (e.g., editing, asking) and receiving a result."
+        },
+        {
+          "key": "B",
+          "text": "You must create content using Notion AI blocks.",
+          "correct": false,
+          "explanation": "While using blocks is one way to take an action, the definition is broader (includes questions, autofill, etc.)."
+        },
+        {
+          "key": "C",
+          "text": "You must receive a response from Notion AI.",
+          "correct": false,
+          "explanation": "You must take an action *and* receive a response; receiving a response without taking an action isn't possible."
+        },
+        {
+          "key": "D",
+          "text": "You must type a specific keyword to trigger the AI.",
+          "correct": false,
+          "explanation": "The criteria are based on actions taken and responses received, not specific keywords."
+        }
+      ]
+    },
+    {
+      "id": "complimentary-ai-responses-010",
+      "question": "Which of the following is NOT included in the list of actions that count as an AI response?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Creating new content.",
+          "correct": false,
+          "explanation": "Creating new content is explicitly listed as an action that counts."
+        },
+        {
+          "key": "B",
+          "text": "Asking a question.",
+          "correct": false,
+          "explanation": "Asking a question is explicitly listed as an action that counts."
+        },
+        {
+          "key": "C",
+          "text": "Using Notion Mail.",
+          "correct": false,
+          "explanation": "Using Notion Mail is explicitly listed as a platform where actions count."
+        },
+        {
+          "key": "D",
+          "text": "Viewing the Notion AI chat history.",
+          "correct": true,
+          "explanation": "Viewing chat history is not an action that generates a new response; it is passive."
+        }
+      ]
+    }
+  ]
+}

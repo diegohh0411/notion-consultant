@@ -1,0 +1,286 @@
+{
+  "source": "code-blocks",
+  "sourceTitle": "Code blocks",
+  "sourceUrl": "https://www.notion.so/help/code-blocks",
+  "questions": [
+    {
+      "id": "code-blocks-001",
+      "question": "How can you create a code block on a Notion page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type `/code` and press Enter",
+          "correct": true,
+          "explanation": "According to the article, you can either click the `+` that appears on a new line and choose Code, or type `/code` and press Enter."
+        },
+        {
+          "key": "B",
+          "text": "Click the Code icon in the formatting toolbar",
+          "correct": false,
+          "explanation": "The article does not mention a Code icon in the main formatting toolbar. It specifies using the `+` menu or the `/code` command."
+        },
+        {
+          "key": "C",
+          "text": "Select the text and choose 'Code' from the text menu",
+          "correct": false,
+          "explanation": "Code blocks are created as new blocks, not by formatting existing text."
+        },
+        {
+          "key": "D",
+          "text": "Press Ctrl+Shift+C to insert a block",
+          "correct": false,
+          "explanation": "This is not a standard Notion keyboard shortcut mentioned for creating code blocks."
+        }
+      ]
+    },
+    {
+      "id": "code-blocks-002",
+      "question": "What is the primary purpose of adding a code block to a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To display code broken out from the rest of your content and formatted by language",
+          "correct": true,
+          "explanation": "The article introduction states that code blocks display code so it is 'broken out from the rest of your content and formatted by language'."
+        },
+        {
+          "key": "B",
+          "text": "To create a new database within the page",
+          "correct": false,
+          "explanation": "Databases are created separately and not through the code block creation process."
+        },
+        {
+          "key": "C",
+          "text": "To embed a video from YouTube",
+          "correct": false,
+          "explanation": "The article mentions a YouTube video in the sidebar, but that is for a different feature; code blocks are for text/code."
+        },
+        {
+          "key": "D",
+          "text": "To hide sensitive information from other users",
+          "correct": false,
+          "explanation": "Code blocks do not inherently hide content; permissions control visibility."
+        }
+      ]
+    },
+    {
+      "id": "code-blocks-003",
+      "question": "How do you change the syntax highlighting language for a code block?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the language name at the top left of the code block, type the language name, and press Enter",
+          "correct": true,
+          "explanation": "The article outlines two steps: clicking the language name at the top left and typing the language to search/select it."
+        },
+        {
+          "key": "B",
+          "text": "Select the code and choose the language from the formatting menu",
+          "correct": false,
+          "explanation": "Syntax highlighting is set at the block level, not by selecting individual text."
+        },
+        {
+          "key": "C",
+          "text": "Go to Settings > Appearance > Code Fonts",
+          "correct": false,
+          "explanation": "There is no mention of global settings for code font in this specific article."
+        },
+        {
+          "key": "D",
+          "text": "You cannot change the syntax highlighting once the block is created",
+          "correct": false,
+          "explanation": "The article explicitly provides instructions on how to change the language display."
+        }
+      ]
+    },
+    {
+      "id": "code-blocks-004",
+      "question": "What is the specific goal of the 'Wrap code' option?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create a line break at the edge of the code block to eliminate side scrolling",
+          "correct": true,
+          "explanation": "The article states that Wrap code 'creates a line break at the edge of your code block' to 'eliminate side scrolling'."
+        },
+        {
+          "key": "B",
+          "text": "To change the background color of the code block",
+          "correct": false,
+          "explanation": "Wrap code changes the text wrapping behavior, not the background color."
+        },
+        {
+          "key": "C",
+          "text": "To allow the code block to be copied by users with only 'Can view' permission",
+          "correct": false,
+          "explanation": "Permission settings for Copy/Caption are separate from the Wrap code option."
+        },
+        {
+          "key": "D",
+          "text": "To automatically format the code into lowercase",
+          "correct": false,
+          "explanation": "Syntax highlighting handles code formatting, not the Wrap code setting."
+        }
+      ]
+    },
+    {
+      "id": "code-blocks-005",
+      "question": "Where do you find the 'Wrap code' setting to toggle it on or off?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over the code block and click the `•••` menu at the top right (or `⋮⋮` on the left)",
+          "correct": true,
+          "explanation": "The instructions state to hover over the block and click the `•••` menu at the top right or the `⋮⋮` icon on the left."
+        },
+        {
+          "key": "B",
+          "text": "Click the 'Copy' button that appears on hover",
+          "correct": false,
+          "explanation": "The Copy button is for copying code to the clipboard, not for toggling settings."
+        },
+        {
+          "key": "C",
+          "text": "Right-click anywhere on the page background",
+          "correct": false,
+          "explanation": "You must right-click specifically on the code block itself to access the menu."
+        },
+        {
+          "key": "D",
+          "text": "It is always toggled on by default and cannot be changed",
+          "correct": false,
+          "explanation": "Wrap code is a toggleable setting that must be manually switched on."
+        }
+      ]
+    },
+    {
+      "id": "code-blocks-006",
+      "question": "What functionality does the 'Copy' button provide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It copies the caption text to your clipboard",
+          "correct": false,
+          "explanation": "The Copy button copies the code itself, not the caption text."
+        },
+        {
+          "key": "B",
+          "text": "It copies the code to your editor or wherever you want to share it",
+          "correct": true,
+          "explanation": "The article notes that clicking Copy prepares the code to be pasted into your editor."
+        },
+        {
+          "key": "C",
+          "text": "It copies the image associated with the code block",
+          "correct": false,
+          "explanation": "Code blocks typically do not contain images; the Copy button acts on the text content."
+        },
+        {
+          "key": "D",
+          "text": "It copies the page link to the code block",
+          "correct": false,
+          "explanation": "This is not a standard feature of the Copy button in this context."
+        }
+      ]
+    },
+    {
+      "id": "code-blocks-007",
+      "question": "Which button allows you to add a descriptive text (caption) to a code block?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the 'Caption' button at the top right",
+          "correct": true,
+          "explanation": "The article explicitly states to 'Select Caption and enter whatever you want to say about the code!'"
+        },
+        {
+          "key": "B",
+          "text": "Click the '•••' menu and choose 'Add Caption'",
+          "correct": false,
+          "explanation": "While the menu has options, the primary and direct way to add a caption is via the Caption button."
+        },
+        {
+          "key": "C",
+          "text": "Type `# Caption:` at the beginning of the code",
+          "correct": false,
+          "explanation": "This syntax is not supported for captions in Notion code blocks."
+        },
+        {
+          "key": "D",
+          "text": "The 'Copy' button acts as the caption button",
+          "correct": false,
+          "explanation": "The Copy and Caption buttons are distinct buttons revealed on hover."
+        }
+      ]
+    },
+    {
+      "id": "code-blocks-008",
+      "question": "Who can see the 'Copy' and 'Caption' buttons on a code block?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Users with 'Can view' permission levels",
+          "correct": false,
+          "explanation": "The Note at the end states these buttons are 'invisible to users who have 'Can view' permission levels'."
+        },
+        {
+          "key": "B",
+          "text": "Users with 'Can comment' permission levels",
+          "correct": false,
+          "explanation": "While Can comment is a permission, the specific note regarding these buttons is about Can view."
+        },
+        {
+          "key": "C",
+          "text": "Only the owner of the page",
+          "correct": false,
+          "explanation": "Permission restrictions are based on the 'Can view' level, not specific to the owner."
+        },
+        {
+          "key": "D",
+          "text": "All users with access to the page",
+          "correct": false,
+          "explanation": "The specific group that cannot see them is users with 'Can view' permission."
+        }
+      ]
+    },
+    {
+      "id": "code-blocks-009",
+      "question": "What visual indicators appear on a code block when you hover over it?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The 'Copy' and 'Caption' buttons at the top right",
+          "correct": true,
+          "explanation": "The article mentions that hovering reveals these two specific buttons."
+        },
+        {
+          "key": "B",
+          "text": "A '•••' menu at the top right and a language selector at the top left",
+          "correct": false,
+          "explanation": "The `•••` menu is accessed by clicking the icon, not just by hovering, though the language selector is always visible."
+        },
+        {
+          "key": "C",
+          "text": "The 'Wrap code' toggle switch",
+          "correct": false,
+          "explanation": "The Wrap code toggle is accessed by clicking the menu, not by hovering."
+        },
+        {
+          "key": "D",
+          "text": "No buttons appear until you click inside the block",
+          "correct": false,
+          "explanation": "The Copy and Caption buttons appear on hover, not upon clicking inside."
+        }
+      ]
+    }
+  ]
+}

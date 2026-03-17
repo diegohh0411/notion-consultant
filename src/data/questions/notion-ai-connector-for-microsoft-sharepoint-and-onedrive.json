@@ -1,0 +1,317 @@
+{
+  "source": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive",
+  "sourceTitle": "Microsoft SharePoint & OneDrive AI Connector (beta)",
+  "sourceUrl": "https://www.notion.so/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive",
+  "questions": [
+    {
+      "id": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive-001",
+      "question": "Who is allowed to connect SharePoint and OneDrive to Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any Notion user",
+          "correct": false,
+          "explanation": "All Notion users cannot connect; the integration requires specific admin rights."
+        },
+        {
+          "key": "B",
+          "text": "A Microsoft 365 Admin who also owns the Notion workspace and is on a Business or Enterprise plan",
+          "correct": true,
+          "explanation": "Correct – both Microsoft 365 admin status and workspace ownership on a Business/Enterprise plan are required."
+        },
+        {
+          "key": "C",
+          "text": "Only developers with API access",
+          "correct": false,
+          "explanation": "Developers alone do not meet the admin and ownership requirements."
+        },
+        {
+          "key": "D",
+          "text": "Anyone with a personal OneDrive account",
+          "correct": false,
+          "explanation": "Personal OneDrive accounts are not supported for this connector."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive-002",
+      "question": "Which file formats can Notion AI read from SharePoint and OneDrive?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "DOCX, XLSX, PPTX, and PDF",
+          "correct": true,
+          "explanation": "These are the supported document types listed in the article."
+        },
+        {
+          "key": "B",
+          "text": "HTML web pages",
+          "correct": false,
+          "explanation": "SharePoint site pages (HTML) are explicitly not readable."
+        },
+        {
+          "key": "C",
+          "text": "MP3 audio files",
+          "correct": false,
+          "explanation": "Audio formats are not mentioned as supported."
+        },
+        {
+          "key": "D",
+          "text": "All file types",
+          "correct": false,
+          "explanation": "Only the four listed types are supported; others are not."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive-003",
+      "question": "How long can the initial connection process take to complete?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Up to 12 hours",
+          "correct": false,
+          "explanation": "The article states a longer maximum duration."
+        },
+        {
+          "key": "B",
+          "text": "Up to 24 hours",
+          "correct": false,
+          "explanation": "While possible, the stated upper bound is higher."
+        },
+        {
+          "key": "C",
+          "text": "Up to 36 hours",
+          "correct": true,
+          "explanation": "The connector can take as much as 36 hours to finish syncing."
+        },
+        {
+          "key": "D",
+          "text": "Immediately after clicking Done",
+          "correct": false,
+          "explanation": "Syncing is asynchronous and may take many hours."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive-004",
+      "question": "Which of the following is NOT a supported use case for the SharePoint connector?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Administrative questions about company policies",
+          "correct": false,
+          "explanation": "Administrative questions are explicitly listed as a use case."
+        },
+        {
+          "key": "B",
+          "text": "Project management queries involving team files",
+          "correct": false,
+          "explanation": "Project management queries are supported."
+        },
+        {
+          "key": "C",
+          "text": "Reading SharePoint site pages",
+          "correct": true,
+          "explanation": "The connector cannot read SharePoint site pages."
+        },
+        {
+          "key": "D",
+          "text": "Document analysis for insights",
+          "correct": false,
+          "explanation": "Document analysis is a core capability of the connector."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive-005",
+      "question": "How does Notion AI enforce Microsoft permissions when accessing SharePoint/OneDrive files?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It ignores Microsoft permissions and shows all files to every user",
+          "correct": false,
+          "explanation": "Notion AI strictly follows existing Microsoft permissions."
+        },
+        {
+          "key": "B",
+          "text": "It maps Microsoft members to their Notion accounts and respects ACLs via the Microsoft Graph API",
+          "correct": true,
+          "explanation": "Correct – Notion syncs permissions using Graph API endpoints and enforces them."
+        },
+        {
+          "key": "C",
+          "text": "It grants full access to all users after the initial sync",
+          "correct": false,
+          "explanation": "Access is continuously checked; no blanket full access is given."
+        },
+        {
+          "key": "D",
+          "text": "It checks permissions only once during setup",
+          "correct": false,
+          "explanation": "Permissions are polled and updated hourly, not just once."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive-006",
+      "question": "If a user is a Notion workspace owner but not a Microsoft 365 Admin, can they connect the SharePoint & OneDrive connector?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, workspace ownership is sufficient",
+          "correct": false,
+          "explanation": "Both admin rights and ownership are required."
+        },
+        {
+          "key": "B",
+          "text": "No, they must also be a Microsoft 365 Admin",
+          "correct": true,
+          "explanation": "The article specifies that a Microsoft 365 Admin is mandatory."
+        },
+        {
+          "key": "C",
+          "text": "Only if they are on a Free Notion plan",
+          "correct": false,
+          "explanation": "Plan level is not the limiting factor; admin status is."
+        },
+        {
+          "key": "D",
+          "text": "Only if they have a personal OneDrive linked",
+          "correct": false,
+          "explanation": "Personal OneDrives are not supported."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive-007",
+      "question": "What happens to SharePoint and OneDrive data after a workspace disconnects the connector?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The data remains searchable indefinitely",
+          "correct": false,
+          "explanation": "Data becomes unsearchable immediately after disconnection."
+        },
+        {
+          "key": "B",
+          "text": "The data is immediately unsearchable and deleted within 24 hours",
+          "correct": true,
+          "explanation": "Correct – Notion follows data minimization principles and deletes within 24 hours."
+        },
+        {
+          "key": "C",
+          "text": "The data is transferred to a backup archive for compliance",
+          "correct": false,
+          "explanation": "No backup archive is mentioned; the data is deleted."
+        },
+        {
+          "key": "D",
+          "text": "The data is archived for future re‑connection",
+          "correct": false,
+          "explanation": "Archiving is not part of the described process."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive-008",
+      "question": "How frequently does Notion sync permission changes from Microsoft?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Every minute",
+          "correct": false,
+          "explanation": "The sync interval is longer than a minute."
+        },
+        {
+          "key": "B",
+          "text": "Every hour",
+          "correct": true,
+          "explanation": "The article states that permission updates are synced hourly."
+        },
+        {
+          "key": "C",
+          "text": "Every day",
+          "correct": false,
+          "explanation": "Daily sync would be too slow for the described behavior."
+        },
+        {
+          "key": "D",
+          "text": "Weekly",
+          "correct": false,
+          "explanation": "Weekly sync would not meet the need for near‑real‑time permission enforcement."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive-009",
+      "question": "Which statement best describes how Notion stores SharePoint/OneDrive content for AI queries?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It stores raw files on its servers for direct access",
+          "correct": false,
+          "explanation": "Notion stores embeddings, not raw files."
+        },
+        {
+          "key": "B",
+          "text": "It stores embeddings in a vector database like Turbopuffer, which has SOC2 Type II certification",
+          "correct": true,
+          "explanation": "Correct – embeddings in a vetted vector DB enable efficient search and meet security standards."
+        },
+        {
+          "key": "C",
+          "text": "It stores only metadata about each file",
+          "correct": false,
+          "explanation": "Metadata alone would not allow content‑based queries."
+        },
+        {
+          "key": "D",
+          "text": "It stores encrypted copies of PDFs only",
+          "correct": false,
+          "explanation": "Notion handles multiple file types and uses embeddings, not just PDFs."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-microsoft-sharepoint-and-onedrive-010",
+      "question": "A user wants to limit AI searches to only SharePoint and OneDrive content. Which steps should they take?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "In Notion AI click “Find in” and select “SharePoint and OneDrive”",
+          "correct": true,
+          "explanation": "This is the correct UI action to restrict the search scope."
+        },
+        {
+          "key": "B",
+          "text": "Change their Microsoft admin settings to restrict access",
+          "correct": false,
+          "explanation": "Admin settings affect permissions, not the AI search scope within Notion."
+        },
+        {
+          "key": "C",
+          "text": "Disable Notion AI globally for the workspace",
+          "correct": false,
+          "explanation": "Disabling AI would prevent all searches, not just limit the scope."
+        },
+        {
+          "key": "D",
+          "text": "Use a custom API endpoint to filter results",
+          "correct": false,
+          "explanation": "The article describes a built‑in UI toggle, not a custom API solution."
+        }
+      ]
+    }
+  ]
+}

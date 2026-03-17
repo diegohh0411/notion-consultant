@@ -1,0 +1,317 @@
+{
+  "source": "create-a-notion-calendar-account",
+  "sourceTitle": "Create a Notion Calendar account",
+  "sourceUrl": "https://www.notion.so/help/create-a-notion-calendar-account",
+  "questions": [
+    {
+      "id": "create-a-notion-calendar-account-001",
+      "question": "Which of the following operating systems is NOT listed as a supported platform for Notion Calendar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mac",
+          "correct": false,
+          "explanation": "Mac is explicitly listed as a supported platform in the Download section."
+        },
+        {
+          "key": "B",
+          "text": "Windows",
+          "correct": false,
+          "explanation": "Windows is explicitly listed as a supported platform in the Download section."
+        },
+        {
+          "key": "C",
+          "text": "Linux",
+          "correct": true,
+          "explanation": "Linux is not mentioned in the list of supported platforms (Mac, Windows, Web, iOS, Android)."
+        },
+        {
+          "key": "D",
+          "text": "iOS",
+          "correct": false,
+          "explanation": "iOS is explicitly listed as a supported platform in the Download section."
+        }
+      ]
+    },
+    {
+      "id": "create-a-notion-calendar-account-002",
+      "question": "What happens if you sign up for Notion Calendar using an email address that doesn't already have a Notion account?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You will be redirected to create a new Google account.",
+          "correct": false,
+          "explanation": "Notion Calendar creates a new Notion account for you, not a Google account, using the email address you provided."
+        },
+        {
+          "key": "B",
+          "text": "You can only use it for one month before you need to link a paid plan.",
+          "correct": false,
+          "explanation": "The article does not mention a time limit on free accounts; it focuses on account creation and linking."
+        },
+        {
+          "key": "C",
+          "text": "A Notion account will be created for you using the same email address.",
+          "correct": true,
+          "explanation": "The article states: 'If you don't already have a Notion account, no problem — when you sign up for Notion Calendar, a Notion account will be created for you using the same email address.'"
+        },
+        {
+          "key": "D",
+          "text": "You must create a separate Notion account in a different browser.",
+          "correct": false,
+          "explanation": "Notion handles the account creation automatically during the signup process."
+        }
+      ]
+    },
+    {
+      "id": "create-a-notion-calendar-account-003",
+      "question": "According to the Google permissions section, which of the following is true regarding user data?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion Calendar can access your restricted data if you approve it.",
+          "correct": false,
+          "explanation": "This is incorrect. Notion Calendar is verified by Google and cannot access user data categorized as restricted."
+        },
+        {
+          "key": "B",
+          "text": "Notion Calendar never sees your Google password.",
+          "correct": true,
+          "explanation": "The article explicitly states: 'We’ll never see your Google password.'"
+        },
+        {
+          "key": "C",
+          "text": "Google permissions allow Notion Calendar to edit your calendar without your action.",
+          "correct": false,
+          "explanation": "Permissions are only used to access data on your behalf; direct action from you is always required for edits."
+        },
+        {
+          "key": "D",
+          "text": "Notion Calendar can access your restricted data if you provide explicit consent.",
+          "correct": false,
+          "explanation": "This is incorrect. Notion Calendar is verified by Google and cannot access any user data categorized as restricted."
+        }
+      ]
+    },
+    {
+      "id": "create-a-notion-calendar-account-004",
+      "question": "When connecting an iCloud account to Notion Calendar, what specific type of password is required?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Your standard Apple ID password.",
+          "correct": false,
+          "explanation": "Apple blocks access to standard passwords for third-party apps to protect security. You must use an app-specific password."
+        },
+        {
+          "key": "B",
+          "text": "A two-factor authentication code.",
+          "correct": false,
+          "explanation": "While Two-Factor Authentication is generally used, the article specifically highlights the need for an 'app-specific password' to log in."
+        },
+        {
+          "key": "C",
+          "text": "An app-specific password.",
+          "correct": true,
+          "explanation": "The article states: 'Apple requires you to use an app-specific password for Notion Calendar to connect your iCloud account.'"
+        },
+        {
+          "key": "D",
+          "text": "A password created in the Notion Calendar settings.",
+          "correct": false,
+          "explanation": "App-specific passwords are created within your Apple account settings, not in Notion Calendar."
+        }
+      ]
+    },
+    {
+      "id": "create-a-notion-calendar-account-005",
+      "question": "Why might you receive an authorization error when signing in with a work email address?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because you entered the wrong password.",
+          "correct": false,
+          "explanation": "While a wrong password is a common issue, the article specifically links authorization errors with work emails to organizational settings, not just password entry."
+        },
+        {
+          "key": "B",
+          "text": "Because your browser is outdated.",
+          "correct": false,
+          "explanation": "Browser issues are not mentioned as the cause for authorization errors in the troubleshooting section."
+        },
+        {
+          "key": "C",
+          "text": "Because an admin hasn't approved Notion Calendar to be authorized with Google at your organization.",
+          "correct": true,
+          "explanation": "The article states: 'it might be because an admin hasn't approved Notion Calendar to be authorized with Google at your organization yet.'"
+        },
+        {
+          "key": "D",
+          "text": "Because you are using an iOS device.",
+          "correct": false,
+          "explanation": "The authorization error is specific to Google Workspace settings, not the device type."
+        }
+      ]
+    },
+    {
+      "id": "create-a-notion-calendar-account-006",
+      "question": "What is the maximum number of Notion accounts that can be linked to a single Notion Calendar account?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unlimited accounts.",
+          "correct": false,
+          "explanation": "The article explicitly states: 'Only one Notion account can be linked to your Notion Calendar account.'"
+        },
+        {
+          "key": "B",
+          "text": "Two accounts.",
+          "correct": false,
+          "explanation": "While you can connect multiple calendars and workspaces, only one primary account can be linked."
+        },
+        {
+          "key": "C",
+          "text": "One account.",
+          "correct": true,
+          "explanation": "The article states: 'Only one Notion account can be linked to your Notion Calendar account.'"
+        },
+        {
+          "key": "D",
+          "text": "Five accounts.",
+          "correct": false,
+          "explanation": "The article explicitly states: 'Only one Notion account can be linked to your Notion Calendar account.'"
+        }
+      ]
+    },
+    {
+      "id": "create-a-notion-calendar-account-007",
+      "question": "How is an app-specific password formatted for Notion Calendar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A single string of 16 random alphanumeric characters.",
+          "correct": false,
+          "explanation": "The article specifies the format: 'four groups of four letters, like abcd-efgh-ijkl-mnop.'"
+        },
+        {
+          "key": "B",
+          "text": "A single string of 12 random alphanumeric characters.",
+          "correct": false,
+          "explanation": "The article specifies the format: 'four groups of four letters, like abcd-efgh-ijkl-mnop.'"
+        },
+        {
+          "key": "C",
+          "text": "Four groups of four letters (e.g., abcd-efgh-ijkl-mnop).",
+          "correct": true,
+          "explanation": "The article states: 'this password should consist of four groups of four letters, like abcd-efgh-ijkl-mnop.'"
+        },
+        {
+          "key": "D",
+          "text": "A 24-character hexadecimal string.",
+          "correct": false,
+          "explanation": "The article specifies the format: 'four groups of four letters, like abcd-efgh-ijkl-mnop.'"
+        }
+      ]
+    },
+    {
+      "id": "create-a-notion-calendar-account-008",
+      "question": "If you are unable to log in with your Apple account, what should you verify?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "That you are using your app-specific password for Notion Calendar.",
+          "correct": true,
+          "explanation": "The troubleshooting section advises: 'make sure you’re using your app-specific password for Notion Calendar and not your Apple account password.'"
+        },
+        {
+          "key": "B",
+          "text": "That your VPN connection is stable.",
+          "correct": false,
+          "explanation": "VPN stability is not mentioned as a cause for Apple login issues in the article."
+        },
+        {
+          "key": "C",
+          "text": "That your Apple ID password is at least 8 characters long.",
+          "correct": false,
+          "explanation": "The issue is not password length, but rather the type of password required (app-specific vs. standard)."
+        },
+        {
+          "key": "D",
+          "text": "That you have enabled Two-Factor Authentication.",
+          "correct": false,
+          "explanation": "While TFA is generally good practice, the article specifically points to the app-specific password as the solution for login failures."
+        }
+      ]
+    },
+    {
+      "id": "create-a-notion-calendar-account-009",
+      "question": "What happens if you lose access to the Notion account linked to your Notion Calendar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You can change the linked account instantly in the settings menu.",
+          "correct": false,
+          "explanation": "You cannot change the linked account instantly. If you lose access, you must fill out a form to request a change."
+        },
+        {
+          "key": "B",
+          "text": "You will lose access to Notion Calendar.",
+          "correct": true,
+          "explanation": "The article states that if you lose access to the primary account, you will also lose access to your Notion Calendar."
+        },
+        {
+          "key": "C",
+          "text": "You can still access it using a secondary account.",
+          "correct": false,
+          "explanation": "Only one account can be linked at a time. If the primary account is inaccessible, the Calendar is inaccessible."
+        },
+        {
+          "key": "D",
+          "text": "You can request a refund for the subscription.",
+          "correct": false,
+          "explanation": "The article does not mention refunds for account access issues."
+        }
+      ]
+    },
+    {
+      "id": "create-a-notion-calendar-account-010",
+      "question": "If you need to change your linked Notion account, what is the process?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Log out and log back in with the new email address.",
+          "correct": false,
+          "explanation": "The article states this is not possible. You must fill out a support form to change the linked account."
+        },
+        {
+          "key": "B",
+          "text": "Fill out a specific form and wait for a response within 72 hours.",
+          "correct": true,
+          "explanation": "The article directs users to 'fill out this form' and states they will 'respond within 72 hours of the submission.'"
+        },
+        {
+          "key": "C",
+          "text": "Delete your current account and sign up with a new one.",
+          "correct": false,
+          "explanation": "The article describes a process for changing the linked account without necessarily deleting the existing one, involving a support request."
+        },
+        {
+          "key": "D",
+          "text": "Contact your Google Workspace admin to request the change.",
+          "correct": false,
+          "explanation": "While admins manage Google app authorization, the article specifies that users should fill out a form for account changes."
+        }
+      ]
+    }
+  ]
+}

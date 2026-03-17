@@ -1,0 +1,317 @@
+{
+  "source": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database",
+  "sourceTitle": "Build a docs-first culture with a beautiful team wiki, powered by a database",
+  "sourceUrl": "https://www.notion.so/help/guides/build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database",
+  "questions": [
+    {
+      "id": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database-001",
+      "question": "What is the primary benefit of converting a team's homepage into a wiki?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It reduces the amount of storage space the team uses.",
+          "correct": false,
+          "explanation": "A wiki does not affect storage; its purpose is to organize information, not to save space."
+        },
+        {
+          "key": "B",
+          "text": "It creates a single source of truth for the team’s information.",
+          "correct": true,
+          "explanation": "A wiki centralises knowledge so everyone can find reliable, up‑to‑date information in one place."
+        },
+        {
+          "key": "C",
+          "text": "It enables real‑time chat directly on the homepage.",
+          "correct": false,
+          "explanation": "Chat is a separate feature; a wiki focuses on documentation, not messaging."
+        },
+        {
+          "key": "D",
+          "text": "It automatically deploys code changes to production.",
+          "correct": false,
+          "explanation": "Wikis are for documentation, not for code deployment or CI/CD processes."
+        }
+      ]
+    },
+    {
+      "id": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database-002",
+      "question": "Which Notion template can you start with to build a team wiki?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Product wiki",
+          "correct": true,
+          "explanation": "The Product wiki template is specifically designed for creating a team wiki and can be duplicated and customised."
+        },
+        {
+          "key": "B",
+          "text": "Calendar",
+          "correct": false,
+          "explanation": "A calendar template is for scheduling, not for organising documentation as a wiki."
+        },
+        {
+          "key": "C",
+          "text": "Meeting notes",
+          "correct": false,
+          "explanation": "Meeting notes capture discussions; they lack the structural properties of a wiki."
+        },
+        {
+          "key": "D",
+          "text": "Personal journal",
+          "correct": false,
+          "explanation": "A personal journal is private and not intended for team‑wide knowledge sharing."
+        }
+      ]
+    },
+    {
+      "id": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database-003",
+      "question": "Which default property is unique to Notion wikis?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Owner (person property)",
+          "correct": false,
+          "explanation": "Owner is a standard property for many databases, not exclusive to wikis."
+        },
+        {
+          "key": "B",
+          "text": "Tags (multi‑select)",
+          "correct": false,
+          "explanation": "Tags are common across databases; they are not wiki‑specific."
+        },
+        {
+          "key": "C",
+          "text": "Last edited date",
+          "correct": false,
+          "explanation": "Last edited date appears in regular databases as well."
+        },
+        {
+          "key": "D",
+          "text": "Verification",
+          "correct": true,
+          "explanation": "The Verification property is added automatically to wikis and is not present in ordinary databases."
+        }
+      ]
+    },
+    {
+      "id": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database-004",
+      "question": "How does the verification property help keep documentation trustworthy?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It locks the page so no edits can ever be made.",
+          "correct": false,
+          "explanation": "Verification does not prevent edits; it only signals that a review has taken place and sets an expiry date."
+        },
+        {
+          "key": "B",
+          "text": "It adds a digital signature from Notion itself.",
+          "correct": false,
+          "explanation": "Verification is managed by the page owner, not by an automatic Notion signature."
+        },
+        {
+          "key": "C",
+          "text": "It lets the page owner set an expiry date and Notion notifies the team when a review is needed.",
+          "correct": true,
+          "explanation": "The core purpose of verification is to set a date (or infinite) and receive reminders when the document needs to be checked again."
+        },
+        {
+          "key": "D",
+          "text": "It automatically publishes the page to the web when verified.",
+          "correct": false,
+          "explanation": "Verification is about internal trust, not about publishing content publicly."
+        }
+      ]
+    },
+    {
+      "id": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database-005",
+      "question": "If you want a document to never trigger a verification reminder, what should you do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete the verification property from the wiki.",
+          "correct": false,
+          "explanation": "The verification property is built‑in; removing it isn’t possible and would break other wiki functionality."
+        },
+        {
+          "key": "B",
+          "text": "Set the verification date to today’s date.",
+          "correct": false,
+          "explanation": "Setting the date to today would cause an immediate expiry, not prevent reminders."
+        },
+        {
+          "key": "C",
+          "text": "Choose the “infinite” verification option.",
+          "correct": true,
+          "explanation": "Marking a page as infinitely verified tells Notion it never expires, so no reminders are sent."
+        },
+        {
+          "key": "D",
+          "text": "Assign the page to multiple owners.",
+          "correct": false,
+          "explanation": "Multiple owners affect who can verify, not whether reminders are generated."
+        }
+      ]
+    },
+    {
+      "id": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database-006",
+      "question": "Which of the following is a recommended way to view only unverified pages in a wiki?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sort the database by Owner.",
+          "correct": false,
+          "explanation": "Sorting by Owner does not isolate unverified pages; it merely groups pages by who owns them."
+        },
+        {
+          "key": "B",
+          "text": "Create a filter where the verification property is blank or expired.",
+          "correct": true,
+          "explanation": "Filtering on a blank or expired verification property shows exactly the pages that lack a current verification stamp."
+        },
+        {
+          "key": "C",
+          "text": "Group the view by Created date.",
+          "correct": false,
+          "explanation": "Grouping by Created date helps with chronological organization but does not target verification status."
+        },
+        {
+          "key": "D",
+          "text": "Change the page icon to a warning symbol.",
+          "correct": false,
+          "explanation": "Changing icons is cosmetic and does not affect how pages are filtered or displayed."
+        }
+      ]
+    },
+    {
+      "id": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database-007",
+      "question": "To prevent accidental edits by most team members, which permission setting should you apply?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Give full access to everyone on the team.",
+          "correct": false,
+          "explanation": "Full access allows anyone to edit, which does not protect against accidental changes."
+        },
+        {
+          "key": "B",
+          "text": "Set most members to “View only” and give full access only to nominated maintainers.",
+          "correct": true,
+          "explanation": "Limiting edit rights to a few trusted maintainers while others have view‑only access reduces the risk of unwanted edits."
+        },
+        {
+          "key": "C",
+          "text": "Remove all permissions so nobody can see the wiki.",
+          "correct": false,
+          "explanation": "Removing permissions defeats the purpose of a shared knowledge base."
+        },
+        {
+          "key": "D",
+          "text": "Give edit access to everyone except the page owner.",
+          "correct": false,
+          "explanation": "This still allows many people to edit, and the owner losing edit rights is counter‑productive."
+        }
+      ]
+    },
+    {
+      "id": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database-008",
+      "question": "How can a wiki be transformed into a public‑facing customer help center?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Duplicate the wiki page and share the link privately with customers.",
+          "correct": false,
+          "explanation": "Sharing a private link does not make the content publicly searchable or accessible without a Notion account."
+        },
+        {
+          "key": "B",
+          "text": "Publish the wiki pages to the web and adjust sharing settings to “Anyone with the link”.",
+          "correct": true,
+          "explanation": "Publishing to the web and setting the appropriate sharing permissions turns the internal wiki into an externally accessible help center."
+        },
+        {
+          "key": "C",
+          "text": "Export the wiki as a PDF and upload it to an external website.",
+          "correct": false,
+          "explanation": "Exported PDFs are static and lose the interactive filtering, tagging, and updating capabilities of a live wiki."
+        },
+        {
+          "key": "D",
+          "text": "Convert the wiki into a Notion calendar and embed it on the company site.",
+          "correct": false,
+          "explanation": "A calendar view does not provide the structured documentation needed for a help center."
+        }
+      ]
+    },
+    {
+      "id": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database-009",
+      "question": "What is the key distinction between a regular Notion database and a wiki?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wikis cannot have multiple views.",
+          "correct": false,
+          "explanation": "Wikis, like databases, support multiple views (table, board, gallery, etc.)."
+        },
+        {
+          "key": "B",
+          "text": "Wikis automatically include a verification property.",
+          "correct": true,
+          "explanation": "The verification property is added by default to wikis and is not present in standard databases."
+        },
+        {
+          "key": "C",
+          "text": "Databases cannot be filtered or sorted.",
+          "correct": false,
+          "explanation": "Filtering and sorting are core features of all Notion databases, including wikis."
+        },
+        {
+          "key": "D",
+          "text": "Wikis do not support tags or multi‑select properties.",
+          "correct": false,
+          "explanation": "Wikis inherit all regular database properties, including tags; the unique addition is verification."
+        }
+      ]
+    },
+    {
+      "id": "guides_build-a-docs-first-culture-with-a-beautiful-team-wiki-powered-by-a-database-010",
+      "question": "How can Notion AI assist when building a team wiki?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It can write, summarize, and outline documentation for you.",
+          "correct": true,
+          "explanation": "Notion AI offers content generation features such as drafting, summarising, and improving writing, which speeds up wiki creation."
+        },
+        {
+          "key": "B",
+          "text": "It automatically changes the wiki’s colour scheme to match your brand.",
+          "correct": false,
+          "explanation": "Design customisation is manual; AI does not auto‑apply brand colours."
+        },
+        {
+          "key": "C",
+          "text": "It assigns page owners based on each team member’s workload.",
+          "correct": false,
+          "explanation": "Owner assignment remains a manual decision; AI does not evaluate workload for ownership."
+        },
+        {
+          "key": "D",
+          "text": "It deletes duplicate pages to keep the wiki tidy.",
+          "correct": false,
+          "explanation": "While AI can suggest edits, automatic deletion of duplicate pages is not a built‑in feature."
+        }
+      ]
+    }
+  ]
+}

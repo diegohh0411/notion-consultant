@@ -1,0 +1,317 @@
+{
+  "source": "notion-agent",
+  "sourceTitle": "Notion Agent",
+  "sourceUrl": "https://www.notion.so/help/notion-agent",
+  "questions": [
+    {
+      "id": "notion-agent-001",
+      "question": "What determines the permissions that Notion Agent has when performing actions?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The permissions set by the workspace admin for the Agent itself",
+          "correct": false,
+          "explanation": "Agents do not have separate permissions; they inherit from the user."
+        },
+        {
+          "key": "B",
+          "text": "The permissions of the user who is chatting with the Agent",
+          "correct": true,
+          "explanation": "Agent has the same permissions as you, so it can only view or edit what you can."
+        },
+        {
+          "key": "C",
+          "text": "A special set of AI‑only permissions granted by Notion",
+          "correct": false,
+          "explanation": "There is no distinct AI permission layer."
+        },
+        {
+          "key": "D",
+          "text": "The default read‑only permissions for all Notion AI features",
+          "correct": false,
+          "explanation": "Agent can edit as well, provided you have edit rights."
+        }
+      ]
+    },
+    {
+      "id": "notion-agent-002",
+      "question": "Which of the following actions can you NOT ask Notion Agent to perform?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a new page based on a style guide",
+          "correct": false,
+          "explanation": "Agent can create and edit pages."
+        },
+        {
+          "key": "B",
+          "text": "Summarize a CSV file you uploaded",
+          "correct": false,
+          "explanation": "Agent can ingest CSVs and summarize them."
+        },
+        {
+          "key": "C",
+          "text": "Change the permission level of a shared page",
+          "correct": true,
+          "explanation": "Agent cannot modify page permissions."
+        },
+        {
+          "key": "D",
+          "text": "Generate a list of action items from the current page",
+          "correct": false,
+          "explanation": "Generating action items is a supported use case."
+        }
+      ]
+    },
+    {
+      "id": "notion-agent-003",
+      "question": "How can you provide additional context to Notion Agent beyond the page you’re currently viewing?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By @‑mentioning another page or person in the query",
+          "correct": true,
+          "explanation": "Using @ lets Agent focus on the mentioned resource."
+        },
+        {
+          "key": "B",
+          "text": "By selecting \"All sources\" and picking specific sources in the chat",
+          "correct": true,
+          "explanation": "All sources lets you add multiple pages, databases, etc."
+        },
+        {
+          "key": "C",
+          "text": "By uploading a file (e.g., PDF or CSV) for Agent to read",
+          "correct": true,
+          "explanation": "Uploaded files become part of the context."
+        },
+        {
+          "key": "D",
+          "text": "All of the above",
+          "correct": true,
+          "explanation": "Each method adds context, and you can combine them."
+        }
+      ]
+    },
+    {
+      "id": "notion-agent-004",
+      "question": "What happens when you switch Notion Agent to the \"Auto\" model?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Agent will only use information from the web and ignore your workspace data",
+          "correct": true,
+          "explanation": "The Auto model may limit access to workspace content, relying on web sources."
+        },
+        {
+          "key": "B",
+          "text": "Agent becomes faster but loses the ability to edit pages",
+          "correct": false,
+          "explanation": "Speed isn’t the primary change; edit capability remains if workspace access is allowed."
+        },
+        {
+          "key": "C",
+          "text": "Agent will automatically create a new database for you",
+          "correct": false,
+          "explanation": "Switching models doesn’t trigger automatic actions."
+        },
+        {
+          "key": "D",
+          "text": "Agent will start generating meeting notes automatically",
+          "correct": false,
+          "explanation": "Meeting notes are not a built‑in feature of the Auto model."
+        }
+      ]
+    },
+    {
+      "id": "notion-agent-005",
+      "question": "Which of the following is a correct way to personalize Notion Agent’s behavior?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Give the Agent a new name and select accessories in the personalization menu",
+          "correct": true,
+          "explanation": "Naming and accessories are part of personalization."
+        },
+        {
+          "key": "B",
+          "text": "Create a private page called \"My Notion AI\" and add instructions there",
+          "correct": true,
+          "explanation": "A private page can hold custom instructions."
+        },
+        {
+          "key": "C",
+          "text": "Share the instructions page with the whole workspace so anyone can edit it",
+          "correct": false,
+          "explanation": "While possible, changes by others affect behavior; best practice is to copy the page."
+        },
+        {
+          "key": "D",
+          "text": "All of the above",
+          "correct": true,
+          "explanation": "A, B, and D (except sharing broadly) are ways to personalize; however, sharing broadly is not recommended, making D partially correct. The safest answer is A."
+        }
+      ]
+    },
+    {
+      "id": "notion-agent-006",
+      "question": "What can you do if you want to view your recent conversations with Notion Agent?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over Notion AI in the sidebar, click the clock icon, and search the history",
+          "correct": true,
+          "explanation": "That is the described method for accessing the last 30 days of chats."
+        },
+        {
+          "key": "B",
+          "text": "Open the Settings menu and select \"Chat Archive\"",
+          "correct": false,
+          "explanation": "There is no Settings‑based archive feature."
+        },
+        {
+          "key": "C",
+          "text": "Use the command \"/history\" in a new chat window",
+          "correct": false,
+          "explanation": "No such slash command exists for history."
+        },
+        {
+          "key": "D",
+          "text": "All of the above",
+          "correct": false,
+          "explanation": "Only option A is correct."
+        }
+      ]
+    },
+    {
+      "id": "notion-agent-007",
+      "question": "Which limitation applies to Notion Agent when working with video content?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Agent can extract transcripts from YouTube videos automatically",
+          "correct": false,
+          "explanation": "Agent cannot process non‑PDF embeds like video transcripts."
+        },
+        {
+          "key": "B",
+          "text": "Agent cannot answer questions that rely on content from a video transcript embedded in a page",
+          "correct": true,
+          "explanation": "The article states Agent can’t use content from non‑PDF embeds such as video transcripts."
+        },
+        {
+          "key": "C",
+          "text": "Agent can summarize the audio of an uploaded MP3 file",
+          "correct": false,
+          "explanation": "Only PDFs and CSVs are mentioned for file ingestion."
+        },
+        {
+          "key": "D",
+          "text": "Agent can create a new video embed based on a text prompt",
+          "correct": false,
+          "explanation": "Creating video embeds is not listed among capabilities."
+        }
+      ]
+    },
+    {
+      "id": "notion-agent-008",
+      "question": "If you need a Notion Agent to create a complex database property like a rollup or formula, what is the correct approach?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask the Agent to add the rollup or formula directly; it will create it for you",
+          "correct": false,
+          "explanation": "Agent cannot create or edit advanced properties like formulas or rollups."
+        },
+        {
+          "key": "B",
+          "text": "Create the basic property yourself and then ask the Agent to suggest the formula syntax",
+          "correct": true,
+          "explanation": "While Agent can help suggest syntax, it cannot create the advanced property itself."
+        },
+        {
+          "key": "C",
+          "text": "Use the \"Auto\" model, which supports advanced property creation",
+          "correct": false,
+          "explanation": "Model switching does not grant ability to create advanced properties."
+        },
+        {
+          "key": "D",
+          "text": "Upload a CSV file containing the desired formula, and Agent will import it",
+          "correct": false,
+          "explanation": "CSV ingestion does not translate into database formulas."
+        }
+      ]
+    },
+    {
+      "id": "notion-agent-009",
+      "question": "How does providing thumbs‑down feedback differ from thumbs‑up feedback for Notion Agent?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thumbs‑down feedback is used to train the Agent’s model directly",
+          "correct": false,
+          "explanation": "Feedback is not used to train the model."
+        },
+        {
+          "key": "B",
+          "text": "Thumbs‑down allows you to optionally give a reason for the feedback",
+          "correct": true,
+          "explanation": "When you give a thumbs‑down you can also explain why."
+        },
+        {
+          "key": "C",
+          "text": "Thumbs‑up feedback automatically saves the Agent’s response as a template",
+          "correct": false,
+          "explanation": "Saving as a template is not mentioned."
+        },
+        {
+          "key": "D",
+          "text": "Both thumbs‑up and thumbs‑down feedback are ignored by Notion",
+          "correct": false,
+          "explanation": "Feedback is shared with the Notion team for improvements."
+        }
+      ]
+    },
+    {
+      "id": "notion-agent-010",
+      "question": "Which of the following best describes the process to change the visual placement of the Notion Agent chat window?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select \"Switch chat mode\" and choose either Sidebar or Floating",
+          "correct": true,
+          "explanation": "The article explains this exact step."
+        },
+        {
+          "key": "B",
+          "text": "Drag the chat window to any location on the screen",
+          "correct": false,
+          "explanation": "Chat placement is changed via the Switch chat mode option, not free dragging."
+        },
+        {
+          "key": "C",
+          "text": "Open Settings → Appearance → Chat Position",
+          "correct": false,
+          "explanation": "No such Settings path exists for chat placement."
+        },
+        {
+          "key": "D",
+          "text": "Use a keyboard shortcut Ctrl+Shift+C to toggle chat mode",
+          "correct": false,
+          "explanation": "No keyboard shortcut is described for this purpose."
+        }
+      ]
+    }
+  ]
+}

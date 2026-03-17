@@ -1,0 +1,317 @@
+{
+  "source": "guides_project-management-that-evolves-with-your-team",
+  "sourceTitle": "Project management that evolves with your team",
+  "sourceUrl": "https://www.notion.so/help/guides/project-management-that-evolves-with-your-team",
+  "questions": [
+    {
+      "id": "guides_project-management-that-evolves-with-your-team-001",
+      "question": "Why does Notion recommend using a Status property in a Projects database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically assigns tasks to team members.",
+          "correct": false,
+          "explanation": "Status tracks the stage of a project, not task assignment."
+        },
+        {
+          "key": "B",
+          "text": "It lets you customize workflow steps and visualize progress on a board.",
+          "correct": true,
+          "explanation": "A Status property defines each step in your workflow and, when used with a Board view, lets you drag cards to update progress."
+        },
+        {
+          "key": "C",
+          "text": "It creates a timeline automatically based on start dates.",
+          "correct": false,
+          "explanation": "Timelines are built from Date properties, not Status."
+        },
+        {
+          "key": "D",
+          "text": "It replaces the need for a Person property.",
+          "correct": false,
+          "explanation": "Status and Person serve different purposes; Person assigns owners."
+        }
+      ]
+    },
+    {
+      "id": "guides_project-management-that-evolves-with-your-team-002",
+      "question": "What is the main advantage of linking a Tasks database to a Content Calendar via a Relation property?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It duplicates the task records so each calendar entry has its own copy.",
+          "correct": false,
+          "explanation": "Relation links records, it does not duplicate them."
+        },
+        {
+          "key": "B",
+          "text": "Updates made in one place (e.g., marking a task as Done) automatically reflect in the related project.",
+          "correct": true,
+          "explanation": "A Relation ensures changes propagate, keeping the project status in sync with task completion."
+        },
+        {
+          "key": "C",
+          "text": "It automatically generates a Gantt chart for the entire project.",
+          "correct": false,
+          "explanation": "Gantt charts require a Timeline view, not just a Relation."
+        },
+        {
+          "key": "D",
+          "text": "It prevents any filters from being applied to the tasks.",
+          "correct": false,
+          "explanation": "Relations do not affect filter capabilities; you can still filter linked records."
+        }
+      ]
+    },
+    {
+      "id": "guides_project-management-that-evolves-with-your-team-003",
+      "question": "How can you visually prioritize projects using Notion’s built‑in features?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "By adding a Select property with priority tags like P0, P1, etc.",
+          "correct": true,
+          "explanation": "Select lets you tag each project with a priority level, which can then be used for sorting or filtering."
+        },
+        {
+          "key": "B",
+          "text": "By changing the color of the page background for each project.",
+          "correct": false,
+          "explanation": "Page background colors are not a native way to set priority."
+        },
+        {
+          "key": "C",
+          "text": "By moving the project card to the top of the board manually each day.",
+          "correct": false,
+          "explanation": "Manual repositioning is not systematic; priority tags enable automated sorting."
+        },
+        {
+          "key": "D",
+          "text": "By creating a separate database for high‑priority projects.",
+          "correct": false,
+          "explanation": "While possible, it’s unnecessary when a Select property provides built‑in prioritization."
+        }
+      ]
+    },
+    {
+      "id": "guides_project-management-that-evolves-with-your-team-004",
+      "question": "Which Notion view would you choose to see a project’s schedule over months and years?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Board view grouped by Status",
+          "correct": false,
+          "explanation": "Board view is great for status columns, not for a time‑based schedule."
+        },
+        {
+          "key": "B",
+          "text": "Timeline view with start and end dates",
+          "correct": true,
+          "explanation": "Timeline view displays items along a calendar axis using Date properties."
+        },
+        {
+          "key": "C",
+          "text": "Table view with a filtered Status column",
+          "correct": false,
+          "explanation": "Table view shows rows but does not provide a visual time line."
+        },
+        {
+          "key": "D",
+          "text": "Gallery view sorted by Priority",
+          "correct": false,
+          "explanation": "Gallery view shows cards as thumbnails; it isn’t a time‑based representation."
+        }
+      ]
+    },
+    {
+      "id": "guides_project-management-that-evolves-with-your-team-005",
+      "question": "What does a Rollup property allow you to display in a Projects database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A list of all users who have commented on the project page.",
+          "correct": false,
+          "explanation": "Rollup aggregates data from related records, not comments."
+        },
+        {
+          "key": "B",
+          "text": "The percentage of completed tasks for each project.",
+          "correct": true,
+          "explanation": "Rollup can calculate aggregates such as count of completed tasks, enabling a progress bar or ring."
+        },
+        {
+          "key": "C",
+          "text": "The raw JSON of the related task entries.",
+          "correct": false,
+          "explanation": "Rollup does not expose raw JSON; it returns calculated values."
+        },
+        {
+          "key": "D",
+          "text": "A dynamic AI‑generated summary of the project description.",
+          "correct": false,
+          "explanation": "AI Summary is a separate property; Rollup works on relational data."
+        }
+      ]
+    },
+    {
+      "id": "guides_project-management-that-evolves-with-your-team-006",
+      "question": "How does embedding external content (e.g., Figma files) improve collaboration in Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It converts the external file into a native Notion block that can be edited directly.",
+          "correct": false,
+          "explanation": "Embedding displays the file; editing still occurs in the original tool."
+        },
+        {
+          "key": "B",
+          "text": "It lets team members view the content without leaving the Notion workspace, keeping context unified.",
+          "correct": true,
+          "explanation": "Embedding brings external assets into Notion pages, reducing context switching."
+        },
+        {
+          "key": "C",
+          "text": "It automatically syncs changes made in Notion back to the original external tool.",
+          "correct": false,
+          "explanation": "Embedding is a live view; changes must be made in the source tool."
+        },
+        {
+          "key": "D",
+          "text": "It replaces the need for a separate project management tool entirely.",
+          "correct": false,
+          "explanation": "Embedding enhances Notion but doesn’t eliminate all specialized tool needs."
+        }
+      ]
+    },
+    {
+      "id": "guides_project-management-that-evolves-with-your-team-007",
+      "question": "Which property type would you use to automatically generate a brief overview of a project's current state?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Formula",
+          "correct": false,
+          "explanation": "Formulas calculate based on other fields but don’t produce natural‑language summaries."
+        },
+        {
+          "key": "B",
+          "text": "Relation",
+          "correct": false,
+          "explanation": "Relation links databases; it doesn’t generate text."
+        },
+        {
+          "key": "C",
+          "text": "AI Summary",
+          "correct": true,
+          "explanation": "AI Summary property uses Notion AI to create a dynamic text summary that updates as the project changes."
+        },
+        {
+          "key": "D",
+          "text": "Select",
+          "correct": false,
+          "explanation": "Select offers predefined choices, not generated summaries."
+        }
+      ]
+    },
+    {
+      "id": "guides_project-management-that-evolves-with-your-team-008",
+      "question": "What is the purpose of a database template in a project tracker?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To lock the page so no one can edit it.",
+          "correct": false,
+          "explanation": "Templates provide a starting structure, not edit restrictions."
+        },
+        {
+          "key": "B",
+          "text": "To pre‑populate a new page with consistent blocks, properties, and layout, speeding up setup.",
+          "correct": true,
+          "explanation": "Templates ensure every new project or task starts with the same structure, saving time."
+        },
+        {
+          "key": "C",
+          "text": "To create a backup copy of the entire database.",
+          "correct": false,
+          "explanation": "Templates are for individual records, not full backups."
+        },
+        {
+          "key": "D",
+          "text": "To automatically assign a random owner to each new project.",
+          "correct": false,
+          "explanation": "Owner assignment requires a Person property or automation, not a template alone."
+        }
+      ]
+    },
+    {
+      "id": "guides_project-management-that-evolves-with-your-team-009",
+      "question": "How can you ensure that only high‑priority tasks appear on a team’s dashboard view?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a filter on the tasks view that shows only items where the Priority Select property equals “P0”.",
+          "correct": true,
+          "explanation": "Filtering by the Priority Select property restricts the view to high‑priority tasks."
+        },
+        {
+          "key": "B",
+          "text": "Change the color of the task cards to red.",
+          "correct": false,
+          "explanation": "Color changes are visual only and don’t affect which items appear in a view."
+        },
+        {
+          "key": "C",
+          "text": "Move the tasks database to a separate page.",
+          "correct": false,
+          "explanation": "Location doesn’t control visibility; filters do."
+        },
+        {
+          "key": "D",
+          "text": "Rename the tasks database to include the word “High”.",
+          "correct": false,
+          "explanation": "Renaming doesn’t filter content; it only changes the database title."
+        }
+      ]
+    },
+    {
+      "id": "guides_project-management-that-evolves-with-your-team-010",
+      "question": "Which of the following best describes the benefit of using multiple saved views for a single Notion database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It creates duplicate databases that can be edited independently.",
+          "correct": false,
+          "explanation": "Saved views are just different presentations of the same underlying data, not duplicates."
+        },
+        {
+          "key": "B",
+          "text": "It allows the same data to be displayed in different layouts (e.g., board, timeline, table) for various team needs.",
+          "correct": true,
+          "explanation": "Multiple views let users switch between board, timeline, table, etc., without altering the data."
+        },
+        {
+          "key": "C",
+          "text": "It automatically syncs data to external tools like Jira.",
+          "correct": false,
+          "explanation": "Syncing to external tools requires separate integrations, not just saved views."
+        },
+        {
+          "key": "D",
+          "text": "It locks the database schema so properties cannot be changed.",
+          "correct": false,
+          "explanation": "Views don’t affect schema editability; they only change presentation."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "source": "guides_sharing-and-permissions",
+  "sourceTitle": "Sharing & permissions",
+  "sourceUrl": "https://www.notion.so/help/guides/sharing-and-permissions",
+  "questions": [
+    {
+      "id": "guides_sharing-and-permissions-001",
+      "question": "Which of the following is NOT a workspace role mentioned in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workspace owner",
+          "correct": false,
+          "explanation": "Workspace owners are listed as a workspace role."
+        },
+        {
+          "key": "B",
+          "text": "Membership admin",
+          "correct": false,
+          "explanation": "Membership admins are listed as a workspace role."
+        },
+        {
+          "key": "C",
+          "text": "Teamspace owner",
+          "correct": true,
+          "explanation": "Teamspace owner is a *teamspace* role, not a workspace role."
+        },
+        {
+          "key": "D",
+          "text": "Guest",
+          "correct": false,
+          "explanation": "Guests are listed as a workspace role."
+        }
+      ]
+    },
+    {
+      "id": "guides_sharing-and-permissions-002",
+      "question": "Which sidebar section contains pages that only you can see?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Teamspaces",
+          "correct": false,
+          "explanation": "Teamspaces hold shared teamspace pages, not private drafts."
+        },
+        {
+          "key": "B",
+          "text": "Shared",
+          "correct": false,
+          "explanation": "Shared shows pages other people have shared with you."
+        },
+        {
+          "key": "C",
+          "text": "Private",
+          "correct": true,
+          "explanation": "The Private section is for pages visible only to you."
+        },
+        {
+          "key": "D",
+          "text": "All",
+          "correct": false,
+          "explanation": "There is no \"All\" section in the sidebar."
+        }
+      ]
+    },
+    {
+      "id": "guides_sharing-and-permissions-003",
+      "question": "Which teamspace setting allows any workspace member to join the teamspace without an invitation?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Default",
+          "correct": false,
+          "explanation": "Default follows the workspace's default behavior, not necessarily open joining."
+        },
+        {
+          "key": "B",
+          "text": "Open",
+          "correct": true,
+          "explanation": "Open teamspaces let any workspace member join freely."
+        },
+        {
+          "key": "C",
+          "text": "Closed",
+          "correct": false,
+          "explanation": "Closed teamspaces are visible but require an invitation to join."
+        },
+        {
+          "key": "D",
+          "text": "Private",
+          "correct": false,
+          "explanation": "Private teamspaces are hidden from non‑members."
+        }
+      ]
+    },
+    {
+      "id": "guides_sharing-and-permissions-004",
+      "question": "To make a page viewable by anyone on the internet, which sharing option should you use?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Share with specific individuals",
+          "correct": false,
+          "explanation": "That limits access to only the named people."
+        },
+        {
+          "key": "B",
+          "text": "Share with a teamspace",
+          "correct": false,
+          "explanation": "Only members of that teamspace would see the page."
+        },
+        {
+          "key": "C",
+          "text": "Share with everyone in the workspace",
+          "correct": false,
+          "explanation": "That restricts visibility to workspace members, not the public."
+        },
+        {
+          "key": "D",
+          "text": "Publish to the web",
+          "correct": true,
+          "explanation": "Publishing to the web creates a public link that anyone can view."
+        }
+      ]
+    },
+    {
+      "id": "guides_sharing-and-permissions-005",
+      "question": "Which role can control workspace settings and add new members?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Guest",
+          "correct": false,
+          "explanation": "Guests have the most limited permissions."
+        },
+        {
+          "key": "B",
+          "text": "Membership admin",
+          "correct": true,
+          "explanation": "Membership admins are explicitly described as controlling settings and membership."
+        },
+        {
+          "key": "C",
+          "text": "Member",
+          "correct": false,
+          "explanation": "Members can use the workspace but cannot manage settings."
+        },
+        {
+          "key": "D",
+          "text": "Teamspace owner",
+          "correct": false,
+          "explanation": "Teamspace owners manage only their teamspace, not the whole workspace."
+        }
+      ]
+    },
+    {
+      "id": "guides_sharing-and-permissions-006",
+      "question": "What does a \"Closed\" teamspace setting do for workspace members who are not yet members of that teamspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They can see and join automatically",
+          "correct": false,
+          "explanation": "That describes an Open setting."
+        },
+        {
+          "key": "B",
+          "text": "They can see the teamspace but need an invitation to join",
+          "correct": true,
+          "explanation": "Closed teamspaces are visible but require an invite to become members."
+        },
+        {
+          "key": "C",
+          "text": "They cannot see the teamspace at all",
+          "correct": false,
+          "explanation": "That describes a Private setting."
+        },
+        {
+          "key": "D",
+          "text": "They can edit the teamspace but not view it",
+          "correct": false,
+          "explanation": "Impossible – you must view before you can edit."
+        }
+      ]
+    },
+    {
+      "id": "guides_sharing-and-permissions-007",
+      "question": "Which permission level allows a user to edit a page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full Access",
+          "correct": true,
+          "explanation": "Full Access includes editing capabilities."
+        },
+        {
+          "key": "B",
+          "text": "Can View",
+          "correct": false,
+          "explanation": "Can View only permits reading, not editing."
+        },
+        {
+          "key": "C",
+          "text": "Can Comment",
+          "correct": false,
+          "explanation": "The article does not list a separate \"Can Comment\" level; even if it existed, it wouldn't allow editing."
+        },
+        {
+          "key": "D",
+          "text": "No such level is specified",
+          "correct": false,
+          "explanation": "The article mentions Full Access and Can View, so a level exists for editing."
+        }
+      ]
+    },
+    {
+      "id": "guides_sharing-and-permissions-008",
+      "question": "What is the primary purpose of the \"Shared\" section in the Notion sidebar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store templates from the gallery",
+          "correct": false,
+          "explanation": "Templates are accessed via the template gallery, not the Shared section."
+        },
+        {
+          "key": "B",
+          "text": "To hold pages others have shared with you",
+          "correct": true,
+          "explanation": "Shared contains pages that other people have given you access to."
+        },
+        {
+          "key": "C",
+          "text": "To contain listings of all teamspaces",
+          "correct": false,
+          "explanation": "Teamspaces have their own dedicated section."
+        },
+        {
+          "key": "D",
+          "text": "To keep private drafts",
+          "correct": false,
+          "explanation": "Private drafts belong in the Private section."
+        }
+      ]
+    },
+    {
+      "id": "guides_sharing-and-permissions-009",
+      "question": "A user is a workspace \"member\" but is not added to a specific teamspace. How does a \"Private\" teamspace appear to that user?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They can view the teamspace but not join",
+          "correct": false,
+          "explanation": "Private teamspaces are hidden from non‑members, not just restricted from joining."
+        },
+        {
+          "key": "B",
+          "text": "They can join automatically because they are workspace members",
+          "correct": false,
+          "explanation": "Only Open teamspaces allow automatic joining."
+        },
+        {
+          "key": "C",
+          "text": "They cannot see the teamspace at all",
+          "correct": true,
+          "explanation": "Private teamspaces are invisible to anyone who isn’t a member or owner of that teamspace."
+        },
+        {
+          "key": "D",
+          "text": "They can request access via a button",
+          "correct": false,
+          "explanation": "The article does not mention a request‑access feature for Private teamspaces."
+        }
+      ]
+    },
+    {
+      "id": "guides_sharing-and-permissions-010",
+      "question": "If an admin wants every new page to start with the most restrictive permissions possible, which teamspace setting should be used as the default?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Default",
+          "correct": false,
+          "explanation": "Default inherits the workspace’s standard behavior, which may not be the most restrictive."
+        },
+        {
+          "key": "B",
+          "text": "Open",
+          "correct": false,
+          "explanation": "Open is the least restrictive, allowing anyone to join."
+        },
+        {
+          "key": "C",
+          "text": "Closed",
+          "correct": false,
+          "explanation": "Closed still lets members see the teamspace; it’s not the most restrictive."
+        },
+        {
+          "key": "D",
+          "text": "Private",
+          "correct": true,
+          "explanation": "Private hides the teamspace from non‑members, providing the highest level of restriction."
+        }
+      ]
+    }
+  ]
+}

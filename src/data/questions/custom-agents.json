@@ -1,0 +1,348 @@
+{
+  "source": "custom-agents",
+  "sourceTitle": "Custom Agents",
+  "sourceUrl": "https://www.notion.so/help/custom-agents",
+  "questions": [
+    {
+      "id": "custom-agents-001",
+      "question": "Who is eligible to use Custom Agents in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Individual users on the Free or Personal Plan",
+          "correct": false,
+          "explanation": "Custom Agents are currently only available to users on Notion’s Business or Enterprise Plan."
+        },
+        {
+          "key": "B",
+          "text": "Teams on the Business or Enterprise Plan",
+          "correct": true,
+          "explanation": "This is correct. Custom Agents are designed for Business and Enterprise workspaces to automate recurring workflows."
+        },
+        {
+          "key": "C",
+          "text": "Workspace Admins only",
+          "correct": false,
+          "explanation": "While Admins have specific control settings, anyone on the eligible plan can create and use Custom Agents."
+        },
+        {
+          "key": "D",
+          "text": "External contractors",
+          "correct": false,
+          "explanation": "Eligibility is based on the Notion plan the user is on, not their external role."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-002",
+      "question": "How does a Custom Agent differ from the Notion Agent (the assistant in the bottom right corner)?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion Agent runs autonomously in the background on triggers.",
+          "correct": false,
+          "explanation": "Notion Agent is on-demand, whereas Custom Agents are designed to run autonomously in the background."
+        },
+        {
+          "key": "B",
+          "text": "Custom Agents are on-demand, whereas Notion Agent runs autonomously.",
+          "correct": false,
+          "explanation": "This is incorrect. The Notion Agent is on-demand, while Custom Agents run autonomously via triggers."
+        },
+        {
+          "key": "C",
+          "text": "Custom Agents are designed for one-off tasks.",
+          "correct": false,
+          "explanation": "Notion Agent handles one-off tasks, while Custom Agents handle recurring, automated workflows."
+        },
+        {
+          "key": "D",
+          "text": "Notion Agent uses precise instructions, while Custom Agents use natural language.",
+          "correct": false,
+          "explanation": "Custom Agents use precise instructions, whereas Notion Agent helps draft and summarize content."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-003",
+      "question": "Where do you configure the specific pages and databases an Agent should use as context?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the Instructions field when you create the agent.",
+          "correct": false,
+          "explanation": "Linking pages in the Instructions field does not grant access; you must use the 'Tools and access' section."
+        },
+        {
+          "key": "B",
+          "text": "In the Triggers section of Settings.",
+          "correct": false,
+          "explanation": "Triggers determine *when* the agent runs, not *what* data it can access."
+        },
+        {
+          "key": "C",
+          "text": "In the Tools and access section of Settings.",
+          "correct": true,
+          "explanation": "This is correct. The 'Tools and access' section is where you explicitly grant the agent permission to view specific pages and databases."
+        },
+        {
+          "key": "D",
+          "text": "In the Model section of Settings.",
+          "correct": false,
+          "explanation": "The Model section is for selecting the AI model (e.g., GPT, Claude), not for configuring access."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-004",
+      "question": "Which of the following is a valid Notion trigger for a Custom Agent?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A message posted to a private Slack channel.",
+          "correct": false,
+          "explanation": "Private Slack channels are not supported for Custom Agent triggers; only public channels are supported."
+        },
+        {
+          "key": "B",
+          "text": "A page being added to a database.",
+          "correct": true,
+          "explanation": "This is a valid trigger. Agents can run when pages are added, updated, removed, or when comments are added."
+        },
+        {
+          "key": "C",
+          "text": "A user clicking a link in a Notion page.",
+          "correct": false,
+          "explanation": "Notion triggers are specific to database events, comments, and mentions; they do not react to link clicks."
+        },
+        {
+          "key": "D",
+          "text": "A user logging into the workspace.",
+          "correct": false,
+          "explanation": "Login events are not listed as supported triggers for Custom Agents."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-005",
+      "question": "How can you allow a Custom Agent to browse the internet to retrieve external information?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enable it in the Triggers section.",
+          "correct": false,
+          "explanation": "Web access is a toggle setting, not a trigger configuration."
+        },
+        {
+          "key": "B",
+          "text": "Turn on the Web access toggle in Settings.",
+          "correct": true,
+          "explanation": "This is correct. You find the 'Web access' toggle in the Settings panel of the agent."
+        },
+        {
+          "key": "C",
+          "text": "Connect it via the Slack integration settings.",
+          "correct": false,
+          "explanation": "Slack integration handles communication, not web browsing."
+        },
+        {
+          "key": "D",
+          "text": "It is enabled by default for all agents.",
+          "correct": false,
+          "explanation": "Web access is optional and must be explicitly toggled on or off."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-006",
+      "question": "Before setting up a Slack trigger for a Custom Agent, what administrative step is required?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The agent creator must have Full Access permissions.",
+          "correct": false,
+          "explanation": "Access permissions are for the agent itself, not the specific admin task required to enable the integration."
+        },
+        {
+          "key": "B",
+          "text": "A Slack workspace admin must enable the Notion integration for Custom Agents.",
+          "correct": true,
+          "explanation": "This is correct. An admin must enable the Notion integration to give the agent the necessary read/write permissions in Slack."
+        },
+        {
+          "key": "C",
+          "text": "The agent must be shared with the entire workspace.",
+          "correct": false,
+          "explanation": "Sharing the agent is a separate step that happens after the integration is enabled."
+        },
+        {
+          "key": "D",
+          "text": "The agent must be connected to the Slack AI connector.",
+          "correct": false,
+          "explanation": "The Slack AI connector is required for general Slack AI features, but the specific Notion integration for Custom Agents must be enabled by an admin first."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-007",
+      "question": "What happens if you want to debug a run that failed unexpectedly?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Open the Chat tab and ask the agent to explain itself.",
+          "correct": false,
+          "explanation": "The Chat tab is for testing instructions and one-off tasks, not for debugging historical failed runs."
+        },
+        {
+          "key": "B",
+          "text": "Open the Activity tab to see the trigger, actions taken, and errors.",
+          "correct": true,
+          "explanation": "This is correct. The Activity tab provides logs showing what triggered the run, what the agent did, and any error messages."
+        },
+        {
+          "key": "C",
+          "text": "Check the Version history to see if a change caused the error.",
+          "correct": false,
+          "explanation": "While Version history is useful for reverting changes, the Activity tab is the primary tool for debugging a specific failed run."
+        },
+        {
+          "key": "D",
+          "text": "Contact Notion Support immediately.",
+          "correct": false,
+          "explanation": "Users should use the Activity tab and Logs to debug first before contacting support."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-008",
+      "question": "What is the correct process to restore a previous version of a Custom Agent configuration?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Re-create the agent from a template.",
+          "correct": false,
+          "explanation": "Templates are for starting new agents, not restoring old configurations."
+        },
+        {
+          "key": "B",
+          "text": "Access Version history on the Agent page and select a version to restore.",
+          "correct": true,
+          "explanation": "This is correct. You navigate to the Agent page, access Version history, review past versions, and select one to revert to."
+        },
+        {
+          "key": "C",
+          "text": "Edit the instructions and manually re-enter the previous steps.",
+          "correct": false,
+          "explanation": "Version history allows for an exact restoration without manual re-entry."
+        },
+        {
+          "key": "D",
+          "text": "Contact an Admin to revert the changes.",
+          "correct": false,
+          "explanation": "Users can restore versions themselves; Admins are not required for this specific action."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-009",
+      "question": "What is the primary difference between 'Can View and Interact' and 'Full Access' permissions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Can View and Interact users can edit instructions, but Full Access users cannot.",
+          "correct": false,
+          "explanation": "Both groups can view instructions; Full Access allows editing configurations and managing access."
+        },
+        {
+          "key": "B",
+          "text": "Full Access users can view activity logs, but Can View and Interact users cannot.",
+          "correct": false,
+          "explanation": "Both can view activity logs; Full Access users have more management capabilities."
+        },
+        {
+          "key": "C",
+          "text": "Can View and Interact users can run and chat with the agent, but Full Access users can also manage access.",
+          "correct": true,
+          "explanation": "This is correct. 'Can View and Interact' allows running and chatting, while 'Full Access' includes the ability to manage access, triggers, and models."
+        },
+        {
+          "key": "D",
+          "text": "Can View and Interact users can edit triggers, but Full Access users cannot.",
+          "correct": false,
+          "explanation": "Neither group can edit triggers; only Full Access can."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-010",
+      "question": "Which models are supported for running a Custom Agent?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only GPT-4.",
+          "correct": false,
+          "explanation": "Custom Agents support multiple models, including Claude, GPT, and Gemini."
+        },
+        {
+          "key": "B",
+          "text": "Claude, GPT, and Gemini.",
+          "correct": true,
+          "explanation": "This is correct. Supported models include Claude, GPT, and Gemini, with 'Auto' as the recommended default."
+        },
+        {
+          "key": "C",
+          "text": "Notion's proprietary model only.",
+          "correct": false,
+          "explanation": "Custom Agents are not limited to a proprietary model; they can use standard LLMs like GPT and Claude."
+        },
+        {
+          "key": "D",
+          "text": "Auto is the only supported model.",
+          "correct": false,
+          "explanation": "While Auto is the recommended default, specific models can be selected if consistency is desired."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-011",
+      "question": "When setting up a Slack trigger, which type of channel can the agent monitor?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "All channels in the workspace.",
+          "correct": false,
+          "explanation": "Agents can only monitor public channels, not private ones."
+        },
+        {
+          "key": "B",
+          "text": "Only channels where the agent is a member.",
+          "correct": false,
+          "explanation": "This is not a restriction; the agent can monitor public channels regardless of membership status in Notion."
+        },
+        {
+          "key": "C",
+          "text": "Only channels with more than 10 members.",
+          "correct": false,
+          "explanation": "Channel size is not a factor; accessibility (public vs private) is the deciding factor."
+        },
+        {
+          "key": "D",
+          "text": "Public channels.",
+          "correct": true,
+          "explanation": "This is correct. Custom Agents can only watch for events in public Slack channels."
+        }
+      ]
+    }
+  ]
+}

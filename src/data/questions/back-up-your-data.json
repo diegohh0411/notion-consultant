@@ -1,0 +1,410 @@
+{
+  "source": "back-up-your-data",
+  "sourceTitle": "Back up your data",
+  "sourceUrl": "https://www.notion.so/help/back-up-your-data",
+  "questions": [
+    {
+      "id": "back-up-your-data-001",
+      "question": "Which export formats are available for your entire workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "PDF and PNG only",
+          "correct": false,
+          "explanation": "PNG is not an export format mentioned for workspaces. The article specifies HTML, Markdown, CSV, and PDF."
+        },
+        {
+          "key": "B",
+          "text": "HTML, Markdown, CSV, and PDF (for Business/Enterprise)",
+          "correct": true,
+          "explanation": "HTML, Markdown, and CSV are available for all plans. PDF export is specifically available for Business and Enterprise plans."
+        },
+        {
+          "key": "C",
+          "text": "Word and Excel only",
+          "correct": false,
+          "explanation": "Word and Excel are not mentioned as export formats. The article lists HTML, Markdown, and CSV for databases."
+        },
+        {
+          "key": "D",
+          "text": "JSON and XML",
+          "correct": false,
+          "explanation": "JSON and XML are not export formats mentioned in this article."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-002",
+      "question": "Where can you find the 'Export all workspace content' button?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sidebar > Workspace > Export",
+          "correct": false,
+          "explanation": "The correct path is Sidebar > Settings > General."
+        },
+        {
+          "key": "B",
+          "text": "Sidebar > Settings > General",
+          "correct": true,
+          "explanation": "According to the steps provided, you go to Settings in your sidebar, select General, and then find 'Export all workspace content'."
+        },
+        {
+          "key": "C",
+          "text": "Top right menu of any page",
+          "correct": false,
+          "explanation": "While individual pages have an export option, the 'Export all workspace content' button is located in the Settings menu."
+        },
+        {
+          "key": "D",
+          "text": "Sidebar > Workspace > Archive",
+          "correct": false,
+          "explanation": "Archive is not the location for exporting content. The correct location is Settings > General."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-003",
+      "question": "What is the default retention period for pages in the Trash?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "7 days",
+          "correct": false,
+          "explanation": "Pages remain in Trash for 30 days by default before being automatically removed."
+        },
+        {
+          "key": "B",
+          "text": "14 days",
+          "correct": false,
+          "explanation": "The default retention period is 30 days."
+        },
+        {
+          "key": "C",
+          "text": "30 days",
+          "correct": true,
+          "explanation": "The article states that pages will remain in Trash for 30 days before they are automatically removed."
+        },
+        {
+          "key": "D",
+          "text": "90 days",
+          "correct": false,
+          "explanation": "The default retention period is 30 days; 90 days is not mentioned."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-004",
+      "question": "Why might the 'Export all workspace content' function fail for a particularly large workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The browser is not supported",
+          "correct": false,
+          "explanation": "The browser compatibility is not mentioned as the reason for failure. The article cites system limitations for large workspaces."
+        },
+        {
+          "key": "B",
+          "text": "The internet connection is unstable",
+          "correct": false,
+          "explanation": "While unstable connections can cause issues, the article specifically mentions that the function may have trouble completing for particularly large workspaces."
+        },
+        {
+          "key": "C",
+          "text": "System limitations for particularly large workspaces",
+          "correct": true,
+          "explanation": "The article states that for particularly large workspaces, the function may have some trouble completing the export."
+        },
+        {
+          "key": "D",
+          "text": "You are not an admin",
+          "correct": false,
+          "explanation": "Admin status is not the reason for the failure. The failure is attributed to the size of the workspace."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-005",
+      "question": "How can you restore a page from the Trash?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the star icon",
+          "correct": false,
+          "explanation": "The star icon is used for favoriting pages, not restoring them."
+        },
+        {
+          "key": "B",
+          "text": "Click the edit icon",
+          "correct": false,
+          "explanation": "The edit icon allows you to modify the page, not restore it to its original location."
+        },
+        {
+          "key": "C",
+          "text": "Click the curved arrow icon",
+          "correct": true,
+          "explanation": "The article instructs you to click the curved arrow icon next to the page in Trash to restore it."
+        },
+        {
+          "key": "D",
+          "text": "Click the delete icon",
+          "correct": false,
+          "explanation": "Clicking the delete icon would permanently delete the page, not restore it."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-006",
+      "question": "What is included in the export to help you navigate the exported workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A PDF guide",
+          "correct": false,
+          "explanation": "A PDF guide is not mentioned. The article specifies that a sitemap (index.html) is included."
+        },
+        {
+          "key": "B",
+          "text": "A sitemap (index.html)",
+          "correct": true,
+          "explanation": "The article states that 'A sitemap (index.html) is included the export to help you navigate the exported workspace'."
+        },
+        {
+          "key": "C",
+          "text": "A JSON file",
+          "correct": false,
+          "explanation": "A JSON file is not included. The sitemap is an HTML file."
+        },
+        {
+          "key": "D",
+          "text": "A CSV index",
+          "correct": false,
+          "explanation": "A CSV index is not mentioned. The navigation aid provided is an HTML sitemap."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-007",
+      "question": "When migrating content to a new account, what is a specific limitation regarding the top-level page?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "You must delete the top-level page first",
+          "correct": false,
+          "explanation": "You do not need to delete the top-level page; rather, you cannot move it directly."
+        },
+        {
+          "key": "B",
+          "text": "You cannot move the top-level page, only sub-pages",
+          "correct": true,
+          "explanation": "The migration steps explicitly state, 'you can only move sub-pages, you will not be able to move the top-level page'."
+        },
+        {
+          "key": "C",
+          "text": "The top-level page must be shared with full access first",
+          "correct": false,
+          "explanation": "While you share the page, the limitation is that you cannot move the page itself; you can only move its sub-pages."
+        },
+        {
+          "key": "D",
+          "text": "The top-level page will be duplicated instead of moved",
+          "correct": false,
+          "explanation": "The limitation is about the *action* of moving, not the duplication. Sub-pages are moved, while the top-level page remains in the source."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-008",
+      "question": "How long is the download link valid after requesting a workspace export?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "24 hours",
+          "correct": false,
+          "explanation": "The link is valid for 7 days, not 24 hours."
+        },
+        {
+          "key": "B",
+          "text": "7 days",
+          "correct": true,
+          "explanation": "The article states that the email link 'will expire after 7 days'."
+        },
+        {
+          "key": "C",
+          "text": "14 days",
+          "correct": false,
+          "explanation": "The link expires after 7 days."
+        },
+        {
+          "key": "D",
+          "text": "30 days",
+          "correct": false,
+          "explanation": "While Trash retention is 30 days, the download link for the export expires after 7 days."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-009",
+      "question": "What is the current limitation regarding automatic backups in Notion?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automatic backups are not currently available",
+          "correct": true,
+          "explanation": "The article explicitly states, 'Not at the moment', regarding automatic backups."
+        },
+        {
+          "key": "B",
+          "text": "Automatic backups are only available on the Enterprise plan",
+          "correct": false,
+          "explanation": "The article mentions that automatic backups are not available at all, regardless of plan."
+        },
+        {
+          "key": "C",
+          "text": "Automatic backups are handled by a third-party integration only",
+          "correct": false,
+          "explanation": "The article states that automatic backups are not available yet, though API updates may enable them in the future."
+        },
+        {
+          "key": "D",
+          "text": "Automatic backups require you to install an app",
+          "correct": false,
+          "explanation": "There is no native automatic backup feature mentioned, nor is it tied to a specific app installation."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-010",
+      "question": "What happens if the exporter doesn't have access to a private page belonging to another user?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is included in the export as a placeholder",
+          "correct": false,
+          "explanation": "The article states these pages are 'not included in the export'."
+        },
+        {
+          "key": "B",
+          "text": "It is included in the export",
+          "correct": false,
+          "explanation": "Pages without access are excluded from the export."
+        },
+        {
+          "key": "C",
+          "text": "It is not included in the export",
+          "correct": true,
+          "explanation": "The article specifies that 'Pages that the exporter doesn't have access to... will not be included in the export'."
+        },
+        {
+          "key": "D",
+          "text": "It is automatically shared with you",
+          "correct": false,
+          "explanation": "The article does not mention automatic sharing; it only mentions that admins on Enterprise can grant access to specific pages."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-011",
+      "question": "How can you restore a page if you accidentally delete your entire account?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use the edit history feature",
+          "correct": false,
+          "explanation": "Edit history is for restoring past versions of a page, not for recovering an entirely deleted account."
+        },
+        {
+          "key": "B",
+          "text": "Contact Notion support for a database snapshot",
+          "correct": true,
+          "explanation": "The article states that support can restore a snapshot from their database backups if you contact them."
+        },
+        {
+          "key": "C",
+          "text": "Re-upload your previous export files",
+          "correct": false,
+          "explanation": "While exports are for safekeeping, the article notes that 'You can’t instantly recreate your workspace by reuploading your exported workspace content'."
+        },
+        {
+          "key": "D",
+          "text": "Restore it from the Trash",
+          "correct": false,
+          "explanation": "An entire deleted account cannot be restored from the Trash, which typically contains pages, not the whole account structure."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-012",
+      "question": "Can you empty your Trash all at once?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, by clicking a bulk delete button",
+          "correct": false,
+          "explanation": "The article states, 'There isn’t a way to empty your trash all at once'."
+        },
+        {
+          "key": "B",
+          "text": "Yes, if you are an Organization Owner",
+          "correct": false,
+          "explanation": "While owners can customize retention settings, there is no button to bulk-empty the trash."
+        },
+        {
+          "key": "C",
+          "text": "No, you must delete individual pages",
+          "correct": true,
+          "explanation": "The article confirms there is no way to empty trash all at once; you must delete pages individually or wait for the 30-day auto-delete."
+        },
+        {
+          "key": "D",
+          "text": "Yes, it happens automatically immediately",
+          "correct": false,
+          "explanation": "Trash is not emptied immediately; it remains for 30 days (or a customized period) before being permanently deleted."
+        }
+      ]
+    },
+    {
+      "id": "back-up-your-data-013",
+      "question": "What is the maximum timeframe for which the Notion support team can restore data from their database backups?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Up to 7 days",
+          "correct": false,
+          "explanation": "The support team can restore snapshots up to 30 days old, which is longer than the 7-day export link validity."
+        },
+        {
+          "key": "B",
+          "text": "Up to 30 days",
+          "correct": true,
+          "explanation": "The article specifies that they can restore a snapshot of any page in the past 30 days."
+        },
+        {
+          "key": "C",
+          "text": "Up to 90 days",
+          "correct": false,
+          "explanation": "90 days is not mentioned as the timeframe for support team restoration."
+        },
+        {
+          "key": "D",
+          "text": "Unlimited",
+          "correct": false,
+          "explanation": "The restoration timeframe is limited to 30 days for the support team's database backups."
+        }
+      ]
+    }
+  ]
+}

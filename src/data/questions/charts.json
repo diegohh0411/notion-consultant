@@ -1,0 +1,472 @@
+{
+  "source": "charts",
+  "sourceTitle": "Chart view",
+  "sourceUrl": "https://www.notion.so/help/charts",
+  "questions": [
+    {
+      "id": "charts-001",
+      "question": "How many charts can a user with a Free Plan create?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unlimited",
+          "correct": false,
+          "explanation": "Unlimited charts are available only on a Paid plan. Free Plan members are limited to one chart."
+        },
+        {
+          "key": "B",
+          "text": "5",
+          "correct": false,
+          "explanation": "The Free Plan limit is one chart, not five."
+        },
+        {
+          "key": "C",
+          "text": "1",
+          "correct": true,
+          "explanation": "Correct. Free Plan members can create one chart for free."
+        },
+        {
+          "key": "D",
+          "text": "10",
+          "correct": false,
+          "explanation": "The Free Plan limit is one chart, not ten."
+        }
+      ]
+    },
+    {
+      "id": "charts-002",
+      "question": "Which slash command is used to create a new chart view in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "/database",
+          "correct": false,
+          "explanation": "/database creates a new database page, not a chart view."
+        },
+        {
+          "key": "B",
+          "text": "/chart",
+          "correct": true,
+          "explanation": "Correct. The slash command '/chart' opens the menu to select your chart type."
+        },
+        {
+          "key": "C",
+          "text": "/view",
+          "correct": false,
+          "explanation": "/view is a general command that opens the view menu, but /chart is specific to creating charts."
+        },
+        {
+          "key": "D",
+          "text": "/table",
+          "correct": false,
+          "explanation": "/table creates a table view, which is a different database view type."
+        }
+      ]
+    },
+    {
+      "id": "charts-003",
+      "question": "Which of the following actions is NOT available when viewing a chart drilldown?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Copy the link to the chart",
+          "correct": false,
+          "explanation": "You can copy the link to the chart even within a drilldown view."
+        },
+        {
+          "key": "B",
+          "text": "Select multiple rows and take bulk actions",
+          "correct": true,
+          "explanation": "Correct. Drilldown views currently do not support selecting multiple rows for bulk actions."
+        },
+        {
+          "key": "C",
+          "text": "View data in a table view",
+          "correct": false,
+          "explanation": "Drilldowns currently appear as table views, so this is available."
+        },
+        {
+          "key": "D",
+          "text": "Save the drilldown as a view",
+          "correct": false,
+          "explanation": "You can save a drilldown as a view by selecting 'Save as view in'."
+        }
+      ]
+    },
+    {
+      "id": "charts-004",
+      "question": "Which data type is NOT supported on the X or Y axis of a bar or line chart?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rollups",
+          "correct": false,
+          "explanation": "Rollups are generally supported for the Y axis to show aggregated data."
+        },
+        {
+          "key": "B",
+          "text": "Count",
+          "correct": false,
+          "explanation": "Count is a valid option for the Y axis."
+        },
+        {
+          "key": "C",
+          "text": "Buttons",
+          "correct": true,
+          "explanation": "Correct. Buttons, unique IDs, files, and media are not supported on axes."
+        },
+        {
+          "key": "D",
+          "text": "Properties",
+          "correct": false,
+          "explanation": "Properties are the standard data type used for axes."
+        }
+      ]
+    },
+    {
+      "id": "charts-005",
+      "question": "If your database’s sub-items are not reflecting in your chart, what setting must you adjust in the database settings?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sort by",
+          "correct": false,
+          "explanation": "Sorting order does not affect whether sub-items are displayed in the chart."
+        },
+        {
+          "key": "B",
+          "text": "Group by",
+          "correct": false,
+          "explanation": "Grouping determines how data is organized, not how sub-items are flattened."
+        },
+        {
+          "key": "C",
+          "text": "Show as",
+          "correct": true,
+          "explanation": "Correct. You must change the 'Show as' setting to 'Flattened list' in More settings to display all items."
+        },
+        {
+          "key": "D",
+          "text": "Sub-items or Sub-tasks",
+          "correct": false,
+          "explanation": "While the setting is found under Sub-items or Sub-tasks, the specific toggle to fix the display is 'Show as'."
+        }
+      ]
+    },
+    {
+      "id": "charts-006",
+      "question": "What is the purpose of the 'Omit zero values' toggle on the X or Y axis?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To hide groups that have no data",
+          "correct": true,
+          "explanation": "Correct. If you toggle this on, groups with zero associated items will not appear in the chart."
+        },
+        {
+          "key": "B",
+          "text": "To prevent the chart from crashing if data is missing",
+          "correct": false,
+          "explanation": "This toggle controls visibility, not stability or crash prevention."
+        },
+        {
+          "key": "C",
+          "text": "To sort the data so that zero values appear first",
+          "correct": false,
+          "explanation": "This toggle controls visibility, not sorting order."
+        },
+        {
+          "key": "D",
+          "text": "To remove the axis title if the value is zero",
+          "correct": false,
+          "explanation": "The axis title is controlled by the 'Axis name' setting, not 'Omit zero values'."
+        }
+      ]
+    },
+    {
+      "id": "charts-007",
+      "question": "What condition must be met for the 'Cumulative' toggle to appear on the Y axis?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The chart type is a Donut chart",
+          "correct": false,
+          "explanation": "The Cumulative toggle is specific to bar and line charts, not Donut charts."
+        },
+        {
+          "key": "B",
+          "text": "The Y axis is showing a formula",
+          "correct": false,
+          "explanation": "The Cumulative toggle is available when Y axis is showing Count or Sum."
+        },
+        {
+          "key": "C",
+          "text": "The X axis property is sorted in ascending order",
+          "correct": true,
+          "explanation": "Correct. The toggle appears only if you are showing Count or Sum and the X axis is sorted ascending."
+        },
+        {
+          "key": "D",
+          "text": "The chart is showing data labels",
+          "correct": false,
+          "explanation": "Data labels are a separate style setting and do not enable the Cumulative toggle."
+        }
+      ]
+    },
+    {
+      "id": "charts-008",
+      "question": "Which style option makes the line in a line chart curved instead of angular?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Smooth line",
+          "correct": true,
+          "explanation": "Correct. Toggling 'Smooth line' turns the line into a curve."
+        },
+        {
+          "key": "B",
+          "text": "Gradient area",
+          "correct": false,
+          "explanation": "Gradient area fills the space under the line with a gradient, it does not smooth the line itself."
+        },
+        {
+          "key": "C",
+          "text": "Grid line",
+          "correct": false,
+          "explanation": "Grid lines add reference lines to the background, they don't affect line curvature."
+        },
+        {
+          "key": "D",
+          "text": "Color by value",
+          "correct": false,
+          "explanation": "Color by value changes the color intensity based on value, not the shape of the line."
+        }
+      ]
+    },
+    {
+      "id": "charts-009",
+      "question": "Can you edit database entries directly from a chart view?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, you can edit them like in a table view",
+          "correct": false,
+          "explanation": "Currently, you cannot edit database entries from the chart view itself."
+        },
+        {
+          "key": "B",
+          "text": "No, you must switch to another view to edit data",
+          "correct": true,
+          "explanation": "Correct. Chart view is for visualization only; you must use another view to edit data."
+        },
+        {
+          "key": "C",
+          "text": "Only on mobile devices",
+          "correct": false,
+          "explanation": "This limitation applies to all platforms."
+        },
+        {
+          "key": "D",
+          "text": "Only if you are an admin",
+          "correct": false,
+          "explanation": "Editing permissions are not the issue; chart view simply does not support input."
+        }
+      ]
+    },
+    {
+      "id": "charts-010",
+      "question": "Which download options are currently unavailable on the Android app?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Copy as PNG",
+          "correct": false,
+          "explanation": "Copy as PNG is available on Android."
+        },
+        {
+          "key": "B",
+          "text": "Download PNG",
+          "correct": false,
+          "explanation": "Download PNG is available on Android."
+        },
+        {
+          "key": "C",
+          "text": "Download SVG",
+          "correct": true,
+          "explanation": "Correct. Downloading as SVG is not currently available on the Android app."
+        },
+        {
+          "key": "D",
+          "text": "Save chart as...",
+          "correct": false,
+          "explanation": "Save chart as... is available on Android."
+        }
+      ]
+    },
+    {
+      "id": "charts-011",
+      "question": "How can you exclude specific groups (e.g., completed tasks) from a chart visualization?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "By setting 'Show as' to Hidden list",
+          "correct": false,
+          "explanation": "There is no 'Hidden list' option in the database settings."
+        },
+        {
+          "key": "B",
+          "text": "By clicking the eye icon next to the option in Visible groups",
+          "correct": true,
+          "explanation": "Correct. Selecting the eye icon hides the group and moves it to 'Hidden groups'."
+        },
+        {
+          "key": "C",
+          "text": "By toggling 'Omit zero values' off",
+          "correct": false,
+          "explanation": "Omit zero values hides groups with zero data, not specific groups you choose to exclude."
+        },
+        {
+          "key": "D",
+          "text": "By changing the chart type to Donut",
+          "correct": false,
+          "explanation": "Changing the chart type changes the visualization, it doesn't filter specific groups."
+        }
+      ]
+    },
+    {
+      "id": "charts-012",
+      "question": "Which feature allows you to remove the 'Made with Notion' watermark when saving a chart?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Removing the background color",
+          "correct": false,
+          "explanation": "Changing the background color does not remove the watermark."
+        },
+        {
+          "key": "B",
+          "text": "Toggling 'Color by value' to Off",
+          "correct": false,
+          "explanation": "This setting controls color intensity, not watermarks."
+        },
+        {
+          "key": "C",
+          "text": "Choosing not to include a background on a Paid plan",
+          "correct": true,
+          "explanation": "Correct. On a Paid plan, you can choose to have no background, which removes the watermark."
+        },
+        {
+          "key": "D",
+          "text": "Selecting 'No watermark' in the style menu",
+          "correct": false,
+          "explanation": "There is no specific 'No watermark' toggle; it is a side effect of removing the background on a Paid plan."
+        }
+      ]
+    },
+    {
+      "id": "charts-013",
+      "question": "Where can you add a Chart view to an existing database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "From the Chart settings menu",
+          "correct": false,
+          "explanation": "Chart settings are only available after you have added the view."
+        },
+        {
+          "key": "B",
+          "text": "By clicking the + next to the database name",
+          "correct": true,
+          "explanation": "Correct. Click the + and select Chart from the dropdown to add the view."
+        },
+        {
+          "key": "C",
+          "text": "By editing the database properties",
+          "correct": false,
+          "explanation": "Adding views is done at the database level, not the property level."
+        },
+        {
+          "key": "D",
+          "text": "Only by using the slash command",
+          "correct": false,
+          "explanation": "You can also add a chart view via the dropdown menu next to the database name."
+        }
+      ]
+    },
+    {
+      "id": "charts-014",
+      "question": "What is the maximum number of groups a chart can display at one time?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "50",
+          "correct": false,
+          "explanation": "50 is the limit for subgroups, not groups."
+        },
+        {
+          "key": "B",
+          "text": "100",
+          "correct": false,
+          "explanation": "The limit is higher than 100."
+        },
+        {
+          "key": "C",
+          "text": "200",
+          "correct": true,
+          "explanation": "Correct. Charts can display up to 200 groups at a time."
+        },
+        {
+          "key": "D",
+          "text": "500",
+          "correct": false,
+          "explanation": "The limit is 200 groups and 50 subgroups."
+        }
+      ]
+    },
+    {
+      "id": "charts-015",
+      "question": "What is the main difference in configuration options between a Donut chart and a Bar/Line chart?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Donut charts cannot use the X and Y axis configuration",
+          "correct": false,
+          "explanation": "Both chart types use axis configuration; Donut charts use a 'Data' section instead."
+        },
+        {
+          "key": "B",
+          "text": "Bar and Line charts cannot be customized with style options like Smooth line",
+          "correct": false,
+          "explanation": "Bar and Line charts support many style options that Donut charts do not, such as Smooth line and Gradient area."
+        },
+        {
+          "key": "C",
+          "text": "Donut charts use a 'Data' section to configure what to show and how slices are organized",
+          "correct": true,
+          "explanation": "Correct. While Bar/Line charts use X/Y axes, Donut charts use a 'Data' section to define properties."
+        },
+        {
+          "key": "D",
+          "text": "Bar and Line charts do not support the 'Omit zero values' toggle",
+          "correct": false,
+          "explanation": "Both Bar/Line and Donut charts support the 'Omit zero values' toggle."
+        }
+      ]
+    }
+  ]
+}

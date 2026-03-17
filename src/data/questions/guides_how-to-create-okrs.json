@@ -1,0 +1,193 @@
+{
+  "source": "guides_how-to-create-okrs",
+  "sourceTitle": "How to create OKRs",
+  "sourceUrl": "https://www.notion.so/help/guides/how-to-create-okrs",
+  "questions": [
+    {
+      "id": "guides_how-to-create-okrs-001",
+      "question": "What does the acronym OKR stand for?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Objectives and Key Results",
+          "correct": true,
+          "explanation": "OKR is defined as Objectives and Key Results, a framework for setting and tracking goals."
+        },
+        {
+          "key": "B",
+          "text": "Organizational Knowledge Repository",
+          "correct": false,
+          "explanation": "This is not the meaning of OKR; it describes a knowledge base, not a goal‑setting framework."
+        },
+        {
+          "key": "C",
+          "text": "Operational Key Ratios",
+          "correct": false,
+          "explanation": "Operational Key Ratios is unrelated to the OKR methodology."
+        },
+        {
+          "key": "D",
+          "text": "Outcome‑Based Knowledge Review",
+          "correct": false,
+          "explanation": "While it sounds plausible, it is not the correct expansion of OKR."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-create-okrs-002",
+      "question": "According to the guide, why is keeping all OKRs in one place beneficial?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It reduces the number of required templates.",
+          "correct": false,
+          "explanation": "The benefit mentioned is about transparency, not template count."
+        },
+        {
+          "key": "B",
+          "text": "It creates transparency across the entire company.",
+          "correct": true,
+          "explanation": "Centralizing OKRs makes progress visible to everyone, fostering transparency."
+        },
+        {
+          "key": "C",
+          "text": "It eliminates the need for video tutorials.",
+          "correct": false,
+          "explanation": "Video tutorials are unrelated to the location of OKRs."
+        },
+        {
+          "key": "D",
+          "text": "It automatically syncs with external project management tools.",
+          "correct": false,
+          "explanation": "The guide does not claim automatic syncing with other tools."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-create-okrs-003",
+      "question": "Which part of the provided formula calculates the proportion of progress made toward the target?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "(prop(\"Current Value\") - prop(\"Initial Value\"))",
+          "correct": false,
+          "explanation": "This part gives the absolute change, not the proportion."
+        },
+        {
+          "key": "B",
+          "text": "(prop(\"Target Value\") - prop(\"Initial Value\"))",
+          "correct": false,
+          "explanation": "This part represents the total possible change, not the proportion of progress."
+        },
+        {
+          "key": "C",
+          "text": "(prop(\"Current Value\") - prop(\"Initial Value\")) / (prop(\"Target Value\") - prop(\"Initial Value\"))",
+          "correct": true,
+          "explanation": "Dividing the change so far by the total change yields the progress percentage."
+        },
+        {
+          "key": "D",
+          "text": "prop(\"Current Value\") / prop(\"Target Value\")",
+          "correct": false,
+          "explanation": "This would ignore the initial baseline, which the guide’s formula explicitly includes."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-create-okrs-004",
+      "question": "If you rename the column \"Current Value\" to \"Progress\", what must you do to keep the OKR progress formula working?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nothing; the formula will auto‑detect the new name.",
+          "correct": false,
+          "explanation": "The formula references column names directly; it won’t auto‑detect changes."
+        },
+        {
+          "key": "B",
+          "text": "Replace \"Current Value\" with \"Progress\" inside the formula.",
+          "correct": true,
+          "explanation": "You need to update the formula to match the new column name."
+        },
+        {
+          "key": "C",
+          "text": "Delete the formula and recreate the database.",
+          "correct": false,
+          "explanation": "Recreating the database is unnecessary; adjusting the formula suffices."
+        },
+        {
+          "key": "D",
+          "text": "Add a duplicate column named \"Current Value\".",
+          "correct": false,
+          "explanation": "Adding a duplicate column defeats the purpose of renaming and creates redundancy."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-create-okrs-005",
+      "question": "What feature does Notion provide to help teams view OKRs for a specific quarter?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Database views filtered by quarter",
+          "correct": true,
+          "explanation": "The guide mentions creating different database views for each team or quarter."
+        },
+        {
+          "key": "B",
+          "text": "Automatic quarterly email reports",
+          "correct": false,
+          "explanation": "While useful, this feature isn’t highlighted in the guide."
+        },
+        {
+          "key": "C",
+          "text": "Quarterly lock‑down of edits",
+          "correct": false,
+          "explanation": "The guide does not discuss restricting edits by quarter."
+        },
+        {
+          "key": "D",
+          "text": "Built‑in Gantt chart for quarterly planning",
+          "correct": false,
+          "explanation": "Gantt charts are not mentioned as a method for quarterly OKR views."
+        }
+      ]
+    },
+    {
+      "id": "guides_how-to-create-okrs-006",
+      "question": "Where can a user find a ready‑made OKR template to start with?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Notion template gallery",
+          "correct": true,
+          "explanation": "The guide directs users to browse over 10,000 templates in the template gallery."
+        },
+        {
+          "key": "B",
+          "text": "YouTube video description only",
+          "correct": false,
+          "explanation": "While the video is linked, the guide specifies the template gallery as the source."
+        },
+        {
+          "key": "C",
+          "text": "The help center FAQ page",
+          "correct": false,
+          "explanation": "The FAQ page isn’t mentioned as a place for templates."
+        },
+        {
+          "key": "D",
+          "text": "The Notion mobile app’s template section",
+          "correct": false,
+          "explanation": "The guide does not differentiate between desktop and mobile for template access."
+        }
+      ]
+    }
+  ]
+}

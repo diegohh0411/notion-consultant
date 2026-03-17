@@ -1,0 +1,317 @@
+{
+  "source": "guides_notion-api-link-previews-feature",
+  "sourceTitle": "Bring live links into your Notion workspace with link previews",
+  "sourceUrl": "https://www.notion.so/help/guides/notion-api-link-previews-feature",
+  "questions": [
+    {
+      "id": "guides_notion-api-link-previews-feature-001",
+      "question": "What is the primary purpose of Notion’s link preview feature?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To embed videos from YouTube directly into Notion pages",
+          "correct": false,
+          "explanation": "Link previews are for visualizing external tool data, not for embedding YouTube videos."
+        },
+        {
+          "key": "B",
+          "text": "To display live, synced visualizations of external tools within Notion pages",
+          "correct": true,
+          "explanation": "Correct – the feature shows up‑to‑date content from tools like Jira, GitHub, Slack, etc., inside Notion."
+        },
+        {
+          "key": "C",
+          "text": "To automatically generate AI‑written summaries of linked documents",
+          "correct": false,
+          "explanation": "Link previews do not create AI summaries; they show the actual content from the source URL."
+        },
+        {
+          "key": "D",
+          "text": "To replace all existing Notion blocks with external app widgets",
+          "correct": false,
+          "explanation": "Link previews add blocks; they don’t replace existing Notion content."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-api-link-previews-feature-002",
+      "question": "Which of the following is NOT an available paste option for a link in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paste as preview",
+          "correct": false,
+          "explanation": "This is a supported option that creates a full preview block."
+        },
+        {
+          "key": "B",
+          "text": "Paste as mention",
+          "correct": false,
+          "explanation": "This is a supported option that creates a condensed inline preview."
+        },
+        {
+          "key": "C",
+          "text": "Paste as link",
+          "correct": false,
+          "explanation": "This is a supported option that inserts a regular hyperlink."
+        },
+        {
+          "key": "D",
+          "text": "Paste as embed",
+          "correct": true,
+          "explanation": "The article does not list “Paste as embed” as a supported option."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-api-link-previews-feature-003",
+      "question": "Who can authenticate an integration to create a link preview in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only workspace admins",
+          "correct": false,
+          "explanation": "Admins are not required; any user can authenticate."
+        },
+        {
+          "key": "B",
+          "text": "Only the person who originally connected the app",
+          "correct": false,
+          "explanation": "Each user can authenticate their own account with the integration."
+        },
+        {
+          "key": "C",
+          "text": "Any user who has access to the Notion page",
+          "correct": true,
+          "explanation": "The article states that anyone with page access can authenticate to create a preview."
+        },
+        {
+          "key": "D",
+          "text": "Only users with a paid Notion plan",
+          "correct": false,
+          "explanation": "The feature is available regardless of plan tier."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-api-link-previews-feature-004",
+      "question": "When you paste a link as a “mention”, how does the resulting preview differ from a “preview” paste?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A mention creates a full‑width block, while a preview creates an inline snippet.",
+          "correct": false,
+          "explanation": "The opposite is true; mention is condensed and inline."
+        },
+        {
+          "key": "B",
+          "text": "A mention generates a condensed, inline view of the content, whereas a preview inserts a separate block with a richer visualization.",
+          "correct": true,
+          "explanation": "Correct – mentions are compact and sit within text, previews are standalone blocks."
+        },
+        {
+          "key": "C",
+          "text": "Both mention and preview produce identical blocks; the terms are interchangeable.",
+          "correct": false,
+          "explanation": "They are distinct options with different visual outcomes."
+        },
+        {
+          "key": "D",
+          "text": "Mentions require authentication, while previews do not.",
+          "correct": false,
+          "explanation": "Both require authentication if it’s the first time the app is used."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-api-link-previews-feature-005",
+      "question": "If a user pastes a link to an unsupported platform, what does Notion display?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A broken preview with an error message.",
+          "correct": false,
+          "explanation": "The article says unsupported links fall back to a regular link, not a broken preview."
+        },
+        {
+          "key": "B",
+          "text": "A standard hyperlink without a preview block.",
+          "correct": true,
+          "explanation": "Correct – unsupported URLs are inserted as regular links with no preview."
+        },
+        {
+          "key": "C",
+          "text": "A placeholder preview that updates once the platform becomes supported.",
+          "correct": false,
+          "explanation": "There is no placeholder functionality described."
+        },
+        {
+          "key": "D",
+          "text": "Notion automatically removes the link from the page.",
+          "correct": false,
+          "explanation": "Notion does not delete the link; it simply shows it as a normal link."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-api-link-previews-feature-006",
+      "question": "Which statement best describes how often link preview data is refreshed?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Link previews are refreshed automatically on a continuous basis, though exact frequency depends on the source app.",
+          "correct": true,
+          "explanation": "The article explicitly states continuous automatic updates with variable frequency."
+        },
+        {
+          "key": "B",
+          "text": "They refresh only when the Notion page is manually reloaded.",
+          "correct": false,
+          "explanation": "Refreshes happen automatically, not just on manual reload."
+        },
+        {
+          "key": "C",
+          "text": "Updates occur once every 24 hours for all linked apps.",
+          "correct": false,
+          "explanation": "Frequency is not fixed at 24 hours; it varies per source."
+        },
+        {
+          "key": "D",
+          "text": "Data never updates after the initial preview is generated.",
+          "correct": false,
+          "explanation": "The feature is designed to stay up‑to‑date."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-api-link-previews-feature-007",
+      "question": "Where can a Notion user manage the apps they have connected for link previews?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the Settings menu → My connected apps section.",
+          "correct": true,
+          "explanation": "Correct – the article directs users to Settings > My connected apps to view and manage connections."
+        },
+        {
+          "key": "B",
+          "text": "In the Workspace admin console under Integrations.",
+          "correct": false,
+          "explanation": "While admins have a console, the article specifies the Settings > My connected apps path."
+        },
+        {
+          "key": "C",
+          "text": "On the Notion mobile app’s Home screen.",
+          "correct": false,
+          "explanation": "Management is done via the desktop/web Settings menu, not the mobile home screen."
+        },
+        {
+          "key": "D",
+          "text": "Through the Notion API dashboard on developers.notion.com.",
+          "correct": false,
+          "explanation": "The API dashboard is for developers; regular users manage connections inside Notion settings."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-api-link-previews-feature-008",
+      "question": "How does Notion handle multiple accounts for the same integrated app (e.g., Slack) when generating a link preview?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It always uses the first authenticated account and never prompts for another.",
+          "correct": false,
+          "explanation": "The article explains Notion will try the first account, then prompt if it fails."
+        },
+        {
+          "key": "B",
+          "text": "It first attempts to unfurl the link with the initially connected account; if that fails, it prompts the user to authenticate the appropriate additional account.",
+          "correct": true,
+          "explanation": "Correct – Notion tries the existing account, then asks for the correct one if needed, and users can add multiple accounts in My connected apps."
+        },
+        {
+          "key": "C",
+          "text": "It merges data from all connected accounts into a single preview.",
+          "correct": false,
+          "explanation": "Previews are generated from a single account that matches the link, not merged across accounts."
+        },
+        {
+          "key": "D",
+          "text": "It blocks the preview entirely until the user disconnects all but one account.",
+          "correct": false,
+          "explanation": "Multiple accounts are supported; they do not block previews."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-api-link-previews-feature-009",
+      "question": "An engineering team wants live Jira ticket and Slack message previews on a single Notion page. Which combination of actions ensures both previews update automatically?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paste each link using “Paste as preview”, then authenticate the Jira and Slack apps once; the previews will stay synced.",
+          "correct": true,
+          "explanation": "Correct – using “Paste as preview” creates full preview blocks, and authenticating each app enables continuous updates."
+        },
+        {
+          "key": "B",
+          "text": "Paste each link as a regular hyperlink; no authentication is needed because the links themselves will update.",
+          "correct": false,
+          "explanation": "Regular hyperlinks do not generate live previews and therefore won’t update automatically."
+        },
+        {
+          "key": "C",
+          "text": "Paste as mention for both links and authenticate only the Slack app; Jira data will appear but won’t refresh.",
+          "correct": false,
+          "explanation": "Both apps need authentication; mentioning only provides a condensed view and still requires authentication for each source."
+        },
+        {
+          "key": "D",
+          "text": "Paste as preview for the Slack link, but paste as mention for the Jira link, then authenticate only the Jira app.",
+          "correct": false,
+          "explanation": "Both links need their respective apps authenticated; mixing paste types isn’t required for updates."
+        }
+      ]
+    },
+    {
+      "id": "guides_notion-api-link-previews-feature-010",
+      "question": "A user has connected two Slack workspaces to Notion. They paste a message link from the second workspace. What sequence does Notion follow to render the preview?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion first attempts to use the initially connected Slack account; when that fails, it prompts the user to authenticate the second workspace, then displays the preview.",
+          "correct": true,
+          "explanation": "Correct – the article outlines this fallback behavior when multiple accounts exist for the same app."
+        },
+        {
+          "key": "B",
+          "text": "Notion reads the workspace ID from the URL and automatically selects the matching Slack account without any prompt.",
+          "correct": false,
+          "explanation": "The system does not automatically match; it tries the first account and then prompts if needed."
+        },
+        {
+          "key": "C",
+          "text": "Notion shows an error stating that only one Slack workspace can be connected.",
+          "correct": false,
+          "explanation": "Multiple Slack accounts are supported; an error is not shown."
+        },
+        {
+          "key": "D",
+          "text": "Notion creates a preview but requires a workspace admin to approve the second Slack connection before displaying content.",
+          "correct": false,
+          "explanation": "User-level authentication is sufficient; admin approval is not required."
+        }
+      ]
+    }
+  ]
+}

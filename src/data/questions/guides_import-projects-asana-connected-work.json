@@ -1,0 +1,317 @@
+{
+  "source": "guides_import-projects-asana-connected-work",
+  "sourceTitle": "Import projects from Asana for a connected work experience",
+  "sourceUrl": "https://www.notion.so/help/guides_import-projects-asana-connected-work",
+  "questions": [
+    {
+      "id": "guides_import-projects-asana-connected-work-001",
+      "question": "What is the first action you need to take to begin importing projects from Asana into Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Open Settings → Import → Asana (or use the /asana command) and start the import wizard.",
+          "correct": true,
+          "explanation": "This is the exact first step described in the guide: go to Settings → Import → Asana or type /asana to launch the importer."
+        },
+        {
+          "key": "B",
+          "text": "Click the “Sync” button on the Asana dashboard.",
+          "correct": false,
+          "explanation": "There is no “Sync” button in Notion; syncing is done via synced databases, not a button on Asana."
+        },
+        {
+          "key": "C",
+          "text": "Generate an API token in Asana and paste it into Notion.",
+          "correct": false,
+          "explanation": "The import tool does not require manual API token handling; it uses the built‑in OAuth flow."
+        },
+        {
+          "key": "D",
+          "text": "Paste a project link directly into a Notion page to start the import.",
+          "correct": false,
+          "explanation": "Pasting a link creates a synced database, not an import. Importing follows the Settings → Import flow."
+        }
+      ]
+    },
+    {
+      "id": "guides_import-projects-asana-connected-work-002",
+      "question": "After importing, which Notion property lets you display a visual progress bar that shows the percentage of completed tasks for a project?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rollup property configured to calculate “Percent per group” of completed tasks.",
+          "correct": true,
+          "explanation": "A Rollup can aggregate the completion status of related tasks and display it as a progress bar."
+        },
+        {
+          "key": "B",
+          "text": "Relation property linking projects to tasks.",
+          "correct": false,
+          "explanation": "Relations create the link but do not calculate percentages; a Rollup is needed for that."
+        },
+        {
+          "key": "C",
+          "text": "Formula property that concatenates task names.",
+          "correct": false,
+          "explanation": "Formulas can compute values but the guide recommends a Rollup for progress visualization."
+        },
+        {
+          "key": "D",
+          "text": "Multi‑select property containing status tags.",
+          "correct": false,
+          "explanation": "Multi‑select stores tags; it does not compute a numeric progress indicator."
+        }
+      ]
+    },
+    {
+      "id": "guides_import-projects-asana-connected-work-003",
+      "question": "When Asana data is imported, each Asana team becomes what kind of structure in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A teamspace inside the Notion workspace.",
+          "correct": true,
+          "explanation": "The guide states that Asana teams are converted into Notion teamspaces."
+        },
+        {
+          "key": "B",
+          "text": "A separate Notion workspace.",
+          "correct": false,
+          "explanation": "Workspaces are top‑level containers; teams become sub‑sections called teamspaces, not full workspaces."
+        },
+        {
+          "key": "C",
+          "text": "A collection of pages under a single database.",
+          "correct": false,
+          "explanation": "While pages are created, the specific mapping is to teamspaces, not just generic pages."
+        },
+        {
+          "key": "D",
+          "text": "A new user group that must be manually assigned.",
+          "correct": false,
+          "explanation": "Teamspaces are created automatically; no manual group assignment is required for the import."
+        }
+      ]
+    },
+    {
+      "id": "guides_import-projects-asana-connected-work-004",
+      "question": "How can you map Asana’s “Section” or “Completed” field to a Notion status during the import process?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Choose whether the Notion Status property should be linked to the Asana Section or Completed field in the import settings.",
+          "correct": true,
+          "explanation": "The import wizard offers a step where you decide if Notion’s Status maps to Asana’s Section or Completed property."
+        },
+        {
+          "key": "B",
+          "text": "Automatically map Asana’s priority field to Notion’s Status property.",
+          "correct": false,
+          "explanation": "Priority is a separate field; the guide does not mention mapping it to Status."
+        },
+        {
+          "key": "C",
+          "text": "Manually edit each task after import to set the correct Status.",
+          "correct": false,
+          "explanation": "While possible, the guide provides a built‑in mapping option during import, avoiding manual per‑task edits."
+        },
+        {
+          "key": "D",
+          "text": "Use a Formula property to convert Asana tags into Notion Status values.",
+          "correct": false,
+          "explanation": "Formulas can transform data, but the direct mapping option is provided in the import UI."
+        }
+      ]
+    },
+    {
+      "id": "guides_import-projects-asana-connected-work-005",
+      "question": "What is a key limitation of using a synced database to connect Asana with Notion compared to importing the data?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Synced databases only update in one direction—from Asana to Notion.",
+          "correct": true,
+          "explanation": "The guide notes that synced databases reflect changes made in Asana but not the other way around."
+        },
+        {
+          "key": "B",
+          "text": "Synced databases duplicate the data, creating two separate copies.",
+          "correct": false,
+          "explanation": "Duplication occurs with imports; synced databases keep a single live view."
+        },
+        {
+          "key": "C",
+          "text": "Synced databases automatically delete tasks in Notion when they are removed from Asana.",
+          "correct": false,
+          "explanation": "Deletion behavior isn’t described; the limitation is about directionality, not automatic removal."
+        },
+        {
+          "key": "D",
+          "text": "Synced databases require a paid Notion plan, while imports are free.",
+          "correct": false,
+          "explanation": "The guide does not mention pricing differences for syncing vs. importing."
+        }
+      ]
+    },
+    {
+      "id": "guides_import-projects-asana-connected-work-006",
+      "question": "If you need to collect responses via a form within Notion, which approach does the guide recommend?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Embed a Typeform form or integrate Typeform to sync responses into a Notion database.",
+          "correct": true,
+          "explanation": "Notion doesn’t have native forms, but you can embed Typeform or use its integration to capture responses."
+        },
+        {
+          "key": "B",
+          "text": "Create a native Notion form using the built‑in Form block.",
+          "correct": false,
+          "explanation": "Notion currently lacks a native Form block."
+        },
+        {
+          "key": "C",
+          "text": "Use a Google Sheets embed and treat the sheet as a form.",
+          "correct": false,
+          "explanation": "While possible, the guide specifically mentions Typeform as the recommended solution."
+        },
+        {
+          "key": "D",
+          "text": "Upload a PDF with fillable fields and attach it to a Notion page.",
+          "correct": false,
+          "explanation": "PDFs don’t provide live form functionality within Notion."
+        }
+      ]
+    },
+    {
+      "id": "guides_import-projects-asana-connected-work-007",
+      "question": "Which combination of properties does the guide suggest for tracking the amount of time spent on a task?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add “Start” and “End” date properties, then create a Formula using dateBetween to calculate hours.",
+          "correct": true,
+          "explanation": "The guide explains this exact method: two date properties plus a formula that uses dateBetween to compute elapsed hours."
+        },
+        {
+          "key": "B",
+          "text": "Use a Multi‑select property to list time intervals.",
+          "correct": false,
+          "explanation": "Multi‑select stores categories, not numeric calculations of time."
+        },
+        {
+          "key": "C",
+          "text": "Create a Number property and manually enter total hours.",
+          "correct": false,
+          "explanation": "Manual entry works but the guide recommends an automated calculation using dates and a formula."
+        },
+        {
+          "key": "D",
+          "text": "Link each task to an external time‑tracking app via a Relation property.",
+          "correct": false,
+          "explanation": "While possible, the guide does not present this as the suggested built‑in method."
+        }
+      ]
+    },
+    {
+      "id": "guides_import-projects-asana-connected-work-008",
+      "question": "During the import, how can you decide which Asana task properties are brought into Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select “Customize properties” in the import wizard and choose the fields you want to import.",
+          "correct": true,
+          "explanation": "The guide specifies that you can either select all properties or customize which ones to import."
+        },
+        {
+          "key": "B",
+          "text": "All properties are always imported and cannot be changed.",
+          "correct": false,
+          "explanation": "The guide explicitly mentions a customization option."
+        },
+        {
+          "key": "C",
+          "text": "You must edit the imported database after the import to remove unwanted columns.",
+          "correct": false,
+          "explanation": "While possible, the guide provides a pre‑import customization step, making this unnecessary."
+        },
+        {
+          "key": "D",
+          "text": "Only completed tasks can have their properties customized.",
+          "correct": false,
+          "explanation": "Property customization applies to all selected tasks, not just completed ones."
+        }
+      ]
+    },
+    {
+      "id": "guides_import-projects-asana-connected-work-009",
+      "question": "Which sequence of actions correctly creates a visual progress bar for a project using a Rollup property?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add a Rollup property on the Projects database, point it to the related Tasks database, set the calculation to “Percent per group” and choose the Completed status.",
+          "correct": true,
+          "explanation": "This follows the guide’s instructions: a Rollup on the related Tasks, using Percent per group with the Completed status to render a progress bar."
+        },
+        {
+          "key": "B",
+          "text": "Create a Formula property that sums the number of completed tasks and divides by total tasks.",
+          "correct": false,
+          "explanation": "Formulas can compute percentages but the guide recommends the Rollup method for a built‑in visual bar."
+        },
+        {
+          "key": "C",
+          "text": "Change the Status property to a multi‑select and manually color‑code completed items.",
+          "correct": false,
+          "explanation": "Status alone doesn’t generate a visual bar; Rollup is needed for automatic percentage visualization."
+        },
+        {
+          "key": "D",
+          "text": "Use a Relation property to link projects to tasks and enable the “Show as progress bar” toggle.",
+          "correct": false,
+          "explanation": "Relations establish links but do not directly display progress; the Rollup property provides that visual."
+        }
+      ]
+    },
+    {
+      "id": "guides_import-projects-asana-connected-work-010",
+      "question": "When is it more appropriate to use a synced database rather than importing Asana data into Notion?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you need both Asana and Notion active and want live updates from Asana to reflect in Notion.",
+          "correct": true,
+          "explanation": "Synced databases are ideal when you continue using Asana and need real‑time reflection of changes in Notion."
+        },
+        {
+          "key": "B",
+          "text": "When you plan to permanently stop using Asana and move all work to Notion.",
+          "correct": false,
+          "explanation": "If you’re abandoning Asana, importing creates a permanent copy, which is more appropriate."
+        },
+        {
+          "key": "C",
+          "text": "When you want to duplicate Asana data so each system has its own independent copy.",
+          "correct": false,
+          "explanation": "Synced databases do not duplicate; they maintain a single source of truth that updates one way."
+        },
+        {
+          "key": "D",
+          "text": "When you do not have a Notion account and need to view Asana data in Notion.",
+          "correct": false,
+          "explanation": "You must have a Notion account to use either feature; the decision isn’t about account existence."
+        }
+      ]
+    }
+  ]
+}

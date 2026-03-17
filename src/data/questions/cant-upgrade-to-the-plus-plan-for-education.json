@@ -1,0 +1,224 @@
+{
+  "source": "cant-upgrade-to-the-plus-plan-for-education",
+  "sourceTitle": "Can’t upgrade to the Plus Plan for students and educators",
+  "sourceUrl": "https://www.notion.so/help/cant-upgrade-to-the-plus-plan-for-education",
+  "questions": [
+    {
+      "id": "cant-upgrade-to-the-plus-plan-for-education-001",
+      "question": "If you are currently subscribed to a paid Notion plan, what is the first action you must take before you can upgrade to the Plus Plan for students and educators?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Contact Notion Support immediately",
+          "correct": false,
+          "explanation": "While support is an option, the article explicitly states the first troubleshooting step is to downgrade your current plan."
+        },
+        {
+          "key": "B",
+          "text": "Downgrade to the Free Plan first",
+          "correct": true,
+          "explanation": "You must downgrade to the Free Plan first in order to see the option to upgrade to the Plus Plan for students and educators."
+        },
+        {
+          "key": "C",
+          "text": "Remove all other workspace members",
+          "correct": false,
+          "explanation": "Removing members is a separate step required if you have multiple people, but it is not the first step if you are on a paid plan."
+        },
+        {
+          "key": "D",
+          "text": "Change your account email to a .edu address",
+          "correct": false,
+          "explanation": "Changing the email is important, but the prerequisite for seeing the upgrade option is downgrading your current paid plan first."
+        }
+      ]
+    },
+    {
+      "id": "cant-upgrade-to-the-plus-plan-for-education-002",
+      "question": "When will the option to upgrade to the Plus Plan for students and educators appear in your workspace settings?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately after you click the upgrade button",
+          "correct": false,
+          "explanation": "The upgrade option will not appear until you have completed the necessary steps, primarily downgrading your current plan."
+        },
+        {
+          "key": "B",
+          "text": "Only after the plan has been fully downgraded to the Free Plan",
+          "correct": true,
+          "explanation": "The article specifies that the upgrade option appears **only after** the plan has been fully downgraded to the Free Plan."
+        },
+        {
+          "key": "C",
+          "text": "After 24 hours of being on the Free Plan",
+          "correct": false,
+          "explanation": "There is no waiting period mentioned; the upgrade option appears as soon as the downgrade is complete."
+        },
+        {
+          "key": "D",
+          "text": "Once your educational institution is verified by the system",
+          "correct": false,
+          "explanation": "Institution verification happens later if the email doesn't work, but the upgrade option visibility is tied to the plan downgrade status."
+        }
+      ]
+    },
+    {
+      "id": "cant-upgrade-to-the-plus-plan-for-education-003",
+      "question": "Why might the option to upgrade not appear even if you have downgraded to the Free Plan?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Your workspace has too many members",
+          "correct": false,
+          "explanation": "This is a reason for failure, but the text specifically lists the email address as the first reason the option might not appear."
+        },
+        {
+          "key": "B",
+          "text": "Your account is not tied to a valid educational email address",
+          "correct": true,
+          "explanation": "The article states that if your account is not tied to a valid educational email, you will not be able to upgrade."
+        },
+        {
+          "key": "C",
+          "text": "You are using a mobile device",
+          "correct": false,
+          "explanation": "The article does not mention device compatibility as a blocker for this specific upgrade path."
+        },
+        {
+          "key": "D",
+          "text": "Your payment method was declined",
+          "correct": false,
+          "explanation": "Since this is a student plan, payment is usually handled through the educational institution; the issue is usually account configuration."
+        }
+      ]
+    },
+    {
+      "id": "cant-upgrade-to-the-plus-plan-for-education-004",
+      "question": "What is the maximum number of members allowed in a workspace using the Plus Plan for individual students and educators?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unlimited members",
+          "correct": false,
+          "explanation": "This plan is specifically for individuals, so it does not support unlimited members."
+        },
+        {
+          "key": "B",
+          "text": "Up to 10 members",
+          "correct": false,
+          "explanation": "The plan is designed for a single user, not a team."
+        },
+        {
+          "key": "C",
+          "text": "Only one member",
+          "correct": true,
+          "explanation": "The plan is for individual students and educators and can only contain one member."
+        },
+        {
+          "key": "D",
+          "text": "Exactly 2 members",
+          "correct": false,
+          "explanation": "The limitation is strictly one member, not two."
+        }
+      ]
+    },
+    {
+      "id": "cant-upgrade-to-the-plus-plan-for-education-005",
+      "question": "If you have multiple workspace owners or members, what troubleshooting step is required to use the student/educator plan?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Merge the workspaces into one team account",
+          "correct": false,
+          "explanation": "Merging is not suggested; instead, you need to remove the extra members to fit the individual plan structure."
+        },
+        {
+          "key": "B",
+          "text": "Remove any additional admins or members",
+          "correct": true,
+          "explanation": "Since the plan is for individuals, you must remove the extra admins or members to proceed with the upgrade."
+        },
+        {
+          "key": "C",
+          "text": "Change the workspace to a team plan first",
+          "correct": false,
+          "explanation": "The goal is to upgrade to the individual Plus Plan, not to switch to a team plan."
+        },
+        {
+          "key": "D",
+          "text": "Disable two-factor authentication",
+          "correct": false,
+          "explanation": "Account security settings are not mentioned as the cause for the upgrade failure in this context."
+        }
+      ]
+    },
+    {
+      "id": "cant-upgrade-to-the-plus-plan-for-education-006",
+      "question": "Who should you contact if your educational institution is not recognized by Notion's system?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Your school's IT department",
+          "correct": false,
+          "explanation": "While they might be able to help, the article directs you to contact Notion Support directly."
+        },
+        {
+          "key": "B",
+          "text": "Notion Support",
+          "correct": true,
+          "explanation": "The article states that if your institution isn't recognized, you should email Notion Support for assistance."
+        },
+        {
+          "key": "C",
+          "text": "The Notion billing department",
+          "correct": false,
+          "email": "This article is about the Plus Plan for Education, which is handled by Support, not standard billing."
+        },
+        {
+          "key": "D",
+          "text": "A third-party verification service",
+          "correct": false,
+          "explanation": "Notion handles the verification internally, and you should contact them if it fails."
+        }
+      ]
+    },
+    {
+      "id": "cant-upgrade-to-the-plus-plan-for-education-007",
+      "question": "What is the requirement regarding the email address associated with your Notion account?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It must be a personal Gmail account",
+          "correct": false,
+          "explanation": "The requirement is that the email must be educational, not necessarily personal."
+        },
+        {
+          "key": "B",
+          "text": "It must be tied to a valid educational email address",
+          "correct": true,
+          "explanation": "You must ensure your account email is your educational email to be eligible for the upgrade."
+        },
+        {
+          "key": "C",
+          "text": "It cannot be changed once set",
+          "correct": false,
+          "explanation": "The article links to instructions on how to change your account email if it is not the correct one."
+        },
+        {
+          "key": "D",
+          "text": "It must be a corporate email address ending in .org",
+          "correct": false,
+          "explanation": "The plan is for students and educators, so a valid educational email (often .edu) is required."
+        }
+      ]
+    }
+  ]
+}

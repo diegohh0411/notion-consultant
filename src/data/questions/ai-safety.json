@@ -1,0 +1,379 @@
+{
+  "source": "ai-safety.md",
+  "sourceTitle": "Notion’s commitment to AI safety",
+  "sourceUrl": "https://www.notion.so/help/ai-safety",
+  "questions": [
+    {
+      "id": "ai-safety-001",
+      "question": "Which organizations provide the AI models used to serve Notion AI to customers?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Google and Microsoft",
+          "correct": false,
+          "explanation": "Notion leverages models developed by its subprocessors, specifically organizations like OpenAI and Anthropic."
+        },
+        {
+          "key": "B",
+          "text": "OpenAI and Anthropic",
+          "correct": true,
+          "explanation": "Notion leverages models developed by its subprocessors, such as OpenAI and Anthropic, to serve Notion AI."
+        },
+        {
+          "key": "C",
+          "text": "Amazon and Meta",
+          "correct": false,
+          "explanation": "Notion leverages models developed by its subprocessors, organizations such as OpenAI and Anthropic."
+        },
+        {
+          "key": "D",
+          "text": "IBM and Oracle",
+          "correct": false,
+          "explanation": "Notion leverages models developed by its subprocessors, organizations such as OpenAI and Anthropic."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-002",
+      "question": "What is the primary design purpose of Notion's AI models and tools?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To make automated decisions on individuals",
+          "correct": false,
+          "explanation": "Notion explicitly states their models are not designed to make automated decisions on individuals."
+        },
+        {
+          "key": "B",
+          "text": "To support customers in doing their work faster",
+          "correct": true,
+          "explanation": "The models are designed to support customers in doing their work, faster."
+        },
+        {
+          "key": "C",
+          "text": "To replace human decision-making entirely",
+          "correct": false,
+          "explanation": "Notion AI is a tool to support work, not to replace human decision-making."
+        },
+        {
+          "key": "D",
+          "text": "To analyze employee performance metrics",
+          "correct": false,
+          "explanation": "The models are designed to support customers in doing their work, faster."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-003",
+      "question": "By default, what happens to your workspace data when using Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is used to train their models",
+          "correct": false,
+          "explanation": "By default, we do not use your workspace data or personal information to train our models."
+        },
+        {
+          "key": "B",
+          "text": "It is deleted immediately after use",
+          "correct": false,
+          "explanation": "By default, we do not use your workspace data or personal information to train our models."
+        },
+        {
+          "key": "C",
+          "text": "It is shared with AI subprocessors for training",
+          "correct": false,
+          "explanation": "By default, we do not use your workspace data or personal information to train our models."
+        },
+        {
+          "key": "D",
+          "text": "It is not used to train models",
+          "correct": true,
+          "explanation": "By default, we do not use your workspace data or personal information to train our models."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-004",
+      "question": "What contractual obligation do all subprocessors agree to regarding customer data?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They can use data to improve their own unrelated products",
+          "correct": false,
+          "explanation": "We require all subprocessors to agree to contractual obligations that prohibit any use of customer data to train their models."
+        },
+        {
+          "key": "B",
+          "text": "They must agree not to use customer data to train their models",
+          "correct": true,
+          "explanation": "We require all subprocessors to agree to contractual obligations that prohibit any use of customer data to train their models."
+        },
+        {
+          "key": "C",
+          "text": "They must share the data with Notion's internal security team",
+          "correct": false,
+          "explanation": "We require all subprocessors to agree to contractual obligations that prohibit any use of customer data to train their models."
+        },
+        {
+          "key": "D",
+          "text": "They must use data only for the purpose of providing Notion AI features",
+          "correct": false,
+          "explanation": "While they must use data for providing features, the specific prohibition is on using data to train their models."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-005",
+      "question": "What is the core commitment of the Transparency pillar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ensuring models are open source",
+          "correct": false,
+          "explanation": "Transparency is about keeping users informed about how Notion AI is developed, deployed, and used."
+        },
+        {
+          "key": "B",
+          "text": "Keeping users informed about development and deployment",
+          "correct": true,
+          "explanation": "Notion is committed to transparency, keeping users informed about how Notion AI is developed, deployed, and used."
+        },
+        {
+          "key": "C",
+          "text": "Limiting user access to AI features",
+          "correct": false,
+          "explanation": "Transparency is about keeping users informed about how Notion AI is developed, deployed, and used."
+        },
+        {
+          "key": "D",
+          "text": "Guaranteeing zero downtime for AI services",
+          "correct": false,
+          "explanation": "Transparency is about keeping users informed about how Notion AI is developed, deployed, and used."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-006",
+      "question": "Which tool does Notion deploy to ensure interactions with models are safe?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Google's ReCAPTCHA",
+          "correct": false,
+          "explanation": "Notion deploys safety controls such as OpenAI's moderation endpoint to ensure interactions are safe."
+        },
+        {
+          "key": "B",
+          "text": "OpenAI's moderation endpoint",
+          "correct": true,
+          "explanation": "Notion deploys safety controls to the end user to ensure interactions with models and model outputs are safe, such as OpenAI's moderation endpoint."
+        },
+        {
+          "key": "C",
+          "text": "Microsoft's Azure Defender",
+          "correct": false,
+          "explanation": "Notion deploys safety controls such as OpenAI's moderation endpoint to ensure interactions are safe."
+        },
+        {
+          "key": "D",
+          "text": "Notion's internal firewall",
+          "correct": false,
+          "explanation": "Notion deploys safety controls such as OpenAI's moderation endpoint to ensure interactions are safe."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-007",
+      "question": "Which certifications does Notion maintain to protect the processing of customer data?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "SOC 2 Type 2 & ISO",
+          "correct": true,
+          "explanation": "Notion maintains a comprehensive security and privacy program, including numerous certifications to protect the processing of your data (e.g., SOC 2 Type 2, ISO)."
+        },
+        {
+          "key": "B",
+          "text": "GDPR & CCPA",
+          "correct": false,
+          "explanation": "While Notion likely complies with these laws, the text specifically mentions SOC 2 Type 2 and ISO as certifications."
+        },
+        {
+          "key": "C",
+          "text": "HIPAA & PCI-DSS",
+          "correct": false,
+          "explanation": "The text specifically mentions SOC 2 Type 2 and ISO as certifications."
+        },
+        {
+          "key": "D",
+          "text": "FERPA & COPPA",
+          "correct": false,
+          "explanation": "The text specifically mentions SOC 2 Type 2 and ISO as certifications."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-008",
+      "question": "What is the main goal of the Continuous Improvement pillar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase costs for customers",
+          "correct": false,
+          "explanation": "The goal is to better serve customers by reviewing model and product effectiveness."
+        },
+        {
+          "key": "B",
+          "text": "To ensure users are never locked into underperforming technologies",
+          "correct": true,
+          "explanation": "Notion regularly reviews existing and new model performance so that users are never locked into underperforming technologies."
+        },
+        {
+          "key": "C",
+          "text": "To reduce the number of features available",
+          "correct": false,
+          "explanation": "Notion is constantly updating and deploying new models to better serve our customers."
+        },
+        {
+          "key": "D",
+          "text": "To comply with global laws only",
+          "correct": false,
+          "explanation": "Notion is constantly updating and deploying new models to better serve our customers by reviewing model and product effectiveness."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-009",
+      "question": "What is a benefit of participating in the AI LEAP Program?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "You get a discount on your subscription",
+          "correct": false,
+          "explanation": "The AI LEAP Program allows for sharing of workspace data to improve underlying models in exchange for front-of-line access to future AI improvements."
+        },
+        {
+          "key": "B",
+          "text": "You get front-of-line access to future AI improvements",
+          "correct": true,
+          "explanation": "The AI LEAP Program allows for sharing of workspace data to improve underlying models in exchange for front-of-line access to future AI improvements and features."
+        },
+        {
+          "key": "C",
+          "text": "You become a board member of Notion",
+          "correct": false,
+          "explanation": "The AI LEAP Program allows for sharing of workspace data to improve underlying models in exchange for front-of-line access to future AI improvements."
+        },
+        {
+          "key": "D",
+          "text": "You can view the source code of Notion AI",
+          "correct": false,
+          "explanation": "The AI LEAP Program allows for sharing of workspace data to improve underlying models in exchange for front-of-line access to future AI improvements."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-010",
+      "question": "Which organization does Notion partner with to leverage open source AI trust tooling?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "ROOST",
+          "correct": true,
+          "explanation": "We partner with organizations like ROOST (Robust Open Online Safety Tools) to leverage and support open source AI trust tooling."
+        },
+        {
+          "key": "B",
+          "text": "OpenAI",
+          "correct": false,
+          "explanation": "We partner with organizations like ROOST (Robust Open Online Safety Tools) to leverage and support open source AI trust tooling."
+        },
+        {
+          "key": "C",
+          "text": "Anthropic",
+          "correct": false,
+          "explanation": "We partner with organizations like ROOST (Robust Open Online Safety Tools) to leverage and support open source AI trust tooling."
+        },
+        {
+          "key": "D",
+          "text": "Google DeepMind",
+          "correct": false,
+          "explanation": "We partner with organizations like ROOST (Robust Open Online Safety Tools) to leverage and support open source AI trust tooling."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-011",
+      "question": "What is the purpose of the rigorous internal testing performed by Notion before deployment?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure models are open source",
+          "correct": false,
+          "explanation": "Rigorous testing is performed to promote accuracy and reliability for users."
+        },
+        {
+          "key": "B",
+          "text": "To promote accuracy and reliability for users",
+          "correct": true,
+          "explanation": "We rigorously test our models internally before deployment to our customers to promote accuracy and reliability for our users."
+        },
+        {
+          "key": "C",
+          "text": "To analyze customer data before sharing it",
+          "correct": false,
+          "explanation": "We rigorously test our models internally before deployment to our customers to promote accuracy and reliability for our users."
+        },
+        {
+          "key": "D",
+          "text": "To reduce the number of features available to users",
+          "correct": false,
+          "explanation": "We rigorously test our models internally before deployment to our customers to promote accuracy and reliability for our users."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-012",
+      "question": "Where does Notion AI live within the user's workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "In a remote cloud server",
+          "correct": false,
+          "explanation": "Notion AI lives in your workspace and helps you search, chat, and write."
+        },
+        {
+          "key": "B",
+          "text": "In your workspace",
+          "correct": true,
+          "explanation": "Notion AI lives in your workspace and helps you search, chat, and write."
+        },
+        {
+          "key": "C",
+          "text": "In a separate browser tab",
+          "correct": false,
+          "explanation": "Notion AI lives in your workspace and helps you search, chat, and write."
+        },
+        {
+          "key": "D",
+          "text": "In a mobile app only",
+          "correct": false,
+          "explanation": "Notion AI lives in your workspace and helps you search, chat, and write."
+        }
+      ]
+    }
+  ]
+}

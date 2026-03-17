@@ -1,0 +1,317 @@
+{
+  "source": "notion-calendar-ai-connector",
+  "sourceTitle": "Notion Calendar AI Connector (beta)",
+  "sourceUrl": "https://www.notion.com/help/notion-calendar-ai-connector",
+  "questions": [
+    {
+      "id": "notion-calendar-ai-connector-001",
+      "question": "Who is allowed to connect Notion Calendar to Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anyone on any Notion plan",
+          "correct": true,
+          "explanation": "The article states that any user, regardless of plan, can connect as long as they have a Notion Calendar account."
+        },
+        {
+          "key": "B",
+          "text": "Only Business and Enterprise plan members",
+          "correct": false,
+          "explanation": "Only Google Calendar requires Business/Enterprise plans; Notion Calendar works for all plans."
+        },
+        {
+          "key": "C",
+          "text": "Only workspace owners",
+          "correct": false,
+          "explanation": "Connection can be set up by any individual member, not just owners."
+        },
+        {
+          "key": "D",
+          "text": "Only users with a paid Google Workspace",
+          "correct": false,
+          "explanation": "Google Workspace is unrelated to Notion Calendar connections."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-ai-connector-002",
+      "question": "What email requirement must be met to successfully connect Notion Calendar to Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The email used for Notion Calendar must match the primary email of the Notion workspace",
+          "correct": true,
+          "explanation": "The article specifies that only the primary email matching is accessed."
+        },
+        {
+          "key": "B",
+          "text": "Any email address can be used as long as it’s verified",
+          "correct": false,
+          "explanation": "The email must match the workspace’s primary email, not just any verified address."
+        },
+        {
+          "key": "C",
+          "text": "A secondary email associated with the workspace is acceptable",
+          "correct": false,
+          "explanation": "Only the primary email is considered; secondary emails are not used."
+        },
+        {
+          "key": "D",
+          "text": "The email must be a Gmail address",
+          "correct": false,
+          "explanation": "There is no requirement for the email to be a Gmail address."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-ai-connector-003",
+      "question": "After a new event is created in Notion Calendar, how long can you expect it to become searchable by Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zero to thirty minutes",
+          "correct": true,
+          "explanation": "The article notes that new events are searchable within 0‑30 minutes."
+        },
+        {
+          "key": "B",
+          "text": "Exactly one hour",
+          "correct": false,
+          "explanation": "The timeframe is shorter; it can be as quick as immediate."
+        },
+        {
+          "key": "C",
+          "text": "24 hours",
+          "correct": false,
+          "explanation": "Only disconnections trigger a 24‑hour deletion window; search is much faster."
+        },
+        {
+          "key": "D",
+          "text": "Immediately upon creation",
+          "correct": false,
+          "explanation": "While sometimes immediate, the guaranteed window is up to 30 minutes."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-ai-connector-004",
+      "question": "Which statement is NOT a reason to choose the Notion Calendar connector over the Google Calendar connector?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Google Calendar connector requires a paid Google Workspace plan",
+          "correct": false,
+          "explanation": "This is a valid reason to prefer Notion Calendar."
+        },
+        {
+          "key": "B",
+          "text": "Google Calendar connector can be set up by any individual member without admin approval",
+          "correct": true,
+          "explanation": "The article says Google Calendar needs a workspace owner and Google admin; the statement is false, so it’s not a reason to choose Notion Calendar."
+        },
+        {
+          "key": "C",
+          "text": "All Notion plans can access the Notion Calendar connector",
+          "correct": false,
+          "explanation": "This is a correct advantage of Notion Calendar."
+        },
+        {
+          "key": "D",
+          "text": "Google Calendar connector is only available to Business and Enterprise plans",
+          "correct": false,
+          "explanation": "This limitation is another valid reason to use Notion Calendar."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-ai-connector-005",
+      "question": "What happens to the Notion Calendar connection if a workspace owner connects a Google Organization for Google Calendar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Notion Calendar connection is disconnected and replaced by the Google Calendar AI Connector",
+          "correct": true,
+          "explanation": "The article explicitly states this replacement occurs."
+        },
+        {
+          "key": "B",
+          "text": "Both connectors remain active side‑by‑side",
+          "correct": false,
+          "explanation": "Only one connector can be active; the Google one replaces Notion Calendar."
+        },
+        {
+          "key": "C",
+          "text": "The Notion Calendar data is merged into Google Calendar",
+          "correct": false,
+          "explanation": "No merging is mentioned; the Notion connection is simply removed."
+        },
+        {
+          "key": "D",
+          "text": "The workspace is forced to choose a paid Google Workspace plan",
+          "correct": false,
+          "explanation": "The effect is on the connector, not on plan requirements for the workspace."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-ai-connector-006",
+      "question": "Where can you limit Notion AI’s search scope to only Notion Calendar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In Notion AI, click ‘All sources’ and select only ‘Notion Calendar’",
+          "correct": true,
+          "explanation": "The article describes this exact method for narrowing the search scope."
+        },
+        {
+          "key": "B",
+          "text": "In Settings → Integrations → Notion Calendar",
+          "correct": false,
+          "explanation": "Scope limiting is done in the AI interface, not in Settings."
+        },
+        {
+          "key": "C",
+          "text": "In the Google Calendar app’s preferences",
+          "correct": false,
+          "explanation": "Google Calendar is unrelated to this Notion AI setting."
+        },
+        {
+          "key": "D",
+          "text": "By disabling ‘Search all sources’ in the workspace admin panel",
+          "correct": false,
+          "explanation": "There is no such admin toggle; the UI option is within Notion AI."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-ai-connector-007",
+      "question": "What occurs to your Notion Calendar data after you disconnect it from Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The content becomes unsearchable immediately and is deleted within 24 hours",
+          "correct": true,
+          "explanation": "The article specifies immediate unsearchability and deletion within 24 hours."
+        },
+        {
+          "key": "B",
+          "text": "The data is archived and remains searchable for 30 days",
+          "correct": false,
+          "explanation": "Data is not archived for continued search; it is removed."
+        },
+        {
+          "key": "C",
+          "text": "All events are transferred to Google Calendar automatically",
+          "correct": false,
+          "explanation": "No automatic transfer is mentioned."
+        },
+        {
+          "key": "D",
+          "text": "The data stays searchable but cannot be edited",
+          "correct": false,
+          "explanation": "Searchability stops immediately upon disconnection."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-ai-connector-008",
+      "question": "Can Notion AI read attachments that are part of calendar events?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, Notion AI cannot read attachments at this time",
+          "correct": true,
+          "explanation": "The article clearly states that attachments are not read."
+        },
+        {
+          "key": "B",
+          "text": "Yes, but only PDF attachments",
+          "correct": false,
+          "explanation": "Attachments of any type are not read currently."
+        },
+        {
+          "key": "C",
+          "text": "Yes, all image attachments are processed",
+          "correct": false,
+          "explanation": "Again, no attachments are processed."
+        },
+        {
+          "key": "D",
+          "text": "Yes, after a manual approval step",
+          "correct": false,
+          "explanation": "There is no approval workflow for attachments."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-ai-connector-009",
+      "question": "How does Notion handle storage or referencing of Notion Calendar data for AI searches, and what security principle does it follow?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It does not store data in vector databases; it may temporarily cache content for faster search while following strict cross‑user security and data‑minimization principles",
+          "correct": true,
+          "explanation": "The article mentions no vector‑DB storage, temporary caching, and strict security/minimization."
+        },
+        {
+          "key": "B",
+          "text": "All calendar events are permanently stored in a vector database called Turbopuffer, with no caching",
+          "correct": false,
+          "explanation": "The article explicitly says it does NOT store data in vector databases like Turbopuffer."
+        },
+        {
+          "key": "C",
+          "text": "Data is encrypted and stored indefinitely in Notion’s main database, without any caching",
+          "correct": false,
+          "explanation": "While data is encrypted, the article notes temporary caching and a focus on minimization, not indefinite storage."
+        },
+        {
+          "key": "D",
+          "text": "Notion streams events directly to AI without any storage, and security is handled only at the network layer",
+          "correct": false,
+          "explanation": "There is temporary caching; security includes cross‑user checks, not just network‑layer protection."
+        }
+      ]
+    },
+    {
+      "id": "notion-calendar-ai-connector-010",
+      "question": "What is the correct sequence of steps to disconnect Notion Calendar from Notion AI?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Settings → Notion AI, click the gear icon next to Notion Calendar, then select ‘Disconnect’",
+          "correct": true,
+          "explanation": "The article provides this exact pathway for disconnection."
+        },
+        {
+          "key": "B",
+          "text": "Delete your Notion Calendar account from the Notion website",
+          "correct": false,
+          "explanation": "Disconnecting does not require deleting the entire Notion Calendar account."
+        },
+        {
+          "key": "C",
+          "text": "Uninstall the Notion AI extension from your browser",
+          "correct": false,
+          "explanation": "Browser extensions are unrelated; disconnection is done within the app settings."
+        },
+        {
+          "key": "D",
+          "text": "Remove your email from the workspace’s member list",
+          "correct": false,
+          "explanation": "Removing an email is not the prescribed method for disconnecting the connector."
+        }
+      ]
+    }
+  ]
+}

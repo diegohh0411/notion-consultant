@@ -1,0 +1,224 @@
+{
+  "source": "personal-wiki",
+  "sourceTitle": "Your ultimate guide to building a personal wiki in Notion",
+  "sourceUrl": "https://www.notion.so/help/guides/personal-wiki",
+  "questions": [
+    {
+      "id": "personal-wiki-001",
+      "question": "What is the recommended first step when building a personal wiki in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a top‑level page to serve as a home base",
+          "correct": true,
+          "explanation": "The guide says to start with a top‑level page as a home base and then add sections like Notes, Work, Life, and Planning."
+        },
+        {
+          "key": "B",
+          "text": "Immediately add a database of tasks",
+          "correct": false,
+          "explanation": "While databases are useful, the guide does not list them as the first step."
+        },
+        {
+          "key": "C",
+          "text": "Install a third‑party wiki plugin",
+          "correct": false,
+          "explanation": "Notion’s built‑in pages are sufficient; the guide never mentions any external plugin."
+        },
+        {
+          "key": "D",
+          "text": "Share the wiki with the entire team before adding any content",
+          "correct": false,
+          "explanation": "Sharing is optional and comes later; the guide focuses on structuring the wiki first."
+        }
+      ]
+    },
+    {
+      "id": "personal-wiki-002",
+      "question": "Which of the following is NOT listed as a way to customize a personal wiki page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adding a page icon",
+          "correct": false,
+          "explanation": "Page icons are specifically mentioned as a customization option."
+        },
+        {
+          "key": "B",
+          "text": "Changing the font color",
+          "correct": false,
+          "explanation": "Font colors are included in the guide’s list of customizations."
+        },
+        {
+          "key": "C",
+          "text": "Embedding a live video stream",
+          "correct": true,
+          "explanation": "Embedding a live video stream is not mentioned; the guide only talks about icons, cover images, quotes, and font colors."
+        },
+        {
+          "key": "D",
+          "text": "Setting a cover image",
+          "correct": false,
+          "explanation": "Cover images are explicitly listed as a customization feature."
+        }
+      ]
+    },
+    {
+      "id": "personal-wiki-003",
+      "question": "How can you quickly create subpages within a Notion personal wiki?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use slash commands to generate a new page block",
+          "correct": true,
+          "explanation": "The guide advises using slash commands to create subpages, which is the fastest method."
+        },
+        {
+          "key": "B",
+          "text": "Copy‑paste an existing page from another workspace",
+          "correct": false,
+          "explanation": "Copy‑pasting works but isn’t the method highlighted for quick subpage creation."
+        },
+        {
+          "key": "C",
+          "text": "Drag a file from your computer into the page",
+          "correct": false,
+          "explanation": "Dragging a file creates an attachment, not a subpage."
+        },
+        {
+          "key": "D",
+          "text": "Click the \"New Template\" button at the bottom of the sidebar",
+          "correct": false,
+          "explanation": "Templates are useful for starting new pages but aren’t the primary way to add subpages on the fly."
+        }
+      ]
+    },
+    {
+      "id": "personal-wiki-004",
+      "question": "What advantage does nesting pages inside other pages provide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It enables infinite organization possibilities",
+          "correct": true,
+          "explanation": "The article states that nesting pages allows for infinite organization possibilities."
+        },
+        {
+          "key": "B",
+          "text": "It automatically syncs the page with external cloud services",
+          "correct": false,
+          "explanation": "Nesting does not affect external syncing; Notion handles syncing uniformly."
+        },
+        {
+          "key": "C",
+          "text": "It locks the page so no one else can edit it",
+          "correct": false,
+          "explanation": "Nesting does not change permission settings."
+        },
+        {
+          "key": "D",
+          "text": "It reduces the file size of the workspace",
+          "correct": false,
+          "explanation": "Page nesting has no impact on file size."
+        }
+      ]
+    },
+    {
+      "id": "personal-wiki-005",
+      "question": "Where can you find pre‑made templates to jump‑start your personal wiki?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "In Notion’s template gallery, which hosts over 10,000 templates",
+          "correct": true,
+          "explanation": "The guide explicitly points readers to the template gallery with more than 10,000 templates."
+        },
+        {
+          "key": "B",
+          "text": "On the Notion YouTube channel’s description box",
+          "correct": false,
+          "explanation": "The YouTube channel is mentioned for videos, not for template downloads."
+        },
+        {
+          "key": "C",
+          "text": "Within the sidebar under \"Favorites\"",
+          "correct": false,
+          "explanation": "Favorites are user‑selected pages, not a source of new templates."
+        },
+        {
+          "key": "D",
+          "text": "By contacting Notion support via chat",
+          "correct": false,
+          "explanation": "Support can help with questions, but the guide directs users to the template gallery for templates."
+        }
+      ]
+    },
+    {
+      "id": "personal-wiki-006",
+      "question": "Which feature of Notion allows you to view and navigate all of your wiki pages efficiently?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The sidebar, which lists pages and lets you nest them",
+          "correct": true,
+          "explanation": "The article notes that you can access pages from the sidebar and nest pages inside pages, providing efficient navigation."
+        },
+        {
+          "key": "B",
+          "text": "The global search bar at the top of the screen",
+          "correct": false,
+          "explanation": "While the search bar is useful, the guide emphasizes the sidebar for organization and navigation."
+        },
+        {
+          "key": "C",
+          "text": "The recent activity feed on the home page",
+          "correct": false,
+          "explanation": "The activity feed shows changes but isn’t described as the primary navigation tool for a personal wiki."
+        },
+        {
+          "key": "D",
+          "text": "The mobile app’s swipe‑gesture menu",
+          "correct": false,
+          "explanation": "The mobile swipe menu isn’t mentioned in the guide; the sidebar is the highlighted feature."
+        }
+      ]
+    },
+    {
+      "id": "personal-wiki-007",
+      "question": "How can you organize sections like Notes, Work, Life, and Planning within your personal wiki?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create subpages for each section and arrange them in columns",
+          "correct": true,
+          "explanation": "The guide recommends using slash commands to create subpages and then organizing them into columns."
+        },
+        {
+          "key": "B",
+          "text": "Add each section as a separate database and link them together",
+          "correct": false,
+          "explanation": "Databases are powerful but the guide focuses on simple subpages and columns, not databases."
+        },
+        {
+          "key": "C",
+          "text": "Insert a table of contents block at the top of the page",
+          "correct": false,
+          "explanation": "A table of contents helps navigation but doesn’t create the structural sections described."
+        },
+        {
+          "key": "D",
+          "text": "Use emojis in the page title to differentiate sections",
+          "correct": false,
+          "explanation": "Emojis can be decorative, but the guide does not list them as the main method for organizing sections."
+        }
+      ]
+    }
+  ]
+}

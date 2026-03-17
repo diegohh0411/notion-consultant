@@ -1,0 +1,286 @@
+{
+  "source": "guides_5-ai-prompts-to-surface-fresh-insights-from-your-databases",
+  "sourceTitle": "5 AI prompts to surface fresh insights from your databases",
+  "sourceUrl": "https://www.notion.com/help/guides/5-ai-prompts-to-surface-fresh-insights-from-your-databases",
+  "questions": [
+    {
+      "id": "guides_5-ai-prompts-to-surface-fresh-insights-from-your-databases-001",
+      "question": "Which of the following best describes the purpose of an AI autofill property in a Notion database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically generates a text response based on a custom prompt and the page’s content.",
+          "correct": true,
+          "explanation": "Correct – the AI autofill property runs a prompt you define and returns dynamic text for each record."
+        },
+        {
+          "key": "B",
+          "text": "It creates a visual chart that summarizes numerical data in the database.",
+          "correct": false,
+          "explanation": "Wrong – AI autofill produces text, not visual charts."
+        },
+        {
+          "key": "C",
+          "text": "It encrypts the data in the database for added security.",
+          "correct": false,
+          "explanation": "Wrong – encryption is not a function of AI autofill."
+        },
+        {
+          "key": "D",
+          "text": "It syncs the database with external spreadsheet programs like Excel.",
+          "correct": false,
+          "explanation": "Wrong – syncing with external tools is unrelated to AI autofill."
+        }
+      ]
+    },
+    {
+      "id": "guides_5-ai-prompts-to-surface-fresh-insights-from-your-databases-002",
+      "question": "If you want a one‑sentence summary of each page in a database, which custom prompt should you use?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Summarize the content of this page in one short sentence",
+          "correct": true,
+          "explanation": "Correct – this exact prompt tells the AI to produce a concise, one‑sentence summary."
+        },
+        {
+          "key": "B",
+          "text": "Create a bulleted list of tasks we need to do",
+          "correct": false,
+          "explanation": "Wrong – that prompt extracts action items, not a summary."
+        },
+        {
+          "key": "C",
+          "text": "Explain this page in three words",
+          "correct": false,
+          "explanation": "Wrong – that would give a three‑word description, not a full sentence."
+        },
+        {
+          "key": "D",
+          "text": "Suggest some possible milestones for this project/goal",
+          "correct": false,
+          "explanation": "Wrong – this prompt is for generating milestones, not a summary."
+        }
+      ]
+    },
+    {
+      "id": "guides_5-ai-prompts-to-surface-fresh-insights-from-your-databases-003",
+      "question": "Which three steps are required to add an AI autofill property to a Notion database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Open the options menu → select Properties → click + New property → choose an AI property option",
+          "correct": true,
+          "explanation": "Correct – these are the exact steps described in the guide."
+        },
+        {
+          "key": "B",
+          "text": "Open the page → click Share → enable AI integration → add a custom script",
+          "correct": false,
+          "explanation": "Wrong – sharing settings and custom scripts are not part of adding an AI property."
+        },
+        {
+          "key": "C",
+          "text": "Create a new database → import a CSV file → select AI summary from the view menu",
+          "correct": false,
+          "explanation": "Wrong – importing data and selecting a view are unrelated to creating an AI property."
+        },
+        {
+          "key": "D",
+          "text": "Go to Settings → Advanced → enable AI autofill → restart Notion",
+          "correct": false,
+          "explanation": "Wrong – there is no global toggle in Settings for this feature."
+        }
+      ]
+    },
+    {
+      "id": "guides_5-ai-prompts-to-surface-fresh-insights-from-your-databases-004",
+      "question": "When extracting action items from meeting notes, which prompt should you use?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Search this page for action items and create a bulleted list of tasks we need to do",
+          "correct": true,
+          "explanation": "Correct – this prompt tells the AI to scan for tasks and output them as a list."
+        },
+        {
+          "key": "B",
+          "text": "Summarize the content of this page in one short sentence",
+          "correct": false,
+          "explanation": "Wrong – that prompt creates a summary, not a list of tasks."
+        },
+        {
+          "key": "C",
+          "text": "Create a numbered list of the three main takeaways from this page",
+          "correct": false,
+          "explanation": "Wrong – that extracts takeaways, not actionable items."
+        },
+        {
+          "key": "D",
+          "text": "Suggest some possible milestones for this project/goal",
+          "correct": false,
+          "explanation": "Wrong – this prompt is for milestones, not meeting‑note tasks."
+        }
+      ]
+    },
+    {
+      "id": "guides_5-ai-prompts-to-surface-fresh-insights-from-your-databases-005",
+      "question": "Which AI property option should you select if you want to design your own prompt rather than using a built‑in summary or key‑info extraction?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI custom autofill",
+          "correct": true,
+          "explanation": "Correct – AI custom autofill lets you write any prompt you need."
+        },
+        {
+          "key": "B",
+          "text": "AI summary",
+          "correct": false,
+          "explanation": "Wrong – AI summary provides an automatic summary without custom prompt input."
+        },
+        {
+          "key": "C",
+          "text": "AI key info",
+          "correct": false,
+          "explanation": "Wrong – AI key info extracts predefined key information, not a custom prompt."
+        },
+        {
+          "key": "D",
+          "text": "AI image generation",
+          "correct": false,
+          "explanation": "Wrong – there is no AI image generation property discussed in this guide."
+        }
+      ]
+    },
+    {
+      "id": "guides_5-ai-prompts-to-surface-fresh-insights-from-your-databases-006",
+      "question": "A product team wants to automatically surface any potential blockers mentioned in a project spec. Which prompt from the guide is most appropriate?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Search this page for any potential problems, risks, or blockers that may prevent progress, and list them briefly",
+          "correct": true,
+          "explanation": "Correct – this prompt explicitly asks the AI to find risks or blockers."
+        },
+        {
+          "key": "B",
+          "text": "Create a numbered list of the three main takeaways from this page",
+          "correct": false,
+          "explanation": "Wrong – that extracts takeaways, not blockers."
+        },
+        {
+          "key": "C",
+          "text": "Summarize the content of this page in one short sentence",
+          "correct": false,
+          "explanation": "Wrong – a summary would not highlight specific risks."
+        },
+        {
+          "key": "D",
+          "text": "Suggest some possible milestones for this project/goal",
+          "correct": false,
+          "explanation": "Wrong – that generates milestones, not blockers."
+        }
+      ]
+    },
+    {
+      "id": "guides_5-ai-prompts-to-surface-fresh-insights-from-your-databases-007",
+      "question": "Which of the following is NOT listed as a creative use case for the AI autofill property?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Generating a book synopsis from saved webpages",
+          "correct": false,
+          "explanation": "Wrong – the guide mentions using AI to generate a book synopsis."
+        },
+        {
+          "key": "B",
+          "text": "Automatically tagging recipes with dietary restrictions",
+          "correct": false,
+          "explanation": "Wrong – categorizing recipes with tags (e.g., vegetarian) is listed."
+        },
+        {
+          "key": "C",
+          "text": "Creating a Gantt chart visualisation of project timelines",
+          "correct": true,
+          "explanation": "Correct – the guide does not discuss generating visual Gantt charts."
+        },
+        {
+          "key": "D",
+          "text": "Compiling a shopping list for a home renovation project",
+          "correct": false,
+          "explanation": "Wrong – a shopping list for renovation is included as an example."
+        }
+      ]
+    },
+    {
+      "id": "guides_5-ai-prompts-to-surface-fresh-insights-from-your-databases-008",
+      "question": "If you need a quick sentiment gauge for each response in a survey results database, which prompt should you use?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a numbered list of the three main takeaways from this page",
+          "correct": false,
+          "explanation": "Wrong – that extracts takeaways, not sentiment."
+        },
+        {
+          "key": "B",
+          "text": "Search this page for any potential problems, risks, or blockers that may prevent progress, and list them briefly",
+          "correct": false,
+          "explanation": "Wrong – that looks for blockers, not sentiment."
+        },
+        {
+          "key": "C",
+          "text": "Explain this page in three words",
+          "correct": false,
+          "explanation": "Wrong – three‑word description may not capture sentiment reliably."
+        },
+        {
+          "key": "D",
+          "text": "Create a numbered list of the three main takeaways from this page, focusing on overall mood or sentiment",
+          "correct": true,
+          "explanation": "Correct – the guide suggests using a prompt that asks for mood or sentiment to gauge survey responses."
+        }
+      ]
+    },
+    {
+      "id": "guides_5-ai-prompts-to-surface-fresh-insights-from-your-databases-009",
+      "question": "What is the recommended way to improve the quality of AI autofill responses?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Be specific about the desired length and format in your prompt",
+          "correct": true,
+          "explanation": "Correct – specificity about length and format leads to more accurate, useful outputs."
+        },
+        {
+          "key": "B",
+          "text": "Add more pages to the database before running the prompt",
+          "correct": false,
+          "explanation": "Wrong – quantity of pages does not directly affect the clarity of a single prompt."
+        },
+        {
+          "key": "C",
+          "text": "Enable the ‘auto‑translate’ toggle in Notion settings",
+          "correct": false,
+          "explanation": "Wrong – there is no auto‑translate toggle relevant to AI autofill."
+        },
+        {
+          "key": "D",
+          "text": "Use only generic prompts like “Summarize this” to keep it broad",
+          "correct": false,
+          "explanation": "Wrong – generic prompts produce vague results; specificity is key."
+        }
+      ]
+    }
+  ]
+}

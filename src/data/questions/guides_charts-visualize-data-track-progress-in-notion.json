@@ -1,0 +1,317 @@
+{
+  "source": "guides_charts-visualize-data-track-progress-in-notion",
+  "sourceTitle": "Use charts to visualize data and track progress directly in Notion",
+  "sourceUrl": "https://www.notion.so/help/guides/charts-visualize-data-track-progress-in-notion",
+  "questions": [
+    {
+      "id": "guides_charts-visualize-data-track-progress-in-notion-001",
+      "question": "Which Notion view type must you select to create a chart from an existing database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Table",
+          "correct": false,
+          "explanation": "Table view shows rows and columns but does not create a visual chart."
+        },
+        {
+          "key": "B",
+          "text": "Board",
+          "correct": false,
+          "explanation": "Board view provides a kanban layout, not a chart visualization."
+        },
+        {
+          "key": "C",
+          "text": "Chart",
+          "correct": true,
+          "explanation": "Choosing the Chart option creates a chart view that can be customized and filtered."
+        },
+        {
+          "key": "D",
+          "text": "Calendar",
+          "correct": false,
+          "explanation": "Calendar view displays dates, not chart data."
+        }
+      ]
+    },
+    {
+      "id": "guides_charts-visualize-data-track-progress-in-notion-002",
+      "question": "What is the primary advantage of a donut chart in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Shows trends over time",
+          "correct": false,
+          "explanation": "Trends over time are better represented by line charts."
+        },
+        {
+          "key": "B",
+          "text": "Visualizes simple distribution of categories or assignees",
+          "correct": true,
+          "explanation": "Donut charts are ideal for quick distribution views, such as tasks per team member."
+        },
+        {
+          "key": "C",
+          "text": "Compares multiple sub‑groups side‑by‑side",
+          "correct": false,
+          "explanation": "Bar charts are used for multi‑dimensional comparisons."
+        },
+        {
+          "key": "D",
+          "text": "Displays hierarchical relationships",
+          "correct": false,
+          "explanation": "Hierarchical data isn’t shown with donut charts."
+        }
+      ]
+    },
+    {
+      "id": "guides_charts-visualize-data-track-progress-in-notion-003",
+      "question": "How do Notion charts stay up‑to‑date when the underlying data changes?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "You must manually refresh each chart",
+          "correct": false,
+          "explanation": "Charts automatically reflect changes; no manual refresh is needed."
+        },
+        {
+          "key": "B",
+          "text": "Charts are static snapshots taken at creation",
+          "correct": false,
+          "explanation": "They are live views, not static images."
+        },
+        {
+          "key": "C",
+          "text": "Charts are linked to the database view and update in realtime",
+          "correct": true,
+          "explanation": "Because charts are database views, any edit to the source data updates the chart instantly."
+        },
+        {
+          "key": "D",
+          "text": "You need to re‑import the database into the chart",
+          "correct": false,
+          "explanation": "Re‑importing isn’t required; the link is continuous."
+        }
+      ]
+    },
+    {
+      "id": "guides_charts-visualize-data-track-progress-in-notion-004",
+      "question": "Which chart type would be most appropriate for tracking the number of pieces published each week over a quarter?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Donut chart",
+          "correct": false,
+          "explanation": "Donut charts show distribution, not time‑based trends."
+        },
+        {
+          "key": "B",
+          "text": "Horizontal bar chart",
+          "correct": false,
+          "explanation": "Bar charts compare categories, but aren’t ideal for continuous time series."
+        },
+        {
+          "key": "C",
+          "text": "Line chart",
+          "correct": true,
+          "explanation": "Line charts excel at showing progress over time, such as weekly publishing counts."
+        },
+        {
+          "key": "D",
+          "text": "Pie chart",
+          "correct": false,
+          "explanation": "Pie charts are not mentioned in Notion and don’t convey temporal data."
+        }
+      ]
+    },
+    {
+      "id": "guides_charts-visualize-data-track-progress-in-notion-005",
+      "question": "If you want to compare OKR status by team and also see bottlenecks in a single view, which combination of chart types is recommended?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two donut charts side by side",
+          "correct": false,
+          "explanation": "Donut charts don’t show comparative bottlenecks across teams."
+        },
+        {
+          "key": "B",
+          "text": "A vertical bar chart for status by team and a line chart for key‑result progress over time",
+          "correct": true,
+          "explanation": "Bar charts give status distribution, while line charts reveal temporal trends and bottlenecks."
+        },
+        {
+          "key": "C",
+          "text": "A single line chart with multiple lines for each team",
+          "correct": false,
+          "explanation": "While possible, it can become cluttered; the guide suggests using both bar and line charts."
+        },
+        {
+          "key": "D",
+          "text": "A stacked horizontal bar chart only",
+          "correct": false,
+          "explanation": "Stacked bars show proportion but not time‑based progress."
+        }
+      ]
+    },
+    {
+      "id": "guides_charts-visualize-data-track-progress-in-notion-006",
+      "question": "What is a key benefit of embedding an external chart (e.g., from Tableau) into a Notion dashboard?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It converts the external chart into a Notion database",
+          "correct": false,
+          "explanation": "Embedding displays the chart; it doesn’t transform data into a Notion database."
+        },
+        {
+          "key": "B",
+          "text": "It allows you to view both Notion data and external analytics in one place without leaving Notion",
+          "correct": true,
+          "explanation": "Embedding creates a unified view, combining internal and external insights on a single dashboard."
+        },
+        {
+          "key": "C",
+          "text": "It syncs the external tool’s data back into Notion automatically",
+          "correct": false,
+          "explanation": "Embedding is visual only; automatic sync isn’t provided."
+        },
+        {
+          "key": "D",
+          "text": "It replaces the need for any Notion charts",
+          "correct": false,
+          "explanation": "Embedded charts complement, not replace, native Notion charts."
+        }
+      ]
+    },
+    {
+      "id": "guides_charts-visualize-data-track-progress-in-notion-007",
+      "question": "When creating a dashboard that visualizes data from multiple databases, which Notion command can you use to add each chart?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "/table",
+          "correct": false,
+          "explanation": "/table creates a table view, not a chart."
+        },
+        {
+          "key": "B",
+          "text": "/link",
+          "correct": false,
+          "explanation": "/link creates a linked database, not a chart view."
+        },
+        {
+          "key": "C",
+          "text": "/chart",
+          "correct": true,
+          "explanation": "Typing /chart prompts you to link an existing database and creates a chart view for the dashboard."
+        },
+        {
+          "key": "D",
+          "text": "/embed",
+          "correct": false,
+          "explanation": "/embed is for external content, not for creating a Notion chart view."
+        }
+      ]
+    },
+    {
+      "id": "guides_charts-visualize-data-track-progress-in-notion-008",
+      "question": "Which of the following scenarios best illustrates the use of a synced database turned into a chart?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Visualizing a static list of company policies stored in Notion",
+          "correct": false,
+          "explanation": "Static lists don’t require syncing from external tools."
+        },
+        {
+          "key": "B",
+          "text": "Displaying real‑time Jira tickets alongside Notion tasks in a single chart",
+          "correct": true,
+          "explanation": "Synced databases pull data from tools like Jira; charting them gives a live view of cross‑tool tasks."
+        },
+        {
+          "key": "C",
+          "text": "Creating a donut chart of employee birthdays from a Notion HR database",
+          "correct": false,
+          "explanation": "This uses native Notion data; syncing isn’t involved."
+        },
+        {
+          "key": "D",
+          "text": "Embedding a Google Analytics line chart into a Notion page",
+          "correct": false,
+          "explanation": "Embedding is external; it doesn’t involve a synced Notion database."
+        }
+      ]
+    },
+    {
+      "id": "guides_charts-visualize-data-track-progress-in-notion-009",
+      "question": "How can AI‑generated tags be leveraged together with Notion charts to improve data exploration?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI tags replace the need for any charting by automatically summarizing data",
+          "correct": false,
+          "explanation": "AI tags provide metadata; charts still visualize that metadata."
+        },
+        {
+          "key": "B",
+          "text": "Charts can visualize the distribution of AI‑generated tags, making large datasets quickly understandable",
+          "correct": true,
+          "explanation": "By charting tag frequencies, teams can explore patterns without manually auditing each row."
+        },
+        {
+          "key": "C",
+          "text": "AI tags automatically create bar charts without user input",
+          "correct": false,
+          "explanation": "Charts must still be manually added; AI does not generate charts."
+        },
+        {
+          "key": "D",
+          "text": "AI tags are only usable in text fields and cannot be charted",
+          "correct": false,
+          "explanation": "Tags are a property type that can be used in chart axes or filters."
+        }
+      ]
+    },
+    {
+      "id": "guides_charts-visualize-data-track-progress-in-notion-010",
+      "question": "Which of the following best describes why a Notion dashboard is considered a \"living record\" compared to a static spreadsheet chart?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because it is exported as a PDF that updates automatically",
+          "correct": false,
+          "explanation": "PDFs are static; they don’t update."
+        },
+        {
+          "key": "B",
+          "text": "Because the charts are linked to live database views that refresh in realtime as data changes",
+          "correct": true,
+          "explanation": "The dashboard reflects current data because each chart is a live view of its source database."
+        },
+        {
+          "key": "C",
+          "text": "Because Notion dashboards are stored on a separate server that periodically pulls data",
+          "correct": false,
+          "explanation": "Dashboards exist within the Notion workspace and update instantly, not on a schedule."
+        },
+        {
+          "key": "D",
+          "text": "Because they only display data that was imported at the time of creation",
+          "correct": false,
+          "explanation": "That would make them static, which contradicts the article’s claim."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "source": "guides_create-hybrid-work-hub",
+  "sourceTitle": "Create a hybrid work hub",
+  "sourceUrl": "https://www.notion.so/help/guides/create-hybrid-work-hub",
+  "questions": [
+    {
+      "id": "create-hybrid-work-hub-001",
+      "question": "What is the primary benefit of consolidating important documents into a wiki for a hybrid team?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It reduces the amount of storage space needed.",
+          "correct": false,
+          "explanation": "Storage reduction is not the main goal; the wiki is about accessibility and clarity."
+        },
+        {
+          "key": "B",
+          "text": "It creates a single source of truth that all employees can easily access and update.",
+          "correct": true,
+          "explanation": "Correct – a wiki centralizes guidelines, philosophies, and resources so everyone knows where to find the latest information."
+        },
+        {
+          "key": "C",
+          "text": "It eliminates the need for any other communication tools like Slack.",
+          "correct": false,
+          "explanation": "The wiki complements other tools; it doesn’t replace them."
+        },
+        {
+          "key": "D",
+          "text": "It automatically translates documents into multiple languages.",
+          "correct": false,
+          "explanation": "Automatic translation is not mentioned as a feature of the wiki."
+        }
+      ]
+    },
+    {
+      "id": "create-hybrid-work-hub-002",
+      "question": "In the guide, “single‑source of truth” refers to:",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A backup copy of all files stored in the cloud.",
+          "correct": false,
+          "explanation": "A backup is for recovery, not for providing the definitive current information."
+        },
+        {
+          "key": "B",
+          "text": "One central location where the most up‑to‑date information lives.",
+          "correct": true,
+          "explanation": "Exactly – it means everyone looks to that place for the latest version of policies, procedures, etc."
+        },
+        {
+          "key": "C",
+          "text": "A page that only managers can edit.",
+          "correct": false,
+          "explanation": "The concept is about accessibility for all, not restricted editing."
+        },
+        {
+          "key": "D",
+          "text": "A public website accessible to customers.",
+          "correct": false,
+          "explanation": "The wiki is internal to the team, not a public-facing site."
+        }
+      ]
+    },
+    {
+      "id": "create-hybrid-work-hub-003",
+      "question": "Which Notion feature would you use to let teammates reserve desks or conference rooms?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A linked database with a calendar view and custom formulas.",
+          "correct": true,
+          "explanation": "The guide suggests using a linked database + formulas to track reservations and special requests."
+        },
+        {
+          "key": "B",
+          "text": "A simple text page with a list of available spaces.",
+          "correct": false,
+          "explanation": "A plain text list lacks the dynamic tracking and filtering capabilities of a database."
+        },
+        {
+          "key": "C",
+          "text": "An embedded Google Sheet.",
+          "correct": false,
+          "explanation": "While possible, the guide specifically recommends Notion databases for this purpose."
+        },
+        {
+          "key": "D",
+          "text": "A Kanban board titled “Desk Requests”.",
+          "correct": false,
+          "explanation": "A Kanban board could work but the guide emphasizes a calendar view and linked database for scheduling."
+        }
+      ]
+    },
+    {
+      "id": "create-hybrid-work-hub-004",
+      "question": "How can you embed a Typeform directly inside a Notion page according to the article?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By copying the Typeform URL into a Notion quote block.",
+          "correct": false,
+          "explanation": "A quote block does not embed the form; it only displays text."
+        },
+        {
+          "key": "B",
+          "text": "Using the /typeform command to insert an embedded Typeform block.",
+          "correct": true,
+          "explanation": "The guide explicitly mentions the /typeform command for inline embedding."
+        },
+        {
+          "key": "C",
+          "text": "Uploading the Typeform as a PDF attachment.",
+          "correct": false,
+          "explanation": "Uploading a PDF would not allow interactive responses."
+        },
+        {
+          "key": "D",
+          "text": "Linking to the Typeform in a table property.",
+          "correct": false,
+          "explanation": "A link works but does not embed the interactive form within Notion."
+        }
+      ]
+    },
+    {
+      "id": "create-hybrid-work-hub-005",
+      "question": "What setup is recommended for notifying a Slack channel when a Notion page is updated?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create an @channel mention inside the Notion page content.",
+          "correct": false,
+          "explanation": "Mentioning @channel inside Notion does not trigger Slack notifications."
+        },
+        {
+          "key": "B",
+          "text": "Use Notion’s built‑in Slack integration to send automatic updates to a specified channel.",
+          "correct": true,
+          "explanation": "The guide advises setting up automatic Slack notifications for page changes."
+        },
+        {
+          "key": "C",
+          "text": "Manually copy‑paste the updated content into Slack each time.",
+          "correct": false,
+          "explanation": "Manual copying defeats the purpose of automation."
+        },
+        {
+          "key": "D",
+          "text": "Create a Zapier zap that watches for page edits and posts to Slack.",
+          "correct": false,
+          "explanation": "Zapier could work, but the article specifically mentions Notion’s native Slack integration for this use case."
+        }
+      ]
+    },
+    {
+      "id": "create-hybrid-work-hub-006",
+      "question": "Which formula from the guide correctly calculates the number of upvotes in a poll database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "length(prop(\"🔺 Upvoted By\"))",
+          "correct": false,
+          "explanation": "This would count characters, not the number of people listed."
+        },
+        {
+          "key": "B",
+          "text": "toNumber(prop(\"🔺 Upvoted By\"))",
+          "correct": false,
+          "explanation": "Converting the property directly to a number won’t parse a list of names."
+        },
+        {
+          "key": "C",
+          "text": "if(empty(prop(\"🔺 Upvoted By\")), 0, length(prop(\"🔺 Upvoted By\")) - length(replaceAll(prop(\"🔺 Upvoted By\"), \",\", \"\")) + 1)",
+          "correct": true,
+          "explanation": "This is the exact formula from the article: it counts commas to determine how many entries are in the multi‑person property."
+        },
+        {
+          "key": "D",
+          "text": "sum(prop(\"🔺 Upvoted By\"))",
+          "correct": false,
+          "explanation": "Sum works only on numeric properties, not on a multi‑person list."
+        }
+      ]
+    },
+    {
+      "id": "create-hybrid-work-hub-007",
+      "question": "Why might a linked database be useful for showing when visitors are around the office?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically sends a calendar invite to every employee.",
+          "correct": false,
+          "explanation": "Linked databases don’t send invites; they display filtered data."
+        },
+        {
+          "key": "B",
+          "text": "It allows you to create a filtered view that only shows visitor entries relevant to each location.",
+          "correct": true,
+          "explanation": "A linked database can present a focused view, helping residents see relevant visitor information."
+        },
+        {
+          "key": "C",
+          "text": "It encrypts visitor data for security compliance.",
+          "correct": false,
+          "explanation": "Encryption isn’t a feature of linked databases in this context."
+        },
+        {
+          "key": "D",
+          "text": "It replaces the need for a physical sign‑in sheet at the reception desk.",
+          "correct": false,
+          "explanation": "While it can supplement sign‑ins, the guide emphasizes visibility, not full replacement."
+        }
+      ]
+    },
+    {
+      "id": "create-hybrid-work-hub-008",
+      "question": "Which workflow does the guide suggest for integrating virtual events from Google Calendar into Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Manually copy each event into a Notion list view.",
+          "correct": false,
+          "explanation": "Manual copying defeats automation and is not the recommended approach."
+        },
+        {
+          "key": "B",
+          "text": "Use Zapier or automate.io to sync Google Calendar events to a Notion database.",
+          "correct": true,
+          "explanation": "The guide mentions using Zapier or automate.io for this integration."
+        },
+        {
+          "key": "C",
+          "text": "Export Google Calendar as a CSV and import it into Notion.",
+          "correct": false,
+          "explanation": "CSV import is possible but not the workflow described for ongoing sync."
+        },
+        {
+          "key": "D",
+          "text": "Embed the Google Calendar view directly in a Notion page.",
+          "correct": false,
+          "explanation": "Embedding shows the calendar but doesn’t store extra event details in a linked location as suggested."
+        }
+      ]
+    },
+    {
+      "id": "create-hybrid-work-hub-009",
+      "question": "Including official Zoom backgrounds in the hybrid work hub primarily helps to:",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reduce the bandwidth usage during video calls.",
+          "correct": false,
+          "explanation": "Backgrounds don’t affect bandwidth significantly."
+        },
+        {
+          "key": "B",
+          "text": "Promote unity and culture among remote and in‑office employees.",
+          "correct": true,
+          "explanation": "The guide states that sharing Zoom backgrounds fosters unity and cultural cohesion."
+        },
+        {
+          "key": "C",
+          "text": "Ensure all meetings have a consistent visual style for branding compliance.",
+          "correct": false,
+          "explanation": "While branding could be a side effect, the primary purpose highlighted is cultural unity."
+        },
+        {
+          "key": "D",
+          "text": "Enable automatic transcription of meetings.",
+          "correct": false,
+          "explanation": "Zoom backgrounds have no impact on transcription capabilities."
+        }
+      ]
+    }
+  ]
+}

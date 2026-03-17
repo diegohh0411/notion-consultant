@@ -1,0 +1,255 @@
+{
+  "source": "guides_organize-your-inbox-with-notion-ai-auto-labeling",
+  "sourceTitle": "Organize your inbox with Notion AI's auto labeling",
+  "sourceUrl": "https://www.notion.com/help/guides/organize-your-inbox-with-notion-ai-auto-labeling",
+  "questions": [
+    {
+      "id": "organize-your-inbox-with-notion-ai-auto-labeling-001",
+      "question": "Where can you find the Auto label button in Notion Mail?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the bottom left corner of the inbox",
+          "correct": false,
+          "explanation": "The button is not located at the bottom left; that's a different UI area."
+        },
+        {
+          "key": "B",
+          "text": "In the top right corner of the inbox",
+          "correct": true,
+          "explanation": "The guide states the Auto label button is in the top right corner of your inbox."
+        },
+        {
+          "key": "C",
+          "text": "In the left sidebar under Settings",
+          "correct": false,
+          "explanation": "Auto label is accessed directly from the inbox view, not the sidebar."
+        },
+        {
+          "key": "D",
+          "text": "At the bottom of the email list",
+          "correct": false,
+          "explanation": "The button is not at the bottom of the list; it sits at the top right."
+        }
+      ]
+    },
+    {
+      "id": "organize-your-inbox-with-notion-ai-auto-labeling-002",
+      "question": "What is a primary benefit of using Notion AI's auto labeling feature?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It increases your email storage quota",
+          "correct": false,
+          "explanation": "Auto labeling does not affect storage limits."
+        },
+        {
+          "key": "B",
+          "text": "It speeds up your internet connection",
+          "correct": false,
+          "explanation": "Labeling is unrelated to network speed."
+        },
+        {
+          "key": "C",
+          "text": "It frees you from manually sorting each incoming email",
+          "correct": true,
+          "explanation": "The core purpose of auto labeling is to automate the sorting process."
+        },
+        {
+          "key": "D",
+          "text": "It adds an extra layer of email encryption",
+          "correct": false,
+          "explanation": "Encryption is not mentioned as a function of auto labeling."
+        }
+      ]
+    },
+    {
+      "id": "organize-your-inbox-with-notion-ai-auto-labeling-003",
+      "question": "Which of the following is NOT listed as a way to group emails once they are sorted into a view?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Group by read or unread",
+          "correct": false,
+          "explanation": "Grouping by read/unread is mentioned."
+        },
+        {
+          "key": "B",
+          "text": "Group by priority",
+          "correct": false,
+          "explanation": "Priority grouping is part of the guide."
+        },
+        {
+          "key": "C",
+          "text": "Group by the sender's favorite color",
+          "correct": true,
+          "explanation": "The guide never suggests grouping by a personal attribute like favorite color."
+        },
+        {
+          "key": "D",
+          "text": "Group by date",
+          "correct": false,
+          "explanation": "Date-based grouping is included in the article."
+        }
+      ]
+    },
+    {
+      "id": "organize-your-inbox-with-notion-ai-auto-labeling-004",
+      "question": "When deciding whether to place auto‑labeled emails in a separate view, the article advises you to consider:",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Your personal workflow preferences",
+          "correct": true,
+          "explanation": "The guide emphasizes thinking about how you work best before creating separate views."
+        },
+        {
+          "key": "B",
+          "text": "The color scheme of your Notion workspace",
+          "correct": false,
+          "explanation": "Visual theme is irrelevant to view organization."
+        },
+        {
+          "key": "C",
+          "text": "The number of email accounts you own",
+          "correct": false,
+          "explanation": "While useful context, the article does not tie view decisions to account count."
+        },
+        {
+          "key": "D",
+          "text": "The total size of your inbox in megabytes",
+          "correct": false,
+          "explanation": "Inbox size isn’t mentioned as a factor for view creation."
+        }
+      ]
+    },
+    {
+      "id": "organize-your-inbox-with-notion-ai-auto-labeling-005",
+      "question": "A recruiter wants to keep active conversations visible while postponing cold outreach. Which guideline from the article best matches this need?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sort by what's important",
+          "correct": false,
+          "explanation": "Important sorting is more about priority of topics, not timing of replies."
+        },
+        {
+          "key": "B",
+          "text": "Sort by when to reply",
+          "correct": true,
+          "explanation": "The guide specifically mentions recruiters sorting active chats in the main inbox and cold outreach in a separate view."
+        },
+        {
+          "key": "C",
+          "text": "Sort by update type",
+          "correct": false,
+          "explanation": "Update type focuses on project vs. routine updates, not reply timing."
+        },
+        {
+          "key": "D",
+          "text": "Sort by email size",
+          "correct": false,
+          "explanation": "Email size is not part of the suggested guidelines."
+        }
+      ]
+    },
+    {
+      "id": "organize-your-inbox-with-notion-ai-auto-labeling-006",
+      "question": "How does manually confirming or correcting auto‑labeled emails help Notion AI improve over time?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It increases the storage quota for your Notion account",
+          "correct": false,
+          "explanation": "Label confirmation does not affect storage limits."
+        },
+        {
+          "key": "B",
+          "text": "It trains the AI by showing which matches are correct and which are not",
+          "correct": true,
+          "explanation": "The article explains that checking correct matches and crossing out wrong ones trains the model."
+        },
+        {
+          "key": "C",
+          "text": "It changes your email server settings automatically",
+          "correct": false,
+          "explanation": "AI training is internal to Notion, not about server configuration."
+        },
+        {
+          "key": "D",
+          "text": "It resets all existing labels each night",
+          "correct": false,
+          "explanation": "Labels are not reset; they become more accurate with training."
+        }
+      ]
+    },
+    {
+      "id": "organize-your-inbox-with-notion-ai-auto-labeling-007",
+      "question": "Which grouping method would be most effective for quickly locating all invoices from payment processors such as Stripe and PayPal?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Group by read or unread status",
+          "correct": false,
+          "explanation": "Read/unread does not differentiate by sender domain."
+        },
+        {
+          "key": "B",
+          "text": "Group by priority level",
+          "correct": false,
+          "explanation": "Priority helps with urgency but not with sender domain."
+        },
+        {
+          "key": "C",
+          "text": "Group by email or domain",
+          "correct": true,
+          "explanation": "The guide suggests grouping by domain to bundle payment‑related emails."
+        },
+        {
+          "key": "D",
+          "text": "Group by custom label only",
+          "correct": false,
+          "explanation": "While possible, the article specifically highlights domain grouping for this use case."
+        }
+      ]
+    },
+    {
+      "id": "organize-your-inbox-with-notion-ai-auto-labeling-008",
+      "question": "You are a project manager juggling several projects with varying deadlines. Using the article’s recommendations, which labeling and view setup best ensures urgent deadline‑specific emails are never missed while still keeping routine updates visible?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a single view that sorts all emails by date and rely on manual scanning for urgent items.",
+          "correct": false,
+          "explanation": "A single date‑sorted view makes urgent items harder to spot; the guide encourages dedicated views for important categories."
+        },
+        {
+          "key": "B",
+          "text": "Set up three separate views: one for urgent deadline emails (using a high‑priority label), one for routine project updates (standard label), and a combined view for all other mail, letting Notion AI auto‑label each email into the appropriate view.",
+          "correct": true,
+          "explanation": "This matches the article’s guidelines: sort by importance (urgent deadlines) and by update type (routine updates), using separate views and auto‑labeling."
+        },
+        {
+          "key": "C",
+          "text": "Only use the \"read/unread\" grouping inside the main inbox and ignore separate views.",
+          "correct": false,
+          "explanation": "Read/unread grouping does not address deadline urgency and contradicts the recommendation to create dedicated views."
+        },
+        {
+          "key": "D",
+          "text": "Label every email simply as \"Project\" and later search for keywords to find urgent messages.",
+          "correct": false,
+          "explanation": "A single generic label defeats the purpose of targeted auto‑labeling and makes urgent emails harder to locate."
+        }
+      ]
+    }
+  ]
+}

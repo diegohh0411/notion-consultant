@@ -1,0 +1,317 @@
+{
+  "source": "guides_gallery-view-databases",
+  "sourceTitle": "Gallery view databases",
+  "sourceUrl": "https://www.notion.so/help/guides_gallery-view-databases",
+  "questions": [
+    {
+      "id": "gallery-view-databases-001",
+      "question": "What type of content can Gallery databases showcase?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Photos and text",
+          "correct": true,
+          "explanation": "Gallery view is designed to display visual items like photos alongside text."
+        },
+        {
+          "key": "B",
+          "text": "Only videos",
+          "correct": false,
+          "explanation": "Videos are not the primary focus of Gallery view; it shows images and text."
+        },
+        {
+          "key": "C",
+          "text": "Only spreadsheets",
+          "correct": false,
+          "explanation": "Spreadsheets belong to Table view, not Gallery view."
+        },
+        {
+          "key": "D",
+          "text": "Only code snippets",
+          "correct": false,
+          "explanation": "Code snippets are better shown in List or Table views, not Gallery."
+        }
+      ]
+    },
+    {
+      "id": "gallery-view-databases-002",
+      "question": "Where do you click to open the gallery’s main menu?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Three‑dot icon at the top right of the database",
+          "correct": true,
+          "explanation": "The three‑dot (ellipsis) icon opens the main menu for the gallery view."
+        },
+        {
+          "key": "B",
+          "text": "Double‑click any card",
+          "correct": false,
+          "explanation": "Double‑click opens the card’s page, not the view menu."
+        },
+        {
+          "key": "C",
+          "text": "Left sidebar",
+          "correct": false,
+          "explanation": "The sidebar contains navigation, not the gallery’s view settings."
+        },
+        {
+          "key": "D",
+          "text": "Settings gear at the bottom left",
+          "correct": false,
+          "explanation": "The gear opens workspace settings, not the gallery menu."
+        }
+      ]
+    },
+    {
+      "id": "gallery-view-databases-003",
+      "question": "Which option lets you prevent accidental changes by team members?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lock database",
+          "correct": true,
+          "explanation": "Locking a database disables editing for anyone without unlock permission."
+        },
+        {
+          "key": "B",
+          "text": "Archive view",
+          "correct": false,
+          "explanation": "Archiving hides a view but does not stop edits."
+        },
+        {
+          "key": "C",
+          "text": "Duplicate database",
+          "correct": false,
+          "explanation": "Duplicating creates a copy; it doesn’t restrict edits on the original."
+        },
+        {
+          "key": "D",
+          "text": "Rename database",
+          "correct": false,
+          "explanation": "Renaming changes the title only; it does not lock editing."
+        }
+      ]
+    },
+    {
+      "id": "gallery-view-databases-004",
+      "question": "How does changing a property in the Properties section affect the database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It updates that property for all pages in the database",
+          "correct": true,
+          "explanation": "Properties are defined at the database level, so any change applies to every entry."
+        },
+        {
+          "key": "B",
+          "text": "It only changes the selected card",
+          "correct": false,
+          "explanation": "Properties are not per‑card; they are shared across the whole database."
+        },
+        {
+          "key": "C",
+          "text": "It creates a new property for only that view",
+          "correct": false,
+          "explanation": "New properties are added to the database, not limited to a single view."
+        },
+        {
+          "key": "D",
+          "text": "It has no effect until saved",
+          "correct": false,
+          "explanation": "Changes are immediate; there is no separate save step for properties."
+        }
+      ]
+    },
+    {
+      "id": "gallery-view-databases-005",
+      "question": "If you want each gallery card to display a cover image from Unsplash without leaving Notion, which setting should you adjust?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layout section – choose cover image",
+          "correct": true,
+          "explanation": "The Layout settings let you show a cover image, and Unsplash integration is available there."
+        },
+        {
+          "key": "B",
+          "text": "Filter section – add image filter",
+          "correct": false,
+          "explanation": "Filters limit which records appear; they don’t change what is displayed on a card."
+        },
+        {
+          "key": "C",
+          "text": "Group by – group by image property",
+          "correct": false,
+          "explanation": "Grouping organizes cards but does not set the visual display mode."
+        },
+        {
+          "key": "D",
+          "text": "Card size – set to large",
+          "correct": false,
+          "explanation": "Card size changes dimensions only; it doesn’t switch to cover images."
+        }
+      ]
+    },
+    {
+      "id": "gallery-view-databases-006",
+      "question": "Which of the following is NOT a card size option in Gallery view?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tiny",
+          "correct": true,
+          "explanation": "Gallery view offers Small, Medium, and Large; “Tiny” is not an option."
+        },
+        {
+          "key": "B",
+          "text": "Small",
+          "correct": false,
+          "explanation": "Small is a valid card size."
+        },
+        {
+          "key": "C",
+          "text": "Medium",
+          "correct": false,
+          "explanation": "Medium is a valid card size."
+        },
+        {
+          "key": "D",
+          "text": "Large",
+          "correct": false,
+          "explanation": "Large is a valid card size."
+        }
+      ]
+    },
+    {
+      "id": "gallery-view-databases-007",
+      "question": "What does the “Group by” option allow you to do in a gallery database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Group cards based on a selected property",
+          "correct": true,
+          "explanation": "Group by organizes cards into sections according to the chosen property."
+        },
+        {
+          "key": "B",
+          "text": "Sort cards alphabetically",
+          "correct": false,
+          "explanation": "Sorting is a separate function; Group by creates visual sections."
+        },
+        {
+          "key": "C",
+          "text": "Apply a color theme",
+          "correct": false,
+          "explanation": "Color theming isn’t part of the Group by feature."
+        },
+        {
+          "key": "D",
+          "text": "Export cards as PDF",
+          "correct": false,
+          "explanation": "Exporting is unrelated to grouping."
+        }
+      ]
+    },
+    {
+      "id": "gallery-view-databases-008",
+      "question": "You have a gallery database of team members. You want to see only members in the “Design” department and display their profile pictures as covers, grouped by office location, with medium‑sized cards. Which sequence of actions correctly achieves this?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Apply filter (Department = Design), set Layout to cover image, set Group by to Office, set Card size to Medium",
+          "correct": true,
+          "explanation": "Filtering narrows to Design, Layout shows covers, Group by Office groups correctly, and Medium size matches the requirement."
+        },
+        {
+          "key": "B",
+          "text": "Apply filter (Office = Design), set Layout to content, set Group by to Department, set Card size to Small",
+          "correct": false,
+          "explanation": "The filter targets the wrong property and the layout shows content instead of covers."
+        },
+        {
+          "key": "C",
+          "text": "Set Group by to Department, set Layout to content, apply filter (Office = Design), set Card size to Large",
+          "correct": false,
+          "explanation": "Grouping before filtering is okay, but the layout should be cover image and size should be Medium, not Large."
+        },
+        {
+          "key": "D",
+          "text": "Apply filter (Department = Design), set Layout to content, set Group by to Office, set Card size to Medium",
+          "correct": false,
+          "explanation": "Layout set to content shows text, not the profile picture covers required."
+        }
+      ]
+    },
+    {
+      "id": "gallery-view-databases-009",
+      "question": "If you lock a gallery database and later need to add a new property to all cards, what is the recommended workflow?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unlock the database, add the property, lock again",
+          "correct": true,
+          "explanation": "Locking prevents edits; you must temporarily unlock, make the change, then relock."
+        },
+        {
+          "key": "B",
+          "text": "Add the property via a duplicated unlocked copy, then replace the original",
+          "correct": false,
+          "explanation": "Duplicating is unnecessary and can cause version conflicts."
+        },
+        {
+          "key": "C",
+          "text": "Edit a single card's property (will propagate automatically)",
+          "correct": false,
+          "explanation": "Properties are defined at the database level; editing one card does not create a new property for all."
+        },
+        {
+          "key": "D",
+          "text": "You cannot add properties to a locked database",
+          "correct": false,
+          "explanation": "You can, but only after unlocking the database."
+        }
+      ]
+    },
+    {
+      "id": "gallery-view-databases-010",
+      "question": "Where can you find templates to start building a gallery database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Template gallery link in the guide",
+          "correct": true,
+          "explanation": "The guide points to Notion’s template gallery, which includes gallery database templates."
+        },
+        {
+          "key": "B",
+          "text": "Settings > Templates",
+          "correct": false,
+          "explanation": "Templates are accessed via the template gallery, not through a Settings submenu."
+        },
+        {
+          "key": "C",
+          "text": "Notion community forum",
+          "correct": false,
+          "explanation": "The forum is a place for discussion, not the official template repository."
+        },
+        {
+          "key": "D",
+          "text": "You cannot use templates for gallery databases",
+          "correct": false,
+          "explanation": "Templates are available for all database types, including Gallery."
+        }
+      ]
+    }
+  ]
+}

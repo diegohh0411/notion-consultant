@@ -1,0 +1,317 @@
+{
+  "source": "guides_create-streamlined-project-management-workflow-using-database-automations",
+  "sourceTitle": "Create streamlined project management workflows using database automations",
+  "sourceUrl": "https://www.notion.so/help/guides/create-streamlined-project-management-workflow-using-database-automations",
+  "questions": [
+    {
+      "id": "guides_create-streamlined-project-management-workflow-using-database-automations-001",
+      "question": "What are the two core components of a Notion database automation?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Triggers and actions",
+          "correct": true,
+          "explanation": "Automations are built from a trigger event and the sequence of actions that follow."
+        },
+        {
+          "key": "B",
+          "text": "Filters and views",
+          "correct": false,
+          "explanation": "Filters and views are ways to display data, not automation components."
+        },
+        {
+          "key": "C",
+          "text": "Templates and blocks",
+          "correct": false,
+          "explanation": "Templates and blocks help create content, but they are not part of automation logic."
+        },
+        {
+          "key": "D",
+          "text": "Permissions and sharing settings",
+          "correct": false,
+          "explanation": "Permissions control access, not automation flow."
+        }
+      ]
+    },
+    {
+      "id": "guides_create-streamlined-project-management-workflow-using-database-automations-002",
+      "question": "Which of the following is NOT listed as a benefit of using database automations for project management?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reducing wasted time between tasks",
+          "correct": false,
+          "explanation": "Automation notifies team members, cutting idle time."
+        },
+        {
+          "key": "B",
+          "text": "Preventing human error",
+          "correct": false,
+          "explanation": "Automation handles repetitive manual steps, lowering mistakes."
+        },
+        {
+          "key": "C",
+          "text": "Eliminating the need for any human oversight",
+          "correct": true,
+          "explanation": "Automation assists, but human oversight is still required for quality and decision‑making."
+        },
+        {
+          "key": "D",
+          "text": "Consolidating project management within Notion",
+          "correct": false,
+          "explanation": "Automation lets you keep workflows inside Notion, avoiding third‑party tools."
+        }
+      ]
+    },
+    {
+      "id": "guides_create-streamlined-project-management-workflow-using-database-automations-003",
+      "question": "When creating a new automation, which of the following trigger options can you choose?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "When a page is added",
+          "correct": true,
+          "explanation": "One of the basic trigger types is \"Page added\"."
+        },
+        {
+          "key": "B",
+          "text": "When a user logs in to Notion",
+          "correct": false,
+          "explanation": "User login is not a database property change, so it cannot be a trigger."
+        },
+        {
+          "key": "C",
+          "text": "When a comment is posted on any page",
+          "correct": false,
+          "explanation": "Comments are not a database property; they cannot directly trigger automations."
+        },
+        {
+          "key": "D",
+          "text": "When a workspace is created",
+          "correct": false,
+          "explanation": "Workspace creation is outside the scope of a single database automation."
+        }
+      ]
+    },
+    {
+      "id": "guides_create-streamlined-project-management-workflow-using-database-automations-004",
+      "question": "In the \"Kick off a project\" automation example, what property change serves as the trigger?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Status changes from \"Not started\" to \"Planning\"",
+          "correct": true,
+          "explanation": "The automation fires when the project's status moves from Not started to Planning."
+        },
+        {
+          "key": "B",
+          "text": "Project name is edited",
+          "correct": false,
+          "explanation": "Editing the name is not the trigger described in the example."
+        },
+        {
+          "key": "C",
+          "text": "A new team member is added to the project",
+          "correct": false,
+          "explanation": "Adding a member is not part of this specific automation."
+        },
+        {
+          "key": "D",
+          "text": "The project deadline is set to today",
+          "correct": false,
+          "explanation": "The trigger is based on status, not on the deadline property."
+        }
+      ]
+    },
+    {
+      "id": "guides_create-streamlined-project-management-workflow-using-database-automations-005",
+      "question": "Which action is NOT mentioned as a possible result of a database automation?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adding a new page to another database",
+          "correct": false,
+          "explanation": "Automation can create pages in another database."
+        },
+        {
+          "key": "B",
+          "text": "Sending a Slack notification",
+          "correct": false,
+          "explanation": "Slack notifications are a listed action."
+        },
+        {
+          "key": "C",
+          "text": "Generating a PDF report and attaching it to the page",
+          "correct": true,
+          "explanation": "The article does not mention PDF generation as a built‑in action."
+        },
+        {
+          "key": "D",
+          "text": "Updating a property value",
+          "correct": false,
+          "explanation": "Updating properties is a core automation capability."
+        }
+      ]
+    },
+    {
+      "id": "guides_create-streamlined-project-management-workflow-using-database-automations-006",
+      "question": "When using formula‑based automations, what is the purpose of the \"Define variables\" step?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To create custom calculations that can be referenced in later actions",
+          "correct": true,
+          "explanation": "Defining variables lets you store formula results for use in actions such as email content."
+        },
+        {
+          "key": "B",
+          "text": "To set the automation's schedule (e.g., run daily)",
+          "correct": false,
+          "explanation": "Scheduling is not handled by defining variables."
+        },
+        {
+          "key": "C",
+          "text": "To assign permissions for who can edit the automation",
+          "correct": false,
+          "explanation": "Permissions are managed elsewhere, not via variables."
+        },
+        {
+          "key": "D",
+          "text": "To generate a random ID for the new page",
+          "correct": false,
+          "explanation": "Random IDs are not the purpose of defining variables."
+        }
+      ]
+    },
+    {
+      "id": "guides_create-streamlined-project-management-workflow-using-database-automations-007",
+      "question": "In the email‑on‑form‑submission automation, which trigger type should you select?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Page added",
+          "correct": true,
+          "explanation": "When a form submission creates a new page, the \"Page added\" trigger fires the email action."
+        },
+        {
+          "key": "B",
+          "text": "Property edited",
+          "correct": false,
+          "explanation": "The example uses a new page, not an edited property, as the trigger."
+        },
+        {
+          "key": "C",
+          "text": "Database deleted",
+          "correct": false,
+          "explanation": "Deletion does not correspond to a form submission."
+        },
+        {
+          "key": "D",
+          "text": "User mentioned in a comment",
+          "correct": false,
+          "explanation": "Comments are not part of the described automation."
+        }
+      ]
+    },
+    {
+      "id": "guides_create-streamlined-project-management-workflow-using-database-automations-008",
+      "question": "Why might a team choose to use a formula‑based automation instead of a simple trigger‑action pair?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To combine data from multiple databases or compute dynamic values before an action runs",
+          "correct": true,
+          "explanation": "Formulas enable cross‑database lookups and calculations, which simple triggers cannot do."
+        },
+        {
+          "key": "B",
+          "text": "Because formulas run faster than standard actions",
+          "correct": false,
+          "explanation": "Speed is not the primary advantage; functionality is."
+        },
+        {
+          "key": "C",
+          "text": "To avoid paying for a Notion paid plan",
+          "correct": false,
+          "explanation": "Automation availability depends on the plan, not on using formulas."
+        },
+        {
+          "key": "D",
+          "text": "To automatically create a new workspace for each task",
+          "correct": false,
+          "explanation": "Workspaces cannot be created via formulas; this is outside the scope of database automations."
+        }
+      ]
+    },
+    {
+      "id": "guides_create-streamlined-project-management-workflow-using-database-automations-009",
+      "question": "Which of the following statements about the availability of database automations is correct?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are only available on certain paid plan types",
+          "correct": true,
+          "explanation": "The article notes that automations are limited to specific plan tiers."
+        },
+        {
+          "key": "B",
+          "text": "They are available for free on all Notion accounts",
+          "correct": false,
+          "explanation": "Free accounts do not have access to automation features."
+        },
+        {
+          "key": "C",
+          "text": "They require a separate third‑party integration to function",
+          "correct": false,
+          "explanation": "Automations are built‑in; third‑party tools are optional."
+        },
+        {
+          "key": "D",
+          "text": "They can only be used in personal workspaces, not team workspaces",
+          "correct": false,
+          "explanation": "Automations are designed for team collaboration as well as personal use."
+        }
+      ]
+    },
+    {
+      "id": "guides_create-streamlined-project-management-workflow-using-database-automations-010",
+      "question": "In the \"Start a new task\" automation example, which property is automatically set to \"Not Started\"?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Status",
+          "correct": true,
+          "explanation": "The automation sets the task's status property to \"Not Started\" when a page is added."
+        },
+        {
+          "key": "B",
+          "text": "Priority",
+          "correct": false,
+          "explanation": "Priority is not mentioned as being set in this example."
+        },
+        {
+          "key": "C",
+          "text": "Due date",
+          "correct": false,
+          "explanation": "The due date is not automatically assigned in this automation."
+        },
+        {
+          "key": "D",
+          "text": "Project name",
+          "correct": false,
+          "explanation": "Project name is not part of the described property updates."
+        }
+      ]
+    }
+  ]
+}

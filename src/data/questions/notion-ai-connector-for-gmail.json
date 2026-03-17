@@ -1,0 +1,317 @@
+{
+  "source": "notion-ai-connector-for-gmail",
+  "sourceTitle": "Gmail AI Connector (Beta)",
+  "sourceUrl": "https://www.notion.so/help/notion-ai-connector-for-gmail",
+  "questions": [
+    {
+      "id": "notion-ai-connector-for-gmail-001",
+      "question": "Who is eligible to initially connect Gmail to Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Google admin and Notion workspace owner",
+          "correct": true,
+          "explanation": "Both a Google admin and the Notion workspace owner are required to establish the connection."
+        },
+        {
+          "key": "B",
+          "text": "Any Notion user in the workspace",
+          "correct": false,
+          "explanation": "Regular Notion users cannot initiate the connection; admin rights are required."
+        },
+        {
+          "key": "C",
+          "text": "Only a Notion admin",
+          "correct": false,
+          "explanation": "A Notion admin alone is insufficient; a Google admin is also needed."
+        },
+        {
+          "key": "D",
+          "text": "Any Gmail user with a personal account",
+          "correct": false,
+          "explanation": "Personal Gmail accounts are not eligible unless they use Notion Mail instead."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-gmail-002",
+      "question": "What Notion plan must a workspace be on to use the Gmail AI Connector?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Free plan",
+          "correct": false,
+          "explanation": "The free plan does not include access to AI Connectors."
+        },
+        {
+          "key": "B",
+          "text": "Personal plan",
+          "correct": false,
+          "explanation": "Personal plans lack the Business/Enterprise features required for this integration."
+        },
+        {
+          "key": "C",
+          "text": "Business or Enterprise plan",
+          "correct": true,
+          "explanation": "Only Business or Enterprise plans provide the necessary permissions for the Gmail connector."
+        },
+        {
+          "key": "D",
+          "text": "Team plan",
+          "correct": false,
+          "explanation": "Team plans are not mentioned as eligible for the Gmail AI Connector."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-gmail-003",
+      "question": "If a user does not have a paid Google Workspace plan, which alternative can they use to connect email to Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion Mail",
+          "correct": true,
+          "explanation": "Users without a paid Google Workspace plan can connect via Notion Mail instead of Gmail."
+        },
+        {
+          "key": "B",
+          "text": "Notion AI basic integration",
+          "correct": false,
+          "explanation": "There is no separate \"basic\" integration for non‑paid Google accounts."
+        },
+        {
+          "key": "C",
+          "text": "Gmail free integration",
+          "correct": false,
+          "explanation": "Free Gmail accounts cannot be linked directly; they must use Notion Mail."
+        },
+        {
+          "key": "D",
+          "text": "No alternative is available",
+          "correct": false,
+          "explanation": "An alternative (Notion Mail) does exist for non‑paid plans."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-gmail-004",
+      "question": "How long after a new email arrives does Notion AI make it searchable?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Instantly",
+          "correct": false,
+          "explanation": "Searchability is not truly instant; there is a short processing window."
+        },
+        {
+          "key": "B",
+          "text": "0 to 30 minutes",
+          "correct": true,
+          "explanation": "New emails become searchable within a window of zero to thirty minutes after arrival."
+        },
+        {
+          "key": "C",
+          "text": "1 to 2 hours",
+          "correct": false,
+          "explanation": "The delay is much shorter than one to two hours."
+        },
+        {
+          "key": "D",
+          "text": "24 hours",
+          "correct": false,
+          "explanation": "Data is deleted after 24 hours upon disconnection, not delayed for search."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-gmail-005",
+      "question": "Which statement best describes how Notion stores or references Gmail data?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gmail data is permanently stored in Turbopuffer vector databases",
+          "correct": false,
+          "explanation": "The article explicitly says Notion does NOT store Gmail data in Turbopuffer."
+        },
+        {
+          "key": "B",
+          "text": "Email content may be temporarily cached (e.g., via memcached) for faster search",
+          "correct": true,
+          "explanation": "Notion may temporarily cache email content to improve search speed, but does not keep it long‑term."
+        },
+        {
+          "key": "C",
+          "text": "All Gmail messages are saved indefinitely on Notion servers",
+          "correct": false,
+          "explanation": "Notion follows data minimization; it does not keep messages indefinitely."
+        },
+        {
+          "key": "D",
+          "text": "Notion never accesses Gmail data at any point",
+          "correct": false,
+          "explanation": "Notion AI reads Gmail messages to provide search functionality."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-gmail-006",
+      "question": "According to Notion’s cross‑user security model, who can view another user’s email content in search results?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "All members of the Notion workspace",
+          "correct": false,
+          "explanation": "Cross‑user security prevents any workspace member from seeing another’s emails."
+        },
+        {
+          "key": "B",
+          "text": "Only Notion admins",
+          "correct": false,
+          "explanation": "Admins also cannot see other users’ emails; the restriction applies to everyone."
+        },
+        {
+          "key": "C",
+          "text": "No one; each user only searches their own Gmail inbox",
+          "correct": true,
+          "explanation": "Notion AI enforces strict cross‑user security, limiting searches to the individual’s inbox."
+        },
+        {
+          "key": "D",
+          "text": "Only the Google Workspace admin",
+          "correct": false,
+          "explanation": "Even the Google admin’s Gmail data is scoped to their own account when using Notion AI."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-gmail-007",
+      "question": "Can a single Google Workspace be connected to multiple Notion workspaces?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, you can connect as many Notion workspaces as you like",
+          "correct": false,
+          "explanation": "The integration is limited to a one‑to‑one relationship."
+        },
+        {
+          "key": "B",
+          "text": "Yes, but only up to five Notion workspaces",
+          "correct": false,
+          "explanation": "There is no tiered limit; the rule is strictly one‑to‑one."
+        },
+        {
+          "key": "C",
+          "text": "No, a Google Workspace can only be linked to a single Notion workspace and vice versa",
+          "correct": true,
+          "explanation": "The article states that the connection is one‑to‑one on both sides."
+        },
+        {
+          "key": "D",
+          "text": "Yes, but only for paid Notion plans",
+          "correct": false,
+          "explanation": "Plan level does not change the one‑to‑one restriction."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-gmail-008",
+      "question": "What is the correct navigation sequence for a workspace owner to disconnect Gmail from Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Settings → Notion AI → Gmail gear icon → Disconnect",
+          "correct": true,
+          "explanation": "This is the exact path described for disconnecting the Gmail connector."
+        },
+        {
+          "key": "B",
+          "text": "Settings → Integrations → Gmail → Remove",
+          "correct": false,
+          "explanation": "Integrations is not the section used for the Gmail AI connector."
+        },
+        {
+          "key": "C",
+          "text": "Notion AI → Settings → Delete Gmail",
+          "correct": false,
+          "explanation": "The gear icon within Gmail settings is required; this path is incomplete."
+        },
+        {
+          "key": "D",
+          "text": "Workspace → Admin → Apps → Gmail → Uninstall",
+          "correct": false,
+          "explanation": "While the Google admin may also delete the Marketplace app, the Notion UI path is as in option A."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-gmail-009",
+      "question": "Can Notion AI read email attachments at this time?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, it reads all attachments",
+          "correct": false,
+          "explanation": "Attachments are explicitly not read by Notion AI."
+        },
+        {
+          "key": "B",
+          "text": "No, Notion AI cannot read attachments",
+          "correct": true,
+          "explanation": "The article clearly states that attachments are not read."
+        },
+        {
+          "key": "C",
+          "text": "Only PDF attachments",
+          "correct": false,
+          "explanation": "No attachment type is currently supported."
+        },
+        {
+          "key": "D",
+          "text": "Only image attachments",
+          "correct": false,
+          "explanation": "Images are also not processed by Notion AI."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-gmail-010",
+      "question": "After a user disconnects Gmail from Notion AI, when is the associated email data deleted from Notion’s systems?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately, as soon as the disconnect request is made",
+          "correct": false,
+          "explanation": "Data becomes unsearchable immediately, but actual deletion occurs within a short window."
+        },
+        {
+          "key": "B",
+          "text": "Within 24 hours of the disconnection request",
+          "correct": true,
+          "explanation": "The article specifies that all associated data is deleted within 24 hours after disconnect."
+        },
+        {
+          "key": "C",
+          "text": "After 7 days",
+          "correct": false,
+          "explanation": "The retention period is far shorter than a week."
+        },
+        {
+          "key": "D",
+          "text": "The data is never deleted",
+          "correct": false,
+          "explanation": "Notion follows data‑minimization principles and deletes the data after disconnection."
+        }
+      ]
+    }
+  ]
+}

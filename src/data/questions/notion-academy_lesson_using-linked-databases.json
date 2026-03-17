@@ -1,0 +1,317 @@
+{
+  "source": "notion-academy_lesson_using-linked-databases",
+  "sourceTitle": "Welcome to Notion Academy",
+  "sourceUrl": "https://www.notion.com/help/notion-academy/lesson/using-linked-databases",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_using-linked-databases-001",
+      "question": "What is the main purpose of Notion Academy as described in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To sell Notion premium subscriptions",
+          "correct": false,
+          "explanation": "The article does not mention sales of subscriptions; it focuses on learning."
+        },
+        {
+          "key": "B",
+          "text": "To provide structured learning paths, lessons, and badges for Notion users",
+          "correct": true,
+          "explanation": "Correct – Notion Academy offers curated learning paths, lessons, and badge‑earning opportunities."
+        },
+        {
+          "key": "C",
+          "text": "To host a marketplace for third‑party apps",
+          "correct": false,
+          "explanation": "The marketplace mentioned is for templates, not third‑party apps."
+        },
+        {
+          "key": "D",
+          "text": "To replace the Notion Help Center entirely",
+          "correct": false,
+          "explanation": "The Help Center still exists for quick answers; Notion Academy complements it."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-linked-databases-002",
+      "question": "How can a user earn badges through Notion Academy?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "By completing any lesson, regardless of difficulty",
+          "correct": false,
+          "explanation": "Badges are tied to specific paths or lessons, not just any random lesson."
+        },
+        {
+          "key": "B",
+          "text": "By completing curated learning paths at their own pace",
+          "correct": true,
+          "explanation": "Correct – the article states that completing a path or all its lessons earns a badge."
+        },
+        {
+          "key": "C",
+          "text": "By purchasing a badge from the Notion Marketplace",
+          "correct": false,
+          "explanation": "Badges are earned through learning, not bought."
+        },
+        {
+          "key": "D",
+          "text": "By attending a live webinar only",
+          "correct": false,
+          "explanation": "Webinars are supplemental; badges come from completing paths."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-linked-databases-003",
+      "question": "Which of the following statements best describes the benefit of becoming a Notion Certified Admin?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It grants unlimited storage for personal Notion pages",
+          "correct": false,
+          "explanation": "Certification is about admin skills, not storage limits."
+        },
+        {
+          "key": "B",
+          "text": "It validates your ability to run Notion at scale, implement security best practices, and be recognized across any company plan type",
+          "correct": true,
+          "explanation": "Correct – the article highlights scaling, security, and recognition as benefits."
+        },
+        {
+          "key": "C",
+          "text": "It provides a discount on all Notion paid plans",
+          "correct": false,
+          "explanation": "No discount is mentioned in the article."
+        },
+        {
+          "key": "D",
+          "text": "It allows you to create custom Notion themes",
+          "correct": false,
+          "explanation": "Theme creation is not part of the certification description."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-linked-databases-004",
+      "question": "Which path is explicitly labeled for beginners?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "The Advanced Path is for more experienced users."
+        },
+        {
+          "key": "B",
+          "text": "Essentials Path",
+          "correct": true,
+          "explanation": "The Essentials Path is described as for users new to Notion."
+        },
+        {
+          "key": "C",
+          "text": "Workflows Path",
+          "correct": false,
+          "explanation": "Workflows Path is labeled intermediate."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents Path",
+          "correct": false,
+          "explanation": "Custom Agents is a lesson, not a path."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-linked-databases-005",
+      "question": "What is the primary focus of the lesson titled \"An issue tracker for any team\"?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Teaching how to create a personal journal in Notion",
+          "correct": false,
+          "explanation": "The lesson is about an intake system, not a personal journal."
+        },
+        {
+          "key": "B",
+          "text": "Building an intake system using forms, charts, and automations",
+          "correct": true,
+          "explanation": "Correct – the description mentions building an intake system with those tools."
+        },
+        {
+          "key": "C",
+          "text": "Designing custom template marketplaces",
+          "correct": false,
+          "explanation": "Marketplace design is a separate lesson."
+        },
+        {
+          "key": "D",
+          "text": "Learning how to use AI for text generation",
+          "correct": false,
+          "explanation": "AI is referenced for the Workflows Path, not this specific lesson."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-linked-databases-006",
+      "question": "Which lesson is categorized as \"Advanced\" and focuses on workspace design?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workspace design",
+          "correct": true,
+          "explanation": "The article lists \"Workspace design\" as an Advanced lesson."
+        },
+        {
+          "key": "B",
+          "text": "Building basics",
+          "correct": false,
+          "explanation": "Building basics is a Beginner lesson."
+        },
+        {
+          "key": "C",
+          "text": "Custom Agents",
+          "correct": false,
+          "explanation": "Custom Agents is a Beginner lesson."
+        },
+        {
+          "key": "D",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "Templates & marketplace is Intermediate."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-linked-databases-007",
+      "question": "How long is the \"Templates & marketplace\" lesson?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "20 minutes",
+          "correct": false,
+          "explanation": "20 minutes is the length of \"Connecting knowledge in Notion\"."
+        },
+        {
+          "key": "B",
+          "text": "30 minutes",
+          "correct": false,
+          "explanation": "30 minutes is the length of \"Custom Agents\"."
+        },
+        {
+          "key": "C",
+          "text": "40 minutes",
+          "correct": true,
+          "explanation": "Correct – the article lists the duration as 40 min."
+        },
+        {
+          "key": "D",
+          "text": "15 minutes",
+          "correct": false,
+          "explanation": "15 minutes matches several beginner lessons, not this one."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-linked-databases-008",
+      "question": "What primary benefit do \"Custom Agents\" provide to a Notion workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They allow users to create custom visual themes",
+          "correct": false,
+          "explanation": "Theme creation is not mentioned as a function of Custom Agents."
+        },
+        {
+          "key": "B",
+          "text": "They automate repeat work and reduce everyday busywork by running on schedules or triggers",
+          "correct": true,
+          "explanation": "Correct – the description highlights automation and busy‑work reduction."
+        },
+        {
+          "key": "C",
+          "text": "They provide real‑time chat capabilities within Notion pages",
+          "correct": false,
+          "explanation": "Chat functionality is not described for Custom Agents."
+        },
+        {
+          "key": "D",
+          "text": "They generate AI‑powered content for databases",
+          "correct": false,
+          "explanation": "AI‑generated content is not the core purpose of Custom Agents as described."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-linked-databases-009",
+      "question": "Which path explicitly mentions the use of AI to help create connected systems?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path",
+          "correct": false,
+          "explanation": "Essentials Path focuses on basic skills, not AI."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": true,
+          "explanation": "The Workflows Path description includes \"with the help of AI\"."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "Advanced Path is about automation and architecture, but AI isn’t highlighted."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents Path",
+          "correct": false,
+          "explanation": "Custom Agents is a lesson, not a path, and AI isn’t mentioned."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_using-linked-databases-010",
+      "question": "How many lessons are included in the Essentials Path?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 lessons",
+          "correct": false,
+          "explanation": "The article lists \"3 Lessons\" for the Essentials Path."
+        },
+        {
+          "key": "B",
+          "text": "3 lessons",
+          "correct": true,
+          "explanation": "Correct – the Essentials Path description states it contains 3 lessons."
+        },
+        {
+          "key": "C",
+          "text": "4 lessons",
+          "correct": false,
+          "explanation": "Four lessons correspond to the Workflows Path."
+        },
+        {
+          "key": "D",
+          "text": "5 lessons",
+          "correct": false,
+          "explanation": "Five lessons belong to the Advanced Path."
+        }
+      ]
+    }
+  ]
+}

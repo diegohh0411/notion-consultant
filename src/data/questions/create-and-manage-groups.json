@@ -1,0 +1,317 @@
+{
+  "source": "create-and-manage-groups",
+  "sourceTitle": "Create & manage groups",
+  "sourceUrl": "https://www.notion.so/help/create-and-manage-groups",
+  "questions": [
+    {
+      "id": "create-and-manage-groups-001",
+      "question": "Who is authorized to create and edit groups in a workspace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "All workspace members",
+          "correct": false,
+          "explanation": "While members can be added to groups, only workspace owners and membership admins have the permission to create and edit them."
+        },
+        {
+          "key": "B",
+          "text": "Workspace owners and membership admins",
+          "correct": true,
+          "explanation": "According to the article, workspace owners and membership admins are the only roles allowed to create and edit groups."
+        },
+        {
+          "key": "C",
+          "text": "Anyone with a link to the workspace",
+          "correct": false,
+          "explanation": "Guests and people with links generally do not have administrative privileges to create groups."
+        },
+        {
+          "key": "D",
+          "text": "Only the workspace owner",
+          "correct": false,
+          "explanation": "Membership admins also have the authority to create and edit groups."
+        }
+      ]
+    },
+    {
+      "id": "create-and-manage-groups-002",
+      "question": "Which of the following statements is true regarding group members?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Groups can contain an unlimited number of guests",
+          "correct": false,
+          "explanation": "Groups cannot contain workspace guests; only workspace members can be assigned to groups."
+        },
+        {
+          "key": "B",
+          "text": "Workspace members can only be assigned to one group",
+          "correct": false,
+          "explanation": "The article does not state a limit on the number of groups a single member can be part of."
+        },
+        {
+          "key": "C",
+          "text": "Groups can be created from the People section without needing an admin",
+          "correct": false,
+          "explanation": "You must have workspace owner or membership admin privileges to create groups."
+        },
+        {
+          "key": "D",
+          "text": "You can search for a specific person to see which group they belong to",
+          "correct": true,
+          "explanation": "The article notes that you can search someone's name or email to see which group they are in."
+        }
+      ]
+    },
+    {
+      "id": "create-and-manage-groups-003",
+      "question": "When sharing a page with a group, which permission level allows the group to share the page with others?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Can comment",
+          "correct": false,
+          "explanation": "Can comment allows read and comment access, but not editing or sharing."
+        },
+        {
+          "key": "B",
+          "text": "Can view",
+          "correct": false,
+          "explanation": "Can view allows only reading the content; the user cannot share it."
+        },
+        {
+          "key": "C",
+          "text": "Full access",
+          "correct": true,
+          "explanation": "Full access grants the group the ability to edit the page and share it."
+        },
+        {
+          "key": "D",
+          "text": "Can edit",
+          "correct": false,
+          "explanation": "Can edit allows editing the content but explicitly prevents sharing (available on paid plans)."
+        }
+      ]
+    },
+    {
+      "id": "create-and-manage-groups-004",
+      "question": "How do you share a teamspace with groups rather than individual members?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Settings → People → Groups and select the teamspace",
+          "correct": false,
+          "explanation": "Groups are managed within the People or Members section, but teamspace settings are accessed via a different menu."
+        },
+        {
+          "key": "B",
+          "text": "Hover over the teamspace name and click ••• → Teamspace settings",
+          "correct": true,
+          "explanation": "To share a teamspace with groups, you must hover over the teamspace in the sidebar and access Teamspace settings."
+        },
+        {
+          "key": "C",
+          "text": "Click the Share button on the first page inside the teamspace",
+          "correct": false,
+          "explanation": "Sharing a page inside a teamspace shares it with individuals, not the entire teamspace structure."
+        },
+        {
+          "key": "D",
+          "text": "Invite the groups directly from the workspace settings menu",
+          "correct": false,
+          "explanation": "Workspace settings are for general workspace configuration, not specific teamspace sharing."
+        }
+      ]
+    },
+    {
+      "id": "create-and-manage-groups-005",
+      "question": "What is a specific limitation of the 'Can edit' permission level?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They cannot edit the page content at all",
+          "correct": false,
+          "explanation": "The 'Can edit' permission specifically allows users to edit the page's content."
+        },
+        {
+          "key": "B",
+          "text": "They can edit the page content, but they cannot share the page",
+          "correct": true,
+          "explanation": "The article states that 'Can edit' allows editing content but prevents sharing the page (available on paid plans)."
+        },
+        {
+          "key": "C",
+          "text": "They cannot mention the group in other pages",
+          "correct": false,
+          "explanation": "Mentioning capabilities are separate from page-level sharing permissions."
+        },
+        {
+          "key": "D",
+          "text": "They cannot see the page at all",
+          "correct": false,
+          "explanation": "If they have access to edit, they can see the page."
+        }
+      ]
+    },
+    {
+      "id": "create-and-manage-groups-006",
+      "question": "How can you set an icon for a newly created group?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the settings icon next to the group name",
+          "correct": false,
+          "explanation": "The settings icon is usually for renaming or deleting, not setting an icon."
+        },
+        {
+          "key": "B",
+          "text": "Click the emoji icon that appears on hover",
+          "correct": true,
+          "explanation": "The article instructs to click the emoji icon that appears on hover to set an icon."
+        },
+        {
+          "key": "C",
+          "text": "The icon is automatically assigned based on the group name",
+          "correct": false,
+          "explanation": "The icon must be manually selected by the user."
+        },
+        {
+          "key": "D",
+          "text": "You cannot set an icon for groups",
+          "correct": false,
+          "explanation": "The article explicitly mentions setting an icon via the emoji icon."
+        }
+      ]
+    },
+    {
+      "id": "create-and-manage-groups-007",
+      "question": "When using groups to separate teams without multiple workspaces, what is the first step in the recommended workaround?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a top-level page for the engineering team",
+          "correct": false,
+          "explanation": "Creating the page comes after disabling workspace access."
+        },
+        {
+          "key": "B",
+          "text": "Disable Workspace access",
+          "correct": true,
+          "explanation": "The workaround begins by disabling Workspace access so pages don't show for unauthorized groups."
+        },
+        {
+          "key": "C",
+          "text": "Grant Full access to the engineering group",
+          "correct": false,
+          "explanation": "Granting access is done after the top-level page is created."
+        },
+        {
+          "key": "D",
+          "text": "Rename the existing workspace",
+          "correct": false,
+          "explanation": "Renaming the workspace is not part of the workaround."
+        }
+      ]
+    },
+    {
+      "id": "create-and-manage-groups-008",
+      "question": "How do you mention a user group in a database person property?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type # followed by the group name",
+          "correct": false,
+          "explanation": "The hashtag is used for hashtags, not group mentions."
+        },
+        {
+          "key": "B",
+          "text": "Type @ followed by the group name",
+          "correct": true,
+          "explanation": "Groups are mentioned by typing @ followed by the group name."
+        },
+        {
+          "key": "C",
+          "text": "Type $ followed by the group name",
+          "correct": false,
+          "explanation": "The dollar sign is not used for group mentions."
+        },
+        {
+          "key": "D",
+          "text": "Type > followed by the group name",
+          "correct": false,
+          "explanation": "The greater than symbol is not used for group mentions."
+        }
+      ]
+    },
+    {
+      "id": "create-and-manage-groups-009",
+      "question": "If you give a group 'Full access' to a top-level page, what is the effect on nested sub-pages?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They inherit the 'Can view' permission automatically",
+          "correct": false,
+          "explanation": "Permissions cascade, but they inherit the parent's permission, not a restrictive one."
+        },
+        {
+          "key": "B",
+          "text": "They are not affected by the parent page's permissions",
+          "correct": false,
+          "explanation": "Permissions on any page also apply to all of their sub-pages."
+        },
+        {
+          "key": "C",
+          "text": "You must manually set permissions for every sub-page",
+          "correct": false,
+          "explanation": "The article states that permissions on the parent page apply to sub-pages."
+        },
+        {
+          "key": "D",
+          "text": "They inherit the 'Full access' permission",
+          "correct": true,
+          "explanation": "The article notes that permissions on any page also apply to all of their sub-pages."
+        }
+      ]
+    },
+    {
+      "id": "create-and-manage-groups-010",
+      "question": "In the workaround for using groups instead of multiple workspaces, what specific action allows you to prevent unauthorized groups from seeing the workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete the guests from the workspace",
+          "correct": false,
+          "explanation": "Deleting guests does not prevent groups from seeing workspace content."
+        },
+        {
+          "key": "B",
+          "text": "Disable Workspace access",
+          "correct": true,
+          "explanation": "Disabling Workspace access ensures pages won't show for people and groups who aren't specifically granted access."
+        },
+        {
+          "key": "C",
+          "text": "Rename the workspace to 'Private'",
+          "correct": false,
+          "explanation": "Renaming the workspace does not restrict access to specific groups."
+        },
+        {
+          "key": "D",
+          "text": "Remove all members from the workspace",
+          "correct": false,
+          "explanation": "This would break the workspace functionality."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "source": "enterprise-search-security-and-privacy-practices",
+  "sourceTitle": "Enterprise Search security & privacy practices",
+  "sourceUrl": "https://www.notion.so/help/enterprise-search-security-and-privacy-practices",
+  "questions": [
+    {
+      "id": "enterprise-search-security-and-privacy-practices-001",
+      "question": "What is the primary function of the vector database (Turbopuffer) in the Enterprise Search architecture?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store raw files and documents directly from connected applications",
+          "correct": false,
+          "explanation": "The vector database stores embeddings (numerical representations), not the raw files. Raw files remain in their respective source applications."
+        },
+        {
+          "key": "B",
+          "text": "To provide a secure, privacy-preserving index for fast semantic search",
+          "correct": true,
+          "explanation": "Correct. Turbopuffer stores embeddings optimized for fast lookup and semantic search while maintaining security and data isolation."
+        },
+        {
+          "key": "C",
+          "text": "To cache user queries to speed up subsequent requests",
+          "correct": false,
+          "explanation": "The article explicitly states that 'No caching of sensitive content' is performed to protect privacy."
+        },
+        {
+          "key": "D",
+          "text": "To act as a backup for data stored in the connected applications",
+          "correct": false,
+          "explanation": "The vector database is used for search performance, not as a backup for source data."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-002",
+      "question": "How long does it take for deleted content to become unsearchable after it is removed from the source system?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately",
+          "correct": false,
+          "explanation": "While the content is removed from the source, the system takes time to process this change. It does not happen instantly."
+        },
+        {
+          "key": "B",
+          "text": "Within 30 minutes to one hour",
+          "correct": true,
+          "explanation": "Correct. Changes in source system permissions or deleted content are reflected within 30 minutes to one hour."
+        },
+        {
+          "key": "C",
+          "text": "Within 24 hours",
+          "correct": false,
+          "explanation": "24 hours is the timeframe for deletion timelines when disconnecting a connector, not for source deletion propagation."
+        },
+        {
+          "key": "D",
+          "text": "Within 60 days",
+          "correct": false,
+          "explanation": "60 days is the timeframe for the actual deletion of embeddings after they become unsearchable."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-003",
+      "question": "What encryption standard is used for data in transit when using Notion AI Connectors?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "TLS 1.0",
+          "correct": false,
+          "explanation": "TLS 1.0 is outdated and insecure. The article specifies 'TLS 1.2 or greater'."
+        },
+        {
+          "key": "B",
+          "text": "AES-256",
+          "correct": false,
+          "explanation": "AES-256 is used for encryption at rest. Encryption in transit specifically uses TLS 1.2 or greater."
+        },
+        {
+          "key": "C",
+          "text": "TLS 1.2 or greater",
+          "correct": true,
+          "explanation": "Correct. All connections use TLS 1.2 or greater encryption to ensure data security during transmission."
+        },
+        {
+          "key": "D",
+          "text": "No encryption",
+          "correct": false,
+          "explanation": "Data in transit is always encrypted. The article confirms 'All connections use TLS 1.2 or greater encryption in transit'."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-004",
+      "question": "What is the retention policy for data processed by LLM providers on non-Enterprise plans?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "0 days (data is deleted immediately)",
+          "correct": false,
+          "explanation": "Zero retention is specific to Enterprise plans. Non-Enterprise plans allow for a maximum retention period."
+        },
+        {
+          "key": "B",
+          "text": "30 days",
+          "correct": true,
+          "explanation": "Correct. LLM providers retain data for 0 days on Enterprise plans, but for a maximum of 30 days on all other plans."
+        },
+        {
+          "key": "C",
+          "text": "60 days",
+          "correct": false,
+          "explanation": "60 days applies to the deletion of embeddings after a workspace is deleted, not the retention by LLM providers."
+        },
+        {
+          "key": "D",
+          "text": "90 days",
+          "correct": false,
+          "explanation": "The article specifies 30 days as the maximum retention for non-Enterprise plans."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-005",
+      "question": "Which authentication mechanism is used to connect Notion AI Connectors to applications like Slack, Microsoft, and Atlassian?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "OAuth 2.0",
+          "correct": true,
+          "explanation": "Correct. OAuth 2.0 is the standard authentication method used for these connections."
+        },
+        {
+          "key": "B",
+          "text": "SAML 2.0",
+          "correct": false,
+          "explanation": "While SAML is used for some enterprise integrations, the article specifically lists OAuth 2.0 for AI Connectors."
+        },
+        {
+          "key": "C",
+          "text": "Basic Authentication",
+          "correct": false,
+          "explanation": "Basic Authentication is not mentioned in the security overview; OAuth 2.0 is the specified standard."
+        },
+        {
+          "key": "D",
+          "text": "API Key Token",
+          "correct": false,
+          "explanation": "API Key Token is not mentioned as the primary method; OAuth 2.0 is the standard for these connectors."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-006",
+      "question": "How are embeddings treated regarding data privacy and reversibility?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Embeddings are stored in plain text for easy processing",
+          "correct": false,
+          "explanation": "Embeddings are stored encrypted at rest in the vector database and are processed using zero-retention APIs."
+        },
+        {
+          "key": "B",
+          "text": "Embeddings can be reverse-engineered to recover original content",
+          "correct": false,
+          "explanation": "This is a common misconception. The article explicitly states that embeddings 'cannot be reverse-engineered to recover original content'."
+        },
+        {
+          "key": "C",
+          "text": "Embeddings preserve meaning while protecting privacy",
+          "correct": true,
+          "explanation": "Correct. Embeddings are numerical representations that preserve meaning but protect privacy by not storing the raw content."
+        },
+        {
+          "key": "D",
+          "text": "Embeddings are deleted immediately after a search query",
+          "correct": false,
+          "explanation": "Embeddings are stored in the vector database for future search queries; they are not deleted immediately after a single query."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-007",
+      "question": "What is the breach notification timeline defined by Notion's security incident response team?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "24 hours",
+          "correct": false,
+          "explanation": "24 hours is the timeframe for automatic deletion when disconnecting a connector. The breach notification is longer."
+        },
+        {
+          "key": "B",
+          "text": "48 hours",
+          "correct": false,
+          "explanation": "48 hours is not the defined timeline. Notion commits to a 72-hour notification window."
+        },
+        {
+          "key": "C",
+          "text": "72 hours",
+          "correct": true,
+          "explanation": "Correct. Notion defines a breach notification procedure of 72 hours, or faster if required by local laws."
+        },
+        {
+          "key": "D",
+          "text": "7 days",
+          "correct": false,
+          "explanation": "The standard commitment is 72 hours. While local requirements may allow for faster notification, 7 days is not the general rule."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-008",
+      "question": "What happens during the initial 36-hour sync period to ensure security?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data is temporarily stored in unsecured locations for faster processing",
+          "correct": false,
+          "explanation": "This is a security risk that is explicitly prohibited. The article states 'No temporary copies stored in unsecured locations'."
+        },
+        {
+          "key": "B",
+          "text": "All data transfers use encrypted channels and incremental processing",
+          "correct": true,
+          "explanation": "Correct. During the sync, encrypted channels (TLS 1.2+) and incremental processing are used to maintain security and stability."
+        },
+        {
+          "key": "C",
+          "text": "The sync pauses automatically every hour to save resources",
+          "correct": false,
+          "explanation": "While exponential backoff is used for failed syncs, the sync does not pause automatically every hour for resource saving."
+        },
+        {
+          "key": "D",
+          "text": "Data is mirrored to a secondary Notion instance immediately",
+          "correct": false,
+          "explanation": "The article does not mention mirroring to a secondary instance; it focuses on secure transfer and processing."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-009",
+      "question": "Which third-party provider is responsible for LLM queries in the Enterprise Search architecture?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "OpenAI",
+          "correct": false,
+          "explanation": "OpenAI is used for embeddings generation, not for LLM queries."
+        },
+        {
+          "key": "B",
+          "text": "Anthropic",
+          "correct": true,
+          "explanation": "Correct. Anthropic is listed as the provider for LLM queries."
+        },
+        {
+          "key": "C",
+          "text": "Google Cloud",
+          "correct": false,
+          "explanation": "Google Cloud is not mentioned as a primary LLM provider for this architecture."
+        },
+        {
+          "key": "D",
+          "text": "Microsoft Azure",
+          "correct": false,
+          "explanation": "Microsoft Azure is the source system for Teams, but not the LLM provider listed for queries."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-010",
+      "question": "What is the retention policy for embeddings when a workspace is deleted?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deleted immediately",
+          "correct": false,
+          "explanation": "The content becomes unsearchable immediately, but the underlying embeddings are retained for 60 days before deletion."
+        },
+        {
+          "key": "B",
+          "text": "Deleted within 24 hours",
+          "correct": false,
+          "explanation": "24 hours is the timeline for disconnecting a connector, not for workspace deletion."
+        },
+        {
+          "key": "C",
+          "text": "Deleted within 60 days",
+          "correct": true,
+          "explanation": "Correct. Once a workspace is deleted, all associated embeddings are deleted within 60 days."
+        },
+        {
+          "key": "D",
+          "text": "Deleted within 30 days",
+          "correct": false,
+          "explanation": "60 days is the specified timeline for workspace deletion, which is longer than the 30-day limit for LLM data retention on non-Enterprise plans."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-011",
+      "question": "Who is required to have admin privileges in the source system (e.g., Slack or Google Workspace) for connector setup?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Guest users",
+          "correct": false,
+          "explanation": "Guest users are explicitly excluded from AI Connector access."
+        },
+        {
+          "key": "B",
+          "text": "Workspace Owners",
+          "correct": false,
+          "explanation": "Workspace owners are required for the initial Notion setup, but the article specifies that 'Admin privileges needed in source systems' (e.g., Slack admin)."
+        },
+        {
+          "key": "C",
+          "text": "Regular users",
+          "correct": false,
+          "explanation": "Regular users are not granted the necessary privileges for connector configuration."
+        },
+        {
+          "key": "D",
+          "text": "Admins in source systems",
+          "correct": true,
+          "explanation": "Correct. You need specific admin privileges within the connected application (like Slack) to set up the connector."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-012",
+      "question": "What security measure is taken if authentication errors are detected during the data synchronization process?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The system will retry immediately without pausing",
+          "correct": false,
+          "explanation": "Immediate retry is not the specified behavior. The system implements specific safety measures for auth errors."
+        },
+        {
+          "key": "B",
+          "text": "The sync will automatically pause",
+          "correct": true,
+          "explanation": "Correct. If authentication errors are detected, the sync process automatically pauses to prevent potential security issues."
+        },
+        {
+          "key": "C",
+          "text": "The data will be deleted to prevent unauthorized access",
+          "correct": false,
+          "explanation": "Deletion is not the first response to an auth error. Pausing the process is the immediate safety measure."
+        },
+        {
+          "key": "D",
+          "text": "The user will receive a manual notification to fix the issue",
+          "correct": false,
+          "explanation": "The system handles the error automatically by pausing; the user does not have to manually intervene for this specific error."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-013",
+      "question": "Which of the following certifications is NOT explicitly mentioned as covering AI Connector security?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "SOC 2 Type 2",
+          "correct": false,
+          "explanation": "SOC 2 Type 2 is explicitly listed as covering AI Connectors."
+        },
+        {
+          "key": "B",
+          "text": "ISO 27001:2022",
+          "correct": false,
+          "explanation": "ISO 27001:2022 is explicitly listed as covering AI Connectors."
+        },
+        {
+          "key": "C",
+          "text": "HIPAA",
+          "correct": false,
+          "explanation": "HIPAA compliance is enabled for AI Connectors through zero-retention APIs."
+        },
+        {
+          "key": "D",
+          "text": "PCI DSS",
+          "correct": true,
+          "explanation": "PCI DSS is not mentioned in the list of Notion's certifications or AI Connector coverage."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-014",
+      "question": "How are permissions handled during a query in Enterprise Search?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Permissions are checked only during indexing",
+          "correct": false,
+          "explanation": "This is incorrect. The article states that 'All queries respect user permissions for each connected app', checking them at query time."
+        },
+        {
+          "key": "B",
+          "text": "Permissions are checked at query time, not just during indexing",
+          "correct": true,
+          "explanation": "Correct. To ensure security, permissions are validated dynamically at the time of the search query."
+        },
+        {
+          "key": "C",
+          "text": "Permissions are ignored to allow for broader company-wide search",
+          "correct": false,
+          "explanation": "Permissions are strictly enforced. Results are filtered based on the user's access rights."
+        },
+        {
+          "key": "D",
+          "text": "Permissions are handled by the connected application automatically",
+          "correct": false,
+          "explanation": "While the connected app handles its own permissions, Enterprise Search respects and filters based on these permissions."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-security-and-privacy-practices-015",
+      "question": "Which of the following is a security principle regarding data encryption at rest?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encryption keys are managed by the customer",
+          "correct": false,
+          "explanation": "This is incorrect. The article states that 'Encryption keys managed by Notion's key management infrastructure'."
+        },
+        {
+          "key": "B",
+          "text": "Embeddings are stored in plain text",
+          "correct": false,
+          "explanation": "Embeddings are stored encrypted at rest in the vector database."
+        },
+        {
+          "key": "C",
+          "text": "Embeddings in vector databases are encrypted at rest",
+          "correct": true,
+          "explanation": "Correct. The article explicitly states that embeddings are encrypted at rest in vector databases."
+        },
+        {
+          "key": "D",
+          "text": "No encryption is used for data at rest",
+          "correct": false,
+          "explanation": "Data at rest is encrypted using encryption keys managed by Notion."
+        }
+      ]
+    }
+  ]
+}

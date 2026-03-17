@@ -1,0 +1,317 @@
+{
+  "source": "create-and-edit-images-with-notion-ai",
+  "sourceTitle": "Create & edit images with Notion AI",
+  "sourceUrl": "https://www.notion.so/help/create-and-edit-images-with-notion-ai",
+  "questions": [
+    {
+      "id": "create-and-edit-images-with-notion-ai-001",
+      "question": "Which Notion plan is required to access the image generation feature?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Free plan",
+          "correct": false,
+          "explanation": "Image generation is not available on the Free plan. It is restricted to Business and Enterprise plans."
+        },
+        {
+          "key": "B",
+          "text": "Personal Pro plan",
+          "correct": false,
+          "explanation": "The Personal Pro plan does not support image generation features."
+        },
+        {
+          "key": "C",
+          "text": "Business and Enterprise plans",
+          "correct": true,
+          "explanation": "Image generation is specifically listed as being available for Business and Enterprise plans only."
+        },
+        {
+          "key": "D",
+          "text": "Team plan",
+          "correct": false,
+          "explanation": "While Business is mentioned, the Team plan is not listed as a requirement in the article."
+        }
+      ]
+    },
+    {
+      "id": "create-and-edit-images-with-notion-ai-002",
+      "question": "Can custom agents be used to generate images in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, always",
+          "correct": false,
+          "explanation": "The article explicitly states that custom agents cannot generate images."
+        },
+        {
+          "key": "B",
+          "text": "No, they cannot",
+          "correct": true,
+          "explanation": "The article lists 'Custom agents can’t generate images' as a limitation."
+        },
+        {
+          "key": "C",
+          "text": "Only on Business plans",
+          "correct": false,
+          "explanation": "The restriction applies to all custom agents regardless of the plan."
+        },
+        {
+          "key": "D",
+          "text": "Only in image blocks",
+          "correct": false,
+          "explanation": "The restriction applies to image generation in general, not specific to block types."
+        }
+      ]
+    },
+    {
+      "id": "create-and-edit-images-with-notion-ai-003",
+      "question": "When creating an image in an image block, what is the first step you must take?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the Notion AI option immediately",
+          "correct": false,
+          "explanation": "You must first create the image block by typing '/image' before you can select the AI option."
+        },
+        {
+          "key": "B",
+          "text": "Type /image and press Enter",
+          "correct": true,
+          "explanation": "The first step in the process is to type '/image' on a page and press Enter."
+        },
+        {
+          "key": "C",
+          "text": "Ask Notion AI to generate a random image",
+          "correct": false,
+          "explanation": "You must type the specific command '/image' first to open the block."
+        },
+        {
+          "key": "D",
+          "text": "Hover over the block to select it",
+          "correct": false,
+          "explanation": "Hovering is used for editing existing images, not creating a new one."
+        }
+      ]
+    },
+    {
+      "id": "create-and-edit-images-with-notion-ai-004",
+      "question": "How does the Notion AI chat feature utilize the content of the current page when generating an image?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It ignores the page content completely",
+          "correct": false,
+          "explanation": "The article states that the chat 'uses key info from the page you're viewing'."
+        },
+        {
+          "key": "B",
+          "text": "It uses key info from the page you're viewing",
+          "correct": true,
+          "explanation": "This allows the AI to create flowcharts or infographics based on the specific text described on the page."
+        },
+        {
+          "key": "C",
+          "text": "It downloads the page as a PDF first",
+          "correct": false,
+          "explanation": "There is no mention of downloading the page as a PDF; it uses 'key info' directly."
+        },
+        {
+          "key": "D",
+          "text": "It generates a random image unrelated to the text",
+          "correct": false,
+          "explanation": "The primary benefit of using chat for images is that it reflects the content on your page."
+        }
+      ]
+    },
+    {
+      "id": "create-and-edit-images-with-notion-ai-005",
+      "question": "What is the prerequisite action required before you can edit an existing image with AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type /edit in the chat bar",
+          "correct": false,
+          "explanation": "Editing is done by hovering over the image directly, not by typing a command in the chat."
+        },
+        {
+          "key": "B",
+          "text": "Select the 'Edit with AI' option",
+          "correct": false,
+          "explanation": "Selecting the option comes after hovering; hovering is the prerequisite step."
+        },
+        {
+          "key": "C",
+          "text": "Hover over the image",
+          "correct": true,
+          "explanation": "The article lists 'Hover over an image in Notion' as the very first step in the 'Edit an existing image with AI' process."
+        },
+        {
+          "key": "D",
+          "text": "Change the image block type to text",
+          "correct": false,
+          "explanation": "You don't need to change the block type; you just need to hover over the existing image."
+        }
+      ]
+    },
+    {
+      "id": "create-and-edit-images-with-notion-ai-006",
+      "question": "Is it possible to generate a new image within an image block on a mobile device?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, on all devices",
+          "correct": false,
+          "explanation": "Mobile users are restricted to generating images only through Notion AI chat."
+        },
+        {
+          "key": "B",
+          "text": "No, mobile users can only generate images in chat",
+          "correct": true,
+          "explanation": "The article notes a 'Note' that on mobile, you can generate images only through Notion AI chat (not in image blocks, or for cover images)."
+        },
+        {
+          "key": "C",
+          "text": "Yes, but only for cover images",
+          "correct": false,
+          "explanation": "The restriction applies to image blocks and cover images; mobile users can only use chat."
+        },
+        {
+          "key": "D",
+          "text": "Only for Enterprise plan users on mobile",
+          "correct": false,
+          "explanation": "The restriction is based on device type (mobile), not specifically the plan, though the plan is required to use the feature."
+        }
+      ]
+    },
+    {
+      "id": "create-and-edit-images-with-notion-ai-007",
+      "question": "Which of the following prompts is best suited for converting a screenshot on a page into a polished diagram?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a flowchart for the process described on this page.",
+          "correct": false,
+          "explanation": "This prompt is better suited for creating a flowchart based on text descriptions rather than converting an existing screenshot."
+        },
+        {
+          "key": "B",
+          "text": "Turn this screenshot into a polished diagram.",
+          "correct": true,
+          "explanation": "This prompt is explicitly listed in the article as an example of a chat command that works well for this specific task."
+        },
+        {
+          "key": "C",
+          "text": "Make this look like a diagram.",
+          "correct": false,
+          "explanation": "While similar, the article specifically highlights the prompt 'Turn this screenshot into a polished diagram' as a recommended example."
+        },
+        {
+          "key": "D",
+          "text": "Change the background to a snowy afternoon.",
+          "correct": false,
+          "explanation": "This prompt describes an edit to the background style rather than converting a screenshot to a diagram."
+        }
+      ]
+    },
+    {
+      "id": "create-and-edit-images-with-notion-ai-008",
+      "question": "If you receive an error message while trying to generate an image, which of the following could be the cause?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Your admin has disabled the feature",
+          "correct": false,
+          "explanation": "While this could prevent you from seeing the option, an error message usually implies a functional issue rather than a visibility one."
+        },
+        {
+          "key": "B",
+          "text": "You have hit your daily or monthly usage limit",
+          "correct": true,
+          "explanation": "The article explicitly states: 'You may have hit your daily or monthly usage limit. Try again later.'"
+        },
+        {
+          "key": "C",
+          "text": "You are not using a Business or Enterprise plan",
+          "correct": false,
+          "explanation": "If you aren't on the right plan, you typically wouldn't see the option to generate at all, rather than getting an error."
+        },
+        {
+          "key": "D",
+          "text": "The image block is too small",
+          "correct": false,
+          "explanation": "Image size is not mentioned as a cause for errors in the troubleshooting section."
+        }
+      ]
+    },
+    {
+      "id": "create-and-edit-images-with-notion-ai-009",
+      "question": "Who controls whether image generation is switched on for a workspace?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "The end user",
+          "correct": false,
+          "explanation": "The article states that 'Workspace owners and admins control whether image generation is switched on'."
+        },
+        {
+          "key": "B",
+          "text": "Notion Support",
+          "correct": false,
+          "explanation": "Notion Support does not control individual workspace settings; the owners and admins do."
+        },
+        {
+          "key": "C",
+          "text": "Workspace owners and admins",
+          "correct": true,
+          "explanation": "This is the correct answer as stated directly in the first paragraph of the article."
+        },
+        {
+          "key": "D",
+          "text": "Third-party developers",
+          "correct": false,
+          "explanation": "Third-party developers are not mentioned as having control over workspace-wide image generation settings."
+        }
+      ]
+    },
+    {
+      "id": "create-and-edit-images-with-notion-ai-010",
+      "question": "What is the recommended action to take immediately after generating an initial image?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Download the image to your computer",
+          "correct": false,
+          "explanation": "Downloading is an action you might take later, but the article recommends refining the prompt first to get the result right."
+        },
+        {
+          "key": "B",
+          "text": "Share the image with your team",
+          "correct": false,
+          "explanation": "Sharing is not the immediate next step; refining the image is."
+        },
+        {
+          "key": "C",
+          "text": "Refine the prompt until it looks right",
+          "correct": true,
+          "explanation": "The article instructs the user to 'Generate the image, then refine the prompt until it looks right'."
+        },
+        {
+          "key": "D",
+          "text": "Delete the image block",
+          "correct": false,
+          "explanation": "You should not delete the image immediately; you should refine it to ensure it meets your needs."
+        }
+      ]
+    }
+  ]
+}

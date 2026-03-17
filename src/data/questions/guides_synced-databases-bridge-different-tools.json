@@ -1,0 +1,317 @@
+{
+  "source": "guides_synced-databases-bridge-different-tools",
+  "sourceTitle": "Synced Databases bridge the gap between different tools",
+  "sourceUrl": "https://www.notion.so/help/guides/synced-databases-bridge-different-tools",
+  "questions": [
+    {
+      "id": "synced-databases-bridge-different-tools-001",
+      "question": "What is the primary benefit of using Synced Databases in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They allow you to edit Jira tickets directly within Notion.",
+          "correct": false,
+          "explanation": "Synced Databases are read‑only; edits must be made in the original tool."
+        },
+        {
+          "key": "B",
+          "text": "They bring information from external tools like Jira and GitHub into Notion as up‑to‑date databases.",
+          "correct": true,
+          "explanation": "Correct – Synced Databases import data from external tools and keep it current."
+        },
+        {
+          "key": "C",
+          "text": "They automatically duplicate all Notion pages into GitHub repositories.",
+          "correct": false,
+          "explanation": "Synced Databases only pull data from external tools; they do not push Notion pages to GitHub."
+        },
+        {
+          "key": "D",
+          "text": "They replace the need for any external project‑management tools.",
+          "correct": false,
+          "explanation": "Synced Databases complement, not replace, tools like Jira and GitHub."
+        }
+      ]
+    },
+    {
+      "id": "synced-databases-bridge-different-tools-002",
+      "question": "Which step is required before you can paste a Jira board link as a Synced Database in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a new Notion page and select \"Import\" from the menu.",
+          "correct": false,
+          "explanation": "Importing is not needed; you paste the link directly after authentication."
+        },
+        {
+          "key": "B",
+          "text": "Authenticate Jira under Settings → My connected apps.",
+          "correct": true,
+          "explanation": "You must first connect and authenticate Jira before syncing."
+        },
+        {
+          "key": "C",
+          "text": "Enable the \"Write‑back\" option in the Jira integration settings.",
+          "correct": false,
+          "explanation": "Synced Databases are read‑only; there is no write‑back option."
+        },
+        {
+          "key": "D",
+          "text": "Install a third‑party Notion‑Jira Chrome extension.",
+          "correct": false,
+          "explanation": "No external extension is required; native Notion integration handles it."
+        }
+      ]
+    },
+    {
+      "id": "synced-databases-bridge-different-tools-003",
+      "question": "What happens when you edit a field of a Jira issue directly in the Synced Database view?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The change is saved in Notion and overwrites the original Jira issue.",
+          "correct": false,
+          "explanation": "Synced Databases are read‑only; edits are not saved back to Jira."
+        },
+        {
+          "key": "B",
+          "text": "Notion shows an error and prevents the edit.",
+          "correct": false,
+          "explanation": "Notion allows the edit UI but does not push changes; the edit is discarded."
+        },
+        {
+          "key": "C",
+          "text": "The edit is ignored and the original Jira data remains unchanged.",
+          "correct": true,
+          "explanation": "Because the database is read‑only, any edit attempt is ignored."
+        },
+        {
+          "key": "D",
+          "text": "The edit creates a duplicate issue in Notion without affecting Jira.",
+          "correct": false,
+          "explanation": "No duplicate is created; the data stays synced with the source."
+        }
+      ]
+    },
+    {
+      "id": "synced-databases-bridge-different-tools-004",
+      "question": "How can you automatically create a relation between a GitHub Pull Request and a Notion page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add a Relation property, toggle on \"Automatically Relate\", and include the Notion page link in the PR description.",
+          "correct": true,
+          "explanation": "Auto‑relations work when the PR description or title contains a link to a Notion page."
+        },
+        {
+          "key": "B",
+          "text": "Manually drag the Pull Request into the Notion page using the Notion sidebar.",
+          "correct": false,
+          "explanation": "Relations must be set up via properties; dragging is not a feature."
+        },
+        {
+          "key": "C",
+          "text": "Enable \"Sync Back\" in the GitHub integration settings.",
+          "correct": false,
+          "explanation": "\"Sync Back\" does not exist; relations are created via the auto‑relate toggle."
+        },
+        {
+          "key": "D",
+          "text": "Create a new GitHub webhook that posts to Notion every time a PR is opened.",
+          "correct": false,
+          "explanation": "Webhooks are not required for the built‑in auto‑relation feature."
+        }
+      ]
+    },
+    {
+      "id": "synced-databases-bridge-different-tools-005",
+      "question": "Which Notion view type would be most appropriate to visualize the status of tasks from a Jira sprint?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Calendar view grouped by due date.",
+          "correct": false,
+          "explanation": "Calendar view shows dates, not status columns."
+        },
+        {
+          "key": "B",
+          "text": "Board view grouped by the \"Status\" property.",
+          "correct": true,
+          "explanation": "A board view grouped by Status mimics a Kanban board for sprint tracking."
+        },
+        {
+          "key": "C",
+          "text": "List view sorted alphabetically by task name.",
+          "correct": false,
+          "explanation": "Sorting alphabetically does not convey status progression."
+        },
+        {
+          "key": "D",
+          "text": "Gallery view showing task thumbnails.",
+          "correct": false,
+          "explanation": "Gallery view is visual but not suited for status organization."
+        }
+      ]
+    },
+    {
+      "id": "synced-databases-bridge-different-tools-006",
+      "question": "What is required to make a Rollup property work after establishing a Relation between two databases?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the Relation property, choose the target property to roll up, and define the calculation.",
+          "correct": true,
+          "explanation": "Rollups need the relation, the property to aggregate, and a calculation method."
+        },
+        {
+          "key": "B",
+          "text": "Enable \"Write‑back\" on the source database.",
+          "correct": false,
+          "explanation": "Write‑back is not a concept for rollups; they are read‑only aggregations."
+        },
+        {
+          "key": "C",
+          "text": "Create a duplicate of the target database inside the source database.",
+          "correct": false,
+          "explanation": "Duplication is unnecessary; rollups reference the related database directly."
+        },
+        {
+          "key": "D",
+          "text": "Add a formula property that mirrors the target property’s value.",
+          "correct": false,
+          "explanation": "Formulas cannot pull data across databases; rollups are the correct tool."
+        }
+      ]
+    },
+    {
+      "id": "synced-databases-bridge-different-tools-007",
+      "question": "If a team member does not have access to a GitHub repository, what can they still see in Notion after a GitHub Issues sync?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the issue titles, but not the descriptions or comments.",
+          "correct": false,
+          "explanation": "Synced Databases display all properties that are part of the preset list."
+        },
+        {
+          "key": "B",
+          "text": "All synced issue data, because Notion controls the view permissions separately from GitHub.",
+          "correct": true,
+          "explanation": "Anyone with access to the Notion page can view the synced data, regardless of GitHub permissions."
+        },
+        {
+          "key": "C",
+          "text": "Nothing; they must be granted GitHub access first.",
+          "correct": false,
+          "explanation": "Notion bypasses GitHub access restrictions for viewing synced data."
+        },
+        {
+          "key": "D",
+          "text": "Only a link back to the original GitHub issue.",
+          "correct": false,
+          "explanation": "Full issue details are synced, not just a link."
+        }
+      ]
+    },
+    {
+      "id": "synced-databases-bridge-different-tools-008",
+      "question": "Which of the following statements about Synced Databases is FALSE?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "They automatically update when changes are made in the source tool.",
+          "correct": false,
+          "explanation": "This is true; they stay in sync with the source."
+        },
+        {
+          "key": "B",
+          "text": "They allow you to edit Jira tickets directly from Notion.",
+          "correct": true,
+          "explanation": "Synced Databases are read‑only; edits must be done in Jira."
+        },
+        {
+          "key": "C",
+          "text": "You can add Relation and Rollup properties to enhance linked data.",
+          "correct": false,
+          "explanation": "Relations and rollups are supported and recommended."
+        },
+        {
+          "key": "D",
+          "text": "Auto‑relations can be set up so that linking a Notion page in a PR description creates a relation automatically.",
+          "correct": false,
+          "explanation": "Auto‑relations work as described."
+        }
+      ]
+    },
+    {
+      "id": "synced-databases-bridge-different-tools-009",
+      "question": "What is the purpose of the \"Parent\" property in a Jira Synced Database?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It indicates the GitHub repository associated with the issue.",
+          "correct": false,
+          "explanation": "Parent relates to Jira hierarchy, not GitHub."
+        },
+        {
+          "key": "B",
+          "text": "It links each Jira story to its corresponding Epic.",
+          "correct": true,
+          "explanation": "The Parent property connects stories (or other issue types) to their Epic."
+        },
+        {
+          "key": "C",
+          "text": "It stores the URL of the Notion page where the issue is mentioned.",
+          "correct": false,
+          "explanation": "URL linking is handled via auto‑relations, not the Parent property."
+        },
+        {
+          "key": "D",
+          "text": "It defines the status column used for board grouping.",
+          "correct": false,
+          "explanation": "Status is a separate property; Parent refers to hierarchy."
+        }
+      ]
+    },
+    {
+      "id": "synced-databases-bridge-different-tools-010",
+      "question": "Which workflow best demonstrates the advantage of using a Synced Database for a cross‑functional team?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Team members edit Jira tickets directly from Notion to speed up updates.",
+          "correct": false,
+          "explanation": "Editing is not possible; updates must be made in the source tool."
+        },
+        {
+          "key": "B",
+          "text": "A project manager creates a Notion page that shows live Jira sprint data, GitHub PRs, and related OKR rollups, allowing all stakeholders to view up‑to‑date information without switching tools.",
+          "correct": true,
+          "explanation": "This captures the core benefit: unified, live view across tools."
+        },
+        {
+          "key": "C",
+          "text": "Developers copy‑paste GitHub issue URLs into Notion comments each day.",
+          "correct": false,
+          "explanation": "Manual copying defeats the purpose of automatic syncing."
+        },
+        {
+          "key": "D",
+          "text": "The team disables all external tools and works solely within Notion.",
+          "correct": false,
+          "explanation": "Synced Databases complement, not replace, specialized tools."
+        }
+      ]
+    }
+  ]
+}

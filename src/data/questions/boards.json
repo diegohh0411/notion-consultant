@@ -1,0 +1,472 @@
+{
+  "source": "boards",
+  "sourceTitle": "Board view",
+  "sourceUrl": "https://www.notion.so/help/boards",
+  "questions": [
+    {
+      "id": "boards-001",
+      "question": "How do you create a new inline board view on an existing page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the + button and select Board from the sidebar",
+          "correct": false,
+          "explanation": "This creates a new full-page board. Inline boards are created using a slash command."
+        },
+        {
+          "key": "B",
+          "text": "Type '/Board view' and press Enter",
+          "correct": true,
+          "explanation": "The slash command '/Board view' allows you to insert a board view directly into the current page."
+        },
+        {
+          "key": "C",
+          "text": "Drag a full-page board into the page",
+          "correct": false,
+          "explanation": "Dragging a full-page board creates a sub-page, not an inline block."
+        },
+        {
+          "key": "D",
+          "text": "Go to Settings > Layout > Insert Board",
+          "correct": false,
+          "explanation": "Board views are inserted using the slash command menu, not the main database settings."
+        }
+      ]
+    },
+    {
+      "id": "boards-002",
+      "question": "By default, how does a board view group database items if a 'Status' property exists?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It groups by the 'Created time' property",
+          "correct": false,
+          "explanation": "While you can sort by time, the default grouping logic prioritizes specific properties like Status."
+        },
+        {
+          "key": "B",
+          "text": "It groups by the 'Status' property",
+          "correct": true,
+          "explanation": "The article states that by default, a board is grouped by a status property if one exists."
+        },
+        {
+          "key": "C",
+          "text": "It groups randomly",
+          "correct": false,
+          "explanation": "Board views are structured to organize data logically, not randomly."
+        },
+        {
+          "key": "D",
+          "text": "It groups by the 'Assignee' property",
+          "correct": false,
+          "explanation": "Assignee is a valid grouping property, but Status is the default when available."
+        }
+      ]
+    },
+    {
+      "id": "boards-003",
+      "question": "You want to group your board by 'Priority', but this property doesn't exist in your database. Where do you go to create it?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Settings > Group",
+          "correct": false,
+          "explanation": "The Group settings menu allows you to *change* the grouping property, but it cannot create a new property type."
+        },
+        {
+          "key": "B",
+          "text": "Settings > Edit properties",
+          "correct": true,
+          "explanation": "To add a new property type like 'Select' for Priority, you must navigate to the database properties settings."
+        },
+        {
+          "key": "C",
+          "text": "Settings > Layout",
+          "correct": false,
+          "explanation": "The Layout settings are for card size and page opening behavior, not property definitions."
+        },
+        {
+          "key": "D",
+          "text": "Right-click the column header and select 'New property'",
+          "correct": false,
+          "explanation": "You cannot create new property types directly from the column header; you must go to the database settings."
+        }
+      ]
+    },
+    {
+      "id": "boards-004",
+      "question": "If your database contains a 'Number' property, which calculation option allows you to find the middle value of the column?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Average",
+          "correct": false,
+          "explanation": "Average calculates the mean by summing all values and dividing by the count, not the middle value."
+        },
+        {
+          "key": "B",
+          "text": "Range",
+          "correct": false,
+          "explanation": "Range calculates the difference between the highest and lowest numbers, not the median."
+        },
+        {
+          "key": "C",
+          "text": "Median",
+          "correct": true,
+          "explanation": "Median calculates the middle number in an ordered list of values, which is distinct from the Average."
+        },
+        {
+          "key": "D",
+          "text": "Sum",
+          "correct": false,
+          "explanation": "Sum adds all values together, providing a total rather than a central tendency."
+        }
+      ]
+    },
+    {
+      "id": "boards-005",
+      "question": "When displaying images on board cards, what does the 'Fit image' toggle do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Crops the image to fill the entire card frame",
+          "correct": false,
+          "explanation": "This describes the behavior when 'Fit image' is turned OFF."
+        },
+        {
+          "key": "B",
+          "text": "Shows the whole image within the frame of the card",
+          "correct": true,
+          "explanation": "When turned ON, the entire image fits within the card boundaries without cropping."
+        },
+        {
+          "key": "C",
+          "text": "Removes the image entirely",
+          "correct": false,
+          "explanation": "The toggle controls how the image is displayed, not whether it is shown."
+        },
+        {
+          "key": "D",
+          "text": "Only displays the page cover image",
+          "correct": false,
+          "explanation": "The 'Fit image' toggle works regardless of whether you are showing the cover, content, or files."
+        }
+      ]
+    },
+    {
+      "id": "boards-006",
+      "question": "How do you hide a specific group (column) in a board view?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the column heading and select 'Hide' from the menu",
+          "correct": false,
+          "explanation": "You must click the ••• icon specifically to access the 'Hide group' option."
+        },
+        {
+          "key": "B",
+          "text": "Click ••• next to the heading and select 'Hide group'",
+          "correct": true,
+          "explanation": "The specific menu option for hiding a group is found next to the column header."
+        },
+        {
+          "key": "C",
+          "text": "Drag the column to the bottom of the screen",
+          "correct": false,
+          "explanation": "Dragging moves the column position, it does not hide it."
+        },
+        {
+          "key": "D",
+          "text": "Go to Settings > Group and uncheck the column",
+          "correct": false,
+          "explanation": "While hidden columns appear in the Group settings, you must hide them via the column header menu first."
+        }
+      ]
+    },
+    {
+      "id": "boards-007",
+      "question": "Which action allows you to rearrange the columns in a board view?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click and drag the column heading left or right",
+          "correct": true,
+          "explanation": "You can click and hold on a column heading to drag it to reorder the columns."
+        },
+        {
+          "key": "B",
+          "text": "Double-click the column header to swap positions",
+          "correct": false,
+          "explanation": "Double-clicking does not trigger a reorder; drag-and-drop is the supported method."
+        },
+        {
+          "key": "C",
+          "text": "Select 'Reorder' from the settings menu",
+          "correct": false,
+          "explanation": "The settings menu does not contain a generic reorder tool; you must interact directly with the columns."
+        },
+        {
+          "key": "D",
+          "text": "Cut and paste the column title into a new location",
+          "correct": false,
+          "explanation": "There is no text-based copy/paste method for moving columns."
+        }
+      ]
+    },
+    {
+      "id": "boards-008",
+      "question": "To convert an existing inline database into a top-level full-page database, what must you do?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select 'Turn into inline' from the settings menu",
+          "correct": false,
+          "explanation": "That command converts a full-page board into an inline one, not the reverse."
+        },
+        {
+          "key": "B",
+          "text": "Drag the inline database block into the sidebar",
+          "correct": true,
+          "explanation": "Dragging an inline database block into the sidebar creates it as a new top-level page."
+        },
+        {
+          "key": "C",
+          "text": "Double-click the block and select 'New Page'",
+          "correct": false,
+          "explanation": "Double-clicking opens the database for viewing/editing, not for converting to a page."
+        },
+        {
+          "key": "D",
+          "text": "Rename the database file to end in '.page'",
+          "correct": false,
+          "explanation": "Notion handles the file structure automatically; there is no manual file extension method."
+        }
+      ]
+    },
+    {
+      "id": "boards-009",
+      "question": "What is the term used for the second layer of grouping within a specific group in a board view?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sub-columns",
+          "correct": false,
+          "explanation": "Board views use groups and sub-groups, not sub-columns."
+        },
+        {
+          "key": "B",
+          "text": "Child cards",
+          "correct": false,
+          "explanation": "Child cards refers to the items within the group, not the grouping layer itself."
+        },
+        {
+          "key": "C",
+          "text": "Sub-groups",
+          "correct": true,
+          "explanation": "The article explicitly refers to this second layer of organization as 'sub-groups'."
+        },
+        {
+          "key": "D",
+          "text": "Nested properties",
+          "correct": false,
+          "explanation": "Nested properties is not a term used for the visual structure of the board."
+        }
+      ]
+    },
+    {
+      "id": "boards-010",
+      "question": "How can you change the order of properties displayed on the front of your board cards?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Drag them in the settings menu",
+          "correct": false,
+          "explanation": "The settings menu allows you to show/hide, but not reorder properties."
+        },
+        {
+          "key": "B",
+          "text": "Use the ⋮⋮ icon to drag them",
+          "correct": true,
+          "explanation": "The vertical ellipsis (⋮⋮) icon in the Property visibility menu allows you to reorder properties."
+        },
+        {
+          "key": "C",
+          "text": "Click 'Reorder' in Layout settings",
+          "correct": false,
+          "explanation": "Layout settings control card size and image display, not property order."
+        },
+        {
+          "key": "D",
+          "text": "Rename them in the property list",
+          "correct": false,
+          "explanation": "Renaming properties changes their label, not their position on the card."
+        }
+      ]
+    },
+    {
+      "id": "boards-011",
+      "question": "If you try to group by a property that doesn't exist, what happens?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "An error message appears and the board remains empty",
+          "correct": false,
+          "explanation": "Notion is designed to be helpful; it creates the property for you automatically."
+        },
+        {
+          "key": "B",
+          "text": "A new property with default settings is created automatically",
+          "correct": true,
+          "explanation": "If no Status, Select, Person, etc., property exists, Notion creates a new Status property for you."
+        },
+        {
+          "key": "C",
+          "text": "Nothing happens and the board stays empty",
+          "correct": false,
+          "explanation": "The board will attempt to populate based on the new property once created."
+        },
+        {
+          "key": "D",
+          "text": "It defaults to grouping by 'Name'",
+          "correct": false,
+          "explanation": "The default fallback is specifically a Status property, not Name."
+        }
+      ]
+    },
+    {
+      "id": "boards-012",
+      "question": "Is it currently possible to group a board view by a Formula property?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, by using the 'Formula' type in the Group settings",
+          "correct": false,
+          "explanation": "The Help Center explicitly states this is 'Not currently' supported."
+        },
+        {
+          "key": "B",
+          "text": "No, this feature is not currently supported",
+          "correct": true,
+          "explanation": "The article includes a direct response stating that grouping by relation or formula is not currently supported."
+        },
+        {
+          "key": "C",
+          "text": "Yes, but only if the formula returns a date value",
+          "correct": false,
+          "explanation": "The limitation applies to all formula properties regardless of their return type."
+        },
+        {
+          "key": "D",
+          "text": "No, but it will be available in the next update",
+          "correct": false,
+          "explanation": "While the team mentions it is a 'legit use case', they do not promise an immediate future timeline."
+        }
+      ]
+    },
+    {
+      "id": "boards-013",
+      "question": "Which calculation shows the time gap between the oldest and newest edit or creation time?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Earliest date",
+          "correct": false,
+          "explanation": "Earliest date shows the date of the oldest item, not the gap between dates."
+        },
+        {
+          "key": "B",
+          "text": "Latest date",
+          "correct": false,
+          "explanation": "Latest date shows the date of the newest item, not the gap between dates."
+        },
+        {
+          "key": "C",
+          "text": "Date range",
+          "correct": true,
+          "explanation": "The 'Date range' option calculates the difference (gap) between the earliest and latest dates."
+        },
+        {
+          "key": "D",
+          "text": "Count unique values",
+          "correct": false,
+          "explanation": "This calculates the number of unique items, unrelated to time differences."
+        }
+      ]
+    },
+    {
+      "id": "boards-014",
+      "question": "What are the three available card sizes in a board view?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Small, Medium, Large",
+          "correct": true,
+          "explanation": "The Layout settings offer exactly these three options for card size."
+        },
+        {
+          "key": "B",
+          "text": "Tiny, Normal, Huge",
+          "correct": false,
+          "explanation": "These are not the standard terminology used in the Notion interface."
+        },
+        {
+          "key": "C",
+          "text": "Compact, Standard, Expanded",
+          "correct": false,
+          "explanation": "Notion uses specific size labels, not these descriptive terms."
+        },
+        {
+          "key": "D",
+          "text": "Mini, Average, Maxi",
+          "correct": false,
+          "explanation": "Notion uses Small, Medium, and Large."
+        }
+      ]
+    },
+    {
+      "id": "boards-015",
+      "question": "How can you temporarily hide a 'Done' column to keep your board clean?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Archive the column",
+          "correct": false,
+          "explanation": "There is no 'Archive' action for columns; you must use the Hide function."
+        },
+        {
+          "key": "B",
+          "text": "Delete the column",
+          "correct": false,
+          "explanation": "Hiding keeps the data available; deleting removes it permanently."
+        },
+        {
+          "key": "C",
+          "text": "Hide the group",
+          "correct": true,
+          "explanation": "Clicking the ••• menu and selecting 'Hide group' temporarily removes the column."
+        },
+        {
+          "key": "D",
+          "text": "Drag the column to the sidebar",
+          "correct": false,
+          "explanation": "Dragging a group to the sidebar is not a standard action; it should be dragged to a different location or hidden."
+        }
+      ]
+    }
+  ]
+}

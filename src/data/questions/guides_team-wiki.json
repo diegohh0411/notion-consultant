@@ -1,0 +1,255 @@
+{
+  "source": "guides_team-wiki",
+  "sourceTitle": "Build a team wiki in Notion",
+  "sourceUrl": "https://www.notion.so/help/guides/team-wiki",
+  "questions": [
+    {
+      "id": "team-wiki-001",
+      "question": "What is the main purpose of creating a team wiki in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store personal notes for each team member",
+          "correct": false,
+          "explanation": "Personal notes are not the focus; the wiki is meant for shared, team‑wide information."
+        },
+        {
+          "key": "B",
+          "text": "To serve as a central repository for all important team information",
+          "correct": true,
+          "explanation": "The guide states the wiki acts as a central place for key team info."
+        },
+        {
+          "key": "C",
+          "text": "To replace all email communication within the team",
+          "correct": false,
+          "explanation": "While a wiki can reduce some email, it is not intended to replace all email communication."
+        },
+        {
+          "key": "D",
+          "text": "To host live video conferences directly on the page",
+          "correct": false,
+          "explanation": "Live video conferencing is not mentioned as a purpose of a team wiki."
+        }
+      ]
+    },
+    {
+      "id": "team-wiki-002",
+      "question": "Which feature helps prevent accidental edits by other team members?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Locking the page",
+          "correct": true,
+          "explanation": "The guide explicitly mentions locking the page to stop accidental edits."
+        },
+        {
+          "key": "B",
+          "text": "Adding a table of contents",
+          "correct": false,
+          "explanation": "A table of contents organizes information but does not control editing permissions."
+        },
+        {
+          "key": "C",
+          "text": "Embedding files from other tools",
+          "correct": false,
+          "explanation": "Embedding files adds content but does not restrict editing."
+        },
+        {
+          "key": "D",
+          "text": "Changing the cover photo",
+          "correct": false,
+          "explanation": "A cover photo is purely visual and does not affect edit rights."
+        }
+      ]
+    },
+    {
+      "id": "team-wiki-003",
+      "question": "Which type of content is NOT listed as something you can add inside a team wiki page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Callouts",
+          "correct": false,
+          "explanation": "Callouts are mentioned as a content option."
+        },
+        {
+          "key": "B",
+          "text": "A table of contents",
+          "correct": false,
+          "explanation": "A table of contents is explicitly listed."
+        },
+        {
+          "key": "C",
+          "text": "Embedded videos",
+          "correct": true,
+          "explanation": "The guide does not mention embedding videos; it mentions embedding files from other tools."
+        },
+        {
+          "key": "D",
+          "text": "Files embedded from other tools",
+          "correct": false,
+          "explanation": "Embedding files from other tools is part of the suggested content."
+        }
+      ]
+    },
+    {
+      "id": "team-wiki-004",
+      "question": "How can you quickly keep the wiki up‑to‑date with contributions from teammates?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By locking the page after each edit",
+          "correct": false,
+          "explanation": "Locking prevents edits, not encourages them."
+        },
+        {
+          "key": "B",
+          "text": "By mentioning team members in the page",
+          "correct": true,
+          "explanation": "Mentioning team members notifies them, encouraging timely updates."
+        },
+        {
+          "key": "C",
+          "text": "By changing the cover photo weekly",
+          "correct": false,
+          "explanation": "Cover photos are visual; they don’t affect content updates."
+        },
+        {
+          "key": "D",
+          "text": "By exporting the wiki as a PDF",
+          "correct": false,
+          "explanation": "Exporting creates a static copy, not a method for keeping the live wiki current."
+        }
+      ]
+    },
+    {
+      "id": "team-wiki-005",
+      "question": "According to the guide, what is the recommended first step when building a team wiki?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Start with a template",
+          "correct": true,
+          "explanation": "The guide’s “Start with a template” section suggests this as the first action."
+        },
+        {
+          "key": "B",
+          "text": "Invite external consultants",
+          "correct": false,
+          "explanation": "Inviting external consultants is not mentioned as a first step."
+        },
+        {
+          "key": "C",
+          "text": "Create a new workspace for the wiki",
+          "correct": false,
+          "explanation": "While you create a new page, a new workspace is not specified as the initial step."
+        },
+        {
+          "key": "D",
+          "text": "Upload all existing documents as PDFs",
+          "correct": false,
+          "explanation": "Uploading PDFs is a possible later action, not the recommended starting point."
+        }
+      ]
+    },
+    {
+      "id": "team-wiki-006",
+      "question": "Approximately how many templates are available in Notion’s template gallery?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Around 500",
+          "correct": false,
+          "explanation": "The guide mentions far more than 500."
+        },
+        {
+          "key": "B",
+          "text": "Over 10,000",
+          "correct": true,
+          "explanation": "The article explicitly states there are over 10,000 templates."
+        },
+        {
+          "key": "C",
+          "text": "Exactly 1,000",
+          "correct": false,
+          "explanation": "The number given is an approximation, not an exact figure."
+        },
+        {
+          "key": "D",
+          "text": "Fewer than 1,000",
+          "correct": false,
+          "explanation": "The guide indicates the opposite—there are many more than 1,000."
+        }
+      ]
+    },
+    {
+      "id": "team-wiki-007",
+      "question": "Which action does NOT contribute to customizing the visual branding of your team wiki?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adding a cover photo",
+          "correct": false,
+          "explanation": "A cover photo is a visual branding element."
+        },
+        {
+          "key": "B",
+          "text": "Adding your company logo",
+          "correct": false,
+          "explanation": "A company logo directly reinforces branding."
+        },
+        {
+          "key": "C",
+          "text": "Changing the page background color",
+          "correct": true,
+          "explanation": "The guide does not mention changing the page background color as a customization option."
+        },
+        {
+          "key": "D",
+          "text": "Adding dynamic links to other pages",
+          "correct": false,
+          "explanation": "Dynamic links improve navigation but are not a visual branding feature."
+        }
+      ]
+    },
+    {
+      "id": "team-wiki-008",
+      "question": "If you need a link that automatically updates when the target page’s title changes, which feature should you use?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A static URL copy‑paste",
+          "correct": false,
+          "explanation": "Static URLs do not reflect title changes."
+        },
+        {
+          "key": "B",
+          "text": "A dynamic link",
+          "correct": true,
+          "explanation": "Dynamic links adjust automatically to title changes, as described in the guide."
+        },
+        {
+          "key": "C",
+          "text": "An embedded PDF of the target page",
+          "correct": false,
+          "explanation": "Embedding a PDF creates a snapshot, not a live link."
+        },
+        {
+          "key": "D",
+          "text": "A markdown code block with the page name",
+          "correct": false,
+          "explanation": "Markdown code blocks display text; they don’t create auto‑updating links."
+        }
+      ]
+    }
+  ]
+}

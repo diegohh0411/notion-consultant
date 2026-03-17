@@ -1,0 +1,317 @@
+{
+  "source": "getting-featured-in-the-template-gallery",
+  "sourceTitle": "Getting featured in Marketplace",
+  "sourceUrl": "https://www.notion.so/help/getting-featured-in-the-template-gallery",
+  "questions": [
+    {
+      "id": "getting-featured-in-the-template-gallery-001",
+      "question": "What is the primary purpose of Notion's Marketplace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To sell hardware accessories for Notion users",
+          "correct": false,
+          "explanation": "Marketplace is for templates, not physical products."
+        },
+        {
+          "key": "B",
+          "text": "To showcase top Notion templates created by builders, makers, and creators",
+          "correct": true,
+          "explanation": "The article states Marketplace is where top creators showcase the possibilities of Notion."
+        },
+        {
+          "key": "C",
+          "text": "To host community discussion forums",
+          "correct": false,
+          "explanation": "Discussion forums are hosted elsewhere, not in the Marketplace."
+        },
+        {
+          "key": "D",
+          "text": "To provide technical support for Notion bugs",
+          "correct": false,
+          "explanation": "Technical support is handled through Notion’s support channels, not the Marketplace."
+        }
+      ]
+    },
+    {
+      "id": "getting-featured-in-the-template-gallery-002",
+      "question": "Which of the following is NOT a criterion used to evaluate submissions for the Marketplace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Value",
+          "correct": false,
+          "explanation": "Value is listed as a primary evaluation criterion."
+        },
+        {
+          "key": "B",
+          "text": "Build quality",
+          "correct": false,
+          "explanation": "Build quality is explicitly mentioned in the article."
+        },
+        {
+          "key": "C",
+          "text": "Popularity",
+          "correct": false,
+          "explanation": "Popularity (visits and duplications) is a listed factor."
+        },
+        {
+          "key": "D",
+          "text": "Color scheme",
+          "correct": true,
+          "explanation": "Color scheme is not part of the evaluation criteria; visual design is, but not a specific color scheme."
+        }
+      ]
+    },
+    {
+      "id": "getting-featured-in-the-template-gallery-003",
+      "question": "How often are featured templates and creators refreshed in the Marketplace?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Every day",
+          "correct": false,
+          "explanation": "The article mentions weekly to monthly intervals, not daily."
+        },
+        {
+          "key": "B",
+          "text": "Weekly to monthly, depending on language",
+          "correct": true,
+          "explanation": "Featured templates and creators are refreshed at varying timeframes, from weekly to monthly."
+        },
+        {
+          "key": "C",
+          "text": "Once a year",
+          "correct": false,
+          "explanation": "Refreshes happen more frequently than annually."
+        },
+        {
+          "key": "D",
+          "text": "Only when a new template is submitted",
+          "correct": false,
+          "explanation": "Refreshes follow a schedule, not solely on new submissions."
+        }
+      ]
+    },
+    {
+      "id": "getting-featured-in-the-template-gallery-004",
+      "question": "When assessing the \"Novelty\" criterion, which aspect is specifically considered?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The price of the template relative to competitors",
+          "correct": false,
+          "explanation": "Price is evaluated under the \"Price\" criterion, not Novelty."
+        },
+        {
+          "key": "B",
+          "text": "Whether the template uses new Notion features or showcases integrations in a fresh way",
+          "correct": true,
+          "explanation": "Novelty looks at new use‑cases, new features, and unique integrations."
+        },
+        {
+          "key": "C",
+          "text": "The number of pages the template contains",
+          "correct": false,
+          "explanation": "Page count is not a factor for Novelty."
+        },
+        {
+          "key": "D",
+          "text": "The popularity measured by visits and duplications",
+          "correct": false,
+          "explanation": "Popularity is a separate criterion."
+        }
+      ]
+    },
+    {
+      "id": "getting-featured-in-the-template-gallery-005",
+      "question": "Under the \"Build quality\" criterion, which of the following is emphasized?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inclusion of advanced Notion features such as databases, buttons, AI, and embeds",
+          "correct": true,
+          "explanation": "Build quality rewards templates that leverage Notion’s powerful features."
+        },
+        {
+          "key": "B",
+          "text": "Having the smallest possible file size for faster loading",
+          "correct": false,
+          "explanation": "File size is not mentioned as a factor for Build quality."
+        },
+        {
+          "key": "C",
+          "text": "Using only plain text and simple tables",
+          "correct": false,
+          "explanation": "Templates that rely only on text and tables are considered lower quality."
+        },
+        {
+          "key": "D",
+          "text": "Pricing the template at a premium to signal exclusivity",
+          "correct": false,
+          "explanation": "Pricing falls under the \"Price\" criterion, not Build quality."
+        }
+      ]
+    },
+    {
+      "id": "getting-featured-in-the-template-gallery-006",
+      "question": "Which factor would most likely increase a template's chance of being featured due to the \"Seasonality\" criterion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "A holiday budgeting template released in December",
+          "correct": true,
+          "explanation": "Seasonality favors templates relevant to the time of year, such as holiday budgeting in December."
+        },
+        {
+          "key": "B",
+          "text": "A generic note‑taking template available year‑round",
+          "correct": false,
+          "explanation": "Generic templates lack seasonal relevance."
+        },
+        {
+          "key": "C",
+          "text": "A template about ancient Roman history",
+          "correct": false,
+          "explanation": "Historical content is not tied to a current season."
+        },
+        {
+          "key": "D",
+          "text": "A template without a thumbnail image",
+          "correct": false,
+          "explanation": "Thumbnail quality is evaluated separately from Seasonality."
+        }
+      ]
+    },
+    {
+      "id": "getting-featured-in-the-template-gallery-007",
+      "question": "What does the \"Thumbnail\" criterion assess?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The visual quality and relevance of the homepage thumbnail image",
+          "correct": true,
+          "explanation": "Thumbnail evaluation focuses on how well the image showcases the template."
+        },
+        {
+          "key": "B",
+          "text": "The number of images included inside the template",
+          "correct": false,
+          "explanation": "Quantity of images is not the focus; it's the thumbnail’s presentation."
+        },
+        {
+          "key": "C",
+          "text": "The file size of the template for faster download",
+          "correct": false,
+          "explanation": "File size is unrelated to the thumbnail criterion."
+        },
+        {
+          "key": "D",
+          "text": "The price displayed on the thumbnail",
+          "correct": false,
+          "explanation": "Pricing is covered under the \"Price\" criterion."
+        }
+      ]
+    },
+    {
+      "id": "getting-featured-in-the-template-gallery-008",
+      "question": "Which of the following is NOT a way Notion promotes featured templates?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Featured templates displayed on the Marketplace home page",
+          "correct": false,
+          "explanation": "This is a core promotion method listed in the article."
+        },
+        {
+          "key": "B",
+          "text": "Featured collections that group templates by use‑case",
+          "correct": false,
+          "explanation": "Featured collections are explicitly mentioned."
+        },
+        {
+          "key": "C",
+          "text": "Paid advertising on external websites",
+          "correct": true,
+          "explanation": "The article does not mention paid external advertising as a promotion channel."
+        },
+        {
+          "key": "D",
+          "text": "Social media posts highlighting featured templates",
+          "correct": false,
+          "explanation": "Social posts are part of the promotion strategy."
+        }
+      ]
+    },
+    {
+      "id": "getting-featured-in-the-template-gallery-009",
+      "question": "A template is free, has high popularity, but lacks advanced Notion features and serves a very generic purpose. Which criteria are most likely to hinder its selection for featured status?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Value and Build quality",
+          "correct": true,
+          "explanation": "Value suffers because the purpose is generic, and Build quality suffers due to missing advanced features."
+        },
+        {
+          "key": "B",
+          "text": "Popularity and Price",
+          "correct": false,
+          "explanation": "Popularity is strong, and the template is free, so these are not hindering factors."
+        },
+        {
+          "key": "C",
+          "text": "Novelty and Seasonality",
+          "correct": false,
+          "explanation": "Novelty and Seasonality are not mentioned as problems for this scenario."
+        },
+        {
+          "key": "D",
+          "text": "Visual design and Thumbnail",
+          "correct": false,
+          "explanation": "While important, the question highlights value and build quality as the main issues."
+        }
+      ]
+    },
+    {
+      "id": "getting-featured-in-the-template-gallery-010",
+      "question": "If a creator submits a template that utilizes a newly released Notion integration and aligns with an upcoming major news theme, which combination of criteria does this most strongly satisfy?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Timing and Novelty",
+          "correct": true,
+          "explanation": "The template matches a current news trend (Timing) and uses a new integration (Novelty)."
+        },
+        {
+          "key": "B",
+          "text": "Price and Popularity",
+          "correct": false,
+          "explanation": "Price and popularity are not highlighted in this scenario."
+        },
+        {
+          "key": "C",
+          "text": "Visual design and Thumbnail",
+          "correct": false,
+          "explanation": "These aspects are not directly addressed by the described attributes."
+        },
+        {
+          "key": "D",
+          "text": "Seasonality and Value",
+          "correct": false,
+          "explanation": "Seasonality relates to time of year, not news themes, and Value is not the focus here."
+        }
+      ]
+    }
+  ]
+}

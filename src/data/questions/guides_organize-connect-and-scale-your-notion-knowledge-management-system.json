@@ -1,0 +1,255 @@
+{
+  "source": "guides_organize-connect-and-scale-your-notion-knowledge-management-system",
+  "sourceTitle": "Organize, connect, and scale your Notion knowledge management system",
+  "sourceUrl": "https://www.notion.com/help/guides/organize-connect-and-scale-your-notion-knowledge-management-system",
+  "questions": [
+    {
+      "id": "organize-connect-and-scale-your-notion-knowledge-management-system-001",
+      "question": "What is the primary purpose of creating a “company home” page in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To serve as a central hub where key company information is displayed for self‑service access.",
+          "correct": true,
+          "explanation": "The guide describes the company home as a page that surfaces mission, directories, policies, SOPs, etc., so anyone can find what they need without asking."
+        },
+        {
+          "key": "B",
+          "text": "To replace all existing team‑specific databases with a single page.",
+          "correct": false,
+          "explanation": "The home page complements databases; it doesn’t replace them."
+        },
+        {
+          "key": "C",
+          "text": "To store only visual assets like images and videos.",
+          "correct": false,
+          "explanation": "While you can embed visuals, the home page is meant for a broad range of information, not just media."
+        },
+        {
+          "key": "D",
+          "text": "To act as a private notes space for the CEO.",
+          "correct": false,
+          "explanation": "The page is intended for the whole team, not a private space."
+        }
+      ]
+    },
+    {
+      "id": "organize-connect-and-scale-your-notion-knowledge-management-system-002",
+      "question": "Which Notion feature lets you connect a meeting‑notes entry to a specific client record?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Formula property",
+          "correct": false,
+          "explanation": "Formulas calculate values; they don’t create links between databases."
+        },
+        {
+          "key": "B",
+          "text": "Relation property",
+          "correct": true,
+          "explanation": "Relation properties are explicitly described as the way to link items across databases, such as meeting notes to a client."
+        },
+        {
+          "key": "C",
+          "text": "Rollup property",
+          "correct": false,
+          "explanation": "Rollups display data from related items but require a Relation first."
+        },
+        {
+          "key": "D",
+          "text": "Multi‑select property",
+          "correct": false,
+          "explanation": "Multi‑select tags items but does not create a database‑to‑database link."
+        }
+      ]
+    },
+    {
+      "id": "organize-connect-and-scale-your-notion-knowledge-management-system-003",
+      "question": "How does Notion AI help when you don’t know the exact name of a document you need?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It searches the entire workspace and returns a concise answer or summary based on the content.",
+          "correct": true,
+          "explanation": "The guide explains that Notion AI can surface relevant pages and summarize them even without a precise document title."
+        },
+        {
+          "key": "B",
+          "text": "It creates a new page automatically with placeholder content.",
+          "correct": false,
+          "explanation": "AI does not auto‑create pages; it retrieves existing information."
+        },
+        {
+          "key": "C",
+          "text": "It sends an email to the document owner asking for clarification.",
+          "correct": false,
+          "explanation": "AI works within Notion; it does not trigger external emails."
+        },
+        {
+          "key": "D",
+          "text": "It deletes duplicate pages to simplify the search.",
+          "correct": false,
+          "explanation": "AI does not delete content as part of a search query."
+        }
+      ]
+    },
+    {
+      "id": "organize-connect-and-scale-your-notion-knowledge-management-system-004",
+      "question": "What advantage do synced blocks provide in a knowledge‑management system?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They allow the same piece of content to appear in multiple locations and stay updated automatically.",
+          "correct": true,
+          "explanation": "Synced blocks replicate content; editing the original updates every instance, preventing duplication."
+        },
+        {
+          "key": "B",
+          "text": "They lock the content so no one can edit it after publishing.",
+          "correct": false,
+          "explanation": "Synced blocks are editable; they just propagate changes."
+        },
+        {
+          "key": "C",
+          "text": "They convert tables into Kanban boards automatically.",
+          "correct": false,
+          "explanation": "Synced blocks do not change view types; they merely copy content."
+        },
+        {
+          "key": "D",
+          "text": "They encrypt the data for extra security.",
+          "correct": false,
+          "explanation": "Encryption is not a function of synced blocks."
+        }
+      ]
+    },
+    {
+      "id": "organize-connect-and-scale-your-notion-knowledge-management-system-005",
+      "question": "When setting permissions for a benefits policy page, which setting is recommended for most employees?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full access",
+          "correct": false,
+          "explanation": "Full access would let everyone edit the policy, which is usually undesirable."
+        },
+        {
+          "key": "B",
+          "text": "Can comment",
+          "correct": false,
+          "explanation": "Comment‑only still allows feedback but not editing; however the guide suggests read‑only for most."
+        },
+        {
+          "key": "C",
+          "text": "Read only",
+          "correct": true,
+          "explanation": "The article advises that wiki‑style pages like benefits policies be set to read‑only for all except managers."
+        },
+        {
+          "key": "D",
+          "text": "Can edit",
+          "correct": false,
+          "explanation": "Can edit would let any employee change policy details, which could cause inconsistencies."
+        }
+      ]
+    },
+    {
+      "id": "organize-connect-and-scale-your-notion-knowledge-management-system-006",
+      "question": "Which database view would be most suitable for visualizing the stages of a content‑production workflow?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Table view",
+          "correct": false,
+          "explanation": "Tables show rows and columns but don’t illustrate stage progression as clearly as a board."
+        },
+        {
+          "key": "B",
+          "text": "Kanban‑style Board view",
+          "correct": true,
+          "explanation": "The guide specifically mentions using a Board view with columns like Idea, Drafting, Review, etc., to track workflow stages."
+        },
+        {
+          "key": "C",
+          "text": "Calendar view",
+          "correct": false,
+          "explanation": "Calendars are best for date‑based items, not for stage‑based pipelines."
+        },
+        {
+          "key": "D",
+          "text": "Gallery view",
+          "correct": false,
+          "explanation": "Gallery is visual but not intended for stage columns."
+        }
+      ]
+    },
+    {
+      "id": "organize-connect-and-scale-your-notion-knowledge-management-system-007",
+      "question": "If a client needs to view only the deliverables and assets for their project, which Notion feature should you use?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add the client as a guest to a dedicated client portal page.",
+          "correct": true,
+          "explanation": "The article describes creating client portals and inviting clients as guests so they can see resources, assets, and project overviews."
+        },
+        {
+          "key": "B",
+          "text": "Share the entire workspace with the client using a public link.",
+          "correct": false,
+          "explanation": "Sharing the whole workspace would expose internal information, which is not recommended."
+        },
+        {
+          "key": "C",
+          "text": "Publish the entire Notion site to the web and give the client the URL.",
+          "correct": false,
+          "explanation": "Public publishing makes content visible to anyone, not limited to the client."
+        },
+        {
+          "key": "D",
+          "text": "Create a read‑only copy of the database and email it as a CSV.",
+          "correct": false,
+          "explanation": "While possible, it defeats the purpose of a live, collaborative portal described in the guide."
+        }
+      ]
+    },
+    {
+      "id": "organize-connect-and-scale-your-notion-knowledge-management-system-008",
+      "question": "How can Notion AI reach into external tools like Slack or Gmail to provide richer answers?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Through AI Connectors that integrate Notion AI with those services.",
+          "correct": true,
+          "explanation": "The guide mentions AI Connectors allowing Notion AI to pull context from Slack, Gmail, etc."
+        },
+        {
+          "key": "B",
+          "text": "By automatically importing all external emails into a Notion database.",
+          "correct": false,
+          "explanation": "AI does not auto‑import emails; it queries via connectors when needed."
+        },
+        {
+          "key": "C",
+          "text": "By converting external files into PDFs and attaching them to Notion pages.",
+          "correct": false,
+          "explanation": "Embedding PDFs is possible, but it’s not how AI reaches into other tools."
+        },
+        {
+          "key": "D",
+          "text": "By using the built‑in web‑scraper that crawls Slack channels.",
+          "correct": false,
+          "explanation": "There is no generic web‑scraper; the integration is via AI Connectors."
+        }
+      ]
+    }
+  ]
+}

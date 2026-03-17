@@ -1,0 +1,255 @@
+{
+  "source": "guides_admins-large-teams",
+  "sourceTitle": "Notion for admins of large teams",
+  "sourceUrl": "https://www.notion.so/help/guides/admins-large-teams",
+  "questions": [
+    {
+      "id": "admins-large-teams-001",
+      "question": "Which Notion plan unlocks the admin‑only features described in this guide?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Free",
+          "correct": false,
+          "explanation": "Free plans do not include admin controls."
+        },
+        {
+          "key": "B",
+          "text": "Personal",
+          "correct": false,
+          "explanation": "Personal plans are for individual use, not admin features."
+        },
+        {
+          "key": "C",
+          "text": "Team",
+          "correct": false,
+          "explanation": "Team plans give collaboration tools but not the full admin suite."
+        },
+        {
+          "key": "D",
+          "text": "Enterprise",
+          "correct": true,
+          "explanation": "Enterprise plans provide the admin‑only capabilities highlighted in the article."
+        }
+      ]
+    },
+    {
+      "id": "admins-large-teams-002",
+      "question": "Where can an admin add new people to a workspace or change existing members’ access levels?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the sidebar’s quick‑add menu",
+          "correct": false,
+          "explanation": "The sidebar only shows navigation, not member management."
+        },
+        {
+          "key": "B",
+          "text": "In the Members section of Settings",
+          "correct": true,
+          "explanation": "The article states that admins manage members from the Members section of Settings."
+        },
+        {
+          "key": "C",
+          "text": "On the Notion homepage dashboard",
+          "correct": false,
+          "explanation": "The homepage does not contain member‑management controls."
+        },
+        {
+          "key": "D",
+          "text": "Via the template gallery",
+          "correct": false,
+          "explanation": "Templates are for page content, not for adding users."
+        }
+      ]
+    },
+    {
+      "id": "admins-large-teams-003",
+      "question": "How can an admin automatically allow anyone with a specific email domain to join the workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By sending a manual invitation to each user",
+          "correct": false,
+          "explanation": "Manual invitations are one‑by‑one, not automatic."
+        },
+        {
+          "key": "B",
+          "text": "By adding the domain to the workspace’s allowlist in Settings",
+          "correct": true,
+          "explanation": "Typing the domain in Settings lets anyone with that domain join automatically."
+        },
+        {
+          "key": "C",
+          "text": "By enabling public sharing for the workspace",
+          "correct": false,
+          "explanation": "Public sharing makes pages viewable, not a way to auto‑add members."
+        },
+        {
+          "key": "D",
+          "text": "By creating a group named after the domain",
+          "correct": false,
+          "explanation": "Groups organize members after they’re added; they don’t auto‑invite users."
+        }
+      ]
+    },
+    {
+      "id": "admins-large-teams-004",
+      "question": "What is the primary purpose of setting up SCIM in a Notion workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To customize the look of the workspace sidebar",
+          "correct": false,
+          "explanation": "SCIM does not affect UI appearance."
+        },
+        {
+          "key": "B",
+          "text": "To manage provisioning of users and permission groups automatically",
+          "correct": true,
+          "explanation": "SCIM is a standard for automated user and group provisioning, as noted in the article."
+        },
+        {
+          "key": "C",
+          "text": "To enable video playback without an ad blocker",
+          "correct": false,
+          "explanation": "Video playback is unrelated to SCIM."
+        },
+        {
+          "key": "D",
+          "text": "To create public URLs for Notion pages",
+          "correct": false,
+          "explanation": "Public URLs are set via domain settings, not SCIM."
+        }
+      ]
+    },
+    {
+      "id": "admins-large-teams-005",
+      "question": "Where can an admin manually create groups for organizing members?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the Group tab of the Members section",
+          "correct": true,
+          "explanation": "The guide specifies groups are created from the Group tab under Members."
+        },
+        {
+          "key": "B",
+          "text": "In the Workspace Templates gallery",
+          "correct": false,
+          "explanation": "Templates are for page content, not group management."
+        },
+        {
+          "key": "C",
+          "text": "On the Notion mobile app settings page",
+          "correct": false,
+          "explanation": "Group creation is done in the desktop/web Settings, not specifically the mobile app."
+        },
+        {
+          "key": "D",
+          "text": "Via the third‑party integrations panel",
+          "correct": false,
+          "explanation": "Integrations control apps, not internal member groups."
+        }
+      ]
+    },
+    {
+      "id": "admins-large-teams-006",
+      "question": "Which security measure can an admin enable to stop pages from being moved or exported?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Turn on version history for all pages",
+          "correct": false,
+          "explanation": "Version history tracks changes but does not block moving or exporting."
+        },
+        {
+          "key": "B",
+          "text": "Enable page lock on each page individually",
+          "correct": false,
+          "explanation": "Page lock restricts editing, not moving or exporting at the workspace level."
+        },
+        {
+          "key": "C",
+          "text": "Activate security settings that limit sidebar changes and prevent pages from being moved or exported",
+          "correct": true,
+          "explanation": "The article lists this as a specific admin security option."
+        },
+        {
+          "key": "D",
+          "text": "Disable all third‑party integrations",
+          "correct": false,
+          "explanation": "Disabling integrations affects external apps, not page movement or export controls."
+        }
+      ]
+    },
+    {
+      "id": "admins-large-teams-007",
+      "question": "How does an admin control which third‑party integrations are allowed in the workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By setting permissions in the Members section",
+          "correct": false,
+          "explanation": "Member permissions govern access, not integration allowances."
+        },
+        {
+          "key": "B",
+          "text": "Through the workspace’s integration settings, enabling or disabling each app",
+          "correct": true,
+          "explanation": "Admins manage allowed integrations directly in workspace settings, as described."
+        },
+        {
+          "key": "C",
+          "text": "By adding a custom domain for shared pages",
+          "correct": false,
+          "explanation": "Domain settings affect URLs, not integration permissions."
+        },
+        {
+          "key": "D",
+          "text": "By creating a separate group for each integration",
+          "correct": false,
+          "explanation": "Groups organize users, not integration access."
+        }
+      ]
+    },
+    {
+      "id": "admins-large-teams-008",
+      "question": "What recent change to the sidebar is highlighted in the guide to make sharing with the right groups easier?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A new ‘Share with Teamspaces’ button that auto‑assigns groups",
+          "correct": false,
+          "explanation": "The guide mentions teamspaces but not a specific button."
+        },
+        {
+          "key": "B",
+          "text": "Updated sidebar elements that integrate with teamspaces, giving each team a dedicated home for work",
+          "correct": true,
+          "explanation": "The article notes that sidebar updates and teamspaces simplify sharing with appropriate groups."
+        },
+        {
+          "key": "C",
+          "text": "A collapsible sidebar that hides all sharing options by default",
+          "correct": false,
+          "explanation": "Hiding sharing options would not make sharing easier."
+        },
+        {
+          "key": "D",
+          "text": "Removal of the ‘Members’ section from the sidebar",
+          "correct": false,
+          "explanation": "The Members section remains; it is not removed."
+        }
+      ]
+    }
+  ]
+}

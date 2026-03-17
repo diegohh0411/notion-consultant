@@ -1,0 +1,317 @@
+{
+  "source": "notion-ai-connectors-for-google-drive",
+  "sourceTitle": "Google Drive AI Connector",
+  "sourceUrl": "https://www.notion.so/help/notion-ai-connectors-for-google-drive",
+  "questions": [
+    {
+      "id": "notion-ai-connectors-for-google-drive-001",
+      "question": "On which Notion plans is the Google Drive AI Connector available?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Free and Personal plans",
+          "correct": false,
+          "explanation": "The connector is not offered on free or personal plans."
+        },
+        {
+          "key": "B",
+          "text": "Business or Enterprise plans",
+          "correct": true,
+          "explanation": "Only Business and Enterprise plans include the Google Drive AI Connector."
+        },
+        {
+          "key": "C",
+          "text": "Education plan",
+          "correct": false,
+          "explanation": "Education plans are not mentioned as supporting this feature."
+        },
+        {
+          "key": "D",
+          "text": "All Notion plans",
+          "correct": false,
+          "explanation": "The feature is limited to higher‑tier plans, not all plans."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connectors-for-google-drive-002",
+      "question": "Who must be both a Google Drive admin and a Notion workspace owner to initiate the connection?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any member of the Notion workspace",
+          "correct": false,
+          "explanation": "Only a user with both admin and ownership roles can start the connection."
+        },
+        {
+          "key": "B",
+          "text": "A Google Drive admin who is also the Notion workspace owner",
+          "correct": true,
+          "explanation": "Both conditions are required for the initial setup."
+        },
+        {
+          "key": "C",
+          "text": "The Notion admin only",
+          "correct": false,
+          "explanation": "The Notion admin also needs Google Drive admin rights."
+        },
+        {
+          "key": "D",
+          "text": "A Google Workspace super‑admin only",
+          "correct": false,
+          "explanation": "Super‑admin is not sufficient; the user must also own the Notion workspace."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connectors-for-google-drive-003",
+      "question": "How long can the initial Google Drive‑Notion AI integration take to complete?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Up to 36 hours",
+          "correct": true,
+          "explanation": "The documentation states the connection may take up to 36 hours."
+        },
+        {
+          "key": "B",
+          "text": "5 minutes",
+          "correct": false,
+          "explanation": "The sync is far longer than a few minutes."
+        },
+        {
+          "key": "C",
+          "text": "24 hours",
+          "correct": false,
+          "explanation": "While possible, the maximum specified is 36 hours."
+        },
+        {
+          "key": "D",
+          "text": "72 hours",
+          "correct": false,
+          "explanation": "The stated maximum is 36 hours, not 72."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connectors-for-google-drive-004",
+      "question": "Which of the following file types is NOT supported by the Google Drive AI Connector?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Google Docs",
+          "correct": false,
+          "explanation": "Google Docs are explicitly supported."
+        },
+        {
+          "key": "B",
+          "text": "PDF files",
+          "correct": false,
+          "explanation": "PDFs are listed among supported uploaded file types."
+        },
+        {
+          "key": "C",
+          "text": ".xlsx spreadsheets",
+          "correct": false,
+          "explanation": ".xlsx files are supported as uploaded files."
+        },
+        {
+          "key": "D",
+          "text": ".mp4 video files",
+          "correct": true,
+          "explanation": "Video files like .mp4 are not mentioned as supported content types."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connectors-for-google-drive-005",
+      "question": "A file is shared with \"Anyone with link\" but you have never opened it. Will it appear in Notion AI search results?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, immediately after it is shared",
+          "correct": false,
+          "explanation": "The file must be visited at least once before it becomes searchable."
+        },
+        {
+          "key": "B",
+          "text": "No, it will never be searchable",
+          "correct": false,
+          "explanation": "It can become searchable after you visit it."
+        },
+        {
+          "key": "C",
+          "text": "Yes, after you have visited the link at least once",
+          "correct": true,
+          "explanation": "The connector requires a prior visit to index \"anyone with link\" files."
+        },
+        {
+          "key": "D",
+          "text": "Only admins can search it",
+          "correct": false,
+          "explanation": "Visiting the file is the gating condition, not admin status."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connectors-for-google-drive-006",
+      "question": "During installation in the Google Marketplace, which setting is recommended for the connector?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Install for yourself only",
+          "correct": false,
+          "explanation": "Limiting to yourself would prevent other users from accessing the connector."
+        },
+        {
+          "key": "B",
+          "text": "Install for All users in the organization",
+          "correct": true,
+          "explanation": "The article recommends installing for all users so everyone can use the connector."
+        },
+        {
+          "key": "C",
+          "text": "Install for selected groups only",
+          "correct": false,
+          "explanation": "While possible, it is not the recommended default."
+        },
+        {
+          "key": "D",
+          "text": "Do not install; use a manual API token",
+          "correct": false,
+          "explanation": "The connector relies on the Marketplace installation."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connectors-for-google-drive-007",
+      "question": "Which statement accurately describes Notion AI's handling of Google Drive permissions?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion AI can ignore Google Drive permissions and show all files to every user",
+          "correct": false,
+          "explanation": "Notion AI respects existing Drive permissions."
+        },
+        {
+          "key": "B",
+          "text": "Notion AI respects Google Drive permissions for both individual users and shared access types",
+          "correct": true,
+          "explanation": "The connector maps Drive permissions to Notion users, honoring restrictions."
+        },
+        {
+          "key": "C",
+          "text": "Only files owned by the connector initiator are searchable",
+          "correct": false,
+          "explanation": "Ownership by selected groups or users also grants access."
+        },
+        {
+          "key": "D",
+          "text": "Permissions are overridden so that all shared drives are always searchable",
+          "correct": false,
+          "explanation": "Permissions are not overridden; excluded drives remain hidden."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connectors-for-google-drive-008",
+      "question": "After the initial connection, how frequently does newly added content in Google Docs become searchable through Notion AI?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Every minute",
+          "correct": false,
+          "explanation": "The sync interval is longer than a minute."
+        },
+        {
+          "key": "B",
+          "text": "Every hour",
+          "correct": true,
+          "explanation": "New content is indexed approximately every hour."
+        },
+        {
+          "key": "C",
+          "text": "Every 24 hours",
+          "correct": false,
+          "explanation": "The article specifies an hourly update, not daily."
+        },
+        {
+          "key": "D",
+          "text": "Immediately after saving",
+          "correct": false,
+          "explanation": "There is a short delay; it is not instant."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connectors-for-google-drive-009",
+      "question": "A company wants a non‑super‑admin to initiate the Google Drive connection. Which set of privileges must be granted to that role?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Users → Select Read; Services → Drives and Docs → Settings; Google Workspace Marketplace → Settings",
+          "correct": false,
+          "explanation": "Missing several required privileges such as group selection and security center rights."
+        },
+        {
+          "key": "B",
+          "text": "Users → Select Read; Users → Select Groups; Services → Drives and Docs → Settings; Services → Security Center → Activity Rules → Manage & View; Google Workspace Marketplace → Settings; Admin API: Reports → Read, Groups → Select, Organization Units → Read",
+          "correct": true,
+          "explanation": "This combination matches the detailed list of privileges needed for a role without super‑admin rights."
+        },
+        {
+          "key": "C",
+          "text": "Only Google Workspace Marketplace → Settings",
+          "correct": false,
+          "explanation": "Far too limited; additional Drive and user/group privileges are required."
+        },
+        {
+          "key": "D",
+          "text": "Users → Select Groups; Services → Drives and Docs → Settings; Reports → Manager customer → Read",
+          "correct": false,
+          "explanation": "Missing essential read permissions for users and other admin API privileges."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connectors-for-google-drive-010",
+      "question": "Why will a file owned by a user in an excluded organizational unit not be ingested, even if the shared drive containing the file is included in the connector settings?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because Notion AI only checks the shared‑drive inclusion and ignores user ownership.",
+          "correct": false,
+          "explanation": "Both shared‑drive inclusion and user ownership are required for ingestion."
+        },
+        {
+          "key": "B",
+          "text": "Because the connector requires both the file to be owned by a selected user/group *and* the drive to be selected; exclusion of the org unit removes the user from the allowed set, so the file fails the ownership condition.",
+          "correct": true,
+          "explanation": "The file is blocked because the owner’s org unit is excluded, breaking the ownership rule even though the drive is allowed."
+        },
+        {
+          "key": "C",
+          "text": "Because shared drives automatically override any organizational‑unit exclusions.",
+          "correct": false,
+          "explanation": "Shared‑drive overrides do not apply to ownership checks; exclusions still apply."
+        },
+        {
+          "key": "D",
+          "text": "Because Notion AI treats all files in excluded org units as deleted.",
+          "correct": false,
+          "explanation": "Files are not deleted; they are simply not ingested due to permission mapping."
+        }
+      ]
+    }
+  ]
+}

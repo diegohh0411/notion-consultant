@@ -1,0 +1,317 @@
+{
+  "source": "guides_database-properties-help-organize-your-teams-information",
+  "sourceTitle": "Database properties help organize your team’s information",
+  "sourceUrl": "https://www.notion.so/help/guides/database-properties-help-organize-your-teams-information",
+  "questions": [
+    {
+      "id": "guides_database-properties-help-organize-your-teams-information-001",
+      "question": "Which property type lets you assign only one tag or value to a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select",
+          "correct": true,
+          "explanation": "Select properties allow you to choose a single option from a predefined list, perfect for single‑value tagging."
+        },
+        {
+          "key": "B",
+          "text": "Multi-select",
+          "correct": false,
+          "explanation": "Multi-select lets you choose multiple tags, not just one."
+        },
+        {
+          "key": "C",
+          "text": "Person",
+          "correct": false,
+          "explanation": "Person tags a user, but it’s not limited to a single predefined label like Select."
+        },
+        {
+          "key": "D",
+          "text": "Date",
+          "correct": false,
+          "explanation": "Date stores calendar information, not tags."
+        }
+      ]
+    },
+    {
+      "id": "guides_database-properties-help-organize-your-teams-information-002",
+      "question": "If you need to assign several attributes (e.g., multiple skills) to a single page, which property should you use?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select",
+          "correct": false,
+          "explanation": "Select only permits one choice per entry."
+        },
+        {
+          "key": "B",
+          "text": "Multi-select",
+          "correct": true,
+          "explanation": "Multi-select lets you pick multiple values, ideal for listing several skills."
+        },
+        {
+          "key": "C",
+          "text": "Date",
+          "correct": false,
+          "explanation": "Date records a point in time, not categorical attributes."
+        },
+        {
+          "key": "D",
+          "text": "Checkbox",
+          "correct": false,
+          "explanation": "Checkbox is a binary true/false field, not for multiple selections."
+        }
+      ]
+    },
+    {
+      "id": "guides_database-properties-help-organize-your-teams-information-003",
+      "question": "Which property automatically records the exact moment a page is first created?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Created time",
+          "correct": true,
+          "explanation": "Created time is a system‑generated timestamp that marks when a page is first made."
+        },
+        {
+          "key": "B",
+          "text": "Last edited time",
+          "correct": false,
+          "explanation": "Last edited time updates whenever the page changes, not when it’s created."
+        },
+        {
+          "key": "C",
+          "text": "Formula",
+          "correct": false,
+          "explanation": "Formula calculates values based on other properties; it doesn’t store creation timestamps."
+        },
+        {
+          "key": "D",
+          "text": "Rollup",
+          "correct": false,
+          "explanation": "Rollup aggregates data from related items; it doesn’t capture creation time."
+        }
+      ]
+    },
+    {
+      "id": "guides_database-properties-help-organize-your-teams-information-004",
+      "question": "What is the primary purpose of a Relation property?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To hide a property from certain views",
+          "correct": false,
+          "explanation": "Hiding properties is done via the visibility settings, not through Relations."
+        },
+        {
+          "key": "B",
+          "text": "To connect two separate databases so their records can reference each other",
+          "correct": true,
+          "explanation": "Relations create a link between items in different databases, enabling cross‑database references."
+        },
+        {
+          "key": "C",
+          "text": "To automatically calculate sums or averages",
+          "correct": false,
+          "explanation": "Calculations are performed by Formula or Rollup properties, not Relations."
+        },
+        {
+          "key": "D",
+          "text": "To store a single date range for a project",
+          "correct": false,
+          "explanation": "Date ranges belong to the Date property type."
+        }
+      ]
+    },
+    {
+      "id": "guides_database-properties-help-organize-your-teams-information-005",
+      "question": "You want a view that only shows the project’s DRI and launch date. How can you achieve this?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete all other properties from the database",
+          "correct": false,
+          "explanation": "Deleting properties removes data permanently; you can instead hide them in the view."
+        },
+        {
+          "key": "B",
+          "text": "Toggle the visibility of properties using the Properties menu at the top of the database",
+          "correct": true,
+          "explanation": "You can turn specific properties on or off for a given view, showing only what you need."
+        },
+        {
+          "key": "C",
+          "text": "Change the property type of other columns to Text",
+          "correct": false,
+          "explanation": "Changing types doesn’t affect visibility; it only alters the data format."
+        },
+        {
+          "key": "D",
+          "text": "Create a Formula that concatenates all other properties into one column",
+          "correct": false,
+          "explanation": "Formulas combine data but don’t hide other columns."
+        }
+      ]
+    },
+    {
+      "id": "guides_database-properties-help-organize-your-teams-information-006",
+      "question": "What distinguishes a Select property from a Multi-select property?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select allows only one option per entry, while Multi-select permits multiple options.",
+          "correct": true,
+          "explanation": "Select is for single‑choice tagging; Multi-select lets you assign several tags to the same record."
+        },
+        {
+          "key": "B",
+          "text": "Select stores dates, while Multi-select stores text.",
+          "correct": false,
+          "explanation": "Both store categorical data, not dates."
+        },
+        {
+          "key": "C",
+          "text": "Select can be hidden, but Multi-select cannot.",
+          "correct": false,
+          "explanation": "Visibility is independent of the property type."
+        },
+        {
+          "key": "D",
+          "text": "Select automatically creates a related database, while Multi-select does not.",
+          "correct": false,
+          "explanation": "Relations are a separate property type; Select and Multi-select are only tagging tools."
+        }
+      ]
+    },
+    {
+      "id": "guides_database-properties-help-organize-your-teams-information-007",
+      "question": "Which property type would you choose to store a candidate’s LinkedIn profile link?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "URL",
+          "correct": true,
+          "explanation": "The URL property is designed for web addresses such as LinkedIn profiles."
+        },
+        {
+          "key": "B",
+          "text": "Email",
+          "correct": false,
+          "explanation": "Email stores email addresses, not generic web links."
+        },
+        {
+          "key": "C",
+          "text": "Phone",
+          "correct": false,
+          "explanation": "Phone stores telephone numbers."
+        },
+        {
+          "key": "D",
+          "text": "Text",
+          "correct": false,
+          "explanation": "While you could paste a link into a Text property, the URL type provides link‑specific functionality."
+        }
+      ]
+    },
+    {
+      "id": "guides_database-properties-help-organize-your-teams-information-008",
+      "question": "How does a Rollup property work together with a Relation property?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rollup aggregates or calculates data from the items that are linked via the Relation.",
+          "correct": true,
+          "explanation": "Rollups pull in values from related records (established by a Relation) and can sum, count, average, etc."
+        },
+        {
+          "key": "B",
+          "text": "Rollup creates a new database that mirrors the related one.",
+          "correct": false,
+          "explanation": "Rollup does not duplicate databases; it only summarizes data."
+        },
+        {
+          "key": "C",
+          "text": "Rollup hides the Relation column from the view.",
+          "correct": false,
+          "explanation": "Visibility is controlled separately; Rollup doesn’t hide other columns."
+        },
+        {
+          "key": "D",
+          "text": "Rollup changes the data type of the Relation to a Date.",
+          "correct": false,
+          "explanation": "Rollup doesn’t alter the underlying Relation’s type; it merely computes based on it."
+        }
+      ]
+    },
+    {
+      "id": "guides_database-properties-help-organize-your-teams-information-009",
+      "question": "When would a Checkbox property be more appropriate than a Formula property?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you need a simple true/false indicator to track task completion.",
+          "correct": true,
+          "explanation": "Checkboxes provide a binary on/off toggle, perfect for marking steps as done."
+        },
+        {
+          "key": "B",
+          "text": "When you need to calculate the total cost of a project.",
+          "correct": false,
+          "explanation": "Cost calculations require arithmetic, which is handled by Formula."
+        },
+        {
+          "key": "C",
+          "text": "When you want to store a URL for a resource.",
+          "correct": false,
+          "explanation": "URLs belong in a URL property, not a Checkbox."
+        },
+        {
+          "key": "D",
+          "text": "When you need to connect two databases together.",
+          "correct": false,
+          "explanation": "Relations are used for linking databases, not Checkbox."
+        }
+      ]
+    },
+    {
+      "id": "guides_database-properties-help-organize-your-teams-information-010",
+      "question": "Which property type is best suited for assigning a project manager to a task?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Person",
+          "correct": true,
+          "explanation": "Person properties let you select a teammate, making them ideal for assigning owners."
+        },
+        {
+          "key": "B",
+          "text": "Select",
+          "correct": false,
+          "explanation": "Select can tag a name, but it doesn’t link to a user profile like Person does."
+        },
+        {
+          "key": "C",
+          "text": "Multi-select",
+          "correct": false,
+          "explanation": "Multi-select allows multiple tags, which isn’t necessary for a single manager."
+        },
+        {
+          "key": "D",
+          "text": "Date",
+          "correct": false,
+          "explanation": "Date records time information, not people."
+        }
+      ]
+    }
+  ]
+}

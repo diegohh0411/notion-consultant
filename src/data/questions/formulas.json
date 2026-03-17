@@ -1,0 +1,317 @@
+{
+  "source": "formulas",
+  "sourceTitle": "Intro to formulas",
+  "sourceUrl": "https://www.notion.so/help/formulas",
+  "questions": [
+    {
+      "id": "formulas-001",
+      "question": "Which function adds a specified amount of time to a date in Notion formulas?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "dateAdd()",
+          "correct": true,
+          "explanation": "dateAdd() adds the given amount of time (e.g., weeks, days) to a date value."
+        },
+        {
+          "key": "B",
+          "text": "now()",
+          "correct": false,
+          "explanation": "now() returns the current date and time; it does not modify a date."
+        },
+        {
+          "key": "C",
+          "text": "style()",
+          "correct": false,
+          "explanation": "style() applies visual formatting, not date arithmetic."
+        },
+        {
+          "key": "D",
+          "text": "length()",
+          "correct": false,
+          "explanation": "length() returns the length of a text or list, not a date operation."
+        }
+      ]
+    },
+    {
+      "id": "formulas-002",
+      "question": "In a Notion formula, what does the built‑in function now() return?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The current date and time",
+          "correct": true,
+          "explanation": "now() provides the exact moment the formula is evaluated, useful for comparisons."
+        },
+        {
+          "key": "B",
+          "text": "The start date of a project",
+          "correct": false,
+          "explanation": "The start date is a property you would reference directly, not the now() function."
+        },
+        {
+          "key": "C",
+          "text": "A formatted string of the date",
+          "correct": false,
+          "explanation": "now() returns a date object; formatting is done with other functions."
+        },
+        {
+          "key": "D",
+          "text": "The number of days since the epoch",
+          "correct": false,
+          "explanation": "Notion does not expose epoch time via now()."
+        }
+      ]
+    },
+    {
+      "id": "formulas-003",
+      "question": "Which operator is used to evaluate multiple conditions together in a Notion formula?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "and()",
+          "correct": true,
+          "explanation": "and() returns true only if all supplied conditions are true, allowing compound checks."
+        },
+        {
+          "key": "B",
+          "text": "or()",
+          "correct": false,
+          "explanation": "or() returns true if any condition is true; while useful, it doesn't require all conditions to be true."
+        },
+        {
+          "key": "C",
+          "text": ">",
+          "correct": false,
+          "explanation": "The > operator compares two values but does not combine multiple conditions."
+        },
+        {
+          "key": "D",
+          "text": "style()",
+          "correct": false,
+          "explanation": "style() formats output text; it does not evaluate logical conditions."
+        }
+      ]
+    },
+    {
+      "id": "formulas-004",
+      "question": "What does the length() function return when applied to a list property such as Tasks?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The number of items in the list",
+          "correct": true,
+          "explanation": "length() counts the elements in a list (or characters in a text), giving you the total."
+        },
+        {
+          "key": "B",
+          "text": "The sum of numeric values in the list",
+          "correct": false,
+          "explanation": "Summing values requires the sum() function; length() only counts items."
+        },
+        {
+          "key": "C",
+          "text": "The first item in the list",
+          "correct": false,
+          "explanation": "first() retrieves the first element; length() does not return an item itself."
+        },
+        {
+          "key": "D",
+          "text": "A boolean indicating if the list is empty",
+          "correct": false,
+          "explanation": "length() returns a number; a boolean check would use a comparison like length() == 0."
+        }
+      ]
+    },
+    {
+      "id": "formulas-005",
+      "question": "In the formula `style(\"Overdue\", \"red\", \"b\")`, what does the \"b\" argument specify?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bold formatting",
+          "correct": true,
+          "explanation": "\"b\" is the code for bold style, so the text will appear bold."
+        },
+        {
+          "key": "B",
+          "text": "Background color",
+          "correct": false,
+          "explanation": "Background colors are indicated by adding \"_background\" to a color name, not with \"b\"."
+        },
+        {
+          "key": "C",
+          "text": "Italic formatting",
+          "correct": false,
+          "explanation": "Italic is represented by \"i\"; \"b\" does not apply italics."
+        },
+        {
+          "key": "D",
+          "text": "Underline formatting",
+          "correct": false,
+          "explanation": "Underline uses \"u\"; \"b\" is solely for bold."
+        }
+      ]
+    },
+    {
+      "id": "formulas-006",
+      "question": "The RICE prioritization score is calculated as `Reach * Impact * Confidence / Effort`. Which mathematical concept does this formula illustrate?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Multiplication of three factors then division by a fourth",
+          "correct": true,
+          "explanation": "The formula multiplies Reach, Impact, and Confidence, then divides the product by Effort, reflecting a weighted score."
+        },
+        {
+          "key": "B",
+          "text": "Addition of all four factors",
+          "correct": false,
+          "explanation": "Addition would use \"+\" operators; the RICE formula uses multiplication and division."
+        },
+        {
+          "key": "C",
+          "text": "Subtraction of Effort from the sum of other factors",
+          "correct": false,
+          "explanation": "Subtraction is not part of the RICE calculation."
+        },
+        {
+          "key": "D",
+          "text": "Exponentiation of Reach by Impact",
+          "correct": false,
+          "explanation": "Exponentiation would use the \"^\" operator; the RICE formula does not exponentiate values."
+        }
+      ]
+    },
+    {
+      "id": "formulas-007",
+      "question": "Which of the following is NOT a place where Notion formulas can be used?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In a button action",
+          "correct": false,
+          "explanation": "Formulas can be used inside button actions."
+        },
+        {
+          "key": "B",
+          "text": "In a database automation action",
+          "correct": false,
+          "explanation": "Formulas are supported in database automation actions."
+        },
+        {
+          "key": "C",
+          "text": "As a page title directly",
+          "correct": true,
+          "explanation": "Formulas cannot be applied to the page title itself; they work in properties, buttons, or automations."
+        },
+        {
+          "key": "D",
+          "text": "As a database property",
+          "correct": false,
+          "explanation": "Database properties are the primary location for formulas."
+        }
+      ]
+    },
+    {
+      "id": "formulas-008",
+      "question": "In Example 3, the ternary expression `All subtasks done? ? \"Done\" : Parent Task.Status` is used. What does this expression accomplish?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sets the parent task’s status to \"Done\" only when all subtasks are marked Done, otherwise leaves the status unchanged.",
+          "correct": true,
+          "explanation": "The ternary checks the boolean variable; if true it returns \"Done\", else it returns the existing status."
+        },
+        {
+          "key": "B",
+          "text": "Always overwrites the parent task’s status with \"Done\" regardless of subtasks.",
+          "correct": false,
+          "explanation": "The expression only returns \"Done\" when the condition is true."
+        },
+        {
+          "key": "C",
+          "text": "Deletes the parent task if any subtask is not Done.",
+          "correct": false,
+          "explanation": "The formula does not delete items; it only sets a status value."
+        },
+        {
+          "key": "D",
+          "text": "Counts the number of subtasks that are Done.",
+          "correct": false,
+          "explanation": "Counting would use a function like every() or length(), not a ternary assignment."
+        }
+      ]
+    },
+    {
+      "id": "formulas-009",
+      "question": "Which limitation applies to Notion AI when assisting with formulas?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It cannot generate random numbers because Notion formulas lack a random() function.",
+          "correct": true,
+          "explanation": "Notion AI cannot produce random numbers as the formula language does not support random() logic."
+        },
+        {
+          "key": "B",
+          "text": "It cannot suggest using built‑ins like now() or dateAdd().",
+          "correct": false,
+          "explanation": "Notion AI can suggest built‑ins; the limitation is about iterative logic and randomness."
+        },
+        {
+          "key": "C",
+          "text": "It cannot edit formulas inside button actions.",
+          "correct": false,
+          "explanation": "AI can help with formulas in button actions; the restriction is about loops and random generation."
+        },
+        {
+          "key": "D",
+          "text": "It cannot format output text with style().",
+          "correct": false,
+          "explanation": "Styling is supported; the AI limitation concerns loops and random functions."
+        }
+      ]
+    },
+    {
+      "id": "formulas-010",
+      "question": "When creating a new formula property, which of the following steps is performed first?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Select the slider icon at the top of a database",
+          "correct": true,
+          "explanation": "The first action is to click the slider icon, then edit properties and add a new Formula property."
+        },
+        {
+          "key": "B",
+          "text": "Choose the Formula type from the property menu",
+          "correct": false,
+          "explanation": "Choosing the type comes after opening the properties panel via the slider icon."
+        },
+        {
+          "key": "C",
+          "text": "Enter the formula text in the editor",
+          "correct": false,
+          "explanation": "Entering the formula occurs after the property has been created."
+        },
+        {
+          "key": "D",
+          "text": "Give the property a name",
+          "correct": false,
+          "explanation": "Naming the property follows the creation step, not the initial click on the slider icon."
+        }
+      ]
+    }
+  ]
+}

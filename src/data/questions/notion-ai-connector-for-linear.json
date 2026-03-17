@@ -1,0 +1,286 @@
+{
+  "source": "notion-ai-connector-for-linear",
+  "sourceTitle": "Linear AI Connector",
+  "sourceUrl": "https://www.notion.so/help/notion-ai-connector-for-linear",
+  "questions": [
+    {
+      "id": "notion-ai-connector-for-linear-001",
+      "question": "Who is eligible to connect Linear to Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any Linear member",
+          "correct": false,
+          "explanation": "Only a Linear workspace admin can initiate the connection."
+        },
+        {
+          "key": "B",
+          "text": "Any Notion workspace member",
+          "correct": false,
+          "explanation": "The Notion workspace must have an owner perform the connection, not just any member."
+        },
+        {
+          "key": "C",
+          "text": "Only workspaces on the Personal plan",
+          "correct": false,
+          "explanation": "The workspace must be on the Business or Enterprise plan."
+        },
+        {
+          "key": "D",
+          "text": "All of the above conditions must be met",
+          "correct": true,
+          "explanation": "You need to be a Linear admin, a Notion owner, and be on a Business/Enterprise plan."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-linear-002",
+      "question": "What is the maximum time the initial Linear‑Notion AI integration can take to complete?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Up to 12 hours",
+          "correct": false,
+          "explanation": "The article states the process can take longer than 12 hours."
+        },
+        {
+          "key": "B",
+          "text": "Up to 24 hours",
+          "correct": false,
+          "explanation": "While possible, the upper limit mentioned is higher."
+        },
+        {
+          "key": "C",
+          "text": "Up to 36 hours",
+          "correct": true,
+          "explanation": "The integration can take up to 36 hours depending on workspace size."
+        },
+        {
+          "key": "D",
+          "text": "Up to 48 hours",
+          "correct": false,
+          "explanation": "48 hours exceeds the maximum time described."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-linear-003",
+      "question": "Does Notion AI ingest attachments and documents from Linear?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, all file types are imported",
+          "correct": false,
+          "explanation": "The article explicitly says attachments are not ingested."
+        },
+        {
+          "key": "B",
+          "text": "No, attachments are not ingested at this time",
+          "correct": true,
+          "explanation": "Currently, Notion AI does not read attachments or documents from Linear."
+        },
+        {
+          "key": "C",
+          "text": "Only PDFs are imported",
+          "correct": false,
+          "explanation": "No file type is imported right now."
+        },
+        {
+          "key": "D",
+          "text": "Only images are imported",
+          "correct": false,
+          "explanation": "Images are also not imported according to the article."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-linear-004",
+      "question": "Which type of Linear data is NOT currently supported for Notion AI to read?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Issue title",
+          "correct": false,
+          "explanation": "Issue titles are included in the data Notion AI can read."
+        },
+        {
+          "key": "B",
+          "text": "Issue comments",
+          "correct": false,
+          "explanation": "Comments are part of the accessible data."
+        },
+        {
+          "key": "C",
+          "text": "Project progress",
+          "correct": true,
+          "explanation": "Project progress (and milestones) are explicitly not supported yet."
+        },
+        {
+          "key": "D",
+          "text": "Assignee information",
+          "correct": false,
+          "explanation": "Assignee details are included in the accessible data."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-linear-005",
+      "question": "How frequently does Notion AI sync permission changes between Linear and Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Every 15 minutes",
+          "correct": false,
+          "explanation": "The sync interval is longer than 15 minutes."
+        },
+        {
+          "key": "B",
+          "text": "Every hour",
+          "correct": true,
+          "explanation": "Permission changes are synced hourly, as stated in the article."
+        },
+        {
+          "key": "C",
+          "text": "Every 24 hours",
+          "correct": false,
+          "explanation": "Sync occurs more often than once a day."
+        },
+        {
+          "key": "D",
+          "text": "In real‑time",
+          "correct": false,
+          "explanation": "The system does not provide real‑time syncing; it runs hourly."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-linear-006",
+      "question": "After the integration is set up, for how far back can Notion AI reference issue updates?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The last 30 days",
+          "correct": false,
+          "explanation": "The retention window is longer than 30 days."
+        },
+        {
+          "key": "B",
+          "text": "The last 6 months",
+          "correct": false,
+          "explanation": "The article specifies a one‑year look‑back."
+        },
+        {
+          "key": "C",
+          "text": "The last year",
+          "correct": true,
+          "explanation": "Notion AI can reference issues updated within the past year."
+        },
+        {
+          "key": "D",
+          "text": "All historical updates",
+          "correct": false,
+          "explanation": "Only the most recent year is accessible."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-linear-007",
+      "question": "Can a user who is a Linear member but NOT a Notion workspace member use the integration?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, they can read data but not write",
+          "correct": false,
+          "explanation": "Both memberships are required to use the integration."
+        },
+        {
+          "key": "B",
+          "text": "No, they cannot use the integration",
+          "correct": true,
+          "explanation": "The integration is limited to individuals who belong to both workspaces."
+        },
+        {
+          "key": "C",
+          "text": "Only if they are a Linear admin",
+          "correct": false,
+          "explanation": "Admin status alone does not bypass the Notion membership requirement."
+        },
+        {
+          "key": "D",
+          "text": "Only for read‑only access",
+          "correct": false,
+          "explanation": "Access is blocked entirely without Notion membership."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-linear-008",
+      "question": "Where can a Linear admin revoke the Notion AI connector’s access?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In Notion AI settings under Linear",
+          "correct": false,
+          "explanation": "Admins revoke from Linear, not from Notion."
+        },
+        {
+          "key": "B",
+          "text": "In Linear’s Applications settings",
+          "correct": true,
+          "explanation": "Admins go to Settings → Applications → select the app → Revoke access."
+        },
+        {
+          "key": "C",
+          "text": "In the Notion workspace settings page",
+          "correct": false,
+          "explanation": "Revocation for admins is performed in Linear, not Notion."
+        },
+        {
+          "key": "D",
+          "text": "In Linear team settings under ‘Integrations’",
+          "correct": false,
+          "explanation": "The correct path is through Applications, not team settings."
+        }
+      ]
+    },
+    {
+      "id": "notion-ai-connector-for-linear-009",
+      "question": "Which of the following is NOT part of the official Linear‑Notion AI connection workflow?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Navigate to Settings → Notion AI → Linear in Notion and click Linear",
+          "correct": false,
+          "explanation": "This is the first step in the documented process."
+        },
+        {
+          "key": "B",
+          "text": "Authorize Linear to access your team when redirected",
+          "correct": false,
+          "explanation": "Granting authorization is required after the redirect."
+        },
+        {
+          "key": "C",
+          "text": "Manually upload a CSV of issues to Notion",
+          "correct": true,
+          "explanation": "The workflow never mentions uploading a CSV; data sync is automatic."
+        },
+        {
+          "key": "D",
+          "text": "If the redirect fails, click “Check connection” in Notion to retry",
+          "correct": false,
+          "explanation": "The article instructs users to use “Check connection” after a failed redirect."
+        }
+      ]
+    }
+  ]
+}

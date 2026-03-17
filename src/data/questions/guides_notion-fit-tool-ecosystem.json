@@ -1,0 +1,317 @@
+{
+  "source": "guides_notion-fit-tool-ecosystem",
+  "sourceTitle": "Where does Notion fit into your company’s tool ecosystem?",
+  "sourceUrl": "https://www.notion.so/help/guides/notion-fit-tool-ecosystem",
+  "questions": [
+    {
+      "id": "notion-fit-tool-ecosystem-001",
+      "question": "What is the primary difference between Notion and Slack as described in the guide?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion is used for real‑time chat while Slack is for long‑form documentation.",
+          "correct": false,
+          "explanation": "This reverses the roles; Slack is the real‑time chat tool and Notion is for asynchronous, long‑form collaboration."
+        },
+        {
+          "key": "B",
+          "text": "Notion supports asynchronous collaboration and Slack supports real‑time discussion.",
+          "correct": true,
+          "explanation": "Correct – the guide defines Notion as the async workspace and Slack as the real‑time messaging platform."
+        },
+        {
+          "key": "C",
+          "text": "Both Notion and Slack are primarily used for video conferencing.",
+          "correct": false,
+          "explanation": "Neither tool is built for video conferencing; they serve different communication purposes."
+        },
+        {
+          "key": "D",
+          "text": "Notion and Slack are interchangeable and can replace each other fully.",
+          "correct": false,
+          "explanation": "The guide stresses that they complement each other rather than replace one another."
+        }
+      ]
+    },
+    {
+      "id": "notion-fit-tool-ecosystem-002",
+      "question": "Which of the following is NOT listed as a type of content you can embed directly into a Notion page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Google Maps",
+          "correct": false,
+          "explanation": "Google Maps is explicitly mentioned as an embeddable content type."
+        },
+        {
+          "key": "B",
+          "text": "Figma mockups",
+          "correct": false,
+          "explanation": "Figma files are given as an example of embed-able design work."
+        },
+        {
+          "key": "C",
+          "text": "YouTube videos",
+          "correct": false,
+          "explanation": "YouTube videos are a common embed target, and the guide references watching a video on YouTube."
+        },
+        {
+          "key": "D",
+          "text": "Desktop application installers",
+          "correct": true,
+          "explanation": "Installers are not web‑based content; the guide only mentions online media such as videos, maps, PDFs, etc."
+        }
+      ]
+    },
+    {
+      "id": "notion-fit-tool-ecosystem-003",
+      "question": "According to the guide, what is the main advantage of using link previews inside Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They permanently store a copy of the external document within Notion.",
+          "correct": false,
+          "explanation": "Link previews fetch live data; they don’t store a static copy of the external content."
+        },
+        {
+          "key": "B",
+          "text": "They provide real‑time, synced information from other tools without leaving Notion.",
+          "correct": true,
+          "explanation": "Correct – link previews bring live data from tools like Jira, GitHub, Slack, etc., directly into Notion."
+        },
+        {
+          "key": "C",
+          "text": "They automatically convert all external links into PDF files.",
+          "correct": false,
+          "explanation": "The guide never mentions automatic PDF conversion."
+        },
+        {
+          "key": "D",
+          "text": "They replace the need for any external tool altogether.",
+          "correct": false,
+          "explanation": "Link previews complement tools; they don’t eliminate the external tools themselves."
+        }
+      ]
+    },
+    {
+      "id": "notion-fit-tool-ecosystem-004",
+      "question": "A product team wants to survey users without opening a separate survey platform. Which Notion feature should they use, based on the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a native Notion form using the built‑in database.",
+          "correct": false,
+          "explanation": "Notion databases can collect data, but the guide specifically mentions embedding Typeform for surveys."
+        },
+        {
+          "key": "B",
+          "text": "Embed a Typeform survey directly into a Notion page.",
+          "correct": true,
+          "explanation": "Correct – the guide lists embedding Typeforms as a way to survey users inside Notion."
+        },
+        {
+          "key": "C",
+          "text": "Use a Slack message preview to capture survey responses.",
+          "correct": false,
+          "explanation": "Slack previews are for linking content, not for gathering survey data."
+        },
+        {
+          "key": "D",
+          "text": "Upload a PDF of the survey and ask teammates to fill it out.",
+          "correct": false,
+          "explanation": "A PDF would not provide the interactive survey experience described."
+        }
+      ]
+    },
+    {
+      "id": "notion-fit-tool-ecosystem-005",
+      "question": "Which statement best captures the guide’s recommendation for teams that have overlapping tool responsibilities?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Eliminate all tools except Notion to avoid any overlap.",
+          "correct": false,
+          "explanation": "The guide says Notion enhances the ecosystem, not that it should replace every other tool."
+        },
+        {
+          "key": "B",
+          "text": "Define clear internal guidelines about where work should happen while allowing some overlap.",
+          "correct": true,
+          "explanation": "Correct – the guide advises setting clear guidelines and leaving room for overlap."
+        },
+        {
+          "key": "C",
+          "text": "Only use Notion for documentation and Slack for everything else.",
+          "correct": false,
+          "explanation": "While common, the guide emphasizes more nuanced integration, not a strict split."
+        },
+        {
+          "key": "D",
+          "text": "Rotate teams weekly between Notion and other tools to keep skills fresh.",
+          "correct": false,
+          "explanation": "Rotating tools isn’t suggested; the focus is on reducing context switching, not frequent switching."
+        }
+      ]
+    },
+    {
+      "id": "notion-fit-tool-ecosystem-006",
+      "question": "In the guide, which of the following use‑cases is NOT suggested as a potential consolidation opportunity within Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Issue tracking",
+          "correct": false,
+          "explanation": "Issue tracking is listed under the \"Projects\" category for consolidation."
+        },
+        {
+          "key": "B",
+          "text": "Brand guidelines and assets",
+          "correct": false,
+          "explanation": "Brand guidelines are mentioned as a specialized tool that can be consolidated."
+        },
+        {
+          "key": "C",
+          "text": "Time management and meeting scheduling",
+          "correct": false,
+          "explanation": "Calendars and scheduling are included in the consolidation list."
+        },
+        {
+          "key": "D",
+          "text": "Real‑time video conferencing",
+          "correct": true,
+          "explanation": "The guide does not list video conferencing as a consolidation candidate; it focuses on docs, project, calendar, and specialized content tools."
+        }
+      ]
+    },
+    {
+      "id": "notion-fit-tool-ecosystem-007",
+      "question": "Why does the guide suggest embedding a Figma file into a Notion page for a marketing team?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because Notion can edit the Figma design directly within the embed.",
+          "correct": false,
+          "explanation": "Notion cannot edit Figma files; it only displays them for review."
+        },
+        {
+          "key": "B",
+          "text": "To allow the marketing team to view and comment on the design without leaving Notion, reducing context switches.",
+          "correct": true,
+          "explanation": "Correct – embedding lets the marketing team see the design in context, minimizing the need to open a separate tool."
+        },
+        {
+          "key": "C",
+          "text": "Because Figma embeds automatically convert the design into a PDF for archival.",
+          "correct": false,
+          "explanation": "Embedding does not convert files; it presents a live preview."
+        },
+        {
+          "key": "D",
+          "text": "To synchronize the design’s version history with Notion’s page history.",
+          "correct": false,
+          "explanation": "Version synchronization is not a feature of Notion embeds."
+        }
+      ]
+    },
+    {
+      "id": "notion-fit-tool-ecosystem-008",
+      "question": "A team decides to use link previews for Jira tickets inside Notion. Which benefit described in the guide will they most directly experience?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "All team members will be able to edit Jira tickets directly from Notion.",
+          "correct": false,
+          "explanation": "Link previews display information; they don’t provide full editing capabilities."
+        },
+        {
+          "key": "B",
+          "text": "Non‑engineering teammates can see real‑time ticket status without sending Slack messages or emails.",
+          "correct": true,
+          "explanation": "Correct – the guide highlights that link previews give visibility to status updates, reducing the need for extra communications."
+        },
+        {
+          "key": "C",
+          "text": "Jira will automatically archive completed tickets once they appear in Notion.",
+          "correct": false,
+          "explanation": "Archiving is not a function of Notion link previews."
+        },
+        {
+          "key": "D",
+          "text": "The team can replace Jira entirely with Notion’s built‑in issue tracker.",
+          "correct": false,
+          "explanation": "The guide stresses complementing, not replacing, existing tools."
+        }
+      ]
+    },
+    {
+      "id": "notion-fit-tool-ecosystem-009",
+      "question": "Which of the following best explains why the guide describes Notion as \"the connective tissue\" of an organization’s tool ecosystem?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because Notion physically connects all the servers used by other tools.",
+          "correct": false,
+          "explanation": "The phrase is metaphorical, not about physical network connections."
+        },
+        {
+          "key": "B",
+          "text": "Because Notion aggregates content and context from multiple tools into a single source of truth.",
+          "correct": true,
+          "explanation": "Correct – the guide explains that Notion synthesizes information, acting as the glue between tools."
+        },
+        {
+          "key": "C",
+          "text": "Because Notion replaces every other collaboration tool in the ecosystem.",
+          "correct": false,
+          "explanation": "The guide explicitly says Notion enhances, not replaces, other tools."
+        },
+        {
+          "key": "D",
+          "text": "Because Notion automatically migrates data from all other tools into its database.",
+          "correct": false,
+          "explanation": "Automatic migration isn’t mentioned; integration is achieved via embeds and link previews."
+        }
+      ]
+    },
+    {
+      "id": "notion-fit-tool-ecosystem-010",
+      "question": "If a company wants to reduce the average of 88 tools they currently use, which strategy from the guide should they prioritize first?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Migrate every existing tool’s data into Notion and discontinue the original tools.",
+          "correct": false,
+          "explanation": "The guide advises complementing, not fully replacing, tools."
+        },
+        {
+          "key": "B",
+          "text": "Identify overlapping functionalities and use Notion’s embedding and link preview features to centralize access.",
+          "correct": true,
+          "explanation": "Correct – the guide suggests using embeds and previews to bring overlapping tools together, reducing context switching."
+        },
+        {
+          "key": "C",
+          "text": "Create a separate Notion workspace for each tool to keep them isolated.",
+          "correct": false,
+          "explanation": "Separating workspaces would increase fragmentation rather than consolidate."
+        },
+        {
+          "key": "D",
+          "text": "Replace all communication with Slack and use Notion only for file storage.",
+          "correct": false,
+          "explanation": "The guide emphasizes both tools’ distinct roles; using only Slack for communication would ignore Notion’s async strengths."
+        }
+      ]
+    }
+  ]
+}

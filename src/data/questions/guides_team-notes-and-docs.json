@@ -1,0 +1,224 @@
+{
+  "source": "guides_team-notes-and-docs",
+  "sourceTitle": "Building a comprehensive team notes & docs database",
+  "sourceUrl": "https://www.notion.so/help/guides/team-notes-and-docs",
+  "questions": [
+    {
+      "id": "guides_team-notes-and-docs-001",
+      "question": "What is the main advantage of Notion’s ability to organize notes?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It makes notes look more colorful",
+          "correct": false,
+          "explanation": "Visual appeal is not the primary advantage highlighted."
+        },
+        {
+          "key": "B",
+          "text": "It makes them easily accessible and useful for the whole team",
+          "correct": true,
+          "explanation": "Correct – organized notes are quickly reachable and beneficial to all teammates."
+        },
+        {
+          "key": "C",
+          "text": "It automatically translates notes into multiple languages",
+          "correct": false,
+          "explanation": "Notion does not provide automatic translation."
+        },
+        {
+          "key": "D",
+          "text": "It encrypts notes for extra security",
+          "correct": false,
+          "explanation": "Encryption is a separate security feature, not the core benefit of organization."
+        }
+      ]
+    },
+    {
+      "id": "guides_team-notes-and-docs-002",
+      "question": "Which Notion feature lets you start building a team notes database quickly?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Writing a custom API integration",
+          "correct": false,
+          "explanation": "APIs are for advanced automation, not quick database creation."
+        },
+        {
+          "key": "B",
+          "text": "Using templates from the template gallery",
+          "correct": true,
+          "explanation": "Correct – templates provide pre‑made structures for fast setup."
+        },
+        {
+          "key": "C",
+          "text": "Installing a third‑party plugin",
+          "correct": false,
+          "explanation": "Notion’s native templates are the recommended shortcut."
+        },
+        {
+          "key": "D",
+          "text": "Manually typing each page from scratch",
+          "correct": false,
+          "explanation": "This is the slowest method and not a quick start option."
+        }
+      ]
+    },
+    {
+      "id": "guides_team-notes-and-docs-003",
+      "question": "How can you customize the way teammates view data inside a Notion database?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By changing the workspace’s theme colors",
+          "correct": false,
+          "explanation": "Theme colors affect appearance, not data view configurations."
+        },
+        {
+          "key": "B",
+          "text": "By creating custom properties and views",
+          "correct": true,
+          "explanation": "Correct – custom properties define data fields, and views let users filter/sort as they need."
+        },
+        {
+          "key": "C",
+          "text": "By uploading a CSV file for each teammate",
+          "correct": false,
+          "explanation": "CSV upload adds data but does not customize individual views."
+        },
+        {
+          "key": "D",
+          "text": "By enabling read‑only mode for the whole database",
+          "correct": false,
+          "explanation": "Read‑only restricts editing; it does not tailor how data is displayed."
+        }
+      ]
+    },
+    {
+      "id": "guides_team-notes-and-docs-004",
+      "question": "What purpose do database templates for recurring meetings serve?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They automatically schedule the meetings on the calendar",
+          "correct": false,
+          "explanation": "Scheduling is a separate calendar function, not a template’s role."
+        },
+        {
+          "key": "B",
+          "text": "They streamline the note‑taking process for each meeting",
+          "correct": true,
+          "explanation": "Correct – templates pre‑populate sections, saving time for recurring meetings."
+        },
+        {
+          "key": "C",
+          "text": "They lock the meeting notes so no one can edit them",
+          "correct": false,
+          "explanation": "Templates do not enforce read‑only status."
+        },
+        {
+          "key": "D",
+          "text": "They convert meeting notes into PDF automatically",
+          "correct": false,
+          "explanation": "Exporting to PDF is a manual action, unrelated to templates."
+        }
+      ]
+    },
+    {
+      "id": "guides_team-notes-and-docs-005",
+      "question": "How can you quickly see which meeting notes are related to a specific project?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By copying the project name into each meeting note manually",
+          "correct": false,
+          "explanation": "Manual copying is error‑prone and not the efficient method described."
+        },
+        {
+          "key": "B",
+          "text": "By linking the meeting notes database to the project database",
+          "correct": true,
+          "explanation": "Correct – linking databases creates relational connections that surface related notes."
+        },
+        {
+          "key": "C",
+          "text": "By creating a separate page for each project and pasting notes there",
+          "correct": false,
+          "explanation": "Separate pages duplicate information instead of linking."
+        },
+        {
+          "key": "D",
+          "text": "By using the search bar with the project’s keyword",
+          "correct": false,
+          "explanation": "Search can find matches but does not provide a relational view."
+        }
+      ]
+    },
+    {
+      "id": "guides_team-notes-and-docs-006",
+      "question": "If you want every new meeting note to automatically include sections for agenda, attendees, and action items, which Notion feature should you use and why?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create a database template with those pre‑filled sections, because templates prepopulate fields for each new entry",
+          "correct": true,
+          "explanation": "Correct – a database template can define default content and properties, ensuring consistency for each new meeting note."
+        },
+        {
+          "key": "B",
+          "text": "Set up a recurring reminder in the calendar to remind you to add those sections",
+          "correct": false,
+          "explanation": "Reminders only prompt you; they don’t automatically insert content."
+        },
+        {
+          "key": "C",
+          "text": "Use a third‑party automation tool to copy a text block into each new page",
+          "correct": false,
+          "explanation": "While possible, the native Notion solution is to use a database template, which is simpler and built‑in."
+        },
+        {
+          "key": "D",
+          "text": "Enable read‑only mode on a master page that contains the sections",
+          "correct": false,
+          "explanation": "Read‑only prevents editing but does not add the sections to new notes."
+        }
+      ]
+    },
+    {
+      "id": "guides_team-notes-and-docs-007",
+      "question": "What is a key advantage of linking one Notion database to another instead of duplicating information across pages?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It reduces the total storage space used by the workspace",
+          "correct": false,
+          "explanation": "Storage impact is minimal; the main benefit is data integrity."
+        },
+        {
+          "key": "B",
+          "text": "It maintains a single source of truth and updates automatically across linked records",
+          "correct": true,
+          "explanation": "Correct – linked databases reflect changes in real time, avoiding inconsistencies."
+        },
+        {
+          "key": "C",
+          "text": "It automatically backs up the data to an external server",
+          "correct": false,
+          "explanation": "Backup is a separate feature; linking does not create external copies."
+        },
+        {
+          "key": "D",
+          "text": "It hides the linked data from teammates who don’t have edit permissions",
+          "correct": false,
+          "explanation": "Permissions are controlled separately; linking does not inherently hide data."
+        }
+      ]
+    }
+  ]
+}

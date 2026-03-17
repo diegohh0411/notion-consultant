@@ -1,0 +1,224 @@
+{
+  "source": "guides_a-designers-ultimate-guide-to-using-notion",
+  "sourceTitle": "A designer's ultimate guide to using Notion",
+  "sourceUrl": "https://www.notion.so/help/guides_a-designers-ultimate-guide-to-using-notion",
+  "questions": [
+    {
+      "id": "guides_a-designers-ultimate-guide-to-using-notion-001",
+      "question": "Which of the following view types can a Notion database be displayed as?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gallery",
+          "correct": false,
+          "explanation": "Gallery is one option, but not the only one."
+        },
+        {
+          "key": "B",
+          "text": "List",
+          "correct": false,
+          "explanation": "List is another option, but still not the full answer."
+        },
+        {
+          "key": "C",
+          "text": "Board",
+          "correct": false,
+          "explanation": "Board is also available, yet the question asks for all possible types."
+        },
+        {
+          "key": "D",
+          "text": "All of the above (Gallery, List, and Board)",
+          "correct": true,
+          "explanation": "Notion databases can be viewed as galleries, lists, or boards, so “All of the above” is correct."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-designers-ultimate-guide-to-using-notion-002",
+      "question": "Which of these design‑focused tools can be embedded directly into a Notion page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Figma",
+          "correct": true,
+          "explanation": "Figma is explicitly mentioned as an embeddable app."
+        },
+        {
+          "key": "B",
+          "text": "Adobe Photoshop",
+          "correct": false,
+          "explanation": "Photoshop cannot be embedded; Notion only supports web‑based embeds."
+        },
+        {
+          "key": "C",
+          "text": "Sketch",
+          "correct": false,
+          "explanation": "Sketch files must be uploaded, not embedded as live content."
+        },
+        {
+          "key": "D",
+          "text": "Microsoft Paint",
+          "correct": false,
+          "explanation": "Paint is not a web app and cannot be embedded."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-designers-ultimate-guide-to-using-notion-003",
+      "question": "How can a designer share a Notion page with someone who is not a member of their workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Export the page as a PDF and email it",
+          "correct": false,
+          "explanation": "Exporting works, but it does not give the recipient an interactive Notion page."
+        },
+        {
+          "key": "B",
+          "text": "Create a public URL for the page",
+          "correct": true,
+          "explanation": "A public URL lets anyone with the link view the page without a Notion account."
+        },
+        {
+          "key": "C",
+          "text": "Add them as a guest member of the workspace",
+          "correct": false,
+          "explanation": "Guests must still be invited; this is not the same as a simple share link."
+        },
+        {
+          "key": "D",
+          "text": "Copy‑paste the content into a Google Doc",
+          "correct": false,
+          "explanation": "This loses Notion‑specific features and is not a native sharing method."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-designers-ultimate-guide-to-using-notion-004",
+      "question": "What is the primary purpose of the “Design System” database mentioned in the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store reusable code snippets for developers",
+          "correct": false,
+          "explanation": "Code snippets belong in a code‑oriented database, not the Design System."
+        },
+        {
+          "key": "B",
+          "text": "To organize product design and development assets",
+          "correct": true,
+          "explanation": "The guide states the Design System database helps organize product design and development."
+        },
+        {
+          "key": "C",
+          "text": "To manage the team’s financial budget",
+          "correct": false,
+          "explanation": "Financial management is unrelated to a design system database."
+        },
+        {
+          "key": "D",
+          "text": "To track website traffic analytics",
+          "correct": false,
+          "explanation": "Analytics tracking is not a function of the Design System database."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-designers-ultimate-guide-to-using-notion-005",
+      "question": "Which of the following is NOT a typical use case for custom Notion templates for designers?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Creating recurring meeting notes",
+          "correct": false,
+          "explanation": "Recurring meeting notes are a common template use for designers."
+        },
+        {
+          "key": "B",
+          "text": "Embedding live video streams",
+          "correct": true,
+          "explanation": "While Notion can embed videos, using a template solely for live streaming is not a typical design workflow."
+        },
+        {
+          "key": "C",
+          "text": "Storing design asset libraries",
+          "correct": false,
+          "explanation": "Templates are often built to house asset libraries."
+        },
+        {
+          "key": "D",
+          "text": "Adding code blocks to any page",
+          "correct": false,
+          "explanation": "Code blocks can be added via templates, especially for design‑dev handoff."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-designers-ultimate-guide-to-using-notion-006",
+      "question": "A designer wants to visualize their project pipeline as cards that move through stages (e.g., \"Concept\", \"In Review\", \"Completed\"). Which Notion view should they choose and why?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gallery view, because it shows large preview images of each project.",
+          "correct": false,
+          "explanation": "Gallery is visual but does not support stage‑based columns."
+        },
+        {
+          "key": "B",
+          "text": "Board view, because it lets you create columns for each stage and drag cards between them.",
+          "correct": true,
+          "explanation": "Board view is designed for Kanban‑style workflows, perfect for moving items through defined stages."
+        },
+        {
+          "key": "C",
+          "text": "List view, because it provides a simple checklist of tasks.",
+          "correct": false,
+          "explanation": "List view is linear and lacks the columnar stage representation."
+        },
+        {
+          "key": "D",
+          "text": "Calendar view, because it shows deadlines for each project.",
+          "correct": false,
+          "explanation": "Calendar is date‑focused and does not display stage columns."
+        }
+      ]
+    },
+    {
+      "id": "guides_a-designers-ultimate-guide-to-using-notion-007",
+      "question": "Approximately how many templates are available in Notion’s template gallery according to the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "1,000",
+          "correct": false,
+          "explanation": "The guide mentions a larger collection than 1,000."
+        },
+        {
+          "key": "B",
+          "text": "5,000",
+          "correct": false,
+          "explanation": "The number is higher than 5,000."
+        },
+        {
+          "key": "C",
+          "text": "Over 10,000",
+          "correct": true,
+          "explanation": "The guide specifically says there are over 10,000 templates."
+        },
+        {
+          "key": "D",
+          "text": "20,000",
+          "correct": false,
+          "explanation": "While the exact number isn’t given, the guide only guarantees “over 10,000,” not as high as 20,000."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "source": "asana-ai-connector.md",
+  "sourceTitle": "Asana AI Connector",
+  "sourceUrl": "https://www.notion.so/help/asana-ai-connector",
+  "questions": [
+    {
+      "id": "asana-ai-connector-001",
+      "question": "Who is required to connect Asana to Notion AI?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any workspace member with a Business plan",
+          "correct": false,
+          "explanation": "You must be a Notion workspace owner to initiate the connection."
+        },
+        {
+          "key": "B",
+          "text": "You must be a Notion workspace owner",
+          "correct": true,
+          "explanation": "Only workspace owners are permitted to connect third-party apps like Asana to Notion AI."
+        },
+        {
+          "key": "C",
+          "text": "Any user with an Asana Advanced plan",
+          "correct": false,
+          "explanation": "The connection permissions depend on the Notion plan (Business or Enterprise) and the Asana role."
+        },
+        {
+          "key": "D",
+          "text": "An Asana Admin or IT Manager",
+          "correct": false,
+          "explanation": "While Asana Enterprise admins manage the connection on their end, the action is initiated by the Notion workspace owner."
+        }
+      ]
+    },
+    {
+      "id": "asana-ai-connector-002",
+      "question": "How do you initiate the connection process in Notion?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Navigate to Settings > Integrations > Add Asana",
+          "correct": false,
+          "explanation": "The connection must be initiated through the Notion AI interface, not the general Settings menu."
+        },
+        {
+          "key": "B",
+          "text": "Open Notion AI, click 'All sources' → 'Connect apps'",
+          "correct": true,
+          "explanation": "This directs you to the correct modal where you select 'Notion AI' and then click the '+' next to Asana."
+        },
+        {
+          "key": "C",
+          "text": "Go to the Asana website and click 'Connect with Notion'",
+          "correct": false,
+          "explanation": "The connection must be managed entirely within the Notion application to ensure proper permission mapping."
+        },
+        {
+          "key": "D",
+          "text": "Contact Support to request an API connection",
+          "correct": false,
+          "explanation": "The connector is built directly into Notion AI and does not require manual API requests from the user."
+        }
+      ]
+    },
+    {
+      "id": "asana-ai-connector-003",
+      "question": "Which method is required for Asana Enterprise customers to establish the connection?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Redirect to Asana to click 'Allow'",
+          "correct": false,
+          "explanation": "This method is only used for 'All other plans' (Personal, Starter, Advanced)."
+        },
+        {
+          "key": "B",
+          "text": "Enter an API token provided by the admin",
+          "correct": true,
+          "explanation": "For Enterprise accounts, admins must generate and input a service account token with full permissions."
+        },
+        {
+          "key": "C",
+          "text": "Manually upload a CSV file of tasks",
+          "correct": false,
+          "explanation": "The connector reads data directly from the Asana API; CSV imports are not supported."
+        },
+        {
+          "key": "D",
+          "text": "Connect via OAuth 2.0 login",
+          "correct": false,
+          "explanation": "Enterprise connections use API tokens, not the standard OAuth login flow."
+        }
+      ]
+    },
+    {
+      "id": "asana-ai-connector-004",
+      "question": "When connecting using 'All other plans', what is the maximum scope of data accessible?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "All private projects and tasks in the workspace",
+          "correct": false,
+          "explanation": "Notion AI cannot access private projects where the connecting user is not a member."
+        },
+        {
+          "key": "B",
+          "text": "Only tasks assigned to the user who created the connection",
+          "correct": false,
+          "explanation": "Users can access tasks they have general permissions for, not just assigned tasks."
+        },
+        {
+          "key": "C",
+          "text": "Public projects and private projects the user is a member of",
+          "correct": true,
+          "explanation": "This is the correct scope: public projects plus private projects where the user holds membership."
+        },
+        {
+          "key": "D",
+          "text": "No data, as 'All other plans' are currently unsupported",
+          "correct": false,
+          "explanation": "All other plan types (Personal, Starter, Advanced) are fully supported."
+        }
+      ]
+    },
+    {
+      "id": "asana-ai-connector-005",
+      "question": "Can you limit your search scope to only Notion content?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, Notion AI searches everything simultaneously",
+          "correct": false,
+          "explanation": "You can toggle the search scope to focus on specific sources."
+        },
+        {
+          "key": "B",
+          "text": "Yes, use the 'Find in' toggle to select 'Notion'",
+          "correct": true,
+          "explanation": "The 'Find in' dropdown allows you to switch between 'Everything', 'Notion', and 'Asana'."
+        },
+        {
+          "key": "C",
+          "text": "Yes, by unchecking the Asana box in settings",
+          "correct": false,
+          "explanation": "There is no checkbox to disable a source; you must use the 'Find in' toggle."
+        },
+        {
+          "key": "D",
+          "text": "No, the integration is read-only",
+          "correct": false,
+          "explanation": "Search scope control is a feature of the search interface, not related to read/write permissions."
+        }
+      ]
+    },
+    {
+      "id": "asana-ai-connector-006",
+      "question": "How quickly does Notion AI typically index new Asana tasks?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediately upon creation",
+          "correct": false,
+          "explanation": "There is a slight delay in indexing to ensure data consistency."
+        },
+        {
+          "key": "B",
+          "text": "Within 2 hours",
+          "correct": true,
+          "explanation": "New projects and tasks are usually available in Notion AI searches within 2 hours of creation."
+        },
+        {
+          "key": "C",
+          "text": "Up to 72 hours",
+          "correct": false,
+          "explanation": "72 hours is the maximum time for the full integration to complete, not the indexing time for new content."
+        },
+        {
+          "key": "D",
+          "text": "Once the user logs in again",
+          "correct": false,
+          "explanation": "The indexing is automatic and happens in the background."
+        }
+      ]
+    },
+    {
+      "id": "asana-ai-connector-007",
+      "question": "How far back does the integration look for historical data during setup?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "30 days",
+          "correct": false,
+          "explanation": "The integration has a wider historical window than just 30 days."
+        },
+        {
+          "key": "B",
+          "text": "6 months",
+          "correct": false,
+          "explanation": "The historical data window is longer than 6 months."
+        },
+        {
+          "key": "C",
+          "text": "1 year",
+          "correct": true,
+          "explanation": "Once set up, the integration can find projects and tasks created, viewed, or modified in the past year."
+        },
+        {
+          "key": "D",
+          "text": "Indefinitely",
+          "correct": false,
+          "explanation": "The connector is limited to the last year of historical data."
+        }
+      ]
+    },
+    {
+      "id": "asana-ai-connector-008",
+      "question": "Is it possible to connect multiple Asana workspaces to a single Notion workspace?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, you can connect unlimited workspaces",
+          "correct": false,
+          "explanation": "The current integration limits one Asana workspace per Notion workspace."
+        },
+        {
+          "key": "B",
+          "text": "Yes, but only if you are an Enterprise admin",
+          "correct": false,
+          "explanation": "Even Enterprise admins are limited to connecting one Asana workspace to one Notion workspace."
+        },
+        {
+          "key": "C",
+          "text": "No, only one Asana workspace can be connected",
+          "correct": true,
+          "explanation": "The system does not currently support connecting multiple distinct Asana workspaces to a single Notion workspace."
+        },
+        {
+          "key": "D",
+          "text": "Yes, but you must create a new Notion workspace for each",
+          "correct": false,
+          "explanation": "The limitation is at the workspace level, not the account level."
+        }
+      ]
+    },
+    {
+      "id": "asana-ai-connector-009",
+      "question": "What happens to your Asana data immediately after disconnecting the integration?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is permanently deleted from Asana",
+          "correct": false,
+          "explanation": "Disconnecting does not affect data stored within the Asana platform itself."
+        },
+        {
+          "key": "B",
+          "text": "It becomes unsearchable in Notion AI",
+          "correct": true,
+          "explanation": "Notion applies the principle of data minimization, making the data unsearchable immediately upon disconnection."
+        },
+        {
+          "key": "C",
+          "text": "It is archived for 30 days before deletion",
+          "correct": false,
+          "explanation": "There is no archival period; access is revoked immediately."
+        },
+        {
+          "key": "D",
+          "text": "It is sent to your personal email",
+          "correct": false,
+          "explanation": "Disconnecting does not export or email the data."
+        }
+      ]
+    },
+    {
+      "id": "asana-ai-connector-010",
+      "question": "How does Notion store Asana projects and tasks?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "As raw SQL database entries",
+          "correct": false,
+          "explanation": "Notion uses vector databases for efficient semantic search capabilities."
+        },
+        {
+          "key": "B",
+          "text": "As embeddings in vector databases like Turbopuffer",
+          "correct": true,
+          "explanation": "These embeddings allow for efficient and accurate searches across different text data."
+        },
+        {
+          "key": "C",
+          "text": "As HTML files in a cloud storage bucket",
+          "correct": false,
+          "explanation": "Data is stored in a structured vector format, not as file exports."
+        },
+        {
+          "key": "D",
+          "text": "As metadata in a spreadsheet",
+          "correct": false,
+          "explanation": "The storage method is optimized for AI processing and retrieval, not spreadsheet compatibility."
+        }
+      ]
+    },
+    {
+      "id": "asana-ai-connector-011",
+      "question": "Is a Service account mandatory for Enterprise customers to use the Asana connector?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, it is required to establish the connection",
+          "correct": false,
+          "explanation": "While a token is required for the connection, a Service account is not mandatory."
+        },
+        {
+          "key": "B",
+          "text": "No, but it is recommended to access private tasks",
+          "correct": true,
+          "explanation": "Without a Service account, Notion AI may miss 'user-created' private tasks that are not linked to a project."
+        },
+        {
+          "key": "C",
+          "text": "Yes, only for reading public tasks",
+          "correct": false,
+          "explanation": "The Service account provides broader access to private data not tied to a project."
+        },
+        {
+          "key": "D",
+          "text": "No, it is only for exporting data to Notion",
+          "correct": false,
+          "explanation": "The Service account is for internal reading and processing of data within Notion."
+        }
+      ]
+    }
+  ]
+}

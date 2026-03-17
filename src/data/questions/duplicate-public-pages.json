@@ -1,0 +1,255 @@
+{
+  "source": "duplicate-public-pages",
+  "sourceTitle": "Duplicate public pages",
+  "sourceUrl": "https://www.notion.so/help/duplicate-public-pages",
+  "questions": [
+    {
+      "id": "duplicate-public-pages-001",
+      "question": "After duplicating a public page, where is the duplicated page located in your sidebar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Public section",
+          "correct": false,
+          "explanation": "The Public section is for pages you have published to the web. Duplicated pages are copied into your personal workspace."
+        },
+        {
+          "key": "B",
+          "text": "The Private section of your sidebar",
+          "correct": true,
+          "explanation": "Correct. When you duplicate a page, the browser redirects you to the page located in the Private section of your sidebar."
+        },
+        {
+          "key": "C",
+          "text": "The Trash section",
+          "correct": false,
+          "explanation": "Pages are not moved to the Trash when duplicated; they are copied to your active workspace."
+        },
+        {
+          "key": "D",
+          "text": "The Shared with me section",
+          "correct": false,
+          "explanation": "The Shared with me section is for pages shared by others, not for your own copies."
+        }
+      ]
+    },
+    {
+      "id": "duplicate-public-pages-002",
+      "question": "What is the first step required to duplicate a Notion page you found on the web?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Open the page and select 'Edit'",
+          "correct": false,
+          "explanation": "Selecting 'Edit' opens the page for viewing, but you must select 'Duplicate' to make a copy."
+        },
+        {
+          "key": "B",
+          "text": "Log into Notion on your browser",
+          "correct": true,
+          "explanation": "Correct. The process begins by logging into your Notion account on the browser."
+        },
+        {
+          "key": "C",
+          "text": "Go to Settings and toggle off 'Duplicate as template'",
+          "correct": false,
+          "explanation": "This setting prevents duplication, but you must be logged in to perform the duplication action itself."
+        },
+        {
+          "key": "D",
+          "text": "Select 'Site customization' from the top menu",
+          "correct": false,
+          "explanation": "Site customization is used to change how a published page looks, not to duplicate it."
+        }
+      ]
+    },
+    {
+      "id": "duplicate-public-pages-003",
+      "question": "What happens immediately after you click 'Duplicate' on a public page before the browser redirects?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The original page is deleted",
+          "correct": false,
+          "explanation": "The original page remains unchanged. You are simply creating a copy."
+        },
+        {
+          "key": "B",
+          "text": "You are asked to choose a target workspace from a dropdown",
+          "correct": true,
+          "explanation": "Correct. The browser will prompt you to select which workspace you want to copy the page into."
+        },
+        {
+          "key": "C",
+          "text": "The page is immediately moved to the Trash",
+          "correct": false,
+          "explanation": "Pages are not moved to the Trash upon duplication; they are created as new items in your selected workspace."
+        },
+        {
+          "key": "D",
+          "text": "You are redirected to a login page",
+          "correct": false,
+          "explanation": "Since you must be logged in to duplicate, you will not be redirected to a login page at this stage."
+        }
+      ]
+    },
+    {
+      "id": "duplicate-public-pages-004",
+      "question": "When you duplicate a page, what is included in the copy by default?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the blocks visible on the main view",
+          "correct": false,
+          "explanation": "The duplication process is recursive and includes all nested content."
+        },
+        {
+          "key": "B",
+          "text": "The page and all sub-pages",
+          "correct": true,
+          "explanation": "Correct. The duplicated page includes all sub-pages contained in the original page."
+        },
+        {
+          "key": "C",
+          "text": "Only the title and cover image",
+          "correct": false,
+          "explanation": "The duplication copies the structure and content, not just metadata like the title or cover."
+        },
+        {
+          "key": "D",
+          "text": "Nothing, as it is a template link",
+          "correct": false,
+          "explanation": "The duplication creates a full copy of the page structure and content in your workspace."
+        }
+      ]
+    },
+    {
+      "id": "duplicate-public-pages-005",
+      "question": "How can you prevent others from duplicating your public page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By turning off 'Duplicate as template' in Site customization",
+          "correct": true,
+          "explanation": "Correct. You can disable the duplication option by toggling off 'Duplicate as template' in the Header settings under Site customization."
+        },
+        {
+          "key": "B",
+          "text": "By moving the page to the Private section",
+          "correct": false,
+          "explanation": "Moving a page to the Private section does not disable the duplication option for public pages."
+        },
+        {
+          "key": "C",
+          "text": "By deleting the page immediately after publishing",
+          "correct": false,
+          "explanation": "Deleting the page removes it entirely. To prevent duplication, you must use the Site customization settings."
+        },
+        {
+          "key": "D",
+          "text": "By setting the page to 'Read Only' in the Share menu",
+          "correct": false,
+          "explanation": "The 'Read Only' setting prevents editing, but it does not necessarily prevent users from duplicating the page as a template."
+        }
+      ]
+    },
+    {
+      "id": "duplicate-public-pages-006",
+      "question": "What should you do if you see blocks labeled 'No access' after duplicating a page?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Leave them there, as they are part of the original design",
+          "correct": false,
+          "explanation": "These blocks are artifacts from the original page that likely were not intended to be duplicated."
+        },
+        {
+          "key": "B",
+          "text": "Contact the original author to request access",
+          "correct": false,
+          "explanation": "Since you own the copy, you do not need access to the original page to handle these blocks."
+        },
+        {
+          "key": "C",
+          "text": "Delete them from your workspace",
+          "correct": true,
+          "explanation": "Correct. The article notes that these blocks are most likely not intended to be duplicated and can be deleted."
+        },
+        {
+          "key": "D",
+          "text": "Move them to a different sub-page",
+          "correct": false,
+          "explanation": "Deleting is the recommended action, as these blocks are essentially errors in the copy."
+        }
+      ]
+    },
+    {
+      "id": "duplicate-public-pages-007",
+      "question": "In the Site customization settings, which specific component must be selected to toggle off duplication?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fonts",
+          "correct": false,
+          "explanation": "Fonts are for changing typography, not for toggling page duplication settings."
+        },
+        {
+          "key": "B",
+          "text": "Header",
+          "correct": true,
+          "explanation": "Correct. You must select the 'Header' component within Site customization to find the 'Duplicate as template' toggle."
+        },
+        {
+          "key": "C",
+          "text": "Navigation",
+          "correct": false,
+          "explanation": "Navigation settings control menu links, not the ability to duplicate the page content."
+        },
+        {
+          "key": "D",
+          "text": "Footer",
+          "correct": false,
+          "explanation": "Footer settings control bottom links, not the duplication toggle."
+        }
+      ]
+    },
+    {
+      "id": "duplicate-public-pages-008",
+      "question": "Can you edit the duplicated page immediately after the browser redirects you to the Private section?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, the page is locked until you refresh",
+          "correct": false,
+          "explanation": "There is no locking mechanism preventing you from editing immediately."
+        },
+        {
+          "key": "B",
+          "text": "Yes, you can edit it and its sub-pages just like any other page",
+          "correct": true,
+          "explanation": "Correct. The duplicated page is fully editable in your workspace."
+        },
+        {
+          "key": "C",
+          "text": "Only the sub-pages, not the main page",
+          "correct": false,
+          "explanation": "You can edit the entire structure, including the main page and all sub-pages."
+        },
+        {
+          "key": "D",
+          "text": "Only if you are the owner of the original page",
+          "correct": false,
+          "explanation": "Once duplicated, the page belongs to you, so you have full editing rights regardless of the original owner."
+        }
+      ]
+    }
+  ]
+}

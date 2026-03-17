@@ -1,0 +1,224 @@
+{
+  "source": "cant-access-notion",
+  "sourceTitle": "I can’t access Notion",
+  "sourceUrl": "https://www.notion.com/help/cant-access-notion",
+  "questions": [
+    {
+      "id": "cant-access-notion-001",
+      "question": "If you suspect Notion is experiencing an outage, where should you check first for live updates on known issues?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Notion status page",
+          "correct": true,
+          "explanation": "The article explicitly states to check the status page first to see if there are any known issues affecting access."
+        },
+        {
+          "key": "B",
+          "text": "The Notion login page",
+          "correct": false,
+          "explanation": "The login page is where you try to access the app, not where you check for server-wide outages or known issues."
+        },
+        {
+          "key": "C",
+          "text": "Your local computer settings",
+          "correct": false,
+          "explanation": "While computer settings might be the issue, the article recommends checking the official status page before troubleshooting your local network."
+        },
+        {
+          "key": "D",
+          "text": "The Notion mobile app store",
+          "correct": false,
+          "explanation": "The app store is not mentioned as a source for checking server status or known issues."
+        }
+      ]
+    },
+    {
+      "id": "cant-access-notion-002",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Firewalls, VPNs, and privacy software",
+          "correct": true,
+          "explanation": "All three—firewalls, VPNs, and privacy/security software—are listed as potential blockers that should be disabled to test access."
+        },
+        {
+          "key": "B",
+          "text": "Web browsers and operating systems",
+          "correct": false,
+          "explanation": "While browsers and OS are mentioned for testing access, the article specifically lists software like firewalls and VPNs as potential blockers."
+        },
+        {
+          "key": "C",
+          "text": "Network cables and modems",
+          "correct": false,
+          "explanation": "Physical hardware like cables is not mentioned in the troubleshooting steps provided."
+        },
+        {
+          "key": "D",
+          "text": "Antivirus software only",
+          "correct": false,
+          "explanation": "The article mentions 'privacy or security software' broadly, which includes firewalls and VPNs, not just antivirus."
+        }
+      ],
+      "question": "Which of the following types of software should you try disabling if you are unable to access Notion?"
+    },
+    {
+      "id": "cant-access-notion-003",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.1.1.1",
+          "correct": true,
+          "explanation": "Google's DNS (8.8.8.8) and Cloudflare's DNS (1.1.1.1) are explicitly mentioned as public DNS options to try if DNS issues are suspected."
+        },
+        {
+          "key": "B",
+          "text": "192.168.0.1",
+          "correct": false,
+          "explanation": "192.168.0.1 is typically a default local router IP address, not a public DNS server recommended for troubleshooting domain resolution."
+        },
+        {
+          "key": "C",
+          "text": "8.8.8.8",
+          "correct": true,
+          "explanation": "Google's DNS (8.8.8.8) and Cloudflare's DNS (1.1.1.1) are explicitly mentioned as public DNS options to try if DNS issues are suspected."
+        },
+        {
+          "key": "D",
+          "text": "10.0.0.1",
+          "correct": false,
+          "explanation": "10.0.0.1 is a common private IP address for routers, not a public DNS server recommended for fixing domain access issues."
+        }
+      ],
+      "question": "If you suspect a DNS issue is blocking your access, the article suggests changing your DNS to a public one. Which IP addresses are mentioned as valid options?"
+    },
+    {
+      "id": "cant-access-notion-004",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": ".com",
+          "correct": false,
+          "explanation": ".com is a generic top-level domain and not specific to Notion, so it is not the domain the article suggests checking for ISP blocking."
+        },
+        {
+          "key": "B",
+          "text": ".net",
+          "correct": false,
+          "explanation": ".net is a generic top-level domain and not specific to Notion, so it is not the domain the article suggests checking for ISP blocking."
+        },
+        {
+          "key": "C",
+          "text": ".so",
+          "correct": true,
+          "explanation": "The article specifically mentions checking if your ISP is blocking the .so or notion.so domain."
+        },
+        {
+          "key": "D",
+          "text": ".org",
+          "correct": false,
+          "explanation": ".org is a generic top-level domain and not specific to Notion, so it is not the domain the article suggests checking for ISP blocking."
+        }
+      ],
+      "question": "If your Internet Service Provider (ISP) might be blocking access, which domain extension should you check?"
+    },
+    {
+      "id": "cant-access-notion-005",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Switch to a different browser",
+          "correct": true,
+          "explanation": "The article suggests trying a different browser, device, or platform to isolate the issue. If the browser works but the app doesn't, the app is the issue."
+        },
+        {
+          "key": "B",
+          "text": "Uninstall the desktop app completely",
+          "correct": false,
+          "explanation": "The article does not suggest uninstalling the app as the first troubleshooting step; it suggests testing access via the browser instead."
+        },
+        {
+          "key": "C",
+          "text": "Change your DNS settings immediately",
+          "correct": false,
+          "explanation": "Changing DNS is listed as a step for specific network issues, but the article first suggests checking the status page and trying a different browser."
+        },
+        {
+          "key": "D",
+          "text": "Contact Notion customer support",
+          "correct": false,
+          "explanation": "The article provides self-service troubleshooting steps before suggesting contacting support (via the 'Learn more' links)."
+        }
+      ],
+      "question": "If you are experiencing access issues with the desktop app, what specific cross-platform action is recommended in the article to help isolate the problem?"
+    },
+    {
+      "id": "cant-access-notion-006",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Facebook",
+          "correct": false,
+          "explanation": "The article specifically mentions X (formerly Twitter) as a source for live updates, not Facebook."
+        },
+        {
+          "key": "B",
+          "text": "X",
+          "correct": true,
+          "explanation": "The article lists X as one of the places to check for live updates on any known issues."
+        },
+        {
+          "key": "C",
+          "text": "LinkedIn",
+          "correct": false,
+          "explanation": "LinkedIn is not mentioned in the article as a source for Notion status updates."
+        },
+        {
+          "key": "D",
+          "text": "Instagram",
+          "correct": false,
+          "explanation": "Instagram is not mentioned in the article as a source for Notion status updates."
+        }
+      ],
+      "question": "Besides the status page, where else does the article suggest checking for live updates on any known issues?"
+    },
+    {
+      "id": "cant-access-notion-007",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Change your DNS to 8.8.8.8",
+          "correct": false,
+          "explanation": "While changing DNS is a step, it is listed after checking the status page and disabling security software."
+        },
+        {
+          "key": "B",
+          "text": "Check the status page",
+          "correct": true,
+          "explanation": "The very first bullet point in the article instructs you to check the status page for live updates on known issues."
+        },
+        {
+          "key": "C",
+          "text": "Install a new firewall",
+          "correct": false,
+          "explanation": "The article suggests disabling existing firewalls or VPNs, not installing new ones."
+        },
+        {
+          "key": "D",
+          "text": "Use a different browser",
+          "correct": false,
+          "explanation": "This is a later troubleshooting step, not the first action recommended."
+        }
+      ],
+      "question": "According to the article, what is the first step to take if you can't access Notion?"
+    }
+  ]
+}

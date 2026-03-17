@@ -1,0 +1,317 @@
+{
+  "source": "columns-headings-and-dividers",
+  "sourceTitle": "Format your page",
+  "sourceUrl": "https://www.notion.so/help/columns-headings-and-dividers",
+  "questions": [
+    {
+      "id": "columns-headings-and-dividers-001",
+      "question": "How can you create a new column for your text on a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Click the Table icon in the left margin",
+          "correct": false,
+          "explanation": "Clicking the Table icon creates a simple table, not a column layout."
+        },
+        {
+          "key": "B",
+          "text": "Type '# ' followed by space to create a header column",
+          "correct": false,
+          "explanation": "Using '# ' creates an H1 heading, not a side-by-side column."
+        },
+        {
+          "key": "C",
+          "text": "Click and drag the text you want to move, following the blue guides",
+          "correct": true,
+          "explanation": "You can create columns by dragging text blocks and dropping them using the blue guides that appear."
+        },
+        {
+          "key": "D",
+          "text": "Select the 'Turn into database' option from the top menu",
+          "correct": false,
+          "explanation": "This converts a table to a database, which organizes data differently than a column layout."
+        }
+      ]
+    },
+    {
+      "id": "columns-headings-and-dividers-002",
+      "question": "What happens to content in the right-hand column if you view your Notion page on a mobile device?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The content disappears entirely",
+          "correct": false,
+          "explanation": "The content does not disappear; it is simply repositioned."
+        },
+        {
+          "key": "B",
+          "text": "The content in the right column is moved under the content in the left column",
+          "correct": true,
+          "explanation": "On mobile, columns are not supported, so the right column content stacks vertically below the left column content."
+        },
+        {
+          "key": "C",
+          "text": "It turns into a database view",
+          "correct": false,
+          "explanation": "Viewing on mobile does not automatically convert a column layout into a database."
+        },
+        {
+          "key": "D",
+          "text": "It is deleted automatically",
+          "correct": false,
+          "explanation": "Columns are not deleted when viewed on mobile; they are just reflowed."
+        }
+      ]
+    },
+    {
+      "id": "columns-headings-and-dividers-003",
+      "question": "How do you turn a standard heading (like H2) into a collapsible toggle heading?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over the heading and select the six-dot icon to create a header row",
+          "correct": false,
+          "explanation": "The six-dot icon is used for making table headers, not for toggling headings."
+        },
+        {
+          "key": "B",
+          "text": "Type '/toggle' in the block",
+          "correct": false,
+          "explanation": "There is no '/toggle' command; you must convert the existing heading block."
+        },
+        {
+          "key": "C",
+          "text": "Hover over the heading or text and select Turn into, then select Toggle heading",
+          "correct": true,
+          "explanation": "You can convert any heading or text block into a toggle heading by selecting 'Turn into' from the menu."
+        },
+        {
+          "key": "D",
+          "text": "Click the Cmd/Ctrl + / command and select 'Collapse'",
+          "correct": false,
+          "explanation": "The Cmd/Ctrl + / command converts text to a heading, not a toggle."
+        }
+      ]
+    },
+    {
+      "id": "columns-headings-and-dividers-004",
+      "question": "Which of the following is a correct method to add a divider to a page?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type '---' (three hyphens) followed by space",
+          "correct": true,
+          "explanation": "Three hyphens in a row will automatically create a divider block."
+        },
+        {
+          "key": "B",
+          "text": "Type '/divider' and press Enter",
+          "correct": false,
+          "explanation": "The correct slash command is '/div', not '/divider'."
+        },
+        {
+          "key": "C",
+          "text": "Hover over the right margin and click the plus icon",
+          "correct": false,
+          "explanation": "The plus icon appears in the left margin, not the right."
+        },
+        {
+          "key": "D",
+          "text": "Drag the bottom-right corner of a table block",
+          "correct": false,
+          "explanation": "Dragging the bottom-right corner of a table is used to resize the table itself, not create a divider."
+        }
+      ]
+    },
+    {
+      "id": "columns-headings-and-dividers-005",
+      "question": "How can you add a row to an existing simple table?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over the left side of the table and click +",
+          "correct": false,
+          "explanation": "Clicking the left side adds a column, not a row."
+        },
+        {
+          "key": "B",
+          "text": "Hover over the bottom of the table and click +",
+          "correct": true,
+          "explanation": "Hovering over the bottom of the table reveals a + button to add a new row."
+        },
+        {
+          "key": "C",
+          "text": "Drag the bottom-right corner to the right",
+          "correct": false,
+          "explanation": "Dragging the bottom-right corner adjusts the width and can add rows/columns, but it is not the specific method described for adding just a row."
+        },
+        {
+          "key": "D",
+          "text": "Click the six-dot icon on the first cell",
+          "correct": false,
+          "explanation": "The six-dot icon is used to make a column a header, not to add a row."
+        }
+      ]
+    },
+    {
+      "id": "columns-headings-and-dividers-006",
+      "question": "You want to change the color of your Table of Contents block. What happens if you change the color?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It only applies to the text of the headings in the TOC",
+          "correct": false,
+          "explanation": "The color applies to the entire Table of Contents block, not just individual text items."
+        },
+        {
+          "key": "B",
+          "text": "It applies to the whole Table of Contents",
+          "correct": true,
+          "explanation": "When you change the color of a Table of Contents, it applies to the entire list of headings."
+        },
+        {
+          "key": "C",
+          "text": "It changes the color of the individual headings on the page",
+          "correct": false,
+          "explanation": "Changing the TOC color does not alter the color of the headings on the main page."
+        },
+        {
+          "key": "D",
+          "text": "It is not possible to color a Table of Contents block",
+          "correct": false,
+          "explanation": "You can select the Color option from the menu to change the TOC's appearance."
+        }
+      ]
+    },
+    {
+      "id": "columns-headings-and-dividers-007",
+      "question": "What is the Markdown shortcut for creating an H2 heading?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "#",
+          "correct": false,
+          "explanation": "The '#' symbol creates an H1 heading."
+        },
+        {
+          "key": "B",
+          "text": "##",
+          "correct": true,
+          "explanation": "Two hash symbols (##) followed by a space creates an H2 heading."
+        },
+        {
+          "key": "C",
+          "text": "###",
+          "correct": false,
+          "explanation": "The '###' symbol creates an H3 heading."
+        },
+        {
+          "key": "D",
+          "text": "##",
+          "correct": false,
+          "explanation": "Triple hashes create an H3, not an H2."
+        }
+      ]
+    },
+    {
+      "id": "columns-headings-and-dividers-008",
+      "question": "Can you paste multiple cells at once into a simple table?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, you can select multiple cells and paste them at once",
+          "correct": false,
+          "explanation": "At this time, you cannot paste multiple simple table cells at once."
+        },
+        {
+          "key": "B",
+          "text": "No, you must add cells one by one",
+          "correct": true,
+          "explanation": "The help center explicitly notes that pasting multiple cells at once is not currently supported for simple tables."
+        },
+        {
+          "key": "C",
+          "text": "Yes, but only if the table is empty",
+          "correct": false,
+          "explanation": "This limitation applies regardless of whether the table is empty or has existing content."
+        },
+        {
+          "key": "D",
+          "text": "No, simple tables do not support pasting at all",
+          "correct": false,
+          "explanation": "You can paste text into a cell, just not multiple cells simultaneously."
+        }
+      ]
+    },
+    {
+      "id": "columns-headings-and-dividers-009",
+      "question": "How do you remove an empty column from a layout?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over the column and click the trash icon",
+          "correct": false,
+          "explanation": "There is no trash icon for columns; you must use the drag and drop method or the Delete option."
+        },
+        {
+          "key": "B",
+          "text": "Drag the content back under the left column until the blue guide spans the width of the page",
+          "correct": false,
+          "explanation": "This is the method for removing columns when they have content. If the column is empty, this won't work."
+        },
+        {
+          "key": "C",
+          "text": "Click the '⋮⋮' icon and select Delete",
+          "correct": true,
+          "explanation": "When a column is empty, clicking the handle (⋮⋮) and selecting Delete removes the column format."
+        },
+        {
+          "key": "D",
+          "text": "Turn the column into a database",
+          "correct": false,
+          "explanation": "Converting a column to a database isn't the standard way to remove an empty column; Delete is the specific action."
+        }
+      ]
+    },
+    {
+      "id": "columns-headings-and-dividers-010",
+      "question": "When viewing a page-level Table of Contents, which headings are indented?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "H1 headings are indented to show they are the main topic",
+          "correct": false,
+          "explanation": "Only H2 and H3 headings are included and indented to reflect the page structure."
+        },
+        {
+          "key": "B",
+          "text": "H2 and H3 headings are indented to reflect the page structure",
+          "correct": true,
+          "explanation": "The Table of Contents lists all headings; H2s and H3s appear indented to show their hierarchy relative to H1s."
+        },
+        {
+          "key": "C",
+          "text": "All headings are indented the same amount",
+          "correct": false,
+          "explanation": "Indentation is used to visually distinguish between secondary (H2) and tertiary (H3) headings."
+        },
+        {
+          "key": "D",
+          "text": "Only headings that have been converted to toggles are indented",
+          "correct": false,
+          "explanation": "Toggle headings work just like regular headings regarding the Table of Contents listing."
+        }
+      ]
+    }
+  ]
+}

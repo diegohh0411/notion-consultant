@@ -1,0 +1,224 @@
+{
+  "source": "guides_a-notion-guide-on-switching-between-work-and-personal-accounts",
+  "sourceTitle": "A Notion guide on switching between work and personal accounts",
+  "sourceUrl": "https://www.notion.so/help/guides/a-notion-guide-on-switching-between-work-and-personal-accounts",
+  "questions": [
+    {
+      "id": "a-notion-guide-on-switching-between-work-and-personal-accounts-001",
+      "question": "What is one benefit of using multiple workspaces in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows separation of work and personal tasks",
+          "correct": true,
+          "explanation": "Correct – the guide highlights that multiple workspaces let you keep work and personal content separate, supporting a healthier work/life balance."
+        },
+        {
+          "key": "B",
+          "text": "It increases your storage limit",
+          "correct": false,
+          "explanation": "Wrong – workspaces do not affect storage limits; they are for organizing content."
+        },
+        {
+          "key": "C",
+          "text": "It enables offline mode automatically",
+          "correct": false,
+          "explanation": "Wrong – offline mode is a separate feature and not tied to the number of workspaces."
+        },
+        {
+          "key": "D",
+          "text": "It automatically syncs with Google Calendar",
+          "correct": false,
+          "explanation": "Wrong – syncing with Google Calendar requires an integration, not simply creating multiple workspaces."
+        }
+      ]
+    },
+    {
+      "id": "a-notion-guide-on-switching-between-work-and-personal-accounts-002",
+      "question": "Which platforms support Notion's account‑switching feature?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Desktop only",
+          "correct": false,
+          "explanation": "Incorrect – the guide states the feature works on both desktop and mobile."
+        },
+        {
+          "key": "B",
+          "text": "Mobile only",
+          "correct": false,
+          "explanation": "Incorrect – it is not limited to mobile devices."
+        },
+        {
+          "key": "C",
+          "text": "Both desktop and mobile",
+          "correct": true,
+          "explanation": "Correct – the tutorial mentions the account‑switching capability is available on desktop and mobile platforms."
+        },
+        {
+          "key": "D",
+          "text": "Only the web browser version",
+          "correct": false,
+          "explanation": "Incorrect – while the web version works, the guide specifically calls out desktop and mobile apps."
+        }
+      ]
+    },
+    {
+      "id": "a-notion-guide-on-switching-between-work-and-personal-accounts-003",
+      "question": "How does the guide suggest you begin organizing with Notion templates?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "By creating a template from scratch",
+          "correct": false,
+          "explanation": "Wrong – although you can build your own, the guide points you to the existing template gallery."
+        },
+        {
+          "key": "B",
+          "text": "By browsing the template gallery that contains over 10,000 templates",
+          "correct": true,
+          "explanation": "Correct – the guide explicitly encourages users to start by browsing the extensive template gallery."
+        },
+        {
+          "key": "C",
+          "text": "By importing templates from Google Docs",
+          "correct": false,
+          "explanation": "Incorrect – importing from Google Docs is not mentioned as a starting point."
+        },
+        {
+          "key": "D",
+          "text": "By using AI‑generated templates",
+          "correct": false,
+          "explanation": "Incorrect – AI‑generated templates are not referenced in the article."
+        }
+      ]
+    },
+    {
+      "id": "a-notion-guide-on-switching-between-work-and-personal-accounts-004",
+      "question": "What primary purpose does the guide give for adding another account to your Notion app?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase file‑upload size",
+          "correct": false,
+          "explanation": "Wrong – adding an account does not affect upload limits."
+        },
+        {
+          "key": "B",
+          "text": "To enable collaboration with external teams",
+          "correct": false,
+          "explanation": "Incorrect – while collaboration is possible, the guide emphasizes personal vs. work separation."
+        },
+        {
+          "key": "C",
+          "text": "To separate work and personal spaces for a better work/life balance",
+          "correct": true,
+          "explanation": "Correct – the guide states that multiple accounts help keep work and personal content distinct, supporting balance."
+        },
+        {
+          "key": "D",
+          "text": "To unlock premium features",
+          "correct": false,
+          "explanation": "Wrong – adding an account is unrelated to premium feature activation."
+        }
+      ]
+    },
+    {
+      "id": "a-notion-guide-on-switching-between-work-and-personal-accounts-005",
+      "question": "If an ad blocker stops the tutorial video from playing, where does the guide recommend you watch it?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vimeo",
+          "correct": false,
+          "explanation": "Incorrect – Vimeo is not mentioned as an alternative."
+        },
+        {
+          "key": "B",
+          "text": "YouTube",
+          "correct": true,
+          "explanation": "Correct – the article provides a direct YouTube link for the video."
+        },
+        {
+          "key": "C",
+          "text": "Notion’s internal video player",
+          "correct": false,
+          "explanation": "Wrong – the internal player is blocked by the ad blocker."
+        },
+        {
+          "key": "D",
+          "text": "Download it as an MP4 file",
+          "correct": false,
+          "explanation": "Incorrect – no download option is offered in the guide."
+        }
+      ]
+    },
+    {
+      "id": "a-notion-guide-on-switching-between-work-and-personal-accounts-006",
+      "question": "Which of the following resources is NOT listed at the end of the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Template gallery",
+          "correct": false,
+          "explanation": "Incorrect – the template gallery is referenced earlier in the guide."
+        },
+        {
+          "key": "B",
+          "text": "Help center",
+          "correct": false,
+          "explanation": "Incorrect – a link to the help center is provided."
+        },
+        {
+          "key": "C",
+          "text": "YouTube subscription link",
+          "correct": false,
+          "explanation": "Incorrect – the guide includes a link to subscribe on YouTube."
+        },
+        {
+          "key": "D",
+          "text": "Community forum",
+          "correct": true,
+          "explanation": "Correct – the guide does not mention a community forum among its resources."
+        }
+      ]
+    },
+    {
+      "id": "a-notion-guide-on-switching-between-work-and-personal-accounts-007",
+      "question": "Considering the guide’s focus on work/life balance, which practice best utilizes Notion’s account‑switching feature?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use a single workspace for all tasks to minimize context switching",
+          "correct": false,
+          "explanation": "Wrong – this defeats the purpose of separating work and personal content."
+        },
+        {
+          "key": "B",
+          "text": "Create separate workspaces for work and personal tasks and switch accounts daily",
+          "correct": true,
+          "explanation": "Correct – the guide recommends distinct workspaces and easy switching to keep boundaries clear."
+        },
+        {
+          "key": "C",
+          "text": "Share the same account across all devices without separate workspaces",
+          "correct": false,
+          "explanation": "Incorrect – sharing one account blurs the work/personal line the guide aims to preserve."
+        },
+        {
+          "key": "D",
+          "text": "Disable account switching to focus on a single project",
+          "correct": false,
+          "explanation": "Wrong – disabling the feature removes the balance benefit highlighted in the guide."
+        }
+      ]
+    }
+  ]
+}

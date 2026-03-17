@@ -1,0 +1,317 @@
+{
+  "source": "guides_connect-tools-to-notion-api",
+  "sourceTitle": "Connect your tools to Notion with the API",
+  "sourceUrl": "https://www.notion.com/help/guides/connect-tools-to-notion-api",
+  "questions": [
+    {
+      "id": "guides_connect-tools-to-notion-api-001",
+      "question": "What is the primary purpose of Notion’s API as described in the guide?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To replace Notion’s native user interface with a custom one",
+          "correct": false,
+          "explanation": "The API does not replace the UI; it enables programmatic interaction with Notion data."
+        },
+        {
+          "key": "B",
+          "text": "To allow developers to connect other software to Notion and automate workflows",
+          "correct": true,
+          "explanation": "Correct – the guide states the API lets developers integrate other tools and automate tasks within Notion."
+        },
+        {
+          "key": "C",
+          "text": "To provide a free cloud storage service for external files",
+          "correct": false,
+          "explanation": "The API is not a storage service; it works with Notion’s existing databases, pages, and users."
+        },
+        {
+          "key": "D",
+          "text": "To enable users to edit Notion’s source code directly",
+          "correct": false,
+          "explanation": "The API does not expose Notion’s source code; it offers endpoints for data manipulation."
+        }
+      ]
+    },
+    {
+      "id": "guides_connect-tools-to-notion-api-002",
+      "question": "Which of the following is NOT listed as a capability of the Notion API for databases?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pull specific database entries",
+          "correct": false,
+          "explanation": "The guide mentions pulling specific entries as a database capability."
+        },
+        {
+          "key": "B",
+          "text": "Search for entries based on properties",
+          "correct": false,
+          "explanation": "Searching by properties is explicitly listed."
+        },
+        {
+          "key": "C",
+          "text": "Create new database schemas from scratch",
+          "correct": true,
+          "explanation": "Creating new database schemas is not mentioned; the API works with existing databases."
+        },
+        {
+          "key": "D",
+          "text": "Retrieve a list of all entries in a database",
+          "correct": false,
+          "explanation": "Getting a full list of entries is a described capability."
+        }
+      ]
+    },
+    {
+      "id": "guides_connect-tools-to-notion-api-003",
+      "question": "How does the guide suggest you can manage workspace members programmatically?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "By using SCIM alongside the Notion API",
+          "correct": true,
+          "explanation": "Correct – the guide recommends using SCIM to create and remove members programmatically."
+        },
+        {
+          "key": "B",
+          "text": "By sending HTTP POST requests directly to the workspace URL",
+          "correct": false,
+          "explanation": "The guide does not mention direct POST to the workspace URL; SCIM is the advised method."
+        },
+        {
+          "key": "C",
+          "text": "By exporting a CSV of members and re‑importing it via the UI",
+          "correct": false,
+          "explanation": "CSV import is not covered as a programmatic solution."
+        },
+        {
+          "key": "D",
+          "text": "By using Zapier’s ‘Add User to Workspace’ action",
+          "correct": false,
+          "explanation": "Zapier can automate many tasks, but the guide specifically mentions SCIM for member management."
+        }
+      ]
+    },
+    {
+      "id": "guides_connect-tools-to-notion-api-004",
+      "question": "Which partner integration is highlighted for moving information between Notion and thousands of other apps?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Typeform",
+          "correct": false,
+          "explanation": "Typeform focuses on form responses, not a broad app ecosystem."
+        },
+        {
+          "key": "B",
+          "text": "Zapier",
+          "correct": true,
+          "explanation": "Zapier is described as automatically moving information between Notion and many other apps."
+        },
+        {
+          "key": "C",
+          "text": "Automate.io",
+          "correct": false,
+          "explanation": "Automate.io is mentioned briefly but not highlighted for its breadth."
+        },
+        {
+          "key": "D",
+          "text": "Salesforce",
+          "correct": false,
+          "explanation": "Salesforce is given as an example use case, not a partner integration."
+        }
+      ]
+    },
+    {
+      "id": "guides_connect-tools-to-notion-api-005",
+      "question": "What kind of Notion content can the API create or retrieve according to the guide?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only database entries",
+          "correct": false,
+          "explanation": "The API works with more than just databases."
+        },
+        {
+          "key": "B",
+          "text": "Pages, blocks, and their properties",
+          "correct": true,
+          "explanation": "Correct – the guide lists pages, blocks, and their properties as API‑accessible."
+        },
+        {
+          "key": "C",
+          "text": "User passwords and authentication tokens",
+          "correct": false,
+          "explanation": "User credentials are not exposed via the API."
+        },
+        {
+          "key": "D",
+          "text": "Only the workspace’s theme settings",
+          "correct": false,
+          "explanation": "Theme settings are not mentioned as an API capability."
+        }
+      ]
+    },
+    {
+      "id": "guides_connect-tools-to-notion-api-006",
+      "question": "Why does Notion make the API available to all users, according to the article?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "To generate additional revenue from API usage fees",
+          "correct": false,
+          "explanation": "The article does not mention fees; it emphasizes accessibility."
+        },
+        {
+          "key": "B",
+          "text": "To ensure every team can tailor software to their specific problems",
+          "correct": true,
+          "explanation": "Correct – the guide ties API availability to Notion’s mission of enabling tailored solutions."
+        },
+        {
+          "key": "C",
+          "text": "To replace third‑party integration platforms like Zapier",
+          "correct": false,
+          "explanation": "Zapier is presented as a complementary partner, not a replacement."
+        },
+        {
+          "key": "D",
+          "text": "To comply with open‑source licensing requirements",
+          "correct": false,
+          "explanation": "No licensing requirement is discussed."
+        }
+      ]
+    },
+    {
+      "id": "guides_connect-tools-to-notion-api-007",
+      "question": "If a sales team wants to automatically add closed deals from Salesforce into Notion, which Notion API feature would they most likely use?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create new pages in a Notion workspace",
+          "correct": false,
+          "explanation": "Pages could be used, but the guide emphasizes database entries for structured data like deals."
+        },
+        {
+          "key": "B",
+          "text": "Pull specific database entries from Notion",
+          "correct": false,
+          "explanation": "Pulling entries is for reading data, not adding new deals."
+        },
+        {
+          "key": "C",
+          "text": "Insert new rows into a Notion database via the API",
+          "correct": true,
+          "explanation": "Correct – adding new deals means creating new database entries."
+        },
+        {
+          "key": "D",
+          "text": "Update workspace user permissions",
+          "correct": false,
+          "explanation": "User permissions are unrelated to deal tracking."
+        }
+      ]
+    },
+    {
+      "id": "guides_connect-tools-to-notion-api-008",
+      "question": "Which of the following statements about Typeform’s integration with Notion is accurate?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "It only syncs form responses once a day",
+          "correct": false,
+          "explanation": "The guide says the integration works in real‑time."
+        },
+        {
+          "key": "B",
+          "text": "Form responses are collected in a Notion database automatically",
+          "correct": true,
+          "explanation": "Correct – Typeform’s native integration logs responses in Notion in real‑time."
+        },
+        {
+          "key": "C",
+          "text": "It requires custom code to map responses to Notion pages",
+          "correct": false,
+          "explanation": "The integration is native; no custom code is needed."
+        },
+        {
+          "key": "D",
+          "text": "It replaces the need for Notion’s own database features",
+          "correct": false,
+          "explanation": "Typeform feeds data into Notion databases; it does not replace them."
+        }
+      ]
+    },
+    {
+      "id": "guides_connect-tools-to-notion-api-009",
+      "question": "Where should a developer go to find detailed documentation on building Notion integrations?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Notion template gallery",
+          "correct": false,
+          "explanation": "The template gallery offers ready‑made page templates, not API docs."
+        },
+        {
+          "key": "B",
+          "text": "developers.notion.com",
+          "correct": true,
+          "explanation": "Correct – the guide points to the developer hub for a deep dive."
+        },
+        {
+          "key": "C",
+          "text": "The Notion mobile app settings",
+          "correct": false,
+          "explanation": "Mobile app settings don’t contain API documentation."
+        },
+        {
+          "key": "D",
+          "text": "YouTube channel for Notion tutorials",
+          "correct": false,
+          "explanation": "YouTube is a supplemental resource, not the primary docs location."
+        }
+      ]
+    },
+    {
+      "id": "guides_connect-tools-to-notion-api-010",
+      "question": "Which of the following best describes how the Notion API helps “centralize” information across teams?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It forces all teams to use the same third‑party app",
+          "correct": false,
+          "explanation": "The API does not force a single app; it bridges many tools."
+        },
+        {
+          "key": "B",
+          "text": "It pulls data from siloed tools and stores it in Notion databases or pages",
+          "correct": true,
+          "explanation": "Correct – the guide explains that integrations bring disparate data into Notion for shared access."
+        },
+        {
+          "key": "C",
+          "text": "It automatically converts all Notion pages into PDFs for distribution",
+          "correct": false,
+          "explanation": "PDF conversion is unrelated to centralizing data."
+        },
+        {
+          "key": "D",
+          "text": "It disables external apps to keep all work inside Notion",
+          "correct": false,
+          "explanation": "The API encourages integration, not disabling external tools."
+        }
+      ]
+    }
+  ]
+}

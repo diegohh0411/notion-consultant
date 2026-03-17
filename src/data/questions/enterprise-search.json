@@ -1,0 +1,317 @@
+{
+  "source": "enterprise-search",
+  "sourceTitle": "Enterprise Search",
+  "sourceUrl": "https://www.notion.so/help/enterprise-search",
+  "questions": [
+    {
+      "id": "enterprise-search-001",
+      "question": "Which Notion plan is required to use Enterprise Search?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Free plan",
+          "correct": false,
+          "explanation": "Enterprise Search is not available on the Free plan."
+        },
+        {
+          "key": "B",
+          "text": "Personal Pro plan",
+          "correct": false,
+          "explanation": "This plan does not include the Enterprise Search feature."
+        },
+        {
+          "key": "C",
+          "text": "Business or Enterprise Plan",
+          "correct": true,
+          "explanation": "The article explicitly states that Enterprise Search is available on the Business or Enterprise Plan."
+        },
+        {
+          "key": "D",
+          "text": "Team plan",
+          "correct": false,
+          "explanation": "The 'Team' tier is not mentioned as a specific requirement; Business and Enterprise are."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-002",
+      "question": "When Enterprise Search uses information from your workspace or connected apps, what does it do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically saves the information to your Google Drive",
+          "correct": false,
+          "explanation": "Enterprise Search does not save data to external drives; it simply searches for it."
+        },
+        {
+          "key": "B",
+          "text": "It cites its sources so you can go back to the source",
+          "correct": true,
+          "explanation": "The article states that Enterprise Search 'always cite its sources so you can go back to the source'."
+        },
+        {
+          "key": "C",
+          "text": "It generates a new page with the summarized information",
+          "correct": false,
+          "explanation": "Enterprise Search provides answers and citations, but does not automatically create new pages."
+        },
+        {
+          "key": "D",
+          "text": "It hides the original data to protect privacy",
+          "correct": false,
+          "explanation": "The feature is designed to find and present answers, not to hide source data."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-003",
+      "question": "How do you limit the scope of your search to only your Notion workspace?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Toggle 'Web search' off",
+          "correct": false,
+          "explanation": "Turning off Web search would still allow the search to look at connected apps."
+        },
+        {
+          "key": "B",
+          "text": "Toggle 'Apps and integrations' off",
+          "correct": true,
+          "explanation": "The article states you can 'Toggle `Apps and integrations` off if you don’t want Enterprise Search to look at your workspace'."
+        },
+        {
+          "key": "C",
+          "text": "Select 'All sources' and choose workspace",
+          "correct": false,
+          "explanation": "Selecting workspace implies you still have it available, whereas toggling it off restricts access to it."
+        },
+        {
+          "key": "D",
+          "text": "Select a specific page in the search bar",
+          "correct": false,
+          "explanation": "This adds context to a query but does not change the default scope of the entire search."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-004",
+      "question": "Which AI models are available to choose from in Enterprise Search?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "OpenAI's GPT and Anthropic's Claude",
+          "correct": false,
+          "explanation": "While these are available, Google's Gemini is also explicitly mentioned as an option."
+        },
+        {
+          "key": "B",
+          "text": "OpenAI's GPT, Anthropic's Claude, and Google's Gemini",
+          "correct": true,
+          "explanation": "The article lists these three specific models as available choices."
+        },
+        {
+          "key": "C",
+          "text": "Only OpenAI models like GPT-4",
+          "correct": false,
+          "explanation": "The article mentions multiple providers, not just OpenAI."
+        },
+        {
+          "key": "D",
+          "text": "Microsoft's Copilot and Google's Bard",
+          "correct": false,
+          "explanation": "The article specifies GPT, Claude, and Gemini, not Copilot or Bard."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-005",
+      "question": "Can Enterprise Search analyze databases, and if so, what level of detail does it support?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, databases are ignored by the search",
+          "correct": false,
+          "explanation": "Enterprise Search is capable of analyzing databases."
+        },
+        {
+          "key": "B",
+          "text": "Yes, including views, relations, and properties",
+          "correct": true,
+          "explanation": "The article states it can 'look closely at databases — including database views, relations, and properties!'"
+        },
+        {
+          "key": "C",
+          "text": "Yes, but only if the database is public",
+          "correct": false,
+          "explanation": "Public/private status is not mentioned as a requirement for database analysis."
+        },
+        {
+          "key": "D",
+          "text": "Only if you manually select the database first",
+          "correct": false,
+          "explanation": "It can look closely at databases as part of the general search scope."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-006",
+      "question": "Where do you find the option to change the AI model for your search?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the Home tab settings",
+          "correct": false,
+          "explanation": "The model selection happens within the Enterprise Search window, not the general settings."
+        },
+        {
+          "key": "B",
+          "text": "In the Enterprise Search window in Home",
+          "correct": true,
+          "explanation": "The article instructs you to select 'Auto' in the 'Enterprise Search window in Home' to access the model menu."
+        },
+        {
+          "key": "C",
+          "text": "In the AI Connectors settings",
+          "correct": false,
+          "explanation": "Connectors are for data sources, not the model selection."
+        },
+        {
+          "key": "D",
+          "text": "In the database properties menu",
+          "correct": false,
+          "explanation": "This menu is unrelated to changing the search model."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-007",
+      "question": "How can you restrict Enterprise Search from looking at the web?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Toggle 'Web search' off",
+          "correct": true,
+          "explanation": "The article explicitly states you can 'Toggle `Web search` off if you don’t want Enterprise Search to search the web'."
+        },
+        {
+          "key": "B",
+          "text": "Toggle 'Apps and integrations' off",
+          "correct": false,
+          "explanation": "This would restrict it to the web only, not remove web search capability."
+        },
+        {
+          "key": "C",
+          "text": "Select 'All sources' and uncheck web",
+          "correct": false,
+          "explanation": "There is no uncheck option in 'All sources'; you toggle switches."
+        },
+        {
+          "key": "D",
+          "text": "Select 'Auto' as the model",
+          "correct": false,
+          "explanation": "This selects the model, not the search scope."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-008",
+      "question": "Which of the following is a connected app supported by Notion AI Connectors?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Instagram",
+          "correct": false,
+          "explanation": "Instagram is not listed as a supported integration."
+        },
+        {
+          "key": "B",
+          "text": "Slack",
+          "correct": true,
+          "explanation": "Slack is explicitly listed as one of the apps that can be connected via Notion AI Connectors."
+        },
+        {
+          "key": "C",
+          "text": "Netflix",
+          "correct": false,
+          "explanation": "Netflix is not listed as a supported integration."
+        },
+        {
+          "key": "D",
+          "text": "Amazon",
+          "correct": false,
+          "explanation": "Amazon is not listed as a supported integration."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-009",
+      "question": "What is a potential limitation when selecting a specific AI model like GPT?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "It will search the web but ignore your workspace",
+          "correct": false,
+          "explanation": "It might not be able to look at your workspace, but it will likely still search the web."
+        },
+        {
+          "key": "B",
+          "text": "It will only look at information from the web",
+          "correct": true,
+          "explanation": "The article notes that 'depending on the model you choose, Notion AI may look only at information from the web'."
+        },
+        {
+          "key": "C",
+          "text": "It will be slower than the 'Auto' model",
+          "correct": false,
+          "explanation": "The article does not mention speed differences between models."
+        },
+        {
+          "key": "D",
+          "text": "It will stop citing sources",
+          "correct": false,
+          "explanation": "Citations remain a feature of Enterprise Search regardless of the model."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-search-010",
+      "question": "How can you provide specific pages or people as context to a search query?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Type their name in the search bar",
+          "correct": false,
+          "explanation": "Simply typing the name is insufficient; the article specifies using the 'Add context' feature or @-mentions."
+        },
+        {
+          "key": "B",
+          "text": "Select 'Add context' at the top and select the page or person",
+          "correct": true,
+          "explanation": "The article lists this as the primary method to 'take certain pages or people into account'."
+        },
+        {
+          "key": "C",
+          "text": "Create a database entry for them",
+          "correct": false,
+          "explanation": "Creating a database entry is unrelated to adding context for a search query."
+        },
+        {
+          "key": "D",
+          "text": "Use the @-mention function in the query",
+          "correct": false,
+          "explanation": "While valid, the text specifically describes 'Add context' as the primary method for selecting specific entities."
+        }
+      ]
+    }
+  ]
+}

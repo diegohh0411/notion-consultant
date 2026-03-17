@@ -1,0 +1,286 @@
+{
+  "source": "data-access-consent",
+  "sourceTitle": "Data access consent",
+  "sourceUrl": "https://www.notion.so/help/data-access-consent",
+  "questions": [
+    {
+      "id": "data-access-consent-001",
+      "question": "How do you grant Notion's support team access to your account on a desktop device?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Settings in your sidebar → {your name} → Under Support, toggle on Support access",
+          "correct": true,
+          "explanation": "This is the correct sequence. According to the article, you must navigate to your personal settings within the sidebar to find the Support toggle."
+        },
+        {
+          "key": "B",
+          "text": "Go to Settings → Team → Under Support, toggle on Support access",
+          "correct": false,
+          "explanation": "The Support access toggle is located under your individual profile ({your name}), not under the Team section."
+        },
+        {
+          "key": "C",
+          "text": "Go to Settings → Billing → Toggle on Support access",
+          "correct": false,
+          "explanation": "Billing settings do not contain the Support access toggle. You must navigate to your personal profile settings to find it."
+        },
+        {
+          "key": "D",
+          "text": "Go to Settings → Security → Toggle on Support access",
+          "correct": false,
+          "explanation": "While security is relevant, the specific toggle for support access is found within the Support section of your personal settings, not the general Security section."
+        }
+      ]
+    },
+    {
+      "id": "data-access-consent-002",
+      "question": "How long does Notion's support team retain access to your content after granting consent?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "7 days",
+          "correct": false,
+          "explanation": "Support access lasts longer than a week. It is specifically defined as 28 days or until revoked."
+        },
+        {
+          "key": "B",
+          "text": "14 days",
+          "correct": false,
+          "explanation": "14 days is not the duration mentioned in the documentation. The correct timeframe is 28 days."
+        },
+        {
+          "key": "C",
+          "text": "28 days",
+          "correct": true,
+          "explanation": "This is correct. The support team has permission to access your content for 28 days, or until you revoke this access."
+        },
+        {
+          "key": "D",
+          "text": "Until you log out",
+          "correct": false,
+          "explanation": "Access does not expire simply by logging out; it expires after 28 days or upon manual revocation."
+        }
+      ]
+    },
+    {
+      "id": "data-access-consent-003",
+      "question": "To revoke support access on the mobile app, which sequence of taps should you perform?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tap Settings → Tap Support → Toggle off",
+          "correct": false,
+          "explanation": "You cannot toggle off support access directly from the Support section. You must go to the main Settings menu first."
+        },
+        {
+          "key": "B",
+          "text": "Tap ••• → Tap Settings → Toggle off Support access",
+          "correct": true,
+          "explanation": "This is the correct sequence for mobile. First open the menu (•••), then open Settings, and finally toggle the Support access switch."
+        },
+        {
+          "key": "C",
+          "text": "Tap Profile → Tap Settings → Toggle off Support access",
+          "correct": false,
+          "explanation": "The first step should be tapping the menu icon (•••), not the Profile section directly."
+        },
+        {
+          "key": "D",
+          "text": "Tap Help → Tap Settings → Toggle off Support access",
+          "correct": false,
+          "explanation": "There is no 'Help' button in the menu that leads to the Settings toggle. The menu icon (•••) is the correct entry point."
+        }
+      ]
+    },
+    {
+      "id": "data-access-consent-004",
+      "question": "For what purpose may Notion's support team request consent to access your account?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "To help with troubleshooting or recovery",
+          "correct": true,
+          "explanation": "This is the correct reason. Support needs access to view your content to diagnose issues or help with account recovery."
+        },
+        {
+          "key": "B",
+          "text": "To upgrade your subscription plan",
+          "correct": false,
+          "explanation": "Support does not need access to your content to process subscription upgrades. They may need to verify identity, but not view content."
+        },
+        {
+          "key": "C",
+          "text": "To send you marketing emails",
+          "correct": false,
+          "explanation": "Marketing preferences are handled separately. Access to your data is strictly for troubleshooting and recovery purposes."
+        },
+        {
+          "key": "D",
+          "text": "To view your personal contacts",
+          "correct": false,
+          "explanation": "Support access is limited to the content relevant to the specific issue you are reporting, not a general scan of your contacts."
+        }
+      ]
+    },
+    {
+      "id": "data-access-consent-005",
+      "question": "Which action immediately terminates the support team's ability to view your account content?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Logging out of the application",
+          "correct": false,
+          "explanation": "Logging out stops *your* session, but it does not necessarily revoke the support team's permission token immediately unless the server-side session is tied directly to your logout, which the article does not specify. The article explicitly states 'To revoke access at any time'."
+        },
+        {
+          "key": "B",
+          "text": "Deleting your account",
+          "correct": false,
+          "explanation": "While deleting your account would eventually remove access, it is an extreme measure. The article recommends toggling the switch in Settings as the immediate action."
+        },
+        {
+          "key": "C",
+          "text": "Refreshing the page in the browser",
+          "correct": false,
+          "explanation": "Refreshing the page only updates your local view. It does not send a request to the server to revoke support permissions."
+        },
+        {
+          "key": "D",
+          "text": "Revoke access by toggling it off",
+          "correct": true,
+          "explanation": "This is the direct method described in the article. Toggling 'Support access' off sends a command to revoke their permission immediately."
+        }
+      ]
+    },
+    {
+      "id": "data-access-consent-006",
+      "question": "Where can you find the 'Support access' toggle on a desktop application?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "In the top right corner of the screen",
+          "correct": false,
+          "explanation": "The toggle is not in the top right corner header; it is located deeper within the sidebar navigation."
+        },
+        {
+          "key": "B",
+          "text": "In the sidebar under Settings → {your name}",
+          "correct": true,
+          "explanation": "This is correct. The Support access toggle is nested within your personal profile settings found in the sidebar."
+        },
+        {
+          "key": "C",
+          "text": "In the bottom left corner",
+          "correct": false,
+          "explanation": "The toggle is not located in the bottom left corner of the interface."
+        },
+        {
+          "key": "D",
+          "text": "Inside the Help Center link",
+          "correct": false,
+          "explanation": "The Help Center is an external resource. The toggle is a setting within the application itself."
+        }
+      ]
+    },
+    {
+      "id": "data-access-consent-007",
+      "question": "On a desktop device, where is the 'Support access' toggle located within the Settings menu?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Under the 'Team' section",
+          "correct": false,
+          "explanation": "The Team section is for workspace-wide settings, not individual support access."
+        },
+        {
+          "key": "B",
+          "text": "Under the 'Billing' section",
+          "correct": false,
+          "explanation": "Billing settings handle payments and invoices, not support permissions."
+        },
+        {
+          "key": "C",
+          "text": "Under the 'Support' section within Settings → {your name}",
+          "correct": true,
+          "explanation": "This is correct. The specific text in the article states 'Under Support, toggle on Support access'."
+        },
+        {
+          "key": "D",
+          "text": "Under the 'Security' section",
+          "correct": false,
+          "explanation": "While related to security, the specific UI element is labeled 'Support' and is found under your name profile."
+        }
+      ]
+    },
+    {
+      "id": "data-access-consent-008",
+      "question": "How do you enable support access on a mobile device?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Settings → Tap Support → Toggle on",
+          "correct": false,
+          "explanation": "You must access the main Settings menu before you can find the specific Support toggle."
+        },
+        {
+          "key": "B",
+          "text": "Tap ••• → Tap Settings → Toggle on Support access",
+          "correct": true,
+          "explanation": "This is the correct procedure. Open the menu icon, select Settings, and flip the Support access switch to 'on'."
+        },
+        {
+          "key": "C",
+          "text": "Tap Home → Tap Settings → Toggle on Support access",
+          "correct": false,
+          "explanation": "You do not need to tap 'Home'. The first step is to open the menu icon (•••)."
+        },
+        {
+          "key": "D",
+          "text": "Tap Help → Toggle on Support access",
+          "correct": false,
+          "explanation": "There is no Help button in the navigation menu that controls Support access."
+        }
+      ]
+    },
+    {
+      "id": "data-access-consent-009",
+      "question": "What is the specific duration mentioned for the support team's access to your content?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "24 hours",
+          "correct": false,
+          "explanation": "24 hours is too short. The article specifies a duration of 28 days."
+        },
+        {
+          "key": "B",
+          "text": "28 days",
+          "correct": true,
+          "explanation": "This is correct. The support team's permission lasts for 28 days or until revoked."
+        },
+        {
+          "key": "C",
+          "text": "30 days",
+          "correct": false,
+          "explanation": "The article specifies exactly 28 days, not 30."
+        },
+        {
+          "key": "D",
+          "text": "14 days",
+          "correct": false,
+          "explanation": "14 days is incorrect. The documentation clearly states 28 days."
+        }
+      ]
+    }
+  ]
+}

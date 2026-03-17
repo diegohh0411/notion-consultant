@@ -1,0 +1,379 @@
+{
+  "source": "custom-agents-security-features",
+  "sourceTitle": "Custom Agents security features",
+  "sourceUrl": "https://www.notion.so/help/custom-agents-security-features",
+  "questions": [
+    {
+      "id": "custom-agents-security-features-001",
+      "question": "How do Custom Agent permissions function in relation to individual user permissions?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are identical to the permissions of the user who created them.",
+          "correct": false,
+          "explanation": "Custom Agents operate with their own independent permissions separate from individual user permissions."
+        },
+        {
+          "key": "B",
+          "text": "They are completely restricted to only allow read-only access.",
+          "correct": false,
+          "explanation": "Agents have independent permissions, meaning they might access information that individual users could not access directly."
+        },
+        {
+          "key": "C",
+          "text": "They are independent of individual user permissions.",
+          "correct": true,
+          "explanation": "Agents operate with their own independent permissions separate from individual user permissions."
+        },
+        {
+          "key": "D",
+          "text": "They are inherited from the workspace admin's permissions.",
+          "correct": false,
+          "explanation": "Agents do not inherit permissions; they have their own independent permissions."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-002",
+      "question": "Which of the following is NOT a tool available to Workspace admins for managing Custom Agents?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Agent Directory",
+          "correct": false,
+          "explanation": "Admins can use an Agent Directory to maintain visibility over all agents."
+        },
+        {
+          "key": "B",
+          "text": "Content Search",
+          "correct": false,
+          "explanation": "Content search is listed as a tool for managing agents across the organization."
+        },
+        {
+          "key": "C",
+          "text": "Employee Directory",
+          "correct": true,
+          "explanation": "While admins have access to analytics and audit logs, an 'Employee Directory' is not mentioned as a management tool for agents."
+        },
+        {
+          "key": "D",
+          "text": "Ownership transfer tools",
+          "correct": false,
+          "explanation": "Ownership transfer tools are listed as a method for admins to manage agents."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-003",
+      "question": "Which of the following resources does NOT trigger a warning when sharing a Custom Agent?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Third-party integrations",
+          "correct": false,
+          "explanation": "Warnings include third-party integrations, private Notion pages, email/calendar data, and access to all pages shared with everyone."
+        },
+        {
+          "key": "B",
+          "text": "Access to all pages that are shared with everyone in the workspace",
+          "correct": false,
+          "explanation": "Access to all pages shared with everyone triggers a warning to ensure the user considers who is accessing the agent."
+        },
+        {
+          "key": "C",
+          "text": "Public Notion pages",
+          "correct": true,
+          "explanation": "The text specifies warnings for private pages, email/calendar data, and third-party integrations. Public pages are not listed as a trigger."
+        },
+        {
+          "key": "D",
+          "text": "Email or Calendar data",
+          "correct": false,
+          "explanation": "Warnings specifically include email or calendar data to prevent unintended data sharing."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-004",
+      "question": "Who is authorized to add more Slack channels or increase access (e.g., from Read Only to Read & Reply) for a Custom Agent connected to Slack?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any user with 'Can Edit' permissions",
+          "correct": false,
+          "explanation": "While users with 'Can Edit' can remove connections, they cannot expand what the connection can see."
+        },
+        {
+          "key": "B",
+          "text": "Only the person who connected the integration",
+          "correct": true,
+          "explanation": "For each Custom Agent, only the person who connected an integration can add more Slack channels or increase access."
+        },
+        {
+          "key": "C",
+          "text": "Only workspace admins",
+          "correct": false,
+          "explanation": "While admins have broad control, the specific restriction for adding channels belongs to the connector."
+        },
+        {
+          "key": "D",
+          "text": "Only users with 'Can view and interact' permissions",
+          "correct": false,
+          "explanation": "View-only users cannot modify connection settings."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-005",
+      "question": "How does the 'Automatic editor access checks' feature protect sensitive data?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically deletes the agent if permissions change.",
+          "correct": false,
+          "explanation": "The agent does not automatically delete; it stops running instead."
+        },
+        {
+          "key": "B",
+          "text": "It requires re-approval from all editors whenever a resource is accessed.",
+          "correct": false,
+          "explanation": "It checks permissions at the start, but does not require re-approval on every access."
+        },
+        {
+          "key": "C",
+          "text": "It stops the agent from running if all editors lose access.",
+          "correct": true,
+          "explanation": "If all editors lose access to a resource, the agent stops running, preventing 'orphaned' agents from continuing to access sensitive data."
+        },
+        {
+          "key": "D",
+          "text": "It restricts the agent to only private pages.",
+          "correct": false,
+          "explanation": "The feature prevents access loss, it does not restrict the agent's scope to private pages only."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-006",
+      "question": "Where do Custom Agents appear in the interface regarding page access?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only in the AI sidebar",
+          "correct": false,
+          "explanation": "Agents appear in the share menu of any page or database they have access to."
+        },
+        {
+          "key": "B",
+          "text": "In the share menu of any page or database they have access to, just like people",
+          "correct": true,
+          "explanation": "Agents appear in the share menu of any page or database they have access to, just like people."
+        },
+        {
+          "key": "C",
+          "text": "Nowhere, they are managed separately from pages",
+          "correct": false,
+          "explanation": "Agents are visible in the share menu of pages and databases they access."
+        },
+        {
+          "key": "D",
+          "text": "Only in the Agent Directory",
+          "correct": false,
+          "explanation": "While the Directory lists them, they also appear in the share menu of specific pages."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-007",
+      "question": "A user with 'Can Edit' access wants to change the Slack channel a Custom Agent can access. What must they do?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "They can edit it directly by changing the channel settings.",
+          "correct": false,
+          "explanation": "Users with 'Can Edit' access can remove connections but cannot expand what the connection can see."
+        },
+        {
+          "key": "B",
+          "text": "They must remove and then reconnect the integration.",
+          "correct": true,
+          "explanation": "To edit third-party connection settings an editor did not set up, they must remove and then reconnect the integration."
+        },
+        {
+          "key": "C",
+          "text": "They must ask a workspace admin to make the change.",
+          "correct": false,
+          "explanation": "The user has 'Can Edit' access, which allows them to remove and reconnect integrations."
+        },
+        {
+          "key": "D",
+          "text": "They can only view the current channels and cannot change them.",
+          "correct": false,
+          "explanation": "They can remove the connection, but to add new ones, they must reconnect."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-008",
+      "question": "Which permission level allows a user to see the full settings page of a Custom Agent in view-only mode?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full Access",
+          "correct": false,
+          "explanation": "Full Access allows editing and removing agents, but the text specifies that 'Can view and interact' is sufficient for viewing settings."
+        },
+        {
+          "key": "B",
+          "text": "Can view and interact",
+          "correct": true,
+          "explanation": "Users with 'Can view and interact' permissions can see the agent's full settings page in view-only mode (instructions, pages, tools, config) but cannot edit, share, or modify."
+        },
+        {
+          "key": "C",
+          "text": "Can view",
+          "correct": false,
+          "explanation": "The text specifically mentions 'Can view and interact' as the permission for viewing settings."
+        },
+        {
+          "key": "D",
+          "text": "Can edit",
+          "correct": false,
+          "explanation": "Can edit permissions allow editing and removing, but the text highlights the view-only capability of 'Can view and interact'."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-009",
+      "question": "What action does Custom Agents take regarding unexpected external links?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The agent automatically follows the link to check if it is safe.",
+          "correct": false,
+          "explanation": "The agent pauses before accessing the link."
+        },
+        {
+          "key": "B",
+          "text": "The agent ignores the link entirely.",
+          "correct": false,
+          "explanation": "The agent does not ignore the link; it pauses to request confirmation."
+        },
+        {
+          "key": "C",
+          "text": "The agent pauses and asks for confirmation.",
+          "correct": true,
+          "explanation": "If the agent generates a URL not in the original prompt, it pauses and asks for confirmation before proceeding."
+        },
+        {
+          "key": "D",
+          "text": "The link is blocked immediately by the platform.",
+          "correct": false,
+          "explanation": "The agent pauses and asks the user to review and approve the URL."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-010",
+      "question": "When working with sensitive data or content from external or untrusted sources, which model type is recommended to minimize the risk of prompt injection?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Smaller models",
+          "correct": false,
+          "explanation": "Smaller models are generally faster and cheaper but are 'more vulnerable to prompt injection'."
+        },
+        {
+          "key": "B",
+          "text": "Larger models",
+          "correct": true,
+          "explanation": "Larger models perform better on complex tasks, including distinguishing legitimate instructions from malicious ones."
+        },
+        {
+          "key": "C",
+          "text": "Random models",
+          "correct": false,
+          "explanation": "Model selection is deliberate based on risk factors, not random."
+        },
+        {
+          "key": "D",
+          "text": "No models (disable AI)",
+          "correct": false,
+          "explanation": "The text advises selecting a larger model to handle untrusted content safely."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-011",
+      "question": "Which of the following is a reason to select a larger AI model?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "To save money on processing costs",
+          "correct": false,
+          "explanation": "While smaller models are cheaper, the recommendation for sensitive data focuses on performance and security over cost."
+        },
+        {
+          "key": "B",
+          "text": "To perform faster on simple text translation",
+          "correct": false,
+          "explanation": "Smaller models are generally faster for simple tasks."
+        },
+        {
+          "key": "C",
+          "text": "To better distinguish legitimate instructions from malicious ones",
+          "correct": true,
+          "explanation": "Larger models have more parameters, making them better at complex tasks like distinguishing legitimate instructions from malicious ones."
+        },
+        {
+          "key": "D",
+          "text": "To process uploaded files from trusted sources",
+          "correct": false,
+          "explanation": "The text suggests larger models for sensitive data or content from external/untrusted sources."
+        }
+      ]
+    },
+    {
+      "id": "custom-agents-security-features-012",
+      "question": "Who can remove a Custom Agent from a page or database?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the person who created the agent",
+          "correct": false,
+          "explanation": "Full access to the page is required, not just creation rights."
+        },
+        {
+          "key": "B",
+          "text": "Anyone with Full Access to the page or database",
+          "correct": true,
+          "explanation": "If you have Full Access to the page or database, you'll see their permission level and can remove them if needed."
+        },
+        {
+          "key": "C",
+          "text": "Only workspace admins",
+          "correct": false,
+          "explanation": "Full access users, not just admins, can remove agents."
+        },
+        {
+          "key": "D",
+          "text": "Only users with 'Can view and interact' permissions",
+          "correct": false,
+          "explanation": "View and interact users can view settings but cannot remove agents."
+        }
+      ]
+    }
+  ]
+}

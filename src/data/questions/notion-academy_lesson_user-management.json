@@ -1,0 +1,255 @@
+{
+  "source": "notion-academy_lesson_user-management",
+  "sourceTitle": "Welcome to Notion Academy",
+  "sourceUrl": "https://www.notion.so/help/notion-academy/lesson/user-management",
+  "questions": [
+    {
+      "id": "notion-academy_lesson_user-management-001",
+      "question": "What can you earn by completing Notion Academy learning paths?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Badges",
+          "correct": true,
+          "explanation": "The article states that you can earn badges by completing curated Notion learning paths."
+        },
+        {
+          "key": "B",
+          "text": "Certificates",
+          "correct": false,
+          "explanation": "Certificates are only mentioned for the Notion Certified Admin program, not for general path completion."
+        },
+        {
+          "key": "C",
+          "text": "College credits",
+          "correct": false,
+          "explanation": "The article makes no reference to college credits being awarded."
+        },
+        {
+          "key": "D",
+          "text": "None of the above",
+          "correct": false,
+          "explanation": "Badges are indeed awarded, so this option is incorrect."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_user-management-002",
+      "question": "Which of the following is NOT listed as a lesson title in the article?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Custom Agents",
+          "correct": false,
+          "explanation": "Custom Agents is listed as a beginner lesson."
+        },
+        {
+          "key": "B",
+          "text": "Sharing & collaboration",
+          "correct": false,
+          "explanation": "Sharing & collaboration appears in the lesson list."
+        },
+        {
+          "key": "C",
+          "text": "Advanced SQL",
+          "correct": true,
+          "explanation": "Advanced SQL is not mentioned anywhere in the article."
+        },
+        {
+          "key": "D",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "Templates & marketplace is included among the intermediate lessons."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_user-management-003",
+      "question": "How many lessons are included in the Essentials Path?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "2",
+          "correct": false,
+          "explanation": "The article specifies a different number of lessons."
+        },
+        {
+          "key": "B",
+          "text": "3",
+          "correct": true,
+          "explanation": "The Essentials Path is described as containing 3 lessons."
+        },
+        {
+          "key": "C",
+          "text": "4",
+          "correct": false,
+          "explanation": "Four lessons belong to the Workflows Path, not the Essentials Path."
+        },
+        {
+          "key": "D",
+          "text": "5",
+          "correct": false,
+          "explanation": "Five lessons belong to the Advanced Path."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_user-management-004",
+      "question": "Which path is described as “Create connected systems that unite teams and projects, with the help of AI”?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Essentials Path",
+          "correct": false,
+          "explanation": "Essentials Path focuses on basic skills, not AI‑driven workflows."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path",
+          "correct": true,
+          "explanation": "The article uses that exact phrasing for the Workflows Path."
+        },
+        {
+          "key": "C",
+          "text": "Advanced Path",
+          "correct": false,
+          "explanation": "Advanced Path emphasizes automation and architecture, not the specific AI‑connected systems description."
+        },
+        {
+          "key": "D",
+          "text": "Project Management",
+          "correct": false,
+          "explanation": "Project Management is a single lesson, not a multi‑lesson path."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_user-management-005",
+      "question": "To become a Notion Certified Admin, which capability is expected of you?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ability to run Notion at scale and implement security best practices",
+          "correct": true,
+          "explanation": "The certification description highlights running Notion at scale and applying security best practices."
+        },
+        {
+          "key": "B",
+          "text": "Mastery of Python scripting for automation",
+          "correct": false,
+          "explanation": "Python is not mentioned as a requirement for the admin certification."
+        },
+        {
+          "key": "C",
+          "text": "Ability to design marketing campaigns",
+          "correct": false,
+          "explanation": "Marketing skills are unrelated to the admin certification focus."
+        },
+        {
+          "key": "D",
+          "text": "Knowledge of graphic design principles",
+          "correct": false,
+          "explanation": "Graphic design is not part of the admin certification criteria."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_user-management-006",
+      "question": "Which lesson is categorized as intermediate and focuses on “An issue tracker for any team”?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Building basics",
+          "correct": false,
+          "explanation": "Building basics is a beginner lesson about navigation and blocks."
+        },
+        {
+          "key": "B",
+          "text": "An issue tracker for any team",
+          "correct": true,
+          "explanation": "The article lists this exact title as an intermediate lesson."
+        },
+        {
+          "key": "C",
+          "text": "Templates & marketplace",
+          "correct": false,
+          "explanation": "Templates & marketplace is an intermediate lesson but about creating and selling templates."
+        },
+        {
+          "key": "D",
+          "text": "Custom Agents",
+          "correct": false,
+          "explanation": "Custom Agents is a beginner lesson about automation."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_user-management-007",
+      "question": "If a user wants to learn about “Workspace design”, which difficulty level and approximate duration should they expect?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advanced, 10 min",
+          "correct": true,
+          "explanation": "The article lists “Workspace design” as an advanced lesson lasting 10 minutes."
+        },
+        {
+          "key": "B",
+          "text": "Beginner, 20 min",
+          "correct": false,
+          "explanation": "20 min is the duration for the beginner “Building basics” lesson, not Workspace design."
+        },
+        {
+          "key": "C",
+          "text": "Intermediate, 15 min",
+          "correct": false,
+          "explanation": "15 min matches the “Sharing & collaboration” beginner lesson, not Workspace design."
+        },
+        {
+          "key": "D",
+          "text": "Advanced, 40 min",
+          "correct": false,
+          "explanation": "40 min is the length of the intermediate “Templates & marketplace” lesson."
+        }
+      ]
+    },
+    {
+      "id": "notion-academy_lesson_user-management-008",
+      "question": "Considering the available paths, which one includes the highest number of lessons, and what is its difficulty level?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advanced Path – Advanced",
+          "correct": true,
+          "explanation": "The Advanced Path contains 5 lessons and is labeled as Advanced, the most lessons of any path listed."
+        },
+        {
+          "key": "B",
+          "text": "Workflows Path – Intermediate",
+          "correct": false,
+          "explanation": "Workflows Path has 4 lessons, fewer than the Advanced Path."
+        },
+        {
+          "key": "C",
+          "text": "Essentials Path – Beginner",
+          "correct": false,
+          "explanation": "Essentials Path only includes 3 lessons."
+        },
+        {
+          "key": "D",
+          "text": "Project Management – Intermediate",
+          "correct": false,
+          "explanation": "Project Management is a single lesson, not a multi‑lesson path."
+        }
+      ]
+    }
+  ]
+}

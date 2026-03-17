@@ -1,0 +1,255 @@
+{
+  "source": "change-your-language",
+  "sourceTitle": "Change your language",
+  "sourceUrl": "https://www.notion.so/help/change-your-language",
+  "questions": [
+    {
+      "id": "change-your-language-001",
+      "question": "How do you change your display language in the Notion desktop or web app?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Settings in your sidebar → Preferences → Language & Time",
+          "correct": true,
+          "explanation": "According to the article, you must navigate to Settings → Preferences → Language & Time and select your language from the dropdown."
+        },
+        {
+          "key": "B",
+          "text": "Go to Dashboard → General Settings → Language",
+          "correct": false,
+          "explanation": "The correct path is Sidebar → Settings → Preferences, not Dashboard → General Settings."
+        },
+        {
+          "key": "C",
+          "text": "Hover over the top left corner and click the gear icon",
+          "correct": false,
+          "explanation": "While you can access settings via the sidebar, the specific path to change the language requires opening Preferences and the Language dropdown."
+        },
+        {
+          "key": "D",
+          "text": "Open the sidebar, click on the '...' menu, and select 'Change Language'",
+          "correct": false,
+          "explanation": "There is no 'Change Language' option in the sidebar '...' menu; it is located under Settings → Preferences."
+        }
+      ]
+    },
+    {
+      "id": "change-your-language-002",
+      "question": "Which of the following languages is listed as an available language in Notion?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Russian",
+          "correct": false,
+          "explanation": "Russian is not listed in the provided table of available languages. The options include Arabic, Hebrew, and Vietnamese, but not Russian."
+        },
+        {
+          "key": "B",
+          "text": "Korean",
+          "correct": true,
+          "explanation": "Korean is listed as one of the currently available languages."
+        },
+        {
+          "key": "C",
+          "text": "Swiss German",
+          "correct": false,
+          "explanation": "While German is available, the specific regional variant Swiss German is not mentioned in the list."
+        },
+        {
+          "key": "D",
+          "text": "Portuguese (Portugal)",
+          "correct": false,
+          "explanation": "The article lists Portuguese (Brazil), but does not mention Portuguese (Portugal)."
+        }
+      ]
+    },
+    {
+      "id": "change-your-language-003",
+      "question": "What behavior applies to the language setting on the mobile Notion app?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It matches the language setting of your desktop app exactly.",
+          "correct": false,
+          "explanation": "On mobile, the app language follows the language ranking in your system preferences, not the desktop settings."
+        },
+        {
+          "key": "B",
+          "text": "It follows the language ranking in your system preferences.",
+          "correct": true,
+          "explanation": "The article explicitly states that on mobile, the app language follows the language ranking in your system preferences."
+        },
+        {
+          "key": "C",
+          "text": "It requires a system restart to update.",
+          "correct": false,
+          "explanation": "There is no mention of a restart being required; the language updates automatically based on system settings."
+        },
+        {
+          "key": "D",
+          "text": "It is locked to English regardless of system settings.",
+          "correct": false,
+          "explanation": "Notion allows mobile languages to change based on system preferences, so it is not locked to English."
+        }
+      ]
+    },
+    {
+      "id": "change-your-language-004",
+      "question": "Does Notion automatically detect the text direction (RTL or LTR) in simple tables?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, it detects the direction for all block types including tables.",
+          "correct": false,
+          "explanation": "The article specifies that auto-detection works for 'most text-based blocks, except for simple tables'."
+        },
+        {
+          "key": "B",
+          "text": "No, simple tables do not support auto-detection.",
+          "correct": true,
+          "explanation": "The article explicitly states that Notion does not support auto-detection of language direction in simple tables."
+        },
+        {
+          "key": "C",
+          "text": "Yes, but only if you are using a specific mobile device.",
+          "correct": false,
+          "explanation": "The limitation applies generally to simple tables in the app, not specific to devices."
+        },
+        {
+          "key": "D",
+          "text": "Only if the table contains more than 5 rows.",
+          "correct": false,
+          "explanation": "The size or row count of the table does not determine whether auto-detection is applied."
+        }
+      ]
+    },
+    {
+      "id": "change-your-language-005",
+      "question": "When you set your display language to Arabic or Hebrew, what happens to the interface?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "The interface font changes to Arabic or Hebrew.",
+          "correct": false,
+          "explanation": "While the interface language changes, the specific 'mirroring' behavior is described as the interface being mirrored horizontally."
+        },
+        {
+          "key": "B",
+          "text": "The interface is mirrored for those languages in both desktop and mobile apps.",
+          "correct": true,
+          "explanation": "Setting the language to Arabic or Hebrew triggers the interface mirroring in both desktop and mobile apps."
+        },
+        {
+          "key": "C",
+          "text": "The interface text is replaced with English.",
+          "correct": false,
+          "explanation": "Setting the language to Arabic or Hebrew does not revert the interface to English; it applies the selected language and mirroring."
+        },
+        {
+          "key": "D",
+          "text": "The interface becomes right-aligned automatically without any user action.",
+          "correct": false,
+          "explanation": "While the interface is mirrored, the article mentions that users can manually set text direction at the block level if needed."
+        }
+      ]
+    },
+    {
+      "id": "change-your-language-006",
+      "question": "How can you manually set the text direction for a specific block?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hover over the block and press Ctrl + Shift + D",
+          "correct": false,
+          "explanation": "There is no keyboard shortcut mentioned for this action. The method requires using the block menu."
+        },
+        {
+          "key": "B",
+          "text": "Select ⋮⋮ in the block menu and choose Text direction",
+          "correct": true,
+          "explanation": "To manually change direction, you hover over a block, select the ⋮⋮ menu, and hover over 'Text direction'."
+        },
+        {
+          "key": "C",
+          "text": "Double-click the block and select 'Direction' from the top toolbar",
+          "correct": false,
+          "explanation": "The direction controls are not found in the top toolbar; they are found within the block's context menu (⋮⋮)."
+        },
+        {
+          "key": "D",
+          "text": "Go to Settings > Preferences > Text Direction",
+          "correct": false,
+          "explanation": "Text direction controls are block-specific, not global app settings."
+        }
+      ]
+    },
+    {
+      "id": "change-your-language-007",
+      "question": "Which toggle in the Preferences menu ensures text direction controls are always visible?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Auto-detect Language",
+          "correct": false,
+          "explanation": "The 'Auto-detect Language' toggle is not mentioned as the setting for showing controls."
+        },
+        {
+          "key": "B",
+          "text": "Always show direction controls",
+          "correct": true,
+          "explanation": "To always show text direction controls (even for left-to-right languages), you must toggle on 'Always show direction controls' in the Language & Time preferences."
+        },
+        {
+          "key": "C",
+          "text": "Mirror Interface",
+          "correct": false,
+          "explanation": "The 'Mirror Interface' is a result of setting the language to Arabic or Hebrew, not a toggle to show direction controls."
+        },
+        {
+          "key": "D",
+          "text": "Block Direction Visibility",
+          "correct": false,
+          "explanation": "This specific toggle name is not used in the article. The correct name is 'Always show direction controls'."
+        }
+      ]
+    },
+    {
+      "id": "change-your-language-008",
+      "question": "Which specific languages, when selected as the display language, trigger the interface mirroring feature?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Japanese and Chinese (Simplified)",
+          "correct": false,
+          "explanation": "While these languages are supported, they are not listed as the specific triggers for the interface mirroring behavior described in the text."
+        },
+        {
+          "key": "B",
+          "text": "Arabic and Hebrew",
+          "correct": true,
+          "explanation": "The article explicitly states that setting the display language to Arabic or Hebrew triggers the interface mirroring in desktop and mobile apps."
+        },
+        {
+          "key": "C",
+          "text": "Dutch and Danish",
+          "correct": false,
+          "explanation": "Nordic languages like Dutch and Danish are supported but do not trigger the RTL mirroring feature."
+        },
+        {
+          "key": "D",
+          "text": "Spanish (Spain) and French",
+          "correct": false,
+          "explanation": "European languages like Spanish and French are supported but are not mentioned as triggers for the mirroring feature."
+        }
+      ]
+    }
+  ]
+}

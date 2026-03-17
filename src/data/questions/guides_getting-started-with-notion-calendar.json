@@ -1,0 +1,317 @@
+{
+  "source": "guides_getting-started-with-notion-calendar",
+  "sourceTitle": "Getting started with Notion Calendar",
+  "sourceUrl": "https://www.notion.so/help/guides/getting-started-with-notion-calendar",
+  "questions": [
+    {
+      "id": "guides_getting-started-with-notion-calendar-001",
+      "question": "What must you download first to start using Notion Calendar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notion desktop app",
+          "correct": false,
+          "explanation": "The Notion desktop app is for general Notion work, not the separate calendar application."
+        },
+        {
+          "key": "B",
+          "text": "Notion Calendar app",
+          "correct": true,
+          "explanation": "Notion Calendar is a standalone app that you need to download before you can use its calendar features."
+        },
+        {
+          "key": "C",
+          "text": "Google Calendar",
+          "correct": false,
+          "explanation": "Google Calendar is a third‑party service that can be synced, but it isn’t the app you download."
+        },
+        {
+          "key": "D",
+          "text": "Apple Calendar",
+          "correct": false,
+          "explanation": "Apple Calendar is also a separate service; you still need the Notion Calendar app."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-notion-calendar-002",
+      "question": "Which keyboard shortcut opens the Share availability window in Notion Calendar?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "T",
+          "correct": false,
+          "explanation": "T jumps back to today, not to the share window."
+        },
+        {
+          "key": "B",
+          "text": "S",
+          "correct": true,
+          "explanation": "Pressing S opens the Share availability window so you can mark free time."
+        },
+        {
+          "key": "C",
+          "text": "N",
+          "correct": false,
+          "explanation": "N moves to the next upcoming event, not to sharing availability."
+        },
+        {
+          "key": "D",
+          "text": "?",
+          "correct": false,
+          "explanation": "? opens the list of all shortcuts, but does not directly open the share window."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-notion-calendar-003",
+      "question": "When a database entry lacks a start and end time, how does Notion Calendar display it?",
+      "difficulty": "easy",
+      "options": [
+        {
+          "key": "A",
+          "text": "All‑day events at the top of the day view",
+          "correct": true,
+          "explanation": "Items without specific times appear as all‑day events at the top of the calendar."
+        },
+        {
+          "key": "B",
+          "text": "Recurring events",
+          "correct": false,
+          "explanation": "Recurrence is a separate setting; missing times do not make an event recurring."
+        },
+        {
+          "key": "C",
+          "text": "\"Busy\" blocks on the work calendar",
+          "correct": false,
+          "explanation": "Busy blocks are created by event blocking, not by missing times."
+        },
+        {
+          "key": "D",
+          "text": "Reminder notifications only",
+          "correct": false,
+          "explanation": "The entry still shows on the calendar; it isn’t just a reminder."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-notion-calendar-004",
+      "question": "How does the conflict‑avoidance feature prevent double‑booking when sharing your availability?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "It hides all busy events from the calendar view",
+          "correct": false,
+          "explanation": "Busy events remain visible; they are just excluded from the shareable time slots."
+        },
+        {
+          "key": "B",
+          "text": "It only shows time slots that don’t overlap any busy events",
+          "correct": true,
+          "explanation": "When enabled, the share link offers only slots that are free of busy events."
+        },
+        {
+          "key": "C",
+          "text": "It automatically cancels any meeting that would overlap a new booking",
+          "correct": false,
+          "explanation": "The feature does not cancel meetings; it simply prevents overlapping slots from being offered."
+        },
+        {
+          "key": "D",
+          "text": "It merges all calendars into a single calendar to avoid conflicts",
+          "correct": false,
+          "explanation": "Merging isn’t how conflict avoidance works; it filters slots based on existing busy events."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-notion-calendar-005",
+      "question": "When creating a new event and you want to attach an existing Notion page, which option should you select?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Docs and links",
+          "correct": true,
+          "explanation": "The Docs and links button lets you link an existing Notion page or create a new one for the event."
+        },
+        {
+          "key": "B",
+          "text": "Participants",
+          "correct": false,
+          "explanation": "Participants adds invitees, not Notion pages."
+        },
+        {
+          "key": "C",
+          "text": "Conferencing link",
+          "correct": false,
+          "explanation": "Conferencing link adds a Zoom/Google Meet link, not a Notion page."
+        },
+        {
+          "key": "D",
+          "text": "Location",
+          "correct": false,
+          "explanation": "Location specifies a physical or virtual place, not a Notion document."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-notion-calendar-006",
+      "question": "Which calendar view is recommended for an overview of monthly product launches?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Weekly view",
+          "correct": false,
+          "explanation": "Weekly view shows only one week at a time, not the full month."
+        },
+        {
+          "key": "B",
+          "text": "Daily view",
+          "correct": false,
+          "explanation": "Daily view is too granular for a month‑long overview."
+        },
+        {
+          "key": "C",
+          "text": "Monthly view",
+          "correct": true,
+          "explanation": "Switching to monthly view gives a broad view of all launches scheduled for the month."
+        },
+        {
+          "key": "D",
+          "text": "Timeline view",
+          "correct": false,
+          "explanation": "Timeline view isn’t mentioned in the guide for product roadmaps."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-notion-calendar-007",
+      "question": "What effect does enabling event blocking for your personal calendar have on your work calendar?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Personal events are hidden from the work calendar",
+          "correct": false,
+          "explanation": "Blocking doesn’t hide events; it marks them as busy."
+        },
+        {
+          "key": "B",
+          "text": "“Busy” blocks appear on the work calendar for personal events",
+          "correct": true,
+          "explanation": "Event blocking creates busy blocks on the work calendar so personal events protect work time."
+        },
+        {
+          "key": "C",
+          "text": "Personal events are deleted from the personal calendar",
+          "correct": false,
+          "explanation": "Blocking never deletes events; it only reflects them as busy on another calendar."
+        },
+        {
+          "key": "D",
+          "text": "Only personal events are shown in a separate tab",
+          "correct": false,
+          "explanation": "Blocking doesn’t create a new tab; it adds busy blocks to the existing view."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-notion-calendar-008",
+      "question": "Where does Notion Calendar display the countdown timer for an upcoming event?",
+      "difficulty": "medium",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inside the event card",
+          "correct": false,
+          "explanation": "The card shows event details but not the persistent countdown timer."
+        },
+        {
+          "key": "B",
+          "text": "In the desktop menu bar",
+          "correct": true,
+          "explanation": "The countdown appears in the menu bar, giving a constant reminder."
+        },
+        {
+          "key": "C",
+          "text": "In the sidebar",
+          "correct": false,
+          "explanation": "The sidebar lists calendars and settings, not the countdown."
+        },
+        {
+          "key": "D",
+          "text": "In the notification center",
+          "correct": false,
+          "explanation": "While notifications exist, the guide specifies the menu bar for the countdown."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-notion-calendar-009",
+      "question": "If a Notion database item includes a start and end time, what happens when you drag its event to a new time slot on the calendar?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the calendar view updates; the database stays unchanged",
+          "correct": false,
+          "explanation": "The integration is bidirectional; changes sync back to the database."
+        },
+        {
+          "key": "B",
+          "text": "The Notion database entry updates automatically to reflect the new time",
+          "correct": true,
+          "explanation": "Dragging updates the underlying database entry so both views stay in sync."
+        },
+        {
+          "key": "C",
+          "text": "A duplicate event is created in the calendar",
+          "correct": false,
+          "explanation": "Dragging moves the existing event; it does not duplicate it."
+        },
+        {
+          "key": "D",
+          "text": "Nothing changes; the event is locked to its original time",
+          "correct": false,
+          "explanation": "Events can be moved; the guide describes drag‑and‑drop functionality."
+        }
+      ]
+    },
+    {
+      "id": "guides_getting-started-with-notion-calendar-010",
+      "question": "Which of the following is NOT considered a “busy” event for conflict avoidance?",
+      "difficulty": "hard",
+      "options": [
+        {
+          "key": "A",
+          "text": "A focus time or out‑of‑office event",
+          "correct": false,
+          "explanation": "Focus time/out‑of‑office events are listed as busy."
+        },
+        {
+          "key": "B",
+          "text": "An accepted meeting (yes) or tentative meeting (maybe)",
+          "correct": false,
+          "explanation": "Accepted or tentative meetings count as busy."
+        },
+        {
+          "key": "C",
+          "text": "An event you created or organized",
+          "correct": false,
+          "explanation": "Events you create are also treated as busy."
+        },
+        {
+          "key": "D",
+          "text": "A reminder without a specific time",
+          "correct": true,
+          "explanation": "Reminders without a time are not counted as busy events for conflict avoidance."
+        }
+      ]
+    }
+  ]
+}
