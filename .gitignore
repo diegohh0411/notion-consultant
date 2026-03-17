@@ -1,2 +1,7 @@
 node_modules/
 output/
+dist/
+.astro/
+content/docs/
+.vercel/
+.env
